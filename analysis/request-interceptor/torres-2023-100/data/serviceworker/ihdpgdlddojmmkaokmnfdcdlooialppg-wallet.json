@@ -1,0 +1,136 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/ihdpgdlddojmmkaokmnfdcdlooialppg",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/ihdpgdlddojmmkaokmnfdcdlooialppg",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762300986234,
+    "end": 1762300987858
+  },
+  "extensionID": "gemphaamgiopboimjcffomkbjobdllka",
+  "serviceWorker": "background_page",
+  "walletName": "Sage",
+  "notes": "dead",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "ihdpgdlddojmmkaokmnfdcdlooialppg",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://gemphaamgiopboimjcffomkbjobdllka/_generated_background_page.html",
+      "id": "98403.13",
+      "url": "https://api.infura.io/v2/blacklist",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://gemphaamgiopboimjcffomkbjobdllka/_generated_background_page.html",
+      "id": "98403.14",
+      "url": "https://sagemask.sagecity.io//",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":5103446125277573,\"jsonrpc\":\"2.0\",\"method\":\"net_version\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://gemphaamgiopboimjcffomkbjobdllka/_generated_background_page.html",
+      "id": "98403.15",
+      "url": "https://sagemask.sagecity.io//",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://gemphaamgiopboimjcffomkbjobdllka/_generated_background_page.html",
+      "id": "98403.16",
+      "url": "https://sagemask.sagecity.io//",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":5103446125277574,\"jsonrpc\":\"2.0\",\"method\":\"net_version\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://gemphaamgiopboimjcffomkbjobdllka/_generated_background_page.html",
+      "id": "98403.17",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:03:07 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-15",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "transfer-encoding": "chunked",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "true",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: ihdpgdlddojmmkaokmnfdcdlooialppg. Exiting..."
+}

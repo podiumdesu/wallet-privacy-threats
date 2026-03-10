@@ -1,0 +1,64 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/nlbmnnijcnlegkjjpcfjclmcfggfefdm",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/nlbmnnijcnlegkjjpcfjclmcfggfefdm",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762301944264,
+    "end": 1762301946337
+  },
+  "extensionID": "ejhfnfhpkpbbelkjemhhecbihipefefn",
+  "serviceWorker": "background_page",
+  "walletName": "mewCx",
+  "notes": "dead",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "nlbmnnijcnlegkjjpcfjclmcfggfefdm",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ejhfnfhpkpbbelkjemhhecbihipefefn/page.html",
+      "id": "7147.7",
+      "url": "blob:chrome-extension://ejhfnfhpkpbbelkjemhhecbihipefefn/a8b00f25-60a2-45fc-8aa7-02ef10b49900",
+      "type": "Other",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-length": "396",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ejhfnfhpkpbbelkjemhhecbihipefefn/page.html",
+      "id": "7147.8",
+      "url": "blob:chrome-extension://ejhfnfhpkpbbelkjemhhecbihipefefn/85fbba79-5172-4d70-8a22-f0a05db91357",
+      "type": "Other",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-length": "436",
+        "content-type": "text/javascript"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: nlbmnnijcnlegkjjpcfjclmcfggfefdm. Exiting..."
+}

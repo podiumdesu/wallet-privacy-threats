@@ -1,0 +1,323 @@
+{
+  "err": null,
+  "baseRes": {
+    "dappUrl": "http://localhost:4444/new.html",
+    "extName": "Zerion",
+    "extPath": "klghhnkeealcohjjanjjdaeeggmfmlpl",
+    "dappVision": {
+      "preLock": null,
+      "preConsent": [],
+      "postConsent": [
+        "0x033a5379BC3D5edD92b9B1dA762688E97CEF154c"
+      ],
+      "afterRevoke": [
+        "0x033a5379BC3D5edD92b9B1dA762688E97CEF154c"
+      ],
+      "reconnect": [
+        "0x033a5379BC3D5edD92b9B1dA762688E97CEF154c"
+      ]
+    },
+    "visionDetails": []
+  },
+  "dappUrl": "http://localhost:4444/new.html",
+  "extName": "Zerion",
+  "extPath": "/Users/weihong/github/web3-full-automation/preparation/unzipped_extensions/klghhnkeealcohjjanjjdaeeggmfmlpl",
+  "notes": [],
+  "addresses": [],
+  "phaseTiming": {
+    "preLock": 1763484559319,
+    "preConsent": 1763484616702,
+    "duringConsent": 1763484617721,
+    "postConsent": 0,
+    "afterRevoke": 1763484650679,
+    "reconnect": 1763484660022
+  },
+  "cookieAndLocalStorage": [
+    {
+      "type": "phase.set",
+      "name": "preLock",
+      "phase": "preLock",
+      "ts": 1763484560356.8,
+      "hr": 1224.7999999523163
+    },
+    {
+      "type": "phase.set",
+      "name": "preConsent",
+      "phase": "preConsent",
+      "ts": 1763484617719.8,
+      "hr": 1098.5
+    },
+    {
+      "type": "phase.set",
+      "name": "DuringConsent",
+      "phase": "DuringConsent",
+      "ts": 1763484618732.9001,
+      "hr": 2111.600000023842
+    },
+    {
+      "type": "phase.set",
+      "name": "afterRevoke",
+      "phase": "afterRevoke",
+      "ts": 1763484651839.1,
+      "hr": 6101.300000011921
+    }
+  ],
+  "objectEventLogs": [
+    {
+      "requestId": "eip6963:io.zerion.wallet:8:wallet_revokePermissions",
+      "label": "eip6963:io.zerion.wallet",
+      "phase": "DuringConsent",
+      "ts_start": 1763484650635,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "type": "call",
+      "params": [
+        {
+          "eth_accounts": {}
+        }
+      ]
+    },
+    {
+      "requestId": "eip6963:io.zerion.wallet:8:wallet_revokePermissions",
+      "label": "eip6963:io.zerion.wallet",
+      "phase": "DuringConsent",
+      "ts_start": 1763484650635,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "ts_end": 1763484650712,
+      "type": "error",
+      "error": "method not found",
+      "durationMs": 77
+    }
+  ],
+  "pageRequests": [
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "156380ACDD79E783457BC1F8344D1A0A",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763484559184
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "156380ACDD79E783457BC1F8344D1A0A",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763484559184,
+      "tsEnd": 1763484559239,
+      "durationMs": 55
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "156380ACDD79E783457BC1F8344D1A0A",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763484559184,
+      "tsEnd": 1763484559238,
+      "durationMs": 54
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "C53B44673EA876534763BA692D7FC597",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763484616672
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "C53B44673EA876534763BA692D7FC597",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763484616672,
+      "tsEnd": 1763484616678,
+      "durationMs": 6
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "C53B44673EA876534763BA692D7FC597",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763484616672,
+      "tsEnd": 1763484616678,
+      "durationMs": 6
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "2A868EBD1061015C29FB86C43417094F",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763484645788
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "2A868EBD1061015C29FB86C43417094F",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763484645788,
+      "tsEnd": 1763484645798,
+      "durationMs": 10
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "2A868EBD1061015C29FB86C43417094F",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763484645788,
+      "tsEnd": 1763484645797,
+      "durationMs": 9
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "488853E3DDE29B1A3374CCC776D72146",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763484652063
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "488853E3DDE29B1A3374CCC776D72146",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763484652063,
+      "tsEnd": 1763484652077,
+      "durationMs": 14
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "488853E3DDE29B1A3374CCC776D72146",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763484652063,
+      "tsEnd": 1763484652077,
+      "durationMs": 14
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/ldinpeekobnhjjdofggfgjlcehhmanlj",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/ldinpeekobnhjjdofggfgjlcehhmanlj",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T13-17-53",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764073144438,
+    "end": 1764073233041
+  },
+  "extensionID": "ndfogdnlkdfnjnhkecpedepnadcdgcol",
+  "serviceWorker": "service_worker",
+  "walletName": "leather",
+  "notes": "no-balance-btc",
+  "walletAddress": "bc1qt834lseh5vxr7lqy2xkk4n59vef3xv8lq20n65;bc1q2x0uvqkve6vwflltsr5zruxqj38qknu6ykyn4e;bc1q50fqlm62pm8ctltzlan7zgznsxz6l58jt7ky6n",
+  "password": "Default1Password1!EEEEE",
+  "pathID": "ldinpeekobnhjjdofggfgjlcehhmanlj",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/background.js",
+      "ts": 1764073145650,
+      "id": "3793.25",
+      "url": "https://leather.mempool.space/api/v1/prices",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:19:05 GMT",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "content-security-policy": "frame-ancestors 'self'",
+        "x-powered-by": "Express",
+        "content-length": "108",
+        "pragma": "public, public",
+        "server": "nginx",
+        "etag": "W/\"6c-clqrW2bkGheu5HOad2ewC8slQ2w\"",
+        "vary": "Accept-Language, Cookie",
+        "access-control-allow-methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "onion-location": "http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/api/v1/prices",
+        "access-control-expose-headers": "X-Total-Count,X-Mempool-Auth",
+        "cache-control": "no-cache, public",
+        "access-control-allow-headers": "Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With",
+        "expires": "Tue, 25 Nov 2025 12:19:04 GMT"
+      }
+    }
+  ],
+  "success": true
+}

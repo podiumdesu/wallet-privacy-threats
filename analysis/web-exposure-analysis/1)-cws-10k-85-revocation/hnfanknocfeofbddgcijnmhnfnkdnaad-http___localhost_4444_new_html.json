@@ -1,0 +1,1031 @@
+{
+  "err": null,
+  "baseRes": {
+    "dappUrl": "http://localhost:4444/new.html",
+    "extName": "Coinbase",
+    "extPath": "hnfanknocfeofbddgcijnmhnfnkdnaad",
+    "dappVision": {
+      "preLock": null,
+      "preConsent": [],
+      "postConsent": [
+        "0x033a5379bc3d5edd92b9b1da762688e97cef154c"
+      ],
+      "afterRevoke": [
+        "0x033a5379bc3d5edd92b9b1da762688e97cef154c"
+      ],
+      "reconnect": [
+        "0x033a5379bc3d5edd92b9b1da762688e97cef154c"
+      ]
+    },
+    "visionDetails": []
+  },
+  "dappUrl": "http://localhost:4444/new.html",
+  "extName": "Coinbase",
+  "extPath": "/Users/weihong/github/web3-full-automation/preparation/unzipped_extensions/hnfanknocfeofbddgcijnmhnfnkdnaad",
+  "notes": [],
+  "addresses": [],
+  "phaseTiming": {
+    "preLock": 1763481793118,
+    "preConsent": 1763481798003,
+    "duringConsent": 1763481799017,
+    "postConsent": 1763481807213,
+    "afterRevoke": 1763481812630,
+    "reconnect": 1763481821145
+  },
+  "cookieAndLocalStorage": [
+    {
+      "type": "phase.set",
+      "name": "preLock",
+      "phase": "preLock",
+      "ts": 1763481794142.8,
+      "hr": 1049.5999999642372
+    },
+    {
+      "type": "localStorage.removeItem",
+      "key": "debug",
+      "phase": "preLock",
+      "ts": 1763481797883.0999,
+      "hr": 21.899999976158142
+    },
+    {
+      "type": "phase.set",
+      "name": "preConsent",
+      "phase": "preConsent",
+      "ts": 1763481799016.5999,
+      "hr": 1155.3999999761581
+    },
+    {
+      "type": "phase.set",
+      "name": "DuringConsent",
+      "phase": "DuringConsent",
+      "ts": 1763481800020.5,
+      "hr": 2159.2999999523163
+    },
+    {
+      "type": "localStorage.removeItem",
+      "key": "debug",
+      "phase": "DuringConsent",
+      "ts": 1763481800130.9,
+      "hr": 2269.699999988079
+    },
+    {
+      "type": "localStorage.setItem",
+      "key": "-walletlink:https://www.walletlink.org:session:id",
+      "val": "6f60f5ab876c625b840a692eda543330",
+      "phase": "DuringConsent",
+      "ts": 1763481800214.3,
+      "hr": 2353.099999964237
+    },
+    {
+      "type": "localStorage.setItem",
+      "key": "-walletlink:https://www.walletlink.org:session:secret",
+      "val": "d662d2cfc4122d594ca7eb44e4c4fbb26d37601170ba9cb8a8087fda4e6ea93f",
+      "phase": "DuringConsent",
+      "ts": 1763481800214.5,
+      "hr": 2353.2999999523163
+    },
+    {
+      "type": "localStorage.setItem",
+      "key": "-walletlink:https://www.walletlink.org:session:linked",
+      "val": 0,
+      "phase": "DuringConsent",
+      "ts": 1763481800214.5999,
+      "hr": 2353.399999976158
+    },
+    {
+      "type": "localStorage.setItem",
+      "key": "-walletlink:https://www.walletlink.org:Addresses",
+      "val": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+      "phase": "DuringConsent",
+      "ts": 1763481807197.8,
+      "hr": 9336.599999964237
+    },
+    {
+      "type": "localStorage.setItem",
+      "key": "-walletlink:https://www.walletlink.org:DefaultJsonRpcUrl",
+      "val": "https://chain-proxy.wallet.coinbase.com/?targetName=ethereum-mainnet&client-project-name=http%3A%2F%2Flocalhost%3A4444",
+      "phase": "DuringConsent",
+      "ts": 1763481807200.5999,
+      "hr": 9339.399999976158
+    },
+    {
+      "type": "localStorage.setItem",
+      "key": "-walletlink:https://www.walletlink.org:DefaultChainId",
+      "val": 1,
+      "phase": "DuringConsent",
+      "ts": 1763481807200.7,
+      "hr": 9339.5
+    },
+    {
+      "type": "phase.set",
+      "name": "postConsent",
+      "phase": "postConsent",
+      "ts": 1763481808228.2,
+      "hr": 10367
+    },
+    {
+      "type": "localStorage.removeItem",
+      "key": "debug",
+      "phase": "postConsent",
+      "ts": 1763481808311.6,
+      "hr": 18.099999964237213
+    },
+    {
+      "type": "localStorage.removeItem",
+      "key": "debug",
+      "phase": "postConsent",
+      "ts": 1763481808328.2,
+      "hr": 34.69999998807907
+    },
+    {
+      "type": "localStorage.setItem",
+      "key": "-walletlink:https://www.walletlink.org:DefaultJsonRpcUrl",
+      "val": "https://chain-proxy.wallet.coinbase.com/?targetName=ethereum-mainnet&client-project-name=http%3A%2F%2Flocalhost%3A4444&client-project-name=http%3A%2F%2Flocalhost%3A4444",
+      "phase": "postConsent",
+      "ts": 1763481808452.8,
+      "hr": 159.30000001192093
+    },
+    {
+      "type": "localStorage.setItem",
+      "key": "-walletlink:https://www.walletlink.org:DefaultChainId",
+      "val": 1,
+      "phase": "postConsent",
+      "ts": 1763481808453,
+      "hr": 159.5
+    },
+    {
+      "type": "phase.set",
+      "name": "afterRevoke",
+      "phase": "afterRevoke",
+      "ts": 1763481813640.3,
+      "hr": 5346.800000011921
+    },
+    {
+      "type": "localStorage.removeItem",
+      "key": "debug",
+      "phase": "afterRevoke",
+      "ts": 1763481813708.6,
+      "hr": 15.799999952316284
+    },
+    {
+      "type": "localStorage.removeItem",
+      "key": "debug",
+      "phase": "afterRevoke",
+      "ts": 1763481813719.7,
+      "hr": 26.899999976158142
+    },
+    {
+      "type": "localStorage.setItem",
+      "key": "-walletlink:https://www.walletlink.org:DefaultJsonRpcUrl",
+      "val": "https://chain-proxy.wallet.coinbase.com/?targetName=ethereum-mainnet&client-project-name=http%3A%2F%2Flocalhost%3A4444&client-project-name=http%3A%2F%2Flocalhost%3A4444",
+      "phase": "afterRevoke",
+      "ts": 1763481813804.4001,
+      "hr": 111.59999996423721
+    },
+    {
+      "type": "localStorage.setItem",
+      "key": "-walletlink:https://www.walletlink.org:DefaultChainId",
+      "val": 1,
+      "phase": "afterRevoke",
+      "ts": 1763481813804.5,
+      "hr": 111.69999998807907
+    }
+  ],
+  "objectEventLogs": [
+    {
+      "requestId": "eip6963:com.coinbase.wallet:6:wallet_revokePermissions",
+      "label": "eip6963:com.coinbase.wallet",
+      "phase": "postConsent",
+      "ts_start": 1763481812623,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "type": "call",
+      "params": [
+        {
+          "eth_accounts": {}
+        }
+      ]
+    },
+    {
+      "requestId": "eip6963:com.coinbase.wallet:6:wallet_revokePermissions",
+      "label": "eip6963:com.coinbase.wallet",
+      "phase": "postConsent",
+      "ts_start": 1763481812623,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "ts_end": 1763481813126,
+      "type": "error",
+      "error": "this request method is not supported",
+      "durationMs": 503
+    }
+  ],
+  "pageRequests": [
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "FBBEDE5E34DEAE0739E579A0913C42F7",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763481793095
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "FBBEDE5E34DEAE0739E579A0913C42F7",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763481793095,
+      "tsEnd": 1763481793097,
+      "durationMs": 2
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "FBBEDE5E34DEAE0739E579A0913C42F7",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763481793095,
+      "tsEnd": 1763481793097,
+      "durationMs": 2
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "999B1928C8042FCFC443D4C06384C3EF",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763481797864
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "999B1928C8042FCFC443D4C06384C3EF",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763481797864,
+      "tsEnd": 1763481797870,
+      "durationMs": 6
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "999B1928C8042FCFC443D4C06384C3EF",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763481797864,
+      "tsEnd": 1763481797870,
+      "durationMs": 6
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.7",
+      "requestUrl": "chrome-extension://phajflhlnkajoodhmhampfggeabcfjig/requestRelay.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763481800094
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.7",
+      "requestUrl": "chrome-extension://phajflhlnkajoodhmhampfggeabcfjig/requestRelay.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763481800094,
+      "tsEnd": 1763481800095,
+      "durationMs": 1
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.7",
+      "requestUrl": "chrome-extension://phajflhlnkajoodhmhampfggeabcfjig/requestRelay.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763481800094,
+      "tsEnd": 1763481800097,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.8",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481800665,
+      "wsDirection": "sent",
+      "wsPayload": "{\"type\":\"HostSession\",\"id\":1,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\",\"sessionKey\":\"51a61c07a7804ead0741d275e823c47a40cd806ad3063437c0aaa417ed2414c5\"}"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.8",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481800759,
+      "wsDirection": "recv",
+      "wsPayload": "{\"type\":\"OK\",\"id\":1,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\"}\n"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.8",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481800759,
+      "wsDirection": "sent",
+      "wsPayload": "{\"type\":\"IsLinked\",\"id\":2,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\"}"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.8",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481800759,
+      "wsDirection": "sent",
+      "wsPayload": "{\"type\":\"GetSessionConfig\",\"id\":3,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\"}"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.8",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481800858,
+      "wsDirection": "recv",
+      "wsPayload": "{\"type\":\"IsLinkedOK\",\"id\":2,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\",\"linked\":false,\"onlineGuests\":0}\n"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.8",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481800859,
+      "wsDirection": "recv",
+      "wsPayload": "{\"type\":\"GetSessionConfigOK\",\"id\":3,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\",\"metadata\":null}\n"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.9",
+      "requestUrl": "https://as.coinbase.com/metrics",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "POST",
+      "type": "http",
+      "queryParams": {},
+      "requestBody": "{\"metrics\":[{\"metric_name\":\"extension.web3_request.started\",\"page_path\":null,\"value\":1,\"tags\":{\"authed\":\"false\",\"platform\":\"extension\",\"web3_method\":\"requestEthereumAccounts\",\"blockchain\":\"ETH\",\"locale\":null,\"project_name\":\"wallet_extension_service_worker\",\"version_name\":\"qa-3.120.0\"},\"type\":\"count\"},{\"metric_name\":\"extension.web3_request.started\",\"page_path\":null,\"value\":1,\"tags\":{\"authed\":\"false\",\"platform\":\"extension\",\"web3_method\":\"loadWalletLinkRelay\",\"blockchain\":\"\",\"locale\":null,\"project_name\":\"wallet_extension_service_worker\",\"version_name\":\"qa-3.120.0\"},\"type\":\"count\"}]}",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "Content-Type": "text/plain;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "tsStart": 1763481805230
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.10",
+      "requestUrl": "https://as.coinbase.com/amp",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "POST",
+      "type": "http",
+      "queryParams": {},
+      "requestBody": "{\"e\":\"[{\\\"device_id\\\":\\\"e60b6a81-e36c-41de-b96d-b016323f0370\\\",\\\"user_id\\\":null,\\\"timestamp\\\":1763481800228,\\\"event_id\\\":1,\\\"session_id\\\":1763481805229,\\\"event_type\\\":\\\"extension.web3_request.started\\\",\\\"version_name\\\":\\\"qa-3.120.0\\\",\\\"platform\\\":\\\"extension\\\",\\\"os_name\\\":null,\\\"os_version\\\":null,\\\"device_model\\\":null,\\\"language\\\":null,\\\"event_properties\\\":{\\\"request\\\":\\\"requestEthereumAccounts\\\",\\\"dapp\\\":\\\"http://localhost:4444\\\",\\\"blockchain\\\":\\\"ETH\\\",\\\"appVersion\\\":\\\"3.120.0\\\",\\\"browserVendor\\\":\\\"chrome\\\",\\\"browserVersionMajor\\\":140,\\\"chromeVersion\\\":\\\"140.0.0.0\\\",\\\"userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\\\",\\\"currentAppMode\\\":\\\"superapp\\\",\\\"isDiagnostic\\\":true,\\\"action\\\":\\\"measurement\\\",\\\"auth\\\":0,\\\"component_type\\\":\\\"unknown\\\",\\\"logging_id\\\":\\\"6d79e038-9eb2-4c8f-84eb-e4f5e44b637e\\\",\\\"platform\\\":\\\"extension\\\",\\\"project_name\\\":\\\"wallet_extension_service_worker\\\",\\\"locale\\\":null,\\\"session_lcc_id\\\":null,\\\"time_start\\\":1763481797876,\\\"has_double_fired\\\":false,\\\"session_uuid\\\":\\\"f46dc252-a85c-459a-bd32-d09c13edb494\\\",\\\"height\\\":null,\\\"width\\\":null},\\\"user_properties\\\":{},\\\"uuid\\\":\\\"33445f89-1d34-4f1f-9ccb-01e85341c5ae\\\",\\\"library\\\":{\\\"name\\\":\\\"@cbhq/client-analytics\\\",\\\"version\\\":\\\"11.0.5\\\"},\\\"sequence_number\\\":1,\\\"user_agent\\\":null},{\\\"device_id\\\":\\\"e60b6a81-e36c-41de-b96d-b016323f0370\\\",\\\"user_id\\\":null,\\\"timestamp\\\":1763481800443,\\\"event_id\\\":2,\\\"session_id\\\":1763481805229,\\\"event_type\\\":\\\"extension.web3_request.started\\\",\\\"version_name\\\":\\\"qa-3.120.0\\\",\\\"platform\\\":\\\"extension\\\",\\\"os_name\\\":null,\\\"os_version\\\":null,\\\"device_model\\\":null,\\\"language\\\":null,\\\"event_properties\\\":{\\\"request\\\":\\\"loadWalletLinkRelay\\\",\\\"dapp\\\":\\\"http://localhost:4444\\\",\\\"blockchain\\\":\\\"\\\",\\\"appVersion\\\":\\\"3.120.0\\\",\\\"browserVendor\\\":\\\"chrome\\\",\\\"browserVersionMajor\\\":140,\\\"chromeVersion\\\":\\\"140.0.0.0\\\",\\\"userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\\\",\\\"currentAppMode\\\":\\\"superapp\\\",\\\"isDiagnostic\\\":true,\\\"action\\\":\\\"measurement\\\",\\\"auth\\\":0,\\\"component_type\\\":\\\"unknown\\\",\\\"logging_id\\\":\\\"6d79e038-9eb2-4c8f-84eb-e4f5e44b637e\\\",\\\"platform\\\":\\\"extension\\\",\\\"project_name\\\":\\\"wallet_extension_service_worker\\\",\\\"locale\\\":null,\\\"session_lcc_id\\\":null,\\\"time_start\\\":1763481797876,\\\"has_double_fired\\\":false,\\\"session_uuid\\\":\\\"f46dc252-a85c-459a-bd32-d09c13edb494\\\",\\\"height\\\":null,\\\"width\\\":null},\\\"user_properties\\\":{},\\\"uuid\\\":\\\"b4f778bb-8fd7-4439-addc-d71bfcf00572\\\",\\\"library\\\":{\\\"name\\\":\\\"@cbhq/client-analytics\\\",\\\"version\\\":\\\"11.0.5\\\"},\\\"sequence_number\\\":2,\\\"user_agent\\\":null}]\",\"v\":\"2\",\"upload_time\":\"1763481805229\",\"client\":\"4b5c59547a46317aee88399fdfc8f1f3\"}",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "Content-Type": "text/plain;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "tsStart": 1763481805231
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.10",
+      "requestUrl": "https://as.coinbase.com/amp",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "Content-Type": "text/plain;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "requestBody": "{\"e\":\"[{\\\"device_id\\\":\\\"e60b6a81-e36c-41de-b96d-b016323f0370\\\",\\\"user_id\\\":null,\\\"timestamp\\\":1763481800228,\\\"event_id\\\":1,\\\"session_id\\\":1763481805229,\\\"event_type\\\":\\\"extension.web3_request.started\\\",\\\"version_name\\\":\\\"qa-3.120.0\\\",\\\"platform\\\":\\\"extension\\\",\\\"os_name\\\":null,\\\"os_version\\\":null,\\\"device_model\\\":null,\\\"language\\\":null,\\\"event_properties\\\":{\\\"request\\\":\\\"requestEthereumAccounts\\\",\\\"dapp\\\":\\\"http://localhost:4444\\\",\\\"blockchain\\\":\\\"ETH\\\",\\\"appVersion\\\":\\\"3.120.0\\\",\\\"browserVendor\\\":\\\"chrome\\\",\\\"browserVersionMajor\\\":140,\\\"chromeVersion\\\":\\\"140.0.0.0\\\",\\\"userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\\\",\\\"currentAppMode\\\":\\\"superapp\\\",\\\"isDiagnostic\\\":true,\\\"action\\\":\\\"measurement\\\",\\\"auth\\\":0,\\\"component_type\\\":\\\"unknown\\\",\\\"logging_id\\\":\\\"6d79e038-9eb2-4c8f-84eb-e4f5e44b637e\\\",\\\"platform\\\":\\\"extension\\\",\\\"project_name\\\":\\\"wallet_extension_service_worker\\\",\\\"locale\\\":null,\\\"session_lcc_id\\\":null,\\\"time_start\\\":1763481797876,\\\"has_double_fired\\\":false,\\\"session_uuid\\\":\\\"f46dc252-a85c-459a-bd32-d09c13edb494\\\",\\\"height\\\":null,\\\"width\\\":null},\\\"user_properties\\\":{},\\\"uuid\\\":\\\"33445f89-1d34-4f1f-9ccb-01e85341c5ae\\\",\\\"library\\\":{\\\"name\\\":\\\"@cbhq/client-analytics\\\",\\\"version\\\":\\\"11.0.5\\\"},\\\"sequence_number\\\":1,\\\"user_agent\\\":null},{\\\"device_id\\\":\\\"e60b6a81-e36c-41de-b96d-b016323f0370\\\",\\\"user_id\\\":null,\\\"timestamp\\\":1763481800443,\\\"event_id\\\":2,\\\"session_id\\\":1763481805229,\\\"event_type\\\":\\\"extension.web3_request.started\\\",\\\"version_name\\\":\\\"qa-3.120.0\\\",\\\"platform\\\":\\\"extension\\\",\\\"os_name\\\":null,\\\"os_version\\\":null,\\\"device_model\\\":null,\\\"language\\\":null,\\\"event_properties\\\":{\\\"request\\\":\\\"loadWalletLinkRelay\\\",\\\"dapp\\\":\\\"http://localhost:4444\\\",\\\"blockchain\\\":\\\"\\\",\\\"appVersion\\\":\\\"3.120.0\\\",\\\"browserVendor\\\":\\\"chrome\\\",\\\"browserVersionMajor\\\":140,\\\"chromeVersion\\\":\\\"140.0.0.0\\\",\\\"userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\\\",\\\"currentAppMode\\\":\\\"superapp\\\",\\\"isDiagnostic\\\":true,\\\"action\\\":\\\"measurement\\\",\\\"auth\\\":0,\\\"component_type\\\":\\\"unknown\\\",\\\"logging_id\\\":\\\"6d79e038-9eb2-4c8f-84eb-e4f5e44b637e\\\",\\\"platform\\\":\\\"extension\\\",\\\"project_name\\\":\\\"wallet_extension_service_worker\\\",\\\"locale\\\":null,\\\"session_lcc_id\\\":null,\\\"time_start\\\":1763481797876,\\\"has_double_fired\\\":false,\\\"session_uuid\\\":\\\"f46dc252-a85c-459a-bd32-d09c13edb494\\\",\\\"height\\\":null,\\\"width\\\":null},\\\"user_properties\\\":{},\\\"uuid\\\":\\\"b4f778bb-8fd7-4439-addc-d71bfcf00572\\\",\\\"library\\\":{\\\"name\\\":\\\"@cbhq/client-analytics\\\",\\\"version\\\":\\\"11.0.5\\\"},\\\"sequence_number\\\":2,\\\"user_agent\\\":null}]\",\"v\":\"2\",\"upload_time\":\"1763481805229\",\"client\":\"4b5c59547a46317aee88399fdfc8f1f3\"}",
+      "tsStart": 1763481805231,
+      "tsEnd": 1763481805412,
+      "durationMs": 181
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.9",
+      "requestUrl": "https://as.coinbase.com/metrics",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "Content-Type": "text/plain;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "requestBody": "{\"metrics\":[{\"metric_name\":\"extension.web3_request.started\",\"page_path\":null,\"value\":1,\"tags\":{\"authed\":\"false\",\"platform\":\"extension\",\"web3_method\":\"requestEthereumAccounts\",\"blockchain\":\"ETH\",\"locale\":null,\"project_name\":\"wallet_extension_service_worker\",\"version_name\":\"qa-3.120.0\"},\"type\":\"count\"},{\"metric_name\":\"extension.web3_request.started\",\"page_path\":null,\"value\":1,\"tags\":{\"authed\":\"false\",\"platform\":\"extension\",\"web3_method\":\"loadWalletLinkRelay\",\"blockchain\":\"\",\"locale\":null,\"project_name\":\"wallet_extension_service_worker\",\"version_name\":\"qa-3.120.0\"},\"type\":\"count\"}]}",
+      "tsStart": 1763481805230,
+      "tsEnd": 1763481805469,
+      "durationMs": 239
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "812F908C4180545DDBF810B75A098C41",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763481808295
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "812F908C4180545DDBF810B75A098C41",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763481808295,
+      "tsEnd": 1763481808300,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "812F908C4180545DDBF810B75A098C41",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763481808295,
+      "tsEnd": 1763481808300,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.12",
+      "requestUrl": "chrome-extension://phajflhlnkajoodhmhampfggeabcfjig/requestRelay.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"sGeZa10glWcx37KraHjrACCe3G0=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 27 Aug 2025 09:51:59 GMT"
+      },
+      "tsStart": 1763481808318
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.12",
+      "requestUrl": "chrome-extension://phajflhlnkajoodhmhampfggeabcfjig/requestRelay.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"sGeZa10glWcx37KraHjrACCe3G0=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 27 Aug 2025 09:51:59 GMT"
+      },
+      "tsStart": 1763481808318,
+      "tsEnd": 1763481808321,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.12",
+      "requestUrl": "chrome-extension://phajflhlnkajoodhmhampfggeabcfjig/requestRelay.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"sGeZa10glWcx37KraHjrACCe3G0=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 27 Aug 2025 09:51:59 GMT"
+      },
+      "tsStart": 1763481808318,
+      "tsEnd": 1763481808322,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.13",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481808755,
+      "wsDirection": "sent",
+      "wsPayload": "{\"type\":\"HostSession\",\"id\":1,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\",\"sessionKey\":\"51a61c07a7804ead0741d275e823c47a40cd806ad3063437c0aaa417ed2414c5\"}"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.13",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481808847,
+      "wsDirection": "recv",
+      "wsPayload": "{\"type\":\"OK\",\"id\":1,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\"}\n"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.13",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481808847,
+      "wsDirection": "sent",
+      "wsPayload": "{\"type\":\"IsLinked\",\"id\":2,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\"}"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.13",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481808847,
+      "wsDirection": "sent",
+      "wsPayload": "{\"type\":\"GetSessionConfig\",\"id\":3,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\"}"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.13",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481808937,
+      "wsDirection": "recv",
+      "wsPayload": "{\"type\":\"IsLinkedOK\",\"id\":2,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\",\"linked\":false,\"onlineGuests\":0}\n"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.13",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481808938,
+      "wsDirection": "recv",
+      "wsPayload": "{\"type\":\"GetSessionConfigOK\",\"id\":3,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\",\"metadata\":null}\n"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "7ED9D0D585FD5A788F5D4C172589D2D5",
+      "requestUrl": "https://chain-proxy.wallet.coinbase.com/?targetName=ethereum-mainnet&client-project-name=http%3A%2F%2Flocalhost%3A4444&client-project-name=http%3A%2F%2Flocalhost%3A4444",
+      "pageUrl": "https://chain-proxy.wallet.coinbase.com/?targetName=ethereum-mainnet&client-project-name=http%3A%2F%2Flocalhost%3A4444&client-project-name=http%3A%2F%2Flocalhost%3A4444",
+      "method": "OPTIONS",
+      "type": "http",
+      "queryParams": {
+        "targetName": "ethereum-mainnet",
+        "client-project-name": "http://localhost:4444"
+      },
+      "headers": {
+        "Accept": "*/*",
+        "Access-Control-Request-Headers": "content-type",
+        "Access-Control-Request-Method": "POST",
+        "Origin": "http://localhost:4444",
+        "Sec-Fetch-Mode": "cors",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+      },
+      "tsStart": 1763481812627
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.14",
+      "requestUrl": "https://chain-proxy.wallet.coinbase.com/?targetName=ethereum-mainnet&client-project-name=http%3A%2F%2Flocalhost%3A4444&client-project-name=http%3A%2F%2Flocalhost%3A4444",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "POST",
+      "type": "http",
+      "queryParams": {
+        "targetName": "ethereum-mainnet",
+        "client-project-name": "http://localhost:4444"
+      },
+      "requestBody": "{\"method\":\"wallet_revokePermissions\",\"params\":[{\"eth_accounts\":{}}],\"jsonrpc\":\"2.0\",\"id\":6}",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "Content-Type": "application/json",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "tsStart": 1763481812625
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "7ED9D0D585FD5A788F5D4C172589D2D5",
+      "requestUrl": "https://chain-proxy.wallet.coinbase.com/?targetName=ethereum-mainnet&client-project-name=http%3A%2F%2Flocalhost%3A4444&client-project-name=http%3A%2F%2Flocalhost%3A4444",
+      "pageUrl": "https://chain-proxy.wallet.coinbase.com/?targetName=ethereum-mainnet&client-project-name=http%3A%2F%2Flocalhost%3A4444&client-project-name=http%3A%2F%2Flocalhost%3A4444",
+      "status": 204,
+      "type": "http",
+      "queryParams": {
+        "targetName": "ethereum-mainnet",
+        "client-project-name": "http://localhost:4444"
+      },
+      "headers": {
+        "Accept": "*/*",
+        "Access-Control-Request-Headers": "content-type",
+        "Access-Control-Request-Method": "POST",
+        "Origin": "http://localhost:4444",
+        "Sec-Fetch-Mode": "cors",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+      },
+      "tsStart": 1763481812627,
+      "tsEnd": 1763481813004,
+      "durationMs": 377
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "7ED9D0D585FD5A788F5D4C172589D2D5",
+      "requestUrl": "https://chain-proxy.wallet.coinbase.com/?targetName=ethereum-mainnet&client-project-name=http%3A%2F%2Flocalhost%3A4444&client-project-name=http%3A%2F%2Flocalhost%3A4444",
+      "pageUrl": "https://chain-proxy.wallet.coinbase.com/?targetName=ethereum-mainnet&client-project-name=http%3A%2F%2Flocalhost%3A4444&client-project-name=http%3A%2F%2Flocalhost%3A4444",
+      "type": "http",
+      "queryParams": {
+        "targetName": "ethereum-mainnet",
+        "client-project-name": "http://localhost:4444"
+      },
+      "headers": {
+        "Accept": "*/*",
+        "Access-Control-Request-Headers": "content-type",
+        "Access-Control-Request-Method": "POST",
+        "Origin": "http://localhost:4444",
+        "Sec-Fetch-Mode": "cors",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+      },
+      "tsStart": 1763481812627,
+      "tsEnd": 1763481813004,
+      "durationMs": 377
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.14",
+      "requestUrl": "https://chain-proxy.wallet.coinbase.com/?targetName=ethereum-mainnet&client-project-name=http%3A%2F%2Flocalhost%3A4444&client-project-name=http%3A%2F%2Flocalhost%3A4444",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 400,
+      "type": "http",
+      "queryParams": {
+        "targetName": "ethereum-mainnet",
+        "client-project-name": "http://localhost:4444"
+      },
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "Content-Type": "application/json",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "requestBody": "{\"method\":\"wallet_revokePermissions\",\"params\":[{\"eth_accounts\":{}}],\"jsonrpc\":\"2.0\",\"id\":6}",
+      "tsStart": 1763481812625,
+      "tsEnd": 1763481813126,
+      "durationMs": 501
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.14",
+      "requestUrl": "https://chain-proxy.wallet.coinbase.com/?targetName=ethereum-mainnet&client-project-name=http%3A%2F%2Flocalhost%3A4444&client-project-name=http%3A%2F%2Flocalhost%3A4444",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {
+        "targetName": "ethereum-mainnet",
+        "client-project-name": "http://localhost:4444"
+      },
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "Content-Type": "application/json",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "requestBody": "{\"method\":\"wallet_revokePermissions\",\"params\":[{\"eth_accounts\":{}}],\"jsonrpc\":\"2.0\",\"id\":6}",
+      "tsStart": 1763481812625,
+      "tsEnd": 1763481813126,
+      "durationMs": 501
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "7EAC31A51916F22EB11C8E8505688B21",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763481813694
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "7EAC31A51916F22EB11C8E8505688B21",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763481813694,
+      "tsEnd": 1763481813698,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "7EAC31A51916F22EB11C8E8505688B21",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763481813694,
+      "tsEnd": 1763481813698,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.16",
+      "requestUrl": "chrome-extension://phajflhlnkajoodhmhampfggeabcfjig/requestRelay.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"sGeZa10glWcx37KraHjrACCe3G0=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 27 Aug 2025 09:51:59 GMT"
+      },
+      "tsStart": 1763481813714
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.16",
+      "requestUrl": "chrome-extension://phajflhlnkajoodhmhampfggeabcfjig/requestRelay.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"sGeZa10glWcx37KraHjrACCe3G0=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 27 Aug 2025 09:51:59 GMT"
+      },
+      "tsStart": 1763481813714,
+      "tsEnd": 1763481813716,
+      "durationMs": 2
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.16",
+      "requestUrl": "chrome-extension://phajflhlnkajoodhmhampfggeabcfjig/requestRelay.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"sGeZa10glWcx37KraHjrACCe3G0=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 27 Aug 2025 09:51:59 GMT"
+      },
+      "tsStart": 1763481813714,
+      "tsEnd": 1763481813717,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.17",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481814104,
+      "wsDirection": "sent",
+      "wsPayload": "{\"type\":\"HostSession\",\"id\":1,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\",\"sessionKey\":\"51a61c07a7804ead0741d275e823c47a40cd806ad3063437c0aaa417ed2414c5\"}"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.17",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481814196,
+      "wsDirection": "recv",
+      "wsPayload": "{\"type\":\"OK\",\"id\":1,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\"}\n"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.17",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481814196,
+      "wsDirection": "sent",
+      "wsPayload": "{\"type\":\"IsLinked\",\"id\":2,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\"}"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.17",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481814196,
+      "wsDirection": "sent",
+      "wsPayload": "{\"type\":\"GetSessionConfig\",\"id\":3,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\"}"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.17",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481814286,
+      "wsDirection": "recv",
+      "wsPayload": "{\"type\":\"IsLinkedOK\",\"id\":2,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\",\"linked\":false,\"onlineGuests\":0}\n"
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "30276.17",
+      "requestUrl": "wss://www.walletlink.org/rpc",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "ws",
+      "tsStart": 1763481814287,
+      "wsDirection": "recv",
+      "wsPayload": "{\"type\":\"GetSessionConfigOK\",\"id\":3,\"sessionId\":\"6f60f5ab876c625b840a692eda543330\",\"metadata\":null}\n"
+    }
+  ]
+}

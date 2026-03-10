@@ -1,0 +1,2535 @@
+{
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "profilePath": "./final-results/85-version/extensions/profiles_new/pgiaagfkgcbnmiiolekcfmljdagdhlcm",
+        "links": 10,
+        "walletPath": "./preparation/2411_unzipped_extensions/pgiaagfkgcbnmiiolekcfmljdagdhlcm",
+        "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T13-17-53",
+        "force": false,
+        "executablePath": "/opt/homebrew/bin/chromium"
+    },
+    "pathID": "pgiaagfkgcbnmiiolekcfmljdagdhlcm",
+    "timestamps": {
+        "start": 1764074577684,
+        "end": 1764074625817
+    },
+    "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;0x196E98A561479ff97D533401Cc10e95b238e1a2A",
+    "walletName": "stargazer",
+    "notes": "",
+    "extensionID": "omijdidbkjpaelmhekghmcnpoopejmog",
+    "password": "",
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "79B643726B8B5B0269A08172E4DDF97A",
+            "ts": 1764074601077,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/app.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+                "content-type": "text/html",
+                "etag": "\"PEDJDZ1DTk+kSOkBcFbRu2cOlR4=\"",
+                "last-modified": "Mon, 03 Nov 2025 17:45:20 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/app.html"
+            ],
+            "id": "16058.2",
+            "ts": 1764074601131,
+            "url": "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/app.html"
+            ],
+            "id": "16058.3",
+            "ts": 1764074601131,
+            "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/app.html"
+            ],
+            "id": "16058.4",
+            "ts": 1764074601131,
+            "url": "https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/app.html"
+            ],
+            "id": "16058.5",
+            "ts": 1764074601131,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/js/app.bundle.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/app.html"
+            ],
+            "id": "16058.10",
+            "ts": 1764074601373,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/js/17.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+                "cache-control": "no-cache",
+                "last-modified": "Mon, 03 Nov 2025 17:45:20 GMT",
+                "etag": "\"PEDJDZ1DTk+kSOkBcFbRu2cOlR4=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/app.html"
+            ],
+            "id": "16058.11",
+            "ts": 1764074601373,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/5a111f9c772f8e9f8f89.module.wasm",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+                "cache-control": "no-cache",
+                "last-modified": "Mon, 03 Nov 2025 17:45:20 GMT",
+                "etag": "\"PEDJDZ1DTk+kSOkBcFbRu2cOlR4=\"",
+                "content-type": "application/wasm"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/app.html"
+            ],
+            "id": "16058.33",
+            "ts": 1764074601424,
+            "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Thu, 20 Nov 2025 23:52:34 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "385347",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                "content-length": "48432",
+                "x-xss-protection": "0",
+                "last-modified": "Tue, 09 Sep 2025 18:40:32 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Fri, 20 Nov 2026 23:52:34 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/app.html"
+            ],
+            "id": "16058.80",
+            "ts": 1764074601454,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/assets/images/logo.2e1053f24ec6041c295116013ac0fef6.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+                "cache-control": "no-cache",
+                "last-modified": "Mon, 03 Nov 2025 17:45:20 GMT",
+                "etag": "\"PEDJDZ1DTk+kSOkBcFbRu2cOlR4=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/app.html"
+            ],
+            "id": "16058.81",
+            "ts": 1764074601455,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/assets/images/info-outlined-purple.3c149ec577ae28120587d0a85446b0e6.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+                "cache-control": "no-cache",
+                "last-modified": "Mon, 03 Nov 2025 17:45:20 GMT",
+                "etag": "\"PEDJDZ1DTk+kSOkBcFbRu2cOlR4=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/app.html"
+            ],
+            "id": "16058.82",
+            "ts": 1764074601455,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/assets/images/close.55fa03ea6925d02489ca4a959af8189d.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+                "cache-control": "no-cache",
+                "last-modified": "Mon, 03 Nov 2025 17:45:20 GMT",
+                "etag": "\"PEDJDZ1DTk+kSOkBcFbRu2cOlR4=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.85",
+            "ts": 1764074601480,
+            "url": "https://api.lattice.exchange/stargazer-providers/v2/default-tokens",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:21 GMT",
+                "content-encoding": "br",
+                "via": "1.1 0d3372129d548b57c62777e24b79e514.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P5",
+                "vary": "accept-encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "x-amz-cf-id": "7_wgfoU5IWxSKejjok21f6O-VRboc4u0Rqp-xcpMks-kxjJ5eC9Dkw==",
+                "apigw-requestid": "UmagmgFUIAMEVFg="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.86",
+            "ts": 1764074601480,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/token",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "x-lattice-api-key": "tH5TUbRI*ru2p0MlW4ruc8LbUSp28UtrltepUdLdAbr1Cru5hOthAphLXAw5pAKi",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:21 GMT",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "text/plain; charset=utf-8",
+                "x-amz-cf-id": "nZTm7l0BFCiA0KoY7J9dg3KsyxpTDwUALUeZfTClkZpZmEz3Le4nUw==",
+                "content-length": "102",
+                "apigw-requestid": "UmagliKPoAMEbmA="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-loading"
+            ],
+            "id": "16058.88",
+            "ts": 1764074601937,
+            "url": "https://api.lattice.exchange/stargazer-providers/v3/supported-assets/all",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:22 GMT",
+                "content-encoding": "br",
+                "via": "1.1 0d3372129d548b57c62777e24b79e514.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P5",
+                "vary": "accept-encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "x-amz-cf-id": "kJPCBiQHfxmluxxNRMiQmYWLTSnrBvj4cM30FB4XXTCZEJDWpKvH6g==",
+                "apigw-requestid": "UmagpiU1oAMEamQ="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.90",
+            "ts": 1764074603382,
+            "url": "http://l0-lb-mainnet.getdor.com:7000/currency/DAG65ZreiFNSVMGLsTTKW9kCdNvWZUZWr46eYVGa/balance",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-id": "ced1b13081d75a8c2e1463a8c2ff09f1ea14ff7af3265bcd3d4acfa3290626f965001a7ed6dbf2a748145ddecf1eb8ffeddf42d29dee3541a769601ea4cbba02",
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "request-signature": "MEUCIHV2jowZuxoQeOq0GFIPsOw9qQNhxFGjU8fCawS4rzpvAiEAjdvCwAby3fGk6y1kiw7SQvt/VRPg1XHvjdSNCZi22x0=",
+                "x-session-token": "1764070879200",
+                "connection": "keep-alive",
+                "content-length": "32",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.92",
+            "ts": 1764074603382,
+            "url": "https://stargazer-assets.s3.us-east-2.amazonaws.com/logos/dag.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:38 GMT",
+                "last-modified": "Thu, 14 Mar 2024 14:59:22 GMT",
+                "server": "AmazonS3",
+                "x-amz-request-id": "YWH68C565EXTW352",
+                "etag": "\"b67296a3eab95bb2747e8e1545871fd0\"",
+                "x-amz-server-side-encryption": "AES256",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "7926",
+                "x-amz-id-2": "tOOmSbLfVmQaS93l13Zmjy2XoEkS75WDyFhg9uH6PqPLiIoxx6Qye0zqMeZNPxwlTPxeV6H9Rbq7EHU4VKD3agcEIeuKB6rvzP+VZEPpeNQ="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.94",
+            "ts": 1764074603382,
+            "url": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:37 GMT",
+                "x-amz-version-id": "3_SSftvaLtEt3SSzvDRpdnK14Azs5rxh",
+                "cf-cache-status": "HIT",
+                "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                "x-amz-request-id": "TAANXMPW4RZKZ3QQ",
+                "age": "3854",
+                "x-amz-server-side-encryption": "AES256",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "content-length": "26417",
+                "x-amz-id-2": "P2AdrRx/kbr40JGAgxRwKC+bDJz9qOkA8svMhflJatGCGzqJPuvK3ZmlhBt9zvZYoP6eyWacC1OM7Y9JGi7+7peSkI7Bs2/n",
+                "last-modified": "Wed, 29 May 2024 03:00:47 GMT",
+                "server": "cloudflare",
+                "etag": "\"76c6fe8560fc7f0dc487edfe08cc5fbc\"",
+                "vary": "accept-encoding",
+                "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Uq%2F%2BhABMwd6VRe1kW1fSII3fLGmzJpRgyx7k1NIXdfemVTez4bEfxpCoEzMo34438PMF8lZ23erUCmp4IJ0gE3febtHviR0Keipqtz9bv5WRNsGptVIH\"}]}",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "cf-ray": "9a409d61b9a0b769-BRU",
+                "priority": "u=3,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.96",
+            "ts": 1764074603383,
+            "url": "https://stargazer-assets.s3.us-east-2.amazonaws.com/logos/swap.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:38 GMT",
+                "last-modified": "Wed, 27 Aug 2025 16:06:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-request-id": "YWHB9JNYM53Y7WR1",
+                "etag": "\"8e3037fc56d9031bfa1361d790866454\"",
+                "x-amz-server-side-encryption": "AES256",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "12118",
+                "x-amz-id-2": "YYzEujcLdmWPLe/JOal14mDL6O7Lm+6nQFNz7fDmqw5p23Y0t4S0u+ErK8lWTiCikgHfeOn35HDSgcQPUodrhr37GOc1BblI3FTYEyLEnzQ="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.98",
+            "ts": 1764074603383,
+            "url": "https://stargazer-assets.s3.us-east-2.amazonaws.com/logos/dor.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:38 GMT",
+                "last-modified": "Thu, 14 Mar 2024 14:59:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-request-id": "YWH5PQJC2G0ZRCY6",
+                "etag": "\"3ec832dee48e7387973ded6df39ef959\"",
+                "x-amz-server-side-encryption": "AES256",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "5597",
+                "x-amz-id-2": "mM77GKGXVNIB/n0zrDoS0TtpShLRYmxpLto2xMLTXl2u+ECMvgT8o6Y3JBBV+K6HktM/Rzb+bpf5oPLwdmNfvPJuHzVrP4i+npvj7pCquNg="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.100",
+            "ts": 1764074603383,
+            "url": "https://stargazer-assets.s3.us-east-2.amazonaws.com/logos/eth.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:38 GMT",
+                "last-modified": "Thu, 14 Mar 2024 14:59:24 GMT",
+                "server": "AmazonS3",
+                "x-amz-request-id": "YWH3A7VC9HHXG34F",
+                "etag": "\"61e40a3aee226f00787f73ddc6cd0183\"",
+                "x-amz-server-side-encryption": "AES256",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "7841",
+                "x-amz-id-2": "9s9sLLhAMXARRJraP0aA6N/5pw1fZ18kiNK2QXhZwozdtT78K3DTf4awvSMO26YCv5opUfniz8CG2KJvQFE/h5D2CpUr9TaoHxxyGV5upiY="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.103",
+            "ts": 1764074603383,
+            "url": "https://stargazer-assets.s3.us-east-2.amazonaws.com/logos/base.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:38 GMT",
+                "last-modified": "Wed, 19 Feb 2025 21:10:34 GMT",
+                "server": "AmazonS3",
+                "x-amz-request-id": "YWH5QANPYGE9R3GH",
+                "etag": "\"93d5d0d42db9234a0a591d293d9ba3f3\"",
+                "x-amz-server-side-encryption": "AES256",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "2886",
+                "x-amz-id-2": "PXmyaa5cJ7bCmSp2XtE1UCcD+RQ6nfnPObFB3nTeHYAaoRDbpkVy85JCxVX/Dmi7AgZe4HUBBuclOBu13RhrvXPmC/9yiF3wDcXseuVe2/w="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.104",
+            "ts": 1764074603383,
+            "url": "https://stargazer-assets.s3.us-east-2.amazonaws.com/logos/avax.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:38 GMT",
+                "last-modified": "Thu, 14 Mar 2024 14:59:20 GMT",
+                "server": "AmazonS3",
+                "x-amz-request-id": "YWHEK2RQAAX44AH2",
+                "etag": "\"ff56a88d16183823dd4fa3e6198aadb6\"",
+                "x-amz-server-side-encryption": "AES256",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "5849",
+                "x-amz-id-2": "of2Lx2eWnCCZaUNG7c+DaaYMLzXa+4GtIQEoBJ6tlt0R32Jff9yfjUD99n8SqQa3Dkzi4IHrxKhV0CDQ2mUGgYOmFkO9cKoJ1X922yF7Qd8="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.106",
+            "ts": 1764074603383,
+            "url": "https://stargazer-assets.s3.us-east-2.amazonaws.com/logos/bsc.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:38 GMT",
+                "last-modified": "Thu, 14 Mar 2024 14:59:21 GMT",
+                "server": "AmazonS3",
+                "x-amz-request-id": "YWHC386R1GW4NCVZ",
+                "etag": "\"61d79ef0d2274b32f9fe858171e468f1\"",
+                "x-amz-server-side-encryption": "AES256",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "5803",
+                "x-amz-id-2": "BJ+ylSaxMWI97jQ1psSSQnpK2KKenfS03bHnFtAiEzHdXoEWqWMjMD6hbY/za+zR2Iow84JEIt/NqXJ69IYWhvPTgtyXjIwpPo07sJcwCF4="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.108",
+            "ts": 1764074603383,
+            "url": "https://stargazer-assets.s3.us-east-2.amazonaws.com/logos/polygon.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:38 GMT",
+                "last-modified": "Thu, 14 Mar 2024 14:59:27 GMT",
+                "server": "AmazonS3",
+                "x-amz-request-id": "YWH64FT9T5GGRWPQ",
+                "etag": "\"998adae47d007e3628b6498c333a233c\"",
+                "x-amz-server-side-encryption": "AES256",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "6841",
+                "x-amz-id-2": "+sEa3FlO9R348PnNAdBOQfkPP5pZ7nAT9RclIivktqQgyP7zFMoPaCGNo1/0QRZhCxTSCFaucInn4jhfOeOecUq0ONtPIxShs4I1CMwb7TQ="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.111",
+            "ts": 1764074603383,
+            "url": "https://stargazer-assets.s3.us-east-2.amazonaws.com/logos/ink.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:38 GMT",
+                "last-modified": "Fri, 31 Oct 2025 17:26:23 GMT",
+                "server": "AmazonS3",
+                "x-amz-request-id": "YWH9NXE6RZCFP63F",
+                "etag": "\"264b396d5b55ebc4ad6fcaa5606194eb\"",
+                "x-amz-server-side-encryption": "AES256",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "6025",
+                "x-amz-id-2": "iTsnPNABwZqRipMMcvrvxydTGBuh54vmuOfRdJpDRxp5aKjhWLKiFpSRd7m1iLgBgna9juunk4hNifvdXO0oQjllB604VRfaNT1I2yyNvxw="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.112",
+            "ts": 1764074603383,
+            "url": "https://stargazer-assets.s3.us-east-2.amazonaws.com/logos/ltx.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:38 GMT",
+                "last-modified": "Thu, 14 Mar 2024 14:59:26 GMT",
+                "server": "AmazonS3",
+                "x-amz-request-id": "YWH4A9EAPC4PRC32",
+                "etag": "\"18aaec1ed44855516d6e3a2c808fc1dc\"",
+                "x-amz-server-side-encryption": "AES256",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "5700",
+                "x-amz-id-2": "G8aCaO4Ea+L29HsU9hhZvD4neZqAtt+n5MSvv50MijzYZx1RWJYOIihJvDFXIxjA80pkUF/06aAC7ZtyEuULwqdrAtW/rb5p1bO5d5vBjHc="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.114",
+            "ts": 1764074603383,
+            "url": "https://stargazer-assets.s3.us-east-2.amazonaws.com/logos/veltx.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:38 GMT",
+                "last-modified": "Thu, 14 Mar 2024 14:59:28 GMT",
+                "server": "AmazonS3",
+                "x-amz-request-id": "YWHF0RR6FSAN0RTM",
+                "etag": "\"52af3e0809bc1572cefbd70b0c1d2f50\"",
+                "x-amz-server-side-encryption": "AES256",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "6924",
+                "x-amz-id-2": "Sr5urt7j3nucXDPeVI/rDUHAWcv7ngIertluH0oGb7yp66/BkJofrDniSgUSQA/fTOXQ+47K0AE40AN1jIZzeT4gK5Fm/qM6fFbhU5Asi6Q="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.116",
+            "ts": 1764074603383,
+            "url": "https://assets.coingecko.com/coins/images/17979/small/alkimi.PNG",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:37 GMT",
+                "x-amz-version-id": "s_PM.r2ZnLfUrOv8sklbOeUU_KpCFqZ1",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "x-amz-request-id": "G05FT0W11VF1S4DB",
+                "cf-polished": "origFmt=png, origSize=3572",
+                "content-disposition": "inline; filename=\"alkimi.webp\"",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "content-length": "1760",
+                "x-amz-id-2": "pwTFPDmA37G/pOGJ0gumROFa8leXQfNbG8Iv/nrR/0eHDKtJC2khbuTkRXmLDW9T89YMYT0ZTy8=",
+                "cf-bgj": "imgq:100,h2pri",
+                "last-modified": "Fri, 27 Aug 2021 00:06:41 GMT",
+                "server": "cloudflare",
+                "speculation-rules": "\"/cdn-cgi/speculation\"",
+                "etag": "\"f0d466695c29d9a793df565c4c045740\"",
+                "vary": "Accept",
+                "content-type": "image/webp",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "cf-ray": "9a409d61b86db9bd-BRU",
+                "priority": "u=3,i",
+                "expires": "Wed, 25 Nov 2026 10:55:37 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.118",
+            "ts": 1764074603383,
+            "url": "https://lattice-exchange-assets.s3.amazonaws.com/geojam.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:38 GMT",
+                "x-amz-version-id": "2c9ibpkKL73gOL1J3Kbe9AzFmpsynsOH",
+                "last-modified": "Wed, 01 Feb 2023 18:25:54 GMT",
+                "server": "AmazonS3",
+                "x-amz-request-id": "YWHEB92KT66GWDPQ",
+                "etag": "\"bf6c80a323ecafc27ba5ddc250653f4d\"",
+                "x-amz-server-side-encryption": "AES256",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "12328",
+                "x-amz-id-2": "WLNk+v7GlfFpdEZKMy8MmM3y6PLnaLppuBKqfu11ETNdkw0dEfO1WfoqmwazfH47Ah9Ob/SJ2LY="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.120",
+            "ts": 1764074603383,
+            "url": "https://stargazer-assets.s3.us-east-2.amazonaws.com/logos/jco.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 10:55:38 GMT",
+                "last-modified": "Thu, 14 Mar 2024 14:59:25 GMT",
+                "server": "AmazonS3",
+                "x-amz-request-id": "YWHAHKFKDJT4EFQQ",
+                "etag": "\"817eeebd1dbb01897ec953c82efdeef3\"",
+                "x-amz-server-side-encryption": "AES256",
+                "content-type": "image/png",
+                "accept-ranges": "bytes",
+                "content-length": "19425",
+                "x-amz-id-2": "FEjKrThRd9tm2MzjaqkkJRGAdEkM8OI4TobsouJb9CK331xhbAnIpYX2c60QG58/Yf4uZIJxe6THAWW+690TVLEiKRWH6TvBFXGBffUSiVk="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.128",
+            "ts": 1764074603383,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/assets/images/sliders.2ff70353c24db43a9c3e7d59b1dd2e7d.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+                "cache-control": "no-cache",
+                "last-modified": "Mon, 03 Nov 2025 17:45:20 GMT",
+                "etag": "\"PEDJDZ1DTk+kSOkBcFbRu2cOlR4=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.129",
+            "ts": 1764074603383,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/assets/images/arrow-rounded-left.97e75d8c617fd2c789df48cc3461c896.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+                "cache-control": "no-cache",
+                "last-modified": "Mon, 03 Nov 2025 17:45:20 GMT",
+                "etag": "\"PEDJDZ1DTk+kSOkBcFbRu2cOlR4=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/auth-start"
+            ],
+            "id": "16058.130",
+            "ts": 1764074603383,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/assets/images/arrow-rounded-down-white.be6123c14f97445f3af1d8731755daf4.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+                "cache-control": "no-cache",
+                "last-modified": "Mon, 03 Nov 2025 17:45:20 GMT",
+                "etag": "\"PEDJDZ1DTk+kSOkBcFbRu2cOlR4=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.131",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/coingecko/simple/price?ids=constellation-labs,usd-coin,dor,ethereum,ethereum,avalanche-2,binancecoin,matic-network,ethereum,lattice-token,lattice-governance,alkimi,geojam,jennyco,constellation-labs,dor,constellation-labs,tether&vs_currencies=usd&include_24hr_change=true",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "WzjuWw+SsW8qY2xaSoNuQtnG6hU6maSM59TR0kFFsZk=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "access-control-request-method": "*",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=15724800; includeSubdomains",
+                "cf-cache-status": "EXPIRED",
+                "x-permitted-cross-domain-policies": "none",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "content-security-policy-report-only": "script-src https://accounts.google.com/gsi/client; frame-src https://accounts.google.com/gsi/; connect-src https://accounts.google.com/gsi/;",
+                "x-cache": "Miss from cloudfront",
+                "content-length": "738",
+                "x-xss-protection": "0",
+                "apigw-requestid": "Umag4g2cIAMEVow=",
+                "x-request-id": "5d3368be-5c2c-4f6b-9b4d-3d9ea2e7cd6b",
+                "x-runtime": "0.018984",
+                "alternate-protocol": "443:npn-spdy/2",
+                "referrer-policy": "strict-origin-when-cross-origin",
+                "server": "cloudflare",
+                "etag": "W/\"2b98eb667963ed5f9c00869d99bcff35\"",
+                "x-download-options": "noopen",
+                "x-frame-options": "SAMEORIGIN",
+                "vary": "Accept-Encoding, Origin",
+                "content-type": "application/json; charset=utf-8",
+                "cache-control": "max-age=30, public, must-revalidate, s-maxage=20",
+                "cf-ray": "9a413b40ec5156b6-IAD",
+                "x-amz-cf-id": "8cNod1i5RuAVk7mQnpk5BrsiA8DdC3gzBtkp-T8R1mk2UGFRI6Fwyg=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.132",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/opensea-mainnet/chain/ethereum/account/0x033a5379BC3D5edD92b9B1dA762688E97CEF154c/nfts?limit=100",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "uSYwOFCPCz1Do3dV8NF3p7DRYwGdr+9JBDryixvm+Cg=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "MISS",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "x-cache": "Miss from cloudfront",
+                "content-length": "23",
+                "apigw-requestid": "Umag4gOcoAMEV8A=",
+                "pragma": "no-cache",
+                "last-modified": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "server": "cloudflare",
+                "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+                "content-type": "application/json",
+                "cache-control": "no-store, must-revalidate",
+                "cf-ray": "9a413b412c3ff27a-IAD",
+                "x-amz-cf-id": "FSKHyD7zBdyV__SYyKU2ASQTEKOODgh_Av5A8MntspQu_Jn7A3iUTw==",
+                "expires": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.133",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/opensea-mainnet/chain/matic/account/0x033a5379BC3D5edD92b9B1dA762688E97CEF154c/nfts?limit=100",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "ionNozHx27wdTVlNsZn+eMEXrgDP13UNFvLOlAUn0ws=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "MISS",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "x-cache": "Miss from cloudfront",
+                "content-length": "23",
+                "apigw-requestid": "Umag2jKDIAMEbBg=",
+                "pragma": "no-cache",
+                "last-modified": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "server": "cloudflare",
+                "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+                "content-type": "application/json",
+                "cache-control": "no-store, must-revalidate",
+                "cf-ray": "9a413b40484522ef-IAD",
+                "x-amz-cf-id": "RBAuvwdLTg7GFIAjbMkNF9DHUL1qqeNnge00uTZBcKpguQT9oPOofQ==",
+                "expires": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.134",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/opensea-mainnet/chain/avalanche/account/0x033a5379BC3D5edD92b9B1dA762688E97CEF154c/nfts?limit=100",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "oR6MX37zLCn4mO4aOsSgHDY4eUj6n7V4Zq+JF+Rb3sQ=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "MISS",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "x-cache": "Miss from cloudfront",
+                "content-length": "23",
+                "apigw-requestid": "Umag4gimoAMEbSw=",
+                "pragma": "no-cache",
+                "last-modified": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "server": "cloudflare",
+                "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+                "content-type": "application/json",
+                "cache-control": "no-store, must-revalidate",
+                "cf-ray": "9a413b416bc3e1c6-IAD",
+                "x-amz-cf-id": "HAghQcz_8_RQfo3rLdtRQx_B1jx7nhZtTvdnSfV37bFw921Ay7AV9Q==",
+                "expires": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.135",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/opensea-mainnet/chain/bsc/account/0x033a5379BC3D5edD92b9B1dA762688E97CEF154c/nfts?limit=100",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "cEbx50coH3z2UcwvORTkwfpwVpwcsDoVH0hTUrOPFy0=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "MISS",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "x-cache": "Miss from cloudfront",
+                "content-length": "23",
+                "apigw-requestid": "Umag4gkSIAMEbow=",
+                "pragma": "no-cache",
+                "last-modified": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "server": "cloudflare",
+                "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+                "content-type": "application/json",
+                "cache-control": "no-store, must-revalidate",
+                "cf-ray": "9a413b41591b5133-IAD",
+                "x-amz-cf-id": "6hkf2US4Cawx1Y7K8bFczyh1qKYeNJBScGokRJ0asaEfTIx7sfbqTg==",
+                "expires": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.136",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/opensea-mainnet/chain/base/account/0x033a5379BC3D5edD92b9B1dA762688E97CEF154c/nfts?limit=100",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "T+Xp9NlXTLDVz5s4f3XKvV/K/JW8E4QCVIFD7tVSlOo=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "MISS",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "x-cache": "Miss from cloudfront",
+                "content-length": "23",
+                "apigw-requestid": "Umag4gA-oAMEVOA=",
+                "pragma": "no-cache",
+                "last-modified": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "server": "cloudflare",
+                "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+                "content-type": "application/json",
+                "cache-control": "no-store, must-revalidate",
+                "cf-ray": "9a413b40dc03ad34-IAD",
+                "x-amz-cf-id": "Ul9-YVDS3c6_NtANopwMJ0WisGz3Ftflt3imPB4md5JNF9SyzacT_w==",
+                "expires": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.137",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-ethereum-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "pRHLJKedCE1B8iqrJdOOoithLnQlD6fNc71X1oVfooM=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "ethereum_mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "40",
+                "apigw-requestid": "Umag4g7WoAMEbBw=",
+                "x-amz-cf-id": "u1J2DTUP8nq94AOKYQhnnXfb3REZ8xDAcyR-QLb35Vjvo2znLlTWow=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.138",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-polygon-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "LC+GOi4lZUkqu/WO3o4u2QTI0U8HhzAR88KAFmOGBes=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "polygon_matic_jfk",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "41",
+                "apigw-requestid": "Umag4i9FIAMEVgA=",
+                "x-amz-cf-id": "_nDD-14g8S3Ts0hrNLNkcGXdJ2UXaVyvUwzsNPlJfRiQj14DlDpTTg=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.139",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-bsc-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "B2gIeqyS7EYXvDp0uhTnehmV7tZpA9yKfCQ30su42lw=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "bnb-smart-chain_bsc_ewr",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "41",
+                "apigw-requestid": "Umag4jpnIAMEbLA=",
+                "x-amz-cf-id": "BFaLlc7YTEyPkAlh8KjemhzBTWnnN5kE7jJc0LKNOAdFCmtX_mGtnw=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.140",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-avalanche-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "OGHmOHeFZaJavfj7Eaq6N6QYQdrvD1EVffZrdfbpmEQ=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "avalanche_avalanche-mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "43",
+                "apigw-requestid": "Umag4grqIAMEb8Q=",
+                "x-amz-cf-id": "7ks4KLRP-CVwiQizQf6F0vQwGBmj4ITxI_i2nrSPr9C_28z0QeKxQg=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.141",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-base-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "TzbynRjwtUOajUdqi6tyaGmv12k19UDp5aY5OnhUfDo=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "base_base-mainnet_jfk",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "43",
+                "apigw-requestid": "Umag4hkaoAMEVXg=",
+                "x-amz-cf-id": "_mqZSc914xGNNuFdAvweA3YKE6ANz_xYmdsEdlMJSOqTEvtZCyfzfQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.142",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-ink-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "iN/TfZ9KHMXOeyGDD39Ygao69zF0OqRZ0lWQ+PY0yGM=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "ink_ink-mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "43",
+                "apigw-requestid": "Umag4i7LoAMEbiA=",
+                "x-amz-cf-id": "87DgzPLyWXHYTXGBsa3hVC-W1TOx-dcoHVZEXnQpYxPPGewRYINCAw=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.143",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-ethereum-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "pRHLJKedCE1B8iqrJdOOoithLnQlD6fNc71X1oVfooM=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "ethereum_mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "40",
+                "apigw-requestid": "Umag4jWNIAMEb5g=",
+                "x-amz-cf-id": "zNuptDaKFS9VC1VI_yVR8LUEomX71wEueDmULMhDUg_uCXGA_rqxnw=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.144",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-avalanche-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "OGHmOHeFZaJavfj7Eaq6N6QYQdrvD1EVffZrdfbpmEQ=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "avalanche_avalanche-mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "43",
+                "apigw-requestid": "Umag4ju_IAMEVKQ=",
+                "x-amz-cf-id": "5MkGAdA0YaRE7Dqff1PzWSns25csCajgCsPKk6MybgmtDnqNTG4Umg=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.145",
+            "ts": 1764074603430,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-bsc-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "B2gIeqyS7EYXvDp0uhTnehmV7tZpA9yKfCQ30su42lw=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "bnb-smart-chain_bsc_jfk",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "41",
+                "apigw-requestid": "Umag4j_hIAMEVBg=",
+                "x-amz-cf-id": "XfrDLngwGaRhFmACjUR2RMiKG4KbqiJ3p6FQPGB97320E8B4CdKr9w=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.146",
+            "ts": 1764074603431,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-polygon-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "LC+GOi4lZUkqu/WO3o4u2QTI0U8HhzAR88KAFmOGBes=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "polygon_matic_jfk",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "41",
+                "apigw-requestid": "Umag4hpNIAMEbaQ=",
+                "x-amz-cf-id": "ibYxqYblC_Z8q6AIzQLa8R8wQZCwSp9Dm23Jqb7MhppAlpe6kGlNMg=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.147",
+            "ts": 1764074603431,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-base-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "TzbynRjwtUOajUdqi6tyaGmv12k19UDp5aY5OnhUfDo=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "base_base-mainnet_jfk",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "43",
+                "apigw-requestid": "Umag4ifdoAMEbkg=",
+                "x-amz-cf-id": "2GPR_RwSYs-t1lf_a1yEqqXs1YZr4g_BXjhLa98KzwZomj9dFGaaEg=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.148",
+            "ts": 1764074603431,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-ink-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "iN/TfZ9KHMXOeyGDD39Ygao69zF0OqRZ0lWQ+PY0yGM=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "ink_ink-mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "43",
+                "apigw-requestid": "Umag4gxNoAMEbPQ=",
+                "x-amz-cf-id": "4_f8SeyQx9HMPG32hsrXPYtOA43CMTX43lasGl4IAmVDcku59PafiA=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.149",
+            "ts": 1764074603727,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-ink-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "ZhkaMmVkSLdU0gx4pJ9T7pgx7oLQTNVbj0Hy7t77nAc=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "ink_ink-mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "43",
+                "apigw-requestid": "Umag7h_GIAMEVfw=",
+                "x-amz-cf-id": "V75t7UwgNvlk-IK57bNFosHvmrjz1t3aSVW78RPEhvoQKNSfakWtDg=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.150",
+            "ts": 1764074603744,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-base-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "I193W9sIKIVQkBZLU2cLbrYEi4WH/W/gHuHMSquB7uU=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "base_base-mainnet_jfk",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "43",
+                "apigw-requestid": "Umag5gNxoAMEbtw=",
+                "x-amz-cf-id": "Ifv6xLL3gguvzcyMKpE9_1OVTiGvuy81TXJAfW0L06ocM9jgq2pvFA=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.151",
+            "ts": 1764074603766,
+            "url": "http://usdc-ml0-463769650.us-west-1.elb.amazonaws.com/currency/DAG65ZreiFNSVMGLsTTKW9kCdNvWZUZWr46eYVGa/balance",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-id": "4474bbae5936a48ef951ff3a72f655af556c4b07e94a1e64a4e05dd05e418cfefed4f7ca01a9664052b8618ed70078d8a57e209ea7c591002fb94f2acacd0e35",
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "request-signature": "MEUCIQChRRn4NAgtM0uy9CMoTr4tm/2VGSmWorzXb1S9ZimsbQIgCJjju3Uoz4yOLWA/kkYW2YrrvtL+ragYnYr8R1UIM7k=",
+                "x-session-token": "1763735908852",
+                "connection": "keep-alive",
+                "content-length": "30",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.152",
+            "ts": 1764074603787,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-avalanche-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "oXUl5wLOQtvo+KqJ7Q66OcxfrfzxZXhHoG6EZKqPScw=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "avalanche_avalanche-mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "43",
+                "apigw-requestid": "Umag8gm-IAMEbLQ=",
+                "x-amz-cf-id": "W3ZfgnF4IKTawwZewR_4w7flEy1ga1o_M9EEE5g3mM7M_yRv_hNfHg=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.153",
+            "ts": 1764074603826,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-ethereum-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "RSIRHNrk1qqsZKC34FIeZKbLruUPTgj32KfPTFtqEkg=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:23 GMT",
+                "x-node-id": "ethereum_mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "40",
+                "apigw-requestid": "Umag6hp5oAMEbaQ=",
+                "x-amz-cf-id": "_x7L5Csi7clf0K_6vpQlTo8Z0TnztFBGZ125CdH-gVZUk0xE0Rjx_A=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.154",
+            "ts": 1764074603826,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-polygon-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "lIdmGYVWAq1p+pYO1CMWaKmgW7U3zCUxCgFpdp5RnMA=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "polygon_matic_jfk",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "41",
+                "apigw-requestid": "Umag8h8_IAMEVsw=",
+                "x-amz-cf-id": "5Saa0ZiMajAEwd_jM5_6J37prWk79ZuC-IYbC7nzcdnvNdYY7j6hig=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.155",
+            "ts": 1764074603826,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-bsc-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "W8XY77GpBEknxCUTe2uF4pqIm8JQhClVqwu/1RqHHYk=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "bnb-smart-chain_bsc_ewr",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "content-length": "41",
+                "apigw-requestid": "Umag8hjqoAMEbgQ=",
+                "x-amz-cf-id": "YUy2Jb5Fuvm2fcVUi5a4eamZkd85kAsr0kf-32kFthedvhPjoIUNew=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.156",
+            "ts": 1764074603965,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-base-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "R89ULHamPBsZiBYhmXiLXDPkZxQB8NtcY5waMYDhvQg=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "base_base-mainnet_jfk",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-host-id": "f1b546936d23e3b5-d055bbdea0da3f7e",
+                "content-length": "40",
+                "apigw-requestid": "Umag9ibRoAMEb2w=",
+                "x-amz-cf-id": "YZApVJ2BLW_YYB2Tn9fOrSCyLCpdoSCvqqBIIKswZFI_o9cgVmRSpw=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.157",
+            "ts": 1764074603966,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-base-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "v14eFxiRdphL0cWFETMYeQHrBq2aG6YxKEZDrc+mj8M=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_call\",\"params\":[{\"to\":\"0xaaee9ece50e5a5a1b125cf9300b6a8adc72cde40\",\"data\":\"0xf0002ea9000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000001000000000000000000000000033a5379bc3d5edd92b9b1da762688e97cef154c0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000ecff4d80f54cf55c626e52f304a8891645961e7200000000000000000000000038a7c0416164faa29d207c9cf2273a5b80210aed\"},\"latest\"],\"id\":45,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "base_base-mainnet_jfk",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-host-id": "f1b546936d23e3b5-1be95c1b40d0937",
+                "content-length": "295",
+                "apigw-requestid": "Umag8iRkIAMEVpQ=",
+                "x-amz-cf-id": "GSXsz5DYpzoqiX1R04q2-kn5NLK5juman3A2gbzifW97GWSK0genWQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.158",
+            "ts": 1764074604019,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-ethereum-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "pOwslVbkm0NZXhOR2/4MhQFTQ2U4DLDM6NVtw4VOoSQ=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "ethereum_mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-host-id": "f1b546936d23e3b5-d0d6f3f6da49b513",
+                "content-length": "52",
+                "apigw-requestid": "Umag8iRsoAMEVpQ=",
+                "x-amz-cf-id": "EoHRtfSFvQHWm4txlGtNStC3oGq7XmSGHZvYWPnJHyGTtIBs_55y0g=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.159",
+            "ts": 1764074604020,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-ethereum-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "PbF3DC/aqjn3Bg33GVYeQjxry3LZq6WbODlpkGAnKLM=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_call\",\"params\":[{\"to\":\"0xb1f8e55c7f64d203c1400b9d8555d050f94adf39\",\"data\":\"0xf0002ea9000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000001000000000000000000000000033a5379bc3d5edd92b9b1da762688e97cef154c00000000000000000000000000000000000000000000000000000000000000060000000000000000000000003106a0a076bedae847652f42ef07fd58589e001f000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7000000000000000000000000a393473d64d2f9f026b60b6df7859a689715d092000000000000000000000000c6a22cc9acd40b4f31467a3580d4d69c3387f34900000000000000000000000023894dc9da6c94ecb439911caf7d337746575a72\"},\"latest\"],\"id\":45,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "ethereum_mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-host-id": "f1b546936d23e3b5-46870452b72ad414",
+                "content-length": "551",
+                "apigw-requestid": "Umag-gnnoAMEbLQ=",
+                "x-amz-cf-id": "NWov5yStKnSDHvmEMKqyD8e6irgsIb284Oe0fDHR6ks2VyYc9edTLw=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.160",
+            "ts": 1764074604093,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-ink-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "V0+FTXK4YNGftCLAFWzicDvT2JV3u11+RO+yoPC/Dy8=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "ink_ink-mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-host-id": "f1b546936d23e3b5-1fa5e9ae8ccb3504",
+                "content-length": "40",
+                "apigw-requestid": "Umag9ju8oAMEVEg=",
+                "x-amz-cf-id": "z9WFeLn2uAcUGZvgYd94r8x31TpwEGOt2PTo_C686LJsWttXgeRp3A=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.161",
+            "ts": 1764074604094,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-ink-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "YPCUxPBAJfpGABvwIbtRAjq+enIKhuD4UpkwQT0doxE=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_call\",\"params\":[{\"to\":\"0xaaee9ece50e5a5a1b125cf9300b6a8adc72cde40\",\"data\":\"0xf0002ea9000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000001000000000000000000000000033a5379bc3d5edd92b9b1da762688e97cef154c00000000000000000000000000000000000000000000000000000000000000010000000000000000000000001467d31ab00f986d0e0e764365d999972289cd03\"},\"latest\"],\"id\":45,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "ink_ink-mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-host-id": "f1b546936d23e3b5-1fa5e9ae8ccb3504",
+                "content-length": "231",
+                "apigw-requestid": "Umag_huSIAMEbkw=",
+                "x-amz-cf-id": "427Dszrk4xa8Tg_6P467n-9M7FcC-O818iaeMwlbnepfqu8zrvfVKw=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.162",
+            "ts": 1764074604181,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-avalanche-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "vx2PRWXwqHDv6cLJMRtDg375XF9AETBqjeHvn88DdMI=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "avalanche_avalanche-mainnet_iad",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-host-id": "f1b546936d23e3b5-cdf3316fc5a24ac1",
+                "content-length": "40",
+                "apigw-requestid": "Umag_hFzoAMEWCQ=",
+                "x-amz-cf-id": "LQ9KH0VWHP-ynlgJY4zYciJF6SB-qkUaubZ5c65KHuAdAJlp3KLOFQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.163",
+            "ts": 1764074604187,
+            "url": "http://pacaswap-mainnet-ml0-286306868.us-west-1.elb.amazonaws.com/currency/DAG65ZreiFNSVMGLsTTKW9kCdNvWZUZWr46eYVGa/balance",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-id": "f169f8f51bc75948f4144f5f137b4f993a7aa1498febfe11e40ac3eb5f5322b93377b6a2609ea3daff5209d3c4809e70d4169c80732bb8bf23877977eabc986a",
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "request-signature": "MEUCIBxKRz9xNdvbZ+2hlZPIMCVJcjBkCMagogm6WFdD6y6NAiEAg5NrgdyxHNLumHqefef/w6DmzIcyFmVSUD/RLRd/3jU=",
+                "x-session-token": "1763736059455",
+                "connection": "keep-alive",
+                "content-length": "30",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.164",
+            "ts": 1764074604195,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-bsc-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "CCZy7rx7yOfFUEpqYtnyyMnuVF3GMROQwZRiCRqdy4U=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "bnb-smart-chain_bsc_jfk",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-host-id": "f1b546936d23e3b5-ed42b00d3b2cc65a",
+                "content-length": "40",
+                "apigw-requestid": "UmahAhQIIAMEVoA=",
+                "x-amz-cf-id": "-QciE91QMN3d7akwvPKRCO9nIjtIchRgJJUrQ5-XlcN24_MNxvuJwg=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.165",
+            "ts": 1764074604211,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-polygon-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "BQlzD7Ub+UUcNVyqWYNOU4sN5Z/TXzYXWdEIgyzkL90=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "polygon_matic_jfk",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-host-id": "f1b546936d23e3b5-6d3e3e3e6c87648",
+                "content-length": "40",
+                "apigw-requestid": "UmahBhFqIAMEb0g=",
+                "x-amz-cf-id": "qqrMI5z90gVTXIvzojg2tCJhXeWvj6xy3hhDF-H5jfECRfg8XGRhKQ=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.166",
+            "ts": 1764074604212,
+            "url": "https://production.stargazer-api.constellationnetwork.net/external-requests/node-polygon-mainnet/?",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "referer": "",
+                "x-lattice-req-token": "zGA]e@2gyf;os[(9I)X&9[MAl:1a=a[ni/$u>77<|V&Q6cy)((3|l@U*<wNcGp?-",
+                "x-lattice-sig": "42k/WhHIA7gcmH93LU0DND5oJDrEYCkt8XrBJuBujOE=",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"eth_call\",\"params\":[{\"to\":\"0x2352c63a83f9fd126af8676146721fa00924d7e4\",\"data\":\"0xf0002ea9000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000001000000000000000000000000033a5379bc3d5edd92b9b1da762688e97cef154c00000000000000000000000000000000000000000000000000000000000000010000000000000000000000008105f88e77a5d102099bf73db4469d3f1e3b0cd6\"},\"latest\"],\"id\":45,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:24 GMT",
+                "x-node-id": "polygon_matic_jfk",
+                "via": "1.1 7785d4956cb908a17db2e556c11a4ea4.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P4",
+                "vary": "Accept-Encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-host-id": "f1b546936d23e3b5-e493ecf86762d63c",
+                "content-length": "231",
+                "apigw-requestid": "UmahBgNXIAMEb6w=",
+                "x-amz-cf-id": "UrBYMHVdzcnB82aO7xVe4S2qfdw3HDFc3cjUF3YiPTKIM4HtCDXY_g=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.167",
+            "ts": 1764074604598,
+            "url": "https://be-mainnet.constellationnetwork.io/addresses/DAG65ZreiFNSVMGLsTTKW9kCdNvWZUZWr46eYVGa/balance",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:25 GMT",
+                "via": "1.1 7ce9bf658969fea1ceecfa00e5239dd6.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P6",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "x-amz-cf-id": "NPq27ash3ohrfFAIF1b-n8I4TLBzjFouZX1pgFzvIKDMjOuagwrBqw==",
+                "content-length": "93",
+                "apigw-requestid": "UmahGiQHyK4EJkQ="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.168",
+            "ts": 1764074613646,
+            "url": "https://be-mainnet.constellationnetwork.io/currency/DAG0S16WDgdAvh8VvroR6MWLdjmHYdzAF5S181xh/addresses/DAG65ZreiFNSVMGLsTTKW9kCdNvWZUZWr46eYVGa/transactions?limit=10",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:34 GMT",
+                "via": "1.1 7ce9bf658969fea1ceecfa00e5239dd6.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P6",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "x-amz-cf-id": "I6xdysvF3PdgWuvvp-MmTUwZLm8yS9pMQbRsDacjNTA_9OkiaTf4mw==",
+                "content-length": "11",
+                "apigw-requestid": "UmaigiyjSK4EJ5g="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.169",
+            "ts": 1764074613646,
+            "url": "https://be-mainnet.constellationnetwork.io/currency/DAG0S16WDgdAvh8VvroR6MWLdjmHYdzAF5S181xh/addresses/DAG65ZreiFNSVMGLsTTKW9kCdNvWZUZWr46eYVGa/actions?limit=10",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:34 GMT",
+                "via": "1.1 7ce9bf658969fea1ceecfa00e5239dd6.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P6",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "x-amz-cf-id": "rsgweflX8rMouB0iHwfeiOivujoT5oaf-4iye06VAtoqwpqRyuAwlg==",
+                "content-length": "11",
+                "apigw-requestid": "Umaigg9TSK4EJxw="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.170",
+            "ts": 1764074613646,
+            "url": "https://production.dagexplorer-api.constellationnetwork.net/mainnet/addresses/DAG65ZreiFNSVMGLsTTKW9kCdNvWZUZWr46eYVGa/metagraphs/DAG0S16WDgdAvh8VvroR6MWLdjmHYdzAF5S181xh/rewards?groupingMode=day",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:34 GMT",
+                "via": "1.1 97eaba44803576cf9f5d9993fc05ccee.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS1-P1",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "x-amz-cf-id": "LuQBh6PGGa52MMMjP2G4KvoZpIb99YfPWZ41Iv9XZNgmu6_aojLatg==",
+                "content-length": "52",
+                "apigw-requestid": "UmaieiqaoAMEJGw="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.171",
+            "ts": 1764074613646,
+            "url": "https://be-mainnet.constellationnetwork.io/currency/DAG0S16WDgdAvh8VvroR6MWLdjmHYdzAF5S181xh/addresses/DAG65ZreiFNSVMGLsTTKW9kCdNvWZUZWr46eYVGa/token-locks?active=true",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:33 GMT",
+                "via": "1.1 7ce9bf658969fea1ceecfa00e5239dd6.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P6",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "x-amz-cf-id": "tpplOMaam4KDqNhfnV2Zkiaas0k6-FerfIcaFiScd7mz6H7FAD6AcA==",
+                "content-length": "11",
+                "apigw-requestid": "Umaidg9OSK4EJxw="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/home"
+            ],
+            "id": "16058.172",
+            "ts": 1764074613646,
+            "url": "https://be-mainnet.constellationnetwork.io/currency/DAG0S16WDgdAvh8VvroR6MWLdjmHYdzAF5S181xh/addresses/DAG65ZreiFNSVMGLsTTKW9kCdNvWZUZWr46eYVGa/allow-spends?active=true",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:33 GMT",
+                "via": "1.1 7ce9bf658969fea1ceecfa00e5239dd6.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "AMS58-P6",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "application/json",
+                "x-amz-cf-id": "P_kl0YH0_Ai2Nb8toJlq3XDfveIZDMR5HqYL2xLui-cml4yf9c-9xw==",
+                "content-length": "11",
+                "apigw-requestid": "UmaidjbtSK4EJQQ="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/asset"
+            ],
+            "id": "16058.176",
+            "ts": 1764074613683,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/assets/images/arrow-rounded-left.97e75d8c617fd2c789df48cc3461c896.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+                "cache-control": "no-cache",
+                "last-modified": "Mon, 03 Nov 2025 17:45:20 GMT",
+                "etag": "\"PEDJDZ1DTk+kSOkBcFbRu2cOlR4=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/asset"
+            ],
+            "id": "16058.177",
+            "ts": 1764074613684,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/assets/images/copy.c7715e07c3975ef0ad234aa8eaf0719e.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+                "cache-control": "no-cache",
+                "last-modified": "Mon, 03 Nov 2025 17:45:20 GMT",
+                "etag": "\"PEDJDZ1DTk+kSOkBcFbRu2cOlR4=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/asset"
+            ],
+            "id": "16058.178",
+            "ts": 1764074613684,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/assets/images/addressLink.21aef99212469e357b073b32cc618677.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+                "cache-control": "no-cache",
+                "last-modified": "Mon, 03 Nov 2025 17:45:20 GMT",
+                "etag": "\"PEDJDZ1DTk+kSOkBcFbRu2cOlR4=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/authRoot/tabs-root/tabs-home/asset"
+            ],
+            "id": "16058.179",
+            "ts": 1764074614144,
+            "url": "chrome-extension://omijdidbkjpaelmhekghmcnpoopejmog/assets/images/stargazer-card.3e8edf3643b5d413935bccc8c4f9732e.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+                "cache-control": "no-cache",
+                "last-modified": "Mon, 03 Nov 2025 17:45:20 GMT",
+                "etag": "\"PEDJDZ1DTk+kSOkBcFbRu2cOlR4=\"",
+                "content-type": "image/svg+xml"
+            }
+        }
+    ],
+    "success": true
+}

@@ -1,0 +1,115 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/cekclnkpicopjiagjphfoahcinhmgbjp",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/cekclnkpicopjiagjphfoahcinhmgbjp",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762299552777,
+    "end": 1762299554753
+  },
+  "extensionID": "encppmpgofobfgdkfdmlpfalkgobpmkd",
+  "serviceWorker": "background_page",
+  "walletName": "dekey",
+  "notes": "dead",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "cekclnkpicopjiagjphfoahcinhmgbjp",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "https://exts.dekey.app:9443/ledger-bridge.html",
+      "id": "135968CA256737420FE2425B7A1A1BCA",
+      "url": "https://exts.dekey.app:9443/ledger-bridge.html",
+      "type": "Document",
+      "method": "GET",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://encppmpgofobfgdkfdmlpfalkgobpmkd/background.html",
+      "id": "85617.16",
+      "url": "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:13 GMT",
+        "access-control-request-method": "*",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=15724800; includeSubdomains",
+        "content-encoding": "gzip",
+        "x-permitted-cross-domain-policies": "none",
+        "cf-cache-status": "HIT",
+        "age": "26",
+        "content-security-policy-report-only": "script-src https://accounts.google.com/gsi/client; frame-src https://accounts.google.com/gsi/; connect-src https://accounts.google.com/gsi/;",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "alternate-protocol": "443:npn-spdy/2",
+        "x-xss-protection": "0",
+        "x-request-id": "1ee0d41e-b7fd-433c-8ab7-55e5e858d675",
+        "x-runtime": "0.003279",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"622ded6b4432b705178586d5dcade31e\"",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "access-control-allow-methods": "POST, PUT, DELETE, GET, OPTIONS",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "link, per-page, total",
+        "cache-control": "max-age=30, public, must-revalidate, s-maxage=60",
+        "vary": "Accept-Encoding, Origin",
+        "cf-ray": "9997f312fea2f913-BRU",
+        "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://encppmpgofobfgdkfdmlpfalkgobpmkd/sandbox.html",
+      "id": "85617.54",
+      "url": "chrome-extension://encppmpgofobfgdkfdmlpfalkgobpmkd/worker.bundle.worker.js",
+      "type": "Other",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval'; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:22:07 GMT",
+        "etag": "\"Je9GKjTZxxQ6BMsRZFfFtRMrqz4=\"",
+        "content-type": "text/javascript"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: cekclnkpicopjiagjphfoahcinhmgbjp. Exiting..."
+}

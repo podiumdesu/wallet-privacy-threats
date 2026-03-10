@@ -1,0 +1,243 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/efbglgofoippbgcjepnhiblaibcnclgk",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/efbglgofoippbgcjepnhiblaibcnclgk",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "pathID": "efbglgofoippbgcjepnhiblaibcnclgk",
+  "timestamps": {
+    "start": 1762300175948,
+    "end": 1762300177962
+  },
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "walletName": "martian",
+  "notes": "dead",
+  "extensionID": "dlgencgdiodellmeaecfpdcfgehlinmk",
+  "password": "Default1Password1!",
+  "requests": [
+    {
+      "requestContext": ["about:blank"],
+      "id": "048AD07F48CF0427E8839A7B28E05223",
+      "url": "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/index.html",
+      "type": "Document",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-hashes' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='",
+        "content-type": "text/html",
+        "etag": "\"VUQKxBXhl6Ls1WmR2gWzrw032+w=\"",
+        "last-modified": "Wed, 04 Jan 2023 13:27:00 GMT",
+        "cache-control": "no-cache"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/onboarding/onboarding.html"
+      ],
+      "id": "91037.17",
+      "url": "data:image/png;base64,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",
+      "type": "Image",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/index.html"
+      ],
+      "id": "91037.18",
+      "url": "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/static/css/main.30058907.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-hashes' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:27:00 GMT",
+        "etag": "\"VUQKxBXhl6Ls1WmR2gWzrw032+w=\"",
+        "content-type": "text/css"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/index.html"
+      ],
+      "id": "91037.19",
+      "url": "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/static/js/4.bcabd7e6.chunk.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-hashes' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:27:00 GMT",
+        "etag": "\"VUQKxBXhl6Ls1WmR2gWzrw032+w=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/index.html"
+      ],
+      "id": "91037.20",
+      "url": "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/static/js/main.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-hashes' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:27:00 GMT",
+        "etag": "\"VUQKxBXhl6Ls1WmR2gWzrw032+w=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/index.html"
+      ],
+      "id": "91037.21",
+      "url": "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/secureMnemonicBundle.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-hashes' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:27:00 GMT",
+        "etag": "\"VUQKxBXhl6Ls1WmR2gWzrw032+w=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/index.html"
+      ],
+      "id": "91037.31",
+      "url": "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/images/logo512.png",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-hashes' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:27:00 GMT",
+        "etag": "\"VUQKxBXhl6Ls1WmR2gWzrw032+w=\"",
+        "content-type": "image/png"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/index.html"
+      ],
+      "id": "91037.25",
+      "url": "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/static/media/Migra-Extralight.dbd60d54.ttf",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "origin": "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-hashes' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:27:00 GMT",
+        "etag": "\"VUQKxBXhl6Ls1WmR2gWzrw032+w=\"",
+        "content-type": "font/ttf"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/index.html"
+      ],
+      "id": "91037.26",
+      "url": "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/static/media/system85-regular-pro.3ff15e50.ttf",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "origin": "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-hashes' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:27:00 GMT",
+        "etag": "\"VUQKxBXhl6Ls1WmR2gWzrw032+w=\"",
+        "content-type": "font/ttf"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/index.html"
+      ],
+      "id": "91037.28",
+      "url": "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk/static/media/system85-medium-pro.c16ddfbe.ttf",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "origin": "chrome-extension://dlgencgdiodellmeaecfpdcfgehlinmk",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-hashes' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:27:00 GMT",
+        "etag": "\"VUQKxBXhl6Ls1WmR2gWzrw032+w=\"",
+        "content-type": "font/ttf"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: efbglgofoippbgcjepnhiblaibcnclgk. Exiting..."
+}

@@ -1,0 +1,56 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/hnfanknocfeofbddgcijnmhnfnkdnaad",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/hnfanknocfeofbddgcijnmhnfnkdnaad",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T17-33-08",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762360389049,
+    "end": 1762360532625
+  },
+  "extensionID": "mdbcfjcohkhfhepknnbpnekhegkjceie",
+  "serviceWorker": "service_worker",
+  "walletName": "coinbase",
+  "notes": "",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "hnfanknocfeofbddgcijnmhnfnkdnaad",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://mdbcfjcohkhfhepknnbpnekhegkjceie/service.js",
+      "id": "70699.290",
+      "url": "https://dp.coinbase.com/amp",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+      },
+      "postData": "e=%5B%7B%22device_id%22%3A%222d1565cd-db1c-4fd4-ab9f-7994575bc959%22%2C%22user_id%22%3Anull%2C%22timestamp%22%3A1762360390670%2C%22event_id%22%3A1%2C%22session_id%22%3A1762360395682%2C%22event_type%22%3A%22extension.service_worker_started%22%2C%22version_name%22%3A%22qa-3.0.4%22%2C%22platform%22%3Anull%2C%22os_name%22%3Anull%2C%22os_version%22%3Anull%2C%22device_model%22%3Anull%2C%22language%22%3Anull%2C%22event_properties%22%3A%7B%22appVersion%22%3A%223.0.4%22%2C%22browserVendor%22%3A%22chrome%22%2C%22browserVersionMajor%22%3A116%2C%22chromeVersion%22%3A%22116.0.0.0%22%2C%22userAgent%22%3A%22Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F116.0.0.0+Safari%2F537.36%22%2C%22action%22%3A%22measurement%22%2C%22auth%22%3A0%2C%22component_type%22%3A%22service_worker%22%2C%22logging_id%22%3A%227b94500c-320b-4423-8ec4-32e1cddc6c52%22%2C%22platform%22%3A%22server%22%2C%22project_name%22%3A%22wallet_extension_service_worker%22%2C%22locale%22%3Anull%2C%22session_lcc_id%22%3Anull%2C%22session_uuid%22%3Anull%2C%22time_start%22%3A1762360390583%2C%22has_double_fired%22%3Afalse%2C%22height%22%3Anull%2C%22width%22%3Anull%7D%2C%22user_properties%22%3A%7B%7D%2C%22uuid%22%3A%22867b1cfb-a7bc-4371-885d-14670aa5f531%22%2C%22library%22%3A%7B%22name%22%3A%22%40cbhq%2Fclient-analytics%22%2C%22version%22%3A%225.7.0%22%7D%2C%22sequence_number%22%3A1%2C%22user_agent%22%3Anull%7D%5D&v=2&upload_time=1762360395682&client=4b5c59547a46317aee88399fdfc8f1f3&checksum=43cf9c68cba5bc25c3e1134b1329fa7d",
+      "status": 400,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 16:33:16 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "server": "cloudflare",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=klOZxQjj3SbDXBrAcZ7UQ7C5ig4sRNQZstmPRMsEseJkJyqWhY8rTGUSrYgZ%2BueAObaLD9CCrWK2plrrmVPfn3sNjHL%2F%2F9W2C2A9gIk3inlxDoJnEF4b%2BTc3pTrkhtZ5iQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "trace-id": "7269800253091402106",
+        "cf-ray": "999dc079aff7b762-BRU",
+        "content-length": "41"
+      }
+    }
+  ],
+  "success": true
+}

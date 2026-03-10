@@ -1,0 +1,595 @@
+{
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "profilePath": "./final-results/85-version/extensions/profiles_new/jiiigigdinhhgjflhljdkcelcjfmplnd",
+        "links": 10,
+        "walletPath": "./preparation/2411_unzipped_extensions/jiiigigdinhhgjflhljdkcelcjfmplnd",
+        "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T13-17-53",
+        "force": false,
+        "executablePath": "/opt/homebrew/bin/chromium"
+    },
+    "pathID": "jiiigigdinhhgjflhljdkcelcjfmplnd",
+    "timestamps": {
+        "start": 1764073076002,
+        "end": 1764073144262
+    },
+    "walletAddress": "0xd9e9160b16a16975d5fea3d61bbc3fe39adfd1bb0675ab68fec81c5a793327ae;0x3f92aef94b8b457205814d2b58ce95d94db4b285ef97c7b1d721f0942bc9eb4e;0x9aa3515c5dae34835094f2c74ffd6756c0a4fb8c6adb65d04b752320e3aa07ab",
+    "walletName": "mango",
+    "notes": "no-balance-mgo",
+    "extensionID": "mbemnagocpahmnbhgalckjigikafdooo",
+    "password": "",
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.19",
+            "ts": 1764073077505,
+            "url": "https://mainnet.mangonet.io/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "client-target-api-version": "1.11.0",
+                "client-sdk-type": "typescript",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "client-sdk-version": "0.42.0",
+                "referer": "",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":\"0\",\"method\":\"mgox_getBalance\",\"params\":[\"0xd9e9160b16a16975d5fea3d61bbc3fe39adfd1bb0675ab68fec81c5a793327ae\",\"0x2::mgo::MGO\"]}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:17:58 GMT",
+                "via": "cache13.oversea-GM-FRA13,cache02.oversea-GM-FRA12",
+                "x-tt-trace-tag": "id=5",
+                "server": "Byte-nginx",
+                "vary": "Access-Control-Request-Headers, Access-Control-Request-Method, Origin",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "x-bdcdn-cache-status": "TCP_MISS,TCP_MISS",
+                "x-request-ip": "81.164.129.169",
+                "x-response-cinfo": "81.164.129.169",
+                "x-response-cache": "miss",
+                "content-length": "122",
+                "x-request-id": "c49799696473984d08e88cf2950e3336"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.20",
+            "ts": 1764073077506,
+            "url": "https://mainnet.mangonet.io/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "client-target-api-version": "1.11.0",
+                "client-sdk-type": "typescript",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "client-sdk-version": "0.42.0",
+                "referer": "",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":\"1\",\"method\":\"mgox_getAllBalances\",\"params\":[\"0xd9e9160b16a16975d5fea3d61bbc3fe39adfd1bb0675ab68fec81c5a793327ae\"]}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:17:58 GMT",
+                "via": "cache12.oversea-GM-FRA13,cache02.oversea-GM-FRA12",
+                "x-tt-trace-tag": "id=5",
+                "server": "Byte-nginx",
+                "vary": "Access-Control-Request-Headers, Access-Control-Request-Method, Origin",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "x-bdcdn-cache-status": "TCP_MISS,TCP_MISS",
+                "x-request-ip": "81.164.129.169",
+                "x-response-cinfo": "81.164.129.169",
+                "x-response-cache": "miss",
+                "content-length": "38",
+                "x-request-id": "0d198f2632a363c7d2a3bdf2a4106dcf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.21",
+            "ts": 1764073077655,
+            "url": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/90265c9842830d44634e.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; object-src 'none'; connect-src *; font-src 'self'; img-src * data:; media-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Thu, 31 Jul 2025 21:44:44 GMT",
+                "etag": "\"8XN4aV4nDO5cROItuvLir/mRLRs=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.22",
+            "ts": 1764073077655,
+            "url": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/5dc5cc4708473be58849.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; object-src 'none'; connect-src *; font-src 'self'; img-src * data:; media-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Thu, 31 Jul 2025 21:44:44 GMT",
+                "etag": "\"8XN4aV4nDO5cROItuvLir/mRLRs=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.23",
+            "ts": 1764073077655,
+            "url": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/2701688e9b1d3ce23805.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; object-src 'none'; connect-src *; font-src 'self'; img-src * data:; media-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Thu, 31 Jul 2025 21:44:44 GMT",
+                "etag": "\"8XN4aV4nDO5cROItuvLir/mRLRs=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.24",
+            "ts": 1764073077655,
+            "url": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/10900073fe5c428db716.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; object-src 'none'; connect-src *; font-src 'self'; img-src * data:; media-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Thu, 31 Jul 2025 21:44:44 GMT",
+                "etag": "\"8XN4aV4nDO5cROItuvLir/mRLRs=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.25",
+            "ts": 1764073077655,
+            "url": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/5c75770f2719573211de.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; object-src 'none'; connect-src *; font-src 'self'; img-src * data:; media-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Thu, 31 Jul 2025 21:44:44 GMT",
+                "etag": "\"8XN4aV4nDO5cROItuvLir/mRLRs=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.26",
+            "ts": 1764073077655,
+            "url": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/5fe6b8a5e481443c659e.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; object-src 'none'; connect-src *; font-src 'self'; img-src * data:; media-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Thu, 31 Jul 2025 21:44:44 GMT",
+                "etag": "\"8XN4aV4nDO5cROItuvLir/mRLRs=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.27",
+            "ts": 1764073077656,
+            "url": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/881ac0f84f8079893678.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; object-src 'none'; connect-src *; font-src 'self'; img-src * data:; media-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Thu, 31 Jul 2025 21:44:44 GMT",
+                "etag": "\"8XN4aV4nDO5cROItuvLir/mRLRs=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.28",
+            "ts": 1764073077656,
+            "url": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/a51ac94412450e8394f8.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; object-src 'none'; connect-src *; font-src 'self'; img-src * data:; media-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Thu, 31 Jul 2025 21:44:44 GMT",
+                "etag": "\"8XN4aV4nDO5cROItuvLir/mRLRs=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.12",
+            "ts": 1764073077656,
+            "url": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/640b10a7966d94927c2e.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; object-src 'none'; connect-src *; font-src 'self'; img-src * data:; media-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Thu, 31 Jul 2025 21:44:44 GMT",
+                "etag": "\"8XN4aV4nDO5cROItuvLir/mRLRs=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.29",
+            "ts": 1764073077678,
+            "url": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/4032d1a526a732d15181.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; object-src 'none'; connect-src *; font-src 'self'; img-src * data:; media-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Thu, 31 Jul 2025 21:44:44 GMT",
+                "etag": "\"8XN4aV4nDO5cROItuvLir/mRLRs=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.30",
+            "ts": 1764073144254,
+            "url": "https://mainnet.mangonet.io/",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "client-target-api-version": "1.11.0",
+                "client-sdk-type": "typescript",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "client-sdk-version": "0.42.0",
+                "referer": "",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":\"2\",\"method\":\"mgox_getStakes\",\"params\":[\"0xd9e9160b16a16975d5fea3d61bbc3fe39adfd1bb0675ab68fec81c5a793327ae\"]}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.31",
+            "ts": 1764073144254,
+            "url": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ba17fc3faf5c4e954bb0.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.32",
+            "ts": 1764073144254,
+            "url": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/98003403f7106d3c4d7e.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.33",
+            "ts": 1764073144254,
+            "url": "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/e1a2517cfd7890eae217.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.34",
+            "ts": 1764073144254,
+            "url": "https://mainnet.mangonet.io/",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "client-target-api-version": "1.11.0",
+                "client-sdk-type": "typescript",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "client-sdk-version": "0.42.0",
+                "referer": "",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":\"3\",\"method\":\"mgox_getBalance\",\"params\":[\"0xd9e9160b16a16975d5fea3d61bbc3fe39adfd1bb0675ab68fec81c5a793327ae\",\"0x2::mgo::MGO\"]}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.35",
+            "ts": 1764073144254,
+            "url": "https://mainnet.mangonet.io/",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "client-target-api-version": "1.11.0",
+                "client-sdk-type": "typescript",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "client-sdk-version": "0.42.0",
+                "referer": "",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":\"4\",\"method\":\"mgox_getAllBalances\",\"params\":[\"0xd9e9160b16a16975d5fea3d61bbc3fe39adfd1bb0675ab68fec81c5a793327ae\"]}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.36",
+            "ts": 1764073144255,
+            "url": "https://mainnet.mangonet.io/",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "client-target-api-version": "1.11.0",
+                "client-sdk-type": "typescript",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "client-sdk-version": "0.42.0",
+                "referer": "",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":\"5\",\"method\":\"mgox_getBalance\",\"params\":[\"0xd9e9160b16a16975d5fea3d61bbc3fe39adfd1bb0675ab68fec81c5a793327ae\",\"0x2::mgo::MGO\"]}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.37",
+            "ts": 1764073144255,
+            "url": "https://mainnet.mangonet.io/",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "client-target-api-version": "1.11.0",
+                "client-sdk-type": "typescript",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "client-sdk-version": "0.42.0",
+                "referer": "",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":\"6\",\"method\":\"mgox_getAllBalances\",\"params\":[\"0xd9e9160b16a16975d5fea3d61bbc3fe39adfd1bb0675ab68fec81c5a793327ae\"]}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.38",
+            "ts": 1764073144255,
+            "url": "https://mainnet.mangonet.io/",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "client-target-api-version": "1.11.0",
+                "client-sdk-type": "typescript",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "client-sdk-version": "0.42.0",
+                "referer": "",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":\"7\",\"method\":\"mgox_getStakes\",\"params\":[\"0xd9e9160b16a16975d5fea3d61bbc3fe39adfd1bb0675ab68fec81c5a793327ae\"]}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.39",
+            "ts": 1764073144255,
+            "url": "https://mainnet.mangonet.io/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "client-target-api-version": "1.11.0",
+                "client-sdk-type": "typescript",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "client-sdk-version": "0.42.0",
+                "referer": "",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":\"8\",\"method\":\"mgox_getAllBalances\",\"params\":[\"0xd9e9160b16a16975d5fea3d61bbc3fe39adfd1bb0675ab68fec81c5a793327ae\"]}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:18:58 GMT",
+                "via": "cache11.oversea-GM-FRA13,cache02.oversea-GM-FRA12",
+                "x-tt-trace-tag": "id=5",
+                "server": "Byte-nginx",
+                "vary": "Access-Control-Request-Headers, Access-Control-Request-Method, Origin",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "x-bdcdn-cache-status": "TCP_MISS,TCP_MISS",
+                "x-request-ip": "81.164.129.169",
+                "x-response-cinfo": "81.164.129.169",
+                "x-response-cache": "miss",
+                "content-length": "38",
+                "x-request-id": "a5d8575bed5c747ed96cfffd36e76073"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mbemnagocpahmnbhgalckjigikafdooo/ui.html#/tokens"
+            ],
+            "id": "3212.40",
+            "ts": 1764073144255,
+            "url": "https://mainnet.mangonet.io/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "client-target-api-version": "1.11.0",
+                "client-sdk-type": "typescript",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "client-sdk-version": "0.42.0",
+                "referer": "",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":\"9\",\"method\":\"mgox_getBalance\",\"params\":[\"0xd9e9160b16a16975d5fea3d61bbc3fe39adfd1bb0675ab68fec81c5a793327ae\",\"0x2::mgo::MGO\"]}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:18:58 GMT",
+                "via": "cache13.oversea-GM-FRA13,cache02.oversea-GM-FRA12",
+                "x-tt-trace-tag": "id=5",
+                "server": "Byte-nginx",
+                "vary": "Access-Control-Request-Headers, Access-Control-Request-Method, Origin",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "x-bdcdn-cache-status": "TCP_MISS,TCP_MISS",
+                "x-request-ip": "81.164.129.169",
+                "x-response-cinfo": "81.164.129.169",
+                "x-response-cache": "miss",
+                "content-length": "122",
+                "x-request-id": "9aa6a2f7a552173fa528d9022217b8e5"
+            }
+        }
+    ],
+    "success": true
+}

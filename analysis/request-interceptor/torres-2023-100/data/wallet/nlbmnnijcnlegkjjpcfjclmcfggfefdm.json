@@ -1,0 +1,108 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/nlbmnnijcnlegkjjpcfjclmcfggfefdm",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/nlbmnnijcnlegkjjpcfjclmcfggfefdm",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "pathID": "nlbmnnijcnlegkjjpcfjclmcfggfefdm",
+  "timestamps": {
+    "start": 1762301944264,
+    "end": 1762301946337
+  },
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "walletName": "mewCx",
+  "notes": "dead",
+  "extensionID": "ejhfnfhpkpbbelkjemhhecbihipefefn",
+  "password": "Default1Password1!",
+  "requests": [
+    {
+      "requestContext": ["about:blank"],
+      "id": "F27B3F7D74ED6D05D11D4E9F4102CEF8",
+      "url": "chrome-extension://ejhfnfhpkpbbelkjemhhecbihipefefn/browserActionLoading.html",
+      "type": "Document",
+      "method": "GET",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://ejhfnfhpkpbbelkjemhhecbihipefefn/browserActionLoading.html"
+      ],
+      "id": "7147.11",
+      "url": "chrome-extension://ejhfnfhpkpbbelkjemhhecbihipefefn/loading.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval'; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:19:45 GMT",
+        "etag": "\"spz8J0dtpyoVFRhdnUiicAD3i5Y=\"",
+        "content-type": "text/css"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://ejhfnfhpkpbbelkjemhhecbihipefefn/browserActionLoading.html"
+      ],
+      "id": "7147.12",
+      "url": "chrome-extension://ejhfnfhpkpbbelkjemhhecbihipefefn/browserActionLoading.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval'; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:19:44 GMT",
+        "etag": "\"7i/l1nvUXeiknrd9Syw7Qdk6D14=\"",
+        "content-type": "text/css"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://ejhfnfhpkpbbelkjemhhecbihipefefn/browserActionLoading.html"
+      ],
+      "id": "7147.13",
+      "url": "chrome-extension://ejhfnfhpkpbbelkjemhhecbihipefefn/browserActionLoading.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval'; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:19:44 GMT",
+        "etag": "\"7i/l1nvUXeiknrd9Syw7Qdk6D14=\"",
+        "content-type": "text/javascript"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: nlbmnnijcnlegkjjpcfjclmcfggfefdm. Exiting..."
+}

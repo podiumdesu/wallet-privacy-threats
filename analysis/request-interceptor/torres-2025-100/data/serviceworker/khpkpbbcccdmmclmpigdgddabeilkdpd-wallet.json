@@ -1,0 +1,55 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/new_version/extensions/profiles_new/khpkpbbcccdmmclmpigdgddabeilkdpd",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets-new-version/khpkpbbcccdmmclmpigdgddabeilkdpd",
+    "destination": "./final-results/new_version/extensions/crawl_new/2025-11-07T19-32-55",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762542228405,
+    "end": 1762542234569
+  },
+  "extensionID": "fdcgjchpfhliialmddbdgpianhknabhl",
+  "serviceWorker": "service_worker",
+  "walletName": "suiet",
+  "notes": "no-balance-sui",
+  "walletAddress": "0xe1cd7f69c5263276883fb99f77720cb58b9cb30ded6594e287eaaee380321516;0x01b99471706000266427cc46aa09fb347a2fa1b957cccba9749bbafe5033ea10;0x166ffeaa5bebc005e7fd8a1a6e9ad37dabd7ebbd30d82608459ff586fb88873a",
+  "password": "Default1Password1!",
+  "pathID": "khpkpbbcccdmmclmpigdgddabeilkdpd",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://fdcgjchpfhliialmddbdgpianhknabhl/service-worker-loader.js",
+      "ts": 1762542229360,
+      "id": "58531.1",
+      "url": "https://api.suiet.app/feature-flag",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "x-suiet-client-type": "suiet-desktop-extension",
+        "referer": "",
+        "x-suiet-client-version": "0.6.3",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:03:49 GMT",
+        "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+        "server": "railway-edge",
+        "etag": "4b1eac8aa1a8bf06f8a97b55f5b3f22a",
+        "content-type": "application/json; charset=utf-8",
+        "x-railway-edge": "railway/europe-west4-drams3a",
+        "cache-control": "public, max-age=10, stale-while-revalidate=600",
+        "x-railway-request-id": "shiIZ5mUQWygkt5DN8N_Fg",
+        "cdn-cache-control": "s-max-age=10"
+      }
+    }
+  ],
+  "success": true
+}

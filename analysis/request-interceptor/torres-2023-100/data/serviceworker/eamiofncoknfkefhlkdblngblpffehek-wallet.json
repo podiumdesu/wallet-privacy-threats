@@ -1,0 +1,105 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/eamiofncoknfkefhlkdblngblpffehek",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/eamiofncoknfkefhlkdblngblpffehek",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762300055058,
+    "end": 1762300140053
+  },
+  "extensionID": "ljfhheiakbnocgkbobgjnbapjjmimoem",
+  "serviceWorker": "background_page",
+  "walletName": "verto",
+  "notes": "incorrect-balance",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "eamiofncoknfkefhlkdblngblpffehek",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ljfhheiakbnocgkbobgjnbapjjmimoem/background.html",
+      "id": "89972.2072",
+      "url": "https://volentix.b4a.io/health",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain"
+      },
+      "postData": "{\"_method\":\"GET\",\"_ApplicationId\":\"6olkjCvR0SZGZxExwEPKgBAL9O9vmeHlQ32RyK3t\",\"_JavaScriptKey\":\"UEJsZbYlxn4iXIrKsgAGWj3kLzKMxPqsSuCjQhlP\",\"_ClientVersion\":\"js3.3.1\",\"_InstallationId\":\"073d5898-9fb5-4e5e-a1b4-ba8b3d4f0625\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:47:41 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "via": "1.1 0be2654c763eb7c43127ed7a7700cebe.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "BRU50-P1",
+        "x-powered-by": "Express",
+        "x-cache": "Miss from cloudfront",
+        "x-xss-protection": "1; mode=block",
+        "server": "nginx",
+        "etag": "W/\"f-VaSQ4oDUiZblZNAEkkN+sX+q3Sg\"",
+        "access-control-max-age": "1728000",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://ljfhheiakbnocgkbobgjnbapjjmimoem",
+        "access-control-allow-methods": "GET, HEAD, OPTIONS, POST, PUT, DELETE",
+        "access-control-expose-headers": "X-Parse-Job-Status-Id",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, X-Parse-Request-Id, X-Application-ID, X-Access-Token, X-Parse-Master-Key, X-Parse-REST-API-Key, X-Parse-Javascript-Key, X-Parse-Application-Id, X-Parse-Client-Version, X-Parse-Session-Token, X-Requested-With, X-Parse-Revocable-Session, X-CSRF-Token, X-Apollo-Tracing, X-Parse-Client-Key, X-Parse-Installation-Id",
+        "x-amz-cf-id": "Yx8F7TgmCjnQ9hdlZvp3OL8NgwlsG3CU0jiL0-4F1PBJbGaH1SyHVg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ljfhheiakbnocgkbobgjnbapjjmimoem/background.html",
+      "id": "89972.2075",
+      "url": "https://volentix.b4a.io/health",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain"
+      },
+      "postData": "{\"_method\":\"GET\",\"_ApplicationId\":\"6olkjCvR0SZGZxExwEPKgBAL9O9vmeHlQ32RyK3t\",\"_JavaScriptKey\":\"UEJsZbYlxn4iXIrKsgAGWj3kLzKMxPqsSuCjQhlP\",\"_ClientVersion\":\"js3.3.1\",\"_InstallationId\":\"073d5898-9fb5-4e5e-a1b4-ba8b3d4f0625\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:47:42 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "via": "1.1 0be2654c763eb7c43127ed7a7700cebe.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "BRU50-P1",
+        "x-powered-by": "Express",
+        "x-cache": "Miss from cloudfront",
+        "x-xss-protection": "1; mode=block",
+        "server": "nginx",
+        "etag": "W/\"f-VaSQ4oDUiZblZNAEkkN+sX+q3Sg\"",
+        "access-control-max-age": "1728000",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://ljfhheiakbnocgkbobgjnbapjjmimoem",
+        "access-control-allow-methods": "GET, HEAD, OPTIONS, POST, PUT, DELETE",
+        "access-control-expose-headers": "X-Parse-Job-Status-Id",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type, X-Parse-Request-Id, X-Application-ID, X-Access-Token, X-Parse-Master-Key, X-Parse-REST-API-Key, X-Parse-Javascript-Key, X-Parse-Application-Id, X-Parse-Client-Version, X-Parse-Session-Token, X-Requested-With, X-Parse-Revocable-Session, X-CSRF-Token, X-Apollo-Tracing, X-Parse-Client-Key, X-Parse-Installation-Id",
+        "x-amz-cf-id": "wGemazg8Ud_TVd5x8GdJ_x8bvEPERkCVfeUf49ynTS9WSR-b03U-Ew=="
+      }
+    }
+  ],
+  "success": true
+}

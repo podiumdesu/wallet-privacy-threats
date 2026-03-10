@@ -1,0 +1,42 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/nejflidlpijnkcbjcoddpmoohlcmlgfe",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/nejflidlpijnkcbjcoddpmoohlcmlgfe",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "pathID": "nejflidlpijnkcbjcoddpmoohlcmlgfe",
+  "timestamps": {
+    "start": 1762301613841,
+    "end": 1762301671117
+  },
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "walletName": "ape-chef-autobidder",
+  "notes": "dead",
+  "extensionID": "ahahffmddbfhiecaclcfcocanngahhce",
+  "password": "Default1Password1!",
+  "requests": [
+    {
+      "requestContext": ["about:blank"],
+      "id": "54F7121F248DF64F44821B85A7226832",
+      "url": "chrome-extension://ahahffmddbfhiecaclcfcocanngahhce/dead",
+      "type": "Document",
+      "method": "GET",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: nejflidlpijnkcbjcoddpmoohlcmlgfe. Exiting..."
+}

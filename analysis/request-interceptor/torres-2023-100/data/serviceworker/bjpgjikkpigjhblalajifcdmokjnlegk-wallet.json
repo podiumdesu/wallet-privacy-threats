@@ -1,0 +1,163 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/bjpgjikkpigjhblalajifcdmokjnlegk",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/bjpgjikkpigjhblalajifcdmokjnlegk",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762299550544,
+    "end": 1762299552667
+  },
+  "extensionID": "bgjmopgccoiigfbngjidceceapboibbj",
+  "serviceWorker": "background_page",
+  "walletName": "lightstreams",
+  "notes": "dead",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "bjpgjikkpigjhblalajifcdmokjnlegk",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://bgjmopgccoiigfbngjidceceapboibbj/_generated_background_page.html",
+      "id": "85568.5",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=POA&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:11 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-05",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "transfer-encoding": "chunked",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "false",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://bgjmopgccoiigfbngjidceceapboibbj/_generated_background_page.html",
+      "id": "85568.6",
+      "url": "https://cdn.jsdelivr.net/gh/MetaMask/eth-phishing-detect@master/src/config.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:11 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "HIT",
+        "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "age": "29458",
+        "x-jsd-version": "master",
+        "content-encoding": "br",
+        "x-cache": "HIT, HIT",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "1325085",
+        "x-served-by": "cache-fra-eddf8230033-FRA, cache-rtm-ehrd2290025-RTM",
+        "x-jsd-version-type": "branch",
+        "server": "cloudflare",
+        "etag": "W/\"5051c4-sdJDhLIsEROggQgLD3WdZimR3qc\"",
+        "vary": "Accept-Encoding",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=%2FH5Iz6DOOyDIhG6WY7IAKg6IrPLms3EjvI7KsXSYJNkIhspB5RSTI%2FdxB2z%2Fp5v%2Fjh%2BH21EmRddDJTfueBg16Z0XDBsQoQt5v2pamsDqSY2sI30SOrzlHUrXX67Wqf7I8c0%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "*",
+        "cache-control": "public, max-age=604800, s-maxage=43200",
+        "accept-ranges": "bytes",
+        "cf-ray": "9997f3061c4bb75d-BRU",
+        "timing-allow-origin": "*"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://bgjmopgccoiigfbngjidceceapboibbj/_generated_background_page.html",
+      "id": "85568.7",
+      "url": "https://node.mainnet.lightstreams.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://bgjmopgccoiigfbngjidceceapboibbj/_generated_background_page.html",
+      "id": "85568.8",
+      "url": "https://node.mainnet.lightstreams.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":2900039404131199,\"jsonrpc\":\"2.0\",\"method\":\"net_version\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://bgjmopgccoiigfbngjidceceapboibbj/_generated_background_page.html",
+      "id": "85568.9",
+      "url": "https://node.mainnet.lightstreams.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":2900039404131200,\"jsonrpc\":\"2.0\",\"method\":\"net_version\",\"params\":[]}",
+      "responseHeaders": {}
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: bjpgjikkpigjhblalajifcdmokjnlegk. Exiting..."
+}

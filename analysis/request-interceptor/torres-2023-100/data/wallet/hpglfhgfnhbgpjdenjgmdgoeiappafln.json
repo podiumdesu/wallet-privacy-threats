@@ -1,0 +1,179 @@
+{
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "profilePath": "./final-results/old_version/extensions/profiles_new/hpglfhgfnhbgpjdenjgmdgoeiappafln",
+        "links": 10,
+        "walletPath": "./preparation/original-wallets/hpglfhgfnhbgpjdenjgmdgoeiappafln",
+        "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+        "force": false,
+        "executablePath": "/opt/homebrew/bin/chromium"
+    },
+    "pathID": "hpglfhgfnhbgpjdenjgmdgoeiappafln",
+    "timestamps": {
+        "start": 1762300877507,
+        "end": 1762300952968
+    },
+    "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+    "walletName": "guarda",
+    "notes": "",
+    "extensionID": "ehigndophchhpeoefonkmlmpejbhhlnf",
+    "password": "",
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "5BA1C6FB20DF42EA55B9F10EF4AFADBF",
+            "url": "chrome-extension://ehigndophchhpeoefonkmlmpejbhhlnf/popup.html",
+            "type": "Document",
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ehigndophchhpeoefonkmlmpejbhhlnf/popup.html"
+            ],
+            "id": "97464.2",
+            "url": "chrome-extension://ehigndophchhpeoefonkmlmpejbhhlnf/src/popup.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:06 GMT",
+                "etag": "\"lo2KnmflViI2xG4c+R8jA21PQfM=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "",
+                "chrome-extension://ehigndophchhpeoefonkmlmpejbhhlnf/popup.html"
+            ],
+            "id": "46446A7DCD8E71F5C5B3CA12F99E55CB",
+            "url": "https://guarda.co/app/extension",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+                "cache-tf": "3dfa629a-b4bc-4612-9205-c04d2c8a697f",
+                "cf-cache-status": "DYNAMIC",
+                "cf-ray": "9998136b6c99ba5d-BRU",
+                "content-encoding": "br",
+                "content-type": "text/html",
+                "date": "Wed, 05 Nov 2025 00:01:18 GMT",
+                "expires": "Wed, 05 Nov 2025 00:01:17 GMT",
+                "last-modified": "Wednesday, 05-Nov-2025 00:01:18 GMT",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "vary": "accept-encoding",
+                "x-content-type-options": "nosniff"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ehigndophchhpeoefonkmlmpejbhhlnf/popup.html"
+            ],
+            "id": "58BDC5870B6DE0E05475511810A83B3D",
+            "url": "chrome-extension://ehigndophchhpeoefonkmlmpejbhhlnf/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "content-type": "text/html",
+                "etag": "\"lo2KnmflViI2xG4c+R8jA21PQfM=\"",
+                "last-modified": "Wed, 04 Jan 2023 13:07:06 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ehigndophchhpeoefonkmlmpejbhhlnf/popup.html"
+            ],
+            "id": "97464.5",
+            "url": "chrome-extension://ehigndophchhpeoefonkmlmpejbhhlnf/src/popup.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:06 GMT",
+                "etag": "\"lo2KnmflViI2xG4c+R8jA21PQfM=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "",
+                "chrome-extension://ehigndophchhpeoefonkmlmpejbhhlnf/popup.html"
+            ],
+            "id": "53040002010412A55B17C235EC8118C2",
+            "url": "https://guarda.co/app/extension",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+                "cache-tf": "3dfa629a-b4bc-4612-9205-c04d2c8a697f",
+                "cf-cache-status": "DYNAMIC",
+                "cf-ray": "999813cf2e81ba5d-BRU",
+                "content-encoding": "br",
+                "content-type": "text/html",
+                "date": "Wed, 05 Nov 2025 00:01:34 GMT",
+                "expires": "Wed, 05 Nov 2025 00:01:33 GMT",
+                "last-modified": "Wednesday, 05-Nov-2025 00:01:34 GMT",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+                "vary": "accept-encoding",
+                "x-content-type-options": "nosniff"
+            }
+        }
+    ],
+    "success": true
+}

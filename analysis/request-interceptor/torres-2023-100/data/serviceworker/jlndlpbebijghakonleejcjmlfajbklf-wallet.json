@@ -1,0 +1,1411 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/jlndlpbebijghakonleejcjmlfajbklf",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/jlndlpbebijghakonleejcjmlfajbklf",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762301156198,
+    "end": 1762301197395
+  },
+  "extensionID": "hnpjdkkceoodbjfapagodaingddhnhdf",
+  "serviceWorker": "service_worker",
+  "walletName": "timebit",
+  "notes": "incorrect-balance-multi-chain-see-balance",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "jlndlpbebijghakonleejcjmlfajbklf",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.56",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"btc\",\"symbol\":\"btc\",\"address\":\"1DRpzZvyTLYcuiy43gsYoLqeAts8r48baL\",\"name\":\"Bitcoin\",\"isTestnet\":false,\"decimals\":null}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.57",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"eth\",\"symbol\":\"eth\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Ethereum\",\"isTestnet\":false,\"decimals\":18}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.58",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"bnb\",\"symbol\":\"bnb\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Binace\",\"isTestnet\":false,\"decimals\":18}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.59",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"sol\",\"symbol\":\"sol\",\"address\":\"DBLwsdi5eh6gjsCq4ENGmsoawsz8vmhYvaiBaYooJWWx\",\"name\":\"Solana\",\"isTestnet\":false,\"decimals\":9}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.60",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"trx\",\"symbol\":\"trx\",\"address\":\"TQ2RQanSSj6TKi38mCEuhu18Fx1mJVxZBy\",\"name\":\"Tron\",\"isTestnet\":false,\"decimals\":null}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.61",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"theta\",\"symbol\":\"theta\",\"address\":\"0x8f36a3B1528C850EdB37Cfbe3446c82589087d26\",\"name\":\"Theta\",\"isTestnet\":false,\"decimals\":null}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.62",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"tfuel\",\"symbol\":\"tfuel\",\"address\":\"0x8f36a3B1528C850EdB37Cfbe3446c82589087d26\",\"name\":\"Theta\",\"isTestnet\":false,\"decimals\":null}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.63",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"doge\",\"symbol\":\"doge\",\"address\":\"D6Gp1VxzUcahRb5m4DPDvjpknzQibqgzXS\",\"name\":\"Doge\",\"isTestnet\":false,\"decimals\":null}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.64",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"dot\",\"symbol\":\"dot\",\"address\":\"15V96rEwurNPkKhKRobwhA3UPJnpcvRfbsEwc3zx3nSYJtNd\",\"name\":\"Dot\",\"isTestnet\":false,\"decimals\":null}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.68",
+      "url": "https://rpc-testnet.tbcscan.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.69",
+      "url": "https://mainnet.aurora.dev/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "cache-status": "Terminator; hit",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4BTItd0vzULvxbx8fCUuhIyqBdBP2e036IL5L8F%2FhZPLvrMQ%2F3DTKPk48QQQTSxkQmQSOMssLnAPLAiOnJaALL%2FKyowX1Vu6ZPxHQUMM1fM%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99981a710894b76b-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.70",
+      "url": "https://rpc.ftm.tools/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "04cd52f8c4e23a674d134ebd00ec0397",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.72",
+      "url": "https://rpc.kardiachain.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=2592000; includeSubDomains",
+        "server-timing": "cfExtPri, cfL4;desc=\"?proto=QUIC&rtt=19147&min_rtt=18084&rtt_var=4472&sent=11&recv=10&lost=0&retrans=0&sent_bytes=2978&recv_bytes=2046&delivery_rate=110294&ipace=0&icwnd=12000&ss_exit_cwnd=0&ss_exit_bw=0&ss_exit_reason=0&cwnd=14734&unsent_bytes=0&cid=2a7b506e17741253&ts=362&inflight_dur=107&x=125\"",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "66",
+        "x-xss-protection": "1; mode=block",
+        "referrer-policy": "same-origin",
+        "server": "cloudflare",
+        "expect-ct": "max-age=86400, enforce",
+        "vary": "Origin, accept-encoding",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=0q8ACv7L3m3hlKgSpzyYlwxPZ0QEZ3RS%2BeNWxU2sY4N1NH%2BfpGLTgpZBl0CW3OmUf0P1LlnP8Mr8x3pWCnjrS2YHBaJ72XFvWQneGhvdMO6tIkolCgYZUTaMrW3xYJi3DBZIOp8%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "cf-ray": "99981a70e8ea7a95-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.73",
+      "url": "https://polygon-rpc.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "7ab841a71f10ad0affac51af7cf2c1d0",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.74",
+      "url": "https://api.avax.network/ext/bc/C/rpc",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "strict-transport-security": "max-age=0",
+        "server": "cloudflare",
+        "vary": "Origin, Accept-Encoding",
+        "x-cache": "HIT",
+        "content-type": "application/json;charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf",
+        "x-execution-weight": "free",
+        "cache-control": "private, no-cache",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "99981a70ee8fb77a-BRU",
+        "x-robots-tag": "noindex",
+        "content-length": "43"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.75",
+      "url": "https://polygon-rpc.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "3b710495a88b891cdb090832dbac3da4",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.76",
+      "url": "https://api.avax.network/ext/bc/C/rpc",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "strict-transport-security": "max-age=0",
+        "server": "cloudflare",
+        "vary": "Origin, Accept-Encoding",
+        "x-cache": "HIT",
+        "content-type": "application/json;charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf",
+        "x-execution-weight": "free",
+        "cache-control": "private, no-cache",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "99981a713eaab77a-BRU",
+        "x-robots-tag": "noindex",
+        "content-length": "43"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.77",
+      "url": "https://rpc-testnet.tbcscan.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.78",
+      "url": "https://polygon-rpc.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "0d7f94f4e701b8c9989f0c0f13dcd40c",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "64"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.79",
+      "url": "https://api.avax.network/ext/bc/C/rpc",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "strict-transport-security": "max-age=0",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "vary": "Origin, Accept-Encoding",
+        "x-cache": "MISS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf",
+        "x-execution-weight": "cheap",
+        "cache-control": "private, no-cache",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "99981a716eb9b77a-BRU",
+        "x-robots-tag": "noindex",
+        "content-length": "40"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.80",
+      "url": "https://mainnet.aurora.dev/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "cache-status": "Terminator; hit",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2F3WFxZvKP2OiGosDf0N6mmRvWwMf9qtFfEP%2F5qATFltE%2FmueX0bCiUqI9AC3TZwckaaaeTbWsQvejO5jasb2JYhn9cYsvCxJSfYr7AMJ2eg%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99981a717897b76b-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.81",
+      "url": "https://rpc.ftm.tools/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "9df015e96112012bfa86cf4bb5d72a76",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.83",
+      "url": "https://rpc.ftm.tools/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "c38a98bbd217bb3a97819ac43d74a31d",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.84",
+      "url": "https://rpc-testnet.tbcscan.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.85",
+      "url": "https://mainnet.aurora.dev/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=pdEm16IkDz0Cl8nQfIaFkepi2aq1vSAZecxNKSgYEk%2FVkx5CgrKQ2Vh2jX9nOqpBytaKvy8DnruKPAvXwm7pgz%2B1VYef0mNTwDQu5Njd7u8%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99981a71f89bb76b-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.86",
+      "url": "https://rpc.ftm.tools/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":45,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "12bd6a1b13c27f91a5e4c9bfddc08060",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.88",
+      "url": "https://rpc-testnet.tbcscan.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":45,\"jsonrpc\":\"2.0\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.91",
+      "url": "https://rpc.kardiachain.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:06 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=2592000; includeSubDomains",
+        "server-timing": "cfExtPri, cfL4;desc=\"?proto=QUIC&rtt=19362&min_rtt=18084&rtt_var=3784&sent=14&recv=12&lost=0&retrans=0&sent_bytes=3895&recv_bytes=2451&delivery_rate=110294&ipace=0&icwnd=12000&ss_exit_cwnd=0&ss_exit_bw=0&ss_exit_reason=0&cwnd=15605&unsent_bytes=0&cid=2a7b506e17741253&ts=707&inflight_dur=128&x=125\"",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "66",
+        "x-xss-protection": "1; mode=block",
+        "referrer-policy": "same-origin",
+        "server": "cloudflare",
+        "expect-ct": "max-age=86400, enforce",
+        "vary": "Origin, accept-encoding",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=xta2TEaThwM5qVR3kPaX5xxjxCON7Y7E3klZjYTn09kwrGzOOOpqLjI9o84TNPkDN%2Bs1JEcMdSi2yG4hu0o8lpHmAU4DsW%2BztuUjgY0ymlhNrpoaLQkbpSsC4q5Tiwk0oeqzvWo%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "cf-ray": "99981a7329017a95-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.92",
+      "url": "https://rpc.kardiachain.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:07 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=2592000; includeSubDomains",
+        "server-timing": "cfExtPri, cfL4;desc=\"?proto=QUIC&rtt=19343&min_rtt=18084&rtt_var=2875&sent=17&recv=14&lost=0&retrans=0&sent_bytes=4776&recv_bytes=2914&delivery_rate=110294&ipace=0&icwnd=12000&ss_exit_cwnd=0&ss_exit_bw=0&ss_exit_reason=0&cwnd=16440&unsent_bytes=0&cid=2a7b506e17741253&ts=1050&inflight_dur=152&x=125\"",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "65",
+        "x-xss-protection": "1; mode=block",
+        "referrer-policy": "same-origin",
+        "server": "cloudflare",
+        "expect-ct": "max-age=86400, enforce",
+        "vary": "Origin, accept-encoding",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=i4tu2AmYyq4aU2ygmu%2Fy%2FNPzACRhd5CpWr7bTEX7sdONnV6%2FMlqbxd5ED%2B%2BbZyJfvZezRssVBqNgMZlsY8YZHyohmYhhNGG3J7DEZgPippfmJcQ5LFVq8xbR4oQNdvWbeEw%2BQCw%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "cf-ray": "99981a7559177a95-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.143",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"btc\",\"symbol\":\"btc\",\"address\":\"1DRpzZvyTLYcuiy43gsYoLqeAts8r48baL\",\"name\":\"Bitcoin\",\"isTestnet\":false,\"decimals\":null}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.144",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"eth\",\"symbol\":\"eth\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Ethereum\",\"isTestnet\":false,\"decimals\":18}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.145",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"bnb\",\"symbol\":\"bnb\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Binace\",\"isTestnet\":false,\"decimals\":18}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.146",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"sol\",\"symbol\":\"sol\",\"address\":\"DBLwsdi5eh6gjsCq4ENGmsoawsz8vmhYvaiBaYooJWWx\",\"name\":\"Solana\",\"isTestnet\":false,\"decimals\":9}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.147",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"trx\",\"symbol\":\"trx\",\"address\":\"TQ2RQanSSj6TKi38mCEuhu18Fx1mJVxZBy\",\"name\":\"Tron\",\"isTestnet\":false,\"decimals\":null}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.148",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"theta\",\"symbol\":\"theta\",\"address\":\"0x8f36a3B1528C850EdB37Cfbe3446c82589087d26\",\"name\":\"Theta\",\"isTestnet\":false,\"decimals\":null}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.149",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"tfuel\",\"symbol\":\"tfuel\",\"address\":\"0x8f36a3B1528C850EdB37Cfbe3446c82589087d26\",\"name\":\"Theta\",\"isTestnet\":false,\"decimals\":null}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.150",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"doge\",\"symbol\":\"doge\",\"address\":\"D6Gp1VxzUcahRb5m4DPDvjpknzQibqgzXS\",\"name\":\"Doge\",\"isTestnet\":false,\"decimals\":null}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.151",
+      "url": "https://gateway.timebird.network/api/v1/balance",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"code\":\"dot\",\"symbol\":\"dot\",\"address\":\"15V96rEwurNPkKhKRobwhA3UPJnpcvRfbsEwc3zx3nSYJtNd\",\"name\":\"Dot\",\"isTestnet\":false,\"decimals\":null}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.167",
+      "url": "https://rpc-testnet.tbcscan.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.168",
+      "url": "https://mainnet.aurora.dev/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "cache-status": "Terminator; hit",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=SUengMO9QEowvhTAzwzQ0QslzjbkSpYNA3%2FB%2FHXj4NjwGrOfAfz%2Bo7yA8giHwWx%2B%2BvYAnlO6IH6REr%2FSKHqkd5ccJE%2FVsL3lWUfUXCliNGA%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99981a86092fb76b-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.169",
+      "url": "https://rpc.ftm.tools/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "a7604427bdc316552cb09b3083a25095",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.170",
+      "url": "https://rpc.kardiachain.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=2592000; includeSubDomains",
+        "server-timing": "cfExtPri, cfL4;desc=\"?proto=QUIC&rtt=19620&min_rtt=18084&rtt_var=2710&sent=20&recv=17&lost=0&retrans=0&sent_bytes=5663&recv_bytes=3358&delivery_rate=110294&ipace=0&icwnd=12000&ss_exit_cwnd=0&ss_exit_bw=0&ss_exit_reason=0&cwnd=17281&unsent_bytes=0&cid=2a7b506e17741253&ts=3730&inflight_dur=199&x=125\"",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "66",
+        "x-xss-protection": "1; mode=block",
+        "referrer-policy": "same-origin",
+        "server": "cloudflare",
+        "expect-ct": "max-age=86400, enforce",
+        "vary": "Origin, accept-encoding",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=uOT80XaQE7g92zpAX9lm1ho%2B%2F1G6gCX7qhl8ZY1kNScnQx1yyKLPo8FCELSadOJ3Qgg6l023WMd2ckNVCcqsUssgo0toLYtpIekKP6mF5foEWFsUPDtlA3OQnjoACEh%2BntHLHtU%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "cf-ray": "99981a860a257a95-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.171",
+      "url": "https://polygon-rpc.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "e93027a10c760fc84f6329b4b694913f",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.172",
+      "url": "https://api.avax.network/ext/bc/C/rpc",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "strict-transport-security": "max-age=0",
+        "server": "cloudflare",
+        "vary": "Origin, Accept-Encoding",
+        "x-cache": "HIT",
+        "content-type": "application/json;charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf",
+        "x-execution-weight": "free",
+        "cache-control": "private, no-cache",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "99981a8608acb77a-BRU",
+        "x-robots-tag": "noindex",
+        "content-length": "43"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.173",
+      "url": "https://rpc.ftm.tools/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "e7e263c82005ddda646ee7a0b1631945",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.174",
+      "url": "https://polygon-rpc.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "f9e7b285bac4351c8ff0e547a4214ddd",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.175",
+      "url": "https://api.avax.network/ext/bc/C/rpc",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "strict-transport-security": "max-age=0",
+        "server": "cloudflare",
+        "vary": "Origin, Accept-Encoding",
+        "x-cache": "HIT",
+        "content-type": "application/json;charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf",
+        "x-execution-weight": "free",
+        "cache-control": "private, no-cache",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "99981a8648c3b77a-BRU",
+        "x-robots-tag": "noindex",
+        "content-length": "43"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.176",
+      "url": "https://rpc.ftm.tools/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "5775c11c820af9aeb349616c9a852918",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.177",
+      "url": "https://polygon-rpc.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "ef37b3079e4effd205bfb602aa1e5faf",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "64"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.179",
+      "url": "https://api.avax.network/ext/bc/C/rpc",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "strict-transport-security": "max-age=0",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "vary": "Origin, Accept-Encoding",
+        "x-cache": "MISS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf",
+        "x-execution-weight": "cheap",
+        "cache-control": "private, no-cache",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "99981a8678dcb77a-BRU",
+        "x-robots-tag": "noindex",
+        "content-length": "40"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.180",
+      "url": "https://mainnet.aurora.dev/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "cache-status": "Terminator; hit",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2Bc1jNo3Exwxo6CETZniYf9yTAViE7NbmWhrA3WxDoAny8mM6V1ge%2BNI4FzqWrDE6FqhDyAK3Fuzglbv7nmAdAfv9Ro3uEE4fz7THNTt517Q%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99981a868932b76b-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.181",
+      "url": "https://rpc-testnet.tbcscan.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.182",
+      "url": "https://rpc.ftm.tools/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":45,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "2b7f2881e4786c16b971486d446695e4",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.185",
+      "url": "https://mainnet.aurora.dev/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:09 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Us%2F3pf4xktmbDzpegq84PefcOTVLk6zoz4J%2B%2BpyTcx0DEWFPy3PsLkPsTxhxk86idjOrLu9zqUq0V%2F08xeMvCzPwaKN7Wc%2FDBVWq6IxfDws%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99981a86f93bb76b-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.186",
+      "url": "https://rpc-testnet.tbcscan.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.188",
+      "url": "https://rpc-testnet.tbcscan.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":45,\"jsonrpc\":\"2.0\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.189",
+      "url": "https://rpc.kardiachain.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:10 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=2592000; includeSubDomains",
+        "server-timing": "cfExtPri, cfL4;desc=\"?proto=QUIC&rtt=19718&min_rtt=18084&rtt_var=2227&sent=23&recv=19&lost=0&retrans=0&sent_bytes=6543&recv_bytes=3764&delivery_rate=110294&ipace=0&icwnd=12000&ss_exit_cwnd=0&ss_exit_bw=0&ss_exit_reason=0&cwnd=18115&unsent_bytes=0&cid=2a7b506e17741253&ts=4074&inflight_dur=219&x=125\"",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "66",
+        "x-xss-protection": "1; mode=block",
+        "referrer-policy": "same-origin",
+        "server": "cloudflare",
+        "expect-ct": "max-age=86400, enforce",
+        "vary": "Origin, accept-encoding",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=ca61PIiHAH4bc4WVnjybmYWd1dJZCg0tvF81%2BjKPBOj%2FHrYe%2FmnbbuqeV0VyFlvJbZ9BqbPFirv%2BXUn%2FEAmy3PKZeqyIb4Ny4g1vKWXtMoH53My5PPl93KsjGkyNO6Fj9MhJ4w4%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "cf-ray": "99981a883a337a95-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnpjdkkceoodbjfapagodaingddhnhdf/js/background.js",
+      "id": "99923.190",
+      "url": "https://rpc.kardiachain.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:06:10 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=2592000; includeSubDomains",
+        "server-timing": "cfExtPri, cfL4;desc=\"?proto=QUIC&rtt=19880&min_rtt=18084&rtt_var=1995&sent=26&recv=21&lost=0&retrans=0&sent_bytes=7429&recv_bytes=4227&delivery_rate=110294&ipace=0&icwnd=12000&ss_exit_cwnd=0&ss_exit_bw=0&ss_exit_reason=0&cwnd=18955&unsent_bytes=0&cid=2a7b506e17741253&ts=4419&inflight_dur=240&x=125\"",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "65",
+        "x-xss-protection": "1; mode=block",
+        "referrer-policy": "same-origin",
+        "server": "cloudflare",
+        "expect-ct": "max-age=86400, enforce",
+        "vary": "Origin, accept-encoding",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=yc8MPTvU2y%2BZ%2Bt4%2B9wMhETX34tcj3HI4uMEhYS4t%2BHvx9kDofbEeog%2BgNTDT%2BhJsBI1ksQaUH%2F8%2FiCyDV6BRPFA%2FfbS8j8BwphK029m3HuTyvS1enA0fWaU2Sew1K%2BjC%2FT5M%2BXU%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "cf-ray": "99981a8a5a517a95-BRU",
+        "priority": "u=1,i"
+      }
+    }
+  ],
+  "success": true
+}

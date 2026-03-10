@@ -1,0 +1,1458 @@
+{
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "profilePath": "./final-results/85-version/extensions/profiles_new/hfajfpbjlmembfdlhakjmefnbhjddofb",
+        "links": 10,
+        "walletPath": "./preparation/2411_unzipped_extensions/hfajfpbjlmembfdlhakjmefnbhjddofb",
+        "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T13-17-53",
+        "force": false,
+        "executablePath": "/opt/homebrew/bin/chromium"
+    },
+    "pathID": "hfajfpbjlmembfdlhakjmefnbhjddofb",
+    "timestamps": {
+        "start": 1764075233839,
+        "end": 1764075264064
+    },
+    "walletAddress": "UQBmmXUs_CGxd5a2g0-Qemsr09-SNfJX2G7UFn-7Z85eF_24;UQATGNZuq1e1z8FhzA05_QNDicSdQr-Ni8-r9X_cIpo_ftJF;UQD6IkTOyBKRn3RwbWOWviChX5AbihlgIvNqi9Hv4Nu1_55O",
+    "walletName": "ion",
+    "notes": "no-balance-ion",
+    "extensionID": "mlldokmmkjfmlecaeeflnbhagamkoenb",
+    "password": "",
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "943EAF3A47652616FE3962ACA5032384",
+            "ts": 1764075238228,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "content-type": "text/html",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.2",
+            "ts": 1764075238258,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/static/js/main.7673cf83.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.4",
+            "ts": 1764075238430,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/ion-logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.6",
+            "ts": 1764075238452,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/static/js/642.30588e36.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.7",
+            "ts": 1764075238452,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/static/js/775.fa00c215.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.8",
+            "ts": 1764075238453,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/static/js/134.88af47eb.chunk.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.9",
+            "ts": 1764075238453,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/static/js/927.b24218b8.chunk.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.15",
+            "ts": 1764075238453,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/ledger.png",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.20",
+            "ts": 1764075238498,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"getAddressBalance\",\"params\":{\"address\":\"EQBmmXUs_CGxd5a2g0-Qemsr09-SNfJX2G7UFn-7Z85eF6B9\"}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:53:59 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "server-timing": "cfExtPri",
+                "cf-ray": "9a414ac1590c863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i",
+                "alt-svc": "h3=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.21",
+            "ts": 1764075238499,
+            "url": "https://raw.githubusercontent.com/ice-blockchain/wallets-list/refs/heads/master/lion-square-rounded.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "6143dd5734521e108c7ec4d9f194b2aa3e4ddb04",
+                "date": "Tue, 25 Nov 2025 12:53:58 GMT",
+                "via": "1.1 varnish",
+                "x-content-type-options": "nosniff",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "content-encoding": "gzip",
+                "expires": "Tue, 25 Nov 2025 12:58:58 GMT",
+                "x-cache": "MISS",
+                "cross-origin-resource-policy": "cross-origin",
+                "content-length": "1250",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-bru1480044-BRU",
+                "x-github-request-id": "6552:36598B:18543D6:19BF49D:6925918A",
+                "x-timer": "S1764075239.622859,VS0,VE134",
+                "etag": "W/\"f44041a73b0eaca32b9abfcacab59b458d126d6ce2318ecc6386b22fd44cf619\"",
+                "source-age": "0",
+                "vary": "Authorization,Accept-Encoding",
+                "x-frame-options": "deny",
+                "content-type": "image/svg+xml",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "x-cache-hits": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.22",
+            "ts": 1764075238499,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"runGetMethod\",\"params\":{\"address\":\"EQDRo0HKsnZeP9jY3gwlQPwq3kQbJtZ-xtNpVlHwCHeK_bzV\",\"method\":\"get_wallet_data\",\"stack\":[]}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:53:59 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "server-timing": "cfExtPri",
+                "cf-ray": "9a414ac15907863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i",
+                "alt-svc": "h3=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.23",
+            "ts": 1764075238499,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "x-ton-client-version": "13.9.0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":\"1\",\"jsonrpc\":\"2.0\",\"method\":\"runGetMethod\",\"params\":{\"address\":\"EQACbwI38RnvclU5Wv6H9zDr8Ao_tq9NWilXxBmoE8yroZlF\",\"method\":\"get_jetton_data\",\"stack\":[]}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:53:59 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "server-timing": "cfExtPri",
+                "cf-ray": "9a414ac15911863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i",
+                "alt-svc": "h3=\":443\"; ma=86400"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.24",
+            "ts": 1764075239165,
+            "url": "https://api.coingecko.com/api/v3/simple/price?ids=ice&vs_currencies=usd",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:53:59 GMT",
+                "access-control-request-method": "*",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=15724800; includeSubdomains",
+                "content-encoding": "gzip",
+                "x-permitted-cross-domain-policies": "none",
+                "cf-cache-status": "HIT",
+                "content-security-policy-report-only": "script-src https://accounts.google.com/gsi/client; frame-src https://accounts.google.com/gsi/; connect-src https://accounts.google.com/gsi/;",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "alternate-protocol": "443:npn-spdy/2",
+                "x-xss-protection": "0",
+                "x-request-id": "d6b41e16-16ef-40e8-a15e-3b1fd406b12e",
+                "x-runtime": "0.007525",
+                "referrer-policy": "strict-origin-when-cross-origin",
+                "server": "cloudflare",
+                "etag": "W/\"2039858ce5bf9bf7f8e1e279d947f69f\"",
+                "x-download-options": "noopen",
+                "x-frame-options": "SAMEORIGIN",
+                "access-control-allow-methods": "POST, PUT, DELETE, GET, OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "link, per-page, total",
+                "cache-control": "max-age=30, public, must-revalidate, s-maxage=60",
+                "vary": "Accept-Encoding, Origin",
+                "cf-ray": "9a414ac578b8555b-BRU",
+                "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.25",
+            "ts": 1764075239171,
+            "url": "https://api.dedust.io/v2/pools",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:01 GMT",
+                "content-encoding": "gzip",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "access-control-max-age": "86400",
+                "vary": "accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-methods": "GET, OPTIONS, POST",
+                "cache-control": "no-cache",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414ac5dfd8555b-BRU",
+                "access-control-allow-headers": "*"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.26",
+            "ts": 1764075239391,
+            "url": "https://raw.githubusercontent.com/catchain/metadata/refs/heads/main/ion/staking/LION.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "a57750d926c61daa7d2d5e445947ef6503c1eb78",
+                "date": "Tue, 25 Nov 2025 12:53:59 GMT",
+                "via": "1.1 varnish",
+                "x-content-type-options": "nosniff",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "content-encoding": "gzip",
+                "expires": "Tue, 25 Nov 2025 12:58:59 GMT",
+                "x-cache": "MISS",
+                "cross-origin-resource-policy": "cross-origin",
+                "content-length": "163",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-bru1480044-BRU",
+                "x-github-request-id": "0B9F:1B516B:181FF58:19C9B08:69259189",
+                "x-timer": "S1764075239.443314,VS0,VE123",
+                "etag": "W/\"22075944f52145c823f570f7a8c64feaf352d69db247a91bac0301b2f60de4b3\"",
+                "source-age": "0",
+                "vary": "Authorization,Accept-Encoding",
+                "x-frame-options": "deny",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "x-cache-hits": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.27",
+            "ts": 1764075239532,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "x-ton-client-version": "13.9.0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":\"1\",\"jsonrpc\":\"2.0\",\"method\":\"runGetMethod\",\"params\":{\"address\":\"EQACbwI38RnvclU5Wv6H9zDr8Ao_tq9NWilXxBmoE8yroZlF\",\"method\":\"get_wallet_address\",\"stack\":[[\"tvm.Slice\",\"te6cckEBAQEAJAAAQ4AM0y6ln4Q2LvLW0GnyD01lenvyRr5K+w3ags/3bPnLwvAKq7Ot\"]]}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:00 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414ac76f87863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.28",
+            "ts": 1764075240218,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "x-ton-client-version": "13.9.0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":\"1\",\"jsonrpc\":\"2.0\",\"method\":\"runGetMethod\",\"params\":{\"address\":\"EQDRo0HKsnZeP9jY3gwlQPwq3kQbJtZ-xtNpVlHwCHeK_bzV\",\"method\":\"get_wallet_data\",\"stack\":[]}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:00 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414acbb990863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.29",
+            "ts": 1764075240310,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"getAddressBalance\",\"params\":{\"address\":\"EQBmmXUs_CGxd5a2g0-Qemsr09-SNfJX2G7UFn-7Z85eF6B9\"}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:00 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414acc4ae7863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.30",
+            "ts": 1764075240687,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"runGetMethod\",\"params\":{\"address\":\"EQDRo0HKsnZeP9jY3gwlQPwq3kQbJtZ-xtNpVlHwCHeK_bzV\",\"method\":\"get_wallet_data\",\"stack\":[]}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:01 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414acea84d863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.31",
+            "ts": 1764075242129,
+            "url": "https://app.ston.fi/rpc",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":1764075242128,\"method\":\"asset.list\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:02 GMT",
+                "content-encoding": "gzip",
+                "strict-transport-security": "max-age=2592000; includeSubDomains",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "vary": "Origin, accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cf-ray": "9a414ad82b44b750-BRU",
+                "content-length": "102"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.32",
+            "ts": 1764075242308,
+            "url": "https://app.ston.fi/rpc",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":1764075242307,\"method\":\"pool.list\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:02 GMT",
+                "content-encoding": "gzip",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=2592000; includeSubDomains",
+                "vary": "Origin, accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cf-ray": "9a414ad8cc1eb750-BRU",
+                "content-length": "264003"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.33",
+            "ts": 1764075243279,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"runGetMethod\",\"params\":{\"address\":\"EQDRo0HKsnZeP9jY3gwlQPwq3kQbJtZ-xtNpVlHwCHeK_bzV\",\"method\":\"get_wallet_data\",\"stack\":[]}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:04 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414adec823863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.34",
+            "ts": 1764075248078,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"runGetMethod\",\"params\":{\"address\":\"EQDRo0HKsnZeP9jY3gwlQPwq3kQbJtZ-xtNpVlHwCHeK_bzV\",\"method\":\"get_wallet_data\",\"stack\":[]}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:08 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414afcda61863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "DDA633BAD84985E654519FF8824C9DBD",
+            "ts": 1764075257439,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "content-type": "text/html",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.36",
+            "ts": 1764075257457,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/static/js/main.7673cf83.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.38",
+            "ts": 1764075257500,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/ion-logo.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.40",
+            "ts": 1764075257506,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/ion-logo.svg",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.41",
+            "ts": 1764075257516,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/static/js/642.30588e36.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.42",
+            "ts": 1764075257517,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/static/js/775.fa00c215.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.43",
+            "ts": 1764075257517,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/static/js/134.88af47eb.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.44",
+            "ts": 1764075257517,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/static/js/927.b24218b8.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.45",
+            "ts": 1764075257517,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/ledger.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.47",
+            "ts": 1764075257517,
+            "url": "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/ion-logo.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Sat, 10 May 2025 06:49:30 GMT",
+                "etag": "\"b/aJYKMwPBNwm3XXpC7omOHmcZI=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.52",
+            "ts": 1764075257536,
+            "url": "https://raw.githubusercontent.com/ice-blockchain/wallets-list/refs/heads/master/lion-square-rounded.svg",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.56",
+            "ts": 1764075257536,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"getAddressBalance\",\"params\":{\"address\":\"EQBmmXUs_CGxd5a2g0-Qemsr09-SNfJX2G7UFn-7Z85eF6B9\"}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:17 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414b37ead3863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.57",
+            "ts": 1764075257536,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"runGetMethod\",\"params\":{\"address\":\"EQDRo0HKsnZeP9jY3gwlQPwq3kQbJtZ-xtNpVlHwCHeK_bzV\",\"method\":\"get_wallet_data\",\"stack\":[]}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:18 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414b37ead5863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.58",
+            "ts": 1764075257536,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "x-ton-client-version": "13.9.0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":\"1\",\"jsonrpc\":\"2.0\",\"method\":\"runGetMethod\",\"params\":{\"address\":\"EQACbwI38RnvclU5Wv6H9zDr8Ao_tq9NWilXxBmoE8yroZlF\",\"method\":\"get_jetton_data\",\"stack\":[]}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:18 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414b37ead7863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.59",
+            "ts": 1764075257949,
+            "url": "https://api.coingecko.com/api/v3/simple/price?ids=ice&vs_currencies=usd",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:53:59 GMT",
+                "access-control-request-method": "*",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "HIT",
+                "content-encoding": "gzip",
+                "x-permitted-cross-domain-policies": "none",
+                "content-security-policy-report-only": "script-src https://accounts.google.com/gsi/client; frame-src https://accounts.google.com/gsi/; connect-src https://accounts.google.com/gsi/;",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "alternate-protocol": "443:npn-spdy/2",
+                "x-xss-protection": "0",
+                "x-request-id": "d6b41e16-16ef-40e8-a15e-3b1fd406b12e",
+                "x-runtime": "0.007525",
+                "referrer-policy": "strict-origin-when-cross-origin",
+                "server": "cloudflare",
+                "etag": "W/\"2039858ce5bf9bf7f8e1e279d947f69f\"",
+                "x-download-options": "noopen",
+                "x-frame-options": "SAMEORIGIN",
+                "access-control-allow-methods": "POST, PUT, DELETE, GET, OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "link, per-page, total",
+                "cache-control": "max-age=30, public, must-revalidate, s-maxage=60",
+                "vary": "Accept-Encoding, Origin",
+                "cf-ray": "9a414ac578b8555b-BRU",
+                "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.60",
+            "ts": 1764075257958,
+            "url": "https://app.ston.fi/rpc",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":1764075257957,\"method\":\"asset.list\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:18 GMT",
+                "content-encoding": "gzip",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=2592000; includeSubDomains",
+                "vary": "Origin, accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cf-ray": "9a414b3a9fdeb750-BRU",
+                "content-length": "102"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.61",
+            "ts": 1764075258009,
+            "url": "https://app.ston.fi/rpc",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":1764075258008,\"method\":\"pool.list\"}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:18 GMT",
+                "content-encoding": "gzip",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "strict-transport-security": "max-age=2592000; includeSubDomains",
+                "vary": "Origin, accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cf-ray": "9a414b3ae838b750-BRU",
+                "content-length": "263999"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.62",
+            "ts": 1764075258611,
+            "url": "https://raw.githubusercontent.com/catchain/metadata/refs/heads/main/ion/staking/LION.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "a57750d926c61daa7d2d5e445947ef6503c1eb78",
+                "date": "Tue, 25 Nov 2025 12:53:59 GMT",
+                "via": "1.1 varnish",
+                "x-content-type-options": "nosniff",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "content-encoding": "gzip",
+                "expires": "Tue, 25 Nov 2025 12:58:59 GMT",
+                "x-cache": "MISS",
+                "cross-origin-resource-policy": "cross-origin",
+                "content-length": "163",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-bru1480044-BRU",
+                "x-github-request-id": "0B9F:1B516B:181FF58:19C9B08:69259189",
+                "x-timer": "S1764075239.443314,VS0,VE123",
+                "etag": "W/\"22075944f52145c823f570f7a8c64feaf352d69db247a91bac0301b2f60de4b3\"",
+                "source-age": "0",
+                "vary": "Authorization,Accept-Encoding",
+                "x-frame-options": "deny",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "x-cache-hits": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.63",
+            "ts": 1764075258613,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "x-ton-client-version": "13.9.0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":\"1\",\"jsonrpc\":\"2.0\",\"method\":\"runGetMethod\",\"params\":{\"address\":\"EQACbwI38RnvclU5Wv6H9zDr8Ao_tq9NWilXxBmoE8yroZlF\",\"method\":\"get_wallet_address\",\"stack\":[[\"tvm.Slice\",\"te6cckEBAQEAJAAAQ4AM0y6ln4Q2LvLW0GnyD01lenvyRr5K+w3ags/3bPnLwvAKq7Ot\"]]}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:18 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414b3eabed863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.64",
+            "ts": 1764075258788,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Xhr",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "x-ton-client-version": "13.9.0",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":\"1\",\"jsonrpc\":\"2.0\",\"method\":\"runGetMethod\",\"params\":{\"address\":\"EQDRo0HKsnZeP9jY3gwlQPwq3kQbJtZ-xtNpVlHwCHeK_bzV\",\"method\":\"get_wallet_data\",\"stack\":[]}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:19 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414b3fbedd863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.65",
+            "ts": 1764075259460,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"getAddressBalance\",\"params\":{\"address\":\"EQBmmXUs_CGxd5a2g0-Qemsr09-SNfJX2G7UFn-7Z85eF6B9\"}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:19 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414b43fb69863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://mlldokmmkjfmlecaeeflnbhagamkoenb/index.html"
+            ],
+            "id": "21680.66",
+            "ts": 1764075259630,
+            "url": "https://api.mainnet.ice.io/http/v2/jsonRPC",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-api-key": "17",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"runGetMethod\",\"params\":{\"address\":\"EQDRo0HKsnZeP9jY3gwlQPwq3kQbJtZ-xtNpVlHwCHeK_bzV\",\"method\":\"get_wallet_data\",\"stack\":[]}}",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:54:20 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "strict-transport-security": "max-age=0; includeSubDomains; preload",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "server": "cloudflare",
+                "vary": "Origin",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-allow-credentials": "true",
+                "cf-ray": "9a414b450e69863a-BRU",
+                "access-control-allow-headers": "Authorization, Content-Type, x-api-key, x-ton-client-version",
+                "priority": "u=1,i"
+            }
+        }
+    ],
+    "success": true
+}

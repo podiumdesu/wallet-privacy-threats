@@ -1,0 +1,155 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/fcfcfllfndlomdhbehjjcoimbgofdncg",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/fcfcfllfndlomdhbehjjcoimbgofdncg",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T12-33-26",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764071861009,
+    "end": 1764071946060
+  },
+  "extensionID": "kgdpahickmkokacjodgfaaaeaenmlhne",
+  "serviceWorker": "service_worker",
+  "walletName": "leap",
+  "notes": "",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;0x196E98A561479ff97D533401Cc10e95b238e1a2A",
+  "password": "Default1Password1!",
+  "pathID": "fcfcfllfndlomdhbehjjcoimbgofdncg",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kgdpahickmkokacjodgfaaaeaenmlhne/background.js",
+      "ts": 1764071862398,
+      "id": "92214.32",
+      "url": "https://evmos-evm.publicnode.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 11:57:42 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "DYNAMIC",
+        "content-encoding": "br",
+        "x-envoy-upstream-service-time": "0",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "server": "cloudflare",
+        "access-control-max-age": "1728000",
+        "vary": "Origin, accept-encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9a40f8547ebfb762-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kgdpahickmkokacjodgfaaaeaenmlhne/background.js",
+      "ts": 1764071862404,
+      "id": "92214.33",
+      "url": "https://rpc.forma.art/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 11:57:42 GMT",
+        "content-encoding": "gzip",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "vary": "Origin, accept-encoding",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=XMMX7ek5C9%2FoK0zLSC1%2FoxLIFLAvBZxqHkxbpLaY%2FRYox%2FQtZ9EA3xqdJ5aX5Av7FFa49zmC774IB81VMd6o5jpGboyhlq7odTeNTGo%3D\"}]}",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "9a40f8547bfba340-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "69",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kgdpahickmkokacjodgfaaaeaenmlhne/background.js",
+      "ts": 1764071874177,
+      "id": "92214.313",
+      "url": "https://assets.leapwallet.io/cosmos-registry/v1/node-management-service/nms-REST.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 11:57:54 GMT",
+        "x-amz-version-id": "25obfycnRIxt.TK3HYqLomA2FaDo10nt",
+        "via": "1.1 aae0a3ddd306e11f8c3d25a657078704.cloudfront.net (CloudFront)",
+        "last-modified": "Tue, 25 Nov 2025 11:57:19 GMT",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "AMS1-C1",
+        "age": "7",
+        "x-amz-server-side-encryption": "AES256",
+        "etag": "W/\"414854824e42d655160fcaf65e6e1b29\"",
+        "vary": "accept-encoding, Origin",
+        "x-cache": "Hit from cloudfront",
+        "content-type": "application/json",
+        "content-encoding": "br",
+        "x-amz-cf-id": "_6ZGl81EIlxh6Q-eQB41k1AGQ--_CT5EWj2eg_gFgntZ2guHoROBQA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kgdpahickmkokacjodgfaaaeaenmlhne/background.js",
+      "ts": 1764071874177,
+      "id": "92214.314",
+      "url": "https://assets.leapwallet.io/cosmos-registry/v1/node-management-service/nms-RPC.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 11:57:54 GMT",
+        "x-amz-version-id": "34WxsQ1zl5cddcUlosND.oOyF569efs9",
+        "via": "1.1 aae0a3ddd306e11f8c3d25a657078704.cloudfront.net (CloudFront)",
+        "last-modified": "Tue, 25 Nov 2025 11:57:25 GMT",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "AMS1-C1",
+        "age": "9",
+        "x-amz-server-side-encryption": "AES256",
+        "etag": "W/\"65c8811c1d27f1bf99b7983dfb154900\"",
+        "vary": "accept-encoding, Origin",
+        "x-cache": "Hit from cloudfront",
+        "content-type": "application/json",
+        "content-encoding": "br",
+        "x-amz-cf-id": "6f6QRLSfvwt2rFyq1_xk5iErSTp8LNCwL1BlOiUOU37Eef68Ay4hjw=="
+      }
+    }
+  ],
+  "success": true
+}

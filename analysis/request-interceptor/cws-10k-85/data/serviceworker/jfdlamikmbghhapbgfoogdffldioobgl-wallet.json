@@ -1,0 +1,764 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/jfdlamikmbghhapbgfoogdffldioobgl",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/jfdlamikmbghhapbgfoogdffldioobgl",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T13-17-53",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764074626164,
+    "end": 1764074704168
+  },
+  "extensionID": "jfdlamikmbghhapbgfoogdffldioobgl",
+  "serviceWorker": "service_worker",
+  "walletName": "hana",
+  "notes": "",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;0x196E98A561479ff97D533401Cc10e95b238e1a2A",
+  "password": "Default1Password1!",
+  "pathID": "jfdlamikmbghhapbgfoogdffldioobgl",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074627426,
+      "id": "16476.1",
+      "url": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/icons/16-dark.png",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 05 Nov 2025 05:42:26 GMT",
+        "etag": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "content-type": "image/png"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074627426,
+      "id": "16476.3",
+      "url": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/icons/32-dark.png",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 05 Nov 2025 05:42:26 GMT",
+        "etag": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "content-type": "image/png"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074627427,
+      "id": "16476.4",
+      "url": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/icons/64-dark.png",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 05 Nov 2025 05:42:26 GMT",
+        "etag": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "content-type": "image/png"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074627430,
+      "id": "16476.5",
+      "url": "https://api.ipify.org/?format=json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:43:47 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "cf-ray": "9a413bd5dd83aeaf-BRU",
+        "vary": "Origin",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074627434,
+      "id": "16476.20",
+      "url": "https://api.icon.community/api/v3",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":1764074627431,\"method\":\"icx_call\",\"params\":{\"to\":\"cxc7d2b2ea91af80d4535dbbee0318399d3aedb6b1\",\"dataType\":\"call\",\"data\":{\"method\":\"getFeePercentage\",\"params\":{}}}}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:43:48 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "vary": "Origin",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=x5qVvZXVzB1QGVu6OJdQQMy%2FUGsLit5F2XVPUQ0gamOHgWP%2Fq5y7djkunUnhi5geMBx3ixR3%2B0DTRxDP7qdNy9TFx70jtMstsoStX%2FZYdeNv\"}]}",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "cf-ray": "9a413bd688db1a55-BRU"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074627434,
+      "id": "16476.21",
+      "url": "https://rpc.mainnet.archway.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":251627473147,\"method\":\"status\",\"params\":{}}",
+      "status": 200,
+      "responseHeaders": {
+        "x-server-time": "1764074627",
+        "date": "Tue, 25 Nov 2025 12:43:47 GMT",
+        "server": "Caddy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "content-type, x-requested-with",
+        "alt-svc": "h3=\":443\"; ma=2592000",
+        "content-length": "964"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074627435,
+      "id": "16476.22",
+      "url": "https://balanced.icon.community/api/v1/tokens",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:43:48 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "vary": "Accept-Encoding",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=keyGoQU0RcyKd%2FTGXMhKKLF299OF%2BrtHdw7K8K3FXYt9IHsM73Ah0kABKM2M1VJ7hvWTV%2F74VvqTYF5VedJt%2F%2BDsHwYwc%2B%2FIUeYc1345wA8WJlK4TBQ%3D\"}]}",
+        "content-type": "application/json",
+        "cf-ray": "9a413bd6dac2ad3f-BRU",
+        "content-length": "6709",
+        "x-total-count": "62"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074627435,
+      "id": "16476.23",
+      "url": "https://api.hanawallet.io/api/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/graphql-response+json, application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n  query SimplexGetSupportedFiatCurrencies {\\n    simplexGetSupportedFiatCurrencies {\\n      ticker_symbol\\n      min_amount\\n      max_amount\\n    }\\n  }\\n\",\"operationName\":\"SimplexGetSupportedFiatCurrencies\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:43:47 GMT",
+        "via": "2.0 heroku-router",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "x-powered-by": "Express",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=D4MGwnOnwWx422Sbf0E2MgjDFI%2BgCxkN0t1Ex8ICfIY%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1764074627\"",
+        "server": "cloudflare",
+        "etag": "W/\"1859-T7270//XsgLiw0AfOFwhnhBkkr8\"",
+        "vary": "Origin",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=D4MGwnOnwWx422Sbf0E2MgjDFI%2BgCxkN0t1Ex8ICfIY%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1764074627\"}],\"max_age\":3600}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9a413bd5eb08b9a7-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074628384,
+      "id": "16476.40",
+      "url": "https://api.hanawallet.io/api/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/graphql-response+json, application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n  query GetTokensByChains($chains: [String!]) {\\n    coinTokens(\\n      where: {\\n        addresses: { some: { chain: { type: { in: $chains } } } }\\n        status: { equals: ACTIVE }\\n      }\\n      orderBy: { marketCapRank: asc }\\n      take: 200\\n    ) {\\n      id\\n      name\\n      symbol\\n      logoUrl\\n      marketCapRank\\n      addresses(where: { chain: { type: { in: $chains } } }) {\\n        chain {\\n          type\\n        }\\n        address\\n        decimals\\n      }\\n    }\\n  }\\n\",\"variables\":{\"chains\":[\"Ethereum\"]},\"operationName\":\"GetTokensByChains\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:43:48 GMT",
+        "via": "2.0 heroku-router",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "x-powered-by": "Express",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=8e2vldXWhHDYR5UsbODUH2mcvEFSE%2Bwj6tZ1NOZaVUo%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1764074628\"",
+        "server": "cloudflare",
+        "etag": "W/\"211c-+IN9xmoQ48CdMlGOt3qAn3pq/CY\"",
+        "vary": "Origin",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=8e2vldXWhHDYR5UsbODUH2mcvEFSE%2Bwj6tZ1NOZaVUo%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1764074628\"}],\"max_age\":3600}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9a413bdb5b3fb9a7-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074628388,
+      "id": "16476.42",
+      "url": "https://api.ipify.org/?format=json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:43:48 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "cf-ray": "9a413bdc4fd4aeaf-BRU",
+        "vary": "Origin",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074628390,
+      "id": "16476.43",
+      "url": "https://rpc.mainnet.archway.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":332596452396,\"method\":\"status\",\"params\":{}}",
+      "status": 200,
+      "responseHeaders": {
+        "x-server-time": "1764074628",
+        "date": "Tue, 25 Nov 2025 12:43:48 GMT",
+        "server": "Caddy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "content-type, x-requested-with",
+        "alt-svc": "h3=\":443\"; ma=2592000",
+        "content-length": "964"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074628390,
+      "id": "16476.44",
+      "url": "https://api.segment.io/v1/track",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "authorization": "Basic R3lFQVBTbFlvUmVWTjhsbFdOOHdyTnI3QjgwRFRLcUg6",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"event\":\"App Installed\",\"properties\":{},\"anonymousId\":\"e8f96fef-4057-4047-9c79-2c2f406a8697\",\"context\":{\"ip\":\"81.164.129.169\"},\"timestamp\":\"2025-11-25T12:43:48.390Z\"}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+        "date": "Tue, 25 Nov 2025 12:43:48 GMT",
+        "strict-transport-security": "max-age=31536000",
+        "access-control-allow-credentials": "true",
+        "content-length": "21",
+        "vary": "Origin",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074628392,
+      "id": "16476.45",
+      "url": "https://api.hanawallet.io/api/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/graphql-response+json, application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n  query TokenPrices($input: TokenPricesInput!) {\\n    tokenPrices(input: $input) {\\n      chainType\\n      tokenPrices {\\n        contract\\n        price\\n      }\\n    }\\n  }\\n\",\"variables\":{\"input\":{\"data\":[{\"chainType\":\"ethereum\",\"contracts\":[\"0xdac17f958d2ee523a2206206994597c13d831ec7\",\"0xb8c77482e45f1f44de1745f52c74426c631bdd52\",\"0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48\",\"0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0\",\"0x514910771af9ca656af840dff83e8264ecf986ca\",\"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\",\"0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee\",\"0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf\",\"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce\",\"0x6b175474e89094c44da98b954eedeac495271d0f\",\"0x1f9840a85d5af5bf1d1762f925bdaddc4201f984\",\"0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9\",\"0x6982508145454ce325ddbe47a25d4ec3d2311933\",\"0x455e53cbb86018ac2b8092fdcd39d8444affc3f6\",\"0x7a56e1c57c7475ccf742a1832b028f0456652f97\",\"0xe28b3b32b6c345a34ff64674606124dd5aceca30\",\"0x18084fba666a33d37592fa2633fd49a74dd93a88\",\"0x4d224452801aced8b2f0aebe155379bb5d594381\",\"0x808507121b80c02388fad14726482e061b8da827\",\"0xf57e7e7c23978c3caec3c3548e3d615c346e79ff\",\"0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f\",\"0x8207c1ffc5b6804f6024322ccf34f29c3541ae26\",\"0xf0b2dd79324a66d2108c961d680f7616e1486bb0\",\"0x4cce605ed955295432958d8951d0b176c10720d5\",\"0x92cc36d66e9d739d50673d1f27929a371fb83a67\",\"0x111111517e4929d3dcbdfa7cce55d30d4b6bc4d6\",\"0xd076c4ba62c57b3fa10800bcfd8da66742110e0e\",\"0xa4bdb11dc0a2bec88d24a3aa1e6bb17201112ebe\"]}],\"vsCurrency\":\"usd\"}},\"operationName\":\"TokenPrices\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:43:48 GMT",
+        "via": "2.0 heroku-router",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "x-powered-by": "Express",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=8e2vldXWhHDYR5UsbODUH2mcvEFSE%2Bwj6tZ1NOZaVUo%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1764074628\"",
+        "server": "cloudflare",
+        "etag": "W/\"85c-miqSW8q9ODG4LyWKysI51nXNqoA\"",
+        "vary": "Origin",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=8e2vldXWhHDYR5UsbODUH2mcvEFSE%2Bwj6tZ1NOZaVUo%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1764074628\"}],\"max_age\":3600}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9a413bdb7b41b9a7-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074628433,
+      "id": "16476.47",
+      "url": "https://rpc.mainnet.archway.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":139422822862,\"method\":\"status\",\"params\":{}}",
+      "status": 200,
+      "responseHeaders": {
+        "x-server-time": "1764074628",
+        "date": "Tue, 25 Nov 2025 12:43:48 GMT",
+        "server": "Caddy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "content-type, x-requested-with",
+        "alt-svc": "h3=\":443\"; ma=2592000",
+        "content-length": "965"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074628472,
+      "id": "16476.48",
+      "url": "https://rpc.mainnet.archway.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":432229747296,\"method\":\"abci_query\",\"params\":{\"path\":\"/cosmwasm.wasm.v1.Query/SmartContractState\",\"data\":\"0a42617263687761793139687a686764393065747163337a32717377756d713830616732643868657433387230616c307234756c726c79373274323070736472706e6136122e7b226765745f666565223a7b226e6964223a223078312e69636f6e222c22726f6c6c6261636b223a747275657d7d\",\"prove\":false}}",
+      "status": 200,
+      "responseHeaders": {
+        "x-server-time": "1764074628",
+        "date": "Tue, 25 Nov 2025 12:43:48 GMT",
+        "server": "Caddy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-headers": "content-type, x-requested-with",
+        "alt-svc": "h3=\":443\"; ma=2592000",
+        "content-length": "204"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074628640,
+      "id": "16476.50",
+      "url": "https://api.segment.io/v1/track",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "authorization": "Basic R3lFQVBTbFlvUmVWTjhsbFdOOHdyTnI3QjgwRFRLcUg6",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"event\":\"Enabled Chain\",\"properties\":{\"chain\":\"Ethereum\"},\"anonymousId\":\"e8f96fef-4057-4047-9c79-2c2f406a8697\",\"context\":{\"ip\":\"81.164.129.169\"},\"timestamp\":\"2025-11-25T12:43:48.639Z\"}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+        "date": "Tue, 25 Nov 2025 12:43:48 GMT",
+        "strict-transport-security": "max-age=31536000",
+        "access-control-allow-credentials": "true",
+        "content-length": "21",
+        "vary": "Origin",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074628655,
+      "id": "16476.51",
+      "url": "https://api.hanawallet.io/api/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/graphql-response+json, application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n  query NativeTokenPrices($input: NativeTokenPricesInput!) {\\n    nativeTokenPrices(input: $input) {\\n      id\\n      price\\n    }\\n  }\\n\",\"variables\":{\"input\":{\"ids\":[\"ethereum\"],\"vsCurrency\":\"usd\"}},\"operationName\":\"NativeTokenPrices\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:43:48 GMT",
+        "via": "2.0 heroku-router",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "x-powered-by": "Express",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=8e2vldXWhHDYR5UsbODUH2mcvEFSE%2Bwj6tZ1NOZaVUo%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1764074628\"",
+        "server": "cloudflare",
+        "etag": "W/\"43-WmNKfzywYvsnchxw/E714JXpI0o\"",
+        "vary": "Origin",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=8e2vldXWhHDYR5UsbODUH2mcvEFSE%2Bwj6tZ1NOZaVUo%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1764074628\"}],\"max_age\":3600}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9a413bdd1b50b9a7-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074642343,
+      "id": "16476.52",
+      "url": "https://api.hanawallet.io/api/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/graphql-response+json, application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n  query GetAccountCollectionSummary($where: ChainAccountWhereUniqueInput!) {\\n    accountCollectionSummary(where: $where) {\\n      collection {\\n        ...CollectionDetails\\n      }\\n      tokensCount\\n      coverImage\\n    }\\n  }\\n  \\n  fragment CollectionDetails on Collection {\\n    id\\n    contract\\n    name\\n    standard\\n    chain {\\n      type\\n    }\\n  }\\n\\n\",\"variables\":{\"where\":{\"chainType\":\"Ethereum\",\"chainId\":1,\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\"}},\"operationName\":\"GetAccountCollectionSummary\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:44:03 GMT",
+        "via": "2.0 heroku-router",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "x-powered-by": "Express",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=QHHTotusSwIOat27a7cY4aPtsnWv5Nuifue6exkPvVw%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1764074642\"",
+        "server": "cloudflare",
+        "etag": "W/\"29-azpvKd6sw7sVyhBo8FFn1EJ7H/o\"",
+        "vary": "Origin",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=QHHTotusSwIOat27a7cY4aPtsnWv5Nuifue6exkPvVw%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1764074642\"}],\"max_age\":3600}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9a413c329f5eb9a7-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074642343,
+      "id": "16476.53",
+      "url": "https://api.hanawallet.io/api/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/graphql-response+json, application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n  query txHistory($input: TxHistoryInput!) {\\n    txHistory(input: $input) {\\n      chain\\n      hash\\n      type\\n      date\\n      amount\\n      tokenName\\n      tokenContract\\n      tokenSymbol\\n      tokenDecimals\\n      from\\n      to\\n      fee\\n      gasPrice\\n      isFailed\\n      isPending\\n      possibleSpam\\n      nftName\\n      nftImage\\n      nftTokenId\\n      nonce\\n    }\\n  }\\n\",\"variables\":{\"input\":{\"chainType\":\"Ethereum\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\"}},\"operationName\":\"txHistory\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:44:03 GMT",
+        "via": "2.0 heroku-router",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "x-powered-by": "Express",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=QHHTotusSwIOat27a7cY4aPtsnWv5Nuifue6exkPvVw%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1764074642\"",
+        "server": "cloudflare",
+        "etag": "W/\"21a-ugC7pisL1xMD7tzAKXSYuc72x1g\"",
+        "vary": "Origin",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=QHHTotusSwIOat27a7cY4aPtsnWv5Nuifue6exkPvVw%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1764074642\"}],\"max_age\":3600}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9a413c32af60b9a7-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074642343,
+      "id": "16476.54",
+      "url": "https://api.hanawallet.io/api/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/graphql-response+json, application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n  query GetTokensByChains($chains: [String!]) {\\n    coinTokens(\\n      where: {\\n        addresses: { some: { chain: { type: { in: $chains } } } }\\n        status: { equals: ACTIVE }\\n      }\\n      orderBy: { marketCapRank: asc }\\n      take: 200\\n    ) {\\n      id\\n      name\\n      symbol\\n      logoUrl\\n      marketCapRank\\n      addresses(where: { chain: { type: { in: $chains } } }) {\\n        chain {\\n          type\\n        }\\n        address\\n        decimals\\n      }\\n    }\\n  }\\n\",\"variables\":{\"chains\":[\"Ethereum\"]},\"operationName\":\"GetTokensByChains\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:44:02 GMT",
+        "via": "2.0 heroku-router",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "x-powered-by": "Express",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=QHHTotusSwIOat27a7cY4aPtsnWv5Nuifue6exkPvVw%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1764074642\"",
+        "server": "cloudflare",
+        "etag": "W/\"211c-+IN9xmoQ48CdMlGOt3qAn3pq/CY\"",
+        "vary": "Origin",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=QHHTotusSwIOat27a7cY4aPtsnWv5Nuifue6exkPvVw%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1764074642\"}],\"max_age\":3600}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9a413c32af61b9a7-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074642343,
+      "id": "16476.55",
+      "url": "https://api.hanawallet.io/api/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/graphql-response+json, application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n  query TokenPrices($input: TokenPricesInput!) {\\n    tokenPrices(input: $input) {\\n      chainType\\n      tokenPrices {\\n        contract\\n        price\\n      }\\n    }\\n  }\\n\",\"variables\":{\"input\":{\"data\":[{\"chainType\":\"ethereum\",\"contracts\":[\"0xdac17f958d2ee523a2206206994597c13d831ec7\",\"0xb8c77482e45f1f44de1745f52c74426c631bdd52\",\"0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48\",\"0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0\",\"0x514910771af9ca656af840dff83e8264ecf986ca\",\"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\",\"0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee\",\"0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf\",\"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce\",\"0x6b175474e89094c44da98b954eedeac495271d0f\",\"0x1f9840a85d5af5bf1d1762f925bdaddc4201f984\",\"0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9\",\"0x6982508145454ce325ddbe47a25d4ec3d2311933\",\"0x455e53cbb86018ac2b8092fdcd39d8444affc3f6\",\"0x7a56e1c57c7475ccf742a1832b028f0456652f97\",\"0xe28b3b32b6c345a34ff64674606124dd5aceca30\",\"0x18084fba666a33d37592fa2633fd49a74dd93a88\",\"0x4d224452801aced8b2f0aebe155379bb5d594381\",\"0x808507121b80c02388fad14726482e061b8da827\",\"0xf57e7e7c23978c3caec3c3548e3d615c346e79ff\",\"0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f\",\"0x8207c1ffc5b6804f6024322ccf34f29c3541ae26\",\"0xf0b2dd79324a66d2108c961d680f7616e1486bb0\",\"0x4cce605ed955295432958d8951d0b176c10720d5\",\"0x92cc36d66e9d739d50673d1f27929a371fb83a67\",\"0x111111517e4929d3dcbdfa7cce55d30d4b6bc4d6\",\"0xd076c4ba62c57b3fa10800bcfd8da66742110e0e\",\"0xa4bdb11dc0a2bec88d24a3aa1e6bb17201112ebe\"]}],\"vsCurrency\":\"usd\"}},\"operationName\":\"TokenPrices\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:44:02 GMT",
+        "via": "2.0 heroku-router",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "x-powered-by": "Express",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=QHHTotusSwIOat27a7cY4aPtsnWv5Nuifue6exkPvVw%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1764074642\"",
+        "server": "cloudflare",
+        "etag": "W/\"85c-miqSW8q9ODG4LyWKysI51nXNqoA\"",
+        "vary": "Origin",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=QHHTotusSwIOat27a7cY4aPtsnWv5Nuifue6exkPvVw%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1764074642\"}],\"max_age\":3600}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9a413c32af63b9a7-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074642343,
+      "id": "16476.56",
+      "url": "https://api.hanawallet.io/api/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/graphql-response+json, application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n  query tokenBalancesV3($input: [TokenBalancesV3Input!]!, $fetchNativeTokensOnly: Boolean) {\\n    tokenBalancesV3(input: $input, fetchNativeTokensOnly: $fetchNativeTokensOnly) {\\n      chainType\\n      type\\n      success\\n      data {\\n        address\\n        tokenAddress\\n        chainType\\n        balance\\n        possibleSpam\\n        name\\n        symbol\\n        decimals\\n        logo\\n        coinTokenId\\n      }\\n    }\\n  }\\n\",\"variables\":{\"input\":[{\"chainType\":\"Ethereum\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\"}]},\"operationName\":\"tokenBalancesV3\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:44:03 GMT",
+        "via": "2.0 heroku-router",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "x-powered-by": "Express",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=QHHTotusSwIOat27a7cY4aPtsnWv5Nuifue6exkPvVw%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1764074642\"",
+        "server": "cloudflare",
+        "etag": "W/\"17f-8DgOuapPtt31Ac1oYbjR1JHF9uM\"",
+        "vary": "Origin",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=QHHTotusSwIOat27a7cY4aPtsnWv5Nuifue6exkPvVw%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1764074642\"}],\"max_age\":3600}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9a413c32af62b9a7-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074642534,
+      "id": "16476.58",
+      "url": "https://api.hanawallet.io/api/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/graphql-response+json, application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n  query NativeTokenPrices($input: NativeTokenPricesInput!) {\\n    nativeTokenPrices(input: $input) {\\n      id\\n      price\\n    }\\n  }\\n\",\"variables\":{\"input\":{\"ids\":[\"ethereum\"],\"vsCurrency\":\"usd\"}},\"operationName\":\"NativeTokenPrices\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:44:02 GMT",
+        "via": "2.0 heroku-router",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "x-powered-by": "Express",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=QHHTotusSwIOat27a7cY4aPtsnWv5Nuifue6exkPvVw%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1764074642\"",
+        "server": "cloudflare",
+        "etag": "W/\"43-WmNKfzywYvsnchxw/E714JXpI0o\"",
+        "vary": "Origin",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=QHHTotusSwIOat27a7cY4aPtsnWv5Nuifue6exkPvVw%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1764074642\"}],\"max_age\":3600}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9a413c33df79b9a7-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/background.js",
+      "ts": 1764074643188,
+      "id": "16476.59",
+      "url": "https://api.hanawallet.io/api/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/graphql-response+json, application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n  query GetTokenByAddress($chain: String, $addresses: [String!]) {\\n    coinTokenAddresses(\\n      where: { chain: { type: { equals: $chain } }, address: { in: $addresses } }\\n    ) {\\n      chain {\\n        type\\n      }\\n      address\\n      decimals\\n      token {\\n        name\\n        symbol\\n        logoUrl\\n        marketCapRank\\n      }\\n    }\\n  }\\n\",\"variables\":{\"addresses\":[]},\"operationName\":\"GetTokenByAddress\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:44:03 GMT",
+        "via": "2.0 heroku-router",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+        "x-powered-by": "Express",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=OS4vu9oGUAxIS5mS%2B8NaYjatmtsRYPFWIxEmuqhS7D8%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1764074643\"",
+        "server": "cloudflare",
+        "etag": "W/\"23-5RogAm2dwD5s0PeSGzAtyvvAm6I\"",
+        "vary": "Origin",
+        "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=OS4vu9oGUAxIS5mS%2B8NaYjatmtsRYPFWIxEmuqhS7D8%3D\\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\\u0026ts=1764074643\"}],\"max_age\":3600}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9a413c37efbab9a7-BRU",
+        "priority": "u=1,i"
+      }
+    }
+  ],
+  "success": true
+}

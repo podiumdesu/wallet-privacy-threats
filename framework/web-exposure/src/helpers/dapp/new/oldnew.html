@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Wallet Connect Test (Injected Only)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 700px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      button,
+      select {
+        padding: 0.6rem 0.9rem;
+        margin-right: 0.5rem;
+      }
+      code {
+        background: #f6f6f6;
+        padding: 0.2rem 0.4rem;
+        border-radius: 6px;
+      }
+      .row {
+        margin: 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wallet Connect Test</h1>
+
+    <div class="row">
+      <label>Detected wallet:</label>
+      <select id="providerSelect"></select>
+      <button id="scanBtn">Scan/Refresh</button>
+    </div>
+
+    <div class="row">
+      <button id="connectBtn">Connect</button>
+      <button id="disconnectBtn">Disconnect</button>
+    </div>
+
+    <div class="row">
+      <div>Account: <code id="acct">—</code></div>
+      <div>Chain: <code id="chain">—</code></div>
+      <div>eth_accounts: <code id="vision">—</code></div>
+      <div>Status: <code id="status">idle</code></div>
+    </div>
+
+    <script>
+      // ------- tiny helpers -------
+      const $ = (id) => document.getElementById(id);
+      const set = (id, v) => ($(id).textContent = v);
+
+      // state
+      let providers = []; // array of { provider, label }
+      let selected = null; // current provider
+
+      // Discover providers (EIP-6963 first, fallback to legacy window.ethereum)
+      async function scanProviders() {
+        providers = [];
+        selected = null;
+
+        // EIP-6963 announce
+        const announced = [];
+        const onAnnounce = (e) => {
+          const d = e?.detail;
+          if (d?.provider)
+            announced.push({
+              provider: d.provider,
+              label: d.info?.name || d.info?.rdns || "wallet",
+            });
+        };
+        window.addEventListener("eip6963:announceProvider", onAnnounce);
+        window.dispatchEvent(new window.Event("eip6963:requestProvider"));
+        await new Promise((r) => setTimeout(r, 600));
+        window.removeEventListener("eip6963:announceProvider", onAnnounce);
+
+        if (announced.length > 0) {
+          providers = announced;
+        } else if (window.ethereum) {
+          // legacy fallback
+          const list =
+            Array.isArray(window.ethereum.providers) &&
+            window.ethereum.providers.length
+              ? window.ethereum.providers
+              : [window.ethereum];
+          providers = list.map((p, i) => ({
+            provider: p,
+            label: p.isMetaMask
+              ? "MetaMask"
+              : p.isCoinbaseWallet
+                ? "Coinbase"
+                : `legacy:${i}`,
+          }));
+        }
+
+        // update UI
+        const sel = $("providerSelect");
+        sel.innerHTML = "";
+        if (providers.length === 0) {
+          sel.appendChild(new Option("No injected wallet detected", ""));
+          selected = null;
+        } else {
+          providers.forEach((p, idx) =>
+            sel.appendChild(new Option(p.label, String(idx))),
+          );
+          sel.value = "0";
+          selected = providers[0].provider;
+        }
+        await updateVision();
+        await showState();
+      }
+
+      async function updateVision() {
+        if (!selected) return set("vision", "no provider");
+        try {
+          const accs = await selected.request({
+            method: "eth_accounts",
+            params: [],
+          });
+          set("vision", JSON.stringify(accs));
+        } catch {
+          set("vision", "error");
+        }
+      }
+
+      async function showState() {
+        if (!selected) {
+          set("acct", "—");
+          set("chain", "—");
+          return;
+        }
+        try {
+          const accs = await selected.request({
+            method: "eth_accounts",
+            params: [],
+          });
+          set("acct", accs?.[0] || "—");
+        } catch {
+          set("acct", "—");
+        }
+        try {
+          const chainId = await selected.request({
+            method: "eth_chainId",
+            params: [],
+          });
+          set("chain", chainId || "—");
+        } catch {
+          set("chain", "—");
+        }
+      }
+
+      // UI handlers
+      $("providerSelect").addEventListener("change", async (e) => {
+        const idx = Number(e.target.value);
+        selected =
+          Number.isInteger(idx) && providers[idx]
+            ? providers[idx].provider
+            : null;
+        set("status", "provider selected");
+        await updateVision();
+        await showState();
+      });
+
+      $("scanBtn").addEventListener("click", async () => {
+        set("status", "scanning…");
+        await scanProviders();
+        set("status", providers.length ? `found ${providers.length}` : "none");
+      });
+
+      $("connectBtn").addEventListener("click", async () => {
+        if (!selected) {
+          set("status", "no provider");
+          return;
+        }
+        try {
+          set("status", "requesting accounts…");
+          const accs = await selected.request({
+            method: "eth_requestAccounts",
+            params: [],
+          });
+          set("status", "connected");
+          await updateVision();
+          await showState();
+        } catch (e) {
+          set("status", "connect error");
+        }
+      });
+
+      $("disconnectBtn").addEventListener("click", async () => {
+        if (!selected) {
+          set("status", "no provider");
+          return;
+        }
+        set("status", "disconnecting…");
+        // Not all wallets support revoke. We try, then clear app state.
+        try {
+          await selected.request({
+            method: "wallet_revokePermissions",
+            params: [{ eth_accounts: {} }],
+          });
+        } catch {}
+        await updateVision();
+        await showState();
+        set("status", "disconnected (app)");
+        // tip: reload to verify eth_accounts becomes []
+        // location.reload();
+      });
+
+      // init
+      (async () => {
+        await scanProviders();
+      })();
+    </script>
+  </body>
+</html>

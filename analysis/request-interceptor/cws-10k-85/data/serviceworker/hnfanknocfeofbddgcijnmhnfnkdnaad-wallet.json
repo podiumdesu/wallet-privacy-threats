@@ -1,0 +1,56 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/hnfanknocfeofbddgcijnmhnfnkdnaad",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/hnfanknocfeofbddgcijnmhnfnkdnaad",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T12-33-26",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764070702204,
+    "end": 1764070766698
+  },
+  "extensionID": "kjhlddnnnolbokhbfndodkbaagmngfkj",
+  "serviceWorker": "service_worker",
+  "walletName": "coinbase",
+  "notes": "",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;0x196E98A561479ff97D533401Cc10e95b238e1a2A",
+  "password": "Default1Password1!",
+  "pathID": "hnfanknocfeofbddgcijnmhnfnkdnaad",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kjhlddnnnolbokhbfndodkbaagmngfkj/service.js",
+      "ts": 1764070703864,
+      "id": "82383.37",
+      "url": "https://api.wallet.coinbase.com/rpc/v2/getMinimumSupportedBuilds",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 403,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 11:38:24 GMT",
+        "content-encoding": "gzip",
+        "referrer-policy": "same-origin",
+        "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "server": "cloudflare",
+        "x-frame-options": "SAMEORIGIN",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=0DTeB2TqX05CcaCALWAD5wakNFr682WNchiBGvcHRXfEuXad45xeqy9ho0xfWgI3KEUs31qRvkdXvWqAeX8z7vmSXK9CHHPeHpBSOdDdMiHoGC1PLgikL6bUncGFATB8a%2BqoRscl2h%2Fp\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "content-type": "text/html; charset=UTF-8",
+        "vary": "Accept-Encoding",
+        "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+        "cf-ray": "9a40dc0bfafcb741-BRU",
+        "expires": "Thu, 01 Jan 1970 00:00:01 GMT"
+      }
+    }
+  ],
+  "success": true
+}

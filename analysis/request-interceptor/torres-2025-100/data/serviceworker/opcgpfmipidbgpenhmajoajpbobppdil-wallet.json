@@ -1,0 +1,108 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/new_version/extensions/profiles_new/opcgpfmipidbgpenhmajoajpbobppdil",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets-new-version/opcgpfmipidbgpenhmajoajpbobppdil",
+    "destination": "./final-results/new_version/extensions/crawl_new/2025-11-07T19-32-55",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762543074212,
+    "end": 1762543127731
+  },
+  "extensionID": "pkllhbipppahflniminfammcpdhkecih",
+  "serviceWorker": "service_worker",
+  "walletName": "slush",
+  "notes": "no-balance-sui",
+  "walletAddress": "0xe1cd7f69c5263276883fb99f77720cb58b9cb30ded6594e287eaaee380321516;0x01b99471706000266427cc46aa09fb347a2fa1b957cccba9749bbafe5033ea10;0x166ffeaa5bebc005e7fd8a1a6e9ad37dabd7ebbd30d82608459ff586fb88873a",
+  "password": "Default1Password1!",
+  "pathID": "opcgpfmipidbgpenhmajoajpbobppdil",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkllhbipppahflniminfammcpdhkecih/background.js",
+      "ts": 1762543075545,
+      "id": "62489.31",
+      "url": "https://initialize.slush.app/v1/rgstr?k=client-F6woN9ItbgXfGHARjqdHwXYtRysCRtGbkffxAkaxfSH&st=javascript-client-expo&sv=3.25.5&t=1762543075544&sid=9bd844b6-454c-4c31-a9f0-5e99550603db&ec=1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"events\":[{\"eventName\":\"statsig::diagnostics\",\"user\":{\"custom\":{\"developerMode\":false,\"betaFeaturesEnabled\":false,\"isInBetaUpdatesChannel\":false,\"network\":\"mainnet\",\"rnPlatform\":\"web\",\"address\":\"0xe1cd7f69c5263276883fb99f77720cb58b9cb30ded6594e287eaaee380321516\",\"appVersion\":\"25.14.4\",\"preferredLanguageCode\":\"en\",\"appPlatform\":\"extension\",\"extVersion\":\"25.14.4.1\"},\"customIDs\":{\"preferencesID\":\"d1cc38cb-d856-4c7b-84e6-c9498e505402\"},\"statsigEnvironment\":{\"tier\":\"production\"}},\"value\":null,\"metadata\":{\"context\":\"initialize\",\"markers\":[{\"key\":\"overall\",\"action\":\"start\",\"timestamp\":1762543075200},{\"key\":\"initialize\",\"action\":\"start\",\"step\":\"network_request\",\"timestamp\":1762543075202,\"attempt\":1},{\"key\":\"overall\",\"action\":\"start\",\"timestamp\":1762543075207},{\"key\":\"initialize\",\"action\":\"start\",\"step\":\"network_request\",\"timestamp\":1762543075210,\"attempt\":1},{\"key\":\"initialize\",\"action\":\"end\",\"step\":\"network_request\",\"timestamp\":1762543075327,\"success\":true,\"statusCode\":204,\"sdkRegion\":\"gke-europe-west1\",\"attempt\":1},{\"key\":\"initialize\",\"action\":\"end\",\"step\":\"network_request\",\"timestamp\":1762543075331,\"success\":true,\"statusCode\":204,\"sdkRegion\":\"gke-europe-west1\",\"attempt\":1},{\"key\":\"initialize\",\"action\":\"start\",\"step\":\"process\",\"timestamp\":1762543075331},{\"key\":\"initialize\",\"action\":\"end\",\"step\":\"process\",\"timestamp\":1762543075331,\"success\":true},{\"key\":\"overall\",\"action\":\"end\",\"timestamp\":1762543075331,\"success\":true,\"evaluationDetails\":{\"reason\":\"NetworkNotModified\",\"lcut\":1762462489806,\"receivedAt\":1762543075331}}],\"statsigOptions\":{\"networkConfig\":{\"api\":\"https://initialize.slush.app/v1\"},\"environment\":{\"tier\":\"production\"},\"storageProvider\":{},\"loggingIntervalMs\":2000,\"logEventCompressionMode\":\"e\"}},\"time\":1762543075331,\"statsigMetadata\":{\"currentPage\":\"chrome-extension://pkllhbipppahflniminfammcpdhkecih/background.js\"}}],\"statsigMetadata\":{\"sdkVersion\":\"3.25.5\",\"sdkType\":\"javascript-client-expo\",\"systemVersion\":\"\",\"systemName\":\"\",\"stableID\":\"4b9ee91b-1891-4e4a-9d23-4f0348d01f6e\",\"sessionID\":\"9bd844b6-454c-4c31-a9f0-5e99550603db\",\"fallbackUrl\":null}}",
+      "status": 202,
+      "responseHeaders": {
+        "x-response-time": "0 ms",
+        "date": "Fri, 07 Nov 2025 19:17:55 GMT",
+        "via": "1.1 google",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "x-content-type-options": "nosniff, nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "accept-encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "permissions-policy": "interest-cohort=()",
+        "cf-ray": "99af2c6e9983863a-BRU",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkllhbipppahflniminfammcpdhkecih/background.js",
+      "ts": 1762543076201,
+      "id": "62489.39",
+      "url": "https://api2.amplitude.com/2/httpapi",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"api_key\":\"05c63856469c4e1d4aa9a6c1b2298d3b\",\"events\":[{\"device_id\":\"8e1b6801-8d6b-4306-b4bd-23fbfab1385f\",\"session_id\":1762543075196,\"time\":1762543075197,\"app_version\":\"25.14.4.1\",\"platform\":\"Web\",\"os_name\":\"Chrome\",\"os_version\":\"116.0.0.0\",\"device_manufacturer\":\"Apple\",\"device_model\":\"Macintosh\",\"language\":\"en-GB\",\"ip\":\"$remote\",\"insert_id\":\"13a950ff-8287-447b-883d-f12c7790c72f\",\"plan\":{\"version\":\"12\",\"branch\":\"main\",\"source\":\"react_native\",\"versionId\":\"9520d80f-55b9-40f9-82b2-319b038c2a35\"},\"ingestion_metadata\":{\"source_name\":\"react-native-typescript-ampli\",\"source_version\":\"2.0.0\"},\"event_type\":\"$identify\",\"user_properties\":{\"$setOnce\":{\"initial_utm_campaign\":\"EMPTY\",\"initial_utm_content\":\"EMPTY\",\"initial_utm_id\":\"EMPTY\",\"initial_utm_medium\":\"EMPTY\",\"initial_utm_source\":\"EMPTY\",\"initial_utm_term\":\"EMPTY\",\"initial_referrer\":\"EMPTY\",\"initial_referring_domain\":\"EMPTY\",\"initial_dclid\":\"EMPTY\",\"initial_gbraid\":\"EMPTY\",\"initial_gclid\":\"EMPTY\",\"initial_fbclid\":\"EMPTY\",\"initial_ko_click_id\":\"EMPTY\",\"initial_li_fat_id\":\"EMPTY\",\"initial_msclkid\":\"EMPTY\",\"initial_rtd_cid\":\"EMPTY\",\"initial_ttclid\":\"EMPTY\",\"initial_twclid\":\"EMPTY\",\"initial_wbraid\":\"EMPTY\"},\"$unset\":{\"utm_campaign\":\"-\",\"utm_content\":\"-\",\"utm_id\":\"-\",\"utm_medium\":\"-\",\"utm_source\":\"-\",\"utm_term\":\"-\",\"referrer\":\"-\",\"referring_domain\":\"-\",\"dclid\":\"-\",\"gbraid\":\"-\",\"gclid\":\"-\",\"fbclid\":\"-\",\"ko_click_id\":\"-\",\"li_fat_id\":\"-\",\"msclkid\":\"-\",\"rtd_cid\":\"-\",\"ttclid\":\"-\",\"twclid\":\"-\",\"wbraid\":\"-\"}},\"event_id\":1,\"library\":\"amplitude-react-native-ts/1.4.11\"}],\"options\":{}}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Fri, 07 Nov 2025 19:17:56 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "content-length": "93",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkllhbipppahflniminfammcpdhkecih/background.js",
+      "ts": 1762543077771,
+      "id": "62489.79",
+      "url": "https://api2.amplitude.com/2/httpapi",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"api_key\":\"05c63856469c4e1d4aa9a6c1b2298d3b\",\"events\":[{\"device_id\":\"8e1b6801-8d6b-4306-b4bd-23fbfab1385f\",\"session_id\":1762543075196,\"time\":1762543076759,\"app_version\":\"25.14.4.1\",\"platform\":\"Web\",\"os_name\":\"Chrome\",\"os_version\":\"116.0.0.0\",\"device_manufacturer\":\"Apple\",\"device_model\":\"Macintosh\",\"language\":\"en-GB\",\"ip\":\"$remote\",\"insert_id\":\"8d2e5244-7f5b-448f-98ea-dcf4dfff0062\",\"plan\":{\"version\":\"12\",\"branch\":\"main\",\"source\":\"react_native\",\"versionId\":\"9520d80f-55b9-40f9-82b2-319b038c2a35\"},\"ingestion_metadata\":{\"source_name\":\"react-native-typescript-ampli\",\"source_version\":\"2.0.0\"},\"event_type\":\"$identify\",\"user_properties\":{\"$set\":{\"appPlatform\":\"extension\"}},\"event_id\":2,\"library\":\"amplitude-react-native-ts/1.4.11\"}],\"options\":{}}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Fri, 07 Nov 2025 19:17:57 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "content-length": "92",
+        "content-type": "application/json"
+      }
+    }
+  ],
+  "success": true
+}

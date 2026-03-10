@@ -1,0 +1,1353 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/new_version/extensions/profiles_new/nhnkbkgjikgcigadomkphalanndcapjk",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets-new-version/nhnkbkgjikgcigadomkphalanndcapjk",
+    "destination": "./final-results/new_version/extensions/crawl_new/2025-11-07T19-32-55",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762542658398,
+    "end": 1762542706332
+  },
+  "extensionID": "nbhclelamipomdbajdhcdgncjajpcokh",
+  "serviceWorker": "service_worker",
+  "walletName": "Clover",
+  "notes": "no-balance-btc",
+  "walletAddress": "bc1qt834lseh5vxr7lqy2xkk4n59vef3xv8lq20n65;bc1q0sac07uwq52fh7qwzwty7uu2p5t88lpy677mn0;bc1qgxnwzj9rhrusdvrsg6kqv74jaxtch4q0jp8kun",
+  "password": "Default1Password1!",
+  "pathID": "nhnkbkgjikgcigadomkphalanndcapjk",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542659782,
+      "id": "60597.48",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:59 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542659783,
+      "id": "60597.49",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":4742701414315763,\"jsonrpc\":\"2.0\",\"method\":\"net_version\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:59 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542659783,
+      "id": "60597.50",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":4742701414315764,\"jsonrpc\":\"2.0\",\"method\":\"net_version\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:59 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542659783,
+      "id": "60597.51",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:00 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-07",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "transfer-encoding": "chunked",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "true",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542659904,
+      "id": "60597.65",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:00 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-07",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "vary": "Accept-Encoding",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "true",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542659905,
+      "id": "60597.66",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:00 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-07",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "vary": "Accept-Encoding",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "true",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542661912,
+      "id": "60597.384",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:01 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542662538,
+      "id": "60597.463",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:02 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663178,
+      "id": "60597.540",
+      "url": "https://wallet-api.clover.finance/api/prices",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "etag": "W/\"ebc4-6HQqwv7mgy2lxSa+dSBf6BPH20Y\"",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ryQSxb0JRx%2FsK1sETWP0XmjUGLMRlSfhYv%2Fpyn36h6nxQ0vqo5k27rPkMG261wIagXYjZySgD8XDVhjz6SGoxVMs04UQUVZPrXVduTxtlWclHFd4P6IyAAM%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "s-maxage=1, max-age=1",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99af225d3b4fe634-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663288,
+      "id": "60597.545",
+      "url": "https://sleek-falling-forest.solana-mainnet.discover.quiknode.pro/bf7872f533b3acef73a69e98a5d0726ebcec2045/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "solana-client": "js/0.0.0-development",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"getBalance\",\"jsonrpc\":\"2.0\",\"params\":[\"DBLwsdi5eh6gjsCq4ENGmsoawsz8vmhYvaiBaYooJWWx\",{\"commitment\":\"recent\"}],\"id\":\"7891eca6-a69e-4f22-aa3f-b4cbff45d02e\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663289,
+      "id": "60597.567",
+      "url": "https://api.bitcore.io/api/BTC/mainnet/address/bc1qt834lseh5vxr7lqy2xkk4n59vef3xv8lq20n65/balance",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "REVALIDATED",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "etag": "W/\"2b-I6isbxc45qdkOW/yQ9kMfOkTqxM\"",
+        "vary": "accept-encoding",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Mirk%2BX%2BrV8OmN5PcIH6142jxYk2VeQf0rkkisJtaXNTqSkU5w6H9DrJ9erDdB%2BOrMDdzzw5MD4o1tsmLIazg9YAFg5hNYFZgrCJdfhA%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=10, s-maxage=1",
+        "cf-ray": "99af225e69b81d5c-BRU"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663289,
+      "id": "60597.568",
+      "url": "https://api.bitcore.io/api/DOGE/mainnet/address/D6Gp1VxzUcahRb5m4DPDvjpknzQibqgzXS/balance",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "MISS",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "etag": "W/\"2b-I6isbxc45qdkOW/yQ9kMfOkTqxM\"",
+        "vary": "accept-encoding",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=kjHEa1yEpsss0KNC%2FbI190u10mBXH%2BlDpMCVg4YpRG3UHjTkplLnBUgtts9PnGw%2BfVSKy%2FWc62VFucyb70mZGYSTLnZNpQHyFuSMiqo%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=10, s-maxage=1",
+        "cf-ray": "99af225e69bb1d5c-BRU"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663289,
+      "id": "60597.569",
+      "url": "https://wallet-api.clover.finance/api/prices",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "etag": "W/\"ebc4-6HQqwv7mgy2lxSa+dSBf6BPH20Y\"",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ryQSxb0JRx%2FsK1sETWP0XmjUGLMRlSfhYv%2Fpyn36h6nxQ0vqo5k27rPkMG261wIagXYjZySgD8XDVhjz6SGoxVMs04UQUVZPrXVduTxtlWclHFd4P6IyAAM%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "s-maxage=1, max-age=1",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99af225d3b4fe634-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663291,
+      "id": "60597.570",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663291,
+      "id": "60597.571",
+      "url": "https://bscrpc.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "54b736ddccbefe44d3746a0b32c6f40d",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663318,
+      "id": "60597.598",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663347,
+      "id": "60597.599",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663348,
+      "id": "60597.600",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":45,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663359,
+      "id": "60597.601",
+      "url": "https://bscrpc.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "aeb1f2a4c04d8f1a5e8731ade41725e7",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663378,
+      "id": "60597.602",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":46,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663378,
+      "id": "60597.603",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":47,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663386,
+      "id": "60597.604",
+      "url": "https://bscrpc.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "ef2b25c005d0f505164560166301add3",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663386,
+      "id": "60597.605",
+      "url": "https://bscrpc.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":45,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "aad2a1f559c3f4ee245a4e3cf9c4599a",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663416,
+      "id": "60597.606",
+      "url": "https://bscrpc.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":46,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "e52380318e5ed85676bf2609905f528f",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542663421,
+      "id": "60597.607",
+      "url": "https://bscrpc.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"id\":47,\"jsonrpc\":\"2.0\"}",
+      "status": 401,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:03 GMT",
+        "content-encoding": "gzip",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-shark-trace-id": "2104ffd5e2a1cd97acdc3a3865f94b8c",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "access-control-max-age": "1728000",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "95"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542668572,
+      "id": "60597.616",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:08 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542672555,
+      "id": "60597.746",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:12 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542674599,
+      "id": "60597.823",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:14 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542676646,
+      "id": "60597.954",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:16 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542678682,
+      "id": "60597.956",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:18 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542680731,
+      "id": "60597.1086",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:20 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542682778,
+      "id": "60597.1113",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:22 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542684822,
+      "id": "60597.1219",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:24 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542686854,
+      "id": "60597.1275",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:26 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542688240,
+      "id": "60597.1366",
+      "url": "https://wallet-api.clover.finance/api/assets?accountId=6851641dee489a001a37a567&skip=0&limit=10000",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "x-signature": "a8be7a2c493afbede338006aec6ca0932e0e8457cc10dd318a3b9332993424285984627f227427dbe31463ceef10fe8f76729ea4c3d19cc4a342b04d1540c2be",
+        "referer": "",
+        "x-identity": "6851641dee489a001a37a567",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:28 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "etag": "W/\"c0147-mBX3eieTeC1Ns5fbyTqdB8Uh4uE\"",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=u2i1%2F1tChJsyXQxCkBGPJDcadVUvZdUDdAM4iibjztXnzcmC1NlzF6%2B%2Bv0i0KfrF%2BC641MlNWww91vHisqAgN8ACp7HkGP2RQoakn0MZDp%2FzX64ZieULXA8%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "s-maxage=1, max-age=1",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99af22f9fca8e634-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542688552,
+      "id": "60597.1368",
+      "url": "https://wallet-api.clover.finance/api/networks",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:28 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "etag": "W/\"2c9b-RRGDmOdsj35ngTB03tugTp+VJ1I\"",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=TkCv7G7cWNEty6TF5OLXX6Mxmf61q5X4X73ctmz7ChwFWNiEK3W3mutAkRUWdcp4LXp5NS%2F91uyOiFIpomRPJAf0%2B2hF1rHw5u7qFlzIdZjHdKhqoJZxkxo%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "s-maxage=1, max-age=1",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99af22fbdceee634-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542688842,
+      "id": "60597.1369",
+      "url": "https://wallet-api.clover.finance/api/wallets/6851641dee489a001a37a567/txs?assetId=76",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "x-signature": "e919ed8f96de75184ac3b8ab722cccd54957a8273dfd61c68014b6d66d06117e32afba1e483defec21dae9eb258fe0123f737081854b3159ec19b5630f20c7a5",
+        "referer": "",
+        "x-identity": "6851641dee489a001a37a567",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:29 GMT",
+        "content-encoding": "br",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "etag": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\"",
+        "x-powered-by": "Express",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=HDVuA5Q%2BdPw6YTxva6FK2%2BiQsUCxQhOwKNg79Bt96neYPyBL9qzWVrRSz1f36eBN99RoXJv1CyaF0KC9arFFK02BmTSVY4y%2B9vpyMfXR0LXIHl0Jxpyb940%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "s-maxage=1, max-age=1",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99af22fdad23e634-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542688890,
+      "id": "60597.1370",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:28 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542690920,
+      "id": "60597.1426",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:30 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542692971,
+      "id": "60597.1502",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:33 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542695018,
+      "id": "60597.1633",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:35 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542697066,
+      "id": "60597.1635",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:37 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542699115,
+      "id": "60597.1766",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:39 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542701161,
+      "id": "60597.1792",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:41 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542703210,
+      "id": "60597.1898",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:43 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nbhclelamipomdbajdhcdgncjajpcokh/app-init.js",
+      "ts": 1762542705258,
+      "id": "60597.1954",
+      "url": "https://rpc.ankr.com/eth",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:11:45 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,solana-client,client-sdk-version,client-sdk-type,client-target-api-version,x-ton-client-version",
+        "content-length": "229"
+      }
+    }
+  ],
+  "success": true
+}

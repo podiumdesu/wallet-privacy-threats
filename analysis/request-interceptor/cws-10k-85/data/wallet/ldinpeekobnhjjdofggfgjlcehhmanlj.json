@@ -1,0 +1,2661 @@
+{
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "profilePath": "./final-results/85-version/extensions/profiles_new/ldinpeekobnhjjdofggfgjlcehhmanlj",
+        "links": 10,
+        "walletPath": "./preparation/2411_unzipped_extensions/ldinpeekobnhjjdofggfgjlcehhmanlj",
+        "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T13-17-53",
+        "force": false,
+        "executablePath": "/opt/homebrew/bin/chromium"
+    },
+    "pathID": "ldinpeekobnhjjdofggfgjlcehhmanlj",
+    "timestamps": {
+        "start": 1764073144438,
+        "end": 1764073233041
+    },
+    "walletAddress": "bc1qt834lseh5vxr7lqy2xkk4n59vef3xv8lq20n65;bc1q2x0uvqkve6vwflltsr5zruxqj38qknu6ykyn4e;bc1q50fqlm62pm8ctltzlan7zgznsxz6l58jt7ky6n",
+    "walletName": "leather",
+    "notes": "no-balance-btc",
+    "extensionID": "ndfogdnlkdfnjnhkecpedepnadcdgcol",
+    "password": "",
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html"
+            ],
+            "id": "3793.26",
+            "ts": 1764073145970,
+            "url": "https://api.bitflowapis.finance/getAllTokensAndPools",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json",
+                "accept": "application/json",
+                "referer": "",
+                "x-api-key": "AIzaSyAA0NiCXtyAJgfnsudad4-GZyeNbTKBrAA",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:06 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 google",
+                "server": "Google Frontend",
+                "access-control-max-age": "3600",
+                "access-control-allow-methods": "*",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-cloud-trace-context": "3905b85934aa01a5b6bf23d026552ea6",
+                "access-control-allow-headers": "*",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000, h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                "content-length": "27237"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html"
+            ],
+            "id": "3793.27",
+            "ts": 1764073145977,
+            "url": "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/decryption-worker.js",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; connect-src *; style-src 'unsafe-inline'; img-src 'self' data: https:; script-src 'self' 'wasm-unsafe-eval'; object-src 'none'; frame-src https://ordinals.com/; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 30 Sep 2025 22:00:00 GMT",
+                "etag": "\"2a0UDf2nH+5iDrQF69B4Jd8uw7E=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/unlock"
+            ],
+            "id": "3793.28",
+            "ts": 1764073146047,
+            "url": "https://cdn.segment.com/v1/projects/6EdfMbYvR0W1lACBylV9qTFjvXUUXurM/settings",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:06 GMT",
+                "x-amz-version-id": "jDMK39FSA0kxC4uygnPMt3DQpbmS0xdm",
+                "via": "1.1 1b0117d337408839a32bf2a49b55b3f0.cloudfront.net (CloudFront)",
+                "content-encoding": "br",
+                "x-amz-cf-pop": "AMS54-C1",
+                "age": "6769",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Hit from cloudfront",
+                "x-amz-replication-status": "COMPLETED",
+                "last-modified": "Thu, 13 Nov 2025 06:12:44 GMT",
+                "server": "AmazonS3",
+                "etag": "W/\"0cc97c801d6886505b7a4146a9c6d102\"",
+                "access-control-max-age": "3000",
+                "access-control-allow-methods": "GET, HEAD",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=10800",
+                "vary": "accept-encoding",
+                "x-amz-cf-id": "n8gioAJXRyn5rv0vc76aF-Z23zcckP1S6ezYEF5MRvn1MFKQ9pXewA=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/unlock"
+            ],
+            "id": "3793.29",
+            "ts": 1764073146047,
+            "url": "https://raw.githubusercontent.com/leather-io/extension/main/config/wallet-config.json",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-fastly-request-id": "6425d923165bcdce9bfcc7478fb1994977b6007b",
+                "date": "Tue, 25 Nov 2025 12:19:06 GMT",
+                "via": "1.1 varnish",
+                "x-content-type-options": "nosniff",
+                "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+                "content-encoding": "gzip",
+                "expires": "Tue, 25 Nov 2025 12:24:06 GMT",
+                "x-cache": "MISS",
+                "cross-origin-resource-policy": "cross-origin",
+                "content-length": "1826",
+                "x-xss-protection": "1; mode=block",
+                "x-served-by": "cache-bru1480034-BRU",
+                "x-github-request-id": "15CB:33944D:B2F0B0:BD1AA3:6924F1D7",
+                "x-timer": "S1764073146.133897,VS0,VE104",
+                "etag": "W/\"04e2b107fecab1a443f191b5aae6067a8bda0479696d1261c2654bf10931fe01\"",
+                "source-age": "0",
+                "vary": "Authorization,Accept-Encoding",
+                "x-frame-options": "deny",
+                "content-type": "text/plain; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=300",
+                "accept-ranges": "bytes",
+                "x-cache-hits": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/unlock"
+            ],
+            "id": "3793.30",
+            "ts": 1764073146135,
+            "url": "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/ajs-destination.2d1bdfed.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; connect-src *; style-src 'unsafe-inline'; img-src 'self' data: https:; script-src 'self' 'wasm-unsafe-eval'; object-src 'none'; frame-src https://ordinals.com/; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 30 Sep 2025 22:00:00 GMT",
+                "etag": "\"2a0UDf2nH+5iDrQF69B4Jd8uw7E=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/unlock"
+            ],
+            "id": "3793.31",
+            "ts": 1764073146137,
+            "url": "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/schemaFilter.2268c8f5.chunk.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; connect-src *; style-src 'unsafe-inline'; img-src 'self' data: https:; script-src 'self' 'wasm-unsafe-eval'; object-src 'none'; frame-src https://ordinals.com/; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 30 Sep 2025 22:00:00 GMT",
+                "etag": "\"2a0UDf2nH+5iDrQF69B4Jd8uw7E=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/unlock"
+            ],
+            "id": "3793.32",
+            "ts": 1764073151180,
+            "url": "https://api.segment.io/v1/b",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"batch\":[{\"timestamp\":\"2025-11-25T12:19:06.139Z\",\"integrations\":{\"Segment.io\":true},\"type\":\"page\",\"properties\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\",\"platform\":\"extension\",\"category\":\"view\",\"name\":\"/\",\"ip\":\"0.0.0.0\",\"version\":\"6.76.0\",\"route\":\"/index.html\",\"network\":\"mainnet\",\"usingDefaultHiroApi\":true,\"walletType\":\"software\"},\"category\":\"view\",\"name\":\"/\",\"context\":{\"page\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"Chromium\",\"version\":\"116\"},{\"brand\":\" Not A;Brand\",\"version\":\"99\"},{\"brand\":\"Google Chrome\",\"version\":\"116\"}],\"mobile\":false,\"platform\":\"Mac OS X\"},\"locale\":\"en-GB\",\"library\":{\"name\":\"analytics.js\",\"version\":\"npm:next-1.81.0\"},\"timezone\":\"Europe/Brussels\",\"ip\":\"0.0.0.0\"},\"messageId\":\"ajs-next-1764073146139-b5b79dbb-8d0a-45e4-a99e-7b1f350c2e06\",\"anonymousId\":\"cba04999-6638-4bf1-aa82-d83415acf5f0\",\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"userId\":null,\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Mixpanel\"],\"bundledIds\":[]}},{\"timestamp\":\"2025-11-25T12:19:06.153Z\",\"integrations\":{\"Segment.io\":true},\"type\":\"page\",\"properties\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\",\"platform\":\"extension\",\"category\":\"view\",\"name\":\"/unlock\",\"ip\":\"0.0.0.0\",\"version\":\"6.76.0\",\"route\":\"/index.html\",\"network\":\"mainnet\",\"usingDefaultHiroApi\":true,\"walletType\":\"software\"},\"category\":\"view\",\"name\":\"/unlock\",\"context\":{\"page\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"Chromium\",\"version\":\"116\"},{\"brand\":\" Not A;Brand\",\"version\":\"99\"},{\"brand\":\"Google Chrome\",\"version\":\"116\"}],\"mobile\":false,\"platform\":\"Mac OS X\"},\"locale\":\"en-GB\",\"library\":{\"name\":\"analytics.js\",\"version\":\"npm:next-1.81.0\"},\"timezone\":\"Europe/Brussels\",\"ip\":\"0.0.0.0\"},\"messageId\":\"ajs-next-1764073146153-9dbb8d0a-c5e4-499e-bb1f-350c2e06a85a\",\"anonymousId\":\"cba04999-6638-4bf1-aa82-d83415acf5f0\",\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"userId\":null,\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Mixpanel\"],\"bundledIds\":[]}},{\"timestamp\":\"2025-11-25T12:19:06.154Z\",\"integrations\":{\"Segment.io\":true},\"event\":\"user_session_complete\",\"type\":\"track\",\"properties\":{\"backgroundQueuedMessage\":true,\"durationSeconds\":18.906,\"sessionFrame\":\"fullscreen\",\"platform\":\"extension\",\"ip\":\"0.0.0.0\",\"version\":\"6.76.0\",\"route\":\"/index.html\",\"network\":\"mainnet\",\"usingDefaultHiroApi\":true,\"walletType\":\"software\"},\"context\":{\"page\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"Chromium\",\"version\":\"116\"},{\"brand\":\" Not A;Brand\",\"version\":\"99\"},{\"brand\":\"Google Chrome\",\"version\":\"116\"}],\"mobile\":false,\"platform\":\"Mac OS X\"},\"locale\":\"en-GB\",\"library\":{\"name\":\"analytics.js\",\"version\":\"npm:next-1.81.0\"},\"timezone\":\"Europe/Brussels\",\"ip\":\"0.0.0.0\"},\"messageId\":\"ajs-next-1764073146154-8d0ac5e4-299e-4b1f-b50c-2e06a85a541d\",\"anonymousId\":\"cba04999-6638-4bf1-aa82-d83415acf5f0\",\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"userId\":null,\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Mixpanel\"],\"bundledIds\":[]}}],\"sentAt\":\"2025-11-25T12:19:11.175Z\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol",
+                "date": "Tue, 25 Nov 2025 12:19:11 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "content-length": "21",
+                "vary": "Origin",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/unlock"
+            ],
+            "id": "3793.33",
+            "ts": 1764073167884,
+            "url": "https://api.segment.io/v1/b",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"batch\":[{\"timestamp\":\"2025-11-25T12:19:22.856Z\",\"integrations\":{\"Segment.io\":true},\"event\":\"start_unlock\",\"type\":\"track\",\"properties\":{\"platform\":\"extension\",\"ip\":\"0.0.0.0\",\"version\":\"6.76.0\",\"route\":\"/index.html\",\"network\":\"mainnet\",\"usingDefaultHiroApi\":true,\"walletType\":\"software\"},\"context\":{\"page\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"Chromium\",\"version\":\"116\"},{\"brand\":\" Not A;Brand\",\"version\":\"99\"},{\"brand\":\"Google Chrome\",\"version\":\"116\"}],\"mobile\":false,\"platform\":\"Mac OS X\"},\"locale\":\"en-GB\",\"library\":{\"name\":\"analytics.js\",\"version\":\"npm:next-1.81.0\"},\"timezone\":\"Europe/Brussels\",\"ip\":\"0.0.0.0\"},\"messageId\":\"ajs-next-1764073162856-c5e4299e-7b1f-450c-ae06-a85a541d8d5b\",\"anonymousId\":\"cba04999-6638-4bf1-aa82-d83415acf5f0\",\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"userId\":null,\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Mixpanel\"],\"bundledIds\":[]}},{\"timestamp\":\"2025-11-25T12:19:23.960Z\",\"integrations\":{\"Segment.io\":true},\"event\":\"complete_unlock\",\"type\":\"track\",\"properties\":{\"durationMs\":1104.2000000476837,\"platform\":\"extension\",\"ip\":\"0.0.0.0\",\"version\":\"6.76.0\",\"route\":\"/index.html\",\"network\":\"mainnet\",\"usingDefaultHiroApi\":true,\"walletType\":\"software\"},\"context\":{\"page\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"Chromium\",\"version\":\"116\"},{\"brand\":\" Not A;Brand\",\"version\":\"99\"},{\"brand\":\"Google Chrome\",\"version\":\"116\"}],\"mobile\":false,\"platform\":\"Mac OS X\"},\"locale\":\"en-GB\",\"library\":{\"name\":\"analytics.js\",\"version\":\"npm:next-1.81.0\"},\"timezone\":\"Europe/Brussels\",\"ip\":\"0.0.0.0\"},\"messageId\":\"ajs-next-1764073163960-299e7b1f-350c-4e06-a85a-541d8d5b3c04\",\"anonymousId\":\"cba04999-6638-4bf1-aa82-d83415acf5f0\",\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"userId\":null,\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Mixpanel\"],\"bundledIds\":[]}}],\"sentAt\":\"2025-11-25T12:19:27.878Z\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol",
+                "date": "Tue, 25 Nov 2025 12:19:27 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "content-length": "21",
+                "vary": "Origin",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.34",
+            "ts": 1764073170327,
+            "url": "https://api.hiro.so/extended/v2/addresses/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H/balances/stx",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-partner": "Leather",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "content-security-policy": "default-src 'none'",
+                "x-content-type-options": "nosniff",
+                "ratelimit-reset": "1",
+                "cf-cache-status": "EXPIRED",
+                "x-ratelimit-limit-second": "40",
+                "x-api-version": "v8.13.4 (master:7ee1adbdd)",
+                "content-encoding": "br",
+                "x-ratelimit-remaining-second": "39",
+                "x-ratelimit-limit-minute": "300",
+                "x-ratelimit-remaining-minute": "299",
+                "ratelimit-limit": "40",
+                "x-ratelimit-remaining-stacks-second": "39",
+                "x-ratelimit-limit-stacks-minute": "300",
+                "x-ratelimit-cost-stacks": "1",
+                "server": "cloudflare",
+                "x-ratelimit-remaining-stacks-minute": "299",
+                "etag": "W/\"0x842e5f0eac0c28d51886afc669c56d06d48da1610c3fdcaada6d3566de747afb\"",
+                "x-frame-options": "DENY",
+                "vary": "accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "X-API-Version",
+                "cache-control": "public, max-age=3, stale-while-revalidate=1, immutable, must-revalidate",
+                "x-ratelimit-limit-stacks-second": "40",
+                "cf-ray": "9a411842df5cbde4-BRU",
+                "ratelimit-remaining": "39"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.35",
+            "ts": 1764073170328,
+            "url": "https://api.hiro.so/extended/v1/tx/mempool?address=SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H&limit=50",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-partner": "Leather",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "content-security-policy": "default-src 'none'",
+                "x-content-type-options": "nosniff",
+                "ratelimit-reset": "1",
+                "cf-cache-status": "EXPIRED",
+                "x-ratelimit-limit-second": "40",
+                "x-api-version": "v8.13.4 (master:7ee1adbdd)",
+                "content-encoding": "br",
+                "x-ratelimit-remaining-second": "39",
+                "x-ratelimit-limit-minute": "300",
+                "x-ratelimit-remaining-minute": "299",
+                "ratelimit-limit": "40",
+                "x-ratelimit-remaining-stacks-second": "39",
+                "x-ratelimit-limit-stacks-minute": "300",
+                "x-ratelimit-cost-stacks": "1",
+                "server": "cloudflare",
+                "x-ratelimit-remaining-stacks-minute": "299",
+                "etag": "W/\"1764073169.853484\"",
+                "x-frame-options": "DENY",
+                "vary": "accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "X-API-Version",
+                "cache-control": "public, max-age=3, stale-while-revalidate=1, immutable, must-revalidate",
+                "x-ratelimit-limit-stacks-second": "40",
+                "cf-ray": "9a411842df5abde4-BRU",
+                "ratelimit-remaining": "39"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.36",
+            "ts": 1764073170329,
+            "url": "https://api.hiro.so/extended/v2/addresses/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H/transactions?limit=50&offset=0",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-partner": "Leather",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "content-security-policy": "default-src 'none'",
+                "x-content-type-options": "nosniff",
+                "ratelimit-reset": "1",
+                "cf-cache-status": "EXPIRED",
+                "x-ratelimit-limit-second": "40",
+                "x-api-version": "v8.13.4 (master:7ee1adbdd)",
+                "content-encoding": "br",
+                "x-ratelimit-remaining-second": "39",
+                "x-ratelimit-limit-minute": "300",
+                "x-ratelimit-remaining-minute": "299",
+                "ratelimit-limit": "40",
+                "x-ratelimit-remaining-stacks-second": "39",
+                "x-ratelimit-limit-stacks-minute": "300",
+                "x-ratelimit-cost-stacks": "1",
+                "last-modified": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "server": "cloudflare",
+                "x-ratelimit-remaining-stacks-minute": "299",
+                "x-frame-options": "DENY",
+                "vary": "accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "X-API-Version",
+                "cache-control": "public, max-age=3, stale-while-revalidate=1, immutable, must-revalidate",
+                "x-ratelimit-limit-stacks-second": "40",
+                "cf-ray": "9a411842df5dbde4-BRU",
+                "ratelimit-remaining": "39"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.37",
+            "ts": 1764073170329,
+            "url": "https://api.hiro.so/extended/v2/addresses/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H/balances/ft",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-partner": "Leather",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "content-security-policy": "default-src 'none'",
+                "x-content-type-options": "nosniff",
+                "ratelimit-reset": "1",
+                "cf-cache-status": "EXPIRED",
+                "x-ratelimit-limit-second": "40",
+                "x-api-version": "v8.13.4 (master:7ee1adbdd)",
+                "content-encoding": "br",
+                "x-ratelimit-remaining-second": "39",
+                "x-ratelimit-limit-minute": "300",
+                "x-ratelimit-remaining-minute": "299",
+                "ratelimit-limit": "40",
+                "x-ratelimit-remaining-stacks-second": "39",
+                "x-ratelimit-limit-stacks-minute": "300",
+                "x-ratelimit-cost-stacks": "1",
+                "server": "cloudflare",
+                "x-ratelimit-remaining-stacks-minute": "299",
+                "etag": "W/\"0x842e5f0eac0c28d51886afc669c56d06d48da1610c3fdcaada6d3566de747afb\"",
+                "x-frame-options": "DENY",
+                "vary": "accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "X-API-Version",
+                "cache-control": "public, max-age=3, stale-while-revalidate=1, immutable, must-revalidate",
+                "x-ratelimit-limit-stacks-second": "40",
+                "cf-ray": "9a411842df59bde4-BRU",
+                "ratelimit-remaining": "39"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.38",
+            "ts": 1764073170329,
+            "url": "https://api.leather.io/v1/market/prices/native?format=map",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "x-client-id": "65225d01-63ed-4b9c-afa9-87467c18d426",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "same-origin, no-referrer",
+                "x-content-type-options": "nosniff, nosniff",
+                "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                "server": "cloudflare",
+                "expect-ct": "max-age=86400, enforce",
+                "vary": "accept-encoding",
+                "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=8hrLNzD719sJr87JyJnvnuQ0%2BjHme%2BFy%2FSNBqUYDFN96es9RwLmD5URz3EcvnCbgkmZvWYpJRYld7ly9YO3kx%2FR7k9l%2B%2Bxxyh0%2Fc2xI%3D\"}]}",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-frame-options": "SAMEORIGIN, deny",
+                "cf-ray": "9a4118435ca3605a-BRU",
+                "x-xss-protection": "1; mode=block, 1; mode=block",
+                "x-request-id": "645fdaa7-7515-49f6-a8ef-5ad46ed8f879"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.39",
+            "ts": 1764073170329,
+            "url": "https://api.leather.io/v1/utxos/wpkh(xpub6CNFgVw1vvciGg9fHMWXpg1wa3BiNraYQ6HSfQHTxAnoigUgBhdjytjYVLkMqSkCsWJzPykMbY4ccQ3BHGyP7hVPrxpEe7yF7wX2wCEuLub)?network=mainnet",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "x-client-id": "65225d01-63ed-4b9c-afa9-87467c18d426",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "same-origin, no-referrer",
+                "x-content-type-options": "nosniff, nosniff",
+                "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                "server": "cloudflare",
+                "expect-ct": "max-age=86400, enforce",
+                "vary": "accept-encoding",
+                "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2B6lXPKdFJAILB4k24Rn%2Fs18MoqrTUOYVTnH59nIpbGFSOdGzfPOvU2Rfcn%2BrrSYW8zPgv21S049cs4HGeCIOiO0XB823bJDN%2BgamQlI%3D\"}]}",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-frame-options": "SAMEORIGIN, deny",
+                "cf-ray": "9a4118435ca7605a-BRU",
+                "x-xss-protection": "1; mode=block, 1; mode=block",
+                "x-request-id": "3842540e-7841-42f9-baf8-fd6383d68071"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.40",
+            "ts": 1764073170329,
+            "url": "https://api.leather.io/v1/transactions/wpkh(xpub6CNFgVw1vvciGg9fHMWXpg1wa3BiNraYQ6HSfQHTxAnoigUgBhdjytjYVLkMqSkCsWJzPykMbY4ccQ3BHGyP7hVPrxpEe7yF7wX2wCEuLub)?network=mainnet&page=1&pageSize=50",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "x-client-id": "65225d01-63ed-4b9c-afa9-87467c18d426",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "same-origin, no-referrer",
+                "x-content-type-options": "nosniff, nosniff",
+                "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                "server": "cloudflare",
+                "expect-ct": "max-age=86400, enforce",
+                "vary": "accept-encoding",
+                "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=d2%2FT%2BSPH%2BNGiQp2hZUUsBrbdLKb9Debr1tSKdZoG%2Fx%2Fxu4TtRukopiloYpl0OXpjdrtlPsgqX91LbJflCWiwsxyynB%2BmMiStDSgDqGg%3D\"}]}",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-frame-options": "SAMEORIGIN, deny",
+                "cf-ray": "9a4118435c9c605a-BRU",
+                "x-xss-protection": "1; mode=block, 1; mode=block",
+                "x-request-id": "f0eb6a22-b1dc-4355-b9e6-0035d1f28939"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.41",
+            "ts": 1764073170329,
+            "url": "https://api.leather.io/v1/utxos/tr(xpub6DT1mX9FmeFyGa7BKcporaJYThwvT8ca1DBZx64Qvw8hiPVVqbs2G9YMxxbLp3XR3Cqw7bbAovgeY58GeR1oiF3b3M1p8R1pmRT9x3GUo5K)?network=mainnet",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "x-client-id": "65225d01-63ed-4b9c-afa9-87467c18d426",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "same-origin, no-referrer",
+                "x-content-type-options": "nosniff, nosniff",
+                "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                "server": "cloudflare",
+                "expect-ct": "max-age=86400, enforce",
+                "vary": "accept-encoding",
+                "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wxqb2xT0mTFbv20EGhfN%2FHJUdZ6PfBYnW21On1ahUCgLLFGE49C3gsr9vaqQDntLydU7bOgCMKw8a5ceZd9ovN%2B1abSNCaeOAPWUNMk%3D\"}]}",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-frame-options": "SAMEORIGIN, deny",
+                "cf-ray": "9a4118435ca0605a-BRU",
+                "x-xss-protection": "1; mode=block, 1; mode=block",
+                "x-request-id": "0926cabc-c9c7-436e-9336-768caf83bd3e"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.42",
+            "ts": 1764073170329,
+            "url": "https://api.leather.io/v1/transactions/tr(xpub6DT1mX9FmeFyGa7BKcporaJYThwvT8ca1DBZx64Qvw8hiPVVqbs2G9YMxxbLp3XR3Cqw7bbAovgeY58GeR1oiF3b3M1p8R1pmRT9x3GUo5K)?network=mainnet&page=1&pageSize=50",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "x-client-id": "65225d01-63ed-4b9c-afa9-87467c18d426",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "content-encoding": "br",
+                "referrer-policy": "same-origin, no-referrer",
+                "x-content-type-options": "nosniff, nosniff",
+                "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                "server": "cloudflare",
+                "expect-ct": "max-age=86400, enforce",
+                "vary": "accept-encoding",
+                "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Tq9bJuonadyka2Q3%2BlJZUMkXzs4kNeKU97RFpGMD1jof%2BJQHNKPNC1FqcITsMzgvIfg8ejpSzz%2BRZueQEvjkStdUEjg8vkvlAtshB%2Fg%3D\"}]}",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "x-frame-options": "SAMEORIGIN, deny",
+                "cf-ray": "9a4118435c98605a-BRU",
+                "x-xss-protection": "1; mode=block, 1; mode=block",
+                "x-request-id": "9a80235b-ce8e-4fe1-b228-e5cf3384d98a"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.43",
+            "ts": 1764073170329,
+            "url": "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/assets/illustrations/promo-banner-mobile.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; connect-src *; style-src 'unsafe-inline'; img-src 'self' data: https:; script-src 'self' 'wasm-unsafe-eval'; object-src 'none'; frame-src https://ordinals.com/; frame-ancestors 'none';",
+                "cache-control": "no-cache",
+                "last-modified": "Tue, 30 Sep 2025 22:00:00 GMT",
+                "etag": "\"2a0UDf2nH+5iDrQF69B4Jd8uw7E=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.44",
+            "ts": 1764073170329,
+            "url": "https://leatherapi.bestinslot.xyz/v3/wallet/inscriptions_xpub?sort_by=inscr_num&order=desc&exclude_brc20=false&xpub=wpkh%28xpub6CNFgVw1vvciGg9fHMWXpg1wa3BiNraYQ6HSfQHTxAnoigUgBhdjytjYVLkMqSkCsWJzPykMbY4ccQ3BHGyP7hVPrxpEe7yF7wX2wCEuLub%29&offset=0&count=2000",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "ratelimit-reset": "60",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a4118434e7d0dbd-BRU",
+                "ratelimit-remaining": "397"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.45",
+            "ts": 1764073170329,
+            "url": "https://leatherapi.bestinslot.xyz/v3/runes/wallet_valid_outputs_xpub?sort_by=output&order=desc&xpub=wpkh%28xpub6CNFgVw1vvciGg9fHMWXpg1wa3BiNraYQ6HSfQHTxAnoigUgBhdjytjYVLkMqSkCsWJzPykMbY4ccQ3BHGyP7hVPrxpEe7yF7wX2wCEuLub%29&offset=0&count=2000",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "ratelimit-reset": "60",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a4118434e850dbd-BRU",
+                "ratelimit-remaining": "398"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.46",
+            "ts": 1764073170329,
+            "url": "https://api.stx20.com/api/v1/balance/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H",
+            "type": "Xhr",
+            "status": 503,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "server": "awselb/2.0",
+                "content-length": "564",
+                "content-type": "text/html"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.47",
+            "ts": 1764073170329,
+            "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "access-control-request-method": "*",
+                "x-content-type-options": "nosniff",
+                "strict-transport-security": "max-age=15724800; includeSubdomains",
+                "content-encoding": "gzip",
+                "x-permitted-cross-domain-policies": "none",
+                "cf-cache-status": "HIT",
+                "age": "46",
+                "content-security-policy-report-only": "script-src https://accounts.google.com/gsi/client; frame-src https://accounts.google.com/gsi/; connect-src https://accounts.google.com/gsi/;",
+                "server-timing": "cfExtPri",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "alternate-protocol": "443:npn-spdy/2",
+                "x-xss-protection": "0",
+                "x-request-id": "45afb04d-d215-409f-afb7-7cf50771529a",
+                "x-runtime": "0.002614",
+                "referrer-policy": "strict-origin-when-cross-origin",
+                "server": "cloudflare",
+                "etag": "W/\"75c7423777b5bffaae8f814028b041ab\"",
+                "x-download-options": "noopen",
+                "x-frame-options": "SAMEORIGIN",
+                "access-control-allow-methods": "POST, PUT, DELETE, GET, OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "link, per-page, total",
+                "cache-control": "max-age=30, public, must-revalidate, s-maxage=60",
+                "vary": "Accept-Encoding, Origin",
+                "cf-ray": "9a4118431a70b74d-BRU",
+                "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+                "priority": "u=1,i"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.48",
+            "ts": 1764073170329,
+            "url": "https://api1.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "x-content-security-policy": "default-src 'self'",
+                "date": "Tue, 25 Nov 2025 12:19:31 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubdomains",
+                "x-content-type-options": "nosniff",
+                "content-security-policy": "default-src 'self'",
+                "x-mbx-uuid": "2fb04d38-7e7e-4dee-b6aa-0a0752b4a895",
+                "content-length": "45",
+                "x-xss-protection": "1; mode=block",
+                "pragma": "no-cache",
+                "x-mbx-used-weight-1m": "2",
+                "server": "nginx",
+                "x-frame-options": "SAMEORIGIN",
+                "access-control-allow-methods": "GET, HEAD, OPTIONS",
+                "content-type": "application/json;charset=UTF-8",
+                "access-control-allow-origin": "*",
+                "x-mbx-used-weight": "2",
+                "cache-control": "no-cache, no-store, must-revalidate",
+                "x-webkit-csp": "default-src 'self'",
+                "expires": "0"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.49",
+            "ts": 1764073170329,
+            "url": "https://leatherapi.bestinslot.xyz/v3/brc20/wallet_balances?address=bc1q50fqlm62pm8ctltzlan7zgznsxz6l58jt7ky6n",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "ratelimit-reset": "60",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a4118434e820dbd-BRU",
+                "ratelimit-remaining": "393"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.50",
+            "ts": 1764073170329,
+            "url": "https://leatherapi.bestinslot.xyz/v3/brc20/wallet_balances?address=bc1ppc30ajtajcag64h37ed9ahnwzj7kenrqhk5nputfppveets0fq8suul68e",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "ratelimit-reset": "60",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a4118434e7f0dbd-BRU",
+                "ratelimit-remaining": "396"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.51",
+            "ts": 1764073170329,
+            "url": "https://leatherapi.bestinslot.xyz/v3/brc20/wallet_balances?address=bc1p0k39lk5srwdcxpgyhpwc88s5mtj4qd07drmxarqjaqgmejpcy82qnc0mxv",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "ratelimit-reset": "60",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a4118434e830dbd-BRU",
+                "ratelimit-remaining": "392"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.52",
+            "ts": 1764073170329,
+            "url": "https://leatherapi.bestinslot.xyz/v3/brc20/wallet_balances?address=bc1ptt82qnw37v5ysa60tnnusx39hswy93thj58nspldf8hlw6mqtzrsewvgtr",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "ratelimit-reset": "60",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a4118434e890dbd-BRU",
+                "ratelimit-remaining": "395"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.53",
+            "ts": 1764073170329,
+            "url": "https://stampchain.io/api/v2/balance/bc1q50fqlm62pm8ctltzlan7zgznsxz6l58jt7ky6n",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; connect-src 'self', default-src 'none'; connect-src 'self'",
+                "content-encoding": "gzip",
+                "x-permitted-cross-domain-policies": "none, none",
+                "surrogate-control": "no-store, max-age=86400",
+                "edge-control": "no-store, cache-maxage=86400",
+                "server-timing": "cfExtPri",
+                "cdn-cache-control": "no-store, must-revalidate, public, max-age=86400, stale-while-revalidate=60, stale-if-error=1200",
+                "x-info": "Consider using dedicated endpoints for better performance and pagination control",
+                "vary": "Accept-Encoding, Accept, Origin, X-API-Version",
+                "x-frame-options": "DENY, DENY",
+                "content-type": "application/json",
+                "x-ratelimit-remaining": "299",
+                "x-api-version-default": "2.3",
+                "cache-control": "no-store, must-revalidate, public, max-age=86400, stale-while-revalidate=60, stale-if-error=1200",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "access-control-allow-origin": "*",
+                "x-ratelimit-limit": "300",
+                "api-version": "2.3",
+                "x-preferred-endpoints": "/api/v2/stamps/balance/[address], /api/v2/src20/balance/[address]",
+                "x-api-version-used": "2.3",
+                "access-control-allow-headers": "Content-Type, Accept, Origin, Authorization",
+                "priority": "u=1,i",
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "x-content-type-options": "nosniff, nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                "x-api-version": "v2.2.7, v2.2.7",
+                "api-version-supported": "2.2, 2.3",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "content-length": "220",
+                "speculation-rules": "\"/cdn-cgi/speculation\"",
+                "server": "cloudflare",
+                "access-control-max-age": "86400",
+                "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=k6O7hXRHO4xg6vXLg3xGWlWKJoZOgqYXUWO5Wep%2FxkeOGv6SJESSKHQG8BSTS6NwiSCQUoxlTw6IOkqAd3fj%2FmtNyo8NYnp9YZaxVg%3D%3D\"}]}",
+                "x-ratelimit-reset": "1764073230877",
+                "cf-ray": "9a41184338d48688-BRU"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.54",
+            "ts": 1764073170329,
+            "url": "https://leatherapi.bestinslot.xyz/v3/runes/wallet_valid_outputs_xpub?sort_by=output&order=desc&xpub=tr%28xpub6DT1mX9FmeFyGa7BKcporaJYThwvT8ca1DBZx64Qvw8hiPVVqbs2G9YMxxbLp3XR3Cqw7bbAovgeY58GeR1oiF3b3M1p8R1pmRT9x3GUo5K%29&offset=0&count=2000",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "ratelimit-reset": "60",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a4118434e8c0dbd-BRU",
+                "ratelimit-remaining": "394"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.55",
+            "ts": 1764073170329,
+            "url": "https://leather.mempool.space/api/address/bc1ppc30ajtajcag64h37ed9ahnwzj7kenrqhk5nputfppveets0fq8suul68e/utxo",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "public",
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                "content-security-policy": "frame-ancestors 'self'",
+                "server": "nginx",
+                "x-powered-by": "mempool-electrs 3.3.0-dev-7daee2c",
+                "vary": "Accept-Language, Cookie",
+                "onion-location": "http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/api/address/bc1ppc30ajtajcag64h37ed9ahnwzj7kenrqhk5nputfppveets0fq8suul68e/utxo",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=1, public",
+                "content-length": "2",
+                "expires": "Tue, 25 Nov 2025 12:19:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.56",
+            "ts": 1764073170329,
+            "url": "https://leatherapi.bestinslot.xyz/v3/wallet/inscriptions_xpub?sort_by=inscr_num&order=desc&exclude_brc20=false&xpub=tr%28xpub6DT1mX9FmeFyGa7BKcporaJYThwvT8ca1DBZx64Qvw8hiPVVqbs2G9YMxxbLp3XR3Cqw7bbAovgeY58GeR1oiF3b3M1p8R1pmRT9x3GUo5K%29&offset=0&count=2000",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "ratelimit-reset": "60",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a4118434e8a0dbd-BRU",
+                "ratelimit-remaining": "399"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.57",
+            "ts": 1764073170330,
+            "url": "https://api.hiro.so/extended/v1/tokens/nft/holdings?principal=SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H&limit=50",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-partner": "Leather",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "content-security-policy": "default-src 'none'",
+                "x-content-type-options": "nosniff",
+                "ratelimit-reset": "1",
+                "cf-cache-status": "EXPIRED",
+                "x-ratelimit-limit-second": "40",
+                "x-api-version": "v8.13.4 (master:7ee1adbdd)",
+                "content-encoding": "br",
+                "x-ratelimit-remaining-second": "39",
+                "x-ratelimit-limit-minute": "300",
+                "x-ratelimit-remaining-minute": "299",
+                "ratelimit-limit": "40",
+                "x-ratelimit-remaining-stacks-second": "39",
+                "x-ratelimit-limit-stacks-minute": "300",
+                "x-ratelimit-cost-stacks": "1",
+                "server": "cloudflare",
+                "x-ratelimit-remaining-stacks-minute": "299",
+                "etag": "W/\"0x842e5f0eac0c28d51886afc669c56d06d48da1610c3fdcaada6d3566de747afb\"",
+                "x-frame-options": "DENY",
+                "vary": "accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "X-API-Version",
+                "cache-control": "public, max-age=3, stale-while-revalidate=1, immutable, must-revalidate",
+                "x-ratelimit-limit-stacks-second": "40",
+                "cf-ray": "9a411842df5ebde4-BRU",
+                "ratelimit-remaining": "39"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.58",
+            "ts": 1764073170330,
+            "url": "https://leatherapi.bestinslot.xyz/v3/wallet/inscriptions_xpub?sort_by=inscr_num&order=desc&exclude_brc20=false&xpub=wpkh%28xpub6CNFgVw1vvciGg9fHMWXpg1wa3BiNraYQ6HSfQHTxAnoigUgBhdjytjYVLkMqSkCsWJzPykMbY4ccQ3BHGyP7hVPrxpEe7yF7wX2wCEuLub%29&offset=0&count=2000",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "ratelimit-reset": "60",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a411844395f0dbd-BRU",
+                "ratelimit-remaining": "391"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.59",
+            "ts": 1764073170330,
+            "url": "https://leatherapi.bestinslot.xyz/v3/wallet/inscriptions_xpub?sort_by=inscr_num&order=desc&exclude_brc20=false&xpub=tr%28xpub6DT1mX9FmeFyGa7BKcporaJYThwvT8ca1DBZx64Qvw8hiPVVqbs2G9YMxxbLp3XR3Cqw7bbAovgeY58GeR1oiF3b3M1p8R1pmRT9x3GUo5K%29&offset=0&count=2000",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "ratelimit-reset": "60",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a411844aa9c0dbd-BRU",
+                "ratelimit-remaining": "390"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.60",
+            "ts": 1764073170579,
+            "url": "https://leather.mempool.space/api/address/bc1p0k39lk5srwdcxpgyhpwc88s5mtj4qd07drmxarqjaqgmejpcy82qnc0mxv/utxo",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "public",
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                "content-security-policy": "frame-ancestors 'self'",
+                "server": "nginx",
+                "x-powered-by": "mempool-electrs 3.3.0-dev-7daee2c",
+                "vary": "Accept-Language, Cookie",
+                "onion-location": "http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/api/address/bc1p0k39lk5srwdcxpgyhpwc88s5mtj4qd07drmxarqjaqgmejpcy82qnc0mxv/utxo",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=1, public",
+                "content-length": "2",
+                "expires": "Tue, 25 Nov 2025 12:19:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.61",
+            "ts": 1764073170664,
+            "url": "https://leather.mempool.space/api/address/bc1ptt82qnw37v5ysa60tnnusx39hswy93thj58nspldf8hlw6mqtzrsewvgtr/utxo",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "public",
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                "content-security-policy": "frame-ancestors 'self'",
+                "server": "nginx",
+                "x-powered-by": "mempool-electrs 3.3.0-dev-7daee2c",
+                "vary": "Accept-Language, Cookie",
+                "onion-location": "http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/api/address/bc1ptt82qnw37v5ysa60tnnusx39hswy93thj58nspldf8hlw6mqtzrsewvgtr/utxo",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=1, public",
+                "content-length": "2",
+                "expires": "Tue, 25 Nov 2025 12:19:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.62",
+            "ts": 1764073170835,
+            "url": "https://leather.mempool.space/api/address/bc1pauv7uujgjumlhu6c9fx3hw7mnkht04fm2p2yz9gzhf9a3648jjus4klrja/utxo",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "public",
+                "date": "Tue, 25 Nov 2025 12:19:30 GMT",
+                "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                "content-security-policy": "frame-ancestors 'self'",
+                "server": "nginx",
+                "x-powered-by": "mempool-electrs 3.3.0-dev-7daee2c",
+                "vary": "Accept-Language, Cookie",
+                "onion-location": "http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/api/address/bc1pauv7uujgjumlhu6c9fx3hw7mnkht04fm2p2yz9gzhf9a3648jjus4klrja/utxo",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=1, public",
+                "content-length": "2",
+                "expires": "Tue, 25 Nov 2025 12:19:31 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.63",
+            "ts": 1764073171028,
+            "url": "https://leather.mempool.space/api/address/bc1pje8zdec2al04nspftardlcym4yxme50gvsjjuz9qmk5pd5g2zajsd63q8c/utxo",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "public",
+                "date": "Tue, 25 Nov 2025 12:19:31 GMT",
+                "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                "content-security-policy": "frame-ancestors 'self'",
+                "server": "nginx",
+                "x-powered-by": "mempool-electrs 3.3.0-dev-7daee2c",
+                "vary": "Accept-Language, Cookie",
+                "onion-location": "http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/api/address/bc1pje8zdec2al04nspftardlcym4yxme50gvsjjuz9qmk5pd5g2zajsd63q8c/utxo",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=1, public",
+                "content-length": "2",
+                "expires": "Tue, 25 Nov 2025 12:19:32 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.64",
+            "ts": 1764073171879,
+            "url": "https://api.stx20.com/api/v1/balance/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H",
+            "type": "Xhr",
+            "status": 503,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:31 GMT",
+                "server": "awselb/2.0",
+                "content-length": "564",
+                "content-type": "text/html"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.65",
+            "ts": 1764073171943,
+            "url": "https://stampchain.io/api/v2/balance/bc1q50fqlm62pm8ctltzlan7zgznsxz6l58jt7ky6n",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; connect-src 'self', default-src 'none'; connect-src 'self'",
+                "content-encoding": "gzip",
+                "x-permitted-cross-domain-policies": "none, none",
+                "surrogate-control": "no-store, max-age=86400",
+                "edge-control": "no-store, cache-maxage=86400",
+                "server-timing": "cfExtPri",
+                "cdn-cache-control": "no-store, must-revalidate, public, max-age=86400, stale-while-revalidate=60, stale-if-error=1200",
+                "x-info": "Consider using dedicated endpoints for better performance and pagination control",
+                "vary": "Accept-Encoding, Accept, Origin, X-API-Version",
+                "x-frame-options": "DENY, DENY",
+                "content-type": "application/json",
+                "x-ratelimit-remaining": "298",
+                "x-api-version-default": "2.3",
+                "cache-control": "no-store, must-revalidate, public, max-age=86400, stale-while-revalidate=60, stale-if-error=1200",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "access-control-allow-origin": "*",
+                "x-ratelimit-limit": "300",
+                "api-version": "2.3",
+                "x-preferred-endpoints": "/api/v2/stamps/balance/[address], /api/v2/src20/balance/[address]",
+                "x-api-version-used": "2.3",
+                "access-control-allow-headers": "Content-Type, Accept, Origin, Authorization",
+                "priority": "u=1,i",
+                "date": "Tue, 25 Nov 2025 12:19:32 GMT",
+                "x-content-type-options": "nosniff, nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                "x-api-version": "v2.2.7, v2.2.7",
+                "api-version-supported": "2.2, 2.3",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "content-length": "220",
+                "speculation-rules": "\"/cdn-cgi/speculation\"",
+                "server": "cloudflare",
+                "access-control-max-age": "86400",
+                "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=dqmejUJqDj4pcflxbN0KzSDosBlQv4QrmUcMz5Sf4YVZKa4udIbZ%2Bj7Qlr3%2BVB7hLtCqlNDusadFxCbx%2BzbOEu87AcnjFCuMST6N2w%3D%3D\"}]}",
+                "x-ratelimit-reset": "1764073232016",
+                "cf-ray": "9a41184cba168688-BRU"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.66",
+            "ts": 1764073232968,
+            "url": "https://api.segment.io/v1/b",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"batch\":[{\"timestamp\":\"2025-11-25T12:19:28.815Z\",\"integrations\":{\"Segment.io\":true},\"event\":\"start_unlock\",\"type\":\"track\",\"properties\":{\"platform\":\"extension\",\"ip\":\"0.0.0.0\",\"version\":\"6.76.0\",\"route\":\"/index.html\",\"network\":\"mainnet\",\"usingDefaultHiroApi\":true,\"walletType\":\"software\"},\"context\":{\"page\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"Chromium\",\"version\":\"116\"},{\"brand\":\" Not A;Brand\",\"version\":\"99\"},{\"brand\":\"Google Chrome\",\"version\":\"116\"}],\"mobile\":false,\"platform\":\"Mac OS X\"},\"locale\":\"en-GB\",\"library\":{\"name\":\"analytics.js\",\"version\":\"npm:next-1.81.0\"},\"timezone\":\"Europe/Brussels\",\"ip\":\"0.0.0.0\"},\"messageId\":\"ajs-next-1764073168815-7b1f350c-2e06-485a-941d-8d5b3c0422c2\",\"anonymousId\":\"cba04999-6638-4bf1-aa82-d83415acf5f0\",\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"userId\":null,\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Mixpanel\"],\"bundledIds\":[]}},{\"timestamp\":\"2025-11-25T12:19:29.988Z\",\"integrations\":{\"Segment.io\":true},\"type\":\"identify\",\"userId\":\"AWwG6UZSmZe\",\"traits\":{\"ordinals_count\":0},\"context\":{\"page\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"Chromium\",\"version\":\"116\"},{\"brand\":\" Not A;Brand\",\"version\":\"99\"},{\"brand\":\"Google Chrome\",\"version\":\"116\"}],\"mobile\":false,\"platform\":\"Mac OS X\"},\"locale\":\"en-GB\",\"library\":{\"name\":\"analytics.js\",\"version\":\"npm:next-1.81.0\"},\"timezone\":\"Europe/Brussels\",\"ip\":\"0.0.0.0\"},\"messageId\":\"ajs-next-1764073169988-350c2e06-a85a-441d-8d5b-3c0422c2859d\",\"anonymousId\":\"cba04999-6638-4bf1-aa82-d83415acf5f0\",\"properties\":{\"ip\":\"0.0.0.0\",\"platform\":\"extension\",\"version\":\"6.76.0\",\"route\":\"/index.html\",\"network\":\"mainnet\",\"usingDefaultHiroApi\":true,\"walletType\":\"software\"},\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Mixpanel\"],\"bundledIds\":[]}},{\"timestamp\":\"2025-11-25T12:19:30.111Z\",\"integrations\":{\"Segment.io\":true},\"event\":\"complete_unlock\",\"type\":\"track\",\"properties\":{\"durationMs\":1296.3999999761581,\"platform\":\"extension\",\"ip\":\"0.0.0.0\",\"version\":\"6.76.0\",\"route\":\"/index.html\",\"network\":\"mainnet\",\"usingDefaultHiroApi\":true,\"walletType\":\"software\"},\"context\":{\"page\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"Chromium\",\"version\":\"116\"},{\"brand\":\" Not A;Brand\",\"version\":\"99\"},{\"brand\":\"Google Chrome\",\"version\":\"116\"}],\"mobile\":false,\"platform\":\"Mac OS X\"},\"locale\":\"en-GB\",\"library\":{\"name\":\"analytics.js\",\"version\":\"npm:next-1.81.0\"},\"timezone\":\"Europe/Brussels\",\"ip\":\"0.0.0.0\"},\"messageId\":\"ajs-next-1764073170111-2e06a85a-541d-4d5b-bc04-22c2859d4536\",\"userId\":\"AWwG6UZSmZe\",\"anonymousId\":\"cba04999-6638-4bf1-aa82-d83415acf5f0\",\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Mixpanel\"],\"bundledIds\":[]}},{\"timestamp\":\"2025-11-25T12:19:30.279Z\",\"integrations\":{\"Segment.io\":true},\"type\":\"identify\",\"userId\":\"AWwG6UZSmZe\",\"traits\":{\"ordinals_count\":0},\"context\":{\"page\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"Chromium\",\"version\":\"116\"},{\"brand\":\" Not A;Brand\",\"version\":\"99\"},{\"brand\":\"Google Chrome\",\"version\":\"116\"}],\"mobile\":false,\"platform\":\"Mac OS X\"},\"locale\":\"en-GB\",\"library\":{\"name\":\"analytics.js\",\"version\":\"npm:next-1.81.0\"},\"timezone\":\"Europe/Brussels\",\"ip\":\"0.0.0.0\"},\"messageId\":\"ajs-next-1764073170279-a85a541d-8d5b-4c04-a2c2-859d453606cd\",\"anonymousId\":\"cba04999-6638-4bf1-aa82-d83415acf5f0\",\"properties\":{\"ip\":\"0.0.0.0\",\"platform\":\"extension\",\"version\":\"6.76.0\",\"route\":\"/index.html\",\"network\":\"mainnet\",\"usingDefaultHiroApi\":true,\"walletType\":\"software\"},\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Mixpanel\"],\"bundledIds\":[]}},{\"timestamp\":\"2025-11-25T12:19:30.281Z\",\"integrations\":{\"Segment.io\":true},\"event\":\"balance_updated\",\"type\":\"track\",\"properties\":{\"platform\":\"extension\",\"walletAccountId\":\"38e4aa33/2\",\"stxAvailableBalance\":0,\"stxLockedBalance\":0,\"usdBalance\":0,\"btcBalance\":0,\"ip\":\"0.0.0.0\",\"version\":\"6.76.0\",\"route\":\"/index.html\",\"network\":\"mainnet\",\"usingDefaultHiroApi\":true,\"walletType\":\"software\"},\"context\":{\"page\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"Chromium\",\"version\":\"116\"},{\"brand\":\" Not A;Brand\",\"version\":\"99\"},{\"brand\":\"Google Chrome\",\"version\":\"116\"}],\"mobile\":false,\"platform\":\"Mac OS X\"},\"locale\":\"en-GB\",\"library\":{\"name\":\"analytics.js\",\"version\":\"npm:next-1.81.0\"},\"timezone\":\"Europe/Brussels\",\"ip\":\"0.0.0.0\"},\"messageId\":\"ajs-next-1764073170281-541d8d5b-3c04-42c2-859d-453606cd9a10\",\"userId\":\"AWwG6UZSmZe\",\"anonymousId\":\"cba04999-6638-4bf1-aa82-d83415acf5f0\",\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Mixpanel\"],\"bundledIds\":[]}},{\"timestamp\":\"2025-11-25T12:19:30.282Z\",\"integrations\":{\"Segment.io\":true},\"type\":\"page\",\"properties\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\",\"platform\":\"extension\",\"category\":\"view\",\"name\":\"/\",\"ip\":\"0.0.0.0\",\"version\":\"6.76.0\",\"route\":\"/index.html\",\"network\":\"mainnet\",\"usingDefaultHiroApi\":true,\"walletType\":\"software\"},\"category\":\"view\",\"name\":\"/\",\"context\":{\"page\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"Chromium\",\"version\":\"116\"},{\"brand\":\" Not A;Brand\",\"version\":\"99\"},{\"brand\":\"Google Chrome\",\"version\":\"116\"}],\"mobile\":false,\"platform\":\"Mac OS X\"},\"locale\":\"en-GB\",\"library\":{\"name\":\"analytics.js\",\"version\":\"npm:next-1.81.0\"},\"timezone\":\"Europe/Brussels\",\"ip\":\"0.0.0.0\"},\"messageId\":\"ajs-next-1764073170282-8d5b3c04-22c2-459d-8536-06cd9a100184\",\"userId\":\"AWwG6UZSmZe\",\"anonymousId\":\"cba04999-6638-4bf1-aa82-d83415acf5f0\",\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Mixpanel\"],\"bundledIds\":[]}}],\"sentAt\":\"2025-11-25T12:19:33.830Z\"}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.67",
+            "ts": 1764073232968,
+            "url": "https://api.stx20.com/api/v1/balance/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H",
+            "type": "Xhr",
+            "status": 503,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:19:34 GMT",
+                "server": "awselb/2.0",
+                "content-length": "564",
+                "content-type": "text/html"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.68",
+            "ts": 1764073232968,
+            "url": "https://stampchain.io/api/v2/balance/bc1q50fqlm62pm8ctltzlan7zgznsxz6l58jt7ky6n",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'none'; connect-src 'self', default-src 'none'; connect-src 'self'",
+                "content-encoding": "gzip",
+                "x-permitted-cross-domain-policies": "none, none",
+                "surrogate-control": "no-store, max-age=86400",
+                "edge-control": "no-store, cache-maxage=86400",
+                "server-timing": "cfExtPri",
+                "cdn-cache-control": "no-store, must-revalidate, public, max-age=86400, stale-while-revalidate=60, stale-if-error=1200",
+                "x-info": "Consider using dedicated endpoints for better performance and pagination control",
+                "vary": "Accept-Encoding, Accept, Origin, X-API-Version",
+                "x-frame-options": "DENY, DENY",
+                "content-type": "application/json",
+                "x-ratelimit-remaining": "297",
+                "x-api-version-default": "2.3",
+                "cache-control": "no-store, must-revalidate, public, max-age=86400, stale-while-revalidate=60, stale-if-error=1200",
+                "access-control-allow-methods": "GET, POST, OPTIONS",
+                "access-control-allow-origin": "*",
+                "x-ratelimit-limit": "300",
+                "api-version": "2.3",
+                "x-preferred-endpoints": "/api/v2/stamps/balance/[address], /api/v2/src20/balance/[address]",
+                "x-api-version-used": "2.3",
+                "access-control-allow-headers": "Content-Type, Accept, Origin, Authorization",
+                "priority": "u=1,i",
+                "date": "Tue, 25 Nov 2025 12:19:34 GMT",
+                "x-content-type-options": "nosniff, nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                "x-api-version": "v2.2.7, v2.2.7",
+                "api-version-supported": "2.2, 2.3",
+                "alt-svc": "h3=\":443\"; ma=86400",
+                "content-length": "220",
+                "speculation-rules": "\"/cdn-cgi/speculation\"",
+                "server": "cloudflare",
+                "access-control-max-age": "86400",
+                "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ldlrfQcScCDKZXa0dJ66CTp9VulEZxg%2BvPs12E5eufcT%2BAVtYG858KHyryGQMlEcNt0GyAgn4pcIJEomewoDq5BrfcOIzeTP%2B%2BBTFA%3D%3D\"}]}",
+                "x-ratelimit-reset": "1764073234147",
+                "cf-ray": "9a41185a0c128688-BRU"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.69",
+            "ts": 1764073232969,
+            "url": "https://api.segment.io/v1/m",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"series\":[{\"type\":\"Counter\",\"metric\":\"analytics_js.invoke\",\"value\":1,\"tags\":{\"library\":\"analytics.js\",\"library_version\":\"npm:next-1.81.0\"}},{\"type\":\"Counter\",\"metric\":\"analytics_js.invoke\",\"value\":1,\"tags\":{\"library\":\"analytics.js\",\"library_version\":\"npm:next-1.81.0\"}},{\"type\":\"Counter\",\"metric\":\"analytics_js.invoke\",\"value\":1,\"tags\":{\"library\":\"analytics.js\",\"library_version\":\"npm:next-1.81.0\"}}]}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.70",
+            "ts": 1764073232970,
+            "url": "https://stampchain.io/api/v2/balance/bc1q50fqlm62pm8ctltzlan7zgznsxz6l58jt7ky6n",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.71",
+            "ts": 1764073232970,
+            "url": "https://api.stx20.com/api/v1/balance/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.72",
+            "ts": 1764073232970,
+            "url": "https://api.segment.io/v1/b",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "text/plain"
+            },
+            "postData": "{\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"batch\":[{\"timestamp\":\"2025-11-25T12:19:38.314Z\",\"integrations\":{\"Segment.io\":true},\"event\":\"schema_fail\",\"type\":\"track\",\"properties\":{\"query\":\"get-stamps-by-address\",\"hash\":\"[\\\"get-stamps-by-address\\\",\\\"bc1q50fqlm62pm8ctltzlan7zgznsxz6l58jt7ky6n\\\"]\",\"error\":\"[{\\\"expected\\\":\\\"string\\\",\\\"code\\\":\\\"invalid_type\\\",\\\"path\\\":[\\\"data\\\",\\\"src20\\\",0,\\\"tick\\\"],\\\"message\\\":\\\"Invalid input: expected string, received undefined\\\"},{\\\"expected\\\":\\\"string\\\",\\\"code\\\":\\\"invalid_type\\\",\\\"path\\\":[\\\"data\\\",\\\"src20\\\",0,\\\"block_time\\\"],\\\"message\\\":\\\"Invalid input: expected string, received undefined\\\"},{\\\"expected\\\":\\\"number\\\",\\\"code\\\":\\\"invalid_type\\\",\\\"path\\\":[\\\"data\\\",\\\"src20\\\",0,\\\"last_update\\\"],\\\"message\\\":\\\"Invalid input: expected number, received undefined\\\"},{\\\"expected\\\":\\\"string\\\",\\\"code\\\":\\\"invalid_type\\\",\\\"path\\\":[\\\"data\\\",\\\"src20\\\",0,\\\"deploy_tx\\\"],\\\"message\\\":\\\"Invalid input: expected string, received undefined\\\"},{\\\"expected\\\":\\\"string\\\",\\\"code\\\":\\\"invalid_type\\\",\\\"path\\\":[\\\"data\\\",\\\"src20\\\",0,\\\"deploy_img\\\"],\\\"message\\\":\\\"Invalid input: expected string, received undefined\\\"}]\",\"platform\":\"extension\",\"ip\":\"0.0.0.0\",\"version\":\"6.76.0\",\"route\":\"/index.html\",\"network\":\"mainnet\",\"usingDefaultHiroApi\":true,\"walletType\":\"software\"},\"context\":{\"page\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"Chromium\",\"version\":\"116\"},{\"brand\":\" Not A;Brand\",\"version\":\"99\"},{\"brand\":\"Google Chrome\",\"version\":\"116\"}],\"mobile\":false,\"platform\":\"Mac OS X\"},\"locale\":\"en-GB\",\"library\":{\"name\":\"analytics.js\",\"version\":\"npm:next-1.81.0\"},\"timezone\":\"Europe/Brussels\",\"ip\":\"0.0.0.0\"},\"messageId\":\"ajs-next-1764073178314-3c0422c2-859d-4536-86cd-9a100184ae04\",\"userId\":\"AWwG6UZSmZe\",\"anonymousId\":\"cba04999-6638-4bf1-aa82-d83415acf5f0\",\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Mixpanel\"],\"bundledIds\":[]}},{\"timestamp\":\"2025-11-25T12:19:38.341Z\",\"integrations\":{\"Segment.io\":true},\"event\":\"api_error\",\"type\":\"track\",\"properties\":{\"statusCode\":503,\"query\":\"get-stx20-balances\",\"hash\":\"[\\\"get-stx20-balances\\\",\\\"SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H\\\"]\",\"error\":{\"message\":\"Request failed with status code 503\",\"name\":\"AxiosError\",\"stack\":\"AxiosError: Request failed with status code 503\\n    at settle (chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/570.js:186608:12)\\n    at XMLHttpRequest.onloadend (chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/570.js:185073:75)\\n    at Axios.request (chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/570.js:185596:41)\\n    at async chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/570.js:214834:13\",\"config\":{\"transitional\":{\"silentJSONParsing\":true,\"forcedJSONParsing\":true,\"clarifyTimeoutError\":false},\"adapter\":[\"xhr\",\"http\",\"fetch\"],\"transformRequest\":[null],\"transformResponse\":[null],\"timeout\":0,\"xsrfCookieName\":\"XSRF-TOKEN\",\"xsrfHeaderName\":\"X-XSRF-TOKEN\",\"maxContentLength\":-1,\"maxBodyLength\":-1,\"env\":{},\"headers\":{\"Accept\":\"application/json, text/plain, */*\"},\"signal\":{},\"method\":\"get\",\"url\":\"https://api.stx20.com/api/v1/balance/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H\",\"allowAbsoluteUrls\":true},\"code\":\"ERR_BAD_RESPONSE\",\"status\":503},\"platform\":\"extension\",\"ip\":\"0.0.0.0\",\"version\":\"6.76.0\",\"route\":\"/index.html\",\"network\":\"mainnet\",\"usingDefaultHiroApi\":true,\"walletType\":\"software\"},\"context\":{\"page\":{\"path\":\"/index.html\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Leather\",\"url\":\"chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\",\"userAgentData\":{\"brands\":[{\"brand\":\"Chromium\",\"version\":\"116\"},{\"brand\":\" Not A;Brand\",\"version\":\"99\"},{\"brand\":\"Google Chrome\",\"version\":\"116\"}],\"mobile\":false,\"platform\":\"Mac OS X\"},\"locale\":\"en-GB\",\"library\":{\"name\":\"analytics.js\",\"version\":\"npm:next-1.81.0\"},\"timezone\":\"Europe/Brussels\",\"ip\":\"0.0.0.0\"},\"messageId\":\"ajs-next-1764073178341-22c2859d-4536-46cd-9a10-0184ae048235\",\"userId\":\"AWwG6UZSmZe\",\"anonymousId\":\"cba04999-6638-4bf1-aa82-d83415acf5f0\",\"writeKey\":\"6EdfMbYvR0W1lACBylV9qTFjvXUUXurM\",\"_metadata\":{\"bundled\":[\"Segment.io\"],\"unbundled\":[\"Mixpanel\"],\"bundledIds\":[]}}],\"sentAt\":\"2025-11-25T12:19:43.318Z\"}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.73",
+            "ts": 1764073232970,
+            "url": "https://leather.mempool.space/api/address/bc1ppc30ajtajcag64h37ed9ahnwzj7kenrqhk5nputfppveets0fq8suul68e/utxo",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.74",
+            "ts": 1764073232970,
+            "url": "https://leather.mempool.space/api/address/bc1p0k39lk5srwdcxpgyhpwc88s5mtj4qd07drmxarqjaqgmejpcy82qnc0mxv/utxo",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.75",
+            "ts": 1764073232970,
+            "url": "https://leather.mempool.space/api/address/bc1ptt82qnw37v5ysa60tnnusx39hswy93thj58nspldf8hlw6mqtzrsewvgtr/utxo",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.76",
+            "ts": 1764073232970,
+            "url": "https://leather.mempool.space/api/address/bc1pauv7uujgjumlhu6c9fx3hw7mnkht04fm2p2yz9gzhf9a3648jjus4klrja/utxo",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "public",
+                "date": "Tue, 25 Nov 2025 12:19:46 GMT",
+                "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                "content-security-policy": "frame-ancestors 'self'",
+                "server": "nginx",
+                "x-powered-by": "mempool-electrs 3.3.0-dev-7daee2c",
+                "vary": "Accept-Language, Cookie",
+                "onion-location": "http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/api/address/bc1pauv7uujgjumlhu6c9fx3hw7mnkht04fm2p2yz9gzhf9a3648jjus4klrja/utxo",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=1, public",
+                "content-length": "2",
+                "expires": "Tue, 25 Nov 2025 12:19:47 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.77",
+            "ts": 1764073232971,
+            "url": "https://leather.mempool.space/api/address/bc1pje8zdec2al04nspftardlcym4yxme50gvsjjuz9qmk5pd5g2zajsd63q8c/utxo",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.78",
+            "ts": 1764073232971,
+            "url": "https://leatherapi.bestinslot.xyz/v3/runes/wallet_valid_outputs_xpub?sort_by=output&order=desc&xpub=tr%28xpub6DT1mX9FmeFyGa7BKcporaJYThwvT8ca1DBZx64Qvw8hiPVVqbs2G9YMxxbLp3XR3Cqw7bbAovgeY58GeR1oiF3b3M1p8R1pmRT9x3GUo5K%29&offset=0&count=2000",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:20:00 GMT",
+                "ratelimit-reset": "30",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a4119007c570dbd-BRU",
+                "ratelimit-remaining": "388"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.79",
+            "ts": 1764073232971,
+            "url": "https://leatherapi.bestinslot.xyz/v3/runes/wallet_valid_outputs_xpub?sort_by=output&order=desc&xpub=wpkh%28xpub6CNFgVw1vvciGg9fHMWXpg1wa3BiNraYQ6HSfQHTxAnoigUgBhdjytjYVLkMqSkCsWJzPykMbY4ccQ3BHGyP7hVPrxpEe7yF7wX2wCEuLub%29&offset=0&count=2000",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:20:00 GMT",
+                "ratelimit-reset": "30",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a4119007c5a0dbd-BRU",
+                "ratelimit-remaining": "389"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.80",
+            "ts": 1764073232971,
+            "url": "https://api.hiro.so/extended/v2/addresses/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H/balances/ft",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-partner": "Leather",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:20:00 GMT",
+                "content-security-policy": "default-src 'none'",
+                "x-content-type-options": "nosniff",
+                "ratelimit-reset": "1",
+                "cf-cache-status": "EXPIRED",
+                "x-ratelimit-limit-second": "40",
+                "x-api-version": "v8.13.4 (master:7ee1adbdd)",
+                "content-encoding": "br",
+                "x-ratelimit-remaining-second": "39",
+                "x-ratelimit-limit-minute": "300",
+                "x-ratelimit-remaining-minute": "299",
+                "ratelimit-limit": "40",
+                "x-ratelimit-remaining-stacks-second": "39",
+                "x-ratelimit-limit-stacks-minute": "300",
+                "x-ratelimit-cost-stacks": "1",
+                "server": "cloudflare",
+                "x-ratelimit-remaining-stacks-minute": "299",
+                "etag": "W/\"0x534abf738f03fe36da216964ef13f089ac127149c5a993f62c9c129c18d76cba\"",
+                "x-frame-options": "DENY",
+                "vary": "accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "X-API-Version",
+                "cache-control": "public, max-age=3, stale-while-revalidate=1, immutable, must-revalidate",
+                "x-ratelimit-limit-stacks-second": "40",
+                "cf-ray": "9a4119007adbbde4-BRU",
+                "ratelimit-remaining": "39"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.81",
+            "ts": 1764073232971,
+            "url": "https://api.hiro.so/extended/v2/addresses/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H/balances/stx",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-partner": "Leather",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:20:00 GMT",
+                "content-security-policy": "default-src 'none'",
+                "x-content-type-options": "nosniff",
+                "ratelimit-reset": "1",
+                "cf-cache-status": "EXPIRED",
+                "x-ratelimit-limit-second": "40",
+                "x-api-version": "v8.13.4 (master:7ee1adbdd)",
+                "content-encoding": "br",
+                "x-ratelimit-remaining-second": "39",
+                "x-ratelimit-limit-minute": "300",
+                "x-ratelimit-remaining-minute": "299",
+                "ratelimit-limit": "40",
+                "x-ratelimit-remaining-stacks-second": "39",
+                "x-ratelimit-limit-stacks-minute": "300",
+                "x-ratelimit-cost-stacks": "1",
+                "server": "cloudflare",
+                "x-ratelimit-remaining-stacks-minute": "299",
+                "etag": "W/\"0x534abf738f03fe36da216964ef13f089ac127149c5a993f62c9c129c18d76cba\"",
+                "x-frame-options": "DENY",
+                "vary": "accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "X-API-Version",
+                "cache-control": "public, max-age=3, stale-while-revalidate=1, immutable, must-revalidate",
+                "x-ratelimit-limit-stacks-second": "40",
+                "cf-ray": "9a4119007addbde4-BRU",
+                "ratelimit-remaining": "39"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.82",
+            "ts": 1764073232971,
+            "url": "https://api.hiro.so/extended/v1/tx/mempool?address=SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H&limit=50",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-partner": "Leather",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:20:00 GMT",
+                "content-security-policy": "default-src 'none'",
+                "x-content-type-options": "nosniff",
+                "ratelimit-reset": "1",
+                "cf-cache-status": "EXPIRED",
+                "x-ratelimit-limit-second": "40",
+                "x-api-version": "v8.13.4 (master:7ee1adbdd)",
+                "content-encoding": "br",
+                "x-ratelimit-remaining-second": "39",
+                "x-ratelimit-limit-minute": "300",
+                "x-ratelimit-remaining-minute": "299",
+                "ratelimit-limit": "40",
+                "x-ratelimit-remaining-stacks-second": "39",
+                "x-ratelimit-limit-stacks-minute": "300",
+                "x-ratelimit-cost-stacks": "1",
+                "server": "cloudflare",
+                "x-ratelimit-remaining-stacks-minute": "299",
+                "etag": "W/\"1764073200.017989\"",
+                "x-frame-options": "DENY",
+                "vary": "accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "X-API-Version",
+                "cache-control": "public, max-age=3, stale-while-revalidate=1, immutable, must-revalidate",
+                "x-ratelimit-limit-stacks-second": "40",
+                "cf-ray": "9a4119007ae1bde4-BRU",
+                "ratelimit-remaining": "39"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.83",
+            "ts": 1764073232971,
+            "url": "https://api.hiro.so/extended/v2/addresses/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H/transactions?limit=50&offset=0",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-partner": "Leather",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.84",
+            "ts": 1764073232973,
+            "url": "https://api.leather.io/v1/utxos/wpkh(xpub6CNFgVw1vvciGg9fHMWXpg1wa3BiNraYQ6HSfQHTxAnoigUgBhdjytjYVLkMqSkCsWJzPykMbY4ccQ3BHGyP7hVPrxpEe7yF7wX2wCEuLub)?network=mainnet",
+            "type": "Fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "x-client-id": "65225d01-63ed-4b9c-afa9-87467c18d426",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.85",
+            "ts": 1764073232973,
+            "url": "https://api.leather.io/v1/transactions/wpkh(xpub6CNFgVw1vvciGg9fHMWXpg1wa3BiNraYQ6HSfQHTxAnoigUgBhdjytjYVLkMqSkCsWJzPykMbY4ccQ3BHGyP7hVPrxpEe7yF7wX2wCEuLub)?network=mainnet&page=1&pageSize=50",
+            "type": "Fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "x-client-id": "65225d01-63ed-4b9c-afa9-87467c18d426",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.86",
+            "ts": 1764073232973,
+            "url": "https://leatherapi.bestinslot.xyz/v3/wallet/inscriptions_xpub?sort_by=inscr_num&order=desc&exclude_brc20=false&xpub=wpkh%28xpub6CNFgVw1vvciGg9fHMWXpg1wa3BiNraYQ6HSfQHTxAnoigUgBhdjytjYVLkMqSkCsWJzPykMbY4ccQ3BHGyP7hVPrxpEe7yF7wX2wCEuLub%29&offset=0&count=2000",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.87",
+            "ts": 1764073232973,
+            "url": "https://leather.mempool.space/api/address/bc1ppc30ajtajcag64h37ed9ahnwzj7kenrqhk5nputfppveets0fq8suul68e/utxo",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.88",
+            "ts": 1764073232973,
+            "url": "https://leather.mempool.space/api/address/bc1p0k39lk5srwdcxpgyhpwc88s5mtj4qd07drmxarqjaqgmejpcy82qnc0mxv/utxo",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "public",
+                "date": "Tue, 25 Nov 2025 12:20:01 GMT",
+                "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                "content-security-policy": "frame-ancestors 'self'",
+                "server": "nginx",
+                "x-powered-by": "mempool-electrs 3.3.0-dev-7daee2c",
+                "vary": "Accept-Language, Cookie",
+                "onion-location": "http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/api/address/bc1p0k39lk5srwdcxpgyhpwc88s5mtj4qd07drmxarqjaqgmejpcy82qnc0mxv/utxo",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=1, public",
+                "content-length": "2",
+                "expires": "Tue, 25 Nov 2025 12:20:02 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.89",
+            "ts": 1764073232974,
+            "url": "https://leather.mempool.space/api/address/bc1ptt82qnw37v5ysa60tnnusx39hswy93thj58nspldf8hlw6mqtzrsewvgtr/utxo",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.90",
+            "ts": 1764073232974,
+            "url": "https://leather.mempool.space/api/address/bc1pauv7uujgjumlhu6c9fx3hw7mnkht04fm2p2yz9gzhf9a3648jjus4klrja/utxo",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.91",
+            "ts": 1764073232974,
+            "url": "https://leather.mempool.space/api/address/bc1pje8zdec2al04nspftardlcym4yxme50gvsjjuz9qmk5pd5g2zajsd63q8c/utxo",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.92",
+            "ts": 1764073232974,
+            "url": "https://leather.mempool.space/api/address/bc1ppc30ajtajcag64h37ed9ahnwzj7kenrqhk5nputfppveets0fq8suul68e/utxo",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.93",
+            "ts": 1764073232974,
+            "url": "https://leather.mempool.space/api/address/bc1p0k39lk5srwdcxpgyhpwc88s5mtj4qd07drmxarqjaqgmejpcy82qnc0mxv/utxo",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "pragma": "public",
+                "date": "Tue, 25 Nov 2025 12:20:16 GMT",
+                "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                "content-security-policy": "frame-ancestors 'self'",
+                "server": "nginx",
+                "x-powered-by": "mempool-electrs 3.3.0-dev-7daee2c",
+                "vary": "Accept-Language, Cookie",
+                "onion-location": "http://mempoolhqx4isw62xs7abwphsq7ldayuidyx2v2oethdhhj6mlo2r6ad.onion/api/address/bc1p0k39lk5srwdcxpgyhpwc88s5mtj4qd07drmxarqjaqgmejpcy82qnc0mxv/utxo",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "cache-control": "max-age=1, public",
+                "content-length": "2",
+                "expires": "Tue, 25 Nov 2025 12:20:17 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.94",
+            "ts": 1764073233002,
+            "url": "https://leather.mempool.space/api/address/bc1ptt82qnw37v5ysa60tnnusx39hswy93thj58nspldf8hlw6mqtzrsewvgtr/utxo",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.95",
+            "ts": 1764073233002,
+            "url": "https://leather.mempool.space/api/address/bc1pauv7uujgjumlhu6c9fx3hw7mnkht04fm2p2yz9gzhf9a3648jjus4klrja/utxo",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.96",
+            "ts": 1764073233002,
+            "url": "https://leather.mempool.space/api/address/bc1pje8zdec2al04nspftardlcym4yxme50gvsjjuz9qmk5pd5g2zajsd63q8c/utxo",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.97",
+            "ts": 1764073233002,
+            "url": "https://leatherapi.bestinslot.xyz/v3/runes/wallet_valid_outputs_xpub?sort_by=output&order=desc&xpub=tr%28xpub6DT1mX9FmeFyGa7BKcporaJYThwvT8ca1DBZx64Qvw8hiPVVqbs2G9YMxxbLp3XR3Cqw7bbAovgeY58GeR1oiF3b3M1p8R1pmRT9x3GUo5K%29&offset=0&count=2000",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:20:30 GMT",
+                "ratelimit-reset": "60",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a4119bc6fd30dbd-BRU",
+                "ratelimit-remaining": "399"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.98",
+            "ts": 1764073233002,
+            "url": "https://leatherapi.bestinslot.xyz/v3/runes/wallet_valid_outputs_xpub?sort_by=output&order=desc&xpub=wpkh%28xpub6CNFgVw1vvciGg9fHMWXpg1wa3BiNraYQ6HSfQHTxAnoigUgBhdjytjYVLkMqSkCsWJzPykMbY4ccQ3BHGyP7hVPrxpEe7yF7wX2wCEuLub%29&offset=0&count=2000",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:20:30 GMT",
+                "ratelimit-reset": "60",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "x-powered-by": "Express",
+                "etag": "W/\"21-CSbGD4I6JbN2UhOtqRrIAJKFPWA\"",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "ratelimit-limit": "400",
+                "cf-ray": "9a4119bc6fd70dbd-BRU",
+                "ratelimit-remaining": "398"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.99",
+            "ts": 1764073233007,
+            "url": "https://api.hiro.so/extended/v2/addresses/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H/balances/ft",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-partner": "Leather",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:20:30 GMT",
+                "content-security-policy": "default-src 'none'",
+                "x-content-type-options": "nosniff",
+                "ratelimit-reset": "1",
+                "cf-cache-status": "EXPIRED",
+                "x-ratelimit-limit-second": "40",
+                "x-api-version": "v8.13.4 (master:7ee1adbdd)",
+                "content-encoding": "br",
+                "x-ratelimit-remaining-second": "39",
+                "x-ratelimit-limit-minute": "300",
+                "x-ratelimit-remaining-minute": "295",
+                "ratelimit-limit": "40",
+                "x-ratelimit-remaining-stacks-second": "39",
+                "x-ratelimit-limit-stacks-minute": "300",
+                "x-ratelimit-cost-stacks": "1",
+                "server": "cloudflare",
+                "x-ratelimit-remaining-stacks-minute": "295",
+                "etag": "W/\"0xb8a765d4c9e94bc8112221b2bd368fed84dad138cf7de317f1d86255474a36df\"",
+                "x-frame-options": "DENY",
+                "vary": "accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "X-API-Version",
+                "cache-control": "public, max-age=3, stale-while-revalidate=1, immutable, must-revalidate",
+                "x-ratelimit-limit-stacks-second": "40",
+                "cf-ray": "9a4119bcd986bde4-BRU",
+                "ratelimit-remaining": "39"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.100",
+            "ts": 1764073233007,
+            "url": "https://api.hiro.so/extended/v2/addresses/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H/balances/stx",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-partner": "Leather",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:20:30 GMT",
+                "content-security-policy": "default-src 'none'",
+                "x-content-type-options": "nosniff",
+                "ratelimit-reset": "1",
+                "cf-cache-status": "EXPIRED",
+                "x-ratelimit-limit-second": "40",
+                "x-api-version": "v8.13.4 (master:7ee1adbdd)",
+                "content-encoding": "br",
+                "x-ratelimit-remaining-second": "39",
+                "x-ratelimit-limit-minute": "300",
+                "x-ratelimit-remaining-minute": "295",
+                "ratelimit-limit": "40",
+                "x-ratelimit-remaining-stacks-second": "39",
+                "x-ratelimit-limit-stacks-minute": "300",
+                "x-ratelimit-cost-stacks": "1",
+                "server": "cloudflare",
+                "x-ratelimit-remaining-stacks-minute": "295",
+                "etag": "W/\"0xb8a765d4c9e94bc8112221b2bd368fed84dad138cf7de317f1d86255474a36df\"",
+                "x-frame-options": "DENY",
+                "vary": "accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "X-API-Version",
+                "cache-control": "public, max-age=3, stale-while-revalidate=1, immutable, must-revalidate",
+                "x-ratelimit-limit-stacks-second": "40",
+                "cf-ray": "9a4119bcd98abde4-BRU",
+                "ratelimit-remaining": "39"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.101",
+            "ts": 1764073233007,
+            "url": "https://api.hiro.so/extended/v1/tx/mempool?address=SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H&limit=50",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-partner": "Leather",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:20:30 GMT",
+                "content-security-policy": "default-src 'none'",
+                "x-content-type-options": "nosniff",
+                "ratelimit-reset": "1",
+                "cf-cache-status": "EXPIRED",
+                "x-ratelimit-limit-second": "40",
+                "x-api-version": "v8.13.4 (master:7ee1adbdd)",
+                "content-encoding": "br",
+                "x-ratelimit-remaining-second": "39",
+                "x-ratelimit-limit-minute": "300",
+                "x-ratelimit-remaining-minute": "295",
+                "ratelimit-limit": "40",
+                "x-ratelimit-remaining-stacks-second": "39",
+                "x-ratelimit-limit-stacks-minute": "300",
+                "x-ratelimit-cost-stacks": "1",
+                "server": "cloudflare",
+                "x-ratelimit-remaining-stacks-minute": "295",
+                "etag": "W/\"1764073230.084216\"",
+                "x-frame-options": "DENY",
+                "vary": "accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "X-API-Version",
+                "cache-control": "public, max-age=3, stale-while-revalidate=1, immutable, must-revalidate",
+                "x-ratelimit-limit-stacks-second": "40",
+                "cf-ray": "9a4119bce9aabde4-BRU",
+                "ratelimit-remaining": "39"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.102",
+            "ts": 1764073233007,
+            "url": "https://api.hiro.so/extended/v2/addresses/SP25FYJXP88DSN8MDD37XCSX0H2XNHWNKVP2G9D4H/transactions?limit=50&offset=0",
+            "type": "Xhr",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "x-partner": "Leather",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:20:30 GMT",
+                "content-security-policy": "default-src 'none'",
+                "x-content-type-options": "nosniff",
+                "ratelimit-reset": "1",
+                "cf-cache-status": "EXPIRED",
+                "x-ratelimit-limit-second": "40",
+                "x-api-version": "v8.13.4 (master:7ee1adbdd)",
+                "content-encoding": "br",
+                "x-ratelimit-remaining-second": "39",
+                "x-ratelimit-limit-minute": "300",
+                "x-ratelimit-remaining-minute": "295",
+                "ratelimit-limit": "40",
+                "x-ratelimit-remaining-stacks-second": "39",
+                "x-ratelimit-limit-stacks-minute": "300",
+                "x-ratelimit-cost-stacks": "1",
+                "last-modified": "Tue, 25 Nov 2025 12:20:30 GMT",
+                "server": "cloudflare",
+                "x-ratelimit-remaining-stacks-minute": "295",
+                "x-frame-options": "DENY",
+                "vary": "accept-encoding",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "X-API-Version",
+                "cache-control": "public, max-age=3, stale-while-revalidate=1, immutable, must-revalidate",
+                "x-ratelimit-limit-stacks-second": "40",
+                "cf-ray": "9a4119bce9adbde4-BRU",
+                "ratelimit-remaining": "39"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.103",
+            "ts": 1764073233010,
+            "url": "https://api.leather.io/v1/utxos/wpkh(xpub6CNFgVw1vvciGg9fHMWXpg1wa3BiNraYQ6HSfQHTxAnoigUgBhdjytjYVLkMqSkCsWJzPykMbY4ccQ3BHGyP7hVPrxpEe7yF7wX2wCEuLub)?network=mainnet",
+            "type": "Fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "x-client-id": "65225d01-63ed-4b9c-afa9-87467c18d426",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.104",
+            "ts": 1764073233010,
+            "url": "https://api.leather.io/v1/transactions/wpkh(xpub6CNFgVw1vvciGg9fHMWXpg1wa3BiNraYQ6HSfQHTxAnoigUgBhdjytjYVLkMqSkCsWJzPykMbY4ccQ3BHGyP7hVPrxpEe7yF7wX2wCEuLub)?network=mainnet&page=1&pageSize=50",
+            "type": "Fetch",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "x-client-id": "65225d01-63ed-4b9c-afa9-87467c18d426",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ndfogdnlkdfnjnhkecpedepnadcdgcol/index.html#/"
+            ],
+            "id": "3793.105",
+            "ts": 1764073233010,
+            "url": "https://leatherapi.bestinslot.xyz/v3/wallet/inscriptions_xpub?sort_by=inscr_num&order=desc&exclude_brc20=false&xpub=wpkh%28xpub6CNFgVw1vvciGg9fHMWXpg1wa3BiNraYQ6HSfQHTxAnoigUgBhdjytjYVLkMqSkCsWJzPykMbY4ccQ3BHGyP7hVPrxpEe7yF7wX2wCEuLub%29&offset=0&count=2000",
+            "type": "Xhr",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "accept": "application/json, text/plain, */*",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        }
+    ],
+    "success": true
+}

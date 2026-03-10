@@ -1,0 +1,604 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/cfiohoajmkbfokjfhnfkikegflenlang",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/cfiohoajmkbfokjfhnfkikegflenlang",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762299563367,
+    "end": 1762299627578
+  },
+  "extensionID": "obomekdalnlobhofpkaloppmbcoddgja",
+  "serviceWorker": "background_page",
+  "walletName": "pitaka",
+  "notes": "incorrect-balance",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "cfiohoajmkbfokjfhnfkikegflenlang",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.91",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.243",
+      "url": "https://o1164613.ingest.sentry.io/api/6253780/envelope/?sentry_key=c71739d59cfe4454ab21ba4e1ac28f99&sentry_version=7",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"event_id\":\"81177436b49a4101b9a4cedb435d5d60\",\"sent_at\":\"2025-11-04T23:39:25.449Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.7.2\"}}\n{\"type\":\"transaction\",\"sample_rates\":[{\"id\":\"client_rate\",\"rate\":1}]}\n{\"contexts\":{\"trace\":{\"op\":\"pageload\",\"span_id\":\"9918f1e240555676\",\"tags\":{\"effectiveConnectionType\":\"4g\",\"deviceMemory\":\"8\",\"hardwareConcurrency\":\"8\"},\"trace_id\":\"173689045bf348a1844be34689949015\"}},\"spans\":[{\"description\":\"domContentLoadedEvent\",\"op\":\"browser\",\"parent_span_id\":\"9918f1e240555676\",\"span_id\":\"92d4055f54be29e8\",\"start_timestamp\":1762299564.4434998,\"timestamp\":1762299564.4434998,\"trace_id\":\"173689045bf348a1844be34689949015\"},{\"description\":\"loadEvent\",\"op\":\"browser\",\"parent_span_id\":\"9918f1e240555676\",\"span_id\":\"9dfed1cc6afee17e\",\"start_timestamp\":1762299564.4448,\"timestamp\":1762299564.4448,\"trace_id\":\"173689045bf348a1844be34689949015\"},{\"description\":\"connect\",\"op\":\"browser\",\"parent_span_id\":\"9918f1e240555676\",\"span_id\":\"9854d9b775fa6a50\",\"start_timestamp\":1762299564.0101,\"timestamp\":1762299564.0101,\"trace_id\":\"173689045bf348a1844be34689949015\"},{\"description\":\"TLS/SSL\",\"op\":\"browser\",\"parent_span_id\":\"9918f1e240555676\",\"span_id\":\"992e6b5905e1a870\",\"start_timestamp\":1762299564.0101,\"timestamp\":1762299564.0101,\"trace_id\":\"173689045bf348a1844be34689949015\"},{\"description\":\"cache\",\"op\":\"browser\",\"parent_span_id\":\"9918f1e240555676\",\"span_id\":\"86314a86c381a58f\",\"start_timestamp\":1762299564.0101,\"timestamp\":1762299564.0101,\"trace_id\":\"173689045bf348a1844be34689949015\"},{\"description\":\"DNS\",\"op\":\"browser\",\"parent_span_id\":\"9918f1e240555676\",\"span_id\":\"8c8fe032383daba9\",\"start_timestamp\":1762299564.0101,\"timestamp\":1762299564.0101,\"trace_id\":\"173689045bf348a1844be34689949015\"},{\"description\":\"request\",\"op\":\"browser\",\"parent_span_id\":\"9918f1e240555676\",\"span_id\":\"b3096b2c10a199a1\",\"start_timestamp\":1762299564.0101,\"timestamp\":1762299564.0228999,\"trace_id\":\"173689045bf348a1844be34689949015\"},{\"description\":\"response\",\"op\":\"browser\",\"parent_span_id\":\"9918f1e240555676\",\"span_id\":\"8460954bc005ac02\",\"start_timestamp\":1762299564.0101,\"timestamp\":1762299564.0228999,\"trace_id\":\"173689045bf348a1844be34689949015\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":1866,\"Decoded Body Size\":28190},\"description\":\"https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap\",\"op\":\"resource.link\",\"parent_span_id\":\"9918f1e240555676\",\"span_id\":\"b388f6991b40127a\",\"start_timestamp\":1762299564.0551999,\"timestamp\":1762299564.0565,\"trace_id\":\"173689045bf348a1844be34689949015\"},{\"data\":{\"Transfer Size\":0,\"Encoded Body Size\":1689,\"Decoded Body Size\":10320},\"description\":\"https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@400;500&display=swap\",\"op\":\"resource.link\",\"parent_span_id\":\"9918f1e240555676\",\"span_id\":\"876ed91587d27d12\",\"start_timestamp\":1762299564.0553,\"timestamp\":1762299564.0573,\"trace_id\":\"173689045bf348a1844be34689949015\"},{\"description\":\"sentry-tracing-init\",\"op\":\"mark\",\"parent_span_id\":\"9918f1e240555676\",\"span_id\":\"a312023583f5f747\",\"start_timestamp\":1762299564.4401999,\"timestamp\":1762299564.4401999,\"trace_id\":\"173689045bf348a1844be34689949015\"}],\"start_timestamp\":1762299564.0101,\"tags\":{\"effectiveConnectionType\":\"4g\",\"deviceMemory\":\"8\",\"hardwareConcurrency\":\"8\"},\"timestamp\":1762299564.4448,\"transaction\":\"/background.html\",\"type\":\"transaction\",\"measurements\":{\"connection.rtt\":{\"value\":150},\"connection.downlink\":{\"value\":2.85},\"ttfb\":{\"value\":0},\"ttfb.requestTime\":{\"value\":0}},\"platform\":\"javascript\",\"event_id\":\"81177436b49a4101b9a4cedb435d5d60\",\"environment\":\"production\",\"release\":\"0.2.4\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"GlobalHandlers\",\"LinkedErrors\",\"UserAgent\",\"BrowserTracing\"],\"name\":\"sentry.javascript.browser\",\"version\":\"6.7.2\",\"packages\":[{\"name\":\"npm:@sentry/browser\",\"version\":\"6.7.2\"}]},\"breadcrumbs\":[{\"timestamp\":1762299564.459,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"./_locales/en/messages.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299564.718,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299564.814,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://festats.debank.com/rabby/byteInUse?value=4589\",\"status_code\":404},\"type\":\"http\"}],\"request\":{\"url\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:25 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "41"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.434",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.437",
+      "url": "https://o1164613.ingest.sentry.io/api/6253780/envelope/?sentry_key=c71739d59cfe4454ab21ba4e1ac28f99&sentry_version=7",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"sent_at\":\"2025-11-04T23:39:28.029Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"6.7.2\"}}\n{\"type\":\"session\"}\n{\"sid\":\"4376ea8f5ce644f8ac33fdb97cd5949c\",\"init\":false,\"started\":\"2025-11-04T23:39:24.442Z\",\"timestamp\":\"2025-11-04T23:39:28.028Z\",\"status\":\"crashed\",\"errors\":1,\"attrs\":{\"release\":\"0.2.4\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:28 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "2"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.438",
+      "url": "https://o1164613.ingest.sentry.io/api/6253780/store/?sentry_key=c71739d59cfe4454ab21ba4e1ac28f99&sentry_version=7",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"exception\":{\"values\":[{\"type\":\"Error\",\"value\":\"Network Error\",\"stacktrace\":{\"frames\":[{\"colno\":12031744,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"XMLHttpRequest.r\",\"in_app\":true,\"lineno\":2},{\"colno\":5932531,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"g.onerror\",\"in_app\":true,\"lineno\":2},{\"colno\":5937494,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"e.exports\",\"in_app\":true,\"lineno\":2}]},\"mechanism\":{\"handled\":false,\"type\":\"onunhandledrejection\"}}]},\"level\":\"error\",\"platform\":\"javascript\",\"event_id\":\"04e9a905bc30421eb1acc45ca19ce796\",\"timestamp\":1762299568.029,\"environment\":\"production\",\"release\":\"0.2.4\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"GlobalHandlers\",\"LinkedErrors\",\"UserAgent\",\"BrowserTracing\"],\"name\":\"sentry.javascript.browser\",\"version\":\"6.7.2\",\"packages\":[{\"name\":\"npm:@sentry/browser\",\"version\":\"6.7.2\"}]},\"breadcrumbs\":[{\"timestamp\":1762299564.459,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"./_locales/en/messages.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299564.718,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299564.814,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://festats.debank.com/rabby/byteInUse?value=4589\",\"status_code\":404},\"type\":\"http\"},{\"timestamp\":1762299565.448,\"category\":\"sentry.transaction\",\"event_id\":\"81177436b49a4101b9a4cedb435d5d60\",\"message\":\"81177436b49a4101b9a4cedb435d5d60\"},{\"timestamp\":1762299568.027,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"}],\"request\":{\"url\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:28 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "41"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.468",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.554",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.584",
+      "url": "https://o1164613.ingest.sentry.io/api/6253780/store/?sentry_key=c71739d59cfe4454ab21ba4e1ac28f99&sentry_version=7",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"exception\":{\"values\":[{\"type\":\"Error\",\"value\":\"Network Error\",\"stacktrace\":{\"frames\":[{\"colno\":12031744,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"XMLHttpRequest.r\",\"in_app\":true,\"lineno\":2},{\"colno\":5932531,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"g.onerror\",\"in_app\":true,\"lineno\":2},{\"colno\":5937494,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"e.exports\",\"in_app\":true,\"lineno\":2}]},\"mechanism\":{\"handled\":false,\"type\":\"onunhandledrejection\"}}]},\"level\":\"error\",\"platform\":\"javascript\",\"event_id\":\"b336ca5706e54117843c8eff788035ac\",\"timestamp\":1762299570.865,\"environment\":\"production\",\"release\":\"0.2.4\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"GlobalHandlers\",\"LinkedErrors\",\"UserAgent\",\"BrowserTracing\"],\"name\":\"sentry.javascript.browser\",\"version\":\"6.7.2\",\"packages\":[{\"name\":\"npm:@sentry/browser\",\"version\":\"6.7.2\"}]},\"breadcrumbs\":[{\"timestamp\":1762299564.459,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"./_locales/en/messages.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299564.718,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299564.814,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://festats.debank.com/rabby/byteInUse?value=4589\",\"status_code\":404},\"type\":\"http\"},{\"timestamp\":1762299565.448,\"category\":\"sentry.transaction\",\"event_id\":\"81177436b49a4101b9a4cedb435d5d60\",\"message\":\"81177436b49a4101b9a4cedb435d5d60\"},{\"timestamp\":1762299568.027,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299568.029,\"category\":\"sentry.event\",\"event_id\":\"04e9a905bc30421eb1acc45ca19ce796\",\"level\":\"error\",\"message\":\"Error: Network Error\"},{\"timestamp\":1762299569.788,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299570.853,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"}],\"request\":{\"url\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}}",
+      "status": 403,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:30 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "61"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.674",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.702",
+      "url": "https://o1164613.ingest.sentry.io/api/6253780/store/?sentry_key=c71739d59cfe4454ab21ba4e1ac28f99&sentry_version=7",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"exception\":{\"values\":[{\"type\":\"Error\",\"value\":\"Network Error\",\"stacktrace\":{\"frames\":[{\"colno\":12031744,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"XMLHttpRequest.r\",\"in_app\":true,\"lineno\":2},{\"colno\":5932531,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"g.onerror\",\"in_app\":true,\"lineno\":2},{\"colno\":5937494,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"e.exports\",\"in_app\":true,\"lineno\":2}]},\"mechanism\":{\"handled\":false,\"type\":\"onunhandledrejection\"}}]},\"level\":\"error\",\"platform\":\"javascript\",\"event_id\":\"84ce3923d8aa4bf4ad9c2a2a0636257d\",\"timestamp\":1762299574.229,\"environment\":\"production\",\"release\":\"0.2.4\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"GlobalHandlers\",\"LinkedErrors\",\"UserAgent\",\"BrowserTracing\"],\"name\":\"sentry.javascript.browser\",\"version\":\"6.7.2\",\"packages\":[{\"name\":\"npm:@sentry/browser\",\"version\":\"6.7.2\"}]},\"breadcrumbs\":[{\"timestamp\":1762299564.459,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"./_locales/en/messages.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299564.718,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299564.814,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://festats.debank.com/rabby/byteInUse?value=4589\",\"status_code\":404},\"type\":\"http\"},{\"timestamp\":1762299565.448,\"category\":\"sentry.transaction\",\"event_id\":\"81177436b49a4101b9a4cedb435d5d60\",\"message\":\"81177436b49a4101b9a4cedb435d5d60\"},{\"timestamp\":1762299568.027,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299568.029,\"category\":\"sentry.event\",\"event_id\":\"04e9a905bc30421eb1acc45ca19ce796\",\"level\":\"error\",\"message\":\"Error: Network Error\"},{\"timestamp\":1762299569.788,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299570.853,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299570.865,\"category\":\"sentry.event\",\"event_id\":\"b336ca5706e54117843c8eff788035ac\",\"level\":\"error\",\"message\":\"Error: Network Error\"},{\"timestamp\":1762299574.221,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"}],\"request\":{\"url\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}}",
+      "status": 403,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:34 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "61"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.706",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.793",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.821",
+      "url": "https://o1164613.ingest.sentry.io/api/6253780/store/?sentry_key=c71739d59cfe4454ab21ba4e1ac28f99&sentry_version=7",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"exception\":{\"values\":[{\"type\":\"Error\",\"value\":\"Network Error\",\"stacktrace\":{\"frames\":[{\"colno\":12031744,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"XMLHttpRequest.r\",\"in_app\":true,\"lineno\":2},{\"colno\":5932531,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"g.onerror\",\"in_app\":true,\"lineno\":2},{\"colno\":5937494,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"e.exports\",\"in_app\":true,\"lineno\":2}]},\"mechanism\":{\"handled\":false,\"type\":\"onunhandledrejection\"}}]},\"level\":\"error\",\"platform\":\"javascript\",\"event_id\":\"dea68f28f92b44d0adf980fb5ebd45fc\",\"timestamp\":1762299577.053,\"environment\":\"production\",\"release\":\"0.2.4\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"GlobalHandlers\",\"LinkedErrors\",\"UserAgent\",\"BrowserTracing\"],\"name\":\"sentry.javascript.browser\",\"version\":\"6.7.2\",\"packages\":[{\"name\":\"npm:@sentry/browser\",\"version\":\"6.7.2\"}]},\"breadcrumbs\":[{\"timestamp\":1762299564.459,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"./_locales/en/messages.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299564.718,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299564.814,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://festats.debank.com/rabby/byteInUse?value=4589\",\"status_code\":404},\"type\":\"http\"},{\"timestamp\":1762299565.448,\"category\":\"sentry.transaction\",\"event_id\":\"81177436b49a4101b9a4cedb435d5d60\",\"message\":\"81177436b49a4101b9a4cedb435d5d60\"},{\"timestamp\":1762299568.027,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299568.029,\"category\":\"sentry.event\",\"event_id\":\"04e9a905bc30421eb1acc45ca19ce796\",\"level\":\"error\",\"message\":\"Error: Network Error\"},{\"timestamp\":1762299569.788,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299570.853,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299570.865,\"category\":\"sentry.event\",\"event_id\":\"b336ca5706e54117843c8eff788035ac\",\"level\":\"error\",\"message\":\"Error: Network Error\"},{\"timestamp\":1762299574.221,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299574.229,\"category\":\"sentry.event\",\"event_id\":\"84ce3923d8aa4bf4ad9c2a2a0636257d\",\"level\":\"error\",\"message\":\"Error: Network Error\"},{\"timestamp\":1762299574.859,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299577.044,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"}],\"request\":{\"url\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}}",
+      "status": 403,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:37 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "61"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.830",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.916",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.941",
+      "url": "https://o1164613.ingest.sentry.io/api/6253780/store/?sentry_key=c71739d59cfe4454ab21ba4e1ac28f99&sentry_version=7",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"exception\":{\"values\":[{\"type\":\"Error\",\"value\":\"Network Error\",\"stacktrace\":{\"frames\":[{\"colno\":12031744,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"XMLHttpRequest.r\",\"in_app\":true,\"lineno\":2},{\"colno\":5932531,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"g.onerror\",\"in_app\":true,\"lineno\":2},{\"colno\":5937494,\"filename\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.js\",\"function\":\"e.exports\",\"in_app\":true,\"lineno\":2}]},\"mechanism\":{\"handled\":false,\"type\":\"onunhandledrejection\"}}]},\"level\":\"error\",\"platform\":\"javascript\",\"event_id\":\"d76efe0464f4443fa09add71cf54408c\",\"timestamp\":1762299580.163,\"environment\":\"production\",\"release\":\"0.2.4\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"GlobalHandlers\",\"LinkedErrors\",\"UserAgent\",\"BrowserTracing\"],\"name\":\"sentry.javascript.browser\",\"version\":\"6.7.2\",\"packages\":[{\"name\":\"npm:@sentry/browser\",\"version\":\"6.7.2\"}]},\"breadcrumbs\":[{\"timestamp\":1762299564.459,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"./_locales/en/messages.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299564.718,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299564.814,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://festats.debank.com/rabby/byteInUse?value=4589\",\"status_code\":404},\"type\":\"http\"},{\"timestamp\":1762299565.448,\"category\":\"sentry.transaction\",\"event_id\":\"81177436b49a4101b9a4cedb435d5d60\",\"message\":\"81177436b49a4101b9a4cedb435d5d60\"},{\"timestamp\":1762299568.027,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299568.029,\"category\":\"sentry.event\",\"event_id\":\"04e9a905bc30421eb1acc45ca19ce796\",\"level\":\"error\",\"message\":\"Error: Network Error\"},{\"timestamp\":1762299569.788,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299570.853,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299570.865,\"category\":\"sentry.event\",\"event_id\":\"b336ca5706e54117843c8eff788035ac\",\"level\":\"error\",\"message\":\"Error: Network Error\"},{\"timestamp\":1762299574.221,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299574.229,\"category\":\"sentry.event\",\"event_id\":\"84ce3923d8aa4bf4ad9c2a2a0636257d\",\"level\":\"error\",\"message\":\"Error: Network Error\"},{\"timestamp\":1762299574.859,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299577.044,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299577.053,\"category\":\"sentry.event\",\"event_id\":\"dea68f28f92b44d0adf980fb5ebd45fc\",\"level\":\"error\",\"message\":\"Error: Network Error\"},{\"timestamp\":1762299579.918,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"},{\"timestamp\":1762299580.16,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://openapi.debank.com/v1/wallet/config\",\"status_code\":0},\"type\":\"http\"}],\"request\":{\"url\":\"chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}}",
+      "status": 403,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:40 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "61"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.949",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.950",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.951",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.952",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.953",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.954",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.1000",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.1001",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://obomekdalnlobhofpkaloppmbcoddgja/background.html",
+      "id": "85754.1002",
+      "url": "https://openapi.debank.com/v1/wallet/config",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-version": "0.2.4",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "x-client": "Pitaka",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    }
+  ],
+  "success": true
+}

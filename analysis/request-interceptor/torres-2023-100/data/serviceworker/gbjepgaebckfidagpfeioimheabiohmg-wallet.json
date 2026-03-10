@@ -1,0 +1,124 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/gbjepgaebckfidagpfeioimheabiohmg",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/gbjepgaebckfidagpfeioimheabiohmg",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762300645491,
+    "end": 1762300647178
+  },
+  "extensionID": "foekejegmfadelojjehdipbomkhdnihg",
+  "serviceWorker": "background_page",
+  "walletName": "zeonwallet",
+  "notes": "dead",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "gbjepgaebckfidagpfeioimheabiohmg",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://foekejegmfadelojjehdipbomkhdnihg/_generated_background_page.html",
+      "id": "95281.13",
+      "url": "https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/config.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "if-none-match": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "50cf07110e46c84eaa3bb8eb3ff969bd86e20491",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "strict-transport-security": "max-age=31536000",
+        "x-content-type-options": "nosniff",
+        "date": "Tue, 04 Nov 2025 23:57:26 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 varnish",
+        "x-cache": "HIT",
+        "x-cache-hits": "4",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "1368528",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480025-BRU",
+        "x-github-request-id": "DA0A:27F78F:9CCEFE:A7103C:690A8C69",
+        "x-timer": "S1762300647.631497,VS0,VE0",
+        "etag": "W/\"88c353e516a2aac69a9895bbdd03f6f43ebfc38c31e16634aaf5a8a8b9fd09d4\"",
+        "source-age": "154",
+        "x-frame-options": "deny",
+        "vary": "Authorization,Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "expires": "Wed, 05 Nov 2025 00:02:26 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://foekejegmfadelojjehdipbomkhdnihg/_generated_background_page.html",
+      "id": "95281.14",
+      "url": "https://api.infura.io/v1/jsonrpc/mainnet/eth_blockNumber?params=%5B%5D",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal"
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://foekejegmfadelojjehdipbomkhdnihg/_generated_background_page.html",
+      "id": "95281.15",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:57:26 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-38",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "transfer-encoding": "chunked",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "true",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: gbjepgaebckfidagpfeioimheabiohmg. Exiting..."
+}

@@ -1,0 +1,171 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/nfinomegcaccbhchhgflladpfbajihdf",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/nfinomegcaccbhchhgflladpfbajihdf",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "pathID": "nfinomegcaccbhchhgflladpfbajihdf",
+  "timestamps": {
+    "start": 1762301671303,
+    "end": 1762301673990
+  },
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "walletName": "g-u-wallet",
+  "notes": "dead",
+  "extensionID": "ppgonlhkjoobahofghineifldmcddihm",
+  "password": "Default1Password1!",
+  "requests": [
+    {
+      "requestContext": ["about:blank"],
+      "id": "13EFB96C8616F05E7458DD947664CFC7",
+      "url": "chrome-extension://ppgonlhkjoobahofghineifldmcddihm/pages/popup.html",
+      "type": "Document",
+      "method": "GET",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://ppgonlhkjoobahofghineifldmcddihm/pages/popup.html"
+      ],
+      "id": "4784.22",
+      "url": "https://fonts.googleapis.com/css?family=Noto+Sans+JP",
+      "type": "Stylesheet",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 17:26:13 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "x-xss-protection": "0",
+        "last-modified": "Tue, 04 Nov 2025 17:22:41 GMT",
+        "server": "ESF",
+        "cross-origin-opener-policy": "same-origin-allow-popups",
+        "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "text/css; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+        "timing-allow-origin": "*",
+        "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+        "expires": "Tue, 04 Nov 2025 17:26:13 GMT"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://ppgonlhkjoobahofghineifldmcddihm/pages/popup.html"
+      ],
+      "id": "4784.23",
+      "url": "chrome-extension://ppgonlhkjoobahofghineifldmcddihm/styles/popup.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' https://www.google-analytics.com; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:21:13 GMT",
+        "etag": "\"HzLfdUeiMrgn1Imf73y/F6CiM+g=\"",
+        "content-type": "text/css"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://ppgonlhkjoobahofghineifldmcddihm/pages/popup.html"
+      ],
+      "id": "4784.24",
+      "url": "chrome-extension://ppgonlhkjoobahofghineifldmcddihm/scripts/popup.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' https://www.google-analytics.com; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:21:13 GMT",
+        "etag": "\"HzLfdUeiMrgn1Imf73y/F6CiM+g=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://ppgonlhkjoobahofghineifldmcddihm/pages/popup.html"
+      ],
+      "id": "4784.152",
+      "url": "chrome-extension://ppgonlhkjoobahofghineifldmcddihm/fonts/NotoSansJP/NotoSans-Regular.otf",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "origin": "chrome-extension://ppgonlhkjoobahofghineifldmcddihm",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' https://www.google-analytics.com; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:21:13 GMT",
+        "etag": "\"HzLfdUeiMrgn1Imf73y/F6CiM+g=\"",
+        "content-type": "font/otf"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://ppgonlhkjoobahofghineifldmcddihm/pages/welcome.html"
+      ],
+      "id": "4784.288",
+      "url": "chrome-extension://ppgonlhkjoobahofghineifldmcddihm/fonts/NotoSansJP/NotoSans-Regular.otf",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "origin": "chrome-extension://ppgonlhkjoobahofghineifldmcddihm",
+        "if-none-match": "\"HzLfdUeiMrgn1Imf73y/F6CiM+g=\"",
+        "if-modified-since": "Wed, 04 Jan 2023 10:21:13 GMT",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' https://www.google-analytics.com; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:21:13 GMT",
+        "etag": "\"HzLfdUeiMrgn1Imf73y/F6CiM+g=\"",
+        "content-type": "font/otf"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: nfinomegcaccbhchhgflladpfbajihdf. Exiting..."
+}

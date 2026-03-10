@@ -1,0 +1,188 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/nankopfjhdflikcokhgohiaoehnjfako",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/nankopfjhdflikcokhgohiaoehnjfako",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762301608652,
+    "end": 1762301611783
+  },
+  "extensionID": "lbbljpebhlnaoieinocboepkdafjhgll",
+  "serviceWorker": "service_worker",
+  "walletName": "bee-wallet",
+  "notes": "dead",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "nankopfjhdflikcokhgohiaoehnjfako",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/app-init.js",
+      "id": "4229.205",
+      "url": "https://rinkeby.infura.io/v3/61342fe8b3e5431ba4f5a1ea89d01a8e",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[],\"id\":1}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/app-init.js",
+      "id": "4229.206",
+      "url": "https://cdn.jsdelivr.net/gh/MetaMask/eth-phishing-detect@master/src/config.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:13:31 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "HIT",
+        "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "age": "31518",
+        "x-jsd-version": "master",
+        "content-encoding": "br",
+        "x-cache": "HIT, HIT",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "1325085",
+        "x-served-by": "cache-fra-eddf8230033-FRA, cache-rtm-ehrd2290025-RTM",
+        "x-jsd-version-type": "branch",
+        "server": "cloudflare",
+        "etag": "W/\"5051c4-sdJDhLIsEROggQgLD3WdZimR3qc\"",
+        "vary": "Accept-Encoding",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=27LAGA2Bk77B2VUInL6PZunh4udL3V6juxfmXGBKRHdOXthbg5qm01LoTNTQabRPX3JEK%2BZ9Cs9jHy%2FVmNxjtbB6lCWCfdZ9bNHN3%2FUjPD4B58rfLaXIZBBSNxzRt%2FoaLUY%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "*",
+        "cache-control": "public, max-age=604800, s-maxage=43200",
+        "accept-ranges": "bytes",
+        "cf-ray": "9998254d1bc6b71a-BRU",
+        "timing-allow-origin": "*"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/app-init.js",
+      "id": "4229.207",
+      "url": "https://rinkeby.infura.io/v3/61342fe8b3e5431ba4f5a1ea89d01a8e",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal"
+      },
+      "postData": "{\"id\":8555688198041291,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/app-init.js",
+      "id": "4229.208",
+      "url": "https://rinkeby.infura.io/v3/61342fe8b3e5431ba4f5a1ea89d01a8e",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[],\"id\":1}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/app-init.js",
+      "id": "4229.209",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:13:31 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-28",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "transfer-encoding": "chunked",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "true",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/app-init.js",
+      "id": "4229.216",
+      "url": "https://cdn.jsdelivr.net/gh/phishfort/phishfort-lists@master/blacklists/hotlist.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:13:31 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "HIT",
+        "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "content-encoding": "br",
+        "age": "20411",
+        "x-jsd-version": "master",
+        "x-cache": "HIT, MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "72",
+        "x-served-by": "cache-fra-eddf8230091-FRA, cache-mrs1050106-MRS",
+        "x-jsd-version-type": "branch",
+        "server": "cloudflare",
+        "etag": "W/\"5a-OhHFzon4px7LGPxEsUIE6P6E5jI\"",
+        "vary": "Accept-Encoding",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=4yCnXcgqsRBgREferfQ0vWgGupF%2BUSXXBTUqSdTiSaJlTBWjjiPjzRrPNb6M3VmuWLR9pa8nmIuiCQgFSyDyZVhmzzI5yUhZp%2FauDP3wE3IylsjrKEA7mOln08HPwGpCg50%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "*",
+        "cache-control": "public, max-age=604800, s-maxage=43200",
+        "accept-ranges": "bytes",
+        "cf-ray": "9998254d8c0fb71a-BRU",
+        "timing-allow-origin": "*"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: nankopfjhdflikcokhgohiaoehnjfako. Exiting..."
+}

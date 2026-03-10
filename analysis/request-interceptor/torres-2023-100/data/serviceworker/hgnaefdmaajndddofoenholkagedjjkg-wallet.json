@@ -1,0 +1,197 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/hgnaefdmaajndddofoenholkagedjjkg",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/hgnaefdmaajndddofoenholkagedjjkg",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762300764343,
+    "end": 1762300766565
+  },
+  "extensionID": "aeoeecidbmbnagobbjmkgogopccfjnma",
+  "serviceWorker": "background_page",
+  "walletName": "Smilo",
+  "notes": "dead",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "hgnaefdmaajndddofoenholkagedjjkg",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://aeoeecidbmbnagobbjmkgogopccfjnma/_generated_background_page.html",
+      "id": "96371.4",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=XSM&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:59:25 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-21",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "transfer-encoding": "chunked",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "false",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://aeoeecidbmbnagobbjmkgogopccfjnma/_generated_background_page.html",
+      "id": "96371.5",
+      "url": "https://api.infura.io/v2/blacklist",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://aeoeecidbmbnagobbjmkgogopccfjnma/_generated_background_page.html",
+      "id": "96371.6",
+      "url": "https://api.smilo.network/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://aeoeecidbmbnagobbjmkgogopccfjnma/_generated_background_page.html",
+      "id": "96371.7",
+      "url": "https://api.smilo.network/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":6860794537491621,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"net_version\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://aeoeecidbmbnagobbjmkgogopccfjnma/_generated_background_page.html",
+      "id": "96371.8",
+      "url": "https://api.smilo.network/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":6860794537491622,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"net_version\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://aeoeecidbmbnagobbjmkgogopccfjnma/_generated_background_page.html",
+      "id": "96371.13",
+      "url": "https://raw.githubusercontent.com/Smilo-platform/SmiloWallet-extension/develop/app/phishing-config.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "e39ce9bc989c89770d561c71eaa25a4591589dfe",
+        "date": "Tue, 04 Nov 2025 23:59:25 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:04:25 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "96",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480052-BRU",
+        "x-github-request-id": "422E:4B5E5:6FA01:77191:690A3137",
+        "x-timer": "S1762300765.480358,VS0,VE154",
+        "etag": "W/\"6d6d6bfaf87dd9367d2dff63a99d0e9a1e597f23abfb69ae6bd17d91e2c7bc46\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://aeoeecidbmbnagobbjmkgogopccfjnma/_generated_background_page.html",
+      "id": "96371.26",
+      "url": "https://api.smilo.network/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"method\":\"net_version\",\"params\":[],\"beta\":true,\"id\":3437691400}",
+      "responseHeaders": {}
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: hgnaefdmaajndddofoenholkagedjjkg. Exiting..."
+}

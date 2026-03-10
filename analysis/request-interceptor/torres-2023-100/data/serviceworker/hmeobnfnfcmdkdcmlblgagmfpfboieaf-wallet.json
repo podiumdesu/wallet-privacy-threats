@@ -1,0 +1,281 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/hmeobnfnfcmdkdcmlblgagmfpfboieaf",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/hmeobnfnfcmdkdcmlblgagmfpfboieaf",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762300784352,
+    "end": 1762300788293
+  },
+  "extensionID": "hnnkkjegoclgoolpkkccejijimajmcmp",
+  "serviceWorker": "background_page",
+  "walletName": "xdefi",
+  "notes": "dead",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "hmeobnfnfcmdkdcmlblgagmfpfboieaf",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnnkkjegoclgoolpkkccejijimajmcmp/_generated_background_page.html",
+      "id": "96623.4",
+      "url": "https://cdn.segment.com/v1/projects/APaFGDu7eLZw6tJz2pTuracy1bSRZqPx/settings",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:59:46 GMT",
+        "x-amz-version-id": "ogsYKLmFx1xaprDiYWtXIKfFnbLJAzNu",
+        "via": "1.1 2c4b655a5de1371195f92ed356802ebe.cloudfront.net (CloudFront)",
+        "content-encoding": "br",
+        "x-amz-cf-pop": "BRU50-P1",
+        "age": "6404",
+        "x-amz-server-side-encryption": "AES256",
+        "x-cache": "Hit from cloudfront",
+        "x-amz-replication-status": "COMPLETED",
+        "last-modified": "Wed, 01 Oct 2025 07:49:31 GMT",
+        "server": "AmazonS3",
+        "etag": "W/\"06eb1843e8d14834752b418a3f4468a5\"",
+        "access-control-max-age": "3000",
+        "access-control-allow-methods": "GET, HEAD",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=10800",
+        "vary": "accept-encoding",
+        "x-amz-cf-id": "X62BPuuKW-SN2q2x-GmboUOvoZUqZpX3OCK5rNEnhVFjWUakLImovA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnnkkjegoclgoolpkkccejijimajmcmp/_generated_background_page.html",
+      "id": "96623.5",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "type": "Script",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:30:38 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "age": "1748",
+        "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:225:0",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "20737",
+        "last-modified": "Tue, 15 Jul 2025 00:44:26 GMT",
+        "server": "Golfe2",
+        "vary": "Accept-Encoding",
+        "report-to": "{\"group\":\"ascnsrsgac:225:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:225:0\"}],}",
+        "content-type": "text/javascript",
+        "cache-control": "public, max-age=7200",
+        "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsgac:225:0",
+        "expires": "Wed, 05 Nov 2025 01:30:38 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnnkkjegoclgoolpkkccejijimajmcmp/_generated_background_page.html",
+      "id": "96623.6",
+      "url": "https://cdn.segment.com/v1/projects/APaFGDu7eLZw6tJz2pTuracy1bSRZqPx/settings",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:59:46 GMT",
+        "x-amz-version-id": "ogsYKLmFx1xaprDiYWtXIKfFnbLJAzNu",
+        "via": "1.1 2c4b655a5de1371195f92ed356802ebe.cloudfront.net (CloudFront)",
+        "content-encoding": "br",
+        "x-amz-cf-pop": "BRU50-P1",
+        "age": "6404",
+        "x-amz-server-side-encryption": "AES256",
+        "x-cache": "Hit from cloudfront",
+        "x-amz-replication-status": "COMPLETED",
+        "last-modified": "Wed, 01 Oct 2025 07:49:31 GMT",
+        "server": "AmazonS3",
+        "etag": "W/\"06eb1843e8d14834752b418a3f4468a5\"",
+        "access-control-max-age": "3000",
+        "access-control-allow-methods": "GET, HEAD",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=10800",
+        "vary": "accept-encoding",
+        "x-amz-cf-id": "X62BPuuKW-SN2q2x-GmboUOvoZUqZpX3OCK5rNEnhVFjWUakLImovA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnnkkjegoclgoolpkkccejijimajmcmp/_generated_background_page.html",
+      "id": "96623.30",
+      "url": "chrome-extension://hnnkkjegoclgoolpkkccejijimajmcmp/js/ajs-destination.bundle.js",
+      "type": "Script",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://cdn.segment.com https://www.google-analytics.com/analytics.js; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:04:56 GMT",
+        "etag": "\"WHCgcX24sCuiuOOAF2y+KaSQy3k=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnnkkjegoclgoolpkkccejijimajmcmp/_generated_background_page.html",
+      "id": "96623.38",
+      "url": "chrome-extension://hnnkkjegoclgoolpkkccejijimajmcmp/js/schemaFilter.bundle.js",
+      "type": "Script",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://cdn.segment.com https://www.google-analytics.com/analytics.js; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:04:56 GMT",
+        "etag": "\"WHCgcX24sCuiuOOAF2y+KaSQy3k=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnnkkjegoclgoolpkkccejijimajmcmp/_generated_background_page.html",
+      "id": "96623.41",
+      "url": "https://cdn.segment.com/next-integrations/actions/amplitude-plugins/ea20d1af3c8baa2ea75e.js",
+      "type": "Script",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-amz-version-id": "8OfJ3YQpfN9ntpPcYdiI8vGbOlGqRajl",
+        "content-encoding": "gzip",
+        "via": "1.1 9700f12bc5b1f03fd6480e2b7838d596.cloudfront.net (CloudFront)",
+        "date": "Tue, 04 Nov 2025 05:29:13 GMT",
+        "x-amz-cf-pop": "BRU50-P1",
+        "age": "41692",
+        "x-amz-server-side-encryption": "AES256",
+        "x-cache": "Hit from cloudfront",
+        "last-modified": "Tue, 30 Sep 2025 14:08:24 GMT",
+        "server": "AmazonS3",
+        "etag": "W/\"f74bc36d979effd8ab21538b16f45500\"",
+        "access-control-max-age": "3000",
+        "access-control-allow-methods": "GET, HEAD",
+        "content-type": "text/javascript",
+        "access-control-allow-origin": "*",
+        "vary": "accept-encoding",
+        "x-amz-cf-id": "nuX0U50uty2eFXK2eWyT5bbOY9DqePUSQW2TW-EdoEQ_3RIhE3zFSw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnnkkjegoclgoolpkkccejijimajmcmp/_generated_background_page.html",
+      "id": "96623.46",
+      "url": "https://cdn.segment.com/next-integrations/actions/845/b71991e64b93843f6eeb.js",
+      "type": "Script",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-amz-version-id": "cKRBUOsGMHIheLBPh2chxCBZti4BBR5U",
+        "content-encoding": "gzip",
+        "via": "1.1 9700f12bc5b1f03fd6480e2b7838d596.cloudfront.net (CloudFront)",
+        "date": "Tue, 04 Nov 2025 10:05:08 GMT",
+        "x-amz-cf-pop": "BRU50-P1",
+        "age": "31237",
+        "x-amz-server-side-encryption": "AES256",
+        "x-cache": "Hit from cloudfront",
+        "last-modified": "Tue, 30 Sep 2025 14:08:23 GMT",
+        "server": "AmazonS3",
+        "etag": "W/\"cb417464e0987d1b1b4f14d5179f406e\"",
+        "access-control-max-age": "3000",
+        "access-control-allow-methods": "GET, HEAD",
+        "content-type": "text/javascript",
+        "access-control-allow-origin": "*",
+        "vary": "accept-encoding",
+        "x-amz-cf-id": "VfqSi_4C2esgWi0Vq7keM_pGdP9svVlS3ab8t6P2_Uhz-YMcquRlTA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hnnkkjegoclgoolpkkccejijimajmcmp/_generated_background_page.html",
+      "id": "96623.47",
+      "url": "https://grpc-api.xdefiservices.com/Gateway/init",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "x-grpc-web": "1",
+        "referer": "",
+        "content-type": "application/grpc-web+proto",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "\u0000\u0000\u0000\u0000\u0000",
+      "status": 503,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://hnnkkjegoclgoolpkkccejijimajmcmp",
+        "access-control-expose-headers": "custom-header-1,grpc-status,grpc-message",
+        "date": "Tue, 04 Nov 2025 23:59:47 GMT",
+        "access-control-allow-credentials": "true",
+        "server": "istio-envoy",
+        "content-length": "19",
+        "content-type": "text/plain"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: hmeobnfnfcmdkdcmlblgagmfpfboieaf. Exiting..."
+}

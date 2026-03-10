@@ -1,0 +1,332 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/bfnaelmomeimhlpmgjnjophhpkkoljpa",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/bfnaelmomeimhlpmgjnjophhpkkoljpa",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762299548206,
+    "end": 1762299550413
+  },
+  "extensionID": "epphnbjompjmanignjeigfinkgpdalld",
+  "serviceWorker": "background_page",
+  "walletName": "phantom-sol",
+  "notes": "dead",
+  "walletAddress": "DBLwsdi5eh6gjsCq4ENGmsoawsz8vmhYvaiBaYooJWWx",
+  "password": "Default1Password1!",
+  "pathID": "bfnaelmomeimhlpmgjnjophhpkkoljpa",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html",
+      "id": "85525.4",
+      "url": "https://analytics.phantom.app/decide/?v=2&ip=1&_=1762299549169&ver=1.23.0",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "data=eyJ0b2tlbiI6Im5zNVpqeVpsZ1NfbUdmdGhTN25aMzNGYVAxbUZjYkJ2b24zTFBETmFobVEiLCJkaXN0aW5jdF9pZCI6IjE5YTRmN2E2ODU0YTdlLTBkZjhhNThjMjgwNmJkLTE5NTI1NjM0LTFmYTQwMC0xOWE0ZjdhNjg1NTIwNjMiLCJncm91cHMiOnt9fQ%3D%3D",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html",
+      "id": "85525.5",
+      "url": "https://analytics.phantom.app/engage/?ip=1&_=1762299549173&ver=1.23.0",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "data=eyIkc2V0Ijp7IiRvcyI6Ik1hYyBPUyBYIiwiJGJyb3dzZXIiOiJDaHJvbWUiLCIkYnJvd3Nlcl92ZXJzaW9uIjoxMTYsIiRpbml0aWFsX3JlZmVycmVyIjoiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiIkZGlyZWN0IiwiZ2l0U2hhIjoiNDEzM2YwMmI5YjBhOTA2YjZhMjliN2M4ZDIyNTE5OWRkYTBiZTc5MSIsImFwcFZlcnNpb24iOiIyMi4xMi4xOSJ9LCIkdG9rZW4iOiJuczVaanlabGdTX21HZnRoUzduWjMzRmFQMW1GY2JCdm9uM0xQRE5haG1RIiwiJGRpc3RpbmN0X2lkIjoiMTlhNGY3YTY4NTRhN2UtMGRmOGE1OGMyODA2YmQtMTk1MjU2MzQtMWZhNDAwLTE5YTRmN2E2ODU1MjA2MyIsIiRkZXZpY2VfaWQiOiIxOWE0ZjdhNjg1NGE3ZS0wZGY4YTU4YzI4MDZiZC0xOTUyNTYzNC0xZmE0MDAtMTlhNGY3YTY4NTUyMDYzIn0%3D",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html",
+      "id": "85525.6",
+      "url": "https://api.rudderlabs.com/sourceConfig/?p=npm&v=2.21.0&writeKey=854ab98a-afad-4afe-8271-b9d01111bb55",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "authorization": "Basic ODU0YWI5OGEtYWZhZC00YWZlLTgyNzEtYjlkMDExMTFiYjU1Og==",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 400,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:38:52 GMT",
+        "content-security-policy": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=15552000; includeSubDomains",
+        "via": "1.1 0f8477062090de8d23b9985455734a32.cloudfront.net (CloudFront)",
+        "x-permitted-cross-domain-policies": "none",
+        "age": "17",
+        "x-amz-cf-pop": "BRU50-P1",
+        "x-dns-prefetch-control": "off",
+        "x-cache": "Error from cloudfront",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "41",
+        "x-xss-protection": "0",
+        "x-request-id": "6bdf0310-b9d7-11f0-83ce-770f771c430e",
+        "referrer-policy": "no-referrer",
+        "expect-ct": "max-age=0",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Origin",
+        "content-type": "application/json; charset=utf-8",
+        "x-download-options": "noopen",
+        "cache-control": "max-age=300",
+        "x-amz-cf-id": "4LIORi6Yk5OAUXOuuq35QZRWUUM_7TyzyvG9FqXb6-etN4XUspE-uA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html",
+      "id": "85525.7",
+      "url": "https://data.phantom.app/v1/identify",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "authorization": "Basic ODU0YWI5OGEtYWZhZC00YWZlLTgyNzEtYjlkMDExMTFiYjU1Og==",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "anonymousid": "MmEwMWI4OWUtOGZiNy00YTJmLThhYjktYjI0Y2M0ZGNlNmYx",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"channel\":\"web\",\"context\":{\"app\":{\"build\":\"1.0.0\",\"name\":\"RudderLabs JavaScript SDK\",\"namespace\":\"com.rudderlabs.javascript\",\"version\":\"2.21.0\"},\"traits\":{\"gitSha\":\"4133f02b9b0a906b6a29b7c8d225199dda0be791\",\"appVersion\":\"22.12.19\",\"displayLanguage\":\"en-GB\"},\"library\":{\"name\":\"RudderLabs JavaScript SDK\",\"version\":\"2.21.0\"},\"os\":{\"name\":\"\",\"version\":\"\"},\"screen\":{\"density\":0,\"width\":0,\"height\":0,\"innerWidth\":0,\"innerHeight\":0},\"sessionId\":1762299549175,\"sessionStart\":true,\"campaign\":{},\"page\":{\"path\":\"/_generated_background_page.html\",\"referrer\":\"$direct\",\"referring_domain\":\"\",\"search\":\"\",\"title\":\"\",\"url\":\"chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html\",\"tab_url\":\"chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html\",\"initial_referrer\":\"$direct\",\"initial_referring_domain\":\"\"}},\"type\":\"identify\",\"messageId\":\"1da7911f-bd6f-4f31-a446-a1c6ed1e277e\",\"originalTimestamp\":\"2025-11-04T23:39:09.301Z\",\"anonymousId\":\"2a01b89e-8fb7-4a2f-8ab9-b24cc4dce6f1\",\"integrations\":{\"All\":true},\"sentAt\":\"2025-11-04T23:39:09.303Z\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:09 GMT",
+        "content-security-policy": "default-src 'none';",
+        "server": "cloudflare",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain;charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "9997f2f7ab70b759-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "44",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html",
+      "id": "85525.8",
+      "url": "https://o516213.ingest.sentry.io/api/5622375/envelope/?sentry_key=7dd258b578034183af4f7603586dadd3&sentry_version=7",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"sent_at\":\"2025-11-04T23:39:09.308Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"6.16.1\"}}\n{\"type\":\"session\"}\n{\"sid\":\"2678ee3068e94eb9a4a7c50ebfad7b8f\",\"init\":true,\"started\":\"2025-11-04T23:39:09.308Z\",\"timestamp\":\"2025-11-04T23:39:09.308Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"4133f02b9b0a906b6a29b7c8d225199dda0be791\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:09 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "2"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html",
+      "id": "85525.9",
+      "url": "https://analytics.phantom.app/e/?ip=1&_=1762299549315&ver=1.23.0",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "data=eyJldmVudCI6IiRvcHRfaW4iLCJwcm9wZXJ0aWVzIjp7IiRvcyI6Ik1hYyBPUyBYIiwiJGJyb3dzZXIiOiJDaHJvbWUiLCIkZGV2aWNlX3R5cGUiOiJEZXNrdG9wIiwiJGN1cnJlbnRfdXJsIjoiY2hyb21lLWV4dGVuc2lvbjovL2VwcGhuYmpvbXBqbWFuaWduamVpZ2ZpbmtncGRhbGxkL19nZW5lcmF0ZWRfYmFja2dyb3VuZF9wYWdlLmh0bWwiLCIkaG9zdCI6ImVwcGhuYmpvbXBqbWFuaWduamVpZ2ZpbmtncGRhbGxkIiwiJHBhdGhuYW1lIjoiL19nZW5lcmF0ZWRfYmFja2dyb3VuZF9wYWdlLmh0bWwiLCIkYnJvd3Nlcl92ZXJzaW9uIjoxMTYsIiRzY3JlZW5faGVpZ2h0IjoxMDgwLCIkc2NyZWVuX3dpZHRoIjoxOTIwLCIkdmlld3BvcnRfaGVpZ2h0IjowLCIkdmlld3BvcnRfd2lkdGgiOjAsIiRsaWIiOiJ3ZWIiLCIkbGliX3ZlcnNpb24iOiIxLjIzLjAiLCIkaW5zZXJ0X2lkIjoiOTQybDRhc3M5Z3I0dW5kayIsIiR0aW1lIjoxNzYyMjk5NTQ5LjMxNSwiZGlzdGluY3RfaWQiOiIxOWE0ZjdhNjg1NGE3ZS0wZGY4YTU4YzI4MDZiZC0xOTUyNTYzNC0xZmE0MDAtMTlhNGY3YTY4NTUyMDYzIiwiJGRldmljZV9pZCI6IjE5YTRmN2E2ODU0YTdlLTBkZjhhNThjMjgwNmJkLTE5NTI1NjM0LTFmYTQwMC0xOWE0ZjdhNjg1NTIwNjMiLCJnaXRTaGEiOiI0MTMzZjAyYjliMGE5MDZiNmEyOWI3YzhkMjI1MTk5ZGRhMGJlNzkxIiwiYXBwVmVyc2lvbiI6IjIyLjEyLjE5IiwiJGluaXRpYWxfcmVmZXJyZXIiOiIkZGlyZWN0IiwiJGluaXRpYWxfcmVmZXJyaW5nX2RvbWFpbiI6IiRkaXJlY3QiLCIkcmVmZXJyZXIiOiIkZGlyZWN0IiwiJHJlZmVycmluZ19kb21haW4iOiIkZGlyZWN0IiwidG9rZW4iOiJuczVaanlabGdTX21HZnRoUzduWjMzRmFQMW1GY2JCdm9uM0xQRE5haG1RIiwiJHNlc3Npb25faWQiOiIxOWE1MTNkMTY3ZjE4YzMtMDVhNjNjNjY4YmI5ZmMtMTk1MjU2MzQtMWZhNDAwLTE5YTUxM2QxNjgwMWQzOSIsIiR3aW5kb3dfaWQiOiIxOWE1MTNkMTY4MTE4ZTAtMGNjYzlmMzQ2MWVmNDgtMTk1MjU2MzQtMWZhNDAwLTE5YTUxM2QxNjgyMjUyZCJ9fQ%3D%3D",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html",
+      "id": "85525.11",
+      "url": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/locales/en/translation.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'wasm-eval'; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:16:16 GMT",
+        "etag": "\"RAPvoeMmhG35MKJRk1jwVdqzivc=\"",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html",
+      "id": "85525.12",
+      "url": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/locales/en/translation.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'wasm-eval'; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:16:16 GMT",
+        "etag": "\"RAPvoeMmhG35MKJRk1jwVdqzivc=\"",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html",
+      "id": "85525.31",
+      "url": "https://analytics.phantom.app/engage/?ip=1&_=1762299549420&ver=1.23.0",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "data=eyIkc2V0Ijp7IiRvcyI6Ik1hYyBPUyBYIiwiJGJyb3dzZXIiOiJDaHJvbWUiLCIkYnJvd3Nlcl92ZXJzaW9uIjoxMTYsIiRpbml0aWFsX3JlZmVycmVyIjoiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiIkZGlyZWN0IiwiZGlzcGxheUxhbmd1YWdlIjoiZW4tR0IifSwiJHRva2VuIjoibnM1Wmp5WmxnU19tR2Z0aFM3blozM0ZhUDFtRmNiQnZvbjNMUEROYWhtUSIsIiRkaXN0aW5jdF9pZCI6IjE5YTRmN2E2ODU0YTdlLTBkZjhhNThjMjgwNmJkLTE5NTI1NjM0LTFmYTQwMC0xOWE0ZjdhNjg1NTIwNjMiLCIkZGV2aWNlX2lkIjoiMTlhNGY3YTY4NTRhN2UtMGRmOGE1OGMyODA2YmQtMTk1MjU2MzQtMWZhNDAwLTE5YTRmN2E2ODU1MjA2MyJ9",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html",
+      "id": "85525.32",
+      "url": "https://data.phantom.app/v1/identify",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "authorization": "Basic ODU0YWI5OGEtYWZhZC00YWZlLTgyNzEtYjlkMDExMTFiYjU1Og==",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "anonymousid": "MmEwMWI4OWUtOGZiNy00YTJmLThhYjktYjI0Y2M0ZGNlNmYx",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"channel\":\"web\",\"context\":{\"app\":{\"build\":\"1.0.0\",\"name\":\"RudderLabs JavaScript SDK\",\"namespace\":\"com.rudderlabs.javascript\",\"version\":\"2.21.0\"},\"traits\":{\"gitSha\":\"4133f02b9b0a906b6a29b7c8d225199dda0be791\",\"appVersion\":\"22.12.19\",\"displayLanguage\":\"en-GB\"},\"library\":{\"name\":\"RudderLabs JavaScript SDK\",\"version\":\"2.21.0\"},\"os\":{\"name\":\"\",\"version\":\"\"},\"screen\":{\"density\":0,\"width\":0,\"height\":0,\"innerWidth\":0,\"innerHeight\":0},\"sessionId\":1762299549175,\"campaign\":{},\"page\":{\"path\":\"/_generated_background_page.html\",\"referrer\":\"$direct\",\"referring_domain\":\"\",\"search\":\"\",\"title\":\"\",\"url\":\"chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html\",\"tab_url\":\"chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html\",\"initial_referrer\":\"$direct\",\"initial_referring_domain\":\"\"}},\"type\":\"identify\",\"messageId\":\"a7911fbd-6f8f-41a4-86a1-c6ed1e277e51\",\"originalTimestamp\":\"2025-11-04T23:39:09.421Z\",\"anonymousId\":\"2a01b89e-8fb7-4a2f-8ab9-b24cc4dce6f1\",\"integrations\":{\"All\":true},\"sentAt\":\"2025-11-04T23:39:09.422Z\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:09 GMT",
+        "content-security-policy": "default-src 'none';",
+        "server": "cloudflare",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain;charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "9997f2f81b9ab759-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "44",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html",
+      "id": "85525.33",
+      "url": "https://analytics.phantom.app/engage/?ip=1&_=1762299549422&ver=1.23.0",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "data=eyIkc2V0Ijp7IiRvcyI6Ik1hYyBPUyBYIiwiJGJyb3dzZXIiOiJDaHJvbWUiLCIkYnJvd3Nlcl92ZXJzaW9uIjoxMTYsIiRpbml0aWFsX3JlZmVycmVyIjoiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiIkZGlyZWN0IiwiZGlzcGxheUxhbmd1YWdlIjoiZW4tR0IifSwiJHRva2VuIjoibnM1Wmp5WmxnU19tR2Z0aFM3blozM0ZhUDFtRmNiQnZvbjNMUEROYWhtUSIsIiRkaXN0aW5jdF9pZCI6IjE5YTRmN2E2ODU0YTdlLTBkZjhhNThjMjgwNmJkLTE5NTI1NjM0LTFmYTQwMC0xOWE0ZjdhNjg1NTIwNjMiLCIkZGV2aWNlX2lkIjoiMTlhNGY3YTY4NTRhN2UtMGRmOGE1OGMyODA2YmQtMTk1MjU2MzQtMWZhNDAwLTE5YTRmN2E2ODU1MjA2MyJ9",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html",
+      "id": "85525.34",
+      "url": "https://data.phantom.app/v1/identify",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "authorization": "Basic ODU0YWI5OGEtYWZhZC00YWZlLTgyNzEtYjlkMDExMTFiYjU1Og==",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "anonymousid": "MmEwMWI4OWUtOGZiNy00YTJmLThhYjktYjI0Y2M0ZGNlNmYx",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"channel\":\"web\",\"context\":{\"app\":{\"build\":\"1.0.0\",\"name\":\"RudderLabs JavaScript SDK\",\"namespace\":\"com.rudderlabs.javascript\",\"version\":\"2.21.0\"},\"traits\":{\"gitSha\":\"4133f02b9b0a906b6a29b7c8d225199dda0be791\",\"appVersion\":\"22.12.19\",\"displayLanguage\":\"en-GB\"},\"library\":{\"name\":\"RudderLabs JavaScript SDK\",\"version\":\"2.21.0\"},\"os\":{\"name\":\"\",\"version\":\"\"},\"screen\":{\"density\":0,\"width\":0,\"height\":0,\"innerWidth\":0,\"innerHeight\":0},\"sessionId\":1762299549175,\"campaign\":{},\"page\":{\"path\":\"/_generated_background_page.html\",\"referrer\":\"$direct\",\"referring_domain\":\"\",\"search\":\"\",\"title\":\"\",\"url\":\"chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html\",\"tab_url\":\"chrome-extension://epphnbjompjmanignjeigfinkgpdalld/_generated_background_page.html\",\"initial_referrer\":\"$direct\",\"initial_referring_domain\":\"\"}},\"type\":\"identify\",\"messageId\":\"911fbd6f-8f31-4446-a1c6-ed1e277e519a\",\"originalTimestamp\":\"2025-11-04T23:39:09.423Z\",\"anonymousId\":\"2a01b89e-8fb7-4a2f-8ab9-b24cc4dce6f1\",\"integrations\":{\"All\":true},\"sentAt\":\"2025-11-04T23:39:09.424Z\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:39:09 GMT",
+        "content-security-policy": "default-src 'none';",
+        "server": "cloudflare",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain;charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "9997f2f81b9bb759-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "44",
+        "priority": "u=1,i"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: bfnaelmomeimhlpmgjnjophhpkkoljpa. Exiting..."
+}

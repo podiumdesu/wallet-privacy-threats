@@ -1,0 +1,225 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/gacgndbocaddlemdiaadajmlggabdeod",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/gacgndbocaddlemdiaadajmlggabdeod",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T12-33-26",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764072569376,
+    "end": 1764072601544
+  },
+  "extensionID": "kjjgbhcialhkjmbidbhbiademenlpnlf",
+  "serviceWorker": "service_worker",
+  "walletName": "pocket-universe",
+  "notes": "not-a-wallet",
+  "walletAddress": "none;;",
+  "password": "Default1Password1!",
+  "pathID": "gacgndbocaddlemdiaadajmlggabdeod",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kjjgbhcialhkjmbidbhbiademenlpnlf/static/background/index.js",
+      "ts": 1764072570232,
+      "id": "98248.1",
+      "url": "https://api.pocketuniverse.app/pocket_notifications",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "x-extension-version": "0.7.0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-pocket-id": "05facc74-5ae1-4d7d-bf0d-8c9ba69a4807",
+        "content-type": "application/json"
+      },
+      "postData": "{\"bannerId\":\"\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kjjgbhcialhkjmbidbhbiademenlpnlf/static/background/index.js",
+      "ts": 1764072570232,
+      "id": "98248.2",
+      "url": "https://api.pocketuniverse.app/extension_set_settings",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "x-extension-version": "0.7.0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-pocket-id": "05facc74-5ae1-4d7d-bf0d-8c9ba69a4807",
+        "content-type": "application/json"
+      },
+      "postData": "{\"insuranceOn\":true,\"twitterBlockOn\":true,\"skiplist\":[],\"simulationOn\":true,\"rugDetectionOn\":true,\"background\":true,\"install\":true}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kjjgbhcialhkjmbidbhbiademenlpnlf/static/background/index.js",
+      "ts": 1764072570232,
+      "id": "98248.3",
+      "url": "https://http-intake.logs.datadoghq.com/api/v2/logs",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "dd-api-key": "pube099f35a562fe3206aaf24b5d75c32b5",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"ddsource\":\"extension\",\"ddtags\":\"env:prod,version:0.7.0\",\"message\":{\"level\":\"WARN\",\"message\":\"Failed to send extension state error:'TypeError: Failed to fetch'\",\"pocket_id\":\"05facc74-5ae1-4d7d-bf0d-8c9ba69a4807\"},\"service\":\"extension\"}",
+      "status": 202,
+      "responseHeaders": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "date": "Tue, 25 Nov 2025 12:09:30 GMT",
+        "x-content-type-options": "nosniff",
+        "accept-encoding": "identity,gzip,x-gzip,deflate,x-deflate,zstd",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "2"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kjjgbhcialhkjmbidbhbiademenlpnlf/static/background/index.js",
+      "ts": 1764072570410,
+      "id": "98248.4",
+      "url": "https://api.pocketuniverse.app/hostname_check",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "x-extension-version": "0.7.0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-pocket-id": "05facc74-5ae1-4d7d-bf0d-8c9ba69a4807",
+        "content-type": "application/json"
+      },
+      "postData": "{\"pocketId\":\"05facc74-5ae1-4d7d-bf0d-8c9ba69a4807\",\"hashedHostname\":\"163e9f648a2744c664194a71f6f9020a44232655f53901e240e522679b547f52\",\"hashedDomain\":\"03c569de7745b86018912b3a84295eefaaaa7bf2d7f80562d4035c2850fc87e3\",\"hashedWithPath\":\"4df445d71659ff2678c08ad90e93e601fa731f05371b6cacc5cb9e8a3e92e673\",\"c2BlocklistHash\":\"\",\"twitterBlocklistLastTimestamp\":0}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kjjgbhcialhkjmbidbhbiademenlpnlf/static/background/index.js",
+      "ts": 1764072570414,
+      "id": "98248.5",
+      "url": "https://http-intake.logs.datadoghq.com/api/v2/logs",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "dd-api-key": "pube099f35a562fe3206aaf24b5d75c32b5",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"ddsource\":\"extension\",\"ddtags\":\"env:prod,version:0.7.0\",\"message\":{\"level\":\"INFO\",\"message\":\"Failed to check hostname, status: unknown, error: Failed to fetch\",\"pocket_id\":\"05facc74-5ae1-4d7d-bf0d-8c9ba69a4807\",\"hashedHostname\":\"163e9f648a2744c664194a71f6f9020a44232655f53901e240e522679b547f52\",\"hashedDomain\":\"03c569de7745b86018912b3a84295eefaaaa7bf2d7f80562d4035c2850fc87e3\",\"hashedWithPath\":\"4df445d71659ff2678c08ad90e93e601fa731f05371b6cacc5cb9e8a3e92e673\"},\"service\":\"extension\"}",
+      "status": 202,
+      "responseHeaders": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "date": "Tue, 25 Nov 2025 12:09:30 GMT",
+        "x-content-type-options": "nosniff",
+        "accept-encoding": "identity,gzip,x-gzip,deflate,x-deflate,zstd",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "2"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kjjgbhcialhkjmbidbhbiademenlpnlf/static/background/index.js",
+      "ts": 1764072570901,
+      "id": "98248.26",
+      "url": "https://api.pocketuniverse.app/hostname_check",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "x-extension-version": "0.7.0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-pocket-id": "05facc74-5ae1-4d7d-bf0d-8c9ba69a4807",
+        "content-type": "application/json"
+      },
+      "postData": "{\"pocketId\":\"05facc74-5ae1-4d7d-bf0d-8c9ba69a4807\",\"hashedHostname\":\"7d032d4c8a62a73a61677bcf21bfb94c8b8299f93f5682925f831a5e1d93a9e4\",\"hashedDomain\":\"03c569de7745b86018912b3a84295eefaaaa7bf2d7f80562d4035c2850fc87e3\",\"hashedWithPath\":\"815a4c09ba86898adbf19e256995ddb274e93470c35e105b890c39671c137830\",\"c2BlocklistHash\":\"\",\"twitterBlocklistLastTimestamp\":0}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kjjgbhcialhkjmbidbhbiademenlpnlf/static/background/index.js",
+      "ts": 1764072570901,
+      "id": "98248.27",
+      "url": "https://http-intake.logs.datadoghq.com/api/v2/logs",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "dd-api-key": "pube099f35a562fe3206aaf24b5d75c32b5",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"ddsource\":\"extension\",\"ddtags\":\"env:prod,version:0.7.0\",\"message\":{\"level\":\"INFO\",\"message\":\"Failed to check hostname, status: unknown, error: Failed to fetch\",\"pocket_id\":\"05facc74-5ae1-4d7d-bf0d-8c9ba69a4807\",\"hashedHostname\":\"7d032d4c8a62a73a61677bcf21bfb94c8b8299f93f5682925f831a5e1d93a9e4\",\"hashedDomain\":\"03c569de7745b86018912b3a84295eefaaaa7bf2d7f80562d4035c2850fc87e3\",\"hashedWithPath\":\"815a4c09ba86898adbf19e256995ddb274e93470c35e105b890c39671c137830\"},\"service\":\"extension\"}",
+      "status": 202,
+      "responseHeaders": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "date": "Tue, 25 Nov 2025 12:09:30 GMT",
+        "x-content-type-options": "nosniff",
+        "accept-encoding": "identity,gzip,x-gzip,deflate,x-deflate,zstd",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "2"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kjjgbhcialhkjmbidbhbiademenlpnlf/static/background/index.js",
+      "ts": 1764072571395,
+      "id": "98248.28",
+      "url": "https://api.pocketuniverse.app/hostname_check",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "x-extension-version": "0.7.0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-pocket-id": "05facc74-5ae1-4d7d-bf0d-8c9ba69a4807",
+        "content-type": "application/json"
+      },
+      "postData": "{\"pocketId\":\"05facc74-5ae1-4d7d-bf0d-8c9ba69a4807\",\"hashedHostname\":\"7cfdd0678cc5ae61b9529afb4808d7be35280946916aeea754cc49abd4cf7d35\",\"hashedDomain\":\"7cfdd0678cc5ae61b9529afb4808d7be35280946916aeea754cc49abd4cf7d35\",\"hashedWithPath\":\"d9573cd9dc5365b624ecc453d562fa59dfa17ebff5e66c66f94bb0905a534d94\",\"c2BlocklistHash\":\"\",\"twitterBlocklistLastTimestamp\":0}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://kjjgbhcialhkjmbidbhbiademenlpnlf/static/background/index.js",
+      "ts": 1764072571396,
+      "id": "98248.29",
+      "url": "https://http-intake.logs.datadoghq.com/api/v2/logs",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "dd-api-key": "pube099f35a562fe3206aaf24b5d75c32b5",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"ddsource\":\"extension\",\"ddtags\":\"env:prod,version:0.7.0\",\"message\":{\"level\":\"INFO\",\"message\":\"Failed to check hostname, status: unknown, error: Failed to fetch\",\"pocket_id\":\"05facc74-5ae1-4d7d-bf0d-8c9ba69a4807\",\"hashedHostname\":\"7cfdd0678cc5ae61b9529afb4808d7be35280946916aeea754cc49abd4cf7d35\",\"hashedDomain\":\"7cfdd0678cc5ae61b9529afb4808d7be35280946916aeea754cc49abd4cf7d35\",\"hashedWithPath\":\"d9573cd9dc5365b624ecc453d562fa59dfa17ebff5e66c66f94bb0905a534d94\"},\"service\":\"extension\"}",
+      "status": 202,
+      "responseHeaders": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "date": "Tue, 25 Nov 2025 12:09:31 GMT",
+        "x-content-type-options": "nosniff",
+        "accept-encoding": "identity,gzip,x-gzip,deflate,x-deflate,zstd",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "2"
+      }
+    }
+  ],
+  "success": true
+}

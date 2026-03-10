@@ -1,0 +1,654 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/gmcpomojcoaopogcbhpchfpdpfaabihc",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/gmcpomojcoaopogcbhpchfpdpfaabihc",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762300688611,
+    "end": 1762300720408
+  },
+  "extensionID": "pgceldlhklcklcoigdcmiphldeknpgfe",
+  "serviceWorker": "background_page",
+  "walletName": "Befi",
+  "notes": "incorrect-balance",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "gmcpomojcoaopogcbhpchfpdpfaabihc",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.79",
+      "url": "https://api-ext.beefinance.technology/chain/rpcs",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"c9e353a29218e23468c0f7d321010c90\",\"platform\":\"extension\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217398\",\"timestamp\":1762300689677}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.155",
+      "url": "https://api-ext.beefinance.technology/chain/rpcs",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217398\",\"timestamp\":1762300689825}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.158",
+      "url": "https://api-ext.beefinance.technology/chain/rpcs",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217398\",\"timestamp\":1762300689956}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.379",
+      "url": "https://api-ext.beefinance.technology/wallet/balance",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217398\",\"timestamp\":1762300691130}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.380",
+      "url": "https://api-ext.beefinance.technology/analytics/track",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"946e83d56781347511f6408004057d40\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217398\",\"timestamp\":1762300691135}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.381",
+      "url": "https://api-ext.beefinance.technology/wallet/balance",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217398\",\"timestamp\":1762300692236}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.609",
+      "url": "https://api-ext.beefinance.technology/wallet/balance",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217398\",\"timestamp\":1762300693410}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.610",
+      "url": "https://api-ext.beefinance.technology/analytics/track",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"946e83d56781347511f6408004057d40\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217398\",\"timestamp\":1762300693413}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.614",
+      "url": "https://api-ext.beefinance.technology/coin/transactions",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"contract\":\"ETH\",\"condition\":\"all\",\"contractAddress\":\"\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217398\",\"timestamp\":1762300694118}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.842",
+      "url": "https://api-ext.beefinance.technology/wallet/balance",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217780\",\"timestamp\":1762300696345}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.843",
+      "url": "https://api-ext.beefinance.technology/analytics/track",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"946e83d56781347511f6408004057d40\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217780\",\"timestamp\":1762300696354}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.911",
+      "url": "https://api-ext.beefinance.technology/wallet/balance",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217780\",\"timestamp\":1762300697452}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.912",
+      "url": "https://api-ext.beefinance.technology/wallet/balance",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217780\",\"timestamp\":1762300698553}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1139",
+      "url": "https://api-ext.beefinance.technology/wallet/balance",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217780\",\"timestamp\":1762300699258}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1140",
+      "url": "https://api-ext.beefinance.technology/analytics/track",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"946e83d56781347511f6408004057d40\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217780\",\"timestamp\":1762300699263}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1141",
+      "url": "https://api-ext.beefinance.technology/wallet/balance",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217780\",\"timestamp\":1762300700366}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1142",
+      "url": "https://api-ext.beefinance.technology/wallet/balance",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217780\",\"timestamp\":1762300701468}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1302",
+      "url": "https://api-ext.beefinance.technology/wallet/balance",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217780\",\"timestamp\":1762300702126}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1303",
+      "url": "https://api-ext.beefinance.technology/analytics/track",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"946e83d56781347511f6408004057d40\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217780\",\"timestamp\":1762300702131}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1309",
+      "url": "https://api-ext.beefinance.technology/coin/transactions",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"contract\":\"MAP\",\"condition\":\"all\",\"contractAddress\":\"\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217780\",\"timestamp\":1762300702871}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1536",
+      "url": "https://api-ext.beefinance.technology/wallet/balance",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217b68\",\"timestamp\":1762300705061}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1537",
+      "url": "https://api-ext.beefinance.technology/analytics/track",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"946e83d56781347511f6408004057d40\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217b68\",\"timestamp\":1762300705065}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1541",
+      "url": "https://api-ext.beefinance.technology/airdrop/claimProducts",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217b68\",\"timestamp\":1762300705752}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1765",
+      "url": "https://api-ext.beefinance.technology/airdrop/claimProducts",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217b68\",\"timestamp\":1762300707901}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1766",
+      "url": "https://api-ext.beefinance.technology/analytics/track",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"946e83d56781347511f6408004057d40\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217b68\",\"timestamp\":1762300707906}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1990",
+      "url": "https://api-ext.beefinance.technology/airdrop/claimProducts",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217b68\",\"timestamp\":1762300710787}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.1991",
+      "url": "https://api-ext.beefinance.technology/analytics/track",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"946e83d56781347511f6408004057d40\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217b68\",\"timestamp\":1762300710787}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.2216",
+      "url": "https://api-ext.beefinance.technology/airdrop/claimProducts",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217b68\",\"timestamp\":1762300713670}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.2217",
+      "url": "https://api-ext.beefinance.technology/analytics/track",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"946e83d56781347511f6408004057d40\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217b68\",\"timestamp\":1762300713670}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.2441",
+      "url": "https://api-ext.beefinance.technology/airdrop/claimProducts",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217f50\",\"timestamp\":1762300716552}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.2442",
+      "url": "https://api-ext.beefinance.technology/analytics/track",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"946e83d56781347511f6408004057d40\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217f50\",\"timestamp\":1762300716554}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.2667",
+      "url": "https://api-ext.beefinance.technology/airdrop/claimProducts",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"wcd\":\"946e83d56781347511f6408004057d40\",\"platform\":\"extension\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217f50\",\"timestamp\":1762300719444}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pgceldlhklcklcoigdcmiphldeknpgfe/background.html",
+      "id": "95675.2668",
+      "url": "https://api-ext.beefinance.technology/analytics/track",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"wcd\":\"946e83d56781347511f6408004057d40\",\"wid\":\"lZXhWbdwe5WPVHLs14F6aCinadwRAgedlwsWj3sZAosk5ZDADt3BsJRFmrPmx1cX\",\"platform\":\"extension\",\"client_v\":\"1.4.4\",\"client_c\":\"144\",\"datenonce\":\"2908217f50\",\"timestamp\":1762300719445}",
+      "responseHeaders": {}
+    }
+  ],
+  "success": true
+}

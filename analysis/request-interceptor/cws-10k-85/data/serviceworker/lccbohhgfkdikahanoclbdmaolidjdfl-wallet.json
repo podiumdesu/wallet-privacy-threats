@@ -1,0 +1,383 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/lccbohhgfkdikahanoclbdmaolidjdfl",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/lccbohhgfkdikahanoclbdmaolidjdfl",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T13-58-41",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764075522327,
+    "end": 1764075594824
+  },
+  "extensionID": "ghmcomnlmfnbbmdlhdlmgpenkdcnalgi",
+  "serviceWorker": "service_worker",
+  "walletName": "wigwam",
+  "notes": "",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;0x196E98A561479ff97D533401Cc10e95b238e1a2A",
+  "password": "Default1Password1!",
+  "pathID": "lccbohhgfkdikahanoclbdmaolidjdfl",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ghmcomnlmfnbbmdlhdlmgpenkdcnalgi/sw.js",
+      "ts": 1764075531660,
+      "id": "24518.53",
+      "url": "https://indexer-api.wigwam.app/cg/simple/price?ids=zero-gravity,bitcicoin,superposition-bridged-weth-superposition,ethereum,amber,weth,alvey-chain,weth,apecoin,ethereum,ethereum,artela-network,astar,weth,aurora-near,avalanche-2,fasttoken,ethereum,beam,berachain-bera,wrapped-besc-2,bitcoin,binancecoin,bitrise-token,bitkub-coin,bitcoin,bitrock,bittorrent,ethereum,ethereum,boba-network,wrapped-bitcoin,bouncebit,canto,carnomaly,celo,coinex-token,wbnb,conflux-token,coredaoorg,bitcorn-3,crypto-com-chain,cronos-zkevm-cro,crossfi-2,weth,wrapped-cybria,deepbrain-chain,defi-kingdoms,defichain,oasys,degen-base,dogechain,the-open-network,edu-coin,elastos,electroneum,lava,empire-capital-token,endurance,energi,nuls,eos,ethereum,ethereum-classic,tezos,ethereum,evmos,fantom,filecoin,flare-networks,flow,frax-share,fx-coin,ethereum,fuse-network-token,gatechain-token,genesys,glue-2,wrapped-bitcoin,graphite-network,graphlinq-protocol,g-token,gunz,weth,islamic-coin,harmony,hashkey-ecopoints,haven1,hedera-hashgraph,hela-usd,weth,hoo-token,wrapped-ehmnd,huobi-token,hydra,hyperliquid,hypra,icb-network,immutable-x,injective-protocol,ethereum,iota,iotex,wrapped-jbc,kardiachain,weth,kava,ethereum,kaia,weth,kucoin-shares,laikachain,lamina1,larissa-blockchain,gho,ethereum,ethereum,lisk,lukso-token-2,lunagens,mainnetz,weth,mantle,marcopolo,power,ethereum,meld-2,memecore,wrapped-bitcoin,meter,metis-token,wrapped-bitcoin,cardano,weth,mode,monad,moonbeam,mxc,moonriver,weth,multivac,nahmii,neon,nibiru,oasis-network,oasis-network,oasys,octaspace,dione,oec-token,omax-token,omniaverse,weth,binancecoin,ethereum,parex,peaq-2,planq,plasma,platon-network,playa3ull-games-2,plume,polis,polygon-ecosystem-token,ethereum,proof-of-memes-pomchain,pulsechain,q-protocol,qitmeer-network,wrapped-qom,quai-network,weth,weth,reactive-network,redbelly-network-token,redlight-chain,weth,syscoin,ronin,rootstock,rss3,wrapped-oasys,saga-2,saitachain-coin-2,dream-machine-token,weth,wrapped-sei,shiden,shido-2,shimmer,skale,bitcoin-cash,somnia,ethereum,songbird,sonic-3,sophon,stepex,story-2,ethereum,ethereum,sx-network-2,sx-network-2,syscoin,tac,ethereum,taraxa,telos,tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9,theta-token,thunder-token,tokenize-xchange,tomochain,ultron,ethereum,unit0,vana,vanar-chain,vechain,velas,vyvo-smart-chain,wanchain,wemix-token,winr-protocol,weth,okb,xai-blockchain,xdai,xdce-crowd-sale,xodex,wrapped-xoc,ripple,xtcom-token,zedxion-2,zetachain,zilliqa,weth,zklink,ethereum,weth,octaspace&vs_currencies=USD&include_24hr_change=true",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-api-key": "wp_mvOXpl8nSuQaJuWAjEk_cocZXgRcKHe"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:58:52 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "vary": "accept-encoding",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=p8j5Nf2fKO1cuNN%2FrDEjkX53Aa5wl4rFzIYwhiub8Et57cdpO%2FgwtOVPssCANRvaL2Dt38b3I6k2p%2BY0U3aoUHt5jCCj2NEwD%2FtRLVcGsluOaUc%2B\"}]}",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "9a4151e99dc7b9bf-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ghmcomnlmfnbbmdlhdlmgpenkdcnalgi/sw.js",
+      "ts": 1764075531661,
+      "id": "24518.54",
+      "url": "https://api.transak.com/api/v2/currencies/crypto-currencies",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:58:51 GMT",
+        "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+        "content-encoding": "gzip",
+        "cf-cache-status": "HIT",
+        "x-content-type-options": "nosniff",
+        "age": "1170",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-trace-id": "697ca9f0-c9fa-11f0-8e37-33b36fc05eb0",
+        "pragma": "no-cache",
+        "last-modified": "Tue, 25 Nov 2025 12:29:39 GMT",
+        "server": "cloudflare",
+        "vary": "origin,accept-encoding",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "WWW-Authenticate,Server-Authorization",
+        "cache-control": "public, max-age=14400",
+        "cf-ray": "9a4151e99ba9ba7b-BRU",
+        "priority": "u=1,i",
+        "expires": "Tue, 25 Nov 2025 16:58:51 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ghmcomnlmfnbbmdlhdlmgpenkdcnalgi/sw.js",
+      "ts": 1764075531663,
+      "id": "24518.55",
+      "url": "https://mainnet.infura.io/v3/b6bf7d3508c941499b10025c0776eaf8",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":1,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Tue, 25 Nov 2025 12:58:52 GMT",
+        "content-length": "52",
+        "vary": "Accept-Encoding, Origin",
+        "x-send-to-many": "0",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ghmcomnlmfnbbmdlhdlmgpenkdcnalgi/sw.js",
+      "ts": 1764075532122,
+      "id": "24518.56",
+      "url": "https://indexer-api.wigwam.app/k/assets?chainId=1&accountAddress=0x033a5379BC3D5edD92b9B1dA762688E97CEF154c",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-api-key": "wp_mvOXpl8nSuQaJuWAjEk_cocZXgRcKHe"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:58:52 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "vary": "accept-encoding",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=pbKtAbKqjd3a2F9EMj2hGdLnHTVDgfHMUZuJtDwuToMn7d4bexjjWK4rMLYwPIxcGOySxbuF%2FrAP%2FKa22e7anI7%2BUe8W6uWDjNWAbH4foFNSdcSI\"}]}",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "9a4151ec1dd4b9bf-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ghmcomnlmfnbbmdlhdlmgpenkdcnalgi/sw.js",
+      "ts": 1764075532143,
+      "id": "24518.57",
+      "url": "https://indexer-api.wigwam.app/d/v1/chain/list",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-api-key": "wp_mvOXpl8nSuQaJuWAjEk_cocZXgRcKHe"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:58:52 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "vary": "accept-encoding",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=8QATFoT9ko%2BIfNwTk0KujAitgUQJrrK%2FtWL7YJQWuwBsLsA67cdXj01uy1troyKwvFQJ9uY3IS%2BNd2V1TlEc2gRMjLyXLv85p5kw%2Fs6ccGwFYA%2Fx\"}]}",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "9a4151ec3dd5b9bf-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ghmcomnlmfnbbmdlhdlmgpenkdcnalgi/sw.js",
+      "ts": 1764075532263,
+      "id": "24518.58",
+      "url": "https://indexer-api.wigwam.app/d/v1/user/history_list?id=0x033a5379BC3D5edD92b9B1dA762688E97CEF154c&chain_id=eth&token_id=eth&page_count=20",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-api-key": "wp_mvOXpl8nSuQaJuWAjEk_cocZXgRcKHe"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:58:54 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "vary": "accept-encoding",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=GLHL7An4xb%2F8%2FwGCcSGssoerRXDKaJqtkRhvKa6lkYdrhSHUf3Zv47xH4eNMB1aJ3XK%2BdeTmYg4kRphSESoqWvco45xwNJa4x7lRJSBP1OIthKVY\"}]}",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "9a4151ed0dd9b9bf-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ghmcomnlmfnbbmdlhdlmgpenkdcnalgi/sw.js",
+      "ts": 1764075594821,
+      "id": "24518.59",
+      "url": "https://mainnet.infura.io/v3/b6bf7d3508c941499b10025c0776eaf8",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Tue, 25 Nov 2025 12:59:03 GMT",
+        "content-length": "52",
+        "vary": "Accept-Encoding, Origin",
+        "x-send-to-many": "0",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ghmcomnlmfnbbmdlhdlmgpenkdcnalgi/sw.js",
+      "ts": 1764075594821,
+      "id": "24518.60",
+      "url": "https://mainnet.infura.io/v3/b6bf7d3508c941499b10025c0776eaf8",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":3,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Tue, 25 Nov 2025 12:59:15 GMT",
+        "content-length": "52",
+        "vary": "Accept-Encoding, Origin",
+        "x-send-to-many": "0",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ghmcomnlmfnbbmdlhdlmgpenkdcnalgi/sw.js",
+      "ts": 1764075594821,
+      "id": "24518.61",
+      "url": "https://mainnet.infura.io/v3/b6bf7d3508c941499b10025c0776eaf8",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":4,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Tue, 25 Nov 2025 12:59:27 GMT",
+        "content-length": "52",
+        "vary": "Accept-Encoding, Origin",
+        "x-send-to-many": "0",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ghmcomnlmfnbbmdlhdlmgpenkdcnalgi/sw.js",
+      "ts": 1764075594821,
+      "id": "24518.62",
+      "url": "https://indexer-api.wigwam.app/d/v1/user/history_list?id=0x033a5379BC3D5edD92b9B1dA762688E97CEF154c&chain_id=eth&token_id=eth&page_count=20",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-api-key": "wp_mvOXpl8nSuQaJuWAjEk_cocZXgRcKHe"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:59:34 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "vary": "accept-encoding",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IM1KmMkYFe53gpGlc%2FiTG08hDAlcacDiAPVvR5tGjX4mdtM%2Bv27xTYANcCsmkybMI51nUj0cxLmPqBw9K9hrME8zi73q%2FO3Zx4Vch1%2FwSJCW8Vd8\"}]}",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "9a4152e6dd432e3e-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ghmcomnlmfnbbmdlhdlmgpenkdcnalgi/sw.js",
+      "ts": 1764075594821,
+      "id": "24518.63",
+      "url": "https://indexer-api.wigwam.app/k/assets?chainId=1&accountAddress=0x033a5379BC3D5edD92b9B1dA762688E97CEF154c",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-api-key": "wp_mvOXpl8nSuQaJuWAjEk_cocZXgRcKHe"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:59:34 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "vary": "accept-encoding",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=6pR6KXNuRUQuwz6PxhSjr1oKV3EgetZb6Ju5CVth3FsBYlN6SYDE7EOueoQNcZkJIm%2BBm1xQUts3eptlNQhi3YnTb6dgxzyUApJeoNYGHGKCC61Y\"}]}",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "9a4152efed852e3e-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ghmcomnlmfnbbmdlhdlmgpenkdcnalgi/sw.js",
+      "ts": 1764075594821,
+      "id": "24518.64",
+      "url": "https://mainnet.infura.io/v3/b6bf7d3508c941499b10025c0776eaf8",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":5,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Tue, 25 Nov 2025 12:59:39 GMT",
+        "content-length": "52",
+        "vary": "Accept-Encoding, Origin",
+        "x-send-to-many": "0",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ghmcomnlmfnbbmdlhdlmgpenkdcnalgi/sw.js",
+      "ts": 1764075594821,
+      "id": "24518.65",
+      "url": "https://mainnet.infura.io/v3/b6bf7d3508c941499b10025c0776eaf8",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":6,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Tue, 25 Nov 2025 12:59:51 GMT",
+        "content-length": "52",
+        "vary": "Accept-Encoding, Origin",
+        "x-send-to-many": "0",
+        "content-type": "application/json"
+      }
+    }
+  ],
+  "success": true
+}

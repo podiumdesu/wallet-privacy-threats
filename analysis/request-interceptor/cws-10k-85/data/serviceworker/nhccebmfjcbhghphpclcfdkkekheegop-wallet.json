@@ -1,0 +1,1249 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/nhccebmfjcbhghphpclcfdkkekheegop",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/nhccebmfjcbhghphpclcfdkkekheegop",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T13-56-24",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764075431171,
+    "end": 1764075471126
+  },
+  "extensionID": "abnpbeimhghpjbmdcmgdnhjabnijhkio",
+  "serviceWorker": "service_worker",
+  "walletName": "pelagus",
+  "notes": "no-balance-quai",
+  "walletAddress": "0x0034CcfF664BC3480641C32deB9674AAFC7B86C7;0x00490A9727c310e83Dcab568B4D48E752aAEee34;0x005BFe05bf79f39eF955048c05E47bE74a244207",
+  "password": "Default1Password1!",
+  "pathID": "nhccebmfjcbhghphpclcfdkkekheegop",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432112,
+      "id": "23532.20",
+      "url": "https://rpc.quai.network/prime",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_listRunningChains\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "66"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432140,
+      "id": "23532.21",
+      "url": "https://api.qu.ai/price",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:55:16 GMT",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "age": "116",
+        "content-type": "application/json; charset=utf-8",
+        "x-cloud-trace-context": "6982f65b302dbed733fb0652c1595fd2",
+        "cache-control": "public,max-age=300",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "20"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432274,
+      "id": "23532.22",
+      "url": "https://rpc.quai.network/prime",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_chainId\",\"params\":[],\"id\":2,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "64"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432288,
+      "id": "23532.23",
+      "url": "https://rpc.quai.network/prime",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_chainId\",\"params\":[],\"id\":2,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "64"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432555,
+      "id": "23532.25",
+      "url": "https://rpc.quai.network/prime",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_chainId\",\"params\":[],\"id\":3,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "64"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432556,
+      "id": "23532.26",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\",\"latest\"],\"id\":4,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "64"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432556,
+      "id": "23532.27",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\"],\"id\":5,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "64"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432556,
+      "id": "23532.28",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\",\"latest\"],\"id\":6,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "64"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432556,
+      "id": "23532.29",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\"],\"id\":7,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "64"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432556,
+      "id": "23532.30",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\",\"latest\"],\"id\":8,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "64"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432556,
+      "id": "23532.31",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\"],\"id\":9,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "64"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432557,
+      "id": "23532.32",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x00490A9727c310e83Dcab568B4D48E752aAEee34\",\"latest\"],\"id\":10,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432557,
+      "id": "23532.33",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x00490A9727c310e83Dcab568B4D48E752aAEee34\"],\"id\":11,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432557,
+      "id": "23532.34",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x00490A9727c310e83Dcab568B4D48E752aAEee34\",\"latest\"],\"id\":12,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432557,
+      "id": "23532.35",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x00490A9727c310e83Dcab568B4D48E752aAEee34\"],\"id\":13,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432557,
+      "id": "23532.36",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x00490A9727c310e83Dcab568B4D48E752aAEee34\",\"latest\"],\"id\":14,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432557,
+      "id": "23532.37",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x00490A9727c310e83Dcab568B4D48E752aAEee34\"],\"id\":15,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432557,
+      "id": "23532.38",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x005BFe05bf79f39eF955048c05E47bE74a244207\",\"latest\"],\"id\":16,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432557,
+      "id": "23532.39",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x005BFe05bf79f39eF955048c05E47bE74a244207\"],\"id\":17,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432557,
+      "id": "23532.40",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x005BFe05bf79f39eF955048c05E47bE74a244207\",\"latest\"],\"id\":18,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432557,
+      "id": "23532.41",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x005BFe05bf79f39eF955048c05E47bE74a244207\"],\"id\":19,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432557,
+      "id": "23532.42",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x005BFe05bf79f39eF955048c05E47bE74a244207\",\"latest\"],\"id\":20,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075432557,
+      "id": "23532.43",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x005BFe05bf79f39eF955048c05E47bE74a244207\"],\"id\":21,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:12 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075438427,
+      "id": "23532.77",
+      "url": "https://rpc.quai.network/prime",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_chainId\",\"params\":[],\"id\":22,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:18 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075438428,
+      "id": "23532.78",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\",\"latest\"],\"id\":23,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:18 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075438428,
+      "id": "23532.79",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\"],\"id\":24,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:18 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075438592,
+      "id": "23532.80",
+      "url": "https://rpc.quai.network/prime",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_chainId\",\"params\":[],\"id\":3,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:18 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "64"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075438592,
+      "id": "23532.81",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_call\",\"params\":[{\"to\":\"0x002b2596ecf05c93a31ff916e8b456df6c77c750\",\"data\":\"0x70a082310000000000000000000000000034ccff664bc3480641c32deb9674aafc7b86c7\"},\"latest\"],\"id\":4,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:18 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "66"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075442132,
+      "id": "23532.82",
+      "url": "https://rpc.quai.network/prime",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_chainId\",\"params\":[],\"id\":25,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:22 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075442132,
+      "id": "23532.83",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\",\"latest\"],\"id\":26,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:22 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075442133,
+      "id": "23532.84",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\"],\"id\":27,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:22 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075444477,
+      "id": "23532.85",
+      "url": "https://rpc.quai.network/prime",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_chainId\",\"params\":[],\"id\":28,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:24 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075444478,
+      "id": "23532.86",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\",\"latest\"],\"id\":29,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:24 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075444478,
+      "id": "23532.87",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\"],\"id\":30,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:24 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075444642,
+      "id": "23532.88",
+      "url": "https://rpc.quai.network/prime",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_chainId\",\"params\":[],\"id\":5,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:24 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "64"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075444642,
+      "id": "23532.89",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_call\",\"params\":[{\"to\":\"0x002b2596ecf05c93a31ff916e8b456df6c77c750\",\"data\":\"0x70a082310000000000000000000000000034ccff664bc3480641c32deb9674aafc7b86c7\"},\"latest\"],\"id\":6,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:24 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "66"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075452130,
+      "id": "23532.114",
+      "url": "https://rpc.quai.network/prime",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_chainId\",\"params\":[],\"id\":31,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:32 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075452130,
+      "id": "23532.115",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\",\"latest\"],\"id\":32,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:32 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075452130,
+      "id": "23532.116",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x0034CcfF664BC3480641C32deB9674AAFC7B86C7\"],\"id\":33,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:32 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075454876,
+      "id": "23532.117",
+      "url": "https://rpc.quai.network/prime",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_chainId\",\"params\":[],\"id\":34,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:35 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075454877,
+      "id": "23532.118",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x005BFe05bf79f39eF955048c05E47bE74a244207\",\"latest\"],\"id\":35,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:35 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075454877,
+      "id": "23532.119",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x005BFe05bf79f39eF955048c05E47bE74a244207\"],\"id\":36,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:35 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075454878,
+      "id": "23532.120",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x005BFe05bf79f39eF955048c05E47bE74a244207\",\"latest\"],\"id\":37,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:35 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075454878,
+      "id": "23532.121",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x005BFe05bf79f39eF955048c05E47bE74a244207\"],\"id\":38,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:35 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075462131,
+      "id": "23532.130",
+      "url": "https://rpc.quai.network/prime",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_chainId\",\"params\":[],\"id\":39,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:42 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075462131,
+      "id": "23532.131",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getBalance\",\"params\":[\"0x005BFe05bf79f39eF955048c05E47bE74a244207\",\"latest\"],\"id\":40,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:42 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://abnpbeimhghpjbmdcmgdnhjabnijhkio/background.js",
+      "ts": 1764075462132,
+      "id": "23532.132",
+      "url": "https://rpc.quai.network/cyprus1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"quai_getLockedBalance\",\"params\":[\"0x005BFe05bf79f39eF955048c05E47bE74a244207\"],\"id\":41,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:57:42 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "alt-svc": "clear",
+        "content-length": "65"
+      }
+    }
+  ],
+  "success": true
+}

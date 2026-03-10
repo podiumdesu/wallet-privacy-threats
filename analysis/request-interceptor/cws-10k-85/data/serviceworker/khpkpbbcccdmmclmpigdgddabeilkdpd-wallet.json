@@ -1,0 +1,86 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/khpkpbbcccdmmclmpigdgddabeilkdpd",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/khpkpbbcccdmmclmpigdgddabeilkdpd",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T12-33-26",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764072114296,
+    "end": 1764072210295
+  },
+  "extensionID": "nfkkekgickoojlmndjddnfcfaopkfifd",
+  "serviceWorker": "service_worker",
+  "walletName": "suiet",
+  "notes": "0xe1cd7f69c5263276883fb99f77720cb58b9cb30ded6594e287eaaee380321516",
+  "walletAddress": "0x32f1bd90cf32a10aff675c81ab89d60d2703f92971456b6cbe32c97ade7696be;0x3416de48dd68fe537d84e42ee72f4ce97cb467e83ddb4a5cd9053b2e2b7d383b;0xe1cd7f69c5263276883fb99f77720cb58b9cb30ded6594e287eaaee380321516",
+  "password": "Default1Password1!",
+  "pathID": "khpkpbbcccdmmclmpigdgddabeilkdpd",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nfkkekgickoojlmndjddnfcfaopkfifd/service-worker-loader.js",
+      "ts": 1764072115271,
+      "id": "94344.1",
+      "url": "https://api.suiet.app/feature-flag",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "x-suiet-client-type": "suiet-desktop-extension",
+        "x-suiet-schema-version": "2",
+        "x-suiet-db-version": "6",
+        "x-suiet-client-version": "0.6.7",
+        "x-suiet-data-version": "6",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json",
+        "referer": ""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:01:55 GMT",
+        "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+        "server": "railway-edge",
+        "etag": "4b1eac8aa1a8bf06f8a97b55f5b3f22a",
+        "content-type": "application/json; charset=utf-8",
+        "x-railway-edge": "railway/europe-west4-drams3a",
+        "cache-control": "public, max-age=10, stale-while-revalidate=600",
+        "x-railway-request-id": "5QrnyIMrQYi_wfTgjUJq2g",
+        "cdn-cache-control": "s-max-age=10"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nfkkekgickoojlmndjddnfcfaopkfifd/service-worker-loader.js",
+      "ts": 1764072115275,
+      "id": "94344.3",
+      "url": "https://api.suiet.app/feature-flag",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "x-suiet-client-type": "suiet-desktop-extension",
+        "referer": "",
+        "x-suiet-client-version": "0.6.7",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:01:55 GMT",
+        "server": "railway-edge",
+        "etag": "4b1eac8aa1a8bf06f8a97b55f5b3f22a",
+        "content-type": "application/json; charset=utf-8",
+        "x-railway-edge": "railway/europe-west4-drams3a",
+        "cache-control": "public, max-age=10, stale-while-revalidate=600",
+        "x-railway-request-id": "5QrnyIMrQYi_wfTgjUJq2g",
+        "cdn-cache-control": "s-max-age=10"
+      }
+    }
+  ],
+  "success": true
+}

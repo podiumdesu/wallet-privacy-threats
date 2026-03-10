@@ -1,0 +1,72 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/new_version/extensions/profiles_new/djlahdpfkflehaepgohnnodmaajabdlg",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets-new-version/djlahdpfkflehaepgohnnodmaajabdlg",
+    "destination": "./final-results/new_version/extensions/crawl_new/2025-11-07T19-32-55",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762541012842,
+    "end": 1762541083947
+  },
+  "extensionID": "dhmmffchjanmefmbjfkhdbimfacoehne",
+  "serviceWorker": "service_worker",
+  "walletName": "ClearEvmWallet",
+  "notes": "",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;0x196E98A561479ff97D533401Cc10e95b238e1a2A",
+  "password": "Default1Password1!",
+  "pathID": "djlahdpfkflehaepgohnnodmaajabdlg",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dhmmffchjanmefmbjfkhdbimfacoehne/service-worker-loader.js",
+      "ts": 1762541073593,
+      "id": "52632.101",
+      "url": "https://api.coingecko.com/api/v3//simple/price?ids=ethereum,ethereum,rootstock,binancecoin,xdai,matic-network,ethereum,ethereum,ethereum,ethereum,celo,ethereum,ethereum,degen&vs_currencies=usd",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:44:33 GMT",
+        "access-control-request-method": "*",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=15724800; includeSubdomains",
+        "content-encoding": "gzip",
+        "x-permitted-cross-domain-policies": "none",
+        "cf-cache-status": "HIT",
+        "content-security-policy-report-only": "script-src https://accounts.google.com/gsi/client; frame-src https://accounts.google.com/gsi/; connect-src https://accounts.google.com/gsi/;",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "alternate-protocol": "443:npn-spdy/2",
+        "x-xss-protection": "0",
+        "x-request-id": "9feefc4f-1fa5-46d1-b45e-828d7bd7d6a8",
+        "x-runtime": "0.010771",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"9dac1a869dbeeec18fe74aa9b2a66614\"",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "access-control-allow-methods": "POST, PUT, DELETE, GET, OPTIONS",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "link, per-page, total",
+        "cache-control": "max-age=30, public, must-revalidate, s-maxage=60",
+        "vary": "Accept-Encoding, Origin",
+        "cf-ray": "99aefb8e8f3783cb-BRU",
+        "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+        "priority": "u=1,i"
+      }
+    }
+  ],
+  "success": true
+}

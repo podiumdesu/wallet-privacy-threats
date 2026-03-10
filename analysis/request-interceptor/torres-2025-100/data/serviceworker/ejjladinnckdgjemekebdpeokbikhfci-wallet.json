@@ -1,0 +1,43 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/new_version/extensions/profiles_new/ejjladinnckdgjemekebdpeokbikhfci",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets-new-version/ejjladinnckdgjemekebdpeokbikhfci",
+    "destination": "./final-results/new_version/extensions/crawl_new/2025-11-07T19-32-55",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762541350142,
+    "end": 1762541390314
+  },
+  "extensionID": "nnafecpionjibldkngmagfflcgonjgfg",
+  "serviceWorker": "service_worker",
+  "walletName": "petra",
+  "notes": "no-balance-apt",
+  "walletAddress": "0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f;0x315c73dabd76a9cbaf9f44a5109cb64b2903bf056c3c5fa39901d587e08bb670;0x3051817efb8c7f6f5a7fbcb101d8415894e9227f51a71a61badccd0c50b14c91",
+  "password": "Default1Password1!",
+  "pathID": "ejjladinnckdgjemekebdpeokbikhfci",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nnafecpionjibldkngmagfflcgonjgfg/static/js/background.js",
+      "ts": 1762541390268,
+      "id": "54243.497",
+      "url": "https://o1162451.ingest.us.sentry.io/api/4504527681814528/envelope/?sentry_version=7&sentry_key=106b02d11496473e82bc7659c39b8bf4&sentry_client=sentry.javascript.browser%2F9.46.0",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"event_id\":\"f4074b754a5444dcae4a11d513e21a23\",\"sent_at\":\"2025-11-07T18:49:50.266Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"9.46.0\"},\"trace\":{\"environment\":\"production\",\"release\":\"petra-extension@2.2.4\",\"public_key\":\"106b02d11496473e82bc7659c39b8bf4\",\"trace_id\":\"f98e65b0888348b984b2e75823d76884\",\"org_id\":\"1162451\"}}\n{\"type\":\"event\"}\n{\"exception\":{\"values\":[{\"type\":\"Error\",\"value\":\"The browser is shutting down.\",\"mechanism\":{\"type\":\"generic\",\"handled\":true}}]},\"level\":\"error\",\"event_id\":\"f4074b754a5444dcae4a11d513e21a23\",\"platform\":\"javascript\",\"request\":{\"url\":\"\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}},\"timestamp\":1762541390.265,\"environment\":\"production\",\"release\":\"petra-extension@2.2.4\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"LinkedErrors\",\"Dedupe\",\"HttpContext\",\"BrowserSession\"],\"name\":\"sentry.javascript.browser\",\"version\":\"9.46.0\",\"packages\":[{\"name\":\"npm:@sentry/browser\",\"version\":\"9.46.0\"}]},\"contexts\":{\"trace\":{\"trace_id\":\"f98e65b0888348b984b2e75823d76884\",\"span_id\":\"8ae9587f6bd2b737\"}}}",
+      "responseHeaders": {}
+    }
+  ],
+  "success": true
+}

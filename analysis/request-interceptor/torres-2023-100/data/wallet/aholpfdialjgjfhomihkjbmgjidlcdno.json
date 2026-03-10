@@ -1,0 +1,2100 @@
+{
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "profilePath": "./final-results/old_version/extensions/profiles_new/aholpfdialjgjfhomihkjbmgjidlcdno",
+        "links": 10,
+        "walletPath": "./preparation/original-wallets/aholpfdialjgjfhomihkjbmgjidlcdno",
+        "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+        "force": false,
+        "executablePath": "/opt/homebrew/bin/chromium"
+    },
+    "pathID": "aholpfdialjgjfhomihkjbmgjidlcdno",
+    "timestamps": {
+        "start": 1762299239555,
+        "end": 1762299283151
+    },
+    "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+    "walletName": "Exodus",
+    "notes": "",
+    "extensionID": "ppakoaihbhbkmpmjokpilhkljbknbijh",
+    "password": "",
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "25A22B4A5DF4CCD78E495FD2E114F966",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "content-type": "text/html",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.7",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.8",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/vendors-index.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.9",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.15",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM4MSIgaGVpZ2h0PSIxNzMyIiB2aWV3Qm94PSIwIDAgMjM4MSAxNzMyIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMF9mXzJfMikiPgo8ZWxsaXBzZSBjeD0iMTE5MC4zNyIgY3k9Ijg2Ni4wMjciIHJ4PSI3NDMuMTI3IiByeT0iMzkzLjE3NiIgdHJhbnNmb3JtPSJyb3RhdGUoMTAuNTQwOSAxMTkwLjM3IDg2Ni4wMjcpIiBmaWxsPSIjMDAyNUNFIi8+CjwvZz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjFfZl8yXzIpIj4KPHBhdGggZD0iTTE3NDYuNiA4NTQuNzAzQzExMDkuMDEgODIxLjA1NyA5MTIuNjQyIDIyMC4yNTcgNjkwLjkgMjM3LjM1OEM0MTIuMTU0IDI1OC44NTUgNDY0LjA5MSA4MjIuMzk1IDY5MC45IDEwMzcuMTFDOTU4LjI0NSAxMjkwLjIxIDIxNzguNjggODc3LjUwNCAxNzQ2LjYgODU0LjcwM1oiIGZpbGw9IiMwMEVBRkYiLz4KPC9nPgo8ZGVmcz4KPGZpbHRlciBpZD0iZmlsdGVyMF9mXzJfMiIgeD0iMC4xNzI2MzgiIHk9IjAuMTM4NjExIiB3aWR0aD0iMjM4MC40IiBoZWlnaHQ9IjE3MzEuNzgiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMjI4LjAxMyIgcmVzdWx0PSJlZmZlY3QxX2ZvcmVncm91bmRCbHVyXzJfMiIvPgo8L2ZpbHRlcj4KPGZpbHRlciBpZD0iZmlsdGVyMV9mXzJfMiIgeD0iMjcyLjgwNiIgeT0iOC45ODcxMSIgd2lkdGg9IjE3OTMuNTEiIGhlaWdodD0iMTMzNy45NyIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxMTQuMDA2IiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXJfMl8yIi8+CjwvZmlsdGVyPgo8L2RlZnM+Cjwvc3ZnPgo=",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.16",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjI0MiIgaGVpZ2h0PSIyMTA2IiB2aWV3Qm94PSIwIDAgMjI0MiAyMTA2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMF9mXzJfNSkiPgo8ZWxsaXBzZSBjeD0iMTEyMC44NCIgY3k9IjEwNTIuNzQiIHJ4PSI3NzguNjY0IiByeT0iNzEwLjI2IiBmaWxsPSIjNEQzNTg5Ii8+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfZl8yXzUiIHg9IjAuMTUzNTAzIiB5PSIwLjQ2MDM4OCIgd2lkdGg9IjIyNDEuMzciIGhlaWdodD0iMjEwNC41NiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxNzEuMDEiIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8yXzUiLz4KPC9maWx0ZXI+CjwvZGVmcz4KPC9zdmc+Cg==",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.11",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/fonts/rubik/Rubik-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "cross-origin-resource-policy": "cross-origin",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.23",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/ui.lazy.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.24",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.25",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.26",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.27",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.10",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/fonts/rubik/Rubik-Light.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "cross-origin-resource-policy": "cross-origin",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.12",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/fonts/rubik/Rubik-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "cross-origin-resource-policy": "cross-origin",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.32",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/255393bc051a468662cb04946fa3bf73.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.33",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/ded9c25ed1276f0655c942275c65d4a5.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.34",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/b86a6417a437b3ff8db9c8c08f47872c.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.35",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/b8d28890c2da975b9d1a427add2b05f5.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.62",
+            "url": "https://solana-qn-d.a.exodus.io/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "solana-client": "js/1.63.1-exodus.3",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"getRecentPerformanceSamples\",\"jsonrpc\":\"2.0\",\"params\":[6],\"id\":\"96280b58-f045-4b15-829e-9031b4aa25f2\"}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:34:23 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "x-via": "tsw-m3-fra-1",
+                "helius-request-type": "rpc",
+                "helius-total-latency": "27",
+                "x-xss-protection": "1; mode=block",
+                "x-route": "helius",
+                "referrer-policy": "same-origin",
+                "server": "cloudflare",
+                "cross-origin-opener-policy": "same-origin",
+                "expect-ct": "max-age=86400, enforce",
+                "vary": "origin,Accept-Encoding",
+                "access-control-allow-methods": "GET,HEAD,POST,OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "helius-router-overhead": "2",
+                "x-splitter": "1",
+                "access-control-max-age": "86400",
+                "x-frame-options": "SAMEORIGIN",
+                "cf-ray": "9997ebfe081b83d7-BRU",
+                "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,Forwarded,App-Name,App-Version,app-name,app-version,content-type,priority,x-exodus-app-id,x-exodus-version,x-exodus-build,x-exodus-dev,x-exodus-os,x-exodus-os-version,x-exodus-telemetry-id",
+                "helius-origin-latency": "25"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "B8D4FBB492F02F8F8EF817A817BDA663",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "content-type": "text/html",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.156",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.157",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/vendors-index.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.158",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.170",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM4MSIgaGVpZ2h0PSIxNzMyIiB2aWV3Qm94PSIwIDAgMjM4MSAxNzMyIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMF9mXzJfMikiPgo8ZWxsaXBzZSBjeD0iMTE5MC4zNyIgY3k9Ijg2Ni4wMjciIHJ4PSI3NDMuMTI3IiByeT0iMzkzLjE3NiIgdHJhbnNmb3JtPSJyb3RhdGUoMTAuNTQwOSAxMTkwLjM3IDg2Ni4wMjcpIiBmaWxsPSIjMDAyNUNFIi8+CjwvZz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjFfZl8yXzIpIj4KPHBhdGggZD0iTTE3NDYuNiA4NTQuNzAzQzExMDkuMDEgODIxLjA1NyA5MTIuNjQyIDIyMC4yNTcgNjkwLjkgMjM3LjM1OEM0MTIuMTU0IDI1OC44NTUgNDY0LjA5MSA4MjIuMzk1IDY5MC45IDEwMzcuMTFDOTU4LjI0NSAxMjkwLjIxIDIxNzguNjggODc3LjUwNCAxNzQ2LjYgODU0LjcwM1oiIGZpbGw9IiMwMEVBRkYiLz4KPC9nPgo8ZGVmcz4KPGZpbHRlciBpZD0iZmlsdGVyMF9mXzJfMiIgeD0iMC4xNzI2MzgiIHk9IjAuMTM4NjExIiB3aWR0aD0iMjM4MC40IiBoZWlnaHQ9IjE3MzEuNzgiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMjI4LjAxMyIgcmVzdWx0PSJlZmZlY3QxX2ZvcmVncm91bmRCbHVyXzJfMiIvPgo8L2ZpbHRlcj4KPGZpbHRlciBpZD0iZmlsdGVyMV9mXzJfMiIgeD0iMjcyLjgwNiIgeT0iOC45ODcxMSIgd2lkdGg9IjE3OTMuNTEiIGhlaWdodD0iMTMzNy45NyIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxMTQuMDA2IiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXJfMl8yIi8+CjwvZmlsdGVyPgo8L2RlZnM+Cjwvc3ZnPgo=",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.171",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjI0MiIgaGVpZ2h0PSIyMTA2IiB2aWV3Qm94PSIwIDAgMjI0MiAyMTA2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMF9mXzJfNSkiPgo8ZWxsaXBzZSBjeD0iMTEyMC44NCIgY3k9IjEwNTIuNzQiIHJ4PSI3NzguNjY0IiByeT0iNzEwLjI2IiBmaWxsPSIjNEQzNTg5Ii8+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfZl8yXzUiIHg9IjAuMTUzNTAzIiB5PSIwLjQ2MDM4OCIgd2lkdGg9IjIyNDEuMzciIGhlaWdodD0iMjEwNC41NiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxNzEuMDEiIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8yXzUiLz4KPC9maWx0ZXI+CjwvZGVmcz4KPC9zdmc+Cg==",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.166",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/fonts/rubik/Rubik-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "cross-origin-resource-policy": "cross-origin",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.178",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/ui.lazy.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.180",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/favicon.ico",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/vnd.microsoft.icon"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.181",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.182",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.183",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.184",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.189",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/255393bc051a468662cb04946fa3bf73.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.190",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/ded9c25ed1276f0655c942275c65d4a5.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.191",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/b86a6417a437b3ff8db9c8c08f47872c.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.167",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/fonts/rubik/Rubik-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "cross-origin-resource-policy": "cross-origin",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.203",
+            "url": "https://solana-qn-d.a.exodus.io/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "solana-client": "js/1.63.1-exodus.3",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"getRecentPerformanceSamples\",\"jsonrpc\":\"2.0\",\"params\":[6],\"id\":\"829e92dc-51ce-475c-89b1-eb421a473c09\"}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:34:28 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "x-via": "tsw-m3-fra-1",
+                "helius-request-type": "rpc",
+                "helius-total-latency": "19",
+                "x-xss-protection": "1; mode=block",
+                "x-route": "helius",
+                "referrer-policy": "same-origin",
+                "server": "cloudflare",
+                "cross-origin-opener-policy": "same-origin",
+                "expect-ct": "max-age=86400, enforce",
+                "vary": "origin,Accept-Encoding",
+                "access-control-allow-methods": "GET,HEAD,POST,OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "helius-router-overhead": "0",
+                "x-splitter": "1",
+                "access-control-max-age": "86400",
+                "x-frame-options": "SAMEORIGIN",
+                "cf-ray": "9997ec1a8b4383d7-BRU",
+                "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,Forwarded,App-Name,App-Version,app-name,app-version,content-type,priority,x-exodus-app-id,x-exodus-version,x-exodus-build,x-exodus-dev,x-exodus-os,x-exodus-os-version,x-exodus-telemetry-id",
+                "helius-origin-latency": "19"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "C8BED45A5F68B597239040F5E8074158",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "content-type": "text/html",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.224",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.225",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/vendors-index.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.226",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.232",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM4MSIgaGVpZ2h0PSIxNzMyIiB2aWV3Qm94PSIwIDAgMjM4MSAxNzMyIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMF9mXzJfMikiPgo8ZWxsaXBzZSBjeD0iMTE5MC4zNyIgY3k9Ijg2Ni4wMjciIHJ4PSI3NDMuMTI3IiByeT0iMzkzLjE3NiIgdHJhbnNmb3JtPSJyb3RhdGUoMTAuNTQwOSAxMTkwLjM3IDg2Ni4wMjcpIiBmaWxsPSIjMDAyNUNFIi8+CjwvZz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjFfZl8yXzIpIj4KPHBhdGggZD0iTTE3NDYuNiA4NTQuNzAzQzExMDkuMDEgODIxLjA1NyA5MTIuNjQyIDIyMC4yNTcgNjkwLjkgMjM3LjM1OEM0MTIuMTU0IDI1OC44NTUgNDY0LjA5MSA4MjIuMzk1IDY5MC45IDEwMzcuMTFDOTU4LjI0NSAxMjkwLjIxIDIxNzguNjggODc3LjUwNCAxNzQ2LjYgODU0LjcwM1oiIGZpbGw9IiMwMEVBRkYiLz4KPC9nPgo8ZGVmcz4KPGZpbHRlciBpZD0iZmlsdGVyMF9mXzJfMiIgeD0iMC4xNzI2MzgiIHk9IjAuMTM4NjExIiB3aWR0aD0iMjM4MC40IiBoZWlnaHQ9IjE3MzEuNzgiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMjI4LjAxMyIgcmVzdWx0PSJlZmZlY3QxX2ZvcmVncm91bmRCbHVyXzJfMiIvPgo8L2ZpbHRlcj4KPGZpbHRlciBpZD0iZmlsdGVyMV9mXzJfMiIgeD0iMjcyLjgwNiIgeT0iOC45ODcxMSIgd2lkdGg9IjE3OTMuNTEiIGhlaWdodD0iMTMzNy45NyIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxMTQuMDA2IiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXJfMl8yIi8+CjwvZmlsdGVyPgo8L2RlZnM+Cjwvc3ZnPgo=",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.233",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjI0MiIgaGVpZ2h0PSIyMTA2IiB2aWV3Qm94PSIwIDAgMjI0MiAyMTA2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMF9mXzJfNSkiPgo8ZWxsaXBzZSBjeD0iMTEyMC44NCIgY3k9IjEwNTIuNzQiIHJ4PSI3NzguNjY0IiByeT0iNzEwLjI2IiBmaWxsPSIjNEQzNTg5Ii8+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfZl8yXzUiIHg9IjAuMTUzNTAzIiB5PSIwLjQ2MDM4OCIgd2lkdGg9IjIyNDEuMzciIGhlaWdodD0iMjEwNC41NiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxNzEuMDEiIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8yXzUiLz4KPC9maWx0ZXI+CjwvZGVmcz4KPC9zdmc+Cg==",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.228",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/fonts/rubik/Rubik-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "cross-origin-resource-policy": "cross-origin",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.240",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/ui.lazy.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.241",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/favicon.ico",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/vnd.microsoft.icon"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.248",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAA0SSURBVHgB7Z17WFRlHse/ZwZRxAsXEULF0dRVUZlMXboYsGZWmmD1tK3bVu72bD27tYqK1t7AfdotIAX/qrY28+my2+URbLdSSwHdlKdNHUXUCnVQVCSUEbkpcM7+fu8wCDMMzMw5AwP4eZ5hZs7cv+f3/m7vew4SehBjVloQmgPiodOPhSIbAcUASTKIBxUY2j9bskBSzFAUC902Q1ZKAV0+/GpNpuQ0C3oICd1Iq2BQSDRdoqNIHmOmSz6JuxX6+vzuFLRbBDRmZpJgynL6uHgSLwje520W07R6bS68jNcEFNamDF4ORVrRTaJ1hBmSLg1SY4Ep+QUzvIDmAvqIcPaQkHjbtHLNOmiMpgIa12c8SVepdDHANxEWaVq5ejM0QhMBjVkvGSD7bRLBoVeg5EInJ2sxrHVQiXHDK8tJvIO9RzxGSoKsP0jf/QmoxGMLFL4OgamUj61Ar0bKNq1KSYaHeCSgGLLN+hx6tRF9AQkmSM1LPBnSbgto9Xf6PPhuoPAUM3TNCe6K6JaAfVg8G26L6LKA/UA8G26J6JKA/Ug8Gy6L6FoawwGj/4jHGKDoc6yZRud0KaAxKzOrz0Rbd1DoN8uBqV09Td/Zg6I0U/Ay+i+xEQvuvly+48tCZ09w6gNbyrODPtQQ6Cks5A9vceYPnQ9hWZ91QzxBEGTdJmcPdihgS1clCTdoQYp3Vjc7s8AunWe/Q5HTOorKDgIaN2T4cj+vJzGgKcChcdIuiPSmhHnwgAGYHB6BOWOiMOOmSIQGBmKAXo8mWcaVhgaYL13EzpLvYTp7FnWN16ARFFDqxrWdtPJr97Csj4ePizdq+HAsnTkL8ydNQljgEKfPmzl6NB6cEYPK2hq8UbgPW4oOC3FVEtRihWm2De0tcH3GKfiogAFkcSvj4nHf5KkI9PeHu5jOluF3uVtw5epVqMRiWrUm2HanVUDjK+lJNKmdAx+Eh+hL9y9CJFmfGkoqf8DS995BY3MzVCFLCaaUlHy+2XYI+2TasmjKVPz5nnuFf7OnoqYGhaVmfPtDhfB7wwcNwozISMwcNUb4RHsmjAjD6rgEvLTrS6hCJ9McN03ko8UCjVlZlCw2VsHHeHL2HCyfG+ew/X9nTpNfK8T+stM0o6A4PD5Ap8Ozd96FX9w6iwZV+2LrGlnf4rfewIUrV6CC1mBiTWOar8XDx3iMAoW9eBX0o9ft2IanP/6QRCztUDymkYJF1u58vLZvr8Nj/mTJ902eApXQ3Heg+HK2IexTw/fxWbORfFd8u21bjxxBet6XqG9shKv8vXAvIocNQ+K06e22TxoxEqqRmxP4a1ktUJLi4CM8NMPYTryq+nr85YvtSNvxuVvi2WARFTtLHR8aAtVIukS+0gn/5yOpy53jxuMP8+5uvV922YIVlHrkUA7nLmOGW6uuc9XV+Mp8qt1jgygl0gADl3Y6NDX4RLN0FlUUf6NUxeb0i86fxzPk6w6fP9fp68aFhna4PW7CxNbb31P60pYGDyy5Q8gP0hDWxaOHmRwejg2LEzF04EBxf8d33+K3Wz7C2cuXu3xtws0TKH0JcHzPsLDWJLfcLuKesWi0fLBZHqejTzGgBxkfEorXH3qExBsk7m/+5mv88bP/uFwxHLtwAc/NneuwPXzoUAwbZH1P+xzS3iI9RifFkIC6seghbg4dgdcefkT80MamJqTv2ons3QUiDXGVI+XliI0yOCTOo4KCW33dhJAR7R47SA0GTVAUgx/9CdJykRv7sOiR4ZgdNRYj6Ef5++lxoKwMR8lSTluqWiPizFGjkLEoUfzwy1RFcLAwnXP/h1252oDaa9dwL+V27+3/RmwLDghA+JDrjYbomyJab1+qq8OxigvQBEkiAcWibgVqCRk8GE/fdgfmTZxIlYAe/zIdwL+PHsGJykoHi+Ifm0rl2SA/P7KGMvyehmy5isrgXPVlzJ84qVXAhVOiaXRJIljcNtaAiVTC2eDvVKO+odCKnxbzHrMpgqYvfAADaci8tu8rbDl8mKzC8Uvq6UetoBzvMSqxrtKQ3bhnt/B5iqJuBzZReWYgX8pBaIj/QPzqx7GiYdBAn/EclXQ2eNs/DxyAhhj8oJJ5tOczFi2mBuYlPPf+OyLv6ghj5Cj86Z4FImjsPnECGfk7XYqyrhBCbkA0Eqhrk5IwD0E0hNk3PnvHnZhCEd7GR4cP4UKNqhrYAVUCcleY93AD7dmVn+R0KN7kkSPxyzmxiBt/M/ZS5+TFL3aIYavmM8cGh4jUh4NQKLmO6HCrj8t8IFH0DRnOD6dFXPd9lvo6vFm4F1qjSsBZY8bQjwnGu+R7SqvaN3OiI26iymIcZFnB9m+PY932z1HrQQI7kPwkW28C+dbp9J6TKUDppI6jXkCbCiPQrtp4edcuURZqDQURmD094OUusiqmqPy8w2PFtK24g+2uEkPDcQEFmyRqBASoLL32nDxJO/EYvIBFlQVGDrPGH52GaRAP9Wcomk9u47sYns+orK3FqUuVOE+uorrhqki2a+nSTBbAbarAAf4YSr4wjFIYjrxRQUEiiR7SUuFojgIz5YGSWRyj5gENTdYhOSlsJLYdPw418Ozar2NvF5NBnEuyOEVUBx8hK+bEt5SCFE8QuZpk8z599JZbsSbhJ8IX8jwK54vaopAFKnIpJM9MiHO8BCral9IX/fiQyWkE7gxOPX5D0TIperpIO7ZTHfxpcTGOU7JbWVcLT+HEKK/kO6TEJwgr5E4P+2JNkSSzPmL+AgPtrnvhATWU6z04fQb86AtGBYWgoKTErTIscthwvE6l3JCB/sgqKMCGgjx8duyoqFjqNOiY1JDFGaniGd0ylLdpLaCsUENVks3wkOMVFaJMY+aOH4/1iUk0nMNceu2to8dQ8zQGqdSif+rDD5B34ntUa1gh2PjmzBlxze0yvaShsxbo8iW1E0o80f2Pny5trT25qthPoh67UC4sVE9lXQgltjyZk5m/SzyHrSF8yFDRMPU2UykYvffzx8XtFbk5KDhZAs3Q1QVbZ+U20IS6imN3x9AQyUpcIhJbZ3AZlfjWmzh/pWs/yVVFDE1Pjg8No6piEE5XWbCv9JSIvq3fnayJE+ofUaLOn8+vGUxRmDswnGz70Y7jSad6CnQc2Tmf3HqkiKYGtkEbFLNp1dpx1jRGxlbyg8vhIdygfHjzJtEkWDw1GgYSMqLFIjmasvVxZyaJ/OWre//r8HpuKnAHOZY6OLcbxiGIxMg/UYJPqPDntS0cPSOGDsPi6GmiXJsTFSUs2N/PvSzsNnpv7ZDy+W/LN1DojuSxgDa2HT8mLuKNaW6Wh3MzXRbS5PiL9y0kAaKx6etCEW0ZtjLunNw/xbpcgxcEvX9gPz4pLhJVA/vTn90yU0TQGKpGnMHdFbbsS7V1tLOaWtfA8Hdgy2OLjKQ5kpG0U3lIc2tNNZIkDua2Cqj3z4fcZNFyRWrbhTx7Tp2kWrSeusTDyHrGiuHHHRkOJMwZirrpeTvx2dFi8KviqU3/SIwRsdSKaks19Q2/+6ECh86dw8mLF3G22oJTdO1q8OHFSJrFEam2QFzZ7hvXp+eIoxi9xF/JAtnSuEdn6xRfpMriVWp/5dKsG/srdgFchUQFW9fu8OqBA9R4+Mp8Ukwyna7ymcUTb5tWrVnGN647EVneCJ3eawLmFBUJAVm8RhpmOeTQM/N2CUudQt0UbrD+iIYsz1e8Q82J7eQKiimS+yQtw1fcbLvduD6zylsLy9nH5S57StSuqdSZOURlGgcPXr+SOG2GyAM/MB1EmcX7qY06rNHXds9ugSVboeSV9dEcSbP3FKCAois7/ZCAwbh70iSyuEo8+u5mTdvsXkW6vriSaS+gn382BZPl3rLCTylI2OCh+yHVz70LxUyVW0HbLe0WmZuSky3CCruBappN63XI2Gx/wI3jYQ5shaz0Dewg35eyNs1+q4OAwgohaX5+lV6Pne+7vtkJFJHzeteZOLyIouSaVq9d0tFDzo+V0zUtE2dMu4EFetnpWT2cCmh1lvKNoSwpKzo7cr3T44X5ONmIe+YH00CPRX9EkTeaVj2f3tlTuj7kXz8gTZxXpb+hKCbT6ue7PKlQlwKKqCw1L+lfqQ39Vr28xJVnunnaEx1FZsmAPg2Jp5O1Pe2Jjb4vonviMR6e+qkviui+eIzbp78TH0Af1KcCCwUMT8RjVDW4ja9kZKuZjPIJKFWBviHN0zP/qp4hsJ6gQuqNZ/igzpOyjhoE2VCBhqcA1WV5c05FUxSahdTLy7Q4BagXTkKrpPpugOGGKNJMK9duhkZovVhEYMxMT6Pw9IQPCcnDdSP86rO1Psu5VwRkWs4AEt/DFuk14Wx4TcC2iPMx8DHJkqT6rLkuYBE+jhsBKS/kw8t0i4A2rv8zAhYTcRpappkE2yrWq/TFf0bgDCFo00Cj9YhRaWzLUVNBLQdA2qdFZvGXlyQrXOxTIs//EqObBbPn/8cyQAtnkz5ZAAAAAElFTkSuQmCC",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.249",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.250",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.251",
+            "url": "data:image/png;base64,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",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.256",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/255393bc051a468662cb04946fa3bf73.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.257",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/ded9c25ed1276f0655c942275c65d4a5.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.258",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/b86a6417a437b3ff8db9c8c08f47872c.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.229",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/fonts/rubik/Rubik-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "cross-origin-resource-policy": "cross-origin",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.270",
+            "url": "https://solana-qn-d.a.exodus.io/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "solana-client": "js/1.63.1-exodus.3",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"getRecentPerformanceSamples\",\"jsonrpc\":\"2.0\",\"params\":[6],\"id\":\"6626caef-c2f0-4c96-a853-9810b3109661\"}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:34:31 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "x-via": "m3-fra-9",
+                "helius-request-type": "rpc",
+                "helius-total-latency": "32",
+                "x-xss-protection": "1; mode=block",
+                "x-route": "helius",
+                "referrer-policy": "same-origin",
+                "server": "cloudflare",
+                "cross-origin-opener-policy": "same-origin",
+                "expect-ct": "max-age=86400, enforce",
+                "vary": "origin,Accept-Encoding",
+                "access-control-allow-methods": "GET,HEAD,POST,OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "helius-router-overhead": "0",
+                "x-splitter": "1",
+                "access-control-max-age": "86400",
+                "x-frame-options": "SAMEORIGIN",
+                "cf-ray": "9997ec30acfc83d7-BRU",
+                "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,Forwarded,App-Name,App-Version,app-name,app-version,content-type,priority,x-exodus-app-id,x-exodus-version,x-exodus-build,x-exodus-dev,x-exodus-os,x-exodus-os-version,x-exodus-telemetry-id",
+                "helius-origin-latency": "32"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.287",
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNzUiIGhlaWdodD0iODEyIiBmaWxsPSJub25lIj48ZGVmcz48ZmlsdGVyIGlkPSJkIiB3aWR0aD0iNzAwIiBoZWlnaHQ9IjcwMCIgeD0iLTM2MCIgeT0iMzAyIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz48ZmVCbGVuZCBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz48ZmVHYXVzc2lhbkJsdXIgcmVzdWx0PSJlZmZlY3QxX2ZvcmVncm91bmRCbHVyXzI2Ml80MjQyIiBzdGREZXZpYXRpb249IjEwMCIvPjwvZmlsdGVyPjxmaWx0ZXIgaWQ9ImUiIHdpZHRoPSI3MDAiIGhlaWdodD0iNzAwIiB4PSItNjUiIHk9IjQ4OSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiPjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+PGZlQmxlbmQgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+PGZlR2F1c3NpYW5CbHVyIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8yNjJfNDI0MiIgc3RkRGV2aWF0aW9uPSIxMDAiLz48L2ZpbHRlcj48ZmlsdGVyIGlkPSJmIiB3aWR0aD0iNzAwIiBoZWlnaHQ9IjcwMCIgeD0iLTE0MiIgeT0iNTIzIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz48ZmVCbGVuZCBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz48ZmVHYXVzc2lhbkJsdXIgcmVzdWx0PSJlZmZlY3QxX2ZvcmVncm91bmRCbHVyXzI2Ml80MjQyIiBzdGREZXZpYXRpb249IjEwMCIvPjwvZmlsdGVyPjxmaWx0ZXIgaWQ9ImciIHdpZHRoPSI3MDAiIGhlaWdodD0iNzAwIiB4PSItMzAwIiB5PSI0NTIiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPjxmZUJsZW5kIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPjxmZUdhdXNzaWFuQmx1ciByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXJfMjYyXzQyNDIiIHN0ZERldmlhdGlvbj0iMTAwIi8+PC9maWx0ZXI+PGZpbHRlciBpZD0iaCIgd2lkdGg9IjYyMCIgaGVpZ2h0PSI2MjAiIHg9Ii0yNjAiIHk9IjQ5MiIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiPjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+PGZlQmxlbmQgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+PGZlR2F1c3NpYW5CbHVyIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8yNjJfNDI0MiIgc3RkRGV2aWF0aW9uPSIxMDAiLz48L2ZpbHRlcj48cmFkaWFsR3JhZGllbnQgaWQ9ImMiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwIDE2MCAtMjY3LjUgMCAxODcuNSAtMzApIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuNjciLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iMTg3LjUiIHgyPSIxODcuNSIgeTE9IjAiIHkyPSI4MTIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjMTQxNjMzIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDQwNjI3Ii8+PC9saW5lYXJHcmFkaWVudD48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMzc1djgxMkgweiIvPjwvY2xpcFBhdGg+PC9kZWZzPjxnIGNsaXAtcGF0aD0idXJsKCNhKSI+PHBhdGggZmlsbD0idXJsKCNiKSIgZD0iTTAgMGgzNzV2ODEySDB6Ii8+PGVsbGlwc2UgY3g9IjE4Ny41IiBjeT0iLTMwIiBmaWxsPSJ1cmwoI2MpIiBvcGFjaXR5PSIuMTUiIHJ4PSIyNjcuNSIgcnk9IjE2MCIvPjxnIGZpbHRlcj0idXJsKCNkKSI+PGNpcmNsZSBjeD0iLTEwIiBjeT0iNjUyIiByPSIxNTAiIGZpbGw9IiM2ODIzRkEiLz48L2c+PGcgZmlsdGVyPSJ1cmwoI2UpIj48Y2lyY2xlIGN4PSIyODUiIGN5PSI4MzkiIHI9IjE1MCIgZmlsbD0iIzM1RTRGRSIvPjwvZz48ZyBmaWx0ZXI9InVybCgjZikiPjxjaXJjbGUgY3g9IjIwOCIgY3k9Ijg3MyIgcj0iMTUwIiBmaWxsPSIjRkE5QzIzIi8+PC9nPjxnIGZpbHRlcj0idXJsKCNnKSI+PGNpcmNsZSBjeD0iNTAiIGN5PSI4MDIiIHI9IjE1MCIgZmlsbD0iI0ZBMjM1OSIvPjwvZz48ZyBmaWx0ZXI9InVybCgjaCkiIG9wYWNpdHk9Ii41Ij48Y2lyY2xlIGN4PSI1MCIgY3k9IjgwMiIgcj0iMTEwIiBmaWxsPSIjRkEyMzdEIi8+PC9nPjwvZz48L3N2Zz4K",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.288",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzMiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNy44NDc2IDAuNDk3NzEzTDMwLjE1MjQgNy42Mzk4QzMwLjcxNDEgNy45NjU4NSAzMS4xODA2IDguNDM0ODEgMzEuNTA0OSA4Ljk5OTU0QzMxLjgyOTIgOS41NjQyOCAzMiAxMC4yMDQ5IDMyIDEwLjg1N1YyNS4xNDNDMzIgMjUuNzk1MSAzMS44MjkyIDI2LjQzNTcgMzEuNTA0OSAyNy4wMDA1QzMxLjE4MDYgMjcuNTY1MiAzMC43MTQxIDI4LjAzNDEgMzAuMTUyNCAyOC4zNjAyTDE3Ljg0NzYgMzUuNTAyM0MxNy4yODU4IDM1LjgyODMgMTYuNjQ4NiAzNiAxNiAzNkMxNS4zNTE0IDM2IDE0LjcxNDIgMzUuODI4MyAxNC4xNTI0IDM1LjUwMjNMMS44NDc1NyAyOC4zNjAyQzEuMjg1ODUgMjguMDM0MSAwLjgxOTM5NiAyNy41NjUyIDAuNDk1MDggMjcuMDAwNUMwLjE3MDc2MyAyNi40MzU3IDEuNjQ3NzVlLTA1IDI1Ljc5NTEgMCAyNS4xNDNWMTAuODU3QzEuNjQ3NzVlLTA1IDEwLjIwNDkgMC4xNzA3NjMgOS41NjQyOCAwLjQ5NTA4IDguOTk5NTRDMC44MTkzOTYgOC40MzQ4MSAxLjI4NTg1IDcuOTY1ODUgMS44NDc1NyA3LjYzOThMMTQuMTUyNCAwLjQ5NzcxM0MxNC43MTQyIDAuMTcxNjU0IDE1LjM1MTQgMCAxNiAwQzE2LjY0ODYgMCAxNy4yODU4IDAuMTcxNjU0IDE3Ljg0NzYgMC40OTc3MTNaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMTU4NTJfMTMxMDk2KSIgZmlsbC1vcGFjaXR5PSIwLjA4Ii8+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMTU4NTJfMTMxMDk2IiB4MT0iMi4zODQxNGUtMDciIHkxPSIxOCIgeDI9IjMyIiB5Mj0iMTcuOTk5NCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSJ3aGl0ZSIgc3RvcC1vcGFjaXR5PSIwLjMiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSJ3aGl0ZSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.289",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMSAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMuMDE0NjggOC45ODUzOUwxMS41IDAuNSIgc3Ryb2tlPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMi41IDNWOC41QzIuNSA5LjA1MjI4IDIuOTQ3NzIgOS41IDMuNSA5LjVIOSIgc3Ryb2tlPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTcuOTg1MyAxMS4wMTQ2TDkuNTAwMDMgMTkuNSIgc3Ryb2tlPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTguNSAxN0wxOC41IDExLjVDMTguNSAxMC45NDc3IDE4LjA1MjMgMTAuNSAxNy41IDEwLjVMMTIgMTAuNSIgc3Ryb2tlPSJ3aGl0ZSIvPgo8L3N2Zz4K",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.227",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/fonts/rubik/Rubik-Light.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "cross-origin-resource-policy": "cross-origin",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.298",
+            "url": "https://solana-qn-d.a.exodus.io/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "solana-client": "js/1.63.1-exodus.3",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"getTokenAccountsByOwner\",\"jsonrpc\":\"2.0\",\"params\":[\"DVQQ74Zo7YfWUvyWemhQuUKBKqKi1CitKnrDy8NsxPw5\",{\"programId\":\"TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA\"},{\"encoding\":\"jsonParsed\"}],\"id\":\"05e3d867-f5e2-436d-9b8b-0e9d4e34ce75\"}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:34:32 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "x-via": "fra2",
+                "helius-request-type": "rpc",
+                "helius-total-latency": "34",
+                "x-xss-protection": "1; mode=block",
+                "x-route": "helius",
+                "referrer-policy": "same-origin",
+                "server": "cloudflare",
+                "cross-origin-opener-policy": "same-origin",
+                "expect-ct": "max-age=86400, enforce",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET,HEAD,POST,OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "helius-router-overhead": "2",
+                "x-splitter": "1",
+                "x-frame-options": "SAMEORIGIN",
+                "cf-ray": "9997ec353f2083d7-BRU",
+                "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,Forwarded,App-Name,App-Version,app-name,app-version,content-type,priority,x-exodus-app-id,x-exodus-version,x-exodus-build,x-exodus-dev,x-exodus-os,x-exodus-os-version,x-exodus-telemetry-id",
+                "helius-origin-latency": "32"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "C2980F83B3CC0063B50E96586C876873",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "content-type": "text/html",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.322",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.323",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/vendors-index.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.324",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.330",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM4MSIgaGVpZ2h0PSIxNzMyIiB2aWV3Qm94PSIwIDAgMjM4MSAxNzMyIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMF9mXzJfMikiPgo8ZWxsaXBzZSBjeD0iMTE5MC4zNyIgY3k9Ijg2Ni4wMjciIHJ4PSI3NDMuMTI3IiByeT0iMzkzLjE3NiIgdHJhbnNmb3JtPSJyb3RhdGUoMTAuNTQwOSAxMTkwLjM3IDg2Ni4wMjcpIiBmaWxsPSIjMDAyNUNFIi8+CjwvZz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjFfZl8yXzIpIj4KPHBhdGggZD0iTTE3NDYuNiA4NTQuNzAzQzExMDkuMDEgODIxLjA1NyA5MTIuNjQyIDIyMC4yNTcgNjkwLjkgMjM3LjM1OEM0MTIuMTU0IDI1OC44NTUgNDY0LjA5MSA4MjIuMzk1IDY5MC45IDEwMzcuMTFDOTU4LjI0NSAxMjkwLjIxIDIxNzguNjggODc3LjUwNCAxNzQ2LjYgODU0LjcwM1oiIGZpbGw9IiMwMEVBRkYiLz4KPC9nPgo8ZGVmcz4KPGZpbHRlciBpZD0iZmlsdGVyMF9mXzJfMiIgeD0iMC4xNzI2MzgiIHk9IjAuMTM4NjExIiB3aWR0aD0iMjM4MC40IiBoZWlnaHQ9IjE3MzEuNzgiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMjI4LjAxMyIgcmVzdWx0PSJlZmZlY3QxX2ZvcmVncm91bmRCbHVyXzJfMiIvPgo8L2ZpbHRlcj4KPGZpbHRlciBpZD0iZmlsdGVyMV9mXzJfMiIgeD0iMjcyLjgwNiIgeT0iOC45ODcxMSIgd2lkdGg9IjE3OTMuNTEiIGhlaWdodD0iMTMzNy45NyIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxMTQuMDA2IiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXJfMl8yIi8+CjwvZmlsdGVyPgo8L2RlZnM+Cjwvc3ZnPgo=",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.331",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjI0MiIgaGVpZ2h0PSIyMTA2IiB2aWV3Qm94PSIwIDAgMjI0MiAyMTA2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMF9mXzJfNSkiPgo8ZWxsaXBzZSBjeD0iMTEyMC44NCIgY3k9IjEwNTIuNzQiIHJ4PSI3NzguNjY0IiByeT0iNzEwLjI2IiBmaWxsPSIjNEQzNTg5Ii8+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfZl8yXzUiIHg9IjAuMTUzNTAzIiB5PSIwLjQ2MDM4OCIgd2lkdGg9IjIyNDEuMzciIGhlaWdodD0iMjEwNC41NiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxNzEuMDEiIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8yXzUiLz4KPC9maWx0ZXI+CjwvZGVmcz4KPC9zdmc+Cg==",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.333",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/ui.lazy.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.326",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/fonts/rubik/Rubik-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "cross-origin-resource-policy": "cross-origin",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.339",
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNzUiIGhlaWdodD0iODEyIiBmaWxsPSJub25lIj48ZGVmcz48ZmlsdGVyIGlkPSJkIiB3aWR0aD0iNzAwIiBoZWlnaHQ9IjcwMCIgeD0iLTM2MCIgeT0iMzAyIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz48ZmVCbGVuZCBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz48ZmVHYXVzc2lhbkJsdXIgcmVzdWx0PSJlZmZlY3QxX2ZvcmVncm91bmRCbHVyXzI2Ml80MjQyIiBzdGREZXZpYXRpb249IjEwMCIvPjwvZmlsdGVyPjxmaWx0ZXIgaWQ9ImUiIHdpZHRoPSI3MDAiIGhlaWdodD0iNzAwIiB4PSItNjUiIHk9IjQ4OSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiPjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+PGZlQmxlbmQgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+PGZlR2F1c3NpYW5CbHVyIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8yNjJfNDI0MiIgc3RkRGV2aWF0aW9uPSIxMDAiLz48L2ZpbHRlcj48ZmlsdGVyIGlkPSJmIiB3aWR0aD0iNzAwIiBoZWlnaHQ9IjcwMCIgeD0iLTE0MiIgeT0iNTIzIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz48ZmVCbGVuZCBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz48ZmVHYXVzc2lhbkJsdXIgcmVzdWx0PSJlZmZlY3QxX2ZvcmVncm91bmRCbHVyXzI2Ml80MjQyIiBzdGREZXZpYXRpb249IjEwMCIvPjwvZmlsdGVyPjxmaWx0ZXIgaWQ9ImciIHdpZHRoPSI3MDAiIGhlaWdodD0iNzAwIiB4PSItMzAwIiB5PSI0NTIiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPjxmZUJsZW5kIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPjxmZUdhdXNzaWFuQmx1ciByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXJfMjYyXzQyNDIiIHN0ZERldmlhdGlvbj0iMTAwIi8+PC9maWx0ZXI+PGZpbHRlciBpZD0iaCIgd2lkdGg9IjYyMCIgaGVpZ2h0PSI2MjAiIHg9Ii0yNjAiIHk9IjQ5MiIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiPjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+PGZlQmxlbmQgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+PGZlR2F1c3NpYW5CbHVyIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8yNjJfNDI0MiIgc3RkRGV2aWF0aW9uPSIxMDAiLz48L2ZpbHRlcj48cmFkaWFsR3JhZGllbnQgaWQ9ImMiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwIDE2MCAtMjY3LjUgMCAxODcuNSAtMzApIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuNjciLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iMTg3LjUiIHgyPSIxODcuNSIgeTE9IjAiIHkyPSI4MTIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjMTQxNjMzIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDQwNjI3Ii8+PC9saW5lYXJHcmFkaWVudD48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMzc1djgxMkgweiIvPjwvY2xpcFBhdGg+PC9kZWZzPjxnIGNsaXAtcGF0aD0idXJsKCNhKSI+PHBhdGggZmlsbD0idXJsKCNiKSIgZD0iTTAgMGgzNzV2ODEySDB6Ii8+PGVsbGlwc2UgY3g9IjE4Ny41IiBjeT0iLTMwIiBmaWxsPSJ1cmwoI2MpIiBvcGFjaXR5PSIuMTUiIHJ4PSIyNjcuNSIgcnk9IjE2MCIvPjxnIGZpbHRlcj0idXJsKCNkKSI+PGNpcmNsZSBjeD0iLTEwIiBjeT0iNjUyIiByPSIxNTAiIGZpbGw9IiM2ODIzRkEiLz48L2c+PGcgZmlsdGVyPSJ1cmwoI2UpIj48Y2lyY2xlIGN4PSIyODUiIGN5PSI4MzkiIHI9IjE1MCIgZmlsbD0iIzM1RTRGRSIvPjwvZz48ZyBmaWx0ZXI9InVybCgjZikiPjxjaXJjbGUgY3g9IjIwOCIgY3k9Ijg3MyIgcj0iMTUwIiBmaWxsPSIjRkE5QzIzIi8+PC9nPjxnIGZpbHRlcj0idXJsKCNnKSI+PGNpcmNsZSBjeD0iNTAiIGN5PSI4MDIiIHI9IjE1MCIgZmlsbD0iI0ZBMjM1OSIvPjwvZz48ZyBmaWx0ZXI9InVybCgjaCkiIG9wYWNpdHk9Ii41Ij48Y2lyY2xlIGN4PSI1MCIgY3k9IjgwMiIgcj0iMTEwIiBmaWxsPSIjRkEyMzdEIi8+PC9nPjwvZz48L3N2Zz4K",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.340",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzMiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNy44NDc2IDAuNDk3NzEzTDMwLjE1MjQgNy42Mzk4QzMwLjcxNDEgNy45NjU4NSAzMS4xODA2IDguNDM0ODEgMzEuNTA0OSA4Ljk5OTU0QzMxLjgyOTIgOS41NjQyOCAzMiAxMC4yMDQ5IDMyIDEwLjg1N1YyNS4xNDNDMzIgMjUuNzk1MSAzMS44MjkyIDI2LjQzNTcgMzEuNTA0OSAyNy4wMDA1QzMxLjE4MDYgMjcuNTY1MiAzMC43MTQxIDI4LjAzNDEgMzAuMTUyNCAyOC4zNjAyTDE3Ljg0NzYgMzUuNTAyM0MxNy4yODU4IDM1LjgyODMgMTYuNjQ4NiAzNiAxNiAzNkMxNS4zNTE0IDM2IDE0LjcxNDIgMzUuODI4MyAxNC4xNTI0IDM1LjUwMjNMMS44NDc1NyAyOC4zNjAyQzEuMjg1ODUgMjguMDM0MSAwLjgxOTM5NiAyNy41NjUyIDAuNDk1MDggMjcuMDAwNUMwLjE3MDc2MyAyNi40MzU3IDEuNjQ3NzVlLTA1IDI1Ljc5NTEgMCAyNS4xNDNWMTAuODU3QzEuNjQ3NzVlLTA1IDEwLjIwNDkgMC4xNzA3NjMgOS41NjQyOCAwLjQ5NTA4IDguOTk5NTRDMC44MTkzOTYgOC40MzQ4MSAxLjI4NTg1IDcuOTY1ODUgMS44NDc1NyA3LjYzOThMMTQuMTUyNCAwLjQ5NzcxM0MxNC43MTQyIDAuMTcxNjU0IDE1LjM1MTQgMCAxNiAwQzE2LjY0ODYgMCAxNy4yODU4IDAuMTcxNjU0IDE3Ljg0NzYgMC40OTc3MTNaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMTU4NTJfMTMxMDk2KSIgZmlsbC1vcGFjaXR5PSIwLjA4Ii8+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMTU4NTJfMTMxMDk2IiB4MT0iMi4zODQxNGUtMDciIHkxPSIxOCIgeDI9IjMyIiB5Mj0iMTcuOTk5NCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSJ3aGl0ZSIgc3RvcC1vcGFjaXR5PSIwLjMiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSJ3aGl0ZSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.341",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMSAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMuMDE0NjggOC45ODUzOUwxMS41IDAuNSIgc3Ryb2tlPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMi41IDNWOC41QzIuNSA5LjA1MjI4IDIuOTQ3NzIgOS41IDMuNSA5LjVIOSIgc3Ryb2tlPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTcuOTg1MyAxMS4wMTQ2TDkuNTAwMDMgMTkuNSIgc3Ryb2tlPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTguNSAxN0wxOC41IDExLjVDMTguNSAxMC45NDc3IDE4LjA1MjMgMTAuNSAxNy41IDEwLjVMMTIgMTAuNSIgc3Ryb2tlPSJ3aGl0ZSIvPgo8L3N2Zz4K",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.325",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/fonts/rubik/Rubik-Light.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "cross-origin-resource-policy": "cross-origin",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.350",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/favicon.ico",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/vnd.microsoft.icon"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.351",
+            "url": "https://solana-qn-d.a.exodus.io/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "solana-client": "js/1.63.1-exodus.3",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"getRecentPerformanceSamples\",\"jsonrpc\":\"2.0\",\"params\":[6],\"id\":\"01a1a38e-55f8-44f9-956d-54dbcf5444bb\"}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:34:35 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "x-via": "m3-fra-9",
+                "helius-request-type": "rpc",
+                "helius-total-latency": "36",
+                "x-xss-protection": "1; mode=block",
+                "x-route": "helius",
+                "referrer-policy": "same-origin",
+                "server": "cloudflare",
+                "cross-origin-opener-policy": "same-origin",
+                "expect-ct": "max-age=86400, enforce",
+                "vary": "origin,Accept-Encoding",
+                "access-control-allow-methods": "GET,HEAD,POST,OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "helius-router-overhead": "0",
+                "x-splitter": "1",
+                "access-control-max-age": "86400",
+                "x-frame-options": "SAMEORIGIN",
+                "cf-ray": "9997ec4a983983d7-BRU",
+                "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,Forwarded,App-Name,App-Version,app-name,app-version,content-type,priority,x-exodus-app-id,x-exodus-version,x-exodus-build,x-exodus-dev,x-exodus-os,x-exodus-os-version,x-exodus-telemetry-id",
+                "helius-origin-latency": "36"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.362",
+            "url": "https://solana-qn-d.a.exodus.io/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "solana-client": "js/1.63.1-exodus.3",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"getTokenAccountsByOwner\",\"jsonrpc\":\"2.0\",\"params\":[\"DVQQ74Zo7YfWUvyWemhQuUKBKqKi1CitKnrDy8NsxPw5\",{\"programId\":\"TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA\"},{\"encoding\":\"jsonParsed\"}],\"id\":\"60033c04-2a0e-4580-92dd-541fdc59dd29\"}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:34:36 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "x-via": "ams1",
+                "helius-request-type": "rpc",
+                "helius-total-latency": "26",
+                "x-xss-protection": "1; mode=block",
+                "x-route": "helius",
+                "referrer-policy": "same-origin",
+                "server": "cloudflare",
+                "cross-origin-opener-policy": "same-origin",
+                "expect-ct": "max-age=86400, enforce",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET,HEAD,POST,OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "helius-router-overhead": "0",
+                "x-splitter": "1",
+                "x-frame-options": "SAMEORIGIN",
+                "cf-ray": "9997ec4c08de83d7-BRU",
+                "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,Forwarded,App-Name,App-Version,app-name,app-version,content-type,priority,x-exodus-app-id,x-exodus-version,x-exodus-build,x-exodus-dev,x-exodus-os,x-exodus-os-version,x-exodus-telemetry-id",
+                "helius-origin-latency": "26"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "A2D6F5546A23FAF5304BCB4A31BE6AA8",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "content-type": "text/html",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.383",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.384",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/vendors-index.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.385",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.391",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM4MSIgaGVpZ2h0PSIxNzMyIiB2aWV3Qm94PSIwIDAgMjM4MSAxNzMyIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMF9mXzJfMikiPgo8ZWxsaXBzZSBjeD0iMTE5MC4zNyIgY3k9Ijg2Ni4wMjciIHJ4PSI3NDMuMTI3IiByeT0iMzkzLjE3NiIgdHJhbnNmb3JtPSJyb3RhdGUoMTAuNTQwOSAxMTkwLjM3IDg2Ni4wMjcpIiBmaWxsPSIjMDAyNUNFIi8+CjwvZz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjFfZl8yXzIpIj4KPHBhdGggZD0iTTE3NDYuNiA4NTQuNzAzQzExMDkuMDEgODIxLjA1NyA5MTIuNjQyIDIyMC4yNTcgNjkwLjkgMjM3LjM1OEM0MTIuMTU0IDI1OC44NTUgNDY0LjA5MSA4MjIuMzk1IDY5MC45IDEwMzcuMTFDOTU4LjI0NSAxMjkwLjIxIDIxNzguNjggODc3LjUwNCAxNzQ2LjYgODU0LjcwM1oiIGZpbGw9IiMwMEVBRkYiLz4KPC9nPgo8ZGVmcz4KPGZpbHRlciBpZD0iZmlsdGVyMF9mXzJfMiIgeD0iMC4xNzI2MzgiIHk9IjAuMTM4NjExIiB3aWR0aD0iMjM4MC40IiBoZWlnaHQ9IjE3MzEuNzgiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMjI4LjAxMyIgcmVzdWx0PSJlZmZlY3QxX2ZvcmVncm91bmRCbHVyXzJfMiIvPgo8L2ZpbHRlcj4KPGZpbHRlciBpZD0iZmlsdGVyMV9mXzJfMiIgeD0iMjcyLjgwNiIgeT0iOC45ODcxMSIgd2lkdGg9IjE3OTMuNTEiIGhlaWdodD0iMTMzNy45NyIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxMTQuMDA2IiByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXJfMl8yIi8+CjwvZmlsdGVyPgo8L2RlZnM+Cjwvc3ZnPgo=",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.392",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjI0MiIgaGVpZ2h0PSIyMTA2IiB2aWV3Qm94PSIwIDAgMjI0MiAyMTA2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMF9mXzJfNSkiPgo8ZWxsaXBzZSBjeD0iMTEyMC44NCIgY3k9IjEwNTIuNzQiIHJ4PSI3NzguNjY0IiByeT0iNzEwLjI2IiBmaWxsPSIjNEQzNTg5Ii8+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfZl8yXzUiIHg9IjAuMTUzNTAzIiB5PSIwLjQ2MDM4OCIgd2lkdGg9IjIyNDEuMzciIGhlaWdodD0iMjEwNC41NiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxNzEuMDEiIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8yXzUiLz4KPC9maWx0ZXI+CjwvZGVmcz4KPC9zdmc+Cg==",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.394",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/ui.lazy.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.387",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/fonts/rubik/Rubik-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "cross-origin-resource-policy": "cross-origin",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.400",
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNzUiIGhlaWdodD0iODEyIiBmaWxsPSJub25lIj48ZGVmcz48ZmlsdGVyIGlkPSJkIiB3aWR0aD0iNzAwIiBoZWlnaHQ9IjcwMCIgeD0iLTM2MCIgeT0iMzAyIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz48ZmVCbGVuZCBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz48ZmVHYXVzc2lhbkJsdXIgcmVzdWx0PSJlZmZlY3QxX2ZvcmVncm91bmRCbHVyXzI2Ml80MjQyIiBzdGREZXZpYXRpb249IjEwMCIvPjwvZmlsdGVyPjxmaWx0ZXIgaWQ9ImUiIHdpZHRoPSI3MDAiIGhlaWdodD0iNzAwIiB4PSItNjUiIHk9IjQ4OSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiPjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+PGZlQmxlbmQgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+PGZlR2F1c3NpYW5CbHVyIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8yNjJfNDI0MiIgc3RkRGV2aWF0aW9uPSIxMDAiLz48L2ZpbHRlcj48ZmlsdGVyIGlkPSJmIiB3aWR0aD0iNzAwIiBoZWlnaHQ9IjcwMCIgeD0iLTE0MiIgeT0iNTIzIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz48ZmVCbGVuZCBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz48ZmVHYXVzc2lhbkJsdXIgcmVzdWx0PSJlZmZlY3QxX2ZvcmVncm91bmRCbHVyXzI2Ml80MjQyIiBzdGREZXZpYXRpb249IjEwMCIvPjwvZmlsdGVyPjxmaWx0ZXIgaWQ9ImciIHdpZHRoPSI3MDAiIGhlaWdodD0iNzAwIiB4PSItMzAwIiB5PSI0NTIiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPjxmZUJsZW5kIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJzaGFwZSIvPjxmZUdhdXNzaWFuQmx1ciByZXN1bHQ9ImVmZmVjdDFfZm9yZWdyb3VuZEJsdXJfMjYyXzQyNDIiIHN0ZERldmlhdGlvbj0iMTAwIi8+PC9maWx0ZXI+PGZpbHRlciBpZD0iaCIgd2lkdGg9IjYyMCIgaGVpZ2h0PSI2MjAiIHg9Ii0yNjAiIHk9IjQ5MiIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiPjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+PGZlQmxlbmQgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+PGZlR2F1c3NpYW5CbHVyIHJlc3VsdD0iZWZmZWN0MV9mb3JlZ3JvdW5kQmx1cl8yNjJfNDI0MiIgc3RkRGV2aWF0aW9uPSIxMDAiLz48L2ZpbHRlcj48cmFkaWFsR3JhZGllbnQgaWQ9ImMiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwIDE2MCAtMjY3LjUgMCAxODcuNSAtMzApIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuNjciLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iMTg3LjUiIHgyPSIxODcuNSIgeTE9IjAiIHkyPSI4MTIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjMTQxNjMzIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDQwNjI3Ii8+PC9saW5lYXJHcmFkaWVudD48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMzc1djgxMkgweiIvPjwvY2xpcFBhdGg+PC9kZWZzPjxnIGNsaXAtcGF0aD0idXJsKCNhKSI+PHBhdGggZmlsbD0idXJsKCNiKSIgZD0iTTAgMGgzNzV2ODEySDB6Ii8+PGVsbGlwc2UgY3g9IjE4Ny41IiBjeT0iLTMwIiBmaWxsPSJ1cmwoI2MpIiBvcGFjaXR5PSIuMTUiIHJ4PSIyNjcuNSIgcnk9IjE2MCIvPjxnIGZpbHRlcj0idXJsKCNkKSI+PGNpcmNsZSBjeD0iLTEwIiBjeT0iNjUyIiByPSIxNTAiIGZpbGw9IiM2ODIzRkEiLz48L2c+PGcgZmlsdGVyPSJ1cmwoI2UpIj48Y2lyY2xlIGN4PSIyODUiIGN5PSI4MzkiIHI9IjE1MCIgZmlsbD0iIzM1RTRGRSIvPjwvZz48ZyBmaWx0ZXI9InVybCgjZikiPjxjaXJjbGUgY3g9IjIwOCIgY3k9Ijg3MyIgcj0iMTUwIiBmaWxsPSIjRkE5QzIzIi8+PC9nPjxnIGZpbHRlcj0idXJsKCNnKSI+PGNpcmNsZSBjeD0iNTAiIGN5PSI4MDIiIHI9IjE1MCIgZmlsbD0iI0ZBMjM1OSIvPjwvZz48ZyBmaWx0ZXI9InVybCgjaCkiIG9wYWNpdHk9Ii41Ij48Y2lyY2xlIGN4PSI1MCIgY3k9IjgwMiIgcj0iMTEwIiBmaWxsPSIjRkEyMzdEIi8+PC9nPjwvZz48L3N2Zz4K",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.401",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzMiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNy44NDc2IDAuNDk3NzEzTDMwLjE1MjQgNy42Mzk4QzMwLjcxNDEgNy45NjU4NSAzMS4xODA2IDguNDM0ODEgMzEuNTA0OSA4Ljk5OTU0QzMxLjgyOTIgOS41NjQyOCAzMiAxMC4yMDQ5IDMyIDEwLjg1N1YyNS4xNDNDMzIgMjUuNzk1MSAzMS44MjkyIDI2LjQzNTcgMzEuNTA0OSAyNy4wMDA1QzMxLjE4MDYgMjcuNTY1MiAzMC43MTQxIDI4LjAzNDEgMzAuMTUyNCAyOC4zNjAyTDE3Ljg0NzYgMzUuNTAyM0MxNy4yODU4IDM1LjgyODMgMTYuNjQ4NiAzNiAxNiAzNkMxNS4zNTE0IDM2IDE0LjcxNDIgMzUuODI4MyAxNC4xNTI0IDM1LjUwMjNMMS44NDc1NyAyOC4zNjAyQzEuMjg1ODUgMjguMDM0MSAwLjgxOTM5NiAyNy41NjUyIDAuNDk1MDggMjcuMDAwNUMwLjE3MDc2MyAyNi40MzU3IDEuNjQ3NzVlLTA1IDI1Ljc5NTEgMCAyNS4xNDNWMTAuODU3QzEuNjQ3NzVlLTA1IDEwLjIwNDkgMC4xNzA3NjMgOS41NjQyOCAwLjQ5NTA4IDguOTk5NTRDMC44MTkzOTYgOC40MzQ4MSAxLjI4NTg1IDcuOTY1ODUgMS44NDc1NyA3LjYzOThMMTQuMTUyNCAwLjQ5NzcxM0MxNC43MTQyIDAuMTcxNjU0IDE1LjM1MTQgMCAxNiAwQzE2LjY0ODYgMCAxNy4yODU4IDAuMTcxNjU0IDE3Ljg0NzYgMC40OTc3MTNaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMTU4NTJfMTMxMDk2KSIgZmlsbC1vcGFjaXR5PSIwLjA4Ii8+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMTU4NTJfMTMxMDk2IiB4MT0iMi4zODQxNGUtMDciIHkxPSIxOCIgeDI9IjMyIiB5Mj0iMTcuOTk5NCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSJ3aGl0ZSIgc3RvcC1vcGFjaXR5PSIwLjMiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSJ3aGl0ZSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.402",
+            "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMSAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMuMDE0NjggOC45ODUzOUwxMS41IDAuNSIgc3Ryb2tlPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMi41IDNWOC41QzIuNSA5LjA1MjI4IDIuOTQ3NzIgOS41IDMuNSA5LjVIOSIgc3Ryb2tlPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTcuOTg1MyAxMS4wMTQ2TDkuNTAwMDMgMTkuNSIgc3Ryb2tlPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTguNSAxN0wxOC41IDExLjVDMTguNSAxMC45NDc3IDE4LjA1MjMgMTAuNSAxNy41IDEwLjVMMTIgMTAuNSIgc3Ryb2tlPSJ3aGl0ZSIvPgo8L3N2Zz4K",
+            "type": "Image",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.386",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/fonts/rubik/Rubik-Light.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "cross-origin-resource-policy": "cross-origin",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.411",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/favicon.ico",
+            "type": "Other",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "default-src 'self'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:53 GMT",
+                "etag": "\"wjk0FJSUPfAKG6wK3X9RbHNI66M=\"",
+                "content-type": "image/vnd.microsoft.icon"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.412",
+            "url": "https://solana-qn-d.a.exodus.io/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "solana-client": "js/1.63.1-exodus.3",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"getRecentPerformanceSamples\",\"jsonrpc\":\"2.0\",\"params\":[6],\"id\":\"b7b45e40-29c6-47be-b49e-72a5003d9550\"}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:34:39 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "x-via": "tsw-m3-fra-1",
+                "helius-request-type": "rpc",
+                "helius-total-latency": "26",
+                "x-xss-protection": "1; mode=block",
+                "x-route": "helius",
+                "referrer-policy": "same-origin",
+                "server": "cloudflare",
+                "cross-origin-opener-policy": "same-origin",
+                "expect-ct": "max-age=86400, enforce",
+                "vary": "origin,Accept-Encoding",
+                "access-control-allow-methods": "GET,HEAD,POST,OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "helius-router-overhead": "0",
+                "x-splitter": "1",
+                "access-control-max-age": "86400",
+                "x-frame-options": "SAMEORIGIN",
+                "cf-ray": "9997ec610a5783d7-BRU",
+                "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,Forwarded,App-Name,App-Version,app-name,app-version,content-type,priority,x-exodus-app-id,x-exodus-version,x-exodus-build,x-exodus-dev,x-exodus-os,x-exodus-os-version,x-exodus-telemetry-id",
+                "helius-origin-latency": "26"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.423",
+            "url": "https://solana-qn-d.a.exodus.io/",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "solana-client": "js/1.63.1-exodus.3",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"method\":\"getTokenAccountsByOwner\",\"jsonrpc\":\"2.0\",\"params\":[\"DVQQ74Zo7YfWUvyWemhQuUKBKqKi1CitKnrDy8NsxPw5\",{\"programId\":\"TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA\"},{\"encoding\":\"jsonParsed\"}],\"id\":\"54991cd7-7a2b-4d09-8131-4701e629150f\"}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:34:39 GMT",
+                "content-encoding": "gzip",
+                "x-content-type-options": "nosniff",
+                "cf-cache-status": "DYNAMIC",
+                "x-via": "ams1",
+                "helius-request-type": "rpc",
+                "helius-total-latency": "24",
+                "x-xss-protection": "1; mode=block",
+                "x-route": "helius",
+                "referrer-policy": "same-origin",
+                "server": "cloudflare",
+                "cross-origin-opener-policy": "same-origin",
+                "expect-ct": "max-age=86400, enforce",
+                "vary": "Accept-Encoding",
+                "access-control-allow-methods": "GET,HEAD,POST,OPTIONS",
+                "content-type": "application/json; charset=utf-8",
+                "access-control-allow-origin": "*",
+                "helius-router-overhead": "0",
+                "x-splitter": "1",
+                "x-frame-options": "SAMEORIGIN",
+                "cf-ray": "9997ec623af983d7-BRU",
+                "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,Forwarded,App-Name,App-Version,app-name,app-version,content-type,priority,x-exodus-app-id,x-exodus-version,x-exodus-build,x-exodus-dev,x-exodus-os,x-exodus-os-version,x-exodus-telemetry-id",
+                "helius-origin-latency": "24"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/index.html?scaletofit=true&isPopup=true"
+            ],
+            "id": "82780.388",
+            "url": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh/assets/fonts/rubik/Rubik-Medium.ttf",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://ppakoaihbhbkmpmjokpilhkljbknbijh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        }
+    ],
+    "success": true
+}

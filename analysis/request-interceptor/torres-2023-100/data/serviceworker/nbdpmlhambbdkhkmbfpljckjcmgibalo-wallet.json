@@ -1,0 +1,148 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/nbdpmlhambbdkhkmbfpljckjcmgibalo",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/nbdpmlhambbdkhkmbfpljckjcmgibalo",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762301611908,
+    "end": 1762301613735
+  },
+  "extensionID": "dglgecbkhkdfobhgblekleknblkoomjf",
+  "serviceWorker": "service_worker",
+  "walletName": "kucoin",
+  "notes": "dead",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "nbdpmlhambbdkhkmbfpljckjcmgibalo",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dglgecbkhkdfobhgblekleknblkoomjf/background.js",
+      "id": "4279.23",
+      "url": "https://wallet-baiscs.kucoin-wallet.cc/basics/v1/basics/notice",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "accept-language": "en-US",
+        "platform": "ext",
+        "requeststarttime": "1762301613081",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "version": "1.4.3"
+      },
+      "postData": "",
+      "status": 530,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:13:33 GMT",
+        "referrer-policy": "same-origin",
+        "server": "cloudflare",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+        "cf-ray": "9998255a3c363036-BRU",
+        "content-length": "8289",
+        "expires": "Thu, 01 Jan 1970 00:00:01 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dglgecbkhkdfobhgblekleknblkoomjf/background.js",
+      "id": "4279.27",
+      "url": "https://wallet-baiscs.kucoin-wallet.cc/basics/v1/basics/config",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "accept-language": "en-US",
+        "platform": "ext",
+        "requeststarttime": "1762301613142",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "version": "1.4.3"
+      },
+      "postData": "",
+      "status": 530,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:13:33 GMT",
+        "referrer-policy": "same-origin",
+        "server": "cloudflare",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+        "cf-ray": "9998255a3c353036-BRU",
+        "content-length": "8289",
+        "expires": "Thu, 01 Jan 1970 00:00:01 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dglgecbkhkdfobhgblekleknblkoomjf/background.js",
+      "id": "4279.29",
+      "url": "https://wallet-baiscs.kucoin-wallet.cc/basics/v1/basics/notice",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "accept-language": "en-US",
+        "platform": "ext",
+        "requeststarttime": "1762301613402",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "version": "1.4.3"
+      },
+      "postData": "",
+      "status": 530,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:13:33 GMT",
+        "referrer-policy": "same-origin",
+        "server": "cloudflare",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+        "cf-ray": "9998255bdc483036-BRU",
+        "content-length": "8289",
+        "expires": "Thu, 01 Jan 1970 00:00:01 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dglgecbkhkdfobhgblekleknblkoomjf/background.js",
+      "id": "4279.30",
+      "url": "https://wallet-baiscs.kucoin-wallet.cc/basics/v1/basics/config",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "accept-language": "en-US",
+        "platform": "ext",
+        "requeststarttime": "1762301613403",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "version": "1.4.3"
+      },
+      "postData": "",
+      "status": 530,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:13:33 GMT",
+        "referrer-policy": "same-origin",
+        "server": "cloudflare",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "text/html; charset=UTF-8",
+        "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+        "cf-ray": "9998255bec493036-BRU",
+        "content-length": "8289",
+        "expires": "Thu, 01 Jan 1970 00:00:01 GMT"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: nbdpmlhambbdkhkmbfpljckjcmgibalo. Exiting..."
+}

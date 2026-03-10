@@ -1,0 +1,737 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/agoakfejjabomempkjlepdflaleeobhb",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/agoakfejjabomempkjlepdflaleeobhb",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762299205623,
+    "end": 1762299239414
+  },
+  "extensionID": "ngnmgaiibbadalgdblgmmjldnmopkfid",
+  "serviceWorker": "service_worker",
+  "walletName": "core",
+  "notes": "dead",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "agoakfejjabomempkjlepdflaleeobhb",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.80",
+      "url": "https://glacier-api.avax.network/v1/chains",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:26 GMT",
+        "content-encoding": "br",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "DYNAMIC",
+        "x-permitted-cross-domain-policies": "none",
+        "strict-transport-security": "max-age=0",
+        "server": "cloudflare",
+        "vary": "Origin, Accept-Encoding",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "x-execution-weight": "1",
+        "cache-control": "private,max-age=1",
+        "cf-ray": "9997ea9b596c555b-BRU"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.81",
+      "url": "https://data-posthog.avax.network/decide/?ip=0&_=1762299206912&v=2&ver=1.20.0",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "data=eyJ0b2tlbiI6InBoY19WZ2ZUY1JlRGxrWjF1VHB1a0RpTkNUMFJaMlRGR0hROFBuZTRCbVVtcFdoIiwiZGlzdGluY3RfaWQiOiIiLCJncm91cHMiOnt9fQ%3D%3D",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.82",
+      "url": "https://o1300201.ingest.sentry.io/api/6536095/envelope/?sentry_key=7752f239704f40afbc2b63c514d00dff&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.17.3",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"event_id\":\"33b0fe8915254b3b914f7716b95b9b62\",\"sent_at\":\"2025-11-04T23:33:26.982Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"7.17.3\"}}\n{\"type\":\"event\"}\n{\"exception\":{\"values\":[{\"type\":\"TypeError\",\"value\":\"Failed to fetch\",\"stacktrace\":{\"frames\":[{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"bB.initFeatureFlags\",\"in_app\":true,\"lineno\":2,\"colno\":2022615},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2,\"colno\":2022542},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"n\",\"in_app\":true,\"lineno\":2,\"colno\":2022477},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2,\"colno\":2022326},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"Nh.post\",\"in_app\":true,\"lineno\":2,\"colno\":1751213},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"Nh.fetchWithTimeout\",\"in_app\":true,\"lineno\":2,\"colno\":1751492},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2,\"colno\":1332875}]},\"mechanism\":{\"type\":\"onunhandledrejection\",\"handled\":false}}]},\"level\":\"error\",\"platform\":\"javascript\",\"event_id\":\"33b0fe8915254b3b914f7716b95b9b62\",\"timestamp\":1762299206.981,\"environment\":\"production\",\"release\":\"core-extension@1.43.0\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"GlobalHandlers\",\"LinkedErrors\",\"Dedupe\",\"HttpContext\",\"Express\"],\"name\":\"sentry.javascript.browser\",\"version\":\"7.17.3\",\"packages\":[{\"name\":\"npm:@sentry/browser\",\"version\":\"7.17.3\"}]},\"breadcrumbs\":[{\"timestamp\":1762299206.482,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/locales/en/translation.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299206.718,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/tokenlist\",\"status_code\":500},\"type\":\"http\"},{\"timestamp\":1762299206.907,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: Extension Provider\"},{\"timestamp\":1762299206.972,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/chains\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299206.981,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299206912&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"}],\"request\":{\"url\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:27 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "41"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.84",
+      "url": "https://data-posthog.avax.network/decide/?ip=0&_=1762299210360&v=2&ver=1.20.0",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "data=eyJ0b2tlbiI6InBoY19WZ2ZUY1JlRGxrWjF1VHB1a0RpTkNUMFJaMlRGR0hROFBuZTRCbVVtcFdoIiwiZGlzdGluY3RfaWQiOiIxMGRmMzJhZS0zYTA2LTQ4NWEtODA2NC1hNTIzZjgzZTNjM2UiLCJncm91cHMiOnt9fQ%3D%3D",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.85",
+      "url": "https://data-posthog.avax.network/capture/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"api_key\":\"phc_VgfTcReDlkZ1uTpukDiNCT0RZ2TFGHQ8Pne4BmUmpWh\",\"event\":\"WindowOpened\",\"properties\":{\"path\":\"/home.html\",\"$os\":\"mac\",\"$browser\":\"Chrome\",\"$browser_version\":\"116.0.0.0\",\"$window_id\":\"4a1e2923-62a3-45d8-8da4-ed6a165b152f\",\"$active_feature_flags\":[\"everything\",\"events\",\"swap-feature\",\"bridge-feature\",\"bridge-feature-eth\",\"bridge-feature-btc\",\"send-feature\",\"sendtransaction-chain-id-support-feature\",\"buy\",\"buy-feature-moonpay\",\"buy-feature-coinbase\"],\"$feature/everything\":true,\"$feature/events\":true,\"$feature/swap-feature\":true,\"$feature/bridge-feature\":true,\"$feature/bridge-feature-eth\":true,\"$feature/bridge-feature-btc\":true,\"$feature/send-feature\":true,\"$feature/sendtransaction-chain-id-support-feature\":true,\"$feature/buy\":true,\"$feature/buy-feature-moonpay\":true,\"$feature/buy-feature-coinbase\":true,\"distinct_id\":\"10df32ae-3a06-485a-8064-a523f83e3c3e\",\"$user_id\":\"10df32ae-3a06-485a-8064-a523f83e3c3e\",\"$device_id\":\"521a3d9d-f64b-4920-88d1-5f8504c455cd\",\"$session_id\":\"50fee430-e1f6-455e-a1a2-7bf45a08a36f\",\"extension_Version\":\"1.43.0\",\"$host\":\"ngnmgaiibbadalgdblgmmjldnmopkfid\",\"$groups\":{\"device\":\"521a3d9d-f64b-4920-88d1-5f8504c455cd\"}},\"timestamp\":\"1762299210369\",\"ip\":\"\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.88",
+      "url": "https://glacier-api.avax.network/v1/health-check",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:32 GMT",
+        "content-encoding": "br",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "DYNAMIC",
+        "x-permitted-cross-domain-policies": "none",
+        "strict-transport-security": "max-age=0",
+        "server": "cloudflare",
+        "vary": "Origin, Accept-Encoding",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "x-execution-weight": "20",
+        "cache-control": "private,no-cache",
+        "cf-ray": "9997eabafaad555b-BRU"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.89",
+      "url": "https://data-posthog.avax.network/decide/?ip=0&_=1762299215380&v=2&ver=1.20.0",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "data=eyJ0b2tlbiI6InBoY19WZ2ZUY1JlRGxrWjF1VHB1a0RpTkNUMFJaMlRGR0hROFBuZTRCbVVtcFdoIiwiZGlzdGluY3RfaWQiOiIxMGRmMzJhZS0zYTA2LTQ4NWEtODA2NC1hNTIzZjgzZTNjM2UiLCJncm91cHMiOnt9fQ%3D%3D",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.90",
+      "url": "https://o1300201.ingest.sentry.io/api/6536095/envelope/?sentry_key=7752f239704f40afbc2b63c514d00dff&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.17.3",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"event_id\":\"50c4c4f363d74f52bfcdea964b420dc5\",\"sent_at\":\"2025-11-04T23:33:35.434Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"7.17.3\"}}\n{\"type\":\"event\"}\n{\"exception\":{\"values\":[{\"type\":\"TypeError\",\"value\":\"Failed to fetch\",\"stacktrace\":{\"frames\":[{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"r\",\"in_app\":true,\"lineno\":2,\"colno\":1464250},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2,\"colno\":2022526},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"n\",\"in_app\":true,\"lineno\":2,\"colno\":2022477},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2,\"colno\":2022326},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"Nh.post\",\"in_app\":true,\"lineno\":2,\"colno\":1751213},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"Nh.fetchWithTimeout\",\"in_app\":true,\"lineno\":2,\"colno\":1751492},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2,\"colno\":1332875}]},\"mechanism\":{\"type\":\"onunhandledrejection\",\"handled\":false}}]},\"level\":\"error\",\"platform\":\"javascript\",\"event_id\":\"50c4c4f363d74f52bfcdea964b420dc5\",\"timestamp\":1762299215.433,\"environment\":\"production\",\"release\":\"core-extension@1.43.0\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"GlobalHandlers\",\"LinkedErrors\",\"Dedupe\",\"HttpContext\",\"Express\"],\"name\":\"sentry.javascript.browser\",\"version\":\"7.17.3\",\"packages\":[{\"name\":\"npm:@sentry/browser\",\"version\":\"7.17.3\"}]},\"breadcrumbs\":[{\"timestamp\":1762299206.482,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/locales/en/translation.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299206.718,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/tokenlist\",\"status_code\":500},\"type\":\"http\"},{\"timestamp\":1762299206.907,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: Extension Provider\"},{\"timestamp\":1762299206.972,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/chains\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299206.981,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299206912&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299206.982,\"category\":\"sentry.event\",\"event_id\":\"33b0fe8915254b3b914f7716b95b9b62\",\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299210.414,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/capture/\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299210.414,\"category\":\"console\",\"data\":{\"arguments\":[{\"message\":\"Failed to fetch\",\"name\":\"TypeError\",\"stack\":\"TypeError: Failed to fetch\\n    at chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1332875\\n    at Nh.fetchWithTimeout (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751492)\\n    at Nh.post (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751213)\\n    at NB.captureEvent (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2037265)\\n    at async MB.handle (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2038540)\\n    at async chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2127690\"}],\"logger\":\"console\"},\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299210.415,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299210360&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299211.894,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#FA981D;font-weight:600;font-size:11px\",\"🔌 disconnected: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#FA981D;font-weight:600;font-size:11px 🔌 disconnected: Extension Provider\"},{\"timestamp\":1762299211.94,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: dApp Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: dApp Provider\"},{\"timestamp\":1762299212.018,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/health-check\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299212.1,\"category\":\"console\",\"data\":{\"arguments\":[{\"method\":\"metamask_getProviderState\",\"jsonrpc\":\"2.0\",\"id\":1322984124}],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"[object Object]\"},{\"timestamp\":1762299212.1,\"category\":\"console\",\"data\":{\"arguments\":[\"method: metamask_getProviderState\\njsonrpc: 2.0\\nid: 1322984124\\nsite: [object Object]\\nresult: [object Object]\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"method: metamask_getProviderState\\njsonrpc: 2.0\\nid: 1322984124\\nsite: [object Object]\\nresult: [object Object]\"},{\"timestamp\":1762299212.104,\"category\":\"console\",\"data\":{\"arguments\":[{\"jsonrpc\":\"2.0\",\"id\":1322984125,\"method\":\"metamask_sendDomainMetadata\",\"params\":\"[Object]\"}],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"[object Object]\"},{\"timestamp\":1762299212.104,\"category\":\"console\",\"data\":{\"arguments\":[\"jsonrpc: 2.0\\nid: 1322984125\\nmethod: metamask_sendDomainMetadata\\nparams: {\\\"domain\\\":\\\"core.app\\\",\\\"name\\\":\\\"Page Not Found (404)\\\",\\\"icon\\\":\\\"https://core.app/favicon.svg\\\"}\\nsite: [object Object]\\nresult: [object Object]\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"jsonrpc: 2.0\\nid: 1322984125\\nmethod: metamask_sendDomainMetadata\\nparams: {\\\"domain\\\":\\\"core.app\\\",\\\"name\\\":\\\"Page Not Found (404)\\\",\\\"icon\\\":\\\"https://core.app/favicon.svg\\\"}\\nsite: [object Object]\\nresult: [object Object]\"},{\"timestamp\":1762299215.432,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299215380&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"}],\"request\":{\"url\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:35 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "41"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.91",
+      "url": "https://glacier-api.avax.network/v1/health-check",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:36 GMT",
+        "content-encoding": "br",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "DYNAMIC",
+        "x-permitted-cross-domain-policies": "none",
+        "strict-transport-security": "max-age=0",
+        "server": "cloudflare",
+        "vary": "Origin, Accept-Encoding",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "x-execution-weight": "20",
+        "cache-control": "private,no-cache",
+        "cf-ray": "9997ead9eca2555b-BRU"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.238",
+      "url": "https://data-posthog.avax.network/capture/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"api_key\":\"phc_VgfTcReDlkZ1uTpukDiNCT0RZ2TFGHQ8Pne4BmUmpWh\",\"event\":\"WindowOpened\",\"properties\":{\"path\":\"/popup.html\",\"$os\":\"mac\",\"$browser\":\"Chrome\",\"$browser_version\":\"116.0.0.0\",\"$window_id\":\"d6ad9782-f1d8-49b3-857a-5d3d0e8fb3f6\",\"$active_feature_flags\":[\"everything\",\"events\",\"swap-feature\",\"bridge-feature\",\"bridge-feature-eth\",\"bridge-feature-btc\",\"send-feature\",\"sendtransaction-chain-id-support-feature\",\"buy\",\"buy-feature-moonpay\",\"buy-feature-coinbase\"],\"$feature/everything\":true,\"$feature/events\":true,\"$feature/swap-feature\":true,\"$feature/bridge-feature\":true,\"$feature/bridge-feature-eth\":true,\"$feature/bridge-feature-btc\":true,\"$feature/send-feature\":true,\"$feature/sendtransaction-chain-id-support-feature\":true,\"$feature/buy\":true,\"$feature/buy-feature-moonpay\":true,\"$feature/buy-feature-coinbase\":true,\"distinct_id\":\"10df32ae-3a06-485a-8064-a523f83e3c3e\",\"$user_id\":\"10df32ae-3a06-485a-8064-a523f83e3c3e\",\"$device_id\":\"521a3d9d-f64b-4920-88d1-5f8504c455cd\",\"$session_id\":\"50fee430-e1f6-455e-a1a2-7bf45a08a36f\",\"extension_Version\":\"1.43.0\",\"$host\":\"ngnmgaiibbadalgdblgmmjldnmopkfid\",\"$groups\":{\"device\":\"521a3d9d-f64b-4920-88d1-5f8504c455cd\"}},\"timestamp\":\"1762299218644\",\"ip\":\"\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.241",
+      "url": "https://data-posthog.avax.network/decide/?ip=0&_=1762299220373&v=2&ver=1.20.0",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "data=eyJ0b2tlbiI6InBoY19WZ2ZUY1JlRGxrWjF1VHB1a0RpTkNUMFJaMlRGR0hROFBuZTRCbVVtcFdoIiwiZGlzdGluY3RfaWQiOiIxMGRmMzJhZS0zYTA2LTQ4NWEtODA2NC1hNTIzZjgzZTNjM2UiLCJncm91cHMiOnt9fQ%3D%3D",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.355",
+      "url": "https://o1300201.ingest.sentry.io/api/6536095/envelope/?sentry_key=7752f239704f40afbc2b63c514d00dff&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.17.3",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"event_id\":\"ca665c96d4e34e1493b4fea902611773\",\"sent_at\":\"2025-11-04T23:33:41.498Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"7.17.3\"},\"trace\":{\"environment\":\"production\",\"release\":\"core-extension@1.43.0\",\"transaction\":\"Handler: network_fee_get\",\"public_key\":\"7752f239704f40afbc2b63c514d00dff\",\"trace_id\":\"00b6fbee973c49b6a317ec5c83d9d78d\",\"sample_rate\":\"0.003\"}}\n{\"type\":\"transaction\"}\n{\"contexts\":{\"trace\":{\"span_id\":\"840bd51b01fc14ad\",\"status\":\"ok\",\"trace_id\":\"00b6fbee973c49b6a317ec5c83d9d78d\"}},\"spans\":[],\"start_timestamp\":1762299221.4984002,\"tags\":{},\"timestamp\":1762299221.4984002,\"transaction\":\"Handler: network_fee_get\",\"type\":\"transaction\",\"transaction_info\":{\"source\":\"custom\",\"changes\":[],\"propagations\":0},\"platform\":\"javascript\",\"event_id\":\"ca665c96d4e34e1493b4fea902611773\",\"environment\":\"production\",\"release\":\"core-extension@1.43.0\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"GlobalHandlers\",\"LinkedErrors\",\"Dedupe\",\"HttpContext\",\"Express\"],\"name\":\"sentry.javascript.browser\",\"version\":\"7.17.3\",\"packages\":[{\"name\":\"npm:@sentry/browser\",\"version\":\"7.17.3\"}]},\"breadcrumbs\":[{\"timestamp\":1762299206.482,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/locales/en/translation.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299206.718,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/tokenlist\",\"status_code\":500},\"type\":\"http\"},{\"timestamp\":1762299206.907,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: Extension Provider\"},{\"timestamp\":1762299206.972,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/chains\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299206.981,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299206912&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299206.982,\"category\":\"sentry.event\",\"event_id\":\"33b0fe8915254b3b914f7716b95b9b62\",\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299210.414,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/capture/\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299210.414,\"category\":\"console\",\"data\":{\"arguments\":[{\"message\":\"Failed to fetch\",\"name\":\"TypeError\",\"stack\":\"TypeError: Failed to fetch\\n    at chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1332875\\n    at Nh.fetchWithTimeout (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751492)\\n    at Nh.post (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751213)\\n    at NB.captureEvent (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2037265)\\n    at async MB.handle (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2038540)\\n    at async chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2127690\"}],\"logger\":\"console\"},\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299210.415,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299210360&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299211.894,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#FA981D;font-weight:600;font-size:11px\",\"🔌 disconnected: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#FA981D;font-weight:600;font-size:11px 🔌 disconnected: Extension Provider\"},{\"timestamp\":1762299211.94,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: dApp Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: dApp Provider\"},{\"timestamp\":1762299212.018,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/health-check\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299212.1,\"category\":\"console\",\"data\":{\"arguments\":[{\"method\":\"metamask_getProviderState\",\"jsonrpc\":\"2.0\",\"id\":1322984124}],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"[object Object]\"},{\"timestamp\":1762299212.1,\"category\":\"console\",\"data\":{\"arguments\":[\"method: metamask_getProviderState\\njsonrpc: 2.0\\nid: 1322984124\\nsite: [object Object]\\nresult: [object Object]\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"method: metamask_getProviderState\\njsonrpc: 2.0\\nid: 1322984124\\nsite: [object Object]\\nresult: [object Object]\"},{\"timestamp\":1762299212.104,\"category\":\"console\",\"data\":{\"arguments\":[{\"jsonrpc\":\"2.0\",\"id\":1322984125,\"method\":\"metamask_sendDomainMetadata\",\"params\":\"[Object]\"}],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"[object Object]\"},{\"timestamp\":1762299212.104,\"category\":\"console\",\"data\":{\"arguments\":[\"jsonrpc: 2.0\\nid: 1322984125\\nmethod: metamask_sendDomainMetadata\\nparams: {\\\"domain\\\":\\\"core.app\\\",\\\"name\\\":\\\"Page Not Found (404)\\\",\\\"icon\\\":\\\"https://core.app/favicon.svg\\\"}\\nsite: [object Object]\\nresult: [object Object]\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"jsonrpc: 2.0\\nid: 1322984125\\nmethod: metamask_sendDomainMetadata\\nparams: {\\\"domain\\\":\\\"core.app\\\",\\\"name\\\":\\\"Page Not Found (404)\\\",\\\"icon\\\":\\\"https://core.app/favicon.svg\\\"}\\nsite: [object Object]\\nresult: [object Object]\"},{\"timestamp\":1762299215.432,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299215380&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299215.434,\"category\":\"sentry.event\",\"event_id\":\"50c4c4f363d74f52bfcdea964b420dc5\",\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299216.969,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/health-check\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299218.546,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: Extension Provider\"},{\"timestamp\":1762299218.605,\"category\":\"console\",\"data\":{\"arguments\":[{\"method\":\"metamask_accountsChanged\",\"params\":\"[Array]\"}],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"[object Object]\"},{\"timestamp\":1762299218.694,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/capture/\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299218.694,\"category\":\"console\",\"data\":{\"arguments\":[{\"message\":\"Failed to fetch\",\"name\":\"TypeError\",\"stack\":\"TypeError: Failed to fetch\\n    at chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1332875\\n    at Nh.fetchWithTimeout (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751492)\\n    at Nh.post (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751213)\\n    at NB.captureEvent (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2037265)\\n    at async MB.handle (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2038540)\\n    at async chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2127690\"}],\"logger\":\"console\"},\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299219.411,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#FA981D;font-weight:600;font-size:11px\",\"🔌 disconnected: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#FA981D;font-weight:600;font-size:11px 🔌 disconnected: Extension Provider\"},{\"timestamp\":1762299219.524,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#FA981D;font-weight:600;font-size:11px\",\"🔌 disconnected: dApp Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#FA981D;font-weight:600;font-size:11px 🔌 disconnected: dApp Provider\"},{\"timestamp\":1762299220.418,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299220373&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299221.431,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: Extension Provider\"}],\"request\":{\"url\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:41 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "41"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.389",
+      "url": "https://data-posthog.avax.network/capture/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"api_key\":\"phc_VgfTcReDlkZ1uTpukDiNCT0RZ2TFGHQ8Pne4BmUmpWh\",\"event\":\"WindowOpened\",\"properties\":{\"path\":\"/popup.html\",\"$os\":\"mac\",\"$browser\":\"Chrome\",\"$browser_version\":\"116.0.0.0\",\"$window_id\":\"f86363aa-8d1d-41b8-a5eb-2d73d585ccc7\",\"$active_feature_flags\":[\"everything\",\"events\",\"swap-feature\",\"bridge-feature\",\"bridge-feature-eth\",\"bridge-feature-btc\",\"send-feature\",\"sendtransaction-chain-id-support-feature\",\"buy\",\"buy-feature-moonpay\",\"buy-feature-coinbase\"],\"$feature/everything\":true,\"$feature/events\":true,\"$feature/swap-feature\":true,\"$feature/bridge-feature\":true,\"$feature/bridge-feature-eth\":true,\"$feature/bridge-feature-btc\":true,\"$feature/send-feature\":true,\"$feature/sendtransaction-chain-id-support-feature\":true,\"$feature/buy\":true,\"$feature/buy-feature-moonpay\":true,\"$feature/buy-feature-coinbase\":true,\"distinct_id\":\"10df32ae-3a06-485a-8064-a523f83e3c3e\",\"$user_id\":\"10df32ae-3a06-485a-8064-a523f83e3c3e\",\"$device_id\":\"521a3d9d-f64b-4920-88d1-5f8504c455cd\",\"$session_id\":\"50fee430-e1f6-455e-a1a2-7bf45a08a36f\",\"extension_Version\":\"1.43.0\",\"$host\":\"ngnmgaiibbadalgdblgmmjldnmopkfid\",\"$groups\":{\"device\":\"521a3d9d-f64b-4920-88d1-5f8504c455cd\"}},\"timestamp\":\"1762299221520\",\"ip\":\"\"}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.392",
+      "url": "https://glacier-api.avax.network/v1/health-check",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:41 GMT",
+        "content-encoding": "br",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "DYNAMIC",
+        "x-permitted-cross-domain-policies": "none",
+        "strict-transport-security": "max-age=0",
+        "server": "cloudflare",
+        "vary": "Origin, Accept-Encoding",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "x-execution-weight": "20",
+        "cache-control": "private,no-cache",
+        "cf-ray": "9997eaf93d0c555b-BRU"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.528",
+      "url": "https://ava-warden-bucket-prod.s3.eu-central-1.amazonaws.com/bridge_settings.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:45 GMT",
+        "last-modified": "Tue, 04 Nov 2025 23:33:45 GMT",
+        "server": "AmazonS3",
+        "x-amz-request-id": "ZECHQXWPY92M6432",
+        "etag": "\"096544a8e41950007f5d22f743279962\"",
+        "x-amz-server-side-encryption": "AES256",
+        "content-type": "application/json",
+        "accept-ranges": "bytes",
+        "content-length": "37011",
+        "x-amz-id-2": "Ih0iSHj0hFALlaUi6BkqdQEeKHMnP1N/jkuEkQFFyjmaQfUaxHu7TJlnmedB0lesKJTdMd6lR00="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.529",
+      "url": "https://ava-warden-mainnet.s3.us-west-1.amazonaws.com/bridge_settings.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:46 GMT",
+        "x-amz-version-id": "null",
+        "last-modified": "Tue, 04 Nov 2025 23:33:34 GMT",
+        "server": "AmazonS3",
+        "x-amz-request-id": "NQEABP0NZB9K3Q36",
+        "etag": "\"bdfad3ea3235298523056b6362ea3a8c\"",
+        "x-amz-server-side-encryption": "AES256",
+        "content-type": "application/json",
+        "accept-ranges": "bytes",
+        "content-length": "37011",
+        "x-amz-id-2": "lgf2XvVIA59MjTBZCVUk7A7SBK4P845IVVWp7/ZpMsTvqQPpLvXnnP1sL4q3bT7udnsPfRQgokw="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.530",
+      "url": "https://avalabs-mainnet-cce1-mainnet-warden-bucket.s3.ca-central-1.amazonaws.com/bridge_settings.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 403,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:44 GMT",
+        "server": "AmazonS3",
+        "x-amz-request-id": "NQE6AH461DT8F1X3",
+        "x-amz-id-2": "iR7Q09bPdllaKNq4hQGTuKP8KVRHfsdJ+5pe39QcY8R0sc8+96IxkVY7jUxQif1b9UNAZmVDX3M4+82qdh/vG+gLQCZsmNZn",
+        "transfer-encoding": "chunked",
+        "content-type": "application/xml"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.531",
+      "url": "https://avawarden-prod.s3.amazonaws.com/bridge_settings.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:46 GMT",
+        "last-modified": "Tue, 04 Nov 2025 23:33:45 GMT",
+        "server": "AmazonS3",
+        "x-amz-request-id": "NQE3A7BEC34V7TEM",
+        "etag": "\"7a27859a2b7bdf7c25743f16a79e9fd4\"",
+        "x-amz-server-side-encryption": "AES256",
+        "content-type": "application/json",
+        "accept-ranges": "bytes",
+        "content-length": "37011",
+        "x-amz-id-2": "ucdbiFwJr5IVxPuCauXXmOQ/a+fCcjGmV1k+0x6nyHcBwdQs4rx5xk75VJ5oQ6IjeeQTlt7HOlQ="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.532",
+      "url": "https://blob-storage-mainnet.warden-avascan.info/bridge_settings.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:46 GMT",
+        "via": "1.1 05ef36e101d185586daa8fc331b01c84.cloudfront.net (CloudFront)",
+        "last-modified": "Tue, 04 Nov 2025 23:33:45 GMT",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "BRU50-P2",
+        "etag": "\"230198042ce291cba720f0d12a91b6f6\"",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "content-length": "37009",
+        "x-amz-cf-id": "C4zcgZZvgcNCkdVXC9xgRp1MsVLhNmL2ci6CZYFzoPsqzSRDsXjRmA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.533",
+      "url": "https://chainstack-ava-warden-mainnet.s3.us-west-2.amazonaws.com/bridge_settings.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:46 GMT",
+        "last-modified": "Tue, 04 Nov 2025 23:33:44 GMT",
+        "server": "AmazonS3",
+        "x-amz-request-id": "NQE5SB9FR6D5B9Q0",
+        "etag": "\"f1c303b7b3f17dd2e6a2f25d7cc57796\"",
+        "x-amz-server-side-encryption": "AES256",
+        "content-type": "application/json",
+        "accept-ranges": "bytes",
+        "content-length": "37011",
+        "x-amz-id-2": "gB1fA7iM67wblhRyVw0BqJ3ZS8Y04QmJiZM7X5niwoVM7Fqi2yCRqqBxZIRha0BGMohGoILUkqsYNLURC3leakzKA3skPS3HzFIYd0DkIc8="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.534",
+      "url": "https://s3.amazonaws.com/warden-mgmt-prod-mainnet.blockdaemon.com/bridge_settings.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 403,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:44 GMT",
+        "server": "AmazonS3",
+        "x-amz-request-id": "NQE4MMB857ES8VXY",
+        "x-amz-id-2": "tZOKYGROaqrUaojovqbmFCKp3bclI7p/Wilo3j48GY3CHbyaobFPkCeba+lj0QddSVj7W2RHGy4=",
+        "transfer-encoding": "chunked",
+        "content-type": "application/xml"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.535",
+      "url": "https://warden-avax-storage.s3.amazonaws.com/bridge_settings.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:46 GMT",
+        "x-amz-expiration": "expiry-date=\"Wed, 19 Nov 2025 00:00:00 GMT\", rule-id=\"expire\"",
+        "last-modified": "Tue, 04 Nov 2025 23:33:32 GMT",
+        "server": "AmazonS3",
+        "x-amz-request-id": "NQEFA3E7TASWZQ9P",
+        "etag": "\"e01cb5c72564c1a8590d03f70cf33da2\"",
+        "x-amz-server-side-encryption": "AES256",
+        "content-type": "application/json",
+        "accept-ranges": "bytes",
+        "content-length": "37010",
+        "x-amz-id-2": "F+488GtRR4EvZyTyh8R7cieTm/inF0H0EFoDfezDaPJEow9ZHMgyNW9xKywS4iAOC3wNQjkgGQA="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.536",
+      "url": "https://data-posthog.avax.network/decide/?ip=0&_=1762299224912&v=2&ver=1.20.0",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "data=eyJ0b2tlbiI6InBoY19WZ2ZUY1JlRGxrWjF1VHB1a0RpTkNUMFJaMlRGR0hROFBuZTRCbVVtcFdoIiwiZGlzdGluY3RfaWQiOiIxMGRmMzJhZS0zYTA2LTQ4NWEtODA2NC1hNTIzZjgzZTNjM2UiLCJncm91cHMiOnt9fQ%3D%3D",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.570",
+      "url": "https://o1300201.ingest.sentry.io/api/6536095/envelope/?sentry_key=7752f239704f40afbc2b63c514d00dff&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.17.3",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"event_id\":\"5ebdfc22c63344b7bd9fcfb5c7fed53a\",\"sent_at\":\"2025-11-04T23:33:45.403Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"7.17.3\"}}\n{\"type\":\"event\"}\n{\"exception\":{\"values\":[{\"type\":\"TypeError\",\"value\":\"Failed to fetch\",\"stacktrace\":{\"frames\":[{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"bB.initFeatureFlags\",\"in_app\":true,\"lineno\":2,\"colno\":2022615},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2,\"colno\":2022542},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"n\",\"in_app\":true,\"lineno\":2,\"colno\":2022477},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2,\"colno\":2022326},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"Nh.post\",\"in_app\":true,\"lineno\":2,\"colno\":1751213},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"Nh.fetchWithTimeout\",\"in_app\":true,\"lineno\":2,\"colno\":1751492},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2,\"colno\":1332875}]},\"mechanism\":{\"type\":\"onunhandledrejection\",\"handled\":false}}]},\"level\":\"error\",\"platform\":\"javascript\",\"event_id\":\"5ebdfc22c63344b7bd9fcfb5c7fed53a\",\"timestamp\":1762299225.402,\"environment\":\"production\",\"release\":\"core-extension@1.43.0\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"GlobalHandlers\",\"LinkedErrors\",\"Dedupe\",\"HttpContext\",\"Express\"],\"name\":\"sentry.javascript.browser\",\"version\":\"7.17.3\",\"packages\":[{\"name\":\"npm:@sentry/browser\",\"version\":\"7.17.3\"}]},\"breadcrumbs\":[{\"timestamp\":1762299206.482,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/locales/en/translation.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299206.718,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/tokenlist\",\"status_code\":500},\"type\":\"http\"},{\"timestamp\":1762299206.907,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: Extension Provider\"},{\"timestamp\":1762299206.972,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/chains\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299206.981,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299206912&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299206.982,\"category\":\"sentry.event\",\"event_id\":\"33b0fe8915254b3b914f7716b95b9b62\",\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299210.414,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/capture/\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299210.414,\"category\":\"console\",\"data\":{\"arguments\":[{\"message\":\"Failed to fetch\",\"name\":\"TypeError\",\"stack\":\"TypeError: Failed to fetch\\n    at chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1332875\\n    at Nh.fetchWithTimeout (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751492)\\n    at Nh.post (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751213)\\n    at NB.captureEvent (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2037265)\\n    at async MB.handle (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2038540)\\n    at async chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2127690\"}],\"logger\":\"console\"},\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299210.415,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299210360&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299211.894,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#FA981D;font-weight:600;font-size:11px\",\"🔌 disconnected: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#FA981D;font-weight:600;font-size:11px 🔌 disconnected: Extension Provider\"},{\"timestamp\":1762299211.94,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: dApp Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: dApp Provider\"},{\"timestamp\":1762299212.018,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/health-check\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299212.1,\"category\":\"console\",\"data\":{\"arguments\":[{\"method\":\"metamask_getProviderState\",\"jsonrpc\":\"2.0\",\"id\":1322984124}],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"[object Object]\"},{\"timestamp\":1762299212.1,\"category\":\"console\",\"data\":{\"arguments\":[\"method: metamask_getProviderState\\njsonrpc: 2.0\\nid: 1322984124\\nsite: [object Object]\\nresult: [object Object]\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"method: metamask_getProviderState\\njsonrpc: 2.0\\nid: 1322984124\\nsite: [object Object]\\nresult: [object Object]\"},{\"timestamp\":1762299212.104,\"category\":\"console\",\"data\":{\"arguments\":[{\"jsonrpc\":\"2.0\",\"id\":1322984125,\"method\":\"metamask_sendDomainMetadata\",\"params\":\"[Object]\"}],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"[object Object]\"},{\"timestamp\":1762299212.104,\"category\":\"console\",\"data\":{\"arguments\":[\"jsonrpc: 2.0\\nid: 1322984125\\nmethod: metamask_sendDomainMetadata\\nparams: {\\\"domain\\\":\\\"core.app\\\",\\\"name\\\":\\\"Page Not Found (404)\\\",\\\"icon\\\":\\\"https://core.app/favicon.svg\\\"}\\nsite: [object Object]\\nresult: [object Object]\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"jsonrpc: 2.0\\nid: 1322984125\\nmethod: metamask_sendDomainMetadata\\nparams: {\\\"domain\\\":\\\"core.app\\\",\\\"name\\\":\\\"Page Not Found (404)\\\",\\\"icon\\\":\\\"https://core.app/favicon.svg\\\"}\\nsite: [object Object]\\nresult: [object Object]\"},{\"timestamp\":1762299215.432,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299215380&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299215.434,\"category\":\"sentry.event\",\"event_id\":\"50c4c4f363d74f52bfcdea964b420dc5\",\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299216.969,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/health-check\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299218.546,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: Extension Provider\"},{\"timestamp\":1762299218.605,\"category\":\"console\",\"data\":{\"arguments\":[{\"method\":\"metamask_accountsChanged\",\"params\":\"[Array]\"}],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"[object Object]\"},{\"timestamp\":1762299218.694,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/capture/\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299218.694,\"category\":\"console\",\"data\":{\"arguments\":[{\"message\":\"Failed to fetch\",\"name\":\"TypeError\",\"stack\":\"TypeError: Failed to fetch\\n    at chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1332875\\n    at Nh.fetchWithTimeout (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751492)\\n    at Nh.post (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751213)\\n    at NB.captureEvent (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2037265)\\n    at async MB.handle (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2038540)\\n    at async chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2127690\"}],\"logger\":\"console\"},\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299219.411,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#FA981D;font-weight:600;font-size:11px\",\"🔌 disconnected: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#FA981D;font-weight:600;font-size:11px 🔌 disconnected: Extension Provider\"},{\"timestamp\":1762299219.524,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#FA981D;font-weight:600;font-size:11px\",\"🔌 disconnected: dApp Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#FA981D;font-weight:600;font-size:11px 🔌 disconnected: dApp Provider\"},{\"timestamp\":1762299220.418,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299220373&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299221.431,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: Extension Provider\"},{\"timestamp\":1762299221.498,\"category\":\"sentry.transaction\",\"event_id\":\"ca665c96d4e34e1493b4fea902611773\",\"message\":\"ca665c96d4e34e1493b4fea902611773\"},{\"timestamp\":1762299221.567,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/capture/\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299221.567,\"category\":\"console\",\"data\":{\"arguments\":[{\"message\":\"Failed to fetch\",\"name\":\"TypeError\",\"stack\":\"TypeError: Failed to fetch\\n    at chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1332875\\n    at Nh.fetchWithTimeout (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751492)\\n    at Nh.post (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751213)\\n    at NB.captureEvent (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2037265)\\n    at async MB.handle (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2038540)\\n    at async chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2127690\"}],\"logger\":\"console\"},\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299221.977,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/health-check\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299225.236,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://ava-warden-bucket-prod.s3.eu-central-1.amazonaws.com/bridge_settings.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299225.236,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299224912&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299225.238,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://blob-storage-mainnet.warden-avascan.info/bridge_settings.json\",\"status_code\":200},\"type\":\"http\"}],\"request\":{\"url\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:45 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "41"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.571",
+      "url": "https://glacier-api.avax.network/v1/health-check",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:46 GMT",
+        "content-encoding": "br",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "DYNAMIC",
+        "x-permitted-cross-domain-policies": "none",
+        "strict-transport-security": "max-age=0",
+        "server": "cloudflare",
+        "vary": "Origin, Accept-Encoding",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "x-execution-weight": "20",
+        "cache-control": "private,no-cache",
+        "cf-ray": "9997eb186fbd555b-BRU"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.572",
+      "url": "https://data-posthog.avax.network/decide/?ip=0&_=1762299229924&v=2&ver=1.20.0",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "data=eyJ0b2tlbiI6InBoY19WZ2ZUY1JlRGxrWjF1VHB1a0RpTkNUMFJaMlRGR0hROFBuZTRCbVVtcFdoIiwiZGlzdGluY3RfaWQiOiIxMGRmMzJhZS0zYTA2LTQ4NWEtODA2NC1hNTIzZjgzZTNjM2UiLCJncm91cHMiOnt9fQ%3D%3D",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.573",
+      "url": "https://o1300201.ingest.sentry.io/api/6536095/envelope/?sentry_key=7752f239704f40afbc2b63c514d00dff&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.17.3",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"event_id\":\"5ac966372afc4a2e82cded070d88d781\",\"sent_at\":\"2025-11-04T23:33:49.978Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"7.17.3\"}}\n{\"type\":\"event\"}\n{\"exception\":{\"values\":[{\"type\":\"TypeError\",\"value\":\"Failed to fetch\",\"stacktrace\":{\"frames\":[{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"r\",\"in_app\":true,\"lineno\":2,\"colno\":1464250},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2,\"colno\":2022526},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"n\",\"in_app\":true,\"lineno\":2,\"colno\":2022477},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2,\"colno\":2022326},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"Nh.post\",\"in_app\":true,\"lineno\":2,\"colno\":1751213},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"Nh.fetchWithTimeout\",\"in_app\":true,\"lineno\":2,\"colno\":1751492},{\"filename\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2,\"colno\":1332875}]},\"mechanism\":{\"type\":\"onunhandledrejection\",\"handled\":false}}]},\"level\":\"error\",\"platform\":\"javascript\",\"event_id\":\"5ac966372afc4a2e82cded070d88d781\",\"timestamp\":1762299229.977,\"environment\":\"production\",\"release\":\"core-extension@1.43.0\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"GlobalHandlers\",\"LinkedErrors\",\"Dedupe\",\"HttpContext\",\"Express\"],\"name\":\"sentry.javascript.browser\",\"version\":\"7.17.3\",\"packages\":[{\"name\":\"npm:@sentry/browser\",\"version\":\"7.17.3\"}]},\"breadcrumbs\":[{\"timestamp\":1762299206.482,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"/locales/en/translation.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299206.718,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/tokenlist\",\"status_code\":500},\"type\":\"http\"},{\"timestamp\":1762299206.907,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: Extension Provider\"},{\"timestamp\":1762299206.972,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/chains\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299206.981,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299206912&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299206.982,\"category\":\"sentry.event\",\"event_id\":\"33b0fe8915254b3b914f7716b95b9b62\",\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299210.414,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/capture/\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299210.414,\"category\":\"console\",\"data\":{\"arguments\":[{\"message\":\"Failed to fetch\",\"name\":\"TypeError\",\"stack\":\"TypeError: Failed to fetch\\n    at chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1332875\\n    at Nh.fetchWithTimeout (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751492)\\n    at Nh.post (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751213)\\n    at NB.captureEvent (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2037265)\\n    at async MB.handle (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2038540)\\n    at async chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2127690\"}],\"logger\":\"console\"},\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299210.415,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299210360&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299211.894,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#FA981D;font-weight:600;font-size:11px\",\"🔌 disconnected: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#FA981D;font-weight:600;font-size:11px 🔌 disconnected: Extension Provider\"},{\"timestamp\":1762299211.94,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: dApp Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: dApp Provider\"},{\"timestamp\":1762299212.018,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/health-check\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299212.1,\"category\":\"console\",\"data\":{\"arguments\":[{\"method\":\"metamask_getProviderState\",\"jsonrpc\":\"2.0\",\"id\":1322984124}],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"[object Object]\"},{\"timestamp\":1762299212.1,\"category\":\"console\",\"data\":{\"arguments\":[\"method: metamask_getProviderState\\njsonrpc: 2.0\\nid: 1322984124\\nsite: [object Object]\\nresult: [object Object]\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"method: metamask_getProviderState\\njsonrpc: 2.0\\nid: 1322984124\\nsite: [object Object]\\nresult: [object Object]\"},{\"timestamp\":1762299212.104,\"category\":\"console\",\"data\":{\"arguments\":[{\"jsonrpc\":\"2.0\",\"id\":1322984125,\"method\":\"metamask_sendDomainMetadata\",\"params\":\"[Object]\"}],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"[object Object]\"},{\"timestamp\":1762299212.104,\"category\":\"console\",\"data\":{\"arguments\":[\"jsonrpc: 2.0\\nid: 1322984125\\nmethod: metamask_sendDomainMetadata\\nparams: {\\\"domain\\\":\\\"core.app\\\",\\\"name\\\":\\\"Page Not Found (404)\\\",\\\"icon\\\":\\\"https://core.app/favicon.svg\\\"}\\nsite: [object Object]\\nresult: [object Object]\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"jsonrpc: 2.0\\nid: 1322984125\\nmethod: metamask_sendDomainMetadata\\nparams: {\\\"domain\\\":\\\"core.app\\\",\\\"name\\\":\\\"Page Not Found (404)\\\",\\\"icon\\\":\\\"https://core.app/favicon.svg\\\"}\\nsite: [object Object]\\nresult: [object Object]\"},{\"timestamp\":1762299215.432,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299215380&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299215.434,\"category\":\"sentry.event\",\"event_id\":\"50c4c4f363d74f52bfcdea964b420dc5\",\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299216.969,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/health-check\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299218.546,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: Extension Provider\"},{\"timestamp\":1762299218.605,\"category\":\"console\",\"data\":{\"arguments\":[{\"method\":\"metamask_accountsChanged\",\"params\":\"[Array]\"}],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"[object Object]\"},{\"timestamp\":1762299218.694,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/capture/\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299218.694,\"category\":\"console\",\"data\":{\"arguments\":[{\"message\":\"Failed to fetch\",\"name\":\"TypeError\",\"stack\":\"TypeError: Failed to fetch\\n    at chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1332875\\n    at Nh.fetchWithTimeout (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751492)\\n    at Nh.post (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751213)\\n    at NB.captureEvent (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2037265)\\n    at async MB.handle (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2038540)\\n    at async chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2127690\"}],\"logger\":\"console\"},\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299219.411,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#FA981D;font-weight:600;font-size:11px\",\"🔌 disconnected: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#FA981D;font-weight:600;font-size:11px 🔌 disconnected: Extension Provider\"},{\"timestamp\":1762299219.524,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#FA981D;font-weight:600;font-size:11px\",\"🔌 disconnected: dApp Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#FA981D;font-weight:600;font-size:11px 🔌 disconnected: dApp Provider\"},{\"timestamp\":1762299220.418,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299220373&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299221.431,\"category\":\"console\",\"data\":{\"arguments\":[\"%c%s\",\"color:#F2C53D;font-weight:600;font-size:11px\",\"⚡️ connection: Extension Provider\"],\"logger\":\"console\"},\"level\":\"log\",\"message\":\"%c%s color:#F2C53D;font-weight:600;font-size:11px ⚡️ connection: Extension Provider\"},{\"timestamp\":1762299221.498,\"category\":\"sentry.transaction\",\"event_id\":\"ca665c96d4e34e1493b4fea902611773\",\"message\":\"ca665c96d4e34e1493b4fea902611773\"},{\"timestamp\":1762299221.567,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/capture/\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299221.567,\"category\":\"console\",\"data\":{\"arguments\":[{\"message\":\"Failed to fetch\",\"name\":\"TypeError\",\"stack\":\"TypeError: Failed to fetch\\n    at chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1332875\\n    at Nh.fetchWithTimeout (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751492)\\n    at Nh.post (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:1751213)\\n    at NB.captureEvent (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2037265)\\n    at async MB.handle (chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2038540)\\n    at async chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js:2:2127690\"}],\"logger\":\"console\"},\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299221.977,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/health-check\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299225.236,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://ava-warden-bucket-prod.s3.eu-central-1.amazonaws.com/bridge_settings.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299225.236,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299224912&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"},{\"timestamp\":1762299225.238,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://blob-storage-mainnet.warden-avascan.info/bridge_settings.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299225.403,\"category\":\"sentry.event\",\"event_id\":\"5ebdfc22c63344b7bd9fcfb5c7fed53a\",\"level\":\"error\",\"message\":\"TypeError: Failed to fetch\"},{\"timestamp\":1762299225.48,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://s3.amazonaws.com/warden-mgmt-prod-mainnet.blockdaemon.com/bridge_settings.json\",\"status_code\":403},\"type\":\"http\"},{\"timestamp\":1762299225.48,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://avawarden-prod.s3.amazonaws.com/bridge_settings.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299225.48,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://warden-avax-storage.s3.amazonaws.com/bridge_settings.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299225.48,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://avalabs-mainnet-cce1-mainnet-warden-bucket.s3.ca-central-1.amazonaws.com/bridge_settings.json\",\"status_code\":403},\"type\":\"http\"},{\"timestamp\":1762299225.481,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://ava-warden-mainnet.s3.us-west-1.amazonaws.com/bridge_settings.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299225.481,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://chainstack-ava-warden-mainnet.s3.us-west-2.amazonaws.com/bridge_settings.json\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299226.973,\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://glacier-api.avax.network/v1/health-check\",\"status_code\":200},\"type\":\"http\"},{\"timestamp\":1762299229.977,\"category\":\"fetch\",\"data\":{\"method\":\"POST\",\"url\":\"https://data-posthog.avax.network/decide/?ip=0&_=1762299229924&v=2&ver=1.20.0\"},\"level\":\"error\",\"type\":\"http\"}],\"request\":{\"url\":\"chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:50 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "41"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.574",
+      "url": "https://glacier-api.avax.network/v1/health-check",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:51 GMT",
+        "content-encoding": "br",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "DYNAMIC",
+        "x-permitted-cross-domain-policies": "none",
+        "strict-transport-security": "max-age=0",
+        "server": "cloudflare",
+        "vary": "Origin, Accept-Encoding",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "x-execution-weight": "20",
+        "cache-control": "private,no-cache",
+        "cf-ray": "9997eb37ba36555b-BRU"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.575",
+      "url": "https://data-posthog.avax.network/decide/?ip=0&_=1762299234932&v=2&ver=1.20.0",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "data=eyJ0b2tlbiI6InBoY19WZ2ZUY1JlRGxrWjF1VHB1a0RpTkNUMFJaMlRGR0hROFBuZTRCbVVtcFdoIiwiZGlzdGluY3RfaWQiOiIxMGRmMzJhZS0zYTA2LTQ4NWEtODA2NC1hNTIzZjgzZTNjM2UiLCJncm91cHMiOnt9fQ%3D%3D",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://ngnmgaiibbadalgdblgmmjldnmopkfid/js/backgroundPage.js",
+      "id": "82459.576",
+      "url": "https://glacier-api.avax.network/v1/health-check",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:33:56 GMT",
+        "content-encoding": "br",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "DYNAMIC",
+        "x-permitted-cross-domain-policies": "none",
+        "strict-transport-security": "max-age=0",
+        "server": "cloudflare",
+        "vary": "Origin, Accept-Encoding",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "x-execution-weight": "20",
+        "cache-control": "private,no-cache",
+        "cf-ray": "9997eb56f9f1555b-BRU"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: agoakfejjabomempkjlepdflaleeobhb. Exiting..."
+}

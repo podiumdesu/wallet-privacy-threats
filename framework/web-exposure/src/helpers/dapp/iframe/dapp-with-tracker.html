@@ -1,0 +1,419 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Threat #4 Demo – DApp with Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        margin: 0;
+        padding: 0.75rem 1rem 1.5rem;
+        background: #f9fafb;
+        color: #111827;
+      }
+      h2 {
+        font-size: 1rem;
+        margin: 0 0 0.4rem;
+      }
+      .small {
+        font-size: 0.85rem;
+        color: #6b7280;
+      }
+      code {
+        background: #f3f4f6;
+        padding: 0.1rem 0.3rem;
+        border-radius: 999px;
+        font-size: 0.75rem;
+      }
+      button,
+      select {
+        padding: 0.35rem 0.7rem;
+        border-radius: 999px;
+        border: 1px solid #e5e7eb;
+        background: #ffffff;
+        cursor: pointer;
+        font-size: 0.8rem;
+        margin-right: 0.4rem;
+      }
+      button:hover {
+        background: #f3f4f6;
+      }
+      .box {
+        margin-top: 0.6rem;
+        padding: 0.7rem 0.8rem;
+        border-radius: 10px;
+        border: 1px solid #e5e7eb;
+        background: #ffffff;
+        font-size: 0.8rem;
+      }
+      .row {
+        margin: 0.4rem 0;
+      }
+      .label {
+        font-weight: 600;
+      }
+      .status {
+        font-family:
+          ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+        font-size: 0.75rem;
+      }
+      .entry {
+        padding: 0.3rem 0;
+        border-bottom: 1px solid #e5e7eb;
+      }
+      .entry:last-child {
+        border-bottom: none;
+      }
+      .wallet-name {
+        font-weight: 600;
+      }
+      .accounts {
+        margin-top: 0.1rem;
+        font-family:
+          ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+        font-size: 0.75rem;
+        word-break: break-all;
+      }
+      .tag {
+        display: inline-block;
+        font-size: 0.7rem;
+        padding: 0.1rem 0.4rem;
+        border-radius: 999px;
+        background: #eef2ff;
+        color: #4338ca;
+        margin-right: 0.35rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>DApp Page (origin where you connect)</h2>
+    <p class="small">
+      This simulates <code>dappX.com</code>. You can connect your wallet to this
+      dApp and revoke permissions. A third-party “tracker” script also runs
+      here, probes <code>eth_accounts</code>, and sends the results to the
+      embedding site via <code>postMessage</code>.
+    </p>
+
+    <div class="box">
+      <div class="row">
+        <span class="label">Detected wallet:</span>
+        <select id="providerSelect"></select>
+        <button id="scanBtn">Scan</button>
+      </div>
+      <div class="row">
+        <button id="connectBtn">Connect (eth_requestAccounts)</button>
+        <button id="revokeBtn">Revoke permissions</button>
+        <button id="checkBtn">Check eth_accounts now</button>
+      </div>
+      <div class="row">
+        <span class="label">Status:</span>
+        <span id="status" class="status">idle</span>
+      </div>
+      <div class="row">
+        <span class="label">Current eth_accounts:</span>
+        <code id="currentAccounts">[]</code>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="row">
+        <span class="label">Local tracker view (this iframe / page):</span>
+      </div>
+      <div id="localLog" class="small">
+        <div class="entry">(no tracker probe yet)</div>
+      </div>
+    </div>
+
+    <script>
+      const $ = (id) => document.getElementById(id);
+
+      const setText = (id, v) => {
+        const el = $(id);
+        if (el) el.textContent = v;
+      };
+
+      let providers = []; // { provider, name, info }
+      let selected = null;
+
+      // -------- Shared “tracker” logic (same structure as tracker-site) --------
+
+      async function discoverProviders() {
+        const announced = [];
+        const onAnnounce = (e) => {
+          const d = e?.detail;
+          if (d?.provider) announced.push(d);
+        };
+
+        window.addEventListener("eip6963:announceProvider", onAnnounce);
+        window.dispatchEvent(new Event("eip6963:requestProvider"));
+        await new Promise((r) => setTimeout(r, 500));
+        window.removeEventListener("eip6963:announceProvider", onAnnounce);
+
+        if (announced.length) {
+          const seen = new Set();
+          return announced
+            .filter((d) => {
+              if (seen.has(d.provider)) return false;
+              seen.add(d.provider);
+              return true;
+            })
+            .map((d) => ({
+              provider: d.provider,
+              name: d.info?.name || d.info?.rdns || "wallet",
+              info: d.info || {},
+            }));
+        }
+
+        if (window.ethereum) {
+          const list =
+            Array.isArray(window.ethereum.providers) &&
+            window.ethereum.providers.length
+              ? window.ethereum.providers
+              : [window.ethereum];
+          return list.map((p, i) => ({
+            provider: p,
+            name: p.isMetaMask
+              ? "MetaMask"
+              : p.isCoinbaseWallet
+                ? "Coinbase"
+                : `legacy:${i}`,
+            info: {},
+          }));
+        }
+        return [];
+      }
+
+      async function trackerProbe(contextLabel) {
+        const ps = await discoverProviders();
+        const results = [];
+
+        if (!ps.length) {
+          results.push({
+            wallet: "(none)",
+            accounts: null,
+            error: "No wallet providers detected",
+          });
+          return {
+            context: contextLabel,
+            origin: window.location.origin,
+            results,
+          };
+        }
+
+        for (const w of ps) {
+          try {
+            const accs = await w.provider.request({
+              method: "eth_accounts",
+              params: [],
+            });
+            results.push({
+              wallet: w.name,
+              accounts: accs || [],
+              error: null,
+            });
+          } catch (e) {
+            results.push({
+              wallet: w.name,
+              accounts: null,
+              error: e.message || String(e),
+            });
+          }
+        }
+
+        return {
+          context: contextLabel,
+          origin: window.location.origin,
+          results,
+        };
+      }
+
+      const localLog = $("localLog");
+
+      function renderTrackerLocal(data) {
+        localLog.innerHTML = "";
+        const header = document.createElement("div");
+        header.className = "entry";
+        header.innerHTML = `
+          <span class="tag">${data.context}</span>
+          <code>${data.origin}</code>
+        `;
+        localLog.appendChild(header);
+
+        data.results.forEach((r) => {
+          const div = document.createElement("div");
+          div.className = "entry";
+
+          const title = document.createElement("div");
+          title.innerHTML = `<span class="wallet-name">${r.wallet}</span> – ${
+            r.error
+              ? "error"
+              : Array.isArray(r.accounts) && r.accounts.length
+                ? `${r.accounts.length} account(s)`
+                : "empty"
+          }`;
+          const accounts = document.createElement("div");
+          accounts.className = "accounts";
+          accounts.textContent = r.error
+            ? r.error
+            : JSON.stringify(r.accounts || []);
+
+          div.appendChild(title);
+          div.appendChild(accounts);
+          localLog.appendChild(div);
+        });
+      }
+
+      async function runTrackerAndPost(contextLabel) {
+        const data = await trackerProbe(contextLabel);
+        renderTrackerLocal(data);
+
+        // “Leak” to parent: this is how the tracker origin learns your address.
+        try {
+          window.parent.postMessage(
+            {
+              type: "walletExposureFromIframe",
+              payload: data,
+            },
+            "*",
+          );
+        } catch (e) {
+          console.warn("postMessage to parent failed", e);
+        }
+      }
+
+      // -------- DApp UI logic (connect / revoke / check) --------
+
+      async function scanForDapp() {
+        setText("status", "scanning for wallets…");
+        providers = await discoverProviders();
+        const sel = $("providerSelect");
+        sel.innerHTML = "";
+
+        if (!providers.length) {
+          sel.appendChild(new Option("No wallet detected", ""));
+          selected = null;
+          setText("status", "no provider");
+          return;
+        }
+
+        providers.forEach((p, idx) =>
+          sel.appendChild(new Option(p.name, String(idx))),
+        );
+        sel.value = "0";
+        selected = providers[0].provider;
+        setText("status", `selected: ${providers[0].name}`);
+      }
+
+      $("scanBtn").addEventListener("click", scanForDapp);
+
+      $("providerSelect").addEventListener("change", (e) => {
+        const idx = Number(e.target.value);
+        if (Number.isInteger(idx) && providers[idx]) {
+          selected = providers[idx].provider;
+          setText("status", `selected: ${providers[idx].name}`);
+        } else {
+          selected = null;
+          setText("status", "no provider selected");
+        }
+      });
+
+      $("connectBtn").addEventListener("click", async () => {
+        if (!selected) {
+          setText("status", "no provider selected");
+          return;
+        }
+        setText("status", "calling eth_requestAccounts… (check your wallet)");
+        try {
+          const accs = await selected.request({
+            method: "eth_requestAccounts",
+            params: [],
+          });
+          setText("currentAccounts", JSON.stringify(accs || []));
+          setText("status", "connected");
+        } catch (e) {
+          console.error("eth_requestAccounts error", e);
+          setText("status", "eth_requestAccounts error");
+        }
+        // Tracker runs again after connect
+        runTrackerAndPost("after-connect");
+      });
+
+      $("revokeBtn").addEventListener("click", async () => {
+        if (!selected) {
+          setText("status", "no provider selected");
+          return;
+        }
+        setText("status", "calling wallet_revokePermissions…");
+        try {
+          await selected.request({
+            method: "wallet_revokePermissions",
+            params: [{ eth_accounts: {} }],
+          });
+        } catch (e) {
+          console.warn("wallet_revokePermissions failed/unsupported", e);
+          setText("status", "revoke failed or unsupported");
+        }
+
+        // Check again after revoke
+        setText("status", "checking eth_accounts after revoke…");
+        try {
+          const accs = await selected.request({
+            method: "eth_accounts",
+            params: [],
+          });
+          setText("currentAccounts", JSON.stringify(accs || []));
+        } catch (e) {
+          console.error("eth_accounts after revoke failed", e);
+          setText("currentAccounts", JSON.stringify(["error", e.message]));
+        }
+        setText("status", "revoke flow completed");
+        runTrackerAndPost("after-revoke");
+      });
+
+      $("checkBtn").addEventListener("click", async () => {
+        if (!selected) {
+          setText("status", "no provider selected");
+          return;
+        }
+        setText("status", "checking eth_accounts…");
+        try {
+          const accs = await selected.request({
+            method: "eth_accounts",
+            params: [],
+          });
+          setText("currentAccounts", JSON.stringify(accs || []));
+          setText("status", "eth_accounts checked");
+        } catch (e) {
+          console.error("eth_accounts check failed", e);
+          setText("currentAccounts", JSON.stringify(["error", e.message]));
+          setText("status", "eth_accounts error");
+        }
+        runTrackerAndPost("manual-check");
+      });
+
+      // On load: behave like a real tracker – auto-probe without user action.
+      (async () => {
+        await scanForDapp();
+        runTrackerAndPost("on-load");
+        // Also sync currentAccounts with what eth_accounts returns initially:
+        if (selected) {
+          try {
+            const accs = await selected.request({
+              method: "eth_accounts",
+              params: [],
+            });
+            setText("currentAccounts", JSON.stringify(accs || []));
+          } catch {
+            // ignore, leave default []
+          }
+        }
+      })();
+    </script>
+  </body>
+</html>

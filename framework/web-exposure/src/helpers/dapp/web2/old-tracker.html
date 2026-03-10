@@ -1,0 +1,467 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Threat #4 Demo – Tracker Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 0 1rem 3rem;
+        background: #f5f5f7;
+        color: #111827;
+      }
+      h1 {
+        font-size: 1.6rem;
+        margin-bottom: 1.25rem;
+        text-align: center;
+      }
+      .small {
+        font-size: 0.9rem;
+        color: #6b7280;
+      }
+      code {
+        background: #f3f4f6;
+        padding: 0.15rem 0.35rem;
+        border-radius: 999px;
+        font-size: 0.8rem;
+      }
+      button {
+        padding: 0.5rem 1rem;
+        border-radius: 999px;
+        border: 1px solid #e5e7eb;
+        background: #fff;
+        cursor: pointer;
+        font-size: 0.95rem;
+      }
+      button:hover {
+        background: #f3f4f6;
+      }
+      button:active {
+        transform: translateY(1px);
+      }
+
+      /* Big step cards */
+      .steps {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+      }
+
+      .step-card {
+        background: #ffffff;
+        border-radius: 18px;
+        border: 1px solid #e5e7eb;
+        padding: 1.25rem 1.5rem;
+        box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+      }
+
+      .step-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .step-label {
+        font-size: 0.9rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: #4f46e5;
+      }
+
+      .step-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-top: 0.15rem;
+      }
+
+      .step-text {
+        font-size: 0.9rem;
+        color: #4b5563;
+        margin-bottom: 0.75rem;
+      }
+
+      iframe {
+        width: 100%;
+        height: 130px;
+        border: 1px dashed #e5e7eb;
+        border-radius: 12px;
+        background: #f9fafb;
+        margin-top: 0.75rem;
+      }
+
+      /* Logs layout: two columns */
+      .log-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 0.75rem;
+      }
+
+      .log-column {
+        flex: 1 1 0;
+        min-width: 0;
+      }
+
+      .log-column-title {
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+        color: #4b5563;
+      }
+
+      .log {
+        padding: 0.75rem 1rem;
+        border-radius: 12px;
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        font-size: 0.85rem;
+        max-height: 260px;
+        overflow-y: auto;
+      }
+      .entry {
+        padding: 0.4rem 0;
+        border-bottom: 1px solid #e5e7eb;
+      }
+      .entry:last-child {
+        border-bottom: none;
+      }
+      .tag {
+        display: inline-block;
+        font-size: 0.7rem;
+        padding: 0.1rem 0.4rem;
+        border-radius: 999px;
+        background: #eef2ff;
+        color: #4338ca;
+        margin-right: 0.35rem;
+      }
+      .wallet-name {
+        font-weight: 600;
+      }
+      .accounts {
+        margin-top: 0.1rem;
+        font-family:
+          ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+        font-size: 0.75rem;
+        word-break: break-all;
+      }
+
+      .placeholder-title {
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin-bottom: 0.25rem;
+      }
+      .placeholder-text {
+        font-size: 0.8rem;
+        color: #6b7280;
+      }
+
+      @media (max-width: 700px) {
+        .log-grid {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Threat #4 Demo</h1>
+
+    <div class="steps">
+      <!-- STEP 1 -->
+      <section class="step-card">
+        <div class="step-header">
+          <div>
+            <div class="step-label">Step 1</div>
+            <div class="step-title">Open a dApp and connect your wallet</div>
+          </div>
+          <button id="openDapp">Open demo dApp</button>
+        </div>
+        <p class="step-text">
+          Connect your wallet once in the demo dApp, then close that tab and
+          come back here.
+        </p>
+        <iframe
+          id="dappFrame"
+          src="http://localhost:8888/dapp-with-tracker"
+        ></iframe>
+      </section>
+
+      <!-- STEP 2 -->
+      <section class="step-card">
+        <div class="step-header">
+          <div>
+            <div class="step-label">Step 2</div>
+            <div class="step-title">
+              See what this page &amp; the iframe can read
+            </div>
+          </div>
+          <button id="rerunTopProbe">Run check again (this page)</button>
+        </div>
+        <p class="step-text">
+          This page and the embedded dApp both ask your wallet for accounts
+          using <code>eth_accounts</code>. Whatever is exposed will appear
+          below.
+        </p>
+
+        <div class="log-grid">
+          <!-- Left: top-level -->
+          <div class="log-column">
+            <div class="log-column-title">Top-level (this page)</div>
+            <div class="log small" id="logTop">
+              <div class="entry placeholder">
+                <div class="placeholder-title">
+                  Waiting for top-level result…
+                </div>
+                <div class="placeholder-text">
+                  When the check runs, you’ll see what this origin can read from
+                  your wallet.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: iframe -->
+          <div class="log-column">
+            <div class="log-column-title">Iframe (dApp)</div>
+            <div class="log small" id="logIframe">
+              <div class="entry placeholder">
+                <div class="placeholder-title">Waiting for iframe result…</div>
+                <div class="placeholder-text">
+                  When the dApp sends data via <code>postMessage</code>, you’ll
+                  see what it can read.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      // --- Shared wallet probe logic (simulating a third-party tracker script) ---
+      function discoverProviders() {
+        return new Promise(function (resolve) {
+          var announced = [];
+
+          function onAnnounce(e) {
+            if (!e || !e.detail) return;
+            var d = e.detail;
+            if (d && d.provider) {
+              announced.push(d);
+            }
+          }
+
+          window.addEventListener("eip6963:announceProvider", onAnnounce);
+          window.dispatchEvent(new Event("eip6963:requestProvider"));
+
+          setTimeout(function () {
+            window.removeEventListener("eip6963:announceProvider", onAnnounce);
+
+            if (announced.length > 0) {
+              var seen = new Set();
+              var list = announced
+                .filter(function (d) {
+                  if (seen.has(d.provider)) return false;
+                  seen.add(d.provider);
+                  return true;
+                })
+                .map(function (d) {
+                  var info = d.info || {};
+                  return {
+                    provider: d.provider,
+                    name: info.name || info.rdns || "wallet",
+                  };
+                });
+
+              resolve(list);
+              return;
+            }
+
+            // Fallback to window.ethereum
+            if (window.ethereum) {
+              var providers;
+              if (
+                Array.isArray(window.ethereum.providers) &&
+                window.ethereum.providers.length
+              ) {
+                providers = window.ethereum.providers;
+              } else {
+                providers = [window.ethereum];
+              }
+
+              resolve(
+                providers.map(function (p, i) {
+                  return {
+                    provider: p,
+                    name: p.isMetaMask
+                      ? "MetaMask"
+                      : p.isCoinbaseWallet
+                        ? "Coinbase"
+                        : "legacy:" + i,
+                  };
+                }),
+              );
+            } else {
+              resolve([]);
+            }
+          }, 500);
+        });
+      }
+
+      async function probeWallets(contextLabel) {
+        var providers = await discoverProviders();
+        var results = [];
+
+        if (!providers.length) {
+          results.push({
+            wallet: "(none)",
+            accounts: null,
+            error: "No wallet providers detected",
+          });
+          return {
+            context: contextLabel,
+            origin: window.location.origin,
+            results: results,
+          };
+        }
+
+        for (var i = 0; i < providers.length; i++) {
+          var w = providers[i];
+          try {
+            var accs = await w.provider.request({
+              method: "eth_accounts",
+              params: [],
+            });
+            results.push({
+              wallet: w.name,
+              accounts: accs || [],
+              error: null,
+            });
+          } catch (e) {
+            results.push({
+              wallet: w.name,
+              accounts: null,
+              error: e && e.message ? e.message : String(e),
+            });
+          }
+        }
+
+        return {
+          context: contextLabel,
+          origin: window.location.origin,
+          results: results,
+        };
+      }
+
+      // --- UI helpers on the tracker site ---
+      var logTopEl = document.getElementById("logTop");
+      var logIframeEl = document.getElementById("logIframe");
+
+      function appendEntryTo(logEl, sourceLabel, data) {
+        if (!logEl) return;
+
+        // Clear placeholder if it's still there
+        if (
+          logEl.firstElementChild &&
+          logEl.firstElementChild.classList.contains("placeholder")
+        ) {
+          logEl.innerHTML = "";
+        }
+
+        var container = document.createElement("div");
+        container.className = "entry";
+
+        var header = document.createElement("div");
+        header.innerHTML =
+          '<span class="tag">' +
+          sourceLabel +
+          "</span>" +
+          "<code>" +
+          data.origin +
+          "</code>";
+        container.appendChild(header);
+
+        data.results.forEach(function (r) {
+          var line = document.createElement("div");
+          var walletName = document.createElement("span");
+          walletName.className = "wallet-name";
+          walletName.textContent = r.wallet;
+
+          var status = document.createElement("span");
+          status.style.marginLeft = "0.35rem";
+          status.textContent = r.error
+            ? " (error)"
+            : Array.isArray(r.accounts) && r.accounts.length
+              ? " (" +
+                r.accounts.length +
+                " account" +
+                (r.accounts.length > 1 ? "s" : "") +
+                ")"
+              : " (empty)";
+
+          var accounts = document.createElement("div");
+          accounts.className = "accounts";
+          accounts.textContent = r.error
+            ? r.error
+            : JSON.stringify(r.accounts || []);
+
+          line.appendChild(walletName);
+          line.appendChild(status);
+          line.appendChild(accounts);
+          container.appendChild(line);
+        });
+
+        logEl.appendChild(container);
+      }
+
+      // Listen for messages from the iframe (simulated tracker inside dApp)
+      window.addEventListener("message", function (event) {
+        var msg = event.data;
+        if (!msg || msg.type !== "walletExposureFromIframe") return;
+        appendEntryTo(logIframeEl, "iframe", msg.payload);
+      });
+
+      // Run a top-level probe immediately (what the tracker sees on this Web2 site)
+      (async function () {
+        try {
+          var data = await probeWallets("top-level");
+          appendEntryTo(logTopEl, "top-level", data);
+        } catch (e) {
+          console.error("Top-level probe error:", e);
+        }
+      })();
+
+      document
+        .getElementById("rerunTopProbe")
+        .addEventListener("click", async function () {
+          try {
+            var data = await probeWallets("top-level (manual)");
+            appendEntryTo(logTopEl, "top-level", data);
+          } catch (e) {
+            console.error("Manual probe error:", e);
+          }
+        });
+
+      // Open the dApp in a separate tab for Step 1
+      document
+        .getElementById("openDapp")
+        .addEventListener("click", function () {
+          window.open(
+            "http://localhost:8888/dapp-with-tracker",
+            "_blank",
+            "noopener",
+          );
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,281 @@
+{
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "profilePath": "./final-results/85-version/extensions/profiles_new/jfdlamikmbghhapbgfoogdffldioobgl",
+        "links": 10,
+        "walletPath": "./preparation/2411_unzipped_extensions/jfdlamikmbghhapbgfoogdffldioobgl",
+        "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T13-17-53",
+        "force": false,
+        "executablePath": "/opt/homebrew/bin/chromium"
+    },
+    "pathID": "jfdlamikmbghhapbgfoogdffldioobgl",
+    "timestamps": {
+        "start": 1764074626164,
+        "end": 1764074704168
+    },
+    "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;0x196E98A561479ff97D533401Cc10e95b238e1a2A",
+    "walletName": "hana",
+    "notes": "",
+    "extensionID": "jfdlamikmbghhapbgfoogdffldioobgl",
+    "password": "",
+    "requests": [
+        {
+            "requestContext": [
+                "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/main.html"
+            ],
+            "id": "16476.41",
+            "ts": 1764074628388,
+            "url": "https://api.ipify.org/?format=json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 25 Nov 2025 12:43:48 GMT",
+                "content-encoding": "br",
+                "cf-cache-status": "DYNAMIC",
+                "server": "cloudflare",
+                "cf-ray": "9a413bdb7c8faeaf-BRU",
+                "vary": "Origin",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/main.html"
+            ],
+            "id": "16476.36",
+            "ts": 1764074628412,
+            "url": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/fonts/Montserrat-Bold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 05 Nov 2025 05:42:26 GMT",
+                "etag": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/main.html"
+            ],
+            "id": "16476.30",
+            "ts": 1764074628412,
+            "url": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/fonts/MontserratAlternates-ExtraBold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 05 Nov 2025 05:42:26 GMT",
+                "etag": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/main.html"
+            ],
+            "id": "16476.34",
+            "ts": 1764074628412,
+            "url": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/fonts/Montserrat-Medium.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 05 Nov 2025 05:42:26 GMT",
+                "etag": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/main.html"
+            ],
+            "id": "16476.46",
+            "ts": 1764074628413,
+            "url": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/images/29010667b3f02992d8fb.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 05 Nov 2025 05:42:26 GMT",
+                "etag": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/main.html"
+            ],
+            "id": "16476.33",
+            "ts": 1764074628418,
+            "url": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/fonts/Montserrat-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 05 Nov 2025 05:42:26 GMT",
+                "etag": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/main.html"
+            ],
+            "id": "16476.26",
+            "ts": 1764074628419,
+            "url": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/fonts/proximanova-semibold-webfont.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 05 Nov 2025 05:42:26 GMT",
+                "etag": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/main.html"
+            ],
+            "id": "16476.49",
+            "ts": 1764074628507,
+            "url": "https://api.segment.io/v1/track",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "authorization": "Basic R3lFQVBTbFlvUmVWTjhsbFdOOHdyTnI3QjgwRFRLcUg6",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"event\":\"App Loaded\",\"properties\":{},\"anonymousId\":\"e8f96fef-4057-4047-9c79-2c2f406a8697\",\"context\":{\"ip\":\"81.164.129.169\"},\"timestamp\":\"2025-11-25T12:43:48.506Z\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+                "date": "Tue, 25 Nov 2025 12:43:48 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "access-control-allow-credentials": "true",
+                "content-length": "21",
+                "vary": "Origin",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/main.html"
+            ],
+            "id": "16476.37",
+            "ts": 1764074642365,
+            "url": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/fonts/Montserrat-ExtraBold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 05 Nov 2025 05:42:26 GMT",
+                "etag": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/main.html"
+            ],
+            "id": "16476.57",
+            "ts": 1764074642366,
+            "url": "https://api.segment.io/v1/track",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "content-type": "application/json",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "authorization": "Basic R3lFQVBTbFlvUmVWTjhsbFdOOHdyTnI3QjgwRFRLcUg6",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "{\"event\":\"Unlocked Wallet\",\"properties\":{},\"anonymousId\":\"e8f96fef-4057-4047-9c79-2c2f406a8697\",\"context\":{\"ip\":\"81.164.129.169\"},\"timestamp\":\"2025-11-25T12:44:02.364Z\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl",
+                "date": "Tue, 25 Nov 2025 12:44:02 GMT",
+                "strict-transport-security": "max-age=31536000",
+                "access-control-allow-credentials": "true",
+                "content-length": "21",
+                "vary": "Origin",
+                "content-type": "application/json"
+            }
+        }
+    ],
+    "success": true
+}

@@ -1,0 +1,162 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/new_version/extensions/profiles_new/bfnaelmomeimhlpmgjnjophhpkkoljpa",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets-new-version/bfnaelmomeimhlpmgjnjophhpkkoljpa",
+    "destination": "./final-results/new_version/extensions/crawl_new/2025-11-07T19-32-55",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762540843442,
+    "end": 1762540901519
+  },
+  "extensionID": "bfnaelmomeimhlpmgjnjophhpkkoljpa",
+  "serviceWorker": "service_worker",
+  "walletName": "phantom",
+  "notes": "",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;0x196E98A561479ff97D533401Cc10e95b238e1a2A",
+  "password": "Default1Password1!",
+  "pathID": "bfnaelmomeimhlpmgjnjophhpkkoljpa",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://bfnaelmomeimhlpmgjnjophhpkkoljpa/background/serviceWorker.js",
+      "ts": 1762540844818,
+      "id": "51788.128",
+      "url": "chrome-extension://bfnaelmomeimhlpmgjnjophhpkkoljpa/locales/en/translation.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'none'; worker-src 'self'",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 29 Oct 2025 18:07:00 GMT",
+        "etag": "\"HTp0kHPswMgnzY6uEO/OE9S9DWs=\"",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://bfnaelmomeimhlpmgjnjophhpkkoljpa/background/serviceWorker.js",
+      "ts": 1762540844818,
+      "id": "51788.129",
+      "url": "chrome-extension://bfnaelmomeimhlpmgjnjophhpkkoljpa/locales/en/translation.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'none'; worker-src 'self'",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 29 Oct 2025 18:07:00 GMT",
+        "etag": "\"HTp0kHPswMgnzY6uEO/OE9S9DWs=\"",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://bfnaelmomeimhlpmgjnjophhpkkoljpa/background/serviceWorker.js",
+      "ts": 1762540845073,
+      "id": "51788.134",
+      "url": "https://eppo-proxy.phantom.app/api/flag-config/v1/config?apiKey=92ab006e-0974-4c69-a6b7-132ad504a071&sdkName=eppo-phantom&sdkVersion=0.0.1",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:40:45 GMT",
+        "content-security-policy": "default-src 'none';",
+        "cf-cache-status": "HIT",
+        "last-modified": "Fri, 07 Nov 2025 18:39:55 GMT",
+        "server": "cloudflare",
+        "age": "50",
+        "vary": "Accept-Encoding",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=60, stale-while-revalidate=120, stale-if-error=3600",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99aef5fa3b52b781-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://bfnaelmomeimhlpmgjnjophhpkkoljpa/background/serviceWorker.js",
+      "ts": 1762540845358,
+      "id": "51788.139",
+      "url": "https://data.phantom.app/v1/batch",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "authorization": "Basic ODU0YWI5OGEtYWZhZC00YWZlLTgyNzEtYjlkMDExMTFiYjU1Og==",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"batch\":[{\"userId\":\"97c685b3ab1d5d7556c6b336f2573ade0b3b3d68d36b6b2685d1a7bf2b36caa8\",\"anonymousId\":\"d3ee06d3-4203-45b9-a808-f1d021d239cf\",\"context\":{\"library\":{\"name\":\"analytics-service-worker\",\"version\":\"3.0.6\"},\"traits\":{\"appVersion\":\"25.40.0\",\"authUserId\":\"99d52f1b-395d-4163-9467-845560398c66\",\"displayLanguage\":\"en-GB\",\"hasSolanaAddress\":true,\"hasEthereumAddress\":true,\"hasBitcoinAddress\":true,\"hasSuiAddress\":true,\"accountType\":\"seed\",\"rootID\":\"ef07d4748c2354fb5b4a27172de120682314fdba9bc33137261e0b72e736b678\",\"rootIds\":[\"ef07d4748c2354fb5b4a27172de120682314fdba9bc33137261e0b72e736b678\"],\"accountID\":\"97c685b3ab1d5d7556c6b336f2573ade0b3b3d68d36b6b2685d1a7bf2b36caa8\",\"isReadOnly\":false,\"enabledChains\":\"Solana, Ethereum, Base, Sui, Polygon, Bitcoin\",\"idType\":\"accountID\"},\"browser\":{\"name\":\"Chromium\",\"version\":\"116\",\"platform\":\"macOS\",\"platformVersion\":\"14.0.0\"}},\"type\":\"identify\",\"channel\":\"service-worker\",\"_metadata\":{\"serviceWorkerVersion\":\"3.0.6\"},\"originalTimestamp\":\"2025-11-07T18:40:45.356Z\",\"messageId\":\"c56693cc-c3a6-45c0-a82c-e064607fabde\",\"sentAt\":\"2025-11-07T18:40:45.356Z\"}],\"sentAt\":\"2025-11-07T18:40:45.356Z\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:40:45 GMT",
+        "content-security-policy": "default-src 'none';",
+        "server": "cloudflare",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain;charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99aef5fbb945b9a1-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "11",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://bfnaelmomeimhlpmgjnjophhpkkoljpa/background/serviceWorker.js",
+      "ts": 1762540875303,
+      "id": "51788.1256",
+      "url": "https://eppo-proxy.phantom.app/api/flag-config/v1/config?apiKey=92ab006e-0974-4c69-a6b7-132ad504a071&sdkName=eppo-phantom&sdkVersion=0.0.1",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:41:00 GMT",
+        "content-security-policy": "default-src 'none';",
+        "cf-cache-status": "HIT",
+        "last-modified": "Fri, 07 Nov 2025 18:40:55 GMT",
+        "server": "cloudflare",
+        "age": "5",
+        "vary": "Accept-Encoding",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=60, stale-while-revalidate=120, stale-if-error=3600",
+        "server-timing": "cfExtPri",
+        "cf-ray": "99aef65ae84eb781-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "priority": "u=1,i"
+      }
+    }
+  ],
+  "success": true
+}

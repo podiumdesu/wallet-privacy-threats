@@ -1,0 +1,623 @@
+{
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "profilePath": "./final-results/old_version/extensions/profiles_new/fhbohimaelbohpjbbldcngcnapndodjp",
+        "links": 10,
+        "walletPath": "./preparation/original-wallets/fhbohimaelbohpjbbldcngcnapndodjp",
+        "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+        "force": false,
+        "executablePath": "/opt/homebrew/bin/chromium"
+    },
+    "pathID": "fhbohimaelbohpjbbldcngcnapndodjp",
+    "timestamps": {
+        "start": 1762300573388,
+        "end": 1762300637457
+    },
+    "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+    "walletName": "binancewallet",
+    "notes": "dead-inaccessible",
+    "extensionID": "fhbohimaelbohpjbbldcngcnapndodjp",
+    "password": "",
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "AE5282F3CE71898FB46CDAFCA759E6E3",
+            "url": "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self'; object-src 'self';",
+                "content-type": "text/html",
+                "etag": "\"Ll0RCqlkAPXAY0jTCVF0sMMGrYI=\"",
+                "last-modified": "Wed, 04 Jan 2023 13:07:41 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.9",
+            "url": "https://dex-bin.bnbstatic.com/static/fonts/index.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 15:58:50 GMT",
+                "content-encoding": "gzip",
+                "via": "1.1 f581f5706f73f8af05a831bfd7baee76.cloudfront.net (CloudFront)",
+                "last-modified": "Wed, 12 Jul 2023 09:58:46 GMT",
+                "server": "AmazonS3",
+                "x-amz-cf-pop": "BRU50-P2",
+                "x-amz-server-side-encryption": "AES256",
+                "etag": "W/\"87e52e6b420baaf081f7f0b33a048ff4\"",
+                "vary": "accept-encoding",
+                "x-cache": "Miss from cloudfront",
+                "content-type": "text/css",
+                "cache-control": "private, max-age=259200",
+                "x-amz-cf-id": "WjxWIY_pBPT9PV5-xwiPJT1u9Lf3BTOubNcPJoNv_b3_5pns8PkbQA=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.10",
+            "url": "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup-vendor.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:41 GMT",
+                "etag": "\"Ll0RCqlkAPXAY0jTCVF0sMMGrYI=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.11",
+            "url": "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup-shared.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:41 GMT",
+                "etag": "\"Ll0RCqlkAPXAY0jTCVF0sMMGrYI=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.12",
+            "url": "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self'; object-src 'self';",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 13:07:41 GMT",
+                "etag": "\"Ll0RCqlkAPXAY0jTCVF0sMMGrYI=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.21",
+            "url": "https://dex-bin.bnbstatic.com/static/fonts/BinancePlex-Regular.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "https://dex-bin.bnbstatic.com/static/fonts/index.css",
+                "origin": "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 15:58:51 GMT",
+                "via": "1.1 f581f5706f73f8af05a831bfd7baee76.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "BRU50-P2",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Miss from cloudfront",
+                "content-length": "44332",
+                "last-modified": "Wed, 12 Jul 2023 09:58:46 GMT",
+                "server": "AmazonS3",
+                "etag": "\"d41b99751f48c3797a5e7eea91a41124\"",
+                "access-control-max-age": "10800",
+                "access-control-allow-methods": "GET, HEAD",
+                "content-type": "binary/octet-stream",
+                "access-control-allow-origin": "*",
+                "cache-control": "private, max-age=259200",
+                "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "hFcHjC2KLl6V2wKE_eoHcXTf3CUxV_Qp_5GnfLAH6Re6VKVdNaHdrA=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.35",
+            "url": "https://o912260.ingest.sentry.io/api/5948425/envelope/?sentry_key=55aba0f43b2d44a3aa0aac3a074f1558&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2025-11-04T23:56:14.633Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"6.9.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"87d28df6007a478f85061a4c358ab898\",\"init\":true,\"started\":\"2025-11-04T23:56:14.632Z\",\"timestamp\":\"2025-11-04T23:56:14.632Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"2.13.7\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:56:14 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "via": "1.1 google",
+                "server": "nginx",
+                "vary": "origin, access-control-request-method, access-control-request-headers",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.36",
+            "url": "https://mainnet.infura.io/v3/b8cdb0e4cff24599a286bf8e87ff1c96",
+            "type": "Xhr",
+            "status": 401,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"eth_call\",\"params\":[{\"data\":\"0x76671808\",\"to\":\"0x638646503746d5456209e33a2ff5e3226d698bea\"},\"latest\"]}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Tue, 04 Nov 2025 23:56:14 GMT",
+                "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+                "x-content-type-options": "nosniff",
+                "content-length": "19",
+                "vary": "Accept-Encoding",
+                "content-type": "text/plain; charset=utf-8"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.37",
+            "url": "https://wallet.binance.org/api/v1/networks",
+            "type": "Xhr",
+            "status": 503,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:56:15 GMT",
+                "via": "1.1 bf306310baed8284feff8fc7d27fbbc0.cloudfront.net (CloudFront)",
+                "server": "awselb/2.0",
+                "x-amz-cf-pop": "BRU50-P2",
+                "x-cache": "Error from cloudfront",
+                "content-type": "text/html",
+                "content-length": "162",
+                "x-amz-cf-id": "d2j_e8L3Ozj-BgLMsXlIe9hKfeQxCtW7mb4u9fVUUHVszRZP7K3c5Q=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.38",
+            "url": "https://o912260.ingest.sentry.io/api/5948425/envelope/?sentry_key=55aba0f43b2d44a3aa0aac3a074f1558&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2025-11-04T23:56:15.738Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"6.9.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"87d28df6007a478f85061a4c358ab898\",\"init\":false,\"started\":\"2025-11-04T23:56:14.632Z\",\"timestamp\":\"2025-11-04T23:56:15.737Z\",\"status\":\"ok\",\"errors\":1,\"attrs\":{\"release\":\"2.13.7\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:56:15 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "via": "1.1 google",
+                "server": "nginx",
+                "vary": "origin, access-control-request-method, access-control-request-headers",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.39",
+            "url": "https://o912260.ingest.sentry.io/api/5948425/store/?sentry_key=55aba0f43b2d44a3aa0aac3a074f1558&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"exception\":{\"values\":[{\"type\":\"Request Api Error: 503\",\"value\":\"https://wallet.binance.org/api/v1/networks\",\"stacktrace\":{\"frames\":[{\"colno\":3117534,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"a\",\"in_app\":true,\"lineno\":2},{\"colno\":3118795,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"Object.next\",\"in_app\":true,\"lineno\":2},{\"colno\":3118690,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2},{\"colno\":1880304,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2},{\"colno\":1909401,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"Module.Oe\",\"in_app\":true,\"lineno\":2},{\"colno\":1908571,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"ve\",\"in_app\":true,\"lineno\":2},{\"colno\":1903689,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"e.withScope\",\"in_app\":true,\"lineno\":2},{\"colno\":1880333,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2},{\"filename\":\"https://wallet.binance.org/api/v1/networks\",\"function\":\"Request Api Error: 503: \",\"in_app\":true}]},\"mechanism\":{\"handled\":true,\"type\":\"generic\"}}]},\"level\":\"error\",\"event_id\":\"f2959b1631cc45da8a467fcc1d2624cc\",\"platform\":\"javascript\",\"timestamp\":1762300575.732,\"environment\":\"production\",\"release\":\"2.13.7\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"LinkedErrors\",\"Dedupe\",\"UserAgent\",\"GlobalHandlers\"],\"name\":\"sentry.javascript.react\",\"version\":\"6.9.0\",\"packages\":[{\"name\":\"npm:@sentry/react\",\"version\":\"6.9.0\"}]},\"extra\":{\"url\":\"https://wallet.binance.org/api/v1/networks\",\"status\":503,\"requestParams\":{},\"response\":\"\\\"<html>\\\\r\\\\n<head><title>503 Service Temporarily Unavailable</title></head>\\\\r\\\\n<body>\\\\r\\\\n<center><h1>503 Service Temporarily Unavailable</h1></center>\\\\r\\\\n</body>\\\\r\\\\n</html>\\\\r\\\\n\\\"\"},\"breadcrumbs\":[{\"timestamp\":1762300575.727,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://wallet.binance.org/api/v1/networks\",\"status_code\":503},\"type\":\"http\"}],\"request\":{\"url\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:56:15 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "via": "1.1 google",
+                "server": "nginx",
+                "vary": "origin, access-control-request-method, access-control-request-headers",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                "content-length": "41"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "A55C2882DD4D3E7AB8B199F13867CD0B",
+            "url": "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self'; object-src 'self';",
+                "content-type": "text/html",
+                "etag": "\"Ll0RCqlkAPXAY0jTCVF0sMMGrYI=\"",
+                "last-modified": "Wed, 04 Jan 2023 13:07:41 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.41",
+            "url": "https://dex-bin.bnbstatic.com/static/fonts/index.css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.42",
+            "url": "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup-vendor.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"Ll0RCqlkAPXAY0jTCVF0sMMGrYI=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 13:07:41 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.43",
+            "url": "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup-shared.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"Ll0RCqlkAPXAY0jTCVF0sMMGrYI=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 13:07:41 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.44",
+            "url": "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"Ll0RCqlkAPXAY0jTCVF0sMMGrYI=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 13:07:41 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.53",
+            "url": "https://dex-bin.bnbstatic.com/static/fonts/BinancePlex-Regular.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 15:58:51 GMT",
+                "via": "1.1 f581f5706f73f8af05a831bfd7baee76.cloudfront.net (CloudFront)",
+                "x-amz-cf-pop": "BRU50-P2",
+                "x-amz-server-side-encryption": "AES256",
+                "x-cache": "Miss from cloudfront",
+                "content-length": "44332",
+                "last-modified": "Wed, 12 Jul 2023 09:58:46 GMT",
+                "server": "AmazonS3",
+                "etag": "\"d41b99751f48c3797a5e7eea91a41124\"",
+                "access-control-max-age": "10800",
+                "access-control-allow-methods": "GET, HEAD",
+                "content-type": "binary/octet-stream",
+                "access-control-allow-origin": "*",
+                "cache-control": "private, max-age=259200",
+                "vary": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method",
+                "accept-ranges": "bytes",
+                "x-amz-cf-id": "hFcHjC2KLl6V2wKE_eoHcXTf3CUxV_Qp_5GnfLAH6Re6VKVdNaHdrA=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.55",
+            "url": "https://dex-bin.bnbstatic.com/static/fonts/BinancePlex-Regular.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.67",
+            "url": "https://o912260.ingest.sentry.io/api/5948425/envelope/?sentry_key=55aba0f43b2d44a3aa0aac3a074f1558&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2025-11-04T23:56:19.457Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"6.9.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"adde073a81ad44d1b612dd4335a179c4\",\"init\":true,\"started\":\"2025-11-04T23:56:19.456Z\",\"timestamp\":\"2025-11-04T23:56:19.456Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"2.13.7\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:56:19 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "via": "1.1 google",
+                "server": "nginx",
+                "vary": "origin, access-control-request-method, access-control-request-headers",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.68",
+            "url": "https://mainnet.infura.io/v3/b8cdb0e4cff24599a286bf8e87ff1c96",
+            "type": "Xhr",
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"eth_call\",\"params\":[{\"data\":\"0x76671808\",\"to\":\"0x638646503746d5456209e33a2ff5e3226d698bea\"},\"latest\"]}",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.69",
+            "url": "https://wallet.binance.org/api/v1/networks",
+            "type": "Xhr",
+            "status": 503,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:56:15 GMT",
+                "via": "1.1 bf306310baed8284feff8fc7d27fbbc0.cloudfront.net (CloudFront)",
+                "server": "awselb/2.0",
+                "x-amz-cf-pop": "BRU50-P2",
+                "age": "4",
+                "x-cache": "Error from cloudfront",
+                "content-type": "text/html",
+                "content-length": "162",
+                "x-amz-cf-id": "gcpUHnqMSiLhbs1nRZWX1SmGQpcqe2OSF_jefMjlferjCc82rYjZSA=="
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.70",
+            "url": "https://o912260.ingest.sentry.io/api/5948425/envelope/?sentry_key=55aba0f43b2d44a3aa0aac3a074f1558&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"sent_at\":\"2025-11-04T23:56:19.517Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"6.9.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"adde073a81ad44d1b612dd4335a179c4\",\"init\":false,\"started\":\"2025-11-04T23:56:19.456Z\",\"timestamp\":\"2025-11-04T23:56:19.517Z\",\"status\":\"ok\",\"errors\":1,\"attrs\":{\"release\":\"2.13.7\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:56:19 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "via": "1.1 google",
+                "server": "nginx",
+                "vary": "origin, access-control-request-method, access-control-request-headers",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                "content-length": "2"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html"
+            ],
+            "id": "94578.71",
+            "url": "https://o912260.ingest.sentry.io/api/5948425/store/?sentry_key=55aba0f43b2d44a3aa0aac3a074f1558&sentry_version=7",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "text/plain;charset=UTF-8"
+            },
+            "postData": "{\"exception\":{\"values\":[{\"type\":\"Request Api Error: 503\",\"value\":\"https://wallet.binance.org/api/v1/networks\",\"stacktrace\":{\"frames\":[{\"colno\":3117534,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"a\",\"in_app\":true,\"lineno\":2},{\"colno\":3118795,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"Object.next\",\"in_app\":true,\"lineno\":2},{\"colno\":3118690,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2},{\"colno\":1880304,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2},{\"colno\":1909401,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"Module.Oe\",\"in_app\":true,\"lineno\":2},{\"colno\":1908571,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"ve\",\"in_app\":true,\"lineno\":2},{\"colno\":1903689,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"e.withScope\",\"in_app\":true,\"lineno\":2},{\"colno\":1880333,\"filename\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.js\",\"function\":\"?\",\"in_app\":true,\"lineno\":2},{\"filename\":\"https://wallet.binance.org/api/v1/networks\",\"function\":\"Request Api Error: 503: \",\"in_app\":true}]},\"mechanism\":{\"handled\":true,\"type\":\"generic\"}}]},\"level\":\"error\",\"event_id\":\"17b067fb57604507b51b38b47755e1ea\",\"platform\":\"javascript\",\"timestamp\":1762300579.517,\"environment\":\"production\",\"release\":\"2.13.7\",\"sdk\":{\"integrations\":[\"InboundFilters\",\"FunctionToString\",\"TryCatch\",\"Breadcrumbs\",\"LinkedErrors\",\"Dedupe\",\"UserAgent\",\"GlobalHandlers\"],\"name\":\"sentry.javascript.react\",\"version\":\"6.9.0\",\"packages\":[{\"name\":\"npm:@sentry/react\",\"version\":\"6.9.0\"}]},\"extra\":{\"url\":\"https://wallet.binance.org/api/v1/networks\",\"status\":503,\"requestParams\":{},\"response\":\"\\\"<html>\\\\r\\\\n<head><title>503 Service Temporarily Unavailable</title></head>\\\\r\\\\n<body>\\\\r\\\\n<center><h1>503 Service Temporarily Unavailable</h1></center>\\\\r\\\\n</body>\\\\r\\\\n</html>\\\\r\\\\n\\\"\"},\"breadcrumbs\":[{\"timestamp\":1762300579.516,\"category\":\"xhr\",\"data\":{\"method\":\"GET\",\"url\":\"https://wallet.binance.org/api/v1/networks\",\"status_code\":503},\"type\":\"http\"}],\"request\":{\"url\":\"chrome-extension://fhbohimaelbohpjbbldcngcnapndodjp/popup.html\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}}",
+            "responseHeaders": {
+                "date": "Tue, 04 Nov 2025 23:56:19 GMT",
+                "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+                "via": "1.1 google",
+                "server": "nginx",
+                "vary": "origin, access-control-request-method, access-control-request-headers",
+                "content-type": "application/json",
+                "access-control-allow-origin": "*",
+                "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                "content-length": "41"
+            }
+        }
+    ],
+    "success": true
+}

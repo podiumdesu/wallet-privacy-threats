@@ -1,0 +1,232 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/eknlkogikcabnjbjnhmjllabckeapdii",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/eknlkogikcabnjbjnhmjllabckeapdii",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762300301609,
+    "end": 1762300345818
+  },
+  "extensionID": "pdcklpnckofpjkgpkbiommfgonmdoomb",
+  "serviceWorker": "background_page",
+  "walletName": "walliD",
+  "notes": "incorrect-balance",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "eknlkogikcabnjbjnhmjllabckeapdii",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/_generated_background_page.html",
+      "id": "92175.15",
+      "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Tue, 04 Nov 2025 23:51:43 GMT",
+        "content-length": "40",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+      "id": "D9368C30449B846486BDEDDDFDB54FF1",
+      "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+      "type": "Other",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "content-type",
+        "access-control-request-method": "POST",
+        "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+        "access-control-allow-methods": "OPTIONS,GET,POST",
+        "access-control-allow-origin": "*",
+        "access-control-max-age": "86400",
+        "content-length": "0",
+        "date": "Tue, 04 Nov 2025 23:51:43 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/_generated_background_page.html",
+      "id": "92175.175",
+      "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Tue, 04 Nov 2025 23:51:49 GMT",
+        "content-length": "40",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+      "id": "D14E29C1F0739C4532EF5EA8FD0A88FA",
+      "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+      "type": "Other",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "content-type",
+        "access-control-request-method": "POST",
+        "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+        "access-control-allow-methods": "OPTIONS,GET,POST",
+        "access-control-allow-origin": "*",
+        "access-control-max-age": "86400",
+        "content-length": "0",
+        "date": "Tue, 04 Nov 2025 23:51:49 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/_generated_background_page.html",
+      "id": "92175.176",
+      "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":44,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Tue, 04 Nov 2025 23:51:50 GMT",
+        "content-length": "40",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+      "id": "44E4BE7BC57FDCB5E33542B6A385FAD3",
+      "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+      "type": "Other",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "content-type",
+        "access-control-request-method": "POST",
+        "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+        "access-control-allow-methods": "OPTIONS,GET,POST",
+        "access-control-allow-origin": "*",
+        "access-control-max-age": "86400",
+        "content-length": "0",
+        "date": "Tue, 04 Nov 2025 23:51:49 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/_generated_background_page.html",
+      "id": "92175.178",
+      "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_call\",\"params\":[{\"to\":\"0x00000000000c2e074ec69a0dfb2997ba6c7d2e1e\",\"data\":\"0x0178b8bff4f31daa51b5e51075b043add40d8edda90eceb4a84c093c9615a5397dabc554\"},\"latest\"],\"id\":45,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Tue, 04 Nov 2025 23:51:50 GMT",
+        "content-length": "104",
+        "vary": "Accept-Encoding, Origin",
+        "x-send-to-many": "0",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+      "id": "D631C73F02EA659F6C8C41D27802AE64",
+      "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+      "type": "Other",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "content-type",
+        "access-control-request-method": "POST",
+        "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+        "access-control-allow-methods": "OPTIONS,GET,POST",
+        "access-control-allow-origin": "*",
+        "access-control-max-age": "86400",
+        "content-length": "0",
+        "date": "Tue, 04 Nov 2025 23:51:50 GMT"
+      }
+    }
+  ],
+  "success": true
+}

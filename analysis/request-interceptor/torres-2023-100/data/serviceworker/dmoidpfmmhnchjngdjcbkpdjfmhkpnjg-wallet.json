@@ -1,0 +1,2199 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/dmoidpfmmhnchjngdjcbkpdjfmhkpnjg",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/dmoidpfmmhnchjngdjcbkpdjfmhkpnjg",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762299903418,
+    "end": 1762299950065
+  },
+  "extensionID": "pkjegiggggepjckakphnmpejcmgdbemi",
+  "serviceWorker": "background_page",
+  "walletName": "burnerX",
+  "notes": "no-import-but-request",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "dmoidpfmmhnchjngdjcbkpdjfmhkpnjg",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.14",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":11,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.15",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":12,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.16",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":16,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.17",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":17,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.18",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":18,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.19",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":20,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.20",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":21,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.21",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":22,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.41",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":2206695389,\"method\":\"eth_blockNumber\",\"params\":[],\"skipCache\":true}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.43",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:45:19 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-10",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "transfer-encoding": "chunked",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "false",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.49",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":36,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.50",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":37,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.55",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":41,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.56",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":42,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.57",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":43,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.58",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":45,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.59",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":46,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.60",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":47,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.61",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":61,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.62",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":62,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.63",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":63,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.64",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":65,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.65",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":66,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.66",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":67,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.67",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":73,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.68",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":74,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.72",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":75,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.73",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":76,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.78",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":80,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.79",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":81,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.80",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":82,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.81",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":84,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.82",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":85,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.83",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":86,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.85",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":4150150419,\"method\":\"eth_blockNumber\",\"params\":[],\"skipCache\":true}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.86",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":100,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.87",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":101,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.92",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":105,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.93",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":106,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.98",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":110,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.99",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":111,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.100",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":112,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.101",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":114,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.102",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":115,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.103",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":116,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.104",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":130,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.105",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":131,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.109",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":132,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.110",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":133,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.115",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":137,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.116",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":138,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.117",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":139,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.118",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":141,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.119",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":142,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.120",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":143,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.122",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:45:34 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-10",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "transfer-encoding": "chunked",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "true",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.123",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":157,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.124",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":158,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.128",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":159,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.129",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":160,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.134",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":164,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.135",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":165,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.136",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":166,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.137",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":168,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.138",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":169,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.139",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":170,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.140",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":184,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.141",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":185,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.145",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":186,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.146",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":187,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.151",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":191,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.152",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":192,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.153",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":193,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.154",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":195,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.155",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":196,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.156",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":197,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.158",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":211,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.159",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":212,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.163",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":213,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.164",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":214,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.169",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":218,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.170",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":219,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.171",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":220,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.172",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":222,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.173",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":223,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.174",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":224,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.175",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":9562285541,\"method\":\"eth_blockNumber\",\"params\":[],\"skipCache\":true}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.176",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":238,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.177",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":239,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.181",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":240,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.182",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":241,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.187",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":245,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.188",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":246,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.189",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":247,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.190",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":249,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.191",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":250,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.192",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":251,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.194",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":268,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.195",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":269,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.199",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":270,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.200",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":271,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.205",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":275,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.206",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":276,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.207",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":277,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.208",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":279,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.209",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":280,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.210",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":281,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.213",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":295,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.214",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":296,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.215",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:45:49 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-10",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "transfer-encoding": "chunked",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "true",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.219",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":300,\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.220",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":301,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.225",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":305,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.226",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":306,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.227",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":307,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.228",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":309,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.229",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":310,\"method\":\"eth_getBalance\",\"params\":[\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"latest\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://pkjegiggggepjckakphnmpejcmgdbemi/_generated_background_page.html",
+      "id": "88659.230",
+      "url": "https://dai.poa.network/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"id\":311,\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xdad9ab8831894268206dd16b4e20c4787789cdab\",\"to\":\"0x1111111111111111111111111111111111111111\",\"value\":\"0x1\"}]}",
+      "responseHeaders": {}
+    }
+  ],
+  "success": true
+}

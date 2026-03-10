@@ -1,0 +1,990 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/khpkpbbcccdmmclmpigdgddabeilkdpd",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/khpkpbbcccdmmclmpigdgddabeilkdpd",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762301315128,
+    "end": 1762301348144
+  },
+  "extensionID": "apoipepamnejifbgabpbcpjnllhapnlb",
+  "serviceWorker": "service_worker",
+  "walletName": "suiet",
+  "notes": "no-balance-SUI",
+  "walletAddress": "0x5022bdce3f0ab25c41385e731f1541b01fc12ed1",
+  "password": "Default1Password1!",
+  "pathID": "khpkpbbcccdmmclmpigdgddabeilkdpd",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.1",
+      "url": "https://api.suiet.app/feature-flag",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "x-suiet-client-type": "suiet-desktop-extension",
+        "referer": "",
+        "x-suiet-client-version": "0.1.36",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:36 GMT",
+        "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+        "server": "railway-edge",
+        "etag": "c78c4a3480d4969d3b14661c43ca1943",
+        "content-type": "application/json; charset=utf-8",
+        "x-railway-edge": "railway/europe-west4-drams3a",
+        "cache-control": "public, max-age=10, stale-while-revalidate=600",
+        "x-railway-request-id": "ooYcFL7LS3mCyTCR5nX1uw",
+        "cdn-cache-control": "s-max-age=10"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.54",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"d8281f3b-7a1e-499c-8ca1-82fff43781a4\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:37 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.55",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"593414a1-5083-46a4-8452-b02ebe62e111\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:37 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.56",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"ToAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"278b9082-24e4-4938-a6b1-0b32ff93fb76\"},{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"FromAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"415ea85e-2a77-4e34-b0db-a295a1ce7bdc\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:37 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "113"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.110",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"cbdba69e-1765-4847-b2c7-a3c9dd7a6a77\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:41 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.111",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"31dbb434-72cd-4268-874c-fe3fb53b197c\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:40 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.112",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"ToAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"a681bcba-69f8-4004-9b93-5dadff6f7782\"},{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"FromAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"b48756fd-622b-45e5-84c1-99a135479248\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:41 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "113"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.166",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"993398e0-9444-432b-beca-47807e07e4e8\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:44 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.167",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"86a2dcba-c73d-4f79-84f3-ae3545304e44\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:43 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.168",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"ToAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"a432d2c5-78ac-4682-9720-01a735ea2b55\"},{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"FromAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"25cb5492-9538-4035-a41a-db0238faca1b\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:43 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "113"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.223",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"ece848c1-cbf4-4423-8d4f-9fab92f066c4\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:46 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.224",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"e0fa7985-1d0b-4628-9d43-b496b36f4c08\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:47 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.225",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"ToAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"c28b6082-fcb1-44a1-b8b2-6d4d522d43fb\"},{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"FromAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"71c6e5af-a1bd-4011-a578-aa6aa351be97\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:47 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "113"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.279",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"83da2965-ad04-4172-9c01-37c551f08531\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:49 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.280",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"5312666f-e09f-45d0-8c2e-214e170edd44\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:49 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.281",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"ToAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"c4a41574-92ab-4799-a9fc-0e99448349c1\"},{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"FromAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"957c9a83-2d69-495a-a55c-c56c618e1d9b\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:49 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "113"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.335",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"21a9ca93-cc5b-4a27-80f5-63cfc2c00823\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:52 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.336",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"5e0f4cea-9726-4800-a50e-2d1c43bb2a9e\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:52 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.337",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"ToAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"c7c6da7c-c750-4288-a44b-2ddde7291819\"},{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"FromAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"c225ad80-29a5-4476-a638-9aada08f77f9\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:52 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "113"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.391",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"0bf2b1f7-3dc6-4d1c-9283-dde85434f700\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:55 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.392",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"ff4f2a82-fedd-400c-9bf7-fe1c37857b78\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:55 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.393",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"ToAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"970ce8ed-496f-4ea9-baa5-6374d7f65693\"},{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"FromAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"f1b0f799-019f-4bac-b8cb-83d1148b0e5e\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:55 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "113"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.402",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"ToAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"825455d0-d9aa-40c4-a084-2f51dbfc17ac\"},{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"FromAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"b66be4da-9c8e-42ef-87ad-c76c848f0668\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:56 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "113"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.457",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"1e5f63bf-9607-4551-9e09-11df602febb5\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:58 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.458",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"c83b12dc-c867-4ac8-b742-99c255ffe84c\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:58 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.459",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"ToAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"df4f5cef-2bb9-4a66-9726-3f8efd30e8ce\"},{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"FromAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"9f99f971-f50d-4684-a7d7-eacf57646e2c\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:08:59 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "113"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.513",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"00f2a3ad-cffe-4865-bdfb-d7190f8dcfa0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:09:01 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.514",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"9ab6ddc7-de03-4945-9ed1-cf6a28446941\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:09:01 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.515",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"ToAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"c09e1272-e96d-4f45-87f0-f2d2b68229f7\"},{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"FromAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"bd3dd0e2-aabd-4eca-82f9-34e9371ea19b\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:09:01 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "113"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.569",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"10c53aa7-09d9-47a5-8047-7ea82b776fa8\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:09:03 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.570",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"251b0fe2-842a-4aff-9618-9d524c4e16fc\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:09:03 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.571",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"ToAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"860b9e50-e212-4411-b136-fb1ae47d6581\"},{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"FromAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"9c19ad04-3dfb-4b15-9bbf-2fed72daf691\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:09:05 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "113"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.580",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"6f202f13-34ad-44d3-9505-f11b7c57a850\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:09:04 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.581",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"13b7df9d-c542-43bf-825c-545ee2b1a612\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:09:05 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.636",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"6c510298-b847-4211-854a-c9067cb30a6f\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:09:06 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.637",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"sui_getObjectsOwnedByAddress\",\"jsonrpc\":\"2.0\",\"params\":[\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"],\"id\":\"220669c5-7c02-4316-8782-cb170b304353\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:09:07 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=2",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "114"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://apoipepamnejifbgabpbcpjnllhapnlb/service-worker-loader.js",
+      "id": "1559.638",
+      "url": "https://wallet-rpc.devnet.sui.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"ToAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"f10315b6-5357-4adf-b6f7-6181be7fd56b\"},{\"method\":\"sui_getTransactions\",\"jsonrpc\":\"2.0\",\"params\":[{\"FromAddress\":\"0x5022bdce3f0ab25c41385e731f1541b01fc12ed1\"},null,null,true],\"id\":\"b2571c1a-7aa0-4ca5-8c09-a0a5c89af600\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:09:06 GMT",
+        "via": "1.1 google",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "server-timing": "finish_request;dur=0",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "113"
+      }
+    }
+  ],
+  "success": true
+}

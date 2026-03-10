@@ -1,0 +1,401 @@
+{
+  "err": null,
+  "baseRes": {
+    "dappUrl": "http://localhost:4444/new.html",
+    "extName": "Wigwam",
+    "extPath": "lccbohhgfkdikahanoclbdmaolidjdfl",
+    "dappVision": {
+      "preLock": null,
+      "preConsent": [],
+      "postConsent": [
+        "0x033a5379bc3d5edd92b9b1da762688e97cef154c"
+      ],
+      "afterRevoke": [
+        "0x033a5379bc3d5edd92b9b1da762688e97cef154c"
+      ],
+      "reconnect": [
+        "0x033a5379bc3d5edd92b9b1da762688e97cef154c"
+      ]
+    },
+    "visionDetails": []
+  },
+  "dappUrl": "http://localhost:4444/new.html",
+  "extName": "Wigwam",
+  "extPath": "/Users/weihong/github/web3-full-automation/preparation/unzipped_extensions/lccbohhgfkdikahanoclbdmaolidjdfl",
+  "notes": [],
+  "addresses": [],
+  "phaseTiming": {
+    "preLock": 1763507995890,
+    "preConsent": 1763508005416,
+    "duringConsent": 1763508006455,
+    "postConsent": 1763508011931,
+    "afterRevoke": 1763508017326,
+    "reconnect": 1763508025714
+  },
+  "cookieAndLocalStorage": [
+    {
+      "type": "phase.set",
+      "name": "preConsent",
+      "phase": "preConsent",
+      "ts": 1763508006453.4001,
+      "hr": 1189.5999999642372
+    },
+    {
+      "type": "phase.set",
+      "name": "DuringConsent",
+      "phase": "DuringConsent",
+      "ts": 1763508007466.6,
+      "hr": 2202.7999999523163
+    },
+    {
+      "type": "phase.set",
+      "name": "postConsent",
+      "phase": "postConsent",
+      "ts": 1763508012962.4001,
+      "hr": 7698.599999964237
+    },
+    {
+      "type": "phase.set",
+      "name": "afterRevoke",
+      "phase": "afterRevoke",
+      "ts": 1763508018334.9001,
+      "hr": 5262.800000011921
+    }
+  ],
+  "objectEventLogs": [
+    {
+      "requestId": "eip6963:com.wigwam.wallet:6:wallet_revokePermissions",
+      "label": "eip6963:com.wigwam.wallet",
+      "phase": "postConsent",
+      "ts_start": 1763508017320,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "type": "call",
+      "params": [
+        {
+          "eth_accounts": {}
+        }
+      ]
+    },
+    {
+      "requestId": "eip6963:com.wigwam.wallet:6:wallet_revokePermissions",
+      "label": "eip6963:com.wigwam.wallet",
+      "phase": "postConsent",
+      "ts_start": 1763508017320,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "ts_end": 1763508017337,
+      "type": "error",
+      "error": "The requested method is not supported by this Ethereum provider.",
+      "durationMs": 17
+    },
+    {
+      "requestId": "eip6963:com.wigwam.wallet:6:wallet_revokePermissions",
+      "label": "eip6963:com.wigwam.wallet",
+      "phase": "afterRevoke",
+      "ts_start": 1763508022473,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "type": "call",
+      "params": [
+        {
+          "eth_accounts": {}
+        }
+      ]
+    },
+    {
+      "requestId": "eip6963:com.wigwam.wallet:6:wallet_revokePermissions",
+      "label": "eip6963:com.wigwam.wallet",
+      "phase": "afterRevoke",
+      "ts_start": 1763508022473,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "ts_end": 1763508022478,
+      "type": "error",
+      "error": "The requested method is not supported by this Ethereum provider.",
+      "durationMs": 5
+    },
+    {
+      "requestId": "eip6963:com.wigwam.wallet:10:wallet_revokePermissions",
+      "label": "eip6963:com.wigwam.wallet",
+      "phase": "afterRevoke",
+      "ts_start": 1763508022558,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "type": "call",
+      "params": [
+        {
+          "eth_accounts": {}
+        }
+      ]
+    },
+    {
+      "requestId": "eip6963:com.wigwam.wallet:10:wallet_revokePermissions",
+      "label": "eip6963:com.wigwam.wallet",
+      "phase": "afterRevoke",
+      "ts_start": 1763508022558,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "ts_end": 1763508022562,
+      "type": "error",
+      "error": "The requested method is not supported by this Ethereum provider.",
+      "durationMs": 4
+    },
+    {
+      "requestId": "eip6963:com.wigwam.wallet:14:wallet_revokePermissions",
+      "label": "eip6963:com.wigwam.wallet",
+      "phase": "afterRevoke",
+      "ts_start": 1763508022711,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "type": "call",
+      "params": [
+        {
+          "eth_accounts": {}
+        }
+      ]
+    },
+    {
+      "requestId": "eip6963:com.wigwam.wallet:14:wallet_revokePermissions",
+      "label": "eip6963:com.wigwam.wallet",
+      "phase": "afterRevoke",
+      "ts_start": 1763508022711,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "ts_end": 1763508022714,
+      "type": "error",
+      "error": "The requested method is not supported by this Ethereum provider.",
+      "durationMs": 3
+    }
+  ],
+  "pageRequests": [
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "300A549095ED3D9F0696A3FA736CB9ED",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763507995856
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "300A549095ED3D9F0696A3FA736CB9ED",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763507995856,
+      "tsEnd": 1763507995860,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "300A549095ED3D9F0696A3FA736CB9ED",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763507995856,
+      "tsEnd": 1763507995859,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "02D470B08840F0A866E1DF95DEE8160D",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508005267
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "02D470B08840F0A866E1DF95DEE8160D",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508005267,
+      "tsEnd": 1763508005285,
+      "durationMs": 18
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "02D470B08840F0A866E1DF95DEE8160D",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508005267,
+      "tsEnd": 1763508005284,
+      "durationMs": 17
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "B272CED5D4C943B2EA299E63CB7FE8AF",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508013075
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "B272CED5D4C943B2EA299E63CB7FE8AF",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508013075,
+      "tsEnd": 1763508013083,
+      "durationMs": 8
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "B272CED5D4C943B2EA299E63CB7FE8AF",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508013075,
+      "tsEnd": 1763508013082,
+      "durationMs": 7
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "DE4F429C9FEE0F4EA2083E879D877606",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508018401
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "DE4F429C9FEE0F4EA2083E879D877606",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508018401,
+      "tsEnd": 1763508018404,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "DE4F429C9FEE0F4EA2083E879D877606",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508018401,
+      "tsEnd": 1763508018404,
+      "durationMs": 3
+    }
+  ]
+}

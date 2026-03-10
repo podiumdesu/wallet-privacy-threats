@@ -1,0 +1,2112 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/hcjhpkgbmechpabifbggldplacolbkoh",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/hcjhpkgbmechpabifbggldplacolbkoh",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T12-33-26",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764072506575,
+    "end": 1764072569076
+  },
+  "extensionID": "hcjhpkgbmechpabifbggldplacolbkoh",
+  "serviceWorker": "service_worker",
+  "walletName": "starkey",
+  "notes": "",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;0x196E98A561479ff97D533401Cc10e95b238e1a2A",
+  "password": "Default1Password1!",
+  "pathID": "hcjhpkgbmechpabifbggldplacolbkoh",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072510870,
+      "id": "97697.466",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/accounts/0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f/resources?count=100",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:31 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "x-envoy-upstream-service-time": "292",
+        "server": "envoy",
+        "content-length": "43",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072511536,
+      "id": "97697.478",
+      "url": "https://api.suprascan.io/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-api-key": "a98cf42b-d83a-45f8-a639-7930eb9488c8",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n        query GetWalletFungibleAssets(\\n          $address: String,\\n          $page: Int,\\n          $offset: Int,\\n          $blockchainEnvironment: BlockchainEnvironment,\\n          $isAddressName: Boolean\\n        ) {\\n          getWalletFungibleAssets(\\n            address: $address,\\n            page: $page,\\n            offset: $offset,\\n            blockchainEnvironment: $blockchainEnvironment,\\n            isAddressName: $isAddressName\\n          ) {\\n            fungibleAssets {\\n              faAddress\\n            }\\n            pageNumber\\n            pageCount\\n            totalItems\\n            nextPage\\n            isError\\n            errorType\\n          }\\n        }\\n      \",\"variables\":{\"address\":\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"page\":1,\"offset\":100,\"blockchainEnvironment\":\"mainnet\",\"isAddressName\":false}}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:32 GMT",
+        "via": "1.1 google, 1.1 google",
+        "server": "Google Frontend",
+        "x-powered-by": "Express",
+        "vary": "Origin",
+        "x-ratelimit-remaining": "7",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh",
+        "x-cloud-trace-context": "06796f83093fd887689bf224aa68f3c7",
+        "cache-control": "no-store",
+        "access-control-allow-credentials": "true",
+        "x-ratelimit-reset": "1764072514",
+        "x-ratelimit-limit": "10",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000, h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "153"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072513606,
+      "id": "97697.484",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x000000000000000000000000000000000000000000000000000000000000000a\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:34 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "796",
+        "content-length": "124"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072514574,
+      "id": "97697.487",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_metadata\",\"type_arguments\":[\"0x9176f70f125199a3e3d5549ce795a8e906eed75901d535ded623802f15ae3637::cdp_multi::CASH\"],\"arguments\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:34 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "296",
+        "content-length": "101"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072515046,
+      "id": "97697.598",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_metadata\",\"type_arguments\":[\"0x8f7d16ade319b0fce368ca6cdb98589c4527ce7f5b51e544a9e68e719934458b::hyper_coin::DexlynUSDC\"],\"arguments\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:35 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "273",
+        "content-length": "101"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072515495,
+      "id": "97697.601",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0xf90b4b9d4a9d87c39fb3140513e52edc3ead5eaddcb9881b02becdeb63c5793d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:35 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "142",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072515816,
+      "id": "97697.611",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0xe4af154ade9551e7f58a23b8f727ae2dca050f1b74582bb518ba361c889d246d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:35 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "145",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072516137,
+      "id": "97697.615",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x07b6463ca7a54ee37e113c8333db9c0af49de39555ee1cb44837db4c085f8964\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:36 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "137",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072516451,
+      "id": "97697.618",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x224bee573e0ae84ba7f1eee4f7063a945ad7a268bea7ab9e004f6890177a480b\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:36 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "136",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072516770,
+      "id": "97697.649",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x348b1a4fa68803cbda3b50326a90e59b21e80c3ced93588b20950b5c0697a67e\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:36 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "523",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072517470,
+      "id": "97697.664",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0xa0040c97616048b6e0409e048d5f3cb9cfa0caa91dce0505390ac7ec8a132a86\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:37 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "156",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072517803,
+      "id": "97697.666",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x80f0251b74c76f1c477b9209ade65ffb5cfecd9b259875c3865ad645f6c33a3d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:38 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "294",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072518278,
+      "id": "97697.668",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x90a8e901e02ac1539af4a865bbe4a6b96edc27375488803cfbbd6875ec57b281\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:38 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "294",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072518744,
+      "id": "97697.779",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0xceff14089bde0d4f512dcd3b6f3df6794346c58115b8d97e043f92ff08cd1fca\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:38 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "138",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072519702,
+      "id": "97697.783",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/transactions/chain_id",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:39 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "x-envoy-upstream-service-time": "289",
+        "server": "envoy",
+        "content-length": "1",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072520183,
+      "id": "97697.785",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/accounts/0x9176f70f125199a3e3d5549ce795a8e906eed75901d535ded623802f15ae3637/resources/0x0000000000000000000000000000000000000000000000000000000000000001::coin::CoinInfo%3C0x9176f70f125199a3e3d5549ce795a8e906eed75901d535ded623802f15ae3637::cdp_multi::CASH%3E",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:39 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "x-envoy-upstream-service-time": "131",
+        "server": "envoy",
+        "content-length": "212",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072520488,
+      "id": "97697.829",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::balance\",\"type_arguments\":[\"0x9176f70f125199a3e3d5549ce795a8e906eed75901d535ded623802f15ae3637::cdp_multi::CASH\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:40 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "306",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072521179,
+      "id": "97697.840",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/accounts/0x8f7d16ade319b0fce368ca6cdb98589c4527ce7f5b51e544a9e68e719934458b/resources/0x0000000000000000000000000000000000000000000000000000000000000001::coin::CoinInfo%3C0x8f7d16ade319b0fce368ca6cdb98589c4527ce7f5b51e544a9e68e719934458b::hyper_coin::DexlynUSDC%3E",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:41 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "x-envoy-upstream-service-time": "149",
+        "server": "envoy",
+        "content-length": "206",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072521506,
+      "id": "97697.841",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::balance\",\"type_arguments\":[\"0x8f7d16ade319b0fce368ca6cdb98589c4527ce7f5b51e544a9e68e719934458b::hyper_coin::DexlynUSDC\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:41 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "149",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072521827,
+      "id": "97697.843",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::fungible_asset::metadata\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xa0040c97616048b6e0409e048d5f3cb9cfa0caa91dce0505390ac7ec8a132a86\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:41 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "135",
+        "content-length": "182"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072522144,
+      "id": "97697.845",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::primary_fungible_store::balance\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"0xa0040c97616048b6e0409e048d5f3cb9cfa0caa91dce0505390ac7ec8a132a86\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:42 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "152",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072522476,
+      "id": "97697.847",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::fungible_asset::metadata\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0x80f0251b74c76f1c477b9209ade65ffb5cfecd9b259875c3865ad645f6c33a3d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:42 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "148",
+        "content-length": "188"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072522808,
+      "id": "97697.848",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::primary_fungible_store::balance\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"0x80f0251b74c76f1c477b9209ade65ffb5cfecd9b259875c3865ad645f6c33a3d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:42 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "149",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072523133,
+      "id": "97697.849",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::fungible_asset::metadata\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0x90a8e901e02ac1539af4a865bbe4a6b96edc27375488803cfbbd6875ec57b281\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:43 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "287",
+        "content-length": "185"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072523593,
+      "id": "97697.850",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::primary_fungible_store::balance\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"0x90a8e901e02ac1539af4a865bbe4a6b96edc27375488803cfbbd6875ec57b281\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:43 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "274",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072524047,
+      "id": "97697.851",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::fungible_asset::metadata\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xceff14089bde0d4f512dcd3b6f3df6794346c58115b8d97e043f92ff08cd1fca\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:45 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "1020",
+        "content-length": "185"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072525245,
+      "id": "97697.858",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::primary_fungible_store::balance\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"0xceff14089bde0d4f512dcd3b6f3df6794346c58115b8d97e043f92ff08cd1fca\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:45 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "148",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072531477,
+      "id": "97697.1155",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/accounts/0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f/resources?count=100",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:51 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "x-envoy-upstream-service-time": "263",
+        "server": "envoy",
+        "content-length": "43",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072531916,
+      "id": "97697.1157",
+      "url": "https://api.suprascan.io/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-api-key": "a98cf42b-d83a-45f8-a639-7930eb9488c8",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n        query GetWalletFungibleAssets(\\n          $address: String,\\n          $page: Int,\\n          $offset: Int,\\n          $blockchainEnvironment: BlockchainEnvironment,\\n          $isAddressName: Boolean\\n        ) {\\n          getWalletFungibleAssets(\\n            address: $address,\\n            page: $page,\\n            offset: $offset,\\n            blockchainEnvironment: $blockchainEnvironment,\\n            isAddressName: $isAddressName\\n          ) {\\n            fungibleAssets {\\n              faAddress\\n            }\\n            pageNumber\\n            pageCount\\n            totalItems\\n            nextPage\\n            isError\\n            errorType\\n          }\\n        }\\n      \",\"variables\":{\"address\":\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"page\":1,\"offset\":100,\"blockchainEnvironment\":\"mainnet\",\"isAddressName\":false}}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:53 GMT",
+        "via": "1.1 google, 1.1 google",
+        "server": "Google Frontend",
+        "x-powered-by": "Express",
+        "vary": "Origin",
+        "x-ratelimit-remaining": "9",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh",
+        "x-cloud-trace-context": "d7583c6016fe7b6179347776416d49f0",
+        "cache-control": "no-store",
+        "access-control-allow-credentials": "true",
+        "x-ratelimit-reset": "1764072535",
+        "x-ratelimit-limit": "10",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000, h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "153"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072533937,
+      "id": "97697.1199",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x000000000000000000000000000000000000000000000000000000000000000a\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:54 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "144",
+        "content-length": "124"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072534252,
+      "id": "97697.1202",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_metadata\",\"type_arguments\":[\"0x9176f70f125199a3e3d5549ce795a8e906eed75901d535ded623802f15ae3637::cdp_multi::CASH\"],\"arguments\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:54 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "142",
+        "content-length": "101"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072534578,
+      "id": "97697.1203",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_metadata\",\"type_arguments\":[\"0x8f7d16ade319b0fce368ca6cdb98589c4527ce7f5b51e544a9e68e719934458b::hyper_coin::DexlynUSDC\"],\"arguments\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:54 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "146",
+        "content-length": "101"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072534904,
+      "id": "97697.1205",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0xf90b4b9d4a9d87c39fb3140513e52edc3ead5eaddcb9881b02becdeb63c5793d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:55 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "128",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072535206,
+      "id": "97697.1206",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0xe4af154ade9551e7f58a23b8f727ae2dca050f1b74582bb518ba361c889d246d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:55 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "148",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072535534,
+      "id": "97697.1207",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x07b6463ca7a54ee37e113c8333db9c0af49de39555ee1cb44837db4c085f8964\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:55 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "135",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072535851,
+      "id": "97697.1215",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x224bee573e0ae84ba7f1eee4f7063a945ad7a268bea7ab9e004f6890177a480b\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:56 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "139",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072536162,
+      "id": "97697.1216",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x348b1a4fa68803cbda3b50326a90e59b21e80c3ced93588b20950b5c0697a67e\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:56 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "307",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072536705,
+      "id": "97697.1217",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0xa0040c97616048b6e0409e048d5f3cb9cfa0caa91dce0505390ac7ec8a132a86\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:56 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "148",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072537027,
+      "id": "97697.1218",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x80f0251b74c76f1c477b9209ade65ffb5cfecd9b259875c3865ad645f6c33a3d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:57 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "256",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072537460,
+      "id": "97697.1219",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x90a8e901e02ac1539af4a865bbe4a6b96edc27375488803cfbbd6875ec57b281\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:57 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "287",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072537922,
+      "id": "97697.1336",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0xceff14089bde0d4f512dcd3b6f3df6794346c58115b8d97e043f92ff08cd1fca\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:57 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "134",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072538945,
+      "id": "97697.1339",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/accounts/0x9176f70f125199a3e3d5549ce795a8e906eed75901d535ded623802f15ae3637/resources/0x0000000000000000000000000000000000000000000000000000000000000001::coin::CoinInfo%3C0x9176f70f125199a3e3d5549ce795a8e906eed75901d535ded623802f15ae3637::cdp_multi::CASH%3E",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:58 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "x-envoy-upstream-service-time": "137",
+        "server": "envoy",
+        "content-length": "212",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072539262,
+      "id": "97697.1341",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::balance\",\"type_arguments\":[\"0x9176f70f125199a3e3d5549ce795a8e906eed75901d535ded623802f15ae3637::cdp_multi::CASH\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:59 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "152",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072539588,
+      "id": "97697.1383",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/accounts/0x8f7d16ade319b0fce368ca6cdb98589c4527ce7f5b51e544a9e68e719934458b/resources/0x0000000000000000000000000000000000000000000000000000000000000001::coin::CoinInfo%3C0x8f7d16ade319b0fce368ca6cdb98589c4527ce7f5b51e544a9e68e719934458b::hyper_coin::DexlynUSDC%3E",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:59 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "x-envoy-upstream-service-time": "129",
+        "server": "envoy",
+        "content-length": "206",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072539894,
+      "id": "97697.1387",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::balance\",\"type_arguments\":[\"0x8f7d16ade319b0fce368ca6cdb98589c4527ce7f5b51e544a9e68e719934458b::hyper_coin::DexlynUSDC\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:08:59 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "151",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072540220,
+      "id": "97697.1389",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::fungible_asset::metadata\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xa0040c97616048b6e0409e048d5f3cb9cfa0caa91dce0505390ac7ec8a132a86\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:00 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "167",
+        "content-length": "182"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072540562,
+      "id": "97697.1391",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::primary_fungible_store::balance\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"0xa0040c97616048b6e0409e048d5f3cb9cfa0caa91dce0505390ac7ec8a132a86\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:00 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "131",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072540869,
+      "id": "97697.1400",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::fungible_asset::metadata\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0x80f0251b74c76f1c477b9209ade65ffb5cfecd9b259875c3865ad645f6c33a3d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:01 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "128",
+        "content-length": "188"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072541174,
+      "id": "97697.1401",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::primary_fungible_store::balance\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"0x80f0251b74c76f1c477b9209ade65ffb5cfecd9b259875c3865ad645f6c33a3d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:01 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "172",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072541523,
+      "id": "97697.1403",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::fungible_asset::metadata\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0x90a8e901e02ac1539af4a865bbe4a6b96edc27375488803cfbbd6875ec57b281\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:01 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "144",
+        "content-length": "185"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072541847,
+      "id": "97697.1405",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::primary_fungible_store::balance\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"0x90a8e901e02ac1539af4a865bbe4a6b96edc27375488803cfbbd6875ec57b281\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:02 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "133",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072542159,
+      "id": "97697.1406",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::fungible_asset::metadata\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xceff14089bde0d4f512dcd3b6f3df6794346c58115b8d97e043f92ff08cd1fca\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:02 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "142",
+        "content-length": "185"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072542478,
+      "id": "97697.1407",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::primary_fungible_store::balance\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"0xceff14089bde0d4f512dcd3b6f3df6794346c58115b8d97e043f92ff08cd1fca\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:02 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "250",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072553346,
+      "id": "97697.1695",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/accounts/0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f/resources?count=100",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:13 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "x-envoy-upstream-service-time": "135",
+        "server": "envoy",
+        "content-length": "43",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072553654,
+      "id": "97697.1696",
+      "url": "https://api.suprascan.io/graphql",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-api-key": "a98cf42b-d83a-45f8-a639-7930eb9488c8",
+        "content-type": "application/json"
+      },
+      "postData": "{\"query\":\"\\n        query GetWalletFungibleAssets(\\n          $address: String,\\n          $page: Int,\\n          $offset: Int,\\n          $blockchainEnvironment: BlockchainEnvironment,\\n          $isAddressName: Boolean\\n        ) {\\n          getWalletFungibleAssets(\\n            address: $address,\\n            page: $page,\\n            offset: $offset,\\n            blockchainEnvironment: $blockchainEnvironment,\\n            isAddressName: $isAddressName\\n          ) {\\n            fungibleAssets {\\n              faAddress\\n            }\\n            pageNumber\\n            pageCount\\n            totalItems\\n            nextPage\\n            isError\\n            errorType\\n          }\\n        }\\n      \",\"variables\":{\"address\":\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"page\":1,\"offset\":100,\"blockchainEnvironment\":\"mainnet\",\"isAddressName\":false}}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:13 GMT",
+        "via": "1.1 google, 1.1 google",
+        "server": "Google Frontend",
+        "x-powered-by": "Express",
+        "vary": "Origin",
+        "x-ratelimit-remaining": "8",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh",
+        "x-cloud-trace-context": "e9c46798f4cbffc82d2a0126cba2da59",
+        "cache-control": "no-store",
+        "access-control-allow-credentials": "true",
+        "x-ratelimit-reset": "1764072555",
+        "x-ratelimit-limit": "10",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000, h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "153"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072554595,
+      "id": "97697.1740",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x000000000000000000000000000000000000000000000000000000000000000a\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:14 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "149",
+        "content-length": "124"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072554917,
+      "id": "97697.1744",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_metadata\",\"type_arguments\":[\"0x9176f70f125199a3e3d5549ce795a8e906eed75901d535ded623802f15ae3637::cdp_multi::CASH\"],\"arguments\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:15 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "297",
+        "content-length": "101"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072555391,
+      "id": "97697.1746",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_metadata\",\"type_arguments\":[\"0x8f7d16ade319b0fce368ca6cdb98589c4527ce7f5b51e544a9e68e719934458b::hyper_coin::DexlynUSDC\"],\"arguments\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:15 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "145",
+        "content-length": "101"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072555711,
+      "id": "97697.1748",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0xf90b4b9d4a9d87c39fb3140513e52edc3ead5eaddcb9881b02becdeb63c5793d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:15 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "138",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072556023,
+      "id": "97697.1757",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0xe4af154ade9551e7f58a23b8f727ae2dca050f1b74582bb518ba361c889d246d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:17 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "1502",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072557704,
+      "id": "97697.1872",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x07b6463ca7a54ee37e113c8333db9c0af49de39555ee1cb44837db4c085f8964\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:18 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "284",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072558162,
+      "id": "97697.1913",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x224bee573e0ae84ba7f1eee4f7063a945ad7a268bea7ab9e004f6890177a480b\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:18 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "142",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072558479,
+      "id": "97697.1917",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x348b1a4fa68803cbda3b50326a90e59b21e80c3ced93588b20950b5c0697a67e\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:18 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "272",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072558931,
+      "id": "97697.1919",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0xa0040c97616048b6e0409e048d5f3cb9cfa0caa91dce0505390ac7ec8a132a86\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:19 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "262",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072559370,
+      "id": "97697.1921",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x80f0251b74c76f1c477b9209ade65ffb5cfecd9b259875c3865ad645f6c33a3d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:19 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "324",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072559870,
+      "id": "97697.1924",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0x90a8e901e02ac1539af4a865bbe4a6b96edc27375488803cfbbd6875ec57b281\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:20 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "136",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072560189,
+      "id": "97697.2035",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v3/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::paired_coin\",\"type_arguments\":[],\"arguments\":[\"0xceff14089bde0d4f512dcd3b6f3df6794346c58115b8d97e043f92ff08cd1fca\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:19 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "148",
+        "content-length": "23"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072561175,
+      "id": "97697.2046",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/accounts/0x9176f70f125199a3e3d5549ce795a8e906eed75901d535ded623802f15ae3637/resources/0x0000000000000000000000000000000000000000000000000000000000000001::coin::CoinInfo%3C0x9176f70f125199a3e3d5549ce795a8e906eed75901d535ded623802f15ae3637::cdp_multi::CASH%3E",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:21 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "x-envoy-upstream-service-time": "271",
+        "server": "envoy",
+        "content-length": "212",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072561620,
+      "id": "97697.2048",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::balance\",\"type_arguments\":[\"0x9176f70f125199a3e3d5549ce795a8e906eed75901d535ded623802f15ae3637::cdp_multi::CASH\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:21 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "158",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072561953,
+      "id": "97697.2092",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/accounts/0x8f7d16ade319b0fce368ca6cdb98589c4527ce7f5b51e544a9e68e719934458b/resources/0x0000000000000000000000000000000000000000000000000000000000000001::coin::CoinInfo%3C0x8f7d16ade319b0fce368ca6cdb98589c4527ce7f5b51e544a9e68e719934458b::hyper_coin::DexlynUSDC%3E",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:22 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "x-envoy-upstream-service-time": "281",
+        "server": "envoy",
+        "content-length": "206",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072562412,
+      "id": "97697.2094",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::coin::balance\",\"type_arguments\":[\"0x8f7d16ade319b0fce368ca6cdb98589c4527ce7f5b51e544a9e68e719934458b::hyper_coin::DexlynUSDC\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:22 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "158",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072562749,
+      "id": "97697.2096",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::fungible_asset::metadata\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xa0040c97616048b6e0409e048d5f3cb9cfa0caa91dce0505390ac7ec8a132a86\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:22 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "133",
+        "content-length": "182"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072563059,
+      "id": "97697.2098",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::primary_fungible_store::balance\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"0xa0040c97616048b6e0409e048d5f3cb9cfa0caa91dce0505390ac7ec8a132a86\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:23 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "137",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072563374,
+      "id": "97697.2100",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::fungible_asset::metadata\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0x80f0251b74c76f1c477b9209ade65ffb5cfecd9b259875c3865ad645f6c33a3d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:23 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "142",
+        "content-length": "188"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072563692,
+      "id": "97697.2102",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::primary_fungible_store::balance\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"0x80f0251b74c76f1c477b9209ade65ffb5cfecd9b259875c3865ad645f6c33a3d\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:23 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "147",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072564027,
+      "id": "97697.2104",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::fungible_asset::metadata\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0x90a8e901e02ac1539af4a865bbe4a6b96edc27375488803cfbbd6875ec57b281\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:24 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "143",
+        "content-length": "185"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072564345,
+      "id": "97697.2105",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::primary_fungible_store::balance\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"0x90a8e901e02ac1539af4a865bbe4a6b96edc27375488803cfbbd6875ec57b281\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:24 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "272",
+        "content-length": "16"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072564795,
+      "id": "97697.2106",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::fungible_asset::metadata\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xceff14089bde0d4f512dcd3b6f3df6794346c58115b8d97e043f92ff08cd1fca\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:25 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "262",
+        "content-length": "185"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hcjhpkgbmechpabifbggldplacolbkoh/scripts/background.js",
+      "ts": 1764072565234,
+      "id": "97697.2107",
+      "url": "https://rpc1-wallet-mainnet.supra.com/rpc/v1/view",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"function\":\"0x1::primary_fungible_store::balance\",\"type_arguments\":[\"0x1::fungible_asset::Metadata\"],\"arguments\":[\"0xf26cbb3127abc72631e9236beacd595092126b5629ec53300e8ff1bb79f6cc5f\",\"0xceff14089bde0d4f512dcd3b6f3df6794346c58115b8d97e043f92ff08cd1fca\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:09:25 GMT",
+        "strict-transport-security": "max-age=15768000",
+        "server": "envoy",
+        "vary": "Origin",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-envoy-upstream-service-time": "138",
+        "content-length": "16"
+      }
+    }
+  ],
+  "success": true
+}

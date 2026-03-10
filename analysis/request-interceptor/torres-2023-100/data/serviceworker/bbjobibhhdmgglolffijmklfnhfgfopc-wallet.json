@@ -1,0 +1,192 @@
+{
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "profilePath": "./final-results/old_version/extensions/profiles_new/bbjobibhhdmgglolffijmklfnhfgfopc",
+        "links": 10,
+        "walletPath": "./preparation/original-wallets/bbjobibhhdmgglolffijmklfnhfgfopc",
+        "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+        "force": false,
+        "executablePath": "/opt/homebrew/bin/chromium"
+    },
+    "timestamps": {
+        "start": 1762299453391,
+        "end": 1762299493439
+    },
+    "extensionID": "depbdcpecnocbldngecgkkpjfiigkbco",
+    "serviceWorker": "service_worker",
+    "walletName": "TimebirdDex",
+    "notes": "incorrect-balance",
+    "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+    "password": "P@ssw0rd",
+    "pathID": "bbjobibhhdmgglolffijmklfnhfgfopc",
+    "requests": [
+        {
+            "origin": "service worker",
+            "requestContext": "chrome-extension://depbdcpecnocbldngecgkkpjfiigkbco/js/background.js",
+            "id": "84689.50",
+            "url": "https://gateway.timebird.network/api/v1/balance",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"code\":\"eth\",\"symbol\":\"eth\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Ethereum\",\"id\":1409,\"isTestnet\":false,\"decimals\":18}",
+            "responseHeaders": {}
+        },
+        {
+            "origin": "service worker",
+            "requestContext": "chrome-extension://depbdcpecnocbldngecgkkpjfiigkbco/js/background.js",
+            "id": "84689.95",
+            "url": "https://gateway.timebird.network/api/v1/balance",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"code\":\"eth\",\"symbol\":\"eth\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Ethereum\",\"id\":1409,\"isTestnet\":false,\"decimals\":18}",
+            "responseHeaders": {}
+        },
+        {
+            "origin": "service worker",
+            "requestContext": "chrome-extension://depbdcpecnocbldngecgkkpjfiigkbco/js/background.js",
+            "id": "84689.140",
+            "url": "https://gateway.timebird.network/api/v1/balance",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"code\":\"eth\",\"symbol\":\"eth\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Ethereum\",\"id\":1409,\"isTestnet\":false,\"decimals\":18}",
+            "responseHeaders": {}
+        },
+        {
+            "origin": "service worker",
+            "requestContext": "chrome-extension://depbdcpecnocbldngecgkkpjfiigkbco/js/background.js",
+            "id": "84689.185",
+            "url": "https://gateway.timebird.network/api/v1/balance",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"code\":\"eth\",\"symbol\":\"eth\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Ethereum\",\"id\":1409,\"isTestnet\":false,\"decimals\":18}",
+            "responseHeaders": {}
+        },
+        {
+            "origin": "service worker",
+            "requestContext": "chrome-extension://depbdcpecnocbldngecgkkpjfiigkbco/js/background.js",
+            "id": "84689.230",
+            "url": "https://gateway.timebird.network/api/v1/balance",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"code\":\"eth\",\"symbol\":\"eth\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Ethereum\",\"id\":1409,\"isTestnet\":false,\"decimals\":18}",
+            "responseHeaders": {}
+        },
+        {
+            "origin": "service worker",
+            "requestContext": "chrome-extension://depbdcpecnocbldngecgkkpjfiigkbco/js/background.js",
+            "id": "84689.275",
+            "url": "https://gateway.timebird.network/api/v1/balance",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"code\":\"eth\",\"symbol\":\"eth\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Ethereum\",\"id\":1409,\"isTestnet\":false,\"decimals\":18}",
+            "responseHeaders": {}
+        },
+        {
+            "origin": "service worker",
+            "requestContext": "chrome-extension://depbdcpecnocbldngecgkkpjfiigkbco/js/background.js",
+            "id": "84689.320",
+            "url": "https://gateway.timebird.network/api/v1/balance",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"code\":\"eth\",\"symbol\":\"eth\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Ethereum\",\"id\":1409,\"isTestnet\":false,\"decimals\":18}",
+            "responseHeaders": {}
+        },
+        {
+            "origin": "service worker",
+            "requestContext": "chrome-extension://depbdcpecnocbldngecgkkpjfiigkbco/js/background.js",
+            "id": "84689.365",
+            "url": "https://gateway.timebird.network/api/v1/balance",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"code\":\"eth\",\"symbol\":\"eth\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Ethereum\",\"id\":1409,\"isTestnet\":false,\"decimals\":18}",
+            "responseHeaders": {}
+        },
+        {
+            "origin": "service worker",
+            "requestContext": "chrome-extension://depbdcpecnocbldngecgkkpjfiigkbco/js/background.js",
+            "id": "84689.410",
+            "url": "https://gateway.timebird.network/api/v1/balance",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"code\":\"eth\",\"symbol\":\"eth\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Ethereum\",\"id\":1409,\"isTestnet\":false,\"decimals\":18}",
+            "responseHeaders": {}
+        },
+        {
+            "origin": "service worker",
+            "requestContext": "chrome-extension://depbdcpecnocbldngecgkkpjfiigkbco/js/background.js",
+            "id": "84689.455",
+            "url": "https://gateway.timebird.network/api/v1/balance",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"code\":\"eth\",\"symbol\":\"eth\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Ethereum\",\"id\":1409,\"isTestnet\":false,\"decimals\":18}",
+            "responseHeaders": {}
+        },
+        {
+            "origin": "service worker",
+            "requestContext": "chrome-extension://depbdcpecnocbldngecgkkpjfiigkbco/js/background.js",
+            "id": "84689.500",
+            "url": "https://gateway.timebird.network/api/v1/balance",
+            "type": "Fetch",
+            "method": "POST",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"code\":\"eth\",\"symbol\":\"eth\",\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"name\":\"Ethereum\",\"id\":1409,\"isTestnet\":false,\"decimals\":18}",
+            "responseHeaders": {}
+        }
+    ],
+    "success": true
+}

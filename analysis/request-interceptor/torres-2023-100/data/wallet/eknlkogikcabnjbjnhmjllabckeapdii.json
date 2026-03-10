@@ -1,0 +1,4184 @@
+{
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "profilePath": "./final-results/old_version/extensions/profiles_new/eknlkogikcabnjbjnhmjllabckeapdii",
+        "links": 10,
+        "walletPath": "./preparation/original-wallets/eknlkogikcabnjbjnhmjllabckeapdii",
+        "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+        "force": false,
+        "executablePath": "/opt/homebrew/bin/chromium"
+    },
+    "pathID": "eknlkogikcabnjbjnhmjllabckeapdii",
+    "timestamps": {
+        "start": 1762300301609,
+        "end": 1762300345818
+    },
+    "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+    "walletName": "walliD",
+    "notes": "incorrect-balance",
+    "extensionID": "pdcklpnckofpjkgpkbiommfgonmdoomb",
+    "password": "",
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "A954D3D07EA7CBC49DD0345A75677E03",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html",
+            "type": "Document",
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.5",
+            "url": "https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.6",
+            "url": "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.7",
+            "url": "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.8",
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.9",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/scripts/popup.bundle.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/login"
+            ],
+            "id": "92175.20",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Fri, 31 Oct 2025 07:16:10 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "376464",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                "content-length": "35508",
+                "x-xss-protection": "0",
+                "last-modified": "Thu, 04 Sep 2025 17:10:24 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Sat, 31 Oct 2026 07:16:10 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/login"
+            ],
+            "id": "92175.122",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "https://fonts.googleapis.com/",
+                "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "date": "Tue, 28 Oct 2025 19:00:45 GMT",
+                "x-content-type-options": "nosniff",
+                "age": "593389",
+                "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+                "cross-origin-resource-policy": "cross-origin",
+                "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+                "content-length": "34668",
+                "x-xss-protection": "0",
+                "last-modified": "Mon, 08 Sep 2025 18:08:42 GMT",
+                "server": "sffe",
+                "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+                "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+                "content-type": "font/woff2",
+                "access-control-allow-origin": "*",
+                "cache-control": "public, max-age=31536000",
+                "accept-ranges": "bytes",
+                "timing-allow-origin": "*",
+                "expires": "Wed, 28 Oct 2026 19:00:45 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/login"
+            ],
+            "id": "92175.169",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/images/logos/logo-wallid.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "E33DE72796DAAFFEED408AA19D4B2308",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+                "access-control-allow-methods": "OPTIONS,GET,POST",
+                "access-control-allow-origin": "*",
+                "access-control-max-age": "86400",
+                "content-length": "0",
+                "date": "Tue, 04 Nov 2025 23:51:44 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/login"
+            ],
+            "id": "92175.171",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Tue, 04 Nov 2025 23:51:44 GMT",
+                "content-length": "40",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "451109406C119FAF1A787D7A233CE9E6",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.181",
+            "url": "https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.182",
+            "url": "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.183",
+            "url": "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.184",
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.185",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/scripts/popup.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "etag": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.195",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.200",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.205",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.210",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.215",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.220",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.225",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.230",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.297",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.306",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.315",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.324",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.333",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.342",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.344",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/images/logos/logo-wallid.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "80FF25B97236E8D6C4AFC98835A597D5",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+                "access-control-allow-methods": "OPTIONS,GET,POST",
+                "access-control-allow-origin": "*",
+                "access-control-max-age": "86400",
+                "content-length": "0",
+                "date": "Tue, 04 Nov 2025 23:51:54 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.345",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Tue, 04 Nov 2025 23:51:54 GMT",
+                "content-length": "40",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "DEE59B173615083FE6AFEA8B5B873527",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.349",
+            "url": "https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.350",
+            "url": "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.351",
+            "url": "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.352",
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.353",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/scripts/popup.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "etag": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.363",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.368",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.373",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.378",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.383",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.388",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.393",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.398",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.465",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.474",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.483",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.492",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.501",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.510",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.512",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/images/logos/logo-wallid.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "9252AD1242BA86627A958338E05890A8",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+                "access-control-allow-methods": "OPTIONS,GET,POST",
+                "access-control-allow-origin": "*",
+                "access-control-max-age": "86400",
+                "content-length": "0",
+                "date": "Tue, 04 Nov 2025 23:51:57 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.513",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Tue, 04 Nov 2025 23:51:57 GMT",
+                "content-length": "40",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "3DE8C836571943EE201DEB1AD677DF33",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.517",
+            "url": "https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.518",
+            "url": "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.519",
+            "url": "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.520",
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.521",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/scripts/popup.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "etag": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.531",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.536",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.541",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.546",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.551",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.556",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.561",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.566",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.633",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.642",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.651",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.660",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.669",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.678",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.680",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/images/logos/logo-wallid.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.681",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Tue, 04 Nov 2025 23:52:01 GMT",
+                "content-length": "40",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "99B27B20115DE79B78E1DF8342DE5150",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+                "access-control-allow-methods": "OPTIONS,GET,POST",
+                "access-control-allow-origin": "*",
+                "access-control-max-age": "86400",
+                "content-length": "0",
+                "date": "Tue, 04 Nov 2025 23:52:00 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "96DF692461C9AA890867AF9381F23014",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.685",
+            "url": "https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.686",
+            "url": "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.687",
+            "url": "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.688",
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.689",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/scripts/popup.bundle.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.699",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.704",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.709",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.714",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.719",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.724",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.729",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.734",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.801",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.810",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.819",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.828",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.837",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.846",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.848",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/images/logos/logo-wallid.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.849",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Tue, 04 Nov 2025 23:52:04 GMT",
+                "content-length": "40",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "155DA162041D22AE30281E2E3A206C66",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+                "access-control-allow-methods": "OPTIONS,GET,POST",
+                "access-control-allow-origin": "*",
+                "access-control-max-age": "86400",
+                "content-length": "0",
+                "date": "Tue, 04 Nov 2025 23:52:04 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "6B874C86347D44307815C0E515EA2576",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.853",
+            "url": "https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.854",
+            "url": "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.855",
+            "url": "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.856",
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.857",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/scripts/popup.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "etag": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.867",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.872",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.877",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.882",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.887",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.892",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.897",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.902",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.969",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.978",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.987",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.996",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1005",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1014",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.1016",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/images/logos/logo-wallid.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.1017",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Tue, 04 Nov 2025 23:52:07 GMT",
+                "content-length": "40",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "3857432C588D7539F31ED7909266FBDB",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+                "access-control-allow-methods": "OPTIONS,GET,POST",
+                "access-control-allow-origin": "*",
+                "access-control-max-age": "86400",
+                "content-length": "0",
+                "date": "Tue, 04 Nov 2025 23:52:07 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "5B24407F6DD9077B5E5F588BCB8A66C0",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1021",
+            "url": "https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1022",
+            "url": "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1023",
+            "url": "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1024",
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1025",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/scripts/popup.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "etag": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1035",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1040",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1045",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1050",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1055",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1060",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1065",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1070",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1137",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1146",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1155",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1164",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1173",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1182",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.1184",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/images/logos/logo-wallid.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.1185",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Tue, 04 Nov 2025 23:52:11 GMT",
+                "content-length": "40",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "3B9BBF54C998B81391BA0F84A4B5C712",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+                "access-control-allow-methods": "OPTIONS,GET,POST",
+                "access-control-allow-origin": "*",
+                "access-control-max-age": "86400",
+                "content-length": "0",
+                "date": "Tue, 04 Nov 2025 23:52:11 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "19C8C2807E55A7543A1CBD103ED8FE0D",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1188",
+            "url": "https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1189",
+            "url": "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1190",
+            "url": "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1191",
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1192",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/scripts/popup.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "etag": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1202",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1207",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1212",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1217",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1222",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1227",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1232",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1237",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1304",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1313",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1322",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1331",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1340",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1349",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.1351",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/images/logos/logo-wallid.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "C8E856A1DF74B2F797A0319928DD49DA",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+                "access-control-allow-methods": "OPTIONS,GET,POST",
+                "access-control-allow-origin": "*",
+                "access-control-max-age": "86400",
+                "content-length": "0",
+                "date": "Tue, 04 Nov 2025 23:52:14 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.1352",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Tue, 04 Nov 2025 23:52:14 GMT",
+                "content-length": "40",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "7450957CB3950F61AE0C6B28F1C29417",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1355",
+            "url": "https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1356",
+            "url": "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1357",
+            "url": "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1358",
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1359",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/scripts/popup.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "etag": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1369",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1374",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1379",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1384",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1389",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1394",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1399",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1404",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1471",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1480",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1489",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1498",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1507",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1516",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.1518",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/images/logos/logo-wallid.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "BB662908880BE7899F9B7433AA7E9527",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+                "access-control-allow-methods": "OPTIONS,GET,POST",
+                "access-control-allow-origin": "*",
+                "access-control-max-age": "86400",
+                "content-length": "0",
+                "date": "Tue, 04 Nov 2025 23:52:18 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.1519",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Tue, 04 Nov 2025 23:52:18 GMT",
+                "content-length": "40",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "A512028533A10D764FDA18F97D479948",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1522",
+            "url": "https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1523",
+            "url": "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1524",
+            "url": "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1525",
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1526",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/scripts/popup.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "etag": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1536",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1541",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1546",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1551",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1556",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1561",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1566",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1571",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1638",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1647",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1656",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1665",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1674",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1683",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.1685",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/images/logos/logo-wallid.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.1686",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Tue, 04 Nov 2025 23:52:21 GMT",
+                "content-length": "40",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "02DC51A4F0CC9AD734D8581C18016FA2",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+                "access-control-allow-methods": "OPTIONS,GET,POST",
+                "access-control-allow-origin": "*",
+                "access-control-max-age": "86400",
+                "content-length": "0",
+                "date": "Tue, 04 Nov 2025 23:52:21 GMT"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "B5604CF62991EC3B7D607DEC18F00C15",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1689",
+            "url": "https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1690",
+            "url": "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1691",
+            "url": "https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1692",
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+            "type": "Stylesheet",
+            "method": "GET",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1693",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/scripts/popup.bundle.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:51 GMT",
+                "etag": "\"MrKKe3yRIJpb/55QBC6F7xIwfKY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1703",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1708",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1713",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1718",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1723",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1728",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1733",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1738",
+            "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1805",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1814",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1823",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1832",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1841",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/popup.html"
+            ],
+            "id": "92175.1850",
+            "url": "https://fonts.gstatic.com/s/roboto/v49/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+            "type": "Font",
+            "method": "GET",
+            "headers": {
+                "referer": ""
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.1852",
+            "url": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/images/logos/logo-wallid.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:21:50 GMT",
+                "etag": "\"X3O49nAtp8w2j3j8zA+p7tNVk48=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb/home"
+            ],
+            "id": "92175.1853",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Fetch",
+            "status": 200,
+            "method": "POST",
+            "headers": {
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-platform": "\"Mac OS X\"",
+                "referer": "",
+                "sec-ch-ua-mobile": "?0",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "content-type": "application/json"
+            },
+            "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+            "responseHeaders": {
+                "access-control-allow-origin": "*",
+                "date": "Tue, 04 Nov 2025 23:52:24 GMT",
+                "content-length": "40",
+                "vary": "Accept-Encoding",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [],
+            "id": "410BD0BDA212CB252E38BB04D99B0CE2",
+            "url": "https://mainnet.infura.io/v3/463ed0e7b23c41178adf46fd4fbbc7c2",
+            "type": "Other",
+            "status": 200,
+            "method": "OPTIONS",
+            "headers": {
+                "accept": "*/*",
+                "access-control-request-headers": "content-type",
+                "access-control-request-method": "POST",
+                "origin": "chrome-extension://pdcklpnckofpjkgpkbiommfgonmdoomb",
+                "sec-fetch-mode": "cors",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "access-control-allow-headers": "Authorization,Content-Type,Content-Encoding,X-Infura-User-Agent,X-Csi-Version,Metamask-Sdk-Info",
+                "access-control-allow-methods": "OPTIONS,GET,POST",
+                "access-control-allow-origin": "*",
+                "access-control-max-age": "86400",
+                "content-length": "0",
+                "date": "Tue, 04 Nov 2025 23:52:24 GMT"
+            }
+        }
+    ],
+    "success": true
+}

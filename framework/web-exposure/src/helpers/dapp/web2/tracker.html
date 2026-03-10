@@ -1,0 +1,663 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cross-Origin Wallet Tracking Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 0 1rem 3rem;
+        background: #f5f5f7;
+        color: #111827;
+      }
+      h1 {
+        font-size: 1.6rem;
+        margin-bottom: 1.25rem;
+        text-align: center;
+      }
+      code {
+        background: #f3f4f6;
+        padding: 0.15rem 0.35rem;
+        border-radius: 999px;
+        font-size: 0.8rem;
+      }
+      button {
+        padding: 0.5rem 1rem;
+        border-radius: 999px;
+        border: 1px solid #e5e7eb;
+        background: #fff;
+        cursor: pointer;
+        font-size: 0.95rem;
+      }
+      button:hover {
+        background: #f3f4f6;
+      }
+      button:active {
+        transform: translateY(1px);
+      }
+
+      /* Big step cards */
+      .steps {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+      }
+
+      .step-card {
+        background: #ffffff;
+        border-radius: 18px;
+        border: 1px solid #e5e7eb;
+        padding: 1.25rem 1.5rem;
+        box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+      }
+
+      .step-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .step-label {
+        font-size: 0.9rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: #4f46e5;
+      }
+
+      .step-title {
+        font-size: 1.1rem;
+        font-weight: 800;
+        margin-top: 0.15rem;
+      }
+
+      .step-title.boom {
+        color: #b91c1c;
+      }
+
+      .step-text {
+        font-size: 0.9rem;
+        color: #4b5563;
+        margin-bottom: 0.75rem;
+      }
+
+      iframe {
+        width: 100%;
+        height: 130px;
+        border: 1px dashed #e5e7eb;
+        border-radius: 12px;
+        background: #f9fafb;
+        margin-top: 0.75rem;
+      }
+
+      /* Logs layout: two columns */
+      .log-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 0.75rem;
+      }
+
+      .log-column {
+        flex: 1 1 0;
+        min-width: 0;
+      }
+
+      .log-column-title {
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+        color: #4b5563;
+      }
+
+      .log {
+        padding: 0.75rem 1rem;
+        border-radius: 12px;
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        font-size: 0.85rem;
+        max-height: 260px;
+        overflow-y: auto;
+      }
+
+      .entry {
+        padding: 0.4rem 0;
+        border-bottom: 1px solid #e5e7eb;
+      }
+
+      .entry:last-child {
+        border-bottom: none;
+      }
+
+      .address-line {
+        font-family:
+          ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+        font-size: 0.8rem;
+        word-break: break-all;
+        padding: 0.15rem 0;
+      }
+
+      .placeholder-title {
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin-bottom: 0.25rem;
+      }
+
+      .placeholder-text {
+        font-size: 0.8rem;
+        color: #6b7280;
+      }
+
+      .footer-note {
+        font-size: 0.8rem;
+        color: #6b7280;
+        margin-top: 0.5rem;
+      }
+      .wallet-leak-box {
+        margin-top: 0.4rem;
+        padding: 0.6rem 0.75rem;
+        border-radius: 12px;
+        border: 1px solid #fecaca;
+        background: #fee2e2;
+      }
+
+      .wallet-leak-item {
+        font-size: 0.85rem;
+        color: #7f1d1d;
+        font-weight: 500;
+        margin-bottom: 0.25rem;
+        font-family:
+          ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+      }
+
+      .wallet-leak-item:last-child {
+        margin-bottom: 0;
+      }
+
+      .wallet-pill {
+        display: inline-block;
+        padding: 0.1rem 0.45rem;
+        border-radius: 999px;
+        font-size: 0.75rem;
+        margin-right: 0.25rem;
+        margin-top: 0.15rem;
+        border: 1px solid transparent;
+      }
+      .wallet-pills-box {
+        margin-top: 0.35rem;
+        padding: 0.45rem 0.6rem;
+        border-radius: 10px;
+        border: 1px solid #e5e7eb;
+        background: #f9fafb;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .wallet-pill-red {
+        background: #fee2e2;
+        color: #b91c1c;
+        border-color: #fecaca;
+      }
+
+      .wallet-pill-green {
+        background: #dcfce7;
+        color: #166534;
+        border-color: #bbf7d0;
+      }
+
+      .leak-note {
+        font-size: 0.85rem;
+        color: #b91c1c;
+        font-weight: 600;
+        margin-top: 0.75rem;
+      }
+
+      @media (max-width: 700px) {
+        .log-grid {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Threat #4 Demo</h1>
+
+    <div class="steps">
+      <!-- STEP 0 -->
+      <section class="step-card">
+        <div class="step-header">
+          <div>
+            <div class="step-label">Step 0</div>
+            <div class="step-title">
+              See which wallets inject into this dApp
+            </div>
+          </div>
+        </div>
+        <p class="step-text">
+          These are the wallet providers detected on this page.
+          <b>Red ones also inject into the dApp iframe</b> (they share your
+          wallet with the dApp). <b>Green ones only inject here.</b>
+          <br />
+          For Step 1, pick one of the <b>red</b> wallets in your browser wallet
+          and connect with it.
+        </p>
+        <p id="walletProvidersLine" class="footer-note">
+          Wallet providers on this page: (waiting…)
+        </p>
+      </section>
+
+      <!-- STEP 1 -->
+      <section class="step-card">
+        <div class="step-header">
+          <div>
+            <div class="step-label">Step 1</div>
+            <div class="step-title">
+              Open a dApp and connect with one wallet
+            </div>
+          </div>
+          <button id="openDapp">Open demo dApp</button>
+        </div>
+        <p class="step-text">
+          Open the demo dApp, choose one of the <b>red</b> wallets from Step 0
+          in your wallet UI, connect once, then close the tab and come back
+          here.
+        </p>
+        <iframe
+          id="dappFrame"
+          style="display: none"
+          src="http://localhost:9999/dapp-with-tracker"
+        ></iframe>
+      </section>
+
+      <!-- STEP 2 -->
+      <section class="step-card">
+        <div class="step-header">
+          <div>
+            <div class="step-label">Step 2</div>
+            <div class="step-title boom">💥 Your wallet addresses are…</div>
+          </div>
+          <button id="rerunTopProbe">Run again</button>
+        </div>
+        <p class="step-text">
+          Without asking you anything here, these are the addresses visible to
+          this page and to the embedded dApp:
+        </p>
+
+        <div class="log-grid">
+          <!-- Left: top-level -->
+          <div class="log-column">
+            <div class="log-column-title">This page</div>
+            <div class="log" id="logTop">
+              <div class="entry placeholder">
+                <div class="placeholder-title">Waiting…</div>
+                <div class="placeholder-text">
+                  This box will show the wallet addresses that this page can
+                  see.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: iframe -->
+          <div class="log-column">
+            <div class="log-column-title">Embedded dApp (invisible iframe)</div>
+            <div class="log" id="logIframe">
+              <div class="entry placeholder">
+                <div class="placeholder-title">Waiting…</div>
+                <div class="placeholder-text">
+                  This box will show the wallet addresses that the dApp can see.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LEAK SUMMARY (moved here, red) -->
+        <p id="walletLeakLine" class="leak-note">
+          Among these red ones, these are leaking addresses: (waiting…)
+        </p>
+      </section>
+    </div>
+
+    <script>
+      /************* Shared helpers *************/
+      function collectAddressesFromResults(results) {
+        var set = new Set();
+        var out = [];
+        if (!results || !results.length) return out;
+
+        results.forEach(function (r) {
+          if (!r || !Array.isArray(r.accounts)) return;
+          r.accounts.forEach(function (addr) {
+            if (!addr) return;
+            if (!set.has(addr)) {
+              set.add(addr);
+              out.push(addr);
+            }
+          });
+        });
+        return out;
+      }
+
+      function renderAddresses(logEl, addresses) {
+        if (!logEl) return;
+
+        logEl.innerHTML = "";
+        var entry = document.createElement("div");
+        entry.className = "entry";
+
+        if (!addresses.length) {
+          var msg = document.createElement("div");
+          msg.className = "placeholder-text";
+          msg.textContent = "No wallet addresses visible.";
+          entry.appendChild(msg);
+        } else {
+          addresses.forEach(function (addr) {
+            var line = document.createElement("div");
+            line.className = "address-line";
+            line.textContent = addr;
+            entry.appendChild(line);
+          });
+        }
+
+        logEl.appendChild(entry);
+      }
+
+      /************* Top-level (this page) probing *************/
+      function discoverProviders() {
+        return new Promise(function (resolve) {
+          var announced = [];
+
+          function onAnnounce(e) {
+            if (!e || !e.detail) return;
+            var d = e.detail;
+            if (d && d.provider) {
+              announced.push(d);
+            }
+          }
+
+          window.addEventListener("eip6963:announceProvider", onAnnounce);
+          window.dispatchEvent(new Event("eip6963:requestProvider"));
+
+          setTimeout(function () {
+            window.removeEventListener("eip6963:announceProvider", onAnnounce);
+
+            if (announced.length > 0) {
+              var seen = new Set();
+              var list = announced
+                .filter(function (d) {
+                  if (seen.has(d.provider)) return false;
+                  seen.add(d.provider);
+                  return true;
+                })
+                .map(function (d) {
+                  var info = d.info || {};
+                  return {
+                    provider: d.provider,
+                    name: info.name || info.rdns || "wallet",
+                  };
+                });
+
+              resolve(list);
+              return;
+            }
+
+            // Fallback to window.ethereum
+            if (window.ethereum) {
+              var providers;
+              if (
+                Array.isArray(window.ethereum.providers) &&
+                window.ethereum.providers.length
+              ) {
+                providers = window.ethereum.providers;
+              } else {
+                providers = [window.ethereum];
+              }
+
+              resolve(
+                providers.map(function (p, i) {
+                  return {
+                    provider: p,
+                    name: p.isMetaMask
+                      ? "MetaMask"
+                      : p.isCoinbaseWallet
+                        ? "Coinbase"
+                        : "wallet:" + i,
+                  };
+                }),
+              );
+            } else {
+              resolve([]);
+            }
+          }, 500);
+        });
+      }
+
+      async function probeWallets(contextLabel) {
+        var providers = await discoverProviders();
+        var results = [];
+
+        if (!providers.length) {
+          results.push({
+            wallet: "(none)",
+            accounts: [],
+            error: "No wallet providers detected",
+          });
+
+          return {
+            context: contextLabel,
+            origin: window.location.origin,
+            results: results,
+          };
+        }
+
+        for (var i = 0; i < providers.length; i++) {
+          var w = providers[i];
+          try {
+            var accs = await w.provider.request({
+              method: "eth_accounts",
+              params: [],
+            });
+            results.push({
+              wallet: w.name,
+              accounts: accs || [],
+              error: null,
+            });
+          } catch (e) {
+            results.push({
+              wallet: w.name,
+              accounts: [],
+              error: e && e.message ? e.message : String(e),
+            });
+          }
+        }
+
+        console.log({
+          context: contextLabel,
+          origin: window.location.origin,
+          results: results,
+        });
+
+        return {
+          context: contextLabel,
+          origin: window.location.origin,
+          results: results,
+        };
+      }
+
+      var logTopEl = document.getElementById("logTop");
+      var logIframeEl = document.getElementById("logIframe");
+      var walletProvidersLineEl = document.getElementById(
+        "walletProvidersLine",
+      );
+      var walletLeakLineEl = document.getElementById("walletLeakLine");
+
+      // state: last probe results
+      var lastTopResults = null; // [{ wallet, accounts, error }]
+      var lastIframeResults = null;
+
+      /************* Summary based on BOTH top + iframe *************/
+      function updateSummary() {
+        if (!walletProvidersLineEl || !walletLeakLineEl) return;
+
+        var providersMap = new Map(); // name -> { inTop, inIframe, iframeAccounts }
+
+        if (lastTopResults && lastTopResults.length) {
+          lastTopResults.forEach(function (r) {
+            if (!r || !r.wallet) return;
+            var name = r.wallet;
+            var entry = providersMap.get(name) || {
+              inTop: false,
+              inIframe: false,
+              iframeAccounts: [],
+            };
+            entry.inTop = true;
+            providersMap.set(name, entry);
+          });
+        }
+
+        if (lastIframeResults && lastIframeResults.length) {
+          lastIframeResults.forEach(function (r) {
+            if (!r || !r.wallet) return;
+            var name = r.wallet;
+            var entry = providersMap.get(name) || {
+              inTop: false,
+              inIframe: false,
+              iframeAccounts: [],
+            };
+            entry.inIframe = true;
+            if (Array.isArray(r.accounts)) {
+              entry.iframeAccounts = r.accounts;
+            }
+            providersMap.set(name, entry);
+          });
+        }
+
+        var entries = Array.from(providersMap.entries());
+
+        if (!entries.length) {
+          walletProvidersLineEl.textContent =
+            "Wallet providers on this page: none detected.";
+          walletLeakLineEl.textContent =
+            "Among these red ones, none are leaking addresses.";
+          return;
+        }
+
+        // Line in Step 0: colored pills
+        var pillHtml = entries
+          .map(function ([name, info]) {
+            var cls = info.inIframe
+              ? "wallet-pill wallet-pill-red"
+              : "wallet-pill wallet-pill-green";
+            return '<span class="' + cls + '">' + name + "</span>";
+          })
+          .join(" ");
+
+        walletProvidersLineEl.innerHTML =
+          "Wallet providers on this page (red = also injected into iframe, green = only here): " +
+          pillHtml;
+
+        // Line in Step 2: leaking ones among the red
+        var leaking = entries.filter(function ([_, info]) {
+          return (
+            info.inIframe &&
+            info.iframeAccounts &&
+            info.iframeAccounts.length > 0
+          );
+        });
+        if (!leaking.length) {
+          walletLeakLineEl.textContent =
+            "Among these red ones, none are leaking addresses inside the iframe.";
+        } else {
+          var itemsHtml = leaking
+            .map(function ([name, info]) {
+              return (
+                '<div class="wallet-leak-item">' +
+                name +
+                " → " +
+                info.iframeAccounts.join(", ") +
+                "</div>"
+              );
+            })
+            .join("");
+
+          walletLeakLineEl.innerHTML =
+            "<div>Among these red ones, these are leaking addresses:</div>" +
+            '<div class="wallet-leak-box">' +
+            itemsHtml +
+            "</div>";
+        }
+      }
+
+      /************* Top-level probe (left box) *************/
+      async function runTopProbe(contextLabel) {
+        console.log("Running top-level probe:", contextLabel);
+        try {
+          var data = await probeWallets(contextLabel || "top-level");
+          lastTopResults = data.results || [];
+          var addresses = collectAddressesFromResults(lastTopResults);
+          renderAddresses(logTopEl, addresses);
+        } catch (e) {
+          console.error("Top-level probe error:", e);
+          lastTopResults = [];
+          renderAddresses(logTopEl, []);
+        }
+        updateSummary();
+      }
+
+      /************* Iframe listener (right box + summary) *************/
+      window.addEventListener("message", function (event) {
+        var msg = event.data;
+        if (!msg || msg.type !== "walletExposureFromIframe") return;
+
+        var payload = msg.payload || {};
+        var results = payload.results || [];
+
+        console.log("Iframe payload:", payload);
+
+        lastIframeResults = results;
+        var addresses = collectAddressesFromResults(results);
+        renderAddresses(logIframeEl, addresses);
+        updateSummary();
+      });
+
+      /************* Init *************/
+      (async function () {
+        await runTopProbe("initial");
+      })();
+
+      document
+        .getElementById("rerunTopProbe")
+        .addEventListener("click", function () {
+          runTopProbe("manual");
+        });
+
+      // Auto-refresh every 5 seconds (top-level only)
+      setInterval(function () {
+        runTopProbe("auto");
+      }, 5000);
+
+      // Open the dApp in a separate tab for Step 1
+      document
+        .getElementById("openDapp")
+        .addEventListener("click", function () {
+          window.open(
+            "http://localhost:8888/dapp-with-tracker",
+            "_blank",
+            "noopener",
+          );
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,2246 @@
+{
+  "err": null,
+  "baseRes": {
+    "dappUrl": "http://localhost:4444/new.html",
+    "extName": "Hana",
+    "extPath": "jfdlamikmbghhapbgfoogdffldioobgl",
+    "dappVision": {
+      "preLock": null,
+      "preConsent": [],
+      "postConsent": [
+        "0x033a5379BC3D5edD92b9B1dA762688E97CEF154c"
+      ],
+      "afterRevoke": [
+        "0x033a5379BC3D5edD92b9B1dA762688E97CEF154c"
+      ],
+      "reconnect": [
+        "0x033a5379BC3D5edD92b9B1dA762688E97CEF154c"
+      ]
+    },
+    "visionDetails": []
+  },
+  "dappUrl": "http://localhost:4444/new.html",
+  "extName": "Hana",
+  "extPath": "/Users/weihong/github/web3-full-automation/preparation/unzipped_extensions/jfdlamikmbghhapbgfoogdffldioobgl",
+  "notes": [],
+  "addresses": [],
+  "phaseTiming": {
+    "preLock": 1763508031358,
+    "preConsent": 1763508043265,
+    "duringConsent": 1763508044292,
+    "postConsent": 1763508055133,
+    "afterRevoke": 1763508060608,
+    "reconnect": 1763508069081
+  },
+  "cookieAndLocalStorage": [
+    {
+      "type": "phase.set",
+      "name": "preLock",
+      "phase": "preLock",
+      "ts": 1763508032391.4,
+      "hr": 1090.199999988079
+    },
+    {
+      "type": "phase.set",
+      "name": "preConsent",
+      "phase": "preConsent",
+      "ts": 1763508044290.6,
+      "hr": 1201.1000000238419
+    },
+    {
+      "type": "phase.set",
+      "name": "DuringConsent",
+      "phase": "DuringConsent",
+      "ts": 1763508045305.4,
+      "hr": 2215.900000035763
+    },
+    {
+      "type": "phase.set",
+      "name": "postConsent",
+      "phase": "postConsent",
+      "ts": 1763508056193.4,
+      "hr": 13103.900000035763
+    },
+    {
+      "type": "phase.set",
+      "name": "afterRevoke",
+      "phase": "afterRevoke",
+      "ts": 1763508061626.5999,
+      "hr": 5349.199999988079
+    }
+  ],
+  "objectEventLogs": [
+    {
+      "requestId": "eip6963:io.hanawallet:6:wallet_revokePermissions",
+      "label": "eip6963:io.hanawallet",
+      "phase": "postConsent",
+      "ts_start": 1763508060587,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "type": "call",
+      "params": [
+        {
+          "eth_accounts": {}
+        }
+      ]
+    },
+    {
+      "requestId": "eip6963:io.hanawallet:6:wallet_revokePermissions",
+      "label": "eip6963:io.hanawallet",
+      "phase": "postConsent",
+      "ts_start": 1763508060587,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "ts_end": 1763508060592,
+      "type": "error",
+      "error": "The requested method is not supported by this Ethereum provider.",
+      "durationMs": 5
+    },
+    {
+      "requestId": "eip6963:io.hanawallet:4:wallet_revokePermissions",
+      "label": "eip6963:io.hanawallet",
+      "phase": "afterRevoke",
+      "ts_start": 1763508063096,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "type": "call",
+      "params": [
+        {
+          "eth_accounts": {}
+        }
+      ]
+    },
+    {
+      "requestId": "eip6963:io.hanawallet:4:wallet_revokePermissions",
+      "label": "eip6963:io.hanawallet",
+      "phase": "afterRevoke",
+      "ts_start": 1763508063096,
+      "api": "request",
+      "method": "wallet_revokePermissions",
+      "ts_end": 1763508063102,
+      "type": "error",
+      "error": "The requested method is not supported by this Ethereum provider.",
+      "durationMs": 6
+    }
+  ],
+  "pageRequests": [
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "2D7DF5E30EA1B1B537E80CF3CBFEA2FD",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508031303
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "2D7DF5E30EA1B1B537E80CF3CBFEA2FD",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508031303,
+      "tsEnd": 1763508031306,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "2D7DF5E30EA1B1B537E80CF3CBFEA2FD",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508031303,
+      "tsEnd": 1763508031306,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.13",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageGlobal.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031320
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.13",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageGlobal.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031320,
+      "tsEnd": 1763508031323,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.13",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageGlobal.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031320,
+      "tsEnd": 1763508031323,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.14",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageFreighter.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031324
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.15",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageStellar.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031324
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.16",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSui.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031324
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.17",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageHavah.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031325
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.18",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSolana.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031325
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.19",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageEthereum.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031326
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.20",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpagePolkadot.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031326
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.21",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageCosmos.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031326
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.15",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageStellar.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031324,
+      "tsEnd": 1763508031327,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.15",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageStellar.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031324,
+      "tsEnd": 1763508031327,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.14",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageFreighter.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031324,
+      "tsEnd": 1763508031328,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.14",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageFreighter.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031324,
+      "tsEnd": 1763508031328,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.17",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageHavah.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031325,
+      "tsEnd": 1763508031329,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.17",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageHavah.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031325,
+      "tsEnd": 1763508031328,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.18",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSolana.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031325,
+      "tsEnd": 1763508031329,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.18",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSolana.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031325,
+      "tsEnd": 1763508031328,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.16",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSui.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031324,
+      "tsEnd": 1763508031329,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.16",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSui.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031324,
+      "tsEnd": 1763508031329,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.19",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageEthereum.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031326,
+      "tsEnd": 1763508031330,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.19",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageEthereum.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031326,
+      "tsEnd": 1763508031329,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.20",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpagePolkadot.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031326,
+      "tsEnd": 1763508031330,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.20",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpagePolkadot.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031326,
+      "tsEnd": 1763508031328,
+      "durationMs": 2
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.21",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageCosmos.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031326,
+      "tsEnd": 1763508031331,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.21",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageCosmos.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508031326,
+      "tsEnd": 1763508031328,
+      "durationMs": 2
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "DF9778262AF69CA5B8368E03202F6786",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508043092
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "DF9778262AF69CA5B8368E03202F6786",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508043092,
+      "tsEnd": 1763508043109,
+      "durationMs": 17
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "DF9778262AF69CA5B8368E03202F6786",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508043092,
+      "tsEnd": 1763508043109,
+      "durationMs": 17
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.23",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageGlobal.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043131
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.23",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageGlobal.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043131,
+      "tsEnd": 1763508043136,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.23",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageGlobal.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043131,
+      "tsEnd": 1763508043136,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.24",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageFreighter.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043138
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.25",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageStellar.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043138
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.26",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSui.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043138
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.27",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageHavah.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043139
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.28",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSolana.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043139
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.29",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageEthereum.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043140
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.30",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpagePolkadot.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043140
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.31",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageCosmos.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043140
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.25",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageStellar.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043138,
+      "tsEnd": 1763508043143,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.28",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSolana.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043139,
+      "tsEnd": 1763508043143,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.27",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageHavah.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043139,
+      "tsEnd": 1763508043143,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.24",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageFreighter.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043138,
+      "tsEnd": 1763508043143,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.30",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpagePolkadot.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043140,
+      "tsEnd": 1763508043144,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.26",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSui.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043138,
+      "tsEnd": 1763508043145,
+      "durationMs": 7
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.29",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageEthereum.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043140,
+      "tsEnd": 1763508043145,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.31",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageCosmos.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043140,
+      "tsEnd": 1763508043145,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.28",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSolana.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043139,
+      "tsEnd": 1763508043146,
+      "durationMs": 7
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.24",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageFreighter.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043138,
+      "tsEnd": 1763508043146,
+      "durationMs": 8
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.27",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageHavah.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043139,
+      "tsEnd": 1763508043146,
+      "durationMs": 7
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.25",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageStellar.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043138,
+      "tsEnd": 1763508043146,
+      "durationMs": 8
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.26",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSui.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043138,
+      "tsEnd": 1763508043146,
+      "durationMs": 8
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.29",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageEthereum.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043140,
+      "tsEnd": 1763508043148,
+      "durationMs": 8
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.31",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageCosmos.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043140,
+      "tsEnd": 1763508043148,
+      "durationMs": 8
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.30",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpagePolkadot.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508043140,
+      "tsEnd": 1763508043149,
+      "durationMs": 9
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "8C4B777F00828C644AF5F88779A995E0",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508056279
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "8C4B777F00828C644AF5F88779A995E0",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508056279,
+      "tsEnd": 1763508056285,
+      "durationMs": 6
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "8C4B777F00828C644AF5F88779A995E0",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508056279,
+      "tsEnd": 1763508056284,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.33",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageGlobal.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056296
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.33",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageGlobal.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056296,
+      "tsEnd": 1763508056299,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.33",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageGlobal.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056296,
+      "tsEnd": 1763508056299,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.34",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageFreighter.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.35",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageStellar.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.36",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSui.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.37",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageHavah.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.38",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSolana.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.39",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageEthereum.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056301
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.40",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpagePolkadot.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056301
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.41",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageCosmos.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056301
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.35",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageStellar.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300,
+      "tsEnd": 1763508056314,
+      "durationMs": 14
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.35",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageStellar.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300,
+      "tsEnd": 1763508056313,
+      "durationMs": 13
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.37",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageHavah.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300,
+      "tsEnd": 1763508056316,
+      "durationMs": 16
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.37",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageHavah.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300,
+      "tsEnd": 1763508056313,
+      "durationMs": 13
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.38",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSolana.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300,
+      "tsEnd": 1763508056321,
+      "durationMs": 21
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.39",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageEthereum.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056301,
+      "tsEnd": 1763508056322,
+      "durationMs": 21
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.39",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageEthereum.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056301,
+      "tsEnd": 1763508056321,
+      "durationMs": 20
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.36",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSui.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300,
+      "tsEnd": 1763508056324,
+      "durationMs": 24
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.36",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSui.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300,
+      "tsEnd": 1763508056315,
+      "durationMs": 15
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.38",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSolana.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300,
+      "tsEnd": 1763508056324,
+      "durationMs": 24
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.34",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageFreighter.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300,
+      "tsEnd": 1763508056326,
+      "durationMs": 26
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.34",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageFreighter.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056300,
+      "tsEnd": 1763508056313,
+      "durationMs": 13
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.40",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpagePolkadot.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056301,
+      "tsEnd": 1763508056326,
+      "durationMs": 25
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.40",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpagePolkadot.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056301,
+      "tsEnd": 1763508056320,
+      "durationMs": 19
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.41",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageCosmos.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056301,
+      "tsEnd": 1763508056329,
+      "durationMs": 28
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.41",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageCosmos.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "If-None-Match": "\"NCldVRzwSSChooauy6JCeBw8Yqs=\"",
+        "Referer": "http://localhost:4444/",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "If-Modified-Since": "Wed, 05 Nov 2025 05:42:26 GMT"
+      },
+      "tsStart": 1763508056301,
+      "tsEnd": 1763508056320,
+      "durationMs": 19
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "090309337DFB76685DADBEE6E8A42FD6",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508061697
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "090309337DFB76685DADBEE6E8A42FD6",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508061697,
+      "tsEnd": 1763508061702,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "090309337DFB76685DADBEE6E8A42FD6",
+      "requestUrl": "http://localhost:4444/new",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "tsStart": 1763508061697,
+      "tsEnd": 1763508061702,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.43",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageGlobal.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061716
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.43",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageGlobal.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061716,
+      "tsEnd": 1763508061720,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.43",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageGlobal.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061716,
+      "tsEnd": 1763508061720,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.44",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageFreighter.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061721
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.45",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageStellar.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061721
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.46",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSui.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061721
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.47",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageHavah.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061722
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.48",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSolana.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061722
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.49",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageEthereum.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061723
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.50",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpagePolkadot.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061723
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.51",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageCosmos.js",
+      "pageUrl": "http://localhost:4444/new",
+      "method": "GET",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061723
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.45",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageStellar.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061721,
+      "tsEnd": 1763508061724,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.45",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageStellar.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061721,
+      "tsEnd": 1763508061724,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.47",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageHavah.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061722,
+      "tsEnd": 1763508061725,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.47",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageHavah.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061722,
+      "tsEnd": 1763508061723,
+      "durationMs": 1
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.44",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageFreighter.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061721,
+      "tsEnd": 1763508061726,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.44",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageFreighter.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061721,
+      "tsEnd": 1763508061726,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.46",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSui.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061721,
+      "tsEnd": 1763508061727,
+      "durationMs": 6
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.48",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSolana.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061722,
+      "tsEnd": 1763508061727,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.49",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageEthereum.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061723,
+      "tsEnd": 1763508061727,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.50",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpagePolkadot.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061723,
+      "tsEnd": 1763508061727,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.46",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSui.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061721,
+      "tsEnd": 1763508061726,
+      "durationMs": 5
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.48",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageSolana.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061722,
+      "tsEnd": 1763508061726,
+      "durationMs": 4
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.49",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageEthereum.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061723,
+      "tsEnd": 1763508061726,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.50",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpagePolkadot.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061723,
+      "tsEnd": 1763508061726,
+      "durationMs": 3
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.51",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageCosmos.js",
+      "pageUrl": "http://localhost:4444/new",
+      "status": 200,
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061723,
+      "tsEnd": 1763508061731,
+      "durationMs": 8
+    },
+    {
+      "source": "page",
+      "targetType": "page",
+      "requestId": "10559.51",
+      "requestUrl": "chrome-extension://jfdlamikmbghhapbgfoogdffldioobgl/contentInpageCosmos.js",
+      "pageUrl": "http://localhost:4444/new",
+      "type": "http",
+      "queryParams": {},
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Referer": "http://localhost:4444/"
+      },
+      "tsStart": 1763508061723,
+      "tsEnd": 1763508061726,
+      "durationMs": 3
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/opcgpfmipidbgpenhmajoajpbobppdil",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/opcgpfmipidbgpenhmajoajpbobppdil",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "pathID": "opcgpfmipidbgpenhmajoajpbobppdil",
+  "timestamps": {
+    "start": 1762302019131,
+    "end": 1762302020996
+  },
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "walletName": "sui-wallet",
+  "notes": "dead",
+  "extensionID": "nlmdbfahieinbinclhgllaookhagohce",
+  "password": "Default1Password1!",
+  "requests": [
+    {
+      "requestContext": ["about:blank"],
+      "id": "E8B502EB6B59DA3155E15E6BD04AC2C5",
+      "url": "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.html?type=popup",
+      "type": "Document",
+      "method": "GET",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.html"
+      ],
+      "id": "7832.6",
+      "url": "https://cdn.growthbook.io/api/features/key_prod_ac59fe325855eb5f",
+      "type": "Fetch",
+      "status": 400,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "x-served-by": "cache-iad-kcgs7200147-IAD, cache-bru1480058-BRU",
+        "date": "Wed, 05 Nov 2025 00:20:20 GMT",
+        "via": "1.1 varnish, 1.1 varnish",
+        "age": "0",
+        "x-timer": "S1762302020.128317,VS0,VE83",
+        "x-powered-by": "Express",
+        "etag": "W/\"28-2KvPXWd9R56w/J6uXbZzRqi+WF4\"",
+        "vary": "Accept-Encoding",
+        "x-cache": "HIT, MISS",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "x-unrecoverable": "1",
+        "accept-ranges": "bytes",
+        "content-length": "40",
+        "x-cache-hits": "3, 0"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.html"
+      ],
+      "id": "7832.11",
+      "url": "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/5eb4a7768219776c5b91.woff2",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "origin": "chrome-extension://nlmdbfahieinbinclhgllaookhagohce",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:22:08 GMT",
+        "etag": "\"6rar2oKyLuVhSpAZ2Y3stzhk4b4=\"",
+        "content-type": "application/octet-stream"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.html?type=popup"
+      ],
+      "id": "7832.22",
+      "url": "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:22:08 GMT",
+        "etag": "\"6rar2oKyLuVhSpAZ2Y3stzhk4b4=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.html?type=popup"
+      ],
+      "id": "7832.23",
+      "url": "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:22:08 GMT",
+        "etag": "\"6rar2oKyLuVhSpAZ2Y3stzhk4b4=\"",
+        "content-type": "text/css"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.html?type=popup"
+      ],
+      "id": "7832.26",
+      "url": "https://cdn.growthbook.io/api/features/key_prod_ac59fe325855eb5f",
+      "type": "Fetch",
+      "status": 400,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "x-served-by": "cache-iad-kcgs7200147-IAD, cache-bru1480058-BRU",
+        "date": "Wed, 05 Nov 2025 00:20:20 GMT",
+        "via": "1.1 varnish, 1.1 varnish",
+        "age": "0",
+        "x-timer": "S1762302020.234242,VS0,VE1",
+        "x-powered-by": "Express",
+        "etag": "W/\"28-2KvPXWd9R56w/J6uXbZzRqi+WF4\"",
+        "vary": "Accept-Encoding",
+        "x-cache": "HIT, HIT",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "x-unrecoverable": "1",
+        "accept-ranges": "bytes",
+        "content-length": "40",
+        "x-cache-hits": "3, 1"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.html?type=popup"
+      ],
+      "id": "7832.31",
+      "url": "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/5eb4a7768219776c5b91.woff2",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "origin": "chrome-extension://nlmdbfahieinbinclhgllaookhagohce",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:22:08 GMT",
+        "etag": "\"6rar2oKyLuVhSpAZ2Y3stzhk4b4=\"",
+        "content-type": "application/octet-stream"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.html"
+      ],
+      "id": "7832.41",
+      "url": "https://o1314142.ingest.sentry.io/api/6761112/envelope/?sentry_key=e52a4e5c90224fe0800cc96aa2570581&sentry_version=7&sentry_client=sentry.javascript.react%2F7.24.2",
+      "type": "Fetch",
+      "status": 200,
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "sec-ch-ua-platform": "\"Mac OS X\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"sent_at\":\"2025-11-05T00:20:20.222Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"7.24.2\"}}\n{\"type\":\"session\"}\n{\"sid\":\"80ac830c74534c2bb31e3004f2fbe644\",\"init\":true,\"started\":\"2025-11-05T00:20:20.221Z\",\"timestamp\":\"2025-11-05T00:20:20.221Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"23.1.3.0\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}",
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:20:20 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "2"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.html#/locked?url=%2F"
+      ],
+      "id": "7832.42",
+      "url": "https://plausible.io/api/event",
+      "type": "Xhr",
+      "status": 202,
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "sec-ch-ua-platform": "\"Mac OS X\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain"
+      },
+      "postData": "{\"n\":\"pageview\",\"u\":\"chrome-extension://nlmdbfahieinbinclhgllaookhagohce/\",\"d\":\"chrome-extension://nlmdbfahieinbinclhgllaookhagohce\",\"r\":null,\"w\":1920,\"h\":0}",
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:20:20 GMT",
+        "via": "1.1 Caddy",
+        "cdn-requesttime": "0",
+        "cdn-edgestorageid": "1161",
+        "cdn-cachedat": "11/05/2025 00:20:20",
+        "cdn-pullzone": "682664",
+        "application": "127.0.0.1",
+        "content-length": "2",
+        "x-request-id": "GHT0WbU2Bvkt8l4huK6K",
+        "server": "BunnyCDN-BE1-1161",
+        "cdn-proxyver": "1.39",
+        "cdn-requestpullcode": "202",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cdn-uid": "153cb5b1-399a-48ef-b5bf-098c03770254",
+        "cache-control": "must-revalidate, max-age=0, private",
+        "access-control-allow-credentials": "true",
+        "permissions-policy": "interest-cohort=()",
+        "x-plausible-dropped": "1",
+        "cdn-requestid": "502ec465621217373f0c54d491745d49",
+        "cdn-requestcountrycode": "BE",
+        "cdn-requestpullsuccess": "True"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.html?type=popup#/locked?url=%2F"
+      ],
+      "id": "7832.43",
+      "url": "https://o1314142.ingest.sentry.io/api/6761112/envelope/?sentry_key=e52a4e5c90224fe0800cc96aa2570581&sentry_version=7&sentry_client=sentry.javascript.react%2F7.24.2",
+      "type": "Fetch",
+      "status": 200,
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "sec-ch-ua-platform": "\"Mac OS X\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"sent_at\":\"2025-11-05T00:20:20.254Z\",\"sdk\":{\"name\":\"sentry.javascript.react\",\"version\":\"7.24.2\"}}\n{\"type\":\"session\"}\n{\"sid\":\"534dfcb678624f688aceba449e25c890\",\"init\":true,\"started\":\"2025-11-05T00:20:20.254Z\",\"timestamp\":\"2025-11-05T00:20:20.254Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"23.1.3.0\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"}}",
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:20:20 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "via": "1.1 google",
+        "server": "nginx",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "2"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.html?type=popup#/locked?url=%2F"
+      ],
+      "id": "7832.44",
+      "url": "https://plausible.io/api/event",
+      "type": "Xhr",
+      "status": 202,
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "sec-ch-ua-platform": "\"Mac OS X\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain"
+      },
+      "postData": "{\"n\":\"pageview\",\"u\":\"chrome-extension://nlmdbfahieinbinclhgllaookhagohce/\",\"d\":\"chrome-extension://nlmdbfahieinbinclhgllaookhagohce\",\"r\":null,\"w\":1920,\"h\":0}",
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:20:20 GMT",
+        "via": "1.1 Caddy",
+        "cdn-requesttime": "0",
+        "cdn-edgestorageid": "1161",
+        "cdn-cachedat": "11/05/2025 00:20:20",
+        "cdn-pullzone": "682664",
+        "application": "127.0.0.1",
+        "content-length": "2",
+        "x-request-id": "GHT0WbV6AMf_ieshZX6J",
+        "server": "BunnyCDN-BE1-1161",
+        "cdn-proxyver": "1.39",
+        "cdn-requestpullcode": "202",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cdn-uid": "153cb5b1-399a-48ef-b5bf-098c03770254",
+        "cache-control": "must-revalidate, max-age=0, private",
+        "access-control-allow-credentials": "true",
+        "permissions-policy": "interest-cohort=()",
+        "x-plausible-dropped": "1",
+        "cdn-requestid": "a8051cddad921ac3f96b28819e68529b",
+        "cdn-requestcountrycode": "BE",
+        "cdn-requestpullsuccess": "True"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.html?type=popup#/locked?url=%2F"
+      ],
+      "id": "7832.36",
+      "url": "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/a4c44a63534bab3a6397.woff2",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "origin": "chrome-extension://nlmdbfahieinbinclhgllaookhagohce",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:22:08 GMT",
+        "etag": "\"6rar2oKyLuVhSpAZ2Y3stzhk4b4=\"",
+        "content-type": "application/octet-stream"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/ui.html#/locked?url=%2F"
+      ],
+      "id": "7832.16",
+      "url": "chrome-extension://nlmdbfahieinbinclhgllaookhagohce/a4c44a63534bab3a6397.woff2",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "origin": "chrome-extension://nlmdbfahieinbinclhgllaookhagohce",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:22:08 GMT",
+        "etag": "\"6rar2oKyLuVhSpAZ2Y3stzhk4b4=\"",
+        "content-type": "application/octet-stream"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: opcgpfmipidbgpenhmajoajpbobppdil. Exiting..."
+}

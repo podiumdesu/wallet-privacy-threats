@@ -1,0 +1,2944 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/ibljocddagjghmlpgihahamcghfggcjc",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/ibljocddagjghmlpgihahamcghfggcjc",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762300953137,
+    "end": 1762300986085
+  },
+  "extensionID": "jlbpnmoajnckabjimkggholkjcbegcpf",
+  "serviceWorker": "background_page",
+  "walletName": "virgo",
+  "notes": "",
+  "walletAddress": "0xadea1952e3dea06438e2cd576beaba9ed695da58",
+  "password": "Default1Password1!",
+  "pathID": "ibljocddagjghmlpgihahamcghfggcjc",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.22",
+      "url": "https://raw.githubusercontent.com/virgoproject/tokens/main/ETH/infos.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "a44fed738a560d5b9739a0d5843e1e68ff1ed0e4",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:07:34 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "2915",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480044-BRU",
+        "x-github-request-id": "B8E8:9F95F:96321:9FCC2:690A3287",
+        "x-timer": "S1762300954.126235,VS0,VE150",
+        "etag": "W/\"bc4f78dfe68535c67708fddf293a57af214d33c46529c4a24c5e25ec317c243d\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.23",
+      "url": "https://raw.githubusercontent.com/virgoproject/tokens/main/RETH/infos.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "5764112fc7a6c9e6e19fbc738cefb76d7f4ada62",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:07:34 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "65",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480044-BRU",
+        "x-github-request-id": "D473:2234:92473:9BE61:690A3287",
+        "x-timer": "S1762300954.126609,VS0,VE150",
+        "etag": "W/\"8bf876ad6d4bd035548370c1020121051d6b7064fc968083409a1d642829007d\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.24",
+      "url": "https://raw.githubusercontent.com/virgoproject/tokens/main/BNB/infos.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "65e25d9167130a2b4ec0dd0d093e64dca8d04b2d",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:07:34 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "2071",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480044-BRU",
+        "x-github-request-id": "E064:3B467F:90EAC:9A77B:690A3287",
+        "x-timer": "S1762300954.126384,VS0,VE143",
+        "etag": "W/\"80790d73023e4021b9c4ca4cc98eb779c700a7f4c16d2bd6811721cfd5355955\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.25",
+      "url": "https://raw.githubusercontent.com/virgoproject/tokens/main/MATIC/infos.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "256680f8a8f1be54f3fc71d6ddf290cda23d3fc1",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:07:34 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "1286",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480044-BRU",
+        "x-github-request-id": "69B3:9F95F:96321:9FCBF:690A3287",
+        "x-timer": "S1762300954.126225,VS0,VE141",
+        "etag": "W/\"9a527d6ab2c30cb78ff96b09d8d47cd66eca8cc27d3fc87b379c6758691e0503\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.26",
+      "url": "https://raw.githubusercontent.com/virgoproject/tokens/main/AVAX/infos.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "b2eda344e4265bc4e433c840aa054cd139f4fa86",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:07:34 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "1177",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480044-BRU",
+        "x-github-request-id": "2525:282C2:91C75:9B3AB:690A3288",
+        "x-timer": "S1762300954.127557,VS0,VE150",
+        "etag": "W/\"cf6d9fbd5bf2dcad50c6318d0a3e0d8f1cf9d394247c301b037257a2ce5f9f5e\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.27",
+      "url": "https://raw.githubusercontent.com/virgoproject/tokens/main/FTM/infos.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "7e671da375ec6e76a7368cbb6cb0e80311c8eddf",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:07:34 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "997",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480044-BRU",
+        "x-github-request-id": "E3DC:3B467F:90EAE:9A77D:690A3287",
+        "x-timer": "S1762300954.127280,VS0,VE151",
+        "etag": "W/\"7fd31fdbd28651074abb415e45e3aa1b2045cbde9155fd1becf083a60c854683\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.28",
+      "url": "https://raw.githubusercontent.com/virgoproject/tokens/main/HT/infos.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "73be0f049df2de98f910c030f936e26f0ca51bba",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:07:34 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "536",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480044-BRU",
+        "x-github-request-id": "2303:2234:92473:9BE5F:690A3287",
+        "x-timer": "S1762300954.127034,VS0,VE202",
+        "etag": "W/\"1dbfe5ac58ed1f5d8310c6d0c8f2530ae580890197a0debf49cbb6b922bf3b0f\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.29",
+      "url": "https://raw.githubusercontent.com/virgoproject/tokens/main/KCS/infos.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "2c7b6208f8d694e3731ac6c1ed4e33be9b872b67",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:07:34 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "239",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480044-BRU",
+        "x-github-request-id": "46D0:5B233:8D954:972C3:690A3284",
+        "x-timer": "S1762300954.127418,VS0,VE143",
+        "etag": "W/\"e27991a40b8eff46f0a1e2fdde369850a361cf639c91e3fcdbe09ee2d37f6619\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.30",
+      "url": "https://raw.githubusercontent.com/virgoproject/tokens/main/CRO/infos.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "4e2c4ac09972be2d6b270fd4446b476b8f6bcbb7",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:07:34 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "283",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480044-BRU",
+        "x-github-request-id": "DD62:4B5E5:910BF:9AA05:690A3287",
+        "x-timer": "S1762300954.126193,VS0,VE145",
+        "etag": "W/\"f5f264c0d4cb336a3aa77880a987cfa22dd5234f44452f82df91aee37eafb2fa\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.31",
+      "url": "https://raw.githubusercontent.com/virgoproject/tokens/main/ETHW/infos.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "8a763a64e18877f0e222f40f422c922356c50cd3",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:07:34 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "478",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480044-BRU",
+        "x-github-request-id": "DF3F:3B467F:90EAF:9A77F:690A3287",
+        "x-timer": "S1762300954.126720,VS0,VE155",
+        "etag": "W/\"ec7b9a2e824b518776f8df603b87511df3e4f4800a2d2d7c414113de9de3e915\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.32",
+      "url": "https://raw.githubusercontent.com/virgoproject/tokens/main/ETC/infos.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "9176e028f6086d075b61912e24d237a33d51ec5f",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:07:34 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "122",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480044-BRU",
+        "x-github-request-id": "308D:2A9310:9249B:9BE8B:690A3287",
+        "x-timer": "S1762300954.126745,VS0,VE162",
+        "etag": "W/\"17f7cae4a55f59deaba963b57d470c0c11a095267ce65fee084f61e189d448aa\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.33",
+      "url": "https://raw.githubusercontent.com/virgoproject/tokens/main/ETHF/infos.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "4c77bf69abb748d4adcc87fe0b6f11b1a8e4d878",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:07:34 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "114",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480044-BRU",
+        "x-github-request-id": "1673:3B467F:90EAC:9A77A:690A3287",
+        "x-timer": "S1762300954.127021,VS0,VE156",
+        "etag": "W/\"0a36c5845eaa4128eff18ff032153f386e2505009a5ac5b0cadc3a56277ee248\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.34",
+      "url": "https://raw.githubusercontent.com/virgoproject/tokens/main/HPN/infos.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "5d90e53bb91ebce5384041e2b3ae2d4a190869fd",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "via": "1.1 varnish",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "content-encoding": "gzip",
+        "expires": "Wed, 05 Nov 2025 00:07:34 GMT",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "76",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480044-BRU",
+        "x-github-request-id": "22FB:4B5E5:910BD:9AA04:690A3287",
+        "x-timer": "S1762300954.126777,VS0,VE167",
+        "etag": "W/\"0cf7260abbcca94249b84fd03ac68eef6031a1eaa17e8d4dd866c9f7a804b895\"",
+        "source-age": "0",
+        "vary": "Authorization,Accept-Encoding",
+        "x-frame-options": "deny",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "x-cache-hits": "0"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.35",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.37",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[\"0xa600d48439d27628c8e7f3de08b3b7f67f7aa7fd\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.38",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":2,\"jsonrpc\":\"2.0\",\"params\":[\"0xadea1952e3dea06438e2cd576beaba9ed695da58\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:34 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.159",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:35 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.160",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:35 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.161",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:36 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.162",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:36 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.163",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":3,\"jsonrpc\":\"2.0\",\"params\":[\"0xa600d48439d27628c8e7f3de08b3b7f67f7aa7fd\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:36 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.164",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":4,\"jsonrpc\":\"2.0\",\"params\":[\"0xadea1952e3dea06438e2cd576beaba9ed695da58\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:36 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.165",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:37 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.166",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:37 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.167",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:38 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.168",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:38 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.169",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":5,\"jsonrpc\":\"2.0\",\"params\":[\"0xa600d48439d27628c8e7f3de08b3b7f67f7aa7fd\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:39 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.170",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":6,\"jsonrpc\":\"2.0\",\"params\":[\"0xadea1952e3dea06438e2cd576beaba9ed695da58\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:39 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.171",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:39 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.172",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:39 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.173",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:40 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.174",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:40 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.296",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:41 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.297",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":7,\"jsonrpc\":\"2.0\",\"params\":[\"0xa600d48439d27628c8e7f3de08b3b7f67f7aa7fd\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:41 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.298",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":8,\"jsonrpc\":\"2.0\",\"params\":[\"0xadea1952e3dea06438e2cd576beaba9ed695da58\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:41 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.299",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:42 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.300",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:42 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.301",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:43 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.302",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:43 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.424",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":9,\"jsonrpc\":\"2.0\",\"params\":[\"0xa600d48439d27628c8e7f3de08b3b7f67f7aa7fd\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:44 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.425",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":10,\"jsonrpc\":\"2.0\",\"params\":[\"0xadea1952e3dea06438e2cd576beaba9ed695da58\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:44 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.426",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:44 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.427",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:44 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.428",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:45 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.429",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:45 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.430",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:46 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.552",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":11,\"jsonrpc\":\"2.0\",\"params\":[\"0xa600d48439d27628c8e7f3de08b3b7f67f7aa7fd\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:46 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.553",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":12,\"jsonrpc\":\"2.0\",\"params\":[\"0xadea1952e3dea06438e2cd576beaba9ed695da58\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:46 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.554",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:47 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.555",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:47 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.556",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:48 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.557",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:48 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.558",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:49 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.559",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":13,\"jsonrpc\":\"2.0\",\"params\":[\"0xa600d48439d27628c8e7f3de08b3b7f67f7aa7fd\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:49 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.560",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":14,\"jsonrpc\":\"2.0\",\"params\":[\"0xadea1952e3dea06438e2cd576beaba9ed695da58\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:49 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.682",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:49 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.683",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:50 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.684",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:50 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.685",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:51 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.686",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":15,\"jsonrpc\":\"2.0\",\"params\":[\"0xa600d48439d27628c8e7f3de08b3b7f67f7aa7fd\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:51 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.687",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":16,\"jsonrpc\":\"2.0\",\"params\":[\"0xadea1952e3dea06438e2cd576beaba9ed695da58\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:51 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.688",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:51 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.810",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:52 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.811",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:52 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.812",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:53 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.813",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:54 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.814",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":17,\"jsonrpc\":\"2.0\",\"params\":[\"0xa600d48439d27628c8e7f3de08b3b7f67f7aa7fd\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:54 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.815",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":18,\"jsonrpc\":\"2.0\",\"params\":[\"0xadea1952e3dea06438e2cd576beaba9ed695da58\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:54 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.881",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:54 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.938",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:55 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.939",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:55 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.940",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:56 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.941",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":19,\"jsonrpc\":\"2.0\",\"params\":[\"0xa600d48439d27628c8e7f3de08b3b7f67f7aa7fd\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:56 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.942",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":20,\"jsonrpc\":\"2.0\",\"params\":[\"0xadea1952e3dea06438e2cd576beaba9ed695da58\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:56 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.943",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:56 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1009",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:57 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1066",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:57 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1067",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:58 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1068",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:58 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1069",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":21,\"jsonrpc\":\"2.0\",\"params\":[\"0xa600d48439d27628c8e7f3de08b3b7f67f7aa7fd\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:59 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1070",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":22,\"jsonrpc\":\"2.0\",\"params\":[\"0xadea1952e3dea06438e2cd576beaba9ed695da58\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:59 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1071",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:02:59 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1137",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:00 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1194",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:00 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1195",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:01 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1196",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:01 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1197",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":23,\"jsonrpc\":\"2.0\",\"params\":[\"0xa600d48439d27628c8e7f3de08b3b7f67f7aa7fd\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:01 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1198",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":24,\"jsonrpc\":\"2.0\",\"params\":[\"0xadea1952e3dea06438e2cd576beaba9ed695da58\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:01 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1199",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:02 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1302",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:02 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1322",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:03 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1323",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:03 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1324",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":25,\"jsonrpc\":\"2.0\",\"params\":[\"0xa600d48439d27628c8e7f3de08b3b7f67f7aa7fd\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:04 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1325",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":26,\"jsonrpc\":\"2.0\",\"params\":[\"0xadea1952e3dea06438e2cd576beaba9ed695da58\",\"latest\"],\"method\":\"eth_getBalance\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:04 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1326",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:04 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1327",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:04 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1449",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:03:05 GMT",
+        "www-authenticate": "Basic realm=\"Auth failure, project ID does not have access to this network\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "81",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://jlbpnmoajnckabjimkggholkjcbegcpf/_generated_background_page.html",
+      "id": "98108.1450",
+      "url": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"params\":[],\"method\":\"eth_blockNumber\"}",
+      "responseHeaders": {}
+    }
+  ],
+  "success": true
+}

@@ -1,0 +1,67 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/ibnejdfjmmkpcnlpebklmnkoeoihofec",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/ibnejdfjmmkpcnlpebklmnkoeoihofec",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T12-33-26",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764071283172,
+    "end": 1764071434216
+  },
+  "extensionID": "mbhfebehdbendllficfcjnijohghdabd",
+  "serviceWorker": "service_worker",
+  "walletName": "tronlink",
+  "notes": "",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;0x196E98A561479ff97D533401Cc10e95b238e1a2A",
+  "password": "Default1Password1!",
+  "pathID": "ibnejdfjmmkpcnlpebklmnkoeoihofec",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://mbhfebehdbendllficfcjnijohghdabd/script_loader.js",
+      "ts": 1764071284638,
+      "id": "87342.81",
+      "url": "https://list.tronlink.org/api/activity/website/blacklist?nonce=8712&secretId=AE68A487AA919CAE&signature=fzp2mm5ipq4qZ%2F1gr0HrAe7EAss%3D&address=0x033a5379BC3D5edD92b9B1dA762688E97CEF154c",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "deviceid": "",
+        "system": "chrome-extension",
+        "ts": "1764071284636",
+        "nonce": "8712",
+        "devicename": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "address": "0x033a5379BC3D5edD92b9B1dA762688E97CEF154c",
+        "secretid": "AE68A487AA919CAE",
+        "lang": "1",
+        "osversion": "",
+        "referer": "",
+        "packagename": "chrome.extension.wallet",
+        "chain": "MainChain",
+        "channel": "official",
+        "version": "4.6.1"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 11:48:04 GMT",
+        "content-encoding": "gzip",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "vary": "Accept-Encoding",
+        "access-control-allow-methods": "GET,POST,OPTIONS,DELETE,PUT",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "cf-ray": "9a40ea39db571d5c-BRU",
+        "access-control-allow-headers": "DNT,Origin,Accept,X-Key,X-Real-IP,Key,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,Lang,Version,DeviceID,System,Lang,chain,packageName,system,version,appVer,deviceId,lang,channel,chain,package,ts,nonce,address,secretId"
+      }
+    }
+  ],
+  "success": true
+}

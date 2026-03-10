@@ -1,0 +1,397 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/anokgmphncpekkhclmingpimjmcooifb",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/anokgmphncpekkhclmingpimjmcooifb",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T12-33-26",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764072601876,
+    "end": 1764072653765
+  },
+  "extensionID": "hkebeifbgcmlenfaoljkjjebgihnabbh",
+  "serviceWorker": "service_worker",
+  "walletName": "compass",
+  "notes": "no-balance-sei",
+  "walletAddress": "0x901adc2d75629eb7ec8d0ae0946e6907dde45b52;0x0804dddc18a6dd0f186f3b920ae57a2a75439864;0x9c7e8c4e980de98235d9b899f4d8684355cde2b1",
+  "password": "Default1Password1!",
+  "pathID": "anokgmphncpekkhclmingpimjmcooifb",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hkebeifbgcmlenfaoljkjjebgihnabbh/background.js",
+      "ts": 1764072603045,
+      "id": "98532.47",
+      "url": "https://evmos-evm.publicnode.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:10:03 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "DYNAMIC",
+        "content-encoding": "br",
+        "x-envoy-upstream-service-time": "0",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "server": "cloudflare",
+        "access-control-max-age": "1728000",
+        "vary": "Origin, accept-encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9a410a6989b3b73b-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hkebeifbgcmlenfaoljkjjebgihnabbh/background.js",
+      "ts": 1764072603046,
+      "id": "98532.48",
+      "url": "https://rpc.forma.art/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:10:03 GMT",
+        "content-encoding": "gzip",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "vary": "Origin, accept-encoding",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hQFGjyP1U6BbD3zz9jRcBB9qytNM9c57tiiM%2F%2Fc2iuugfGj6inPSyNxLiThkpc15MYZ4139Gz1%2B%2FSA5%2F02NHHzQS4OzX8swQGzkkdAk%3D\"}]}",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "server-timing": "cfExtPri",
+        "cf-ray": "9a410a6979ca1d5c-BRU",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "69",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hkebeifbgcmlenfaoljkjjebgihnabbh/background.js",
+      "ts": 1764072603656,
+      "id": "98532.81",
+      "url": "https://assets.leapwallet.io/cosmos-registry/v1/config/compass-tokens-associations.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "if-modified-since": "Sun, 16 Nov 2025 00:21:00 GMT",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 304,
+      "responseHeaders": {
+        "x-amz-version-id": "pkonCjjKdzbI2m5g6ZwU48Uk.Erttjnd",
+        "date": "Tue, 25 Nov 2025 07:31:27 GMT",
+        "via": "1.1 cca9137c259ad738f790039a45561cee.cloudfront.net (CloudFront)",
+        "last-modified": "Sun, 16 Nov 2025 00:21:00 GMT",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "AMS1-C1",
+        "age": "16744",
+        "x-amz-server-side-encryption": "AES256",
+        "etag": "W/\"4a46634bb0cabeb27fe23e30277c232f\"",
+        "vary": "accept-encoding, Origin",
+        "x-cache": "Hit from cloudfront",
+        "x-amz-cf-id": "NuAF0Op6GZm5UKqGSf0ddx9biGOPe2YLJi-SEAdF3aQKBGSxqYGn5g=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hkebeifbgcmlenfaoljkjjebgihnabbh/background.js",
+      "ts": 1764072603657,
+      "id": "98532.84",
+      "url": "https://assets.leapwallet.io/cosmos-registry/v1/denoms/cw20-chains.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "if-modified-since": "Sun, 16 Nov 2025 09:03:58 GMT",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 304,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:10:03 GMT",
+        "x-amz-version-id": "m6dtAs9nlX5VlVZzT6h7g7M2nDp7_SuB",
+        "via": "1.1 cca9137c259ad738f790039a45561cee.cloudfront.net (CloudFront)",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "AMS1-C1",
+        "age": "3155",
+        "x-amz-server-side-encryption": "AES256",
+        "etag": "\"cbbbf5710b913dffbf61edc14f6ca13d\"",
+        "vary": "accept-encoding, Origin",
+        "x-cache": "Hit from cloudfront",
+        "x-amz-cf-id": "A_G7y6f5_JcF63iLb24mDxn5H36fPHKWuBi4ImWMYD1GKs7HMe_PQg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hkebeifbgcmlenfaoljkjjebgihnabbh/background.js",
+      "ts": 1764072603657,
+      "id": "98532.86",
+      "url": "https://assets.leapwallet.io/cosmos-registry/v1/denoms/erc20-chains.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "if-modified-since": "Mon, 17 Nov 2025 10:04:31 GMT",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 304,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:10:03 GMT",
+        "x-amz-version-id": "8flky1vQsjbt8k0jHDNMzPF9XNq9VZMx",
+        "via": "1.1 cca9137c259ad738f790039a45561cee.cloudfront.net (CloudFront)",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "AMS1-C1",
+        "age": "2235",
+        "x-amz-server-side-encryption": "AES256",
+        "etag": "\"8d802e371e7105d3da6a2b17d5d17b57\"",
+        "vary": "accept-encoding, Origin",
+        "x-cache": "Hit from cloudfront",
+        "x-amz-cf-id": "4tpxPM7sbWGuvCOPGSgq6aKiUF4TN_2-cL7tjwnQL0UICyLUkPiOdw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hkebeifbgcmlenfaoljkjjebgihnabbh/background.js",
+      "ts": 1764072603658,
+      "id": "98532.90",
+      "url": "https://assets.leapwallet.io/cosmos-registry/v1/denoms/whitelist-factory.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "if-modified-since": "Sun, 16 Nov 2025 07:03:53 GMT",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 304,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:10:03 GMT",
+        "x-amz-version-id": "6zo2pFyfp_K1kpOGhRRLBb3LFWqMEOLz",
+        "via": "1.1 cca9137c259ad738f790039a45561cee.cloudfront.net (CloudFront)",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "AMS1-C1",
+        "age": "2375",
+        "x-amz-server-side-encryption": "AES256",
+        "etag": "W/\"6c1e6ace5bf6ad742c88be3e480098d7\"",
+        "vary": "accept-encoding, Origin",
+        "x-cache": "Hit from cloudfront",
+        "x-amz-cf-id": "PNQf1YB61qtLwaq1KCCmOSHnuOtWoDMT4S5CKCXoHkrZfOu0kEH3hA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hkebeifbgcmlenfaoljkjjebgihnabbh/background.js",
+      "ts": 1764072603658,
+      "id": "98532.92",
+      "url": "https://assets.leapwallet.io/cosmos-registry/v1/config/chain-feature-flags.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "if-modified-since": "Sat, 15 Nov 2025 00:18:58 GMT",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 304,
+      "responseHeaders": {
+        "x-amz-version-id": "I_36UzuSkoYe8lDfKUPKoc.AKLYxgznZ",
+        "date": "Tue, 25 Nov 2025 07:44:42 GMT",
+        "via": "1.1 cca9137c259ad738f790039a45561cee.cloudfront.net (CloudFront)",
+        "last-modified": "Sat, 15 Nov 2025 00:18:58 GMT",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "AMS1-C1",
+        "age": "15924",
+        "x-amz-server-side-encryption": "AES256",
+        "etag": "W/\"e9fd5e4f620080070058cc4f6100ed65\"",
+        "vary": "accept-encoding, Origin",
+        "x-cache": "Hit from cloudfront",
+        "x-amz-cf-id": "eqyuSP_rxkTo2EGz0NzpYJSSfFfww7mC_bqV0CeJ9RUWAKZr_1XJPA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hkebeifbgcmlenfaoljkjjebgihnabbh/background.js",
+      "ts": 1764072603674,
+      "id": "98532.96",
+      "url": "https://assets.leapwallet.io/cosmos-registry/v1/coingecko-ids/base.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "if-modified-since": "Sat, 22 Nov 2025 18:30:29 GMT",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 08:10:56 GMT",
+        "content-encoding": "br",
+        "via": "1.1 cca9137c259ad738f790039a45561cee.cloudfront.net (CloudFront)",
+        "x-amz-version-id": "Oh9OWmuXK3A3Y31NNewwczfbZUzOAAAB",
+        "last-modified": "Mon, 24 Nov 2025 18:30:47 GMT",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "AMS1-C1",
+        "age": "14347",
+        "x-amz-server-side-encryption": "AES256",
+        "etag": "W/\"d71b0431d8353d9ea21231d7341ba4a7\"",
+        "vary": "accept-encoding, Origin",
+        "x-cache": "Hit from cloudfront",
+        "content-type": "application/json",
+        "x-amz-cf-id": "L2lNr5-hN3HLihKWh2sgAUDjEw2Uey80eFQdOtR0QC-qoDD6TQ34Bg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hkebeifbgcmlenfaoljkjjebgihnabbh/background.js",
+      "ts": 1764072603721,
+      "id": "98532.114",
+      "url": "https://assets.leapwallet.io/cosmos-registry/v1/denoms/seiTestnet2/cw20.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-amz-version-id": "wQ3P32BbuSXBe8xno4sGKUnN61qqmHaO",
+        "date": "Tue, 25 Nov 2025 11:20:40 GMT",
+        "via": "1.1 cca9137c259ad738f790039a45561cee.cloudfront.net (CloudFront)",
+        "last-modified": "Thu, 20 Nov 2025 08:05:25 GMT",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "AMS1-C1",
+        "age": "3058",
+        "x-amz-server-side-encryption": "AES256",
+        "etag": "W/\"b7505b77325b24f8c6e61dd95e3ca848\"",
+        "vary": "accept-encoding, Origin",
+        "x-cache": "Hit from cloudfront",
+        "content-type": "application/json",
+        "content-encoding": "br",
+        "x-amz-cf-id": "BZFUs3BouLJi5mlsq5bjguScnMyPuU5EzsGxOAYhmqsROBHtG3pLmg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hkebeifbgcmlenfaoljkjjebgihnabbh/background.js",
+      "ts": 1764072603721,
+      "id": "98532.115",
+      "url": "https://assets.leapwallet.io/cosmos-registry/v1/denoms/seiTestnet2/cw20_all.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-amz-version-id": ".4yp08lse0Kww8R31Bg32_5U9aR89Irp",
+        "content-encoding": "gzip",
+        "via": "1.1 3108b3c3c306768051fa0658c0445308.cloudfront.net (CloudFront)",
+        "date": "Tue, 25 Nov 2025 00:47:50 GMT",
+        "last-modified": "Wed, 19 Nov 2025 11:04:14 GMT",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "AMS1-C1",
+        "age": "1208",
+        "x-amz-server-side-encryption": "AES256",
+        "etag": "W/\"eae4d2f9155b2621e97f190ee928da5a\"",
+        "vary": "accept-encoding, Origin",
+        "x-cache": "Hit from cloudfront",
+        "content-type": "application/json",
+        "x-amz-cf-id": "xL8gaMi1EwQ108A31KgM-oOe8zsjJcKgDyhSGKN_GjxsMuAI-hQfig=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hkebeifbgcmlenfaoljkjjebgihnabbh/background.js",
+      "ts": 1764072603776,
+      "id": "98532.130",
+      "url": "https://assets.leapwallet.io/cosmos-registry/v1/denoms/seiDevnet/erc20.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-amz-version-id": "a_Z1003Puwyu_G1TqfwBTFBmKVgDZXd8",
+        "date": "Tue, 25 Nov 2025 00:30:47 GMT",
+        "via": "1.1 3108b3c3c306768051fa0658c0445308.cloudfront.net (CloudFront)",
+        "last-modified": "Tue, 18 Nov 2025 09:04:21 GMT",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "AMS1-C1",
+        "age": "2177",
+        "x-amz-server-side-encryption": "AES256",
+        "etag": "\"ee6f99d4d1c4969e9d454dd33457dbdb\"",
+        "vary": "accept-encoding, Origin",
+        "x-cache": "Hit from cloudfront",
+        "content-type": "application/json",
+        "accept-ranges": "bytes",
+        "content-length": "639",
+        "x-amz-cf-id": "woPnmTwu0zkSzS-1FOPRFAYiDskeGYBMy7sPTEr1X4A59D4VdNE29A=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hkebeifbgcmlenfaoljkjjebgihnabbh/background.js",
+      "ts": 1764072603776,
+      "id": "98532.131",
+      "url": "https://assets.leapwallet.io/cosmos-registry/v1/denoms/seiTestnet2/erc20.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-amz-version-id": "itYCyYX9ZKtzddrvdxGwQ0hUt3faE1xP",
+        "content-encoding": "br",
+        "via": "1.1 3108b3c3c306768051fa0658c0445308.cloudfront.net (CloudFront)",
+        "date": "Tue, 25 Nov 2025 01:00:53 GMT",
+        "last-modified": "Thu, 20 Nov 2025 08:05:25 GMT",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "AMS1-C1",
+        "age": "724",
+        "x-amz-server-side-encryption": "AES256",
+        "etag": "W/\"04565cc2a166680f5bf09a0e100bf395\"",
+        "vary": "accept-encoding, Origin",
+        "x-cache": "Hit from cloudfront",
+        "content-type": "application/json",
+        "x-amz-cf-id": "CLBYiDHomUTkuWGxvvBwzWfl2f_yPLw5CIsPakrgMVf55ngBy2uubw=="
+      }
+    }
+  ],
+  "success": true
+}

@@ -1,0 +1,707 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Wallet Revocation Safety Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      :root {
+        --bg: #f5f5f7;
+        --card-bg: #ffffff;
+        --border-subtle: #e2e2e8;
+        --text-main: #111827;
+        --text-muted: #6b7280;
+        --accent: #2563eb;
+        --accent-soft: #dbeafe;
+        --error: #b91c1c;
+        --success: #15803d;
+        --changed: #fef3c7;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family:
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
+        max-width: 1000px;
+        margin: 2rem auto;
+        padding: 0 1rem 3rem;
+        background: var(--bg);
+        color: var(--text-main);
+      }
+
+      h1 {
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
+      }
+
+      h2 {
+        margin: 0 0 0.5rem 0;
+        font-size: 1.1rem;
+      }
+
+      p {
+        line-height: 1.5;
+      }
+
+      button,
+      select {
+        padding: 0.5rem 0.8rem;
+        margin-right: 0.5rem;
+        border-radius: 999px;
+        border: 1px solid var(--border-subtle);
+        background: #ffffff;
+        cursor: pointer;
+        font-size: 0.9rem;
+      }
+
+      button:hover {
+        background: #f3f4f6;
+      }
+
+      button.primary {
+        background: var(--accent);
+        color: #fff;
+        border-color: var(--accent);
+      }
+
+      button.primary:hover {
+        background: #1d4ed8;
+      }
+
+      code {
+        background: #f3f4f6;
+        padding: 0.15rem 0.35rem;
+        border-radius: 6px;
+        font-size: 0.8rem;
+      }
+
+      .row {
+        margin: 0.75rem 0;
+      }
+
+      .small {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+      }
+
+      .box {
+        border-radius: 12px;
+        background: var(--card-bg);
+        border: 1px solid var(--border-subtle);
+        padding: 1rem 1.2rem;
+        margin-top: 1rem;
+      }
+
+      .label {
+        font-weight: 600;
+      }
+
+      .result-safe {
+        color: var(--success);
+        font-size: medium;
+      }
+
+      .result-unsafe {
+        color: var(--error);
+        font-size: medium;
+      }
+
+      .result-unknown {
+        color: var(--text-muted);
+      }
+
+      .snapshot-row {
+        margin: 0.2rem 0;
+      }
+
+      /* Layout: main left, live panel right */
+      .layout {
+        display: flex;
+        gap: 1.5rem;
+        align-items: flex-start;
+        margin-top: 1rem;
+      }
+
+      .main {
+        flex: 1.5;
+      }
+
+      .side {
+        flex: 1;
+        max-width: 480px;
+        min-width: 400px;
+      }
+
+      @media (max-width: 900px) {
+        .layout {
+          flex-direction: column;
+        }
+        .side {
+          max-width: none;
+        }
+      }
+
+      /* Right-panel “fancy” styles */
+      .wallet-list {
+        margin-top: 0.5rem;
+        border-radius: 12px;
+        border: 1px solid var(--border-subtle);
+        background: #f9fafb;
+      }
+
+      .wallet-row {
+        padding: 0.35rem 0.7rem;
+        border-bottom: 1px solid #e5e7eb;
+        transition: background-color 0.3s ease;
+      }
+
+      .wallet-row:last-child {
+        border-bottom: none;
+      }
+
+      .wallet-row.changed {
+        background: var(--changed);
+      }
+
+      .wallet-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 0.15rem;
+      }
+
+      .wallet-name {
+        font-weight: 500;
+        font-size: 0.9rem;
+      }
+
+      .wallet-accounts {
+        font-size: 0.78rem;
+        margin-top: 0.3rem;
+        color: var(--text-muted);
+        word-break: break-all;
+      }
+
+      .status-pill {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.1rem 0.5rem;
+        border-radius: 999px;
+        font-size: 0.7rem;
+        border: 1px solid var(--border-subtle);
+        background: #f9fafb;
+        margin-left: 0.4rem;
+      }
+
+      .status-pill.error {
+        border-color: var(--error);
+        color: var(--error);
+        background: #fef2f2;
+      }
+
+      .status-pill.ok {
+        border-color: var(--success);
+        color: var(--success);
+        background: #ecfdf3;
+      }
+
+      .status-pill.empty {
+        border-color: var(--border-subtle);
+        color: var(--text-muted);
+        background: #f9fafb;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Wallet Revocation Safety Test</h1>
+    <p class="small">
+      This page helps you test whether your browser wallet properly revokes
+      access after a dApp calls <code>wallet_revokePermissions</code> or keeps
+      exposing your address via <code>eth_accounts</code>. It also shows live
+      <code>eth_accounts</code> exposure from wallets announcing via EIP-6963.
+    </p>
+
+    <div class="layout">
+      <!-- LEFT: main revocation test -->
+      <div class="main">
+        <!-- Controls / selection -->
+        <div class="box">
+          <div class="row">
+            <span class="label">Detected wallet:</span>
+            <select id="providerSelect"></select>
+            <button id="scanBtn">Scan wallets</button>
+          </div>
+
+          <div class="row">
+            <button id="runTestBtn" class="primary">Run revocation test</button>
+            <button id="recheckBtn">Re-check eth_accounts now</button>
+          </div>
+
+          <div class="row small">
+            <span class="label">Status:</span>
+            <code id="status">idle</code>
+          </div>
+        </div>
+
+        <!-- Snapshots -->
+        <div class="box">
+          <h2>Test snapshots</h2>
+          <div class="small">
+            <div class="snapshot-row">
+              <span class="label">beforeConnect:</span>
+              <code id="beforeConnect">—</code>
+            </div>
+            <div class="snapshot-row">
+              <span class="label">afterConnect:</span>
+              <code id="afterConnect">—</code>
+            </div>
+            <div class="snapshot-row">
+              <span class="label">afterRevoke:</span>
+              <code id="afterRevoke">—</code>
+            </div>
+            <div class="snapshot-row">
+              <span class="label">latest eth_accounts:</span>
+              <code id="latestAccounts">—</code>
+            </div>
+            <div class="snapshot-row">
+              <span class="label">revocationSupported:</span>
+              <code id="revocSupport">unknown</code>
+            </div>
+          </div>
+        </div>
+
+        <!-- Classification -->
+        <div class="box">
+          <h2>Result</h2>
+          <p id="resultText" class="small result-unknown">
+            Run the test to see if your wallet appears revocation-safe or
+            revocation-unsafe.
+          </p>
+          <p class="small">
+            Flow: ① scan wallets → ② pick your wallet → ③ click
+            <b>Run revocation test</b> → approve the connection in your wallet →
+            observe <code>beforeConnect</code>, <code>afterConnect</code> and
+            <code>afterRevoke</code> values and the classification above.
+          </p>
+          <p class="small">
+            Optional: after revocation, reload this page and click
+            <b>Re-check eth_accounts now</b> to see if your wallet still exposes
+            your address across sessions.
+          </p>
+        </div>
+      </div>
+
+      <!-- RIGHT: live EIP-6963 exposure panel (fancy version) -->
+      <aside class="side">
+        <div class="box">
+          <h2>Live eth_accounts (EIP-6963)</h2>
+          <p class="small">
+            Periodically re-discovers providers via
+            <code>eip6963:announceProvider</code> and calls
+            <code>eth_accounts</code>. Rows only update when a wallet's result
+            changes; changed rows briefly highlight.
+          </p>
+          <div
+            class="row small"
+            style="display: flex; align-items: center; gap: 0.5rem"
+          >
+            <button id="probeBtn">Refresh now</button>
+            <span>Last refresh: <code id="lastProbeTime">never</code></span>
+          </div>
+          <div id="walletList" class="wallet-list small">
+            <div class="wallet-row wallet-empty">No wallets seen yet.</div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <script>
+      const $ = (id) => document.getElementById(id);
+      const setText = (id, v) => {
+        const el = $(id);
+        if (el) el.textContent = v;
+      };
+
+      const nowStr = () => new Date().toLocaleTimeString();
+
+      let providers = []; // { provider, label, info }
+      let selected = null;
+
+      // Revocation test state
+      let beforeConnect = null;
+      let afterConnect = null;
+      let afterRevoke = null;
+      let latestAccounts = null;
+      let revocationSupported = "unknown"; // "yes" | "no" | "unknown"
+
+      // Right panel state: walletKey -> stringified eth_accounts result
+      const liveAccountsCache = new Map();
+      let probeTimer = null;
+
+      function updateSnapshots() {
+        setText(
+          "beforeConnect",
+          beforeConnect === null ? "—" : JSON.stringify(beforeConnect),
+        );
+        setText(
+          "afterConnect",
+          afterConnect === null ? "—" : JSON.stringify(afterConnect),
+        );
+        setText(
+          "afterRevoke",
+          afterRevoke === null ? "—" : JSON.stringify(afterRevoke),
+        );
+        setText(
+          "latestAccounts",
+          latestAccounts === null ? "—" : JSON.stringify(latestAccounts),
+        );
+        setText(
+          "revocSupport",
+          revocationSupported === "unknown"
+            ? "unknown"
+            : revocationSupported === "yes"
+              ? "yes"
+              : "no",
+        );
+        updateClassification();
+      }
+
+      function classifyArray(arr) {
+        return Array.isArray(arr) && arr.length > 0;
+      }
+
+      function updateClassification() {
+        const el = $("resultText");
+        if (!el) return;
+
+        el.classList.remove("result-safe", "result-unsafe", "result-unknown");
+
+        if (revocationSupported === "no") {
+          el.textContent =
+            "Your wallet does not support wallet_revokePermissions. This means the dApp cannot revoke access programmatically. We treat this as revocation-unsafe behavior.";
+          el.classList.add("result-unsafe");
+          return;
+        }
+
+        if (afterRevoke === null) {
+          el.textContent =
+            "No revocation test result yet. Run the test and check the snapshots above.";
+          el.classList.add("result-unknown");
+          return;
+        }
+
+        if (classifyArray(afterRevoke)) {
+          el.textContent =
+            "After requesting revocation, eth_accounts still returned at least one address. This wallet appears REVOCATION-UNSAFE under this test.";
+          el.classList.add("result-unsafe");
+        } else {
+          el.textContent =
+            "After requesting revocation, eth_accounts returned an empty array. This wallet appears revocation-safe under this test (for this origin and this flow).";
+          el.classList.add("result-safe");
+        }
+      }
+
+      async function scanProviders() {
+        providers = [];
+        selected = null;
+
+        const announced = [];
+        const onAnnounce = (e) => {
+          const d = e && e.detail;
+          if (d && d.provider) {
+            announced.push({
+              provider: d.provider,
+              info: d.info || {},
+              label: d.info?.name || d.info?.rdns || "wallet",
+            });
+          }
+        };
+
+        window.addEventListener("eip6963:announceProvider", onAnnounce);
+        window.dispatchEvent(new window.Event("eip6963:requestProvider"));
+        await new Promise((r) => setTimeout(r, 600));
+        window.removeEventListener("eip6963:announceProvider", onAnnounce);
+
+        const sel = $("providerSelect");
+        sel.innerHTML = "";
+
+        if (!announced.length) {
+          sel.appendChild(new Option("No EIP-6963 wallets detected", ""));
+          setText("status", "no wallets detected");
+          return;
+        }
+
+        providers = announced;
+        providers.forEach((p, idx) =>
+          sel.appendChild(new Option(p.label, String(idx))),
+        );
+        sel.value = "0";
+        selected = providers[0].provider;
+        setText("status", `selected: ${providers[0].label}`);
+
+        // start live panel auto-probe once we know wallets exist
+        startAutoProbe();
+      }
+
+      // --- UI handlers for revocation test ---
+
+      $("providerSelect").addEventListener("change", (e) => {
+        const idx = Number(e.target.value);
+        if (Number.isInteger(idx) && providers[idx]) {
+          selected = providers[idx].provider;
+          setText("status", `selected: ${providers[idx].label}`);
+          beforeConnect = afterConnect = afterRevoke = latestAccounts = null;
+          revocationSupported = "unknown";
+          updateSnapshots();
+        } else {
+          selected = null;
+          setText("status", "no provider selected");
+        }
+      });
+
+      $("scanBtn").addEventListener("click", async () => {
+        setText("status", "scanning for wallets…");
+        await scanProviders();
+      });
+
+      $("runTestBtn").addEventListener("click", async () => {
+        if (!selected) {
+          setText("status", "no provider selected");
+          return;
+        }
+
+        beforeConnect = afterConnect = afterRevoke = null;
+        revocationSupported = "unknown";
+        updateSnapshots();
+
+        // 1) BEFORE CONNECT
+        setText("status", "checking eth_accounts before connect…");
+        try {
+          const accs = await selected.request({
+            method: "eth_accounts",
+            params: [],
+          });
+          beforeConnect = accs || [];
+        } catch (e) {
+          console.error("beforeConnect eth_accounts failed", e);
+          beforeConnect = ["error", e.code, e.message];
+        }
+        latestAccounts = beforeConnect;
+        updateSnapshots();
+
+        // 2) CONNECT
+        try {
+          setText("status", "calling eth_requestAccounts… (check your wallet)");
+          const accsReq = await selected.request({
+            method: "eth_requestAccounts",
+            params: [],
+          });
+          afterConnect = accsReq || [];
+        } catch (e) {
+          console.error("eth_requestAccounts error", e);
+          setText("status", "eth_requestAccounts error (see console)");
+          updateSnapshots();
+          return;
+        }
+
+        latestAccounts = afterConnect;
+        updateSnapshots();
+
+        // 3) REVOKE PERMISSIONS
+        setText("status", "calling wallet_revokePermissions…");
+        try {
+          await selected.request({
+            method: "wallet_revokePermissions",
+            params: [{ eth_accounts: {} }],
+          });
+          revocationSupported = "yes";
+        } catch (e) {
+          console.warn("wallet_revokePermissions not supported or failed", e);
+          revocationSupported = "no";
+        }
+
+        // 4) AFTER REVOKE
+        setText("status", "checking eth_accounts after revoke…");
+        try {
+          const accsAfter = await selected.request({
+            method: "eth_accounts",
+            params: [],
+          });
+          afterRevoke = accsAfter || [];
+        } catch (e) {
+          console.error("afterRevoke eth_accounts failed", e);
+          afterRevoke = ["error", e.code, e.message];
+        }
+
+        latestAccounts = afterRevoke;
+        updateSnapshots();
+        setText("status", "test finished");
+      });
+
+      $("recheckBtn").addEventListener("click", async () => {
+        if (!selected) {
+          setText("status", "no provider selected");
+          return;
+        }
+        setText("status", "re-checking eth_accounts…");
+        try {
+          const accs = await selected.request({
+            method: "eth_accounts",
+            params: [],
+          });
+          latestAccounts = accs || [];
+        } catch (e) {
+          console.error("re-check eth_accounts failed", e);
+          latestAccounts = ["error", e.code, e.message];
+        }
+        updateSnapshots();
+        setText("status", "eth_accounts re-check done");
+      });
+
+      // --- Right panel: EIP-6963 live eth_accounts probe (fancy version) ---
+
+      function normalizeAccountsResult(v) {
+        try {
+          return JSON.stringify(v ?? []);
+        } catch {
+          return JSON.stringify(["unserializable"]);
+        }
+      }
+
+      async function refreshRightPanel() {
+        const container = $("walletList");
+
+        const announced = [];
+        const onAnnounce = (e) => {
+          if (e?.detail?.provider) {
+            announced.push(e.detail);
+          }
+        };
+
+        window.addEventListener("eip6963:announceProvider", onAnnounce);
+        window.dispatchEvent(new Event("eip6963:requestProvider"));
+        await new Promise((r) => setTimeout(r, 400));
+        window.removeEventListener("eip6963:announceProvider", onAnnounce);
+
+        if (!announced.length) {
+          if (!container.textContent.trim()) {
+            container.innerHTML =
+              '<div class="wallet-row wallet-empty">No wallets announced via EIP-6963.</div>';
+          }
+          setText("lastProbeTime", nowStr());
+          return;
+        }
+
+        // clear "empty" placeholder if present
+        if (container.querySelector(".wallet-empty")) {
+          container.innerHTML = "";
+        }
+
+        for (const d of announced) {
+          const provider = d.provider;
+          const info = d.info || {};
+          const key = info.rdns || info.name || "unknown-wallet";
+
+          let rawResult;
+          let nextValue;
+          try {
+            const accs = await provider.request({
+              method: "eth_accounts",
+              params: [],
+            });
+            rawResult = accs ?? [];
+            nextValue = normalizeAccountsResult(accs);
+          } catch (e) {
+            rawResult = ["error", e.code, e.message];
+            nextValue = normalizeAccountsResult(rawResult);
+          }
+
+          const prevValue = liveAccountsCache.get(key);
+
+          // Only update if status changed
+          if (prevValue === nextValue) {
+            continue;
+          }
+
+          liveAccountsCache.set(key, nextValue);
+
+          let row = container.querySelector(`[data-wallet="${key}"]`);
+          if (!row) {
+            row = document.createElement("div");
+            row.dataset.wallet = key;
+            row.className = "wallet-row";
+            container.appendChild(row);
+          }
+
+          const hasError = Array.isArray(rawResult) && rawResult[0] === "error";
+          const hasAccounts =
+            !hasError &&
+            (Array.isArray(rawResult) ? rawResult.length > 0 : false);
+
+          let pillClass = "empty";
+          let pillText = "no accounts";
+          if (hasError) {
+            pillClass = "error";
+            pillText = "error";
+          } else if (hasAccounts) {
+            pillClass = "error";
+            pillText = `${rawResult.length} account${
+              rawResult.length > 1 ? "s" : ""
+            }`;
+          }
+
+          row.innerHTML = `
+            <div class="wallet-header">
+              <span class="wallet-name">${info.name || key}</span>
+              <span class="status-pill ${pillClass}">${pillText}</span>
+            </div>
+            <div class="wallet-accounts">${nextValue}</div>
+          `;
+
+          // highlight on change
+          row.classList.add("changed");
+          setTimeout(() => row.classList.remove("changed"), 500);
+
+          console.log(
+            "[eth_accounts changed]",
+            info.name || key,
+            prevValue,
+            "→",
+            nextValue,
+          );
+        }
+
+        setText("lastProbeTime", nowStr());
+      }
+
+      function startAutoProbe() {
+        if (probeTimer) {
+          clearInterval(probeTimer);
+          probeTimer = null;
+        }
+        // Run once now
+        refreshRightPanel();
+        // Then every 5 seconds
+        probeTimer = setInterval(refreshRightPanel, 5000);
+      }
+
+      $("probeBtn").addEventListener("click", async () => {
+        await refreshRightPanel();
+      });
+
+      // init
+      (async () => {
+        updateSnapshots();
+        await scanProviders(); // scanProviders will call startAutoProbe() when it finds wallets
+      })();
+    </script>
+  </body>
+</html>

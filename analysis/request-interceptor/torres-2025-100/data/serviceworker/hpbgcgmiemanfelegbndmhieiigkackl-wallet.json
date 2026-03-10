@@ -1,0 +1,2254 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/new_version/extensions/profiles_new/hpbgcgmiemanfelegbndmhieiigkackl",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets-new-version/hpbgcgmiemanfelegbndmhieiigkackl",
+    "destination": "./final-results/new_version/extensions/crawl_new/2025-11-07T19-32-55",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762541974729,
+    "end": 1762542020617
+  },
+  "extensionID": "cdkhpelkhopkijchbmkdncgpfafdlhpa",
+  "serviceWorker": "service_worker",
+  "walletName": "monstaWallet",
+  "notes": "",
+  "walletAddress": "monsta:033a5379bc3d5edd92b9b1da762688e97cef154c;monsta:4a981186bbfbec244e0f7260529528d294ec04ed;monsta:196e98a561479ff97d533401cc10e95b238e1a2a",
+  "password": "Default1Password1!",
+  "pathID": "hpbgcgmiemanfelegbndmhieiigkackl",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541976569,
+      "id": "57223.94",
+      "url": "https://cdn.jsdelivr.net/gh/MetaMask/eth-phishing-detect@master/src/config.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:36 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "HIT",
+        "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "age": "12635",
+        "x-jsd-version": "master",
+        "content-encoding": "br",
+        "x-cache": "HIT, HIT",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "1325085",
+        "x-served-by": "cache-fra-eddf8230033-FRA, cache-rtm-ehrd2290025-RTM",
+        "x-jsd-version-type": "branch",
+        "server": "cloudflare",
+        "etag": "W/\"5051c4-sdJDhLIsEROggQgLD3WdZimR3qc\"",
+        "vary": "Accept-Encoding",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=WK3vgpYVAHJqSqGoq8LUt%2BpxsZFFN8AaDCxCweLdz8aM8RygWe6LUjTeo%2B%2FP9ZNGJKdTrWsopsGnCQ%2FSyTzHkedmkbw5lf8JMBKjJPH5Poz20EYlAHIvkmEP7Euu%2F8pWrLU%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "*",
+        "cache-control": "public, max-age=604800, s-maxage=43200",
+        "accept-ranges": "bytes",
+        "cf-ray": "99af119a4fe2ba72-BRU",
+        "timing-allow-origin": "*"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541976569,
+      "id": "57223.95",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567921,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:36 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "AizjOakQhnVfqYHzruo-bgk5sWag0X2JaRlbqInMlwTL_iLK7kvf_w=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541976569,
+      "id": "57223.96",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178843,\"jsonrpc\":\"2.0\",\"method\":\"net_version\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:36 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "80",
+        "x-amz-cf-id": "x7ZjNe1CZ3CW8rYnZ9Z0lMMHiZ8mKf1CYGLacxZS0YQ_l2PPhkOx4w=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541976569,
+      "id": "57223.97",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178844,\"jsonrpc\":\"2.0\",\"method\":\"net_version\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:36 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "80",
+        "x-amz-cf-id": "vM3kS66JezDe9IVnbgfm7aoNOB5fff6vTPXrjqLNk2pFvix2ycdhlA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977032,
+      "id": "57223.103",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178845,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c68\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "952",
+        "x-amz-cf-id": "DKuF6-YmFdPa5QerfiUcubYsQ4elMFE8Edza5as6e6OYKAL49Q0wrw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977033,
+      "id": "57223.104",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178846,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c67\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "947",
+        "x-amz-cf-id": "0XZmNrNyIEgNUbjmvBBdN4Ow6eAwD7vdrIT8w920LKK3xgsC8xey5g=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977033,
+      "id": "57223.105",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178847,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c66\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "950",
+        "x-amz-cf-id": "WxWxejPFM8buT-0BfSdJd7G7vj9G52ZU1nSKiYrqUEDWahOiruNbrg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977033,
+      "id": "57223.106",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178848,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c65\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "945",
+        "x-amz-cf-id": "4r-N-IhdnZjVuMwzP3guSUOvbm_LDjhsoxSEb_kZvqrfo_SzkkG5Cw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977033,
+      "id": "57223.107",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178849,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c64\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "935",
+        "x-amz-cf-id": "j2oepSP4btoIilJroof_ZNTTw43L-EDWDyf2rm-SCb_Xq5fYYj_pYQ=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977033,
+      "id": "57223.108",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178850,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c63\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "960",
+        "x-amz-cf-id": "Gqd5kMQYXcBkaUe-o1_k6-Z5QiEbTtZxlPryJ_ItP1mjYFkJYH-LxQ=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.109",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178851,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c62\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "949",
+        "x-amz-cf-id": "wEIlnq1cnRqoddzjFNtEVHWdL61q1ZmIjWuMPtyarheTKRnnQjR0GQ=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.110",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178852,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c61\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "932",
+        "x-amz-cf-id": "GwGjslXJZqplfDBRGopezeRX6YfD63HHyOMimTNj2uZzc8vWKqec0g=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.111",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178853,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c60\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "958",
+        "x-amz-cf-id": "YHX1U71WycE7Wk_ZrIuP8sabIsMtIp5nEk9FQB_i-sQ-AXItjLFpug=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.112",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178854,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c5f\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "948",
+        "x-amz-cf-id": "izZGs9YJ26ycdH0s4vijCXgVEsjhnJBWdI3nSt49r6pDzqdxPHTWzg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.113",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178855,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c5e\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "934",
+        "x-amz-cf-id": "BV978fs1slurfhtmHgtsXw3GRPHXLddlme5zJgSG52nmtpvVkY-Hog=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.114",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178856,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c5d\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "959",
+        "x-amz-cf-id": "4U5jueuFLXuC-85-r__3sj2ENt4xeNUfzq6eeFxjpK0ioAOCFbx74g=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.115",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178857,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c5c\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "950",
+        "x-amz-cf-id": "EGafPo3sPm_Lm_v6Q4kwxAgNPdLqqBmZesGk7t0OaZzt_wV2LyDPNA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.116",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178858,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c5b\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "935",
+        "x-amz-cf-id": "N6jTuxZNUkdpZsHa2KfgtPGuUaxSxXnHT7U_TUYVDkWH7lWDQNIC6Q=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.117",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178859,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c5a\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "961",
+        "x-amz-cf-id": "q7LM0OsW1ofA4vTuBW9-rvvYKx0P0jTOHmMr_UDC64ZxbZfJkTNytA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.118",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178860,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c59\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "941",
+        "x-amz-cf-id": "8WsVrbQ1cvUMlcGYnGPu1NGCMZxq1laAhlLhLjGvqAjm-STPMBZvnw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.119",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178861,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c58\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "930",
+        "x-amz-cf-id": "J0oqte4peXUTXKUbJRUfc47FhIKD5Zm8nVdNU3mBZWASwOFlRKH7fg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.120",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178862,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c57\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "963",
+        "x-amz-cf-id": "dpNrDQ1ZTWnU91SK1wPwsN5Y-KnBpD91kAn29o3sSvjJnbI2oFnwDg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.121",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178863,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c56\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "948",
+        "x-amz-cf-id": "AeO2KJ2_ydGe0nv7gtooVRvD76Ks0gYuF5jMB7MwSh2N3O3y6ubfoA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.122",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178864,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c55\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "959",
+        "x-amz-cf-id": "TJF6y-sfR1JPgDlrBKcYmGoKhC0AFg-mcji7WdUEJAS23kBdmwR6Ww=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.123",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178865,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c54\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "951",
+        "x-amz-cf-id": "-0mSHP7mt8RAO5gXRDWf6ByfM5D9AzKWD5ykGh2Vt8nT36qnookHXw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.124",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178866,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c53\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "958",
+        "x-amz-cf-id": "3oMeSTAnkd_Ox4fKr1YekJoavUyABeR1B80RUgDhNvGjlsi6mh-cww=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.125",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178867,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c52\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "952",
+        "x-amz-cf-id": "fQlezXGJOeBstNe_C1WreUt63Of_QalAqS6iVM0fqtLuT7Eh5BbSXw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.126",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178868,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c51\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "930",
+        "x-amz-cf-id": "Mp9IWym_ZIZLh1QvDnToiIf8cDX3ZIIYfEZ_K8rDSE2snC60G7EAeA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.127",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178869,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c50\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "963",
+        "x-amz-cf-id": "VglZgTMM5aC7Rat4_gWx0f8FdJeSY45eFYzMJu0LftLeI2n1-m9w7Q=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.128",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178870,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c4f\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "950",
+        "x-amz-cf-id": "anCP9ayFNgOgn968pF-qWktBiXKMBCKs2sxqLbSgk5vaK42gPswsmg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.129",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178871,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c4e\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "934",
+        "x-amz-cf-id": "5KBfWoMyZpniJ76gWO3M10U-1UMRE4cdHkLUUsP0dPYb6vj8wW1xQQ=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.130",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178872,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c4d\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "953",
+        "x-amz-cf-id": "bsFi6L48m-JUUcmGF0KAGOm7R_t3m8vF3HaIFDhoirttUWYiT9niTw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.131",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178873,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c4c\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "942",
+        "x-amz-cf-id": "FgNg_s9juQ_F378rU4hv5JBHe0bqrSxxv1Qa-QhkJ0ZyxFIrzp1Org=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.132",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178874,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c4b\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "944",
+        "x-amz-cf-id": "ZCmudkJT86BWZHrS_kDntc-6fY73tKx_Ws30xm476extIZ3Aso40Mw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.133",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178875,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c4a\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "940",
+        "x-amz-cf-id": "3gb8CDWf1ntNPITLyj52q4ewGI2SDrmIuyF3hTJrWiwq8n-Zh4b6xw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.134",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178876,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c49\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "943",
+        "x-amz-cf-id": "MfiBBEQNSXyjfBCu71hCkgrWbmB0RTlFjpCHqQnUQLGz_2CclsX9dQ=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.135",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178877,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c48\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "932",
+        "x-amz-cf-id": "E_7izmScOtNdisqJ7uvw6vgSa-phPzV4ilP854r2fhPFUB5aG6knpw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.136",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178878,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c47\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "960",
+        "x-amz-cf-id": "5NUk_LKILkxWlQLx-jVNRzyLZIVOMII-lpC8pHOcAQvCGvYyJyuPSw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.137",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178879,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c46\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "945",
+        "x-amz-cf-id": "xj3-62m7sIW5o5Z9rZx27y7TzY1Q4x4ThmkeLocwlm1_DGqBI4mMZA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.138",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178880,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c45\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "932",
+        "x-amz-cf-id": "END0m2ztx6cXZnJ0dfHXLtps8_TWti3iJrWPPZH4BgGsoINoAOqA_w=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.139",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178881,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c44\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "958",
+        "x-amz-cf-id": "aEbuu1vobzWNbfSdqTGk8QVcrFuPFcDGEmPjvCLimi_WHOrZQVIJ8A=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.140",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178882,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c43\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "949",
+        "x-amz-cf-id": "mVuIoylB3COncmwFrLjoWXyCTskBsy0CDTvOx9gex73L5uQ9GIwzuQ=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.141",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178883,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c42\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "933",
+        "x-amz-cf-id": "wJPEDMsHVdOtaHDuFvUn80ulzojrV1uy4glNlqDq6_cGZkzg3X0FDQ=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.142",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178884,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c41\",true]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "953",
+        "x-amz-cf-id": "ZX3lB6A8j_nPcKu4dj32y6aKSWrUsVR5SB2NL4ge4FtWxRuI9flEqw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541977034,
+      "id": "57223.143",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178885,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x507c69\",false]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:37 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "726",
+        "x-amz-cf-id": "IejSv5TcrPZC1HjeYNgf3ZubcwMswmHq4E9_fd1yvqnIAKy2bwvSfg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541985091,
+      "id": "57223.145",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567922,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:45 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "7luBsZq9E8Y4KFy--Nd8rbH_fDHa9HWEkZqhpNtA1jfEyR07YsOatA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541985091,
+      "id": "57223.146",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178887,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:45 GMT",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "server": "CloudFront",
+        "x-amz-cf-pop": "AMS54-C1",
+        "x-cache": "Error from cloudfront",
+        "content-type": "application/json",
+        "content-length": "58",
+        "x-amz-cf-id": "Hh_CiPCtpLXfMtXqkQbdv-TPFLVE0a0g4hU3dKeOuAqn5wcrIwrKPg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541985091,
+      "id": "57223.147",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178888,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBalance\",\"params\":[\"0x4a981186bbfbec244e0f7260529528d294ec04ed\",\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:45 GMT",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "server": "CloudFront",
+        "x-amz-cf-pop": "AMS54-C1",
+        "x-cache": "Error from cloudfront",
+        "content-type": "application/json",
+        "content-length": "58",
+        "x-amz-cf-id": "IWbIRYftU0eUYH1aC88eS8lzk4AXnX-j_dB163JuMS5clE_PxPr89Q=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541985091,
+      "id": "57223.148",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1905083135178889,\"jsonrpc\":\"2.0\",\"method\":\"eth_getBalance\",\"params\":[\"0x196e98a561479ff97d533401cc10e95b238e1a2a\",\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:45 GMT",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "server": "CloudFront",
+        "x-amz-cf-pop": "AMS54-C1",
+        "x-cache": "Error from cloudfront",
+        "content-type": "application/json",
+        "content-length": "58",
+        "x-amz-cf-id": "iUG9vtv5TZsjBf-VcSFtwiEP0cgg2DimRDFhwXagDuNyJ0U8FKUOyw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541985363,
+      "id": "57223.154",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"07c74b79-e55d-4cde-94ad-c73f393292cc\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0x7D2ea85F1dF98201289598E20778529f98E0d2Ba\",\"data\":\"0x70a08231000000000000000000000000033a5379bc3d5edd92b9b1da762688e97cef154c\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:45 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "101",
+        "x-amz-cf-id": "36shEftO-Z-QOSxMJFhFDKG_7WzOYeLZWtVRUn-5EH3Ae1sqjMDsrg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541985363,
+      "id": "57223.155",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"263cd78a-7f34-440d-90fa-d57d578a55c0\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0xae8b6389A951eF58E997bbBB886E721be5F33a0D\",\"data\":\"0x70a08231000000000000000000000000033a5379bc3d5edd92b9b1da762688e97cef154c\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:45 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "99",
+        "x-amz-cf-id": "xGNv2KWUJEAzx_ASw-CP0nUlaBY0lcNLI9_hshc6hYn_whQrwMX5cQ=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541985363,
+      "id": "57223.156",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"488c8828-30f4-4a1b-ae04-280829ec4410\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0x168b09EeaF44aEe9aB574e6F0F8e9f423835FcC7\",\"data\":\"0x70a08231000000000000000000000000033a5379bc3d5edd92b9b1da762688e97cef154c\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:45 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "100",
+        "x-amz-cf-id": "cb5ojx2EekcvSrpgQeCun3wniRe0fI1mkD0PulJAFMZSeddHKpdTmA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541985364,
+      "id": "57223.157",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"735c8acd-5349-4c41-885a-d503e91c4a48\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0x168b09EeaF44aEe9aB574e6F0F8e9f423835FcC7\",\"data\":\"0x313ce567\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:45 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "124",
+        "x-amz-cf-id": "G6rtg2Qa3YC6weY1-Lp_6T6q0TSmIcl_Jixd2yy5-QBHtAghbzAo5g=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541985364,
+      "id": "57223.158",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"ba5826e0-af57-4578-910a-e337ffc48bd5\",\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:45 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "102",
+        "x-amz-cf-id": "jutJR4_wpQRXLkBywmYez5l8IJ433dEZgHw7lieaU8AKU93PjVo2JA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541989151,
+      "id": "57223.254",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567923,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:49 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "f-u-zr9wplTHdMWuaGqDhBrY4AddwqAcm_FC1uBJiXYv1_ZAoREBBQ=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541989207,
+      "id": "57223.263",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"4e94bf62-730e-4b7d-a25f-ffdce6d0be97\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0x168b09EeaF44aEe9aB574e6F0F8e9f423835FcC7\",\"data\":\"0x313ce567\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:49 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "124",
+        "x-amz-cf-id": "0E6DgzFRVCij-L_3OzSnQ4FXfxNBg_iPHR9xeqMmHfTD2fMKDpxC1w=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541992570,
+      "id": "57223.359",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567924,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:52 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "dueWRZKwnRjOudDldRA9nCugpmbx5zGT2fViZV5Eh5DcuLN0pFzpRg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541992621,
+      "id": "57223.368",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"9390c7f5-1fbe-40a5-80ba-8b8ea41e36e3\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0x168b09EeaF44aEe9aB574e6F0F8e9f423835FcC7\",\"data\":\"0x313ce567\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:52 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "125",
+        "x-amz-cf-id": "6ouqp6bjF9PGs8Huqv8OkqvHBsHBI9uIM8xp0yzCTpOobDCRUso4Pw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541995986,
+      "id": "57223.464",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567925,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:56 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "jm9hEqwT3M9bJMy4NfZlz5K08yqvhPFdXTKDaZwfDr01plZILrc4lw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541996033,
+      "id": "57223.473",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"0a42525b-e322-4101-92b5-a5be3380a9c4\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0x168b09EeaF44aEe9aB574e6F0F8e9f423835FcC7\",\"data\":\"0x313ce567\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:56 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "124",
+        "x-amz-cf-id": "aPZ1iWeGTMpNjQZ008pVp-3xBLgukxcW4Mkl-KhKET4Dh1etJ25SjQ=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541997035,
+      "id": "57223.479",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567926,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:57 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "b-uboKCPHx1UJxexHI3UirZoFci99Lro_pCwDcN852qLx0zEDPsI0A=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541999410,
+      "id": "57223.570",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567927,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:59 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "kcFPycijB2xdXdiyEEoaZup4DwYmbFar7OUd7KpYYUW7zA9heQvwuA=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762541999457,
+      "id": "57223.579",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"0d1099f3-f636-4969-9ae0-57473b72f627\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0x168b09EeaF44aEe9aB574e6F0F8e9f423835FcC7\",\"data\":\"0x313ce567\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 18:59:59 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "125",
+        "x-amz-cf-id": "Uf5TUhTP_sEzwn8ZY_TrhlDg9_ezcgMPPc9oB5hWZt-cE6rtBBNOdQ=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542002842,
+      "id": "57223.676",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567928,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:00:03 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "_ayF-gWLftxTiHlxm2-ViyZoHQm7B_YDMLfThLLPP-VJiHIb8eTaFw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542002891,
+      "id": "57223.685",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"6136348b-35ba-40a4-9586-b71dde6f8d7c\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0x168b09EeaF44aEe9aB574e6F0F8e9f423835FcC7\",\"data\":\"0x313ce567\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:00:03 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "126",
+        "x-amz-cf-id": "TRRVO7mz1hpWhJaazekbDBznmu0RmjThCC8qIxOm4eP9JlPM11QPRw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542006267,
+      "id": "57223.781",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567929,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:00:06 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "Ml2tkp-V30T_lxMslHEEUSjqP-U6S6zvVlp0RfMoFGbewXyS67PbEw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542006321,
+      "id": "57223.790",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"75c472f2-a77c-4f55-83cd-1dc5dfe199b7\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0x168b09EeaF44aEe9aB574e6F0F8e9f423835FcC7\",\"data\":\"0x313ce567\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:00:06 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "126",
+        "x-amz-cf-id": "DrFKq-HzbsRNpJWACd3W-HNSlaAAg71VWFVVxxiwr3MJKLEYumcVJw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542009670,
+      "id": "57223.886",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567930,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:00:09 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "CEz836xUvzasq-D3YWNXouJhnHjq0zWxxYAO8a-yW1541Wxl_do9_Q=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542009713,
+      "id": "57223.895",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"ea7d325b-6eb9-42a7-9638-d5a8fbab11f2\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0x168b09EeaF44aEe9aB574e6F0F8e9f423835FcC7\",\"data\":\"0x313ce567\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:00:09 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "129",
+        "x-amz-cf-id": "gaVWLrKDTPbHfgp64d-BGwNxB-i6sO26h_aweAQxkdLwzjBznY1VGg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542013087,
+      "id": "57223.991",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567931,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:00:13 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "8w0_Q-x_MLYj3KmhWobrXsYMXXYq3C38zz6I0Xo_lxZT3RqXAChXwg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542013145,
+      "id": "57223.1000",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"10913d0b-a0b1-4cf6-a0d8-64787405da58\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0x168b09EeaF44aEe9aB574e6F0F8e9f423835FcC7\",\"data\":\"0x313ce567\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:00:13 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "126",
+        "x-amz-cf-id": "G_6PTVwlLYdFh_xUEbcSHv56ZClZac6WC_oRtI-76UzjG2U8vi7BHQ=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542016501,
+      "id": "57223.1096",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567932,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:00:16 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "9f4TbRdxjdNsYgDJN8v985pc3Hrdyjy1NM8saJZyzXA5BH2pefa9vg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542016552,
+      "id": "57223.1105",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"ffc0c36b-dd56-4523-bf18-237437499a86\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0x168b09EeaF44aEe9aB574e6F0F8e9f423835FcC7\",\"data\":\"0x313ce567\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:00:16 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "126",
+        "x-amz-cf-id": "TEKqk1AQnslJVWugnTtFZsNylKI3Qpz2i-e7HAIoUIR85W6B6uSZbg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542017230,
+      "id": "57223.1111",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567933,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:00:17 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "FDvQT13-108HkrthoFhisudbnZPNpF0j3t2Dtaa3EGZtahNrdiI6Lw=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542019919,
+      "id": "57223.1202",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":5990377291567934,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:00:20 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "84",
+        "x-amz-cf-id": "MYV0Zdg1DtiUjkLVV4hnS1CK1389AkAtxErhrKHlBgBftasuTKRMMg=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542019964,
+      "id": "57223.1211",
+      "url": "https://mainnet.monstachain.org/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "application/json",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":\"871f78e5-2ae5-4484-8178-cfdbd0629269\",\"jsonrpc\":\"2.0\",\"method\":\"eth_call\",\"params\":[{\"to\":\"0x168b09EeaF44aEe9aB574e6F0F8e9f423835FcC7\",\"data\":\"0x313ce567\"},\"0x507c69\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:00:20 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 3542cbb3a5773810405fca7ba271be44.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "AMS54-C1",
+        "vary": "Origin",
+        "x-cache": "Miss from cloudfront",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa",
+        "content-length": "126",
+        "x-amz-cf-id": "buoyiNsK--LuqXIXMkpQmGID_H3rDg0tWFFRgR7rL-6573AZT4vcMQ=="
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://cdkhpelkhopkijchbmkdncgpfafdlhpa/app-init.js",
+      "ts": 1762542020571,
+      "id": "57223.1217",
+      "url": "https://o1258392.ingest.sentry.io/api/6432539/store/?sentry_version=7&sentry_client=raven-js%2F3.27.2&sentry_key=bbd3d62d88554d7fbadad76fb3cd1bee",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"project\":\"6432539\",\"logger\":\"javascript\",\"platform\":\"javascript\",\"request\":{\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\"},\"url\":\"metamask/app-init.js\"},\"exception\":{\"values\":[{\"type\":\"Error\",\"value\":\"The browser is shutting down.\",\"stacktrace\":{\"frames\":[{\"filename\":\"\",\"lineno\":null,\"colno\":null,\"function\":\"_promiseRejectionHandler\",\"in_app\":true}]}}],\"mechanism\":{\"type\":\"onunhandledrejection\",\"handled\":false}},\"trimHeadFrames\":0,\"extra\":{\"session:duration\":44585,\"isBrave\":false},\"breadcrumbs\":{\"values\":[{\"timestamp\":1762541975.985,\"message\":\"SCRIPTS IMPORT COMPLETE in Seconds: 0.408\",\"level\":\"log\",\"category\":\"console\"},{\"timestamp\":1762541976.541,\"message\":\"Dropped attempt to register inpage content script. Error: Duplicate script ID 'inpage'\",\"level\":\"warning\",\"category\":\"console\"},{\"timestamp\":1762541976.559,\"message\":\"NOTE: web3.js is running without provider. You need to pass a provider in order to interact with the network!\",\"level\":\"warning\",\"category\":\"console\"},{\"timestamp\":1762541976.649,\"type\":\"http\",\"category\":\"fetch\",\"data\":{\"method\":\"GET\",\"url\":\"https://cdn.jsdelivr.net/gh/MetaMask/eth-phishing-detect@master/src/config.json\",\"status_code\":200}},{\"timestamp\":1762541976.903,\"message\":\"Offscreen iframe initialized\",\"level\":\"debug\",\"category\":\"console\"}]},\"release\":\"2.2.4\",\"event_id\":\"db7536a729054ca5a6e24e64b324ca89\"}",
+      "responseHeaders": {}
+    }
+  ],
+  "success": true
+}

@@ -1,0 +1,1267 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/hpclkefagolihohboafpheddmmgdffjm",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/hpclkefagolihohboafpheddmmgdffjm",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T13-17-53",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764074704519,
+    "end": 1764074786558
+  },
+  "extensionID": "hpclkefagolihohboafpheddmmgdffjm",
+  "serviceWorker": "service_worker",
+  "walletName": "flow",
+  "notes": "no-balance-flow",
+  "walletAddress": "0x3a3c0e28590b2370;0x22d740ceeacb05a2;0xc6b0f913fb31057d",
+  "password": "Default1Password1!",
+  "pathID": "hpclkefagolihohboafpheddmmgdffjm",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074705505,
+      "id": "17139.1",
+      "url": "https://securetoken.googleapis.com/v1/token?key=AIzaSyAt8H8_AAizx8jBVSe2LJt7vg0m7KTZ_PQ",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "x-firebase-gmpid": "1:556216024625:web:8ce7aec038d9162ca61f10",
+        "referer": "",
+        "x-client-version": "WebExtension/JsCore/10.14.1/FirebaseCore-web",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "grant_type=refresh_token&refresh_token=AMf-vBzb667gaIio1aKGcc1a94GNJvSvcnE5zwdB0OpovMZ2j0GRPgeYCzzAJcSkmbfPxbyMH5JK0aYYhi-XzoauG1wK8jIQLD6kvBb8VzFTGcHBa13No5dDKcVYABBnmq0Ra94QFvAj_rqQB7IGUlpVShWIGi4YCR1HEhM63d3tjZwBYChqUsT2b4KP3hnIIctITPMSjqhr",
+      "status": 200,
+      "responseHeaders": {
+        "pragma": "no-cache",
+        "date": "Tue, 25 Nov 2025 12:45:05 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "server": "ESF",
+        "vary": "Origin, X-Origin, Referer",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-expose-headers": "date,vary,vary,vary,content-encoding,server,content-length",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "918",
+        "x-xss-protection": "0",
+        "expires": "Mon, 01 Jan 1990 00:00:00 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074705709,
+      "id": "17139.36",
+      "url": "https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyAt8H8_AAizx8jBVSe2LJt7vg0m7KTZ_PQ",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "x-firebase-gmpid": "1:556216024625:web:8ce7aec038d9162ca61f10",
+        "referer": "",
+        "x-client-version": "WebExtension/JsCore/10.14.1/FirebaseCore-web",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"idToken\":\"eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbGlsaWNvLTMzNDQwNCIsImF1ZCI6ImxpbGljby0zMzQ0MDQiLCJhdXRoX3RpbWUiOjE3NjQwNjg4NzcsInVzZXJfaWQiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJzdWIiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJpYXQiOjE3NjQwNzQ3MDUsImV4cCI6MTc2NDA3ODMwNSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.lcp4y9rvvshShqNraizF7iw98T1uToQcYrc0soiO54P4R7YjQcwScw8Tbei3RrdRIaEYnCTqaFS48nKra1Cx1uA9XyGNeFLXUsu0XVmvW9Xh0MVlQVX2PS6ev1Ar8HDi_K8BS41tmyOKcRc2h2fUYjRUZAybinlFLtiVHXV0BqtYaP3bxLTmkRWyii_NUTh2tgrEKv_mFYMUB0428L_jhx_-MXq7ZVVb06jEPBlAo9Sxv5pgVYNaBlMmZRlWEcQ10z8HL1Vquw96Bvy10mEu1G7M5ZYnKvIV0RdZb65DexsVRUytvA4TWHxyJygHQXBXZLr3d2ZRPwVLXuzkpBQGeg\"}",
+      "status": 200,
+      "responseHeaders": {
+        "pragma": "no-cache",
+        "date": "Tue, 25 Nov 2025 12:45:05 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "server": "ESF",
+        "vary": "Origin, X-Origin, Referer",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-expose-headers": "date,vary,vary,vary,content-encoding,server,content-length",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "249",
+        "x-xss-protection": "0",
+        "expires": "Mon, 01 Jan 1990 00:00:00 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074705859,
+      "id": "17139.37",
+      "url": "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAt8H8_AAizx8jBVSe2LJt7vg0m7KTZ_PQ",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "x-firebase-gmpid": "1:556216024625:web:8ce7aec038d9162ca61f10",
+        "referer": "",
+        "x-client-version": "WebExtension/JsCore/10.14.1/FirebaseCore-web",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"returnSecureToken\":true}",
+      "status": 200,
+      "responseHeaders": {
+        "pragma": "no-cache",
+        "date": "Tue, 25 Nov 2025 12:45:06 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "server": "ESF",
+        "vary": "Origin, X-Origin, Referer",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-expose-headers": "date,vary,vary,vary,content-encoding,server,content-length",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "926",
+        "x-xss-protection": "0",
+        "expires": "Mon, 01 Jan 1990 00:00:00 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074706230,
+      "id": "17139.79",
+      "url": "https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyAt8H8_AAizx8jBVSe2LJt7vg0m7KTZ_PQ",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "x-firebase-gmpid": "1:556216024625:web:8ce7aec038d9162ca61f10",
+        "referer": "",
+        "x-client-version": "WebExtension/JsCore/10.14.1/FirebaseCore-web",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"idToken\":\"eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJwcm92aWRlcl9pZCI6ImFub255bW91cyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9saWxpY28tMzM0NDA0IiwiYXVkIjoibGlsaWNvLTMzNDQwNCIsImF1dGhfdGltZSI6MTc2NDA3NDcwNiwidXNlcl9pZCI6InZoYTQ5VDhHRGtTRDFyNDVveU9wb2gzdmRSbzEiLCJzdWIiOiJ2aGE0OVQ4R0RrU0QxcjQ1b3lPcG9oM3ZkUm8xIiwiaWF0IjoxNzY0MDc0NzA2LCJleHAiOjE3NjQwNzgzMDYsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnt9LCJzaWduX2luX3Byb3ZpZGVyIjoiYW5vbnltb3VzIn19.VHZxYHJi7FHh9L0TWbhVdxc-SWPmUW21FKXDvbK_ocSi2sK21lCsElVKJWRmqExZvvhDMvyceUyR8SLQO7kt2j2r6hOdq7evYtiCSqoZsz_IwPoFV2ObZX6inlpTdhkJR-c_m--vXjCvM-nQa_EeNMRoTwfpqZGMcOvPHrtkBJu-RpLtRyrctZaiqqgW7fVgUN6t2_p1gXtb7bCB8gvPKHsg_Qdkbd69gEpKWp94IWh2xbS-9Nm6Uwp0ARoOFuh9G1hCsGvQk6iLKj0RB_FO4dnkeFoQrYGG2jeQ1eScpH89-oaDccQiRbpg8NXIjwVefft5vs364FzaZkqixShBfQ\"}",
+      "status": 200,
+      "responseHeaders": {
+        "pragma": "no-cache",
+        "date": "Tue, 25 Nov 2025 12:45:06 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "server": "ESF",
+        "vary": "Origin, X-Origin, Referer",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-expose-headers": "date,vary,vary,vary,content-encoding,server,content-length",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "200",
+        "x-xss-protection": "0",
+        "expires": "Mon, 01 Jan 1990 00:00:00 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074706366,
+      "id": "17139.80",
+      "url": "https://web.api.wallet.flow.com/config/config.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJwcm92aWRlcl9pZCI6ImFub255bW91cyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9saWxpY28tMzM0NDA0IiwiYXVkIjoibGlsaWNvLTMzNDQwNCIsImF1dGhfdGltZSI6MTc2NDA3NDcwNiwidXNlcl9pZCI6InZoYTQ5VDhHRGtTRDFyNDVveU9wb2gzdmRSbzEiLCJzdWIiOiJ2aGE0OVQ4R0RrU0QxcjQ1b3lPcG9oM3ZkUm8xIiwiaWF0IjoxNzY0MDc0NzA2LCJleHAiOjE3NjQwNzgzMDYsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnt9LCJzaWduX2luX3Byb3ZpZGVyIjoiYW5vbnltb3VzIn19.VHZxYHJi7FHh9L0TWbhVdxc-SWPmUW21FKXDvbK_ocSi2sK21lCsElVKJWRmqExZvvhDMvyceUyR8SLQO7kt2j2r6hOdq7evYtiCSqoZsz_IwPoFV2ObZX6inlpTdhkJR-c_m--vXjCvM-nQa_EeNMRoTwfpqZGMcOvPHrtkBJu-RpLtRyrctZaiqqgW7fVgUN6t2_p1gXtb7bCB8gvPKHsg_Qdkbd69gEpKWp94IWh2xbS-9Nm6Uwp0ARoOFuh9G1hCsGvQk6iLKj0RB_FO4dnkeFoQrYGG2jeQ1eScpH89-oaDccQiRbpg8NXIjwVefft5vs364FzaZkqixShBfQ",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "network": "mainnet"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:06 GMT",
+        "last-modified": "Tue, 25 Nov 2025 06:50:34 GMT",
+        "x-vercel-id": "cdg1::z7wqg-1764074706461-03ba8dd87e68",
+        "server": "Vercel",
+        "age": "15249",
+        "x-matched-path": "/config/config.json",
+        "etag": "\"7a8432020e4722c8f2b858d149c8f4ae\"",
+        "x-vercel-cache": "HIT",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-disposition": "inline; filename=\"config.json\"",
+        "accept-ranges": "bytes",
+        "content-length": "968"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074706502,
+      "id": "17139.81",
+      "url": "https://rest-mainnet.onflow.org/v1/network/parameters",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-node-id": "flow_flow-mainnet_fra",
+        "date": "Tue, 25 Nov 2025 12:45:06 GMT",
+        "vary": "Accept-Encoding",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json, application/json; charset=UTF-8",
+        "access-control-allow-origin": "",
+        "access-control-allow-credentials": "true",
+        "x-host-id": "bdf324c45b672703-a980856ef5149f61",
+        "access-control-allow-headers": "Content-Type,Authorization,User-Agent,x-grpc-web",
+        "content-length": "31"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074706514,
+      "id": "17139.82",
+      "url": "https://api.mixpanel.com/track?ip=1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "text/plain",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"event\":\"$mp_web_page_view\",\"properties\":{\"token\":\"9365d435d7badb0e5f8a51d2f9aab6f9\",\"distinct_id\":\"5eb43191-2d7a-44e0-87ba-dbf143fc8a3e\",\"$app_version_string\":\"3.0.5\",\"$browser\":\"Chrome\",\"$browser_version\":\"116\",\"time\":1764074706.511,\"$os\":\"mac\",\"app_version\":\"3.0.5\",\"platform\":\"extension\",\"environment\":\"production\",\"wallet_type\":\"flow\",\"current_page_title\":\"Flow Wallet\",\"current_domain\":\"flow-extension\",\"current_url_path\":\"/\",\"current_url_protocol\":\"chrome-extension:\"}}]",
+      "status": 200,
+      "responseHeaders": {
+        "strict-transport-security": "max-age=604800; includeSubDomains",
+        "date": "Tue, 25 Nov 2025 12:45:06 GMT",
+        "via": "1.1 google",
+        "server": "envoy",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-expose-headers": "X-MP-CE-Backoff",
+        "cache-control": "no-cache, no-store",
+        "access-control-allow-credentials": "true",
+        "x-envoy-upstream-service-time": "34",
+        "access-control-allow-headers": "X-Requested-With, Content-Type",
+        "content-length": "1",
+        "alt-svc": "clear"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074706520,
+      "id": "17139.83",
+      "url": "https://api.mixpanel.com/track?ip=1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "text/plain",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"event\":\"$mp_web_page_view\",\"properties\":{\"token\":\"9365d435d7badb0e5f8a51d2f9aab6f9\",\"distinct_id\":\"5eb43191-2d7a-44e0-87ba-dbf143fc8a3e\",\"$app_version_string\":\"3.0.5\",\"$browser\":\"Chrome\",\"$browser_version\":\"116\",\"time\":1764074706.516,\"$os\":\"mac\",\"app_version\":\"3.0.5\",\"platform\":\"extension\",\"environment\":\"production\",\"wallet_type\":\"flow\",\"current_page_title\":\"Flow Wallet\",\"current_domain\":\"flow-extension\",\"current_url_path\":\"/\",\"current_url_protocol\":\"chrome-extension:\"}}]",
+      "status": 200,
+      "responseHeaders": {
+        "strict-transport-security": "max-age=604800; includeSubDomains",
+        "date": "Tue, 25 Nov 2025 12:45:06 GMT",
+        "via": "1.1 google",
+        "server": "envoy",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-expose-headers": "X-MP-CE-Backoff",
+        "cache-control": "no-cache, no-store",
+        "access-control-allow-credentials": "true",
+        "x-envoy-upstream-service-time": "50",
+        "access-control-allow-headers": "X-Requested-With, Content-Type",
+        "content-length": "1",
+        "alt-svc": "clear"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074706561,
+      "id": "17139.117",
+      "url": "https://api.mixpanel.com/track?ip=1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "text/plain",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"event\":\"$mp_web_page_view\",\"properties\":{\"token\":\"9365d435d7badb0e5f8a51d2f9aab6f9\",\"distinct_id\":\"5eb43191-2d7a-44e0-87ba-dbf143fc8a3e\",\"$app_version_string\":\"3.0.5\",\"$browser\":\"Chrome\",\"$browser_version\":\"116\",\"time\":1764074706.558,\"$os\":\"mac\",\"app_version\":\"3.0.5\",\"platform\":\"extension\",\"environment\":\"production\",\"wallet_type\":\"flow\",\"current_page_title\":\"Flow Wallet\",\"current_domain\":\"flow-extension\",\"current_url_path\":\"/unlock\",\"current_url_protocol\":\"chrome-extension:\"}}]",
+      "status": 200,
+      "responseHeaders": {
+        "strict-transport-security": "max-age=604800; includeSubDomains",
+        "date": "Tue, 25 Nov 2025 12:45:06 GMT",
+        "via": "1.1 google",
+        "server": "envoy",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-expose-headers": "X-MP-CE-Backoff",
+        "cache-control": "no-cache, no-store",
+        "access-control-allow-credentials": "true",
+        "x-envoy-upstream-service-time": "33",
+        "access-control-allow-headers": "X-Requested-With, Content-Type",
+        "content-length": "1",
+        "alt-svc": "clear"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074721034,
+      "id": "17139.118",
+      "url": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/wallet-core.wasm",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self' 'wasm-unsafe-eval'; frame-ancestors 'none';",
+        "cache-control": "no-cache",
+        "last-modified": "Mon, 03 Nov 2025 09:36:34 GMT",
+        "etag": "\"TyHK8vgyfieZPFRZQF1ukOI5+Jo=\"",
+        "content-type": "application/wasm"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074721105,
+      "id": "17139.119",
+      "url": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/wallet-core.wasm",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self' 'wasm-unsafe-eval'; frame-ancestors 'none';",
+        "cache-control": "no-cache",
+        "last-modified": "Mon, 03 Nov 2025 09:36:34 GMT",
+        "etag": "\"TyHK8vgyfieZPFRZQF1ukOI5+Jo=\"",
+        "content-type": "application/wasm"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074721141,
+      "id": "17139.120",
+      "url": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/wallet-core.wasm",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self' 'wasm-unsafe-eval'; frame-ancestors 'none';",
+        "cache-control": "no-cache",
+        "last-modified": "Mon, 03 Nov 2025 09:36:34 GMT",
+        "etag": "\"TyHK8vgyfieZPFRZQF1ukOI5+Jo=\"",
+        "content-type": "application/wasm"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074721165,
+      "id": "17139.121",
+      "url": "https://api.lilico.app/v1/user/location",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJwcm92aWRlcl9pZCI6ImFub255bW91cyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9saWxpY28tMzM0NDA0IiwiYXVkIjoibGlsaWNvLTMzNDQwNCIsImF1dGhfdGltZSI6MTc2NDA3NDcwNiwidXNlcl9pZCI6InZoYTQ5VDhHRGtTRDFyNDVveU9wb2gzdmRSbzEiLCJzdWIiOiJ2aGE0OVQ4R0RrU0QxcjQ1b3lPcG9oM3ZkUm8xIiwiaWF0IjoxNzY0MDc0NzA2LCJleHAiOjE3NjQwNzgzMDYsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnt9LCJzaWduX2luX3Byb3ZpZGVyIjoiYW5vbnltb3VzIn19.VHZxYHJi7FHh9L0TWbhVdxc-SWPmUW21FKXDvbK_ocSi2sK21lCsElVKJWRmqExZvvhDMvyceUyR8SLQO7kt2j2r6hOdq7evYtiCSqoZsz_IwPoFV2ObZX6inlpTdhkJR-c_m--vXjCvM-nQa_EeNMRoTwfpqZGMcOvPHrtkBJu-RpLtRyrctZaiqqgW7fVgUN6t2_p1gXtb7bCB8gvPKHsg_Qdkbd69gEpKWp94IWh2xbS-9Nm6Uwp0ARoOFuh9G1hCsGvQk6iLKj0RB_FO4dnkeFoQrYGG2jeQ1eScpH89-oaDccQiRbpg8NXIjwVefft5vs364FzaZkqixShBfQ",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "network": "mainnet"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:21 GMT",
+        "server": "nginx/1.20.1",
+        "connection": "keep-alive",
+        "content-length": "368",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074721666,
+      "id": "17139.122",
+      "url": "https://api.lilico.app/v3/login",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJwcm92aWRlcl9pZCI6ImFub255bW91cyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9saWxpY28tMzM0NDA0IiwiYXVkIjoibGlsaWNvLTMzNDQwNCIsImF1dGhfdGltZSI6MTc2NDA3NDcwNiwidXNlcl9pZCI6InZoYTQ5VDhHRGtTRDFyNDVveU9wb2gzdmRSbzEiLCJzdWIiOiJ2aGE0OVQ4R0RrU0QxcjQ1b3lPcG9oM3ZkUm8xIiwiaWF0IjoxNzY0MDc0NzA2LCJleHAiOjE3NjQwNzgzMDYsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnt9LCJzaWduX2luX3Byb3ZpZGVyIjoiYW5vbnltb3VzIn19.VHZxYHJi7FHh9L0TWbhVdxc-SWPmUW21FKXDvbK_ocSi2sK21lCsElVKJWRmqExZvvhDMvyceUyR8SLQO7kt2j2r6hOdq7evYtiCSqoZsz_IwPoFV2ObZX6inlpTdhkJR-c_m--vXjCvM-nQa_EeNMRoTwfpqZGMcOvPHrtkBJu-RpLtRyrctZaiqqgW7fVgUN6t2_p1gXtb7bCB8gvPKHsg_Qdkbd69gEpKWp94IWh2xbS-9Nm6Uwp0ARoOFuh9G1hCsGvQk6iLKj0RB_FO4dnkeFoQrYGG2jeQ1eScpH89-oaDccQiRbpg8NXIjwVefft5vs364FzaZkqixShBfQ",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "network": "mainnet"
+      },
+      "postData": "{\"account_key\":{\"public_key\":\"6194fad4850a6b86c910c2b27b6504505a8d7cc257170b8a133ed6c33df1afe4dc25bc8a37332682fe7aa0073378a0502ac8f1b301e9689ae58674d3c9f6111f\",\"sign_algo\":2,\"hash_algo\":1,\"weight\":1000},\"device_info\":{\"city\":\"Leuven\",\"continent\":\"Belgium\",\"continentCode\":\"BE\",\"country\":\"Belgium\",\"countryCode\":\"BE\",\"currency\":\"BE\",\"device_id\":\"fccdZ7fjlOh_Xef50G9lPY\",\"district\":\"\",\"ip\":\"81.164.129.169\",\"isp\":\"AS6848 Telenet BV\",\"lat\":50.8758,\"lon\":4.7027,\"name\":\"FRW Chrome Extension\",\"org\":\"Telenet\",\"regionName\":\"Flanders\",\"type\":\"2\",\"user_agent\":\"Chrome\",\"zip\":\"3000\"},\"signature\":\"eba84cfb90714a2190dc4e09e764d863dc53254cc3289b65e5e300657e6811a07beb1894eedd71271941807740302af0ede0bad9bf62d44eb23cb30f16ac7aa5\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "server": "nginx/1.20.1",
+        "connection": "keep-alive",
+        "content-length": "920",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722199,
+      "id": "17139.123",
+      "url": "https://identitytoolkit.googleapis.com/v1/accounts:signInWithCustomToken?key=AIzaSyAt8H8_AAizx8jBVSe2LJt7vg0m7KTZ_PQ",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "x-firebase-gmpid": "1:556216024625:web:8ce7aec038d9162ca61f10",
+        "referer": "",
+        "x-client-version": "WebExtension/JsCore/10.14.1/FirebaseCore-web",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"token\":\"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay16emw4eEBsaWxpY28tMzM0NDA0LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJleHAiOjE3NjQwNzgzMjIsImlhdCI6MTc2NDA3NDcyMiwic3ViIjoiZmlyZWJhc2UtYWRtaW5zZGstenpsOHhAbGlsaWNvLTMzNDQwNC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInVpZCI6IjVlYjQzMTkxLTJkN2EtNDRlMC04N2JhLWRiZjE0M2ZjOGEzZSJ9.X2BpTAzZ42fnVI_qUCd7QozERybMkY3EHcEWS2S2oxLnLUjacVmMcMqbSFHbcK9UdoUqryzCRgSNlQhVRMeezZ0zVgmtdIQZhgFiFTY6UqZDbLVKgWVTiH6siO8txzv_nb3YRjWBJNuY4GfZhvfaPEKtZouO7A4PC0G6fPCHQfs3X-VaXyjr5PV47CMKPFs3ll5GU6IQcLF5oiavzwHosIww-ZhmrMl2aDM8EhxkP-NEGnq37gUu-8SBNy_ip80nQ5Z2vmFyAuDthxfAkASWeJV0jCR1exRru3wSIg_TbkwRMcWsY_cNDDKQx3FZU8Kjzgx0VMHNUGejmZc3lNBQiA\",\"returnSecureToken\":true}",
+      "status": 200,
+      "responseHeaders": {
+        "pragma": "no-cache",
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "server": "ESF",
+        "vary": "Origin, X-Origin, Referer",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-expose-headers": "date,vary,vary,vary,content-encoding,server,content-length",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "875",
+        "x-xss-protection": "0",
+        "expires": "Mon, 01 Jan 1990 00:00:00 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722347,
+      "id": "17139.124",
+      "url": "https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyAt8H8_AAizx8jBVSe2LJt7vg0m7KTZ_PQ",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "x-firebase-gmpid": "1:556216024625:web:8ce7aec038d9162ca61f10",
+        "referer": "",
+        "x-client-version": "WebExtension/JsCore/10.14.1/FirebaseCore-web",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"idToken\":\"eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbGlsaWNvLTMzNDQwNCIsImF1ZCI6ImxpbGljby0zMzQ0MDQiLCJhdXRoX3RpbWUiOjE3NjQwNzQ3MjIsInVzZXJfaWQiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJzdWIiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJpYXQiOjE3NjQwNzQ3MjIsImV4cCI6MTc2NDA3ODMyMiwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.N-jEOFUKLfjgUpjOea2EoPjSkDGRZO01DM9GSUo9h9R3QPquLxGq2eJpQy0rk9EaAOQLQoI8nNVYQUr9NGxtdI8wzUAp_WiiQ-NOMQOmgTStQnuofI1qIKTZIQ2hFDfOLJWuNBT8j-q5cjKewy-70bdUNENc0pZ4gmYzo6KogdLf24l07TnbQf1XlvLQ_lBjONfQJpyhFeiyBoFAack8COp9Ni40WyMvnESO0g-1IztMWp3SxQ8wWclUA1wCc-VZIMDXYS84Oc77pMFRQwrtdTDdNvSuG81yC_VLE2lxuO71RSP3zKloeMCBz4deK2CUk1x9S6WY1Eu1fdpFg18_jQ\"}",
+      "status": 200,
+      "responseHeaders": {
+        "pragma": "no-cache",
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "server": "ESF",
+        "vary": "Origin, X-Origin, Referer",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-expose-headers": "date,vary,vary,vary,content-encoding,server,content-length",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "249",
+        "x-xss-protection": "0",
+        "expires": "Mon, 01 Jan 1990 00:00:00 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722515,
+      "id": "17139.125",
+      "url": "https://production.key-indexer.flow.com/key/6194fad4850a6b86c910c2b27b6504505a8d7cc257170b8a133ed6c33df1afe4dc25bc8a37332682fe7aa0073378a0502ac8f1b301e9689ae58674d3c9f6111f",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "access-control-allow-methods": "GET",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "ed6f3302fc6447dce8ec5813694093b9;o=1",
+        "access-control-allow-headers": "Accept, Content-Type, Content-Length, Accept-Encoding, Authorization,X-CSRF-Token",
+        "content-length": "306",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722518,
+      "id": "17139.126",
+      "url": "https://web.api.wallet.flow.com/api/v2/scripts",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbGlsaWNvLTMzNDQwNCIsImF1ZCI6ImxpbGljby0zMzQ0MDQiLCJhdXRoX3RpbWUiOjE3NjQwNzQ3MjIsInVzZXJfaWQiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJzdWIiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJpYXQiOjE3NjQwNzQ3MjIsImV4cCI6MTc2NDA3ODMyMiwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.N-jEOFUKLfjgUpjOea2EoPjSkDGRZO01DM9GSUo9h9R3QPquLxGq2eJpQy0rk9EaAOQLQoI8nNVYQUr9NGxtdI8wzUAp_WiiQ-NOMQOmgTStQnuofI1qIKTZIQ2hFDfOLJWuNBT8j-q5cjKewy-70bdUNENc0pZ4gmYzo6KogdLf24l07TnbQf1XlvLQ_lBjONfQJpyhFeiyBoFAack8COp9Ni40WyMvnESO0g-1IztMWp3SxQ8wWclUA1wCc-VZIMDXYS84Oc77pMFRQwrtdTDdNvSuG81yC_VLE2lxuO71RSP3zKloeMCBz4deK2CUk1x9S6WY1Eu1fdpFg18_jQ",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "network": "mainnet"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "content-encoding": "br",
+        "x-signature": "dba0fc1c103c0dcdfb26ce62135c6700b59c765df8b7b97c527901783c4dbf2331bbaf03d5861fcf4ecb74bd6ab7431dbfb7dd1c7b848dcb0fd7f548df850034",
+        "strict-transport-security": "max-age=63072000",
+        "server": "Vercel",
+        "x-vercel-id": "cdg1::sfo1::hsppp-1764074722493-bfba8e54ce82",
+        "x-matched-path": "/api/v2/scripts",
+        "etag": "W/\"156f12w1zt61ccmn\"",
+        "x-vercel-cache": "BYPASS",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-store",
+        "x-signature-version": "1"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722518,
+      "id": "17139.127",
+      "url": "https://api.mixpanel.com/track?ip=1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "text/plain",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"event\":\"$identify\",\"properties\":{\"token\":\"9365d435d7badb0e5f8a51d2f9aab6f9\",\"distinct_id\":\"5eb43191-2d7a-44e0-87ba-dbf143fc8a3e\",\"$app_version_string\":\"3.0.5\",\"$browser\":\"Chrome\",\"$browser_version\":\"116\",\"time\":1764074722.49,\"$os\":\"mac\",\"app_version\":\"3.0.5\",\"platform\":\"extension\",\"environment\":\"production\",\"wallet_type\":\"flow\",\"$anon_distinct_id\":\"19abaafefe51693-01d6260f5bdcbc-19525634-cfdfd-19abaafefe61169\",\"$name\":\"5eb43191-2d7a-44e0-87ba-dbf143fc8a3e\"}}]",
+      "status": 200,
+      "responseHeaders": {
+        "strict-transport-security": "max-age=604800; includeSubDomains",
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "via": "1.1 google",
+        "server": "envoy",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-expose-headers": "X-MP-CE-Backoff",
+        "cache-control": "no-cache, no-store",
+        "access-control-allow-credentials": "true",
+        "x-envoy-upstream-service-time": "48",
+        "access-control-allow-headers": "X-Requested-With, Content-Type",
+        "content-length": "1",
+        "alt-svc": "clear"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722521,
+      "id": "17139.128",
+      "url": "https://api.mixpanel.com/track?ip=1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "text/plain",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"event\":\"$mp_web_page_view\",\"properties\":{\"token\":\"9365d435d7badb0e5f8a51d2f9aab6f9\",\"distinct_id\":\"5eb43191-2d7a-44e0-87ba-dbf143fc8a3e\",\"$app_version_string\":\"3.0.5\",\"$browser\":\"Chrome\",\"$browser_version\":\"116\",\"time\":1764074722.518,\"$os\":\"mac\",\"app_version\":\"3.0.5\",\"platform\":\"extension\",\"environment\":\"production\",\"wallet_type\":\"flow\",\"current_page_title\":\"Flow Wallet\",\"current_domain\":\"flow-extension\",\"current_url_path\":\"/\",\"current_url_protocol\":\"chrome-extension:\"}}]",
+      "status": 200,
+      "responseHeaders": {
+        "strict-transport-security": "max-age=604800; includeSubDomains",
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "via": "1.1 google",
+        "server": "envoy",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-expose-headers": "X-MP-CE-Backoff",
+        "cache-control": "no-cache, no-store",
+        "access-control-allow-credentials": "true",
+        "x-envoy-upstream-service-time": "48",
+        "access-control-allow-headers": "X-Requested-With, Content-Type",
+        "content-length": "1",
+        "alt-svc": "clear"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722528,
+      "id": "17139.129",
+      "url": "https://api.mixpanel.com/track?ip=1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "text/plain",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"event\":\"$mp_web_page_view\",\"properties\":{\"token\":\"9365d435d7badb0e5f8a51d2f9aab6f9\",\"distinct_id\":\"5eb43191-2d7a-44e0-87ba-dbf143fc8a3e\",\"$app_version_string\":\"3.0.5\",\"$browser\":\"Chrome\",\"$browser_version\":\"116\",\"time\":1764074722.526,\"$os\":\"mac\",\"app_version\":\"3.0.5\",\"platform\":\"extension\",\"environment\":\"production\",\"wallet_type\":\"flow\",\"current_page_title\":\"Flow Wallet\",\"current_domain\":\"flow-extension\",\"current_url_path\":\"/\",\"current_url_protocol\":\"chrome-extension:\"}}]",
+      "status": 200,
+      "responseHeaders": {
+        "strict-transport-security": "max-age=604800; includeSubDomains",
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "via": "1.1 google",
+        "server": "envoy",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-expose-headers": "X-MP-CE-Backoff",
+        "cache-control": "no-cache, no-store",
+        "access-control-allow-credentials": "true",
+        "x-envoy-upstream-service-time": "16",
+        "access-control-allow-headers": "X-Requested-With, Content-Type",
+        "content-length": "1",
+        "alt-svc": "clear"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722544,
+      "id": "17139.130",
+      "url": "https://web.api.wallet.flow.com/config/news.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbGlsaWNvLTMzNDQwNCIsImF1ZCI6ImxpbGljby0zMzQ0MDQiLCJhdXRoX3RpbWUiOjE3NjQwNzQ3MjIsInVzZXJfaWQiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJzdWIiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJpYXQiOjE3NjQwNzQ3MjIsImV4cCI6MTc2NDA3ODMyMiwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.N-jEOFUKLfjgUpjOea2EoPjSkDGRZO01DM9GSUo9h9R3QPquLxGq2eJpQy0rk9EaAOQLQoI8nNVYQUr9NGxtdI8wzUAp_WiiQ-NOMQOmgTStQnuofI1qIKTZIQ2hFDfOLJWuNBT8j-q5cjKewy-70bdUNENc0pZ4gmYzo6KogdLf24l07TnbQf1XlvLQ_lBjONfQJpyhFeiyBoFAack8COp9Ni40WyMvnESO0g-1IztMWp3SxQ8wWclUA1wCc-VZIMDXYS84Oc77pMFRQwrtdTDdNvSuG81yC_VLE2lxuO71RSP3zKloeMCBz4deK2CUk1x9S6WY1Eu1fdpFg18_jQ",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "network": "mainnet"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "last-modified": "Tue, 25 Nov 2025 11:05:33 GMT",
+        "x-vercel-id": "cdg1::6n2q2-1764074722546-65faf9ce47d6",
+        "server": "Vercel",
+        "age": "0",
+        "x-matched-path": "/config/news.json",
+        "etag": "\"d751713988987e9331980363e24189ce\"",
+        "x-vercel-cache": "HIT",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-disposition": "inline; filename=\"news.json\"",
+        "accept-ranges": "bytes",
+        "content-length": "2"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722562,
+      "id": "17139.131",
+      "url": "https://api.mixpanel.com/track?ip=1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "accept": "text/plain",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"event\":\"$mp_web_page_view\",\"properties\":{\"token\":\"9365d435d7badb0e5f8a51d2f9aab6f9\",\"distinct_id\":\"5eb43191-2d7a-44e0-87ba-dbf143fc8a3e\",\"$app_version_string\":\"3.0.5\",\"$browser\":\"Chrome\",\"$browser_version\":\"116\",\"time\":1764074722.553,\"$os\":\"mac\",\"app_version\":\"3.0.5\",\"platform\":\"extension\",\"environment\":\"production\",\"wallet_type\":\"flow\",\"current_page_title\":\"Flow Wallet\",\"current_domain\":\"flow-extension\",\"current_url_path\":\"/dashboard\",\"current_url_protocol\":\"chrome-extension:\"}}]",
+      "status": 200,
+      "responseHeaders": {
+        "strict-transport-security": "max-age=604800; includeSubDomains",
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "via": "1.1 google",
+        "server": "envoy",
+        "access-control-max-age": "1728000",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-expose-headers": "X-MP-CE-Backoff",
+        "cache-control": "no-cache, no-store",
+        "access-control-allow-credentials": "true",
+        "x-envoy-upstream-service-time": "11",
+        "access-control-allow-headers": "X-Requested-With, Content-Type",
+        "content-length": "1",
+        "alt-svc": "clear"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722601,
+      "id": "17139.136",
+      "url": "https://production.key-indexer.flow.com/key/6194fad4850a6b86c910c2b27b6504505a8d7cc257170b8a133ed6c33df1afe4dc25bc8a37332682fe7aa0073378a0502ac8f1b301e9689ae58674d3c9f6111f",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "access-control-allow-methods": "GET",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "2e8451bf2ddee070e8ec581369409fb5",
+        "access-control-allow-headers": "Accept, Content-Type, Content-Length, Accept-Encoding, Authorization,X-CSRF-Token",
+        "content-length": "306",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722612,
+      "id": "17139.137",
+      "url": "https://production.key-indexer.flow.com/key/6194fad4850a6b86c910c2b27b6504505a8d7cc257170b8a133ed6c33df1afe4dc25bc8a37332682fe7aa0073378a0502ac8f1b301e9689ae58674d3c9f6111f",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "access-control-allow-methods": "GET",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "a07dbf694b9b941ce8ec581369409707",
+        "access-control-allow-headers": "Accept, Content-Type, Content-Length, Accept-Encoding, Authorization,X-CSRF-Token",
+        "content-length": "306",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722612,
+      "id": "17139.138",
+      "url": "https://api.lilico.app/v1/user/info",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbGlsaWNvLTMzNDQwNCIsImF1ZCI6ImxpbGljby0zMzQ0MDQiLCJhdXRoX3RpbWUiOjE3NjQwNzQ3MjIsInVzZXJfaWQiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJzdWIiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJpYXQiOjE3NjQwNzQ3MjIsImV4cCI6MTc2NDA3ODMyMiwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.N-jEOFUKLfjgUpjOea2EoPjSkDGRZO01DM9GSUo9h9R3QPquLxGq2eJpQy0rk9EaAOQLQoI8nNVYQUr9NGxtdI8wzUAp_WiiQ-NOMQOmgTStQnuofI1qIKTZIQ2hFDfOLJWuNBT8j-q5cjKewy-70bdUNENc0pZ4gmYzo6KogdLf24l07TnbQf1XlvLQ_lBjONfQJpyhFeiyBoFAack8COp9Ni40WyMvnESO0g-1IztMWp3SxQ8wWclUA1wCc-VZIMDXYS84Oc77pMFRQwrtdTDdNvSuG81yC_VLE2lxuO71RSP3zKloeMCBz4deK2CUk1x9S6WY1Eu1fdpFg18_jQ",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "network": "mainnet"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "server": "nginx/1.20.1",
+        "connection": "keep-alive",
+        "content-length": "286",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722628,
+      "id": "17139.141",
+      "url": "https://api.lilico.app/v1/user/info",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbGlsaWNvLTMzNDQwNCIsImF1ZCI6ImxpbGljby0zMzQ0MDQiLCJhdXRoX3RpbWUiOjE3NjQwNzQ3MjIsInVzZXJfaWQiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJzdWIiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJpYXQiOjE3NjQwNzQ3MjIsImV4cCI6MTc2NDA3ODMyMiwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.N-jEOFUKLfjgUpjOea2EoPjSkDGRZO01DM9GSUo9h9R3QPquLxGq2eJpQy0rk9EaAOQLQoI8nNVYQUr9NGxtdI8wzUAp_WiiQ-NOMQOmgTStQnuofI1qIKTZIQ2hFDfOLJWuNBT8j-q5cjKewy-70bdUNENc0pZ4gmYzo6KogdLf24l07TnbQf1XlvLQ_lBjONfQJpyhFeiyBoFAack8COp9Ni40WyMvnESO0g-1IztMWp3SxQ8wWclUA1wCc-VZIMDXYS84Oc77pMFRQwrtdTDdNvSuG81yC_VLE2lxuO71RSP3zKloeMCBz4deK2CUk1x9S6WY1Eu1fdpFg18_jQ",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "network": "mainnet"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "server": "nginx/1.20.1",
+        "connection": "keep-alive",
+        "content-length": "286",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722716,
+      "id": "17139.142",
+      "url": "https://web.api.wallet.flow.com/api/metadata/user/metadatas",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbGlsaWNvLTMzNDQwNCIsImF1ZCI6ImxpbGljby0zMzQ0MDQiLCJhdXRoX3RpbWUiOjE3NjQwNzQ3MjIsInVzZXJfaWQiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJzdWIiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJpYXQiOjE3NjQwNzQ3MjIsImV4cCI6MTc2NDA3ODMyMiwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.N-jEOFUKLfjgUpjOea2EoPjSkDGRZO01DM9GSUo9h9R3QPquLxGq2eJpQy0rk9EaAOQLQoI8nNVYQUr9NGxtdI8wzUAp_WiiQ-NOMQOmgTStQnuofI1qIKTZIQ2hFDfOLJWuNBT8j-q5cjKewy-70bdUNENc0pZ4gmYzo6KogdLf24l07TnbQf1XlvLQ_lBjONfQJpyhFeiyBoFAack8COp9Ni40WyMvnESO0g-1IztMWp3SxQ8wWclUA1wCc-VZIMDXYS84Oc77pMFRQwrtdTDdNvSuG81yC_VLE2lxuO71RSP3zKloeMCBz4deK2CUk1x9S6WY1Eu1fdpFg18_jQ",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "network": "mainnet"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:23 GMT",
+        "strict-transport-security": "max-age=63072000",
+        "server": "Vercel",
+        "x-vercel-id": "cdg1::sfo1::z7wqg-1764074722715-219e85efe7d2",
+        "x-matched-path": "/api/metadata/user/metadatas",
+        "etag": "\"bwc9mymkdm2\"",
+        "x-vercel-cache": "BYPASS",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-store",
+        "content-length": "2"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074722759,
+      "id": "17139.143",
+      "url": "https://rest-mainnet.onflow.org/v1/scripts?block_height=final",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"script\":\"aW1wb3J0IEVWTSBmcm9tIDB4ZTQ2N2I5ZGQxMWZhMDBkZgoKLy8gR2V0IHRoZSBhY2NvdW50IGJhbGFuY2UgZm9yIGEgQ09BIGFjY291bnQKYWNjZXNzKGFsbCkgZnVuIGdldEVWTUJhbGFuY2UoXyBhZGRyZXNzOiBTdHJpbmcpOiBVRml4NjQ/IHsKICAgIHJldHVybiBFVk0uYWRkcmVzc0Zyb21TdHJpbmcoYWRkcmVzcykuYmFsYW5jZSgpLmluRkxPVygpCn0KCi8vIEdldCB0aGUgYXZhaWxhYmxlIGFjY291bnQgYmFsYW5jZSBmb3IgYSBGbG93IGFjY291bnQKYWNjZXNzKGFsbCkgZnVuIGdldEZsb3dCYWxhbmNlKF8gYWRkcmVzczogU3RyaW5nKTogVUZpeDY0PyB7CiAgICBpZiBsZXQgYWNjb3VudCA9IEFkZHJlc3MuZnJvbVN0cmluZyhhZGRyZXNzKSB7CiAgICAgICAgLy8gVXNlIGF2YWlsYWJsZSBiYWxhbmNlIGluc3RlYWQgb2YgdG90YWwgYmFsYW5jZQogICAgICAgIHJldHVybiBnZXRBY2NvdW50KGFjY291bnQpLmF2YWlsYWJsZUJhbGFuY2UKICAgIH0KICAgIHJldHVybiBuaWwKfQoKYWNjZXNzKGFsbCkgZnVuIG1haW4oYWRkcmVzc2VzOiBbU3RyaW5nXSk6IHtTdHJpbmc6IFVGaXg2ND99IHsKICAgIGxldCByZXM6IHtTdHJpbmc6IFVGaXg2ND99ID0ge30KCiAgICBmb3IgYWRkciBpbiBhZGRyZXNzZXMgewogICAgICAgIGxldCBoZXggPSBhZGRyWzFdID09ICJ4IiA/IGFkZHIgOiAiMHgiLmNvbmNhdChhZGRyKQogICAgICAgIGlmIGxldCBmbG93QmFsYW5jZSA9IGdldEZsb3dCYWxhbmNlKGhleCkgewogICAgICAgICAgICByZXNbaGV4XSA9IGZsb3dCYWxhbmNlCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgaWYgbGV0IGV2bUJhbGFuY2UgPSBnZXRFVk1CYWxhbmNlKGhleCkgewogICAgICAgICAgICAgICAgcmVzW2hleF0gPSBldm1CYWxhbmNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICByZXR1cm4gcmVzCn0=\",\"arguments\":[\"eyJ0eXBlIjoiQXJyYXkiLCJ2YWx1ZSI6W3sidHlwZSI6IlN0cmluZyIsInZhbHVlIjoiMHgzYTNjMGUyODU5MGIyMzcwIn1dfQ==\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "x-node-id": "flow_flow-mainnet_fra",
+        "date": "Tue, 25 Nov 2025 12:45:22 GMT",
+        "vary": "Accept-Encoding",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json, application/json; charset=UTF-8",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-allow-credentials": "true",
+        "x-host-id": "bdf324c45b672703-d8a86383d6639fe9",
+        "access-control-allow-headers": "Content-Type,Authorization,User-Agent,x-grpc-web",
+        "content-length": "218"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074724229,
+      "id": "17139.144",
+      "url": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/wallet-core.wasm",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self' 'wasm-unsafe-eval'; frame-ancestors 'none';",
+        "cache-control": "no-cache",
+        "last-modified": "Mon, 03 Nov 2025 09:36:34 GMT",
+        "etag": "\"TyHK8vgyfieZPFRZQF1ukOI5+Jo=\"",
+        "content-type": "application/wasm"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074724390,
+      "id": "17139.145",
+      "url": "https://api.lilico.app/v1/user/info",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbGlsaWNvLTMzNDQwNCIsImF1ZCI6ImxpbGljby0zMzQ0MDQiLCJhdXRoX3RpbWUiOjE3NjQwNzQ3MjIsInVzZXJfaWQiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJzdWIiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJpYXQiOjE3NjQwNzQ3MjIsImV4cCI6MTc2NDA3ODMyMiwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.N-jEOFUKLfjgUpjOea2EoPjSkDGRZO01DM9GSUo9h9R3QPquLxGq2eJpQy0rk9EaAOQLQoI8nNVYQUr9NGxtdI8wzUAp_WiiQ-NOMQOmgTStQnuofI1qIKTZIQ2hFDfOLJWuNBT8j-q5cjKewy-70bdUNENc0pZ4gmYzo6KogdLf24l07TnbQf1XlvLQ_lBjONfQJpyhFeiyBoFAack8COp9Ni40WyMvnESO0g-1IztMWp3SxQ8wWclUA1wCc-VZIMDXYS84Oc77pMFRQwrtdTDdNvSuG81yC_VLE2lxuO71RSP3zKloeMCBz4deK2CUk1x9S6WY1Eu1fdpFg18_jQ",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "network": "mainnet"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:24 GMT",
+        "server": "nginx/1.20.1",
+        "connection": "keep-alive",
+        "content-length": "286",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074724397,
+      "id": "17139.146",
+      "url": "https://rest-mainnet.onflow.org/v1/scripts?block_height=final",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"script\":\"Ly8gRmxvdyBXYWxsZXQgLSBtYWlubmV0IFNjcmlwdCAgZ2V0QWNjb3VudEluZm8gLSB2Mi43NgovLyBFeHRlbnNpb24tMy4wLjUKCmFjY2VzcyhhbGwpIHN0cnVjdCBSZXN1bHQgewogIGFjY2VzcyhhbGwpIGxldCBhZGRyZXNzOiBBZGRyZXNzCiAgYWNjZXNzKGFsbCkgbGV0IGJhbGFuY2U6IFVGaXg2NAogIGFjY2VzcyhhbGwpIGxldCBhdmFpbGFibGVCYWxhbmNlOiBVRml4NjQKICBhY2Nlc3MoYWxsKSBsZXQgc3RvcmFnZVVzZWQ6IFVJbnQ2NAogIGFjY2VzcyhhbGwpIGxldCBzdG9yYWdlQ2FwYWNpdHk6IFVJbnQ2NAogIGFjY2VzcyhhbGwpIGxldCBzdG9yYWdlRmxvdzogVUZpeDY0CgogIGluaXQoCiAgICBhZGRyZXNzOiBBZGRyZXNzLAogICAgYmFsYW5jZTogVUZpeDY0LAogICAgYXZhaWxhYmxlQmFsYW5jZTogVUZpeDY0LAogICAgc3RvcmFnZVVzZWQ6IFVJbnQ2NCwKICAgIHN0b3JhZ2VDYXBhY2l0eTogVUludDY0LAogICAgc3RvcmFnZUZsb3c6IFVGaXg2NCwKICApIHsKICAgIHNlbGYuYWRkcmVzcyA9IGFkZHJlc3MKICAgIHNlbGYuYmFsYW5jZSA9IGJhbGFuY2UKICAgIHNlbGYuYXZhaWxhYmxlQmFsYW5jZSA9IGF2YWlsYWJsZUJhbGFuY2UKICAgIHNlbGYuc3RvcmFnZVVzZWQgPSBzdG9yYWdlVXNlZAogICAgc2VsZi5zdG9yYWdlQ2FwYWNpdHkgPSBzdG9yYWdlQ2FwYWNpdHkKICAgIHNlbGYuc3RvcmFnZUZsb3cgPSBzdG9yYWdlRmxvdwogIH0KfQoKYWNjZXNzKGFsbCkgZnVuIG1haW4oYWRkcmVzczogQWRkcmVzcyk6IFJlc3VsdCB7CiAgbGV0IGFjY291bnQgPSBnZXRBY2NvdW50KGFkZHJlc3MpCiAgcmV0dXJuIFJlc3VsdCgKICAgIGFkZHJlc3M6IGFjY291bnQuYWRkcmVzcywKICAgIGJhbGFuY2U6IGFjY291bnQuYmFsYW5jZSwKICAgIGF2YWlsYWJsZUJhbGFuY2U6IGFjY291bnQuYXZhaWxhYmxlQmFsYW5jZSwKICAgIHN0b3JhZ2VVc2VkOiBhY2NvdW50LnN0b3JhZ2UudXNlZCwKICAgIHN0b3JhZ2VDYXBhY2l0eTogYWNjb3VudC5zdG9yYWdlLmNhcGFjaXR5LAogICAgc3RvcmFnZUZsb3c6IGFjY291bnQuYmFsYW5jZSAtIGFjY291bnQuYXZhaWxhYmxlQmFsYW5jZQogICkKfQ==\",\"arguments\":[\"eyJ0eXBlIjoiQWRkcmVzcyIsInZhbHVlIjoiMHgzYTNjMGUyODU5MGIyMzcwIn0=\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "x-node-id": "flow_flow-mainnet_fra",
+        "date": "Tue, 25 Nov 2025 12:45:25 GMT",
+        "vary": "Accept-Encoding",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json, application/json; charset=UTF-8",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-allow-credentials": "true",
+        "x-host-id": "bdf324c45b672703-a980856ef5149f61",
+        "access-control-allow-headers": "Content-Type,Authorization,User-Agent,x-grpc-web",
+        "content-length": "722"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074724397,
+      "id": "17139.147",
+      "url": "https://rest-mainnet.onflow.org/v1/scripts?block_height=final",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"script\":\"Ly8gRmxvdyBXYWxsZXQgLSBtYWlubmV0IFNjcmlwdCAgZ2V0QWNjb3VudHNEZXRhaWwgLSB2Mi43NgovLyBFeHRlbnNpb24tMy4wLjUKCmltcG9ydCBOb25GdW5naWJsZVRva2VuIGZyb20gMHgxZDdlNTdhYTU1ODE3NDQ4CgppbXBvcnQgSHlicmlkQ3VzdG9keSBmcm9tIDB4ZDhhN2UwNWE3YWM2NzBjMAoKaW1wb3J0IE1ldGFkYXRhVmlld3MgZnJvbSAweDFkN2U1N2FhNTU4MTc0NDgKCmltcG9ydCBFVk0gZnJvbSAweGU0NjdiOWRkMTFmYTAwZGYKCgoKYWNjZXNzKGFsbCkgZnVuIGdldENoaWxkQWNjb3VudHMoXyBwYXJlbnQgOkFkZHJlc3MpOiB7QWRkcmVzczogQW55U3RydWN0fSB7CiAgICBsZXQgYWNjdCA9IGdldEF1dGhBY2NvdW50PGF1dGgoU3RvcmFnZSkgJkFjY291bnQ+KHBhcmVudCkKICAgIGxldCBtID0gYWNjdC5zdG9yYWdlLmJvcnJvdzwmSHlicmlkQ3VzdG9keS5NYW5hZ2VyPihmcm9tOiBIeWJyaWRDdXN0b2R5Lk1hbmFnZXJTdG9yYWdlUGF0aCkKCiAgICBpZiBtID09IG5pbCB7CiAgICAgICAgcmV0dXJuIHt9CiAgICB9IGVsc2UgewogICAgICAgIHZhciBkYXRhOiB7QWRkcmVzczogQW55U3RydWN0fSA9IHt9CiAgICAgICAgZm9yIGFkZHJlc3MgaW4gbT8uZ2V0Q2hpbGRBZGRyZXNzZXMoKSEgewogICAgICAgICAgICBsZXQgYyA9IG0/LmdldENoaWxkQWNjb3VudERpc3BsYXkoYWRkcmVzczogYWRkcmVzcykgCiAgICAgICAgICAgIGRhdGEuaW5zZXJ0KGtleTogYWRkcmVzcywgYykKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGRhdGEKICAgIH0KfQoKYWNjZXNzKGFsbCkgZnVuIGdldENvQUFkZHIoXyBhZGRyZXNzOiBBZGRyZXNzKTogU3RyaW5nIHsKICAgIGxldCBhY2NvdW50ID0gZ2V0QXV0aEFjY291bnQ8YXV0aChTdG9yYWdlKSAmQWNjb3VudD4oYWRkcmVzcykKCiAgICBsZXQgY29hID0gYWNjb3VudC5zdG9yYWdlLmJvcnJvdzwmRVZNLkNhZGVuY2VPd25lZEFjY291bnQ+KGZyb206IC9zdG9yYWdlL2V2bSkKCiAgICBpZiBjb2EgPT0gbmlsIHsgCiAgICAgICAgcmV0dXJuICIiCiAgICB9IGVsc2UgewogICAgICAgIGxldCBjb2FBZGRyID0gY29hPy5hZGRyZXNzKCkgCgogICAgICAgIGxldCBhZGRyQnl0ZTogW1VJbnQ4XSA9IFtdCgogICAgICAgIGZvciBieXRlIGluIGNvYUFkZHI/LmJ5dGVzISB7CiAgICAgICAgICAgIGFkZHJCeXRlLmFwcGVuZChieXRlKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIFN0cmluZy5lbmNvZGVIZXgoYWRkckJ5dGUpCiAgICB9Cn0KCgphY2Nlc3MoYWxsKSBmdW4gZ2V0QWNjb3VudEluZm8oYWRkcmVzczogQWRkcmVzcyk6IEFueVN0cnVjdCB7CiAgICBsZXQgYWNjID0gZ2V0QXV0aEFjY291bnQ8YXV0aChTdG9yYWdlKSAmQWNjb3VudD4oYWRkcmVzcykKICAgIGxldCBhY2NvdW50ID0gZ2V0QWNjb3VudChhZGRyZXNzKQogICAgbGV0IGZvdW5kVHlwZXM6IFtUeXBlXSA9IFtdCiAgICB2YXIgbmZ0Q291bnRzID0gMAoKICAgICBhY2Muc3RvcmFnZS5mb3JFYWNoU3RvcmVkKGZ1biAocGF0aDogU3RvcmFnZVBhdGgsIHR5cGU6IFR5cGUpOiBCb29sIHsKICAgICAgaWYgdHlwZS5pc1N1YnR5cGUob2Y6IFR5cGU8QHtOb25GdW5naWJsZVRva2VuLkNvbGxlY3Rpb259PigpKSAmJiAhdHlwZS5pc1JlY292ZXJlZCB7CiAgICAgICAgICB2YXIgY29sbGVjdGlvbiA9IGFjYy5zdG9yYWdlLmJvcnJvdzwme05vbkZ1bmdpYmxlVG9rZW4uQ29sbGVjdGlvbn0+KGZyb206cGF0aCkhCiAgICAgICAgICBsZXQgaWRzID0gY29sbGVjdGlvbi5nZXRJRHMoKQogICAgICAgICAgICBuZnRDb3VudHMgPSBuZnRDb3VudHMgKyBpZHMubGVuZ3RoCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnVlCiAgICB9KQoKICAgIHJldHVybiB7CiAgICAgICAgImZsb3dCYWxhbmNlIjogYWNjb3VudC5iYWxhbmNlLAogICAgICAgICJuZnRDb3VudHMiOiBuZnRDb3VudHMsCiAgICAgICAgImNoaWxkcmVucyI6IGdldENoaWxkQWNjb3VudHMoYWRkcmVzcyksCiAgICAgICAgIkNPQXMiOiBbZ2V0Q29BQWRkcihhZGRyZXNzKV0KICAgIH0KfQoKYWNjZXNzKGFsbCkgZnVuIG1haW4oYWRkcnM6IFtBZGRyZXNzXSk6IHtBZGRyZXNzOiBBbnlTdHJ1Y3R9IHsKCiAgICB2YXIgcmVzdWx0OiB7QWRkcmVzczogQW55U3RydWN0fSA9IHt9CiAgICBmb3IgYWRkciBpbiBhZGRycyB7CiAgICAgICAgbGV0IGFjY291bnRJbmZvID0gZ2V0QWNjb3VudEluZm8oYWRkcmVzczogYWRkcikKICAgICAgICByZXN1bHRbYWRkcl0gPSBhY2NvdW50SW5mbwogICAgfQogICAgcmV0dXJuIHJlc3VsdAp9CiAg\",\"arguments\":[\"eyJ0eXBlIjoiQXJyYXkiLCJ2YWx1ZSI6W3sidHlwZSI6IkFkZHJlc3MiLCJ2YWx1ZSI6IjB4M2EzYzBlMjg1OTBiMjM3MCJ9XX0=\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "x-node-id": "flow_flow-mainnet_fra",
+        "date": "Tue, 25 Nov 2025 12:45:25 GMT",
+        "vary": "Accept-Encoding",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json, application/json; charset=UTF-8",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-allow-credentials": "true",
+        "x-host-id": "bdf324c45b672703-d8a86383d6639fe9",
+        "access-control-allow-headers": "Content-Type,Authorization,User-Agent,x-grpc-web",
+        "content-length": "718"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074724397,
+      "id": "17139.148",
+      "url": "https://rest-mainnet.onflow.org/v1/scripts?block_height=final",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"script\":\"Ly8gRmxvdyBXYWxsZXQgLSBtYWlubmV0IFNjcmlwdCAgZ2V0QWNjb3VudHNEZXRhaWwgLSB2Mi43NgovLyBFeHRlbnNpb24tMy4wLjUKCmltcG9ydCBOb25GdW5naWJsZVRva2VuIGZyb20gMHgxZDdlNTdhYTU1ODE3NDQ4CgppbXBvcnQgSHlicmlkQ3VzdG9keSBmcm9tIDB4ZDhhN2UwNWE3YWM2NzBjMAoKaW1wb3J0IE1ldGFkYXRhVmlld3MgZnJvbSAweDFkN2U1N2FhNTU4MTc0NDgKCmltcG9ydCBFVk0gZnJvbSAweGU0NjdiOWRkMTFmYTAwZGYKCgoKYWNjZXNzKGFsbCkgZnVuIGdldENoaWxkQWNjb3VudHMoXyBwYXJlbnQgOkFkZHJlc3MpOiB7QWRkcmVzczogQW55U3RydWN0fSB7CiAgICBsZXQgYWNjdCA9IGdldEF1dGhBY2NvdW50PGF1dGgoU3RvcmFnZSkgJkFjY291bnQ+KHBhcmVudCkKICAgIGxldCBtID0gYWNjdC5zdG9yYWdlLmJvcnJvdzwmSHlicmlkQ3VzdG9keS5NYW5hZ2VyPihmcm9tOiBIeWJyaWRDdXN0b2R5Lk1hbmFnZXJTdG9yYWdlUGF0aCkKCiAgICBpZiBtID09IG5pbCB7CiAgICAgICAgcmV0dXJuIHt9CiAgICB9IGVsc2UgewogICAgICAgIHZhciBkYXRhOiB7QWRkcmVzczogQW55U3RydWN0fSA9IHt9CiAgICAgICAgZm9yIGFkZHJlc3MgaW4gbT8uZ2V0Q2hpbGRBZGRyZXNzZXMoKSEgewogICAgICAgICAgICBsZXQgYyA9IG0/LmdldENoaWxkQWNjb3VudERpc3BsYXkoYWRkcmVzczogYWRkcmVzcykgCiAgICAgICAgICAgIGRhdGEuaW5zZXJ0KGtleTogYWRkcmVzcywgYykKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGRhdGEKICAgIH0KfQoKYWNjZXNzKGFsbCkgZnVuIGdldENvQUFkZHIoXyBhZGRyZXNzOiBBZGRyZXNzKTogU3RyaW5nIHsKICAgIGxldCBhY2NvdW50ID0gZ2V0QXV0aEFjY291bnQ8YXV0aChTdG9yYWdlKSAmQWNjb3VudD4oYWRkcmVzcykKCiAgICBsZXQgY29hID0gYWNjb3VudC5zdG9yYWdlLmJvcnJvdzwmRVZNLkNhZGVuY2VPd25lZEFjY291bnQ+KGZyb206IC9zdG9yYWdlL2V2bSkKCiAgICBpZiBjb2EgPT0gbmlsIHsgCiAgICAgICAgcmV0dXJuICIiCiAgICB9IGVsc2UgewogICAgICAgIGxldCBjb2FBZGRyID0gY29hPy5hZGRyZXNzKCkgCgogICAgICAgIGxldCBhZGRyQnl0ZTogW1VJbnQ4XSA9IFtdCgogICAgICAgIGZvciBieXRlIGluIGNvYUFkZHI/LmJ5dGVzISB7CiAgICAgICAgICAgIGFkZHJCeXRlLmFwcGVuZChieXRlKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIFN0cmluZy5lbmNvZGVIZXgoYWRkckJ5dGUpCiAgICB9Cn0KCgphY2Nlc3MoYWxsKSBmdW4gZ2V0QWNjb3VudEluZm8oYWRkcmVzczogQWRkcmVzcyk6IEFueVN0cnVjdCB7CiAgICBsZXQgYWNjID0gZ2V0QXV0aEFjY291bnQ8YXV0aChTdG9yYWdlKSAmQWNjb3VudD4oYWRkcmVzcykKICAgIGxldCBhY2NvdW50ID0gZ2V0QWNjb3VudChhZGRyZXNzKQogICAgbGV0IGZvdW5kVHlwZXM6IFtUeXBlXSA9IFtdCiAgICB2YXIgbmZ0Q291bnRzID0gMAoKICAgICBhY2Muc3RvcmFnZS5mb3JFYWNoU3RvcmVkKGZ1biAocGF0aDogU3RvcmFnZVBhdGgsIHR5cGU6IFR5cGUpOiBCb29sIHsKICAgICAgaWYgdHlwZS5pc1N1YnR5cGUob2Y6IFR5cGU8QHtOb25GdW5naWJsZVRva2VuLkNvbGxlY3Rpb259PigpKSAmJiAhdHlwZS5pc1JlY292ZXJlZCB7CiAgICAgICAgICB2YXIgY29sbGVjdGlvbiA9IGFjYy5zdG9yYWdlLmJvcnJvdzwme05vbkZ1bmdpYmxlVG9rZW4uQ29sbGVjdGlvbn0+KGZyb206cGF0aCkhCiAgICAgICAgICBsZXQgaWRzID0gY29sbGVjdGlvbi5nZXRJRHMoKQogICAgICAgICAgICBuZnRDb3VudHMgPSBuZnRDb3VudHMgKyBpZHMubGVuZ3RoCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnVlCiAgICB9KQoKICAgIHJldHVybiB7CiAgICAgICAgImZsb3dCYWxhbmNlIjogYWNjb3VudC5iYWxhbmNlLAogICAgICAgICJuZnRDb3VudHMiOiBuZnRDb3VudHMsCiAgICAgICAgImNoaWxkcmVucyI6IGdldENoaWxkQWNjb3VudHMoYWRkcmVzcyksCiAgICAgICAgIkNPQXMiOiBbZ2V0Q29BQWRkcihhZGRyZXNzKV0KICAgIH0KfQoKYWNjZXNzKGFsbCkgZnVuIG1haW4oYWRkcnM6IFtBZGRyZXNzXSk6IHtBZGRyZXNzOiBBbnlTdHJ1Y3R9IHsKCiAgICB2YXIgcmVzdWx0OiB7QWRkcmVzczogQW55U3RydWN0fSA9IHt9CiAgICBmb3IgYWRkciBpbiBhZGRycyB7CiAgICAgICAgbGV0IGFjY291bnRJbmZvID0gZ2V0QWNjb3VudEluZm8oYWRkcmVzczogYWRkcikKICAgICAgICByZXN1bHRbYWRkcl0gPSBhY2NvdW50SW5mbwogICAgfQogICAgcmV0dXJuIHJlc3VsdAp9CiAg\",\"arguments\":[\"eyJ0eXBlIjoiQXJyYXkiLCJ2YWx1ZSI6W3sidHlwZSI6IkFkZHJlc3MiLCJ2YWx1ZSI6IjB4M2EzYzBlMjg1OTBiMjM3MCJ9XX0=\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "x-node-id": "flow_flow-mainnet_fra",
+        "date": "Tue, 25 Nov 2025 12:45:25 GMT",
+        "vary": "Accept-Encoding",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json, application/json; charset=UTF-8",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-allow-credentials": "true",
+        "x-host-id": "bdf324c45b672703-38b6a003befb91a6",
+        "access-control-allow-headers": "Content-Type,Authorization,User-Agent,x-grpc-web",
+        "content-length": "718"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074724397,
+      "id": "17139.149",
+      "url": "https://rest-mainnet.onflow.org/v1/scripts?block_height=final",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"script\":\"Ly8gRmxvdyBXYWxsZXQgLSBtYWlubmV0IFNjcmlwdCAgZ2V0QWNjb3VudHNEZXRhaWwgLSB2Mi43NgovLyBFeHRlbnNpb24tMy4wLjUKCmltcG9ydCBOb25GdW5naWJsZVRva2VuIGZyb20gMHgxZDdlNTdhYTU1ODE3NDQ4CgppbXBvcnQgSHlicmlkQ3VzdG9keSBmcm9tIDB4ZDhhN2UwNWE3YWM2NzBjMAoKaW1wb3J0IE1ldGFkYXRhVmlld3MgZnJvbSAweDFkN2U1N2FhNTU4MTc0NDgKCmltcG9ydCBFVk0gZnJvbSAweGU0NjdiOWRkMTFmYTAwZGYKCgoKYWNjZXNzKGFsbCkgZnVuIGdldENoaWxkQWNjb3VudHMoXyBwYXJlbnQgOkFkZHJlc3MpOiB7QWRkcmVzczogQW55U3RydWN0fSB7CiAgICBsZXQgYWNjdCA9IGdldEF1dGhBY2NvdW50PGF1dGgoU3RvcmFnZSkgJkFjY291bnQ+KHBhcmVudCkKICAgIGxldCBtID0gYWNjdC5zdG9yYWdlLmJvcnJvdzwmSHlicmlkQ3VzdG9keS5NYW5hZ2VyPihmcm9tOiBIeWJyaWRDdXN0b2R5Lk1hbmFnZXJTdG9yYWdlUGF0aCkKCiAgICBpZiBtID09IG5pbCB7CiAgICAgICAgcmV0dXJuIHt9CiAgICB9IGVsc2UgewogICAgICAgIHZhciBkYXRhOiB7QWRkcmVzczogQW55U3RydWN0fSA9IHt9CiAgICAgICAgZm9yIGFkZHJlc3MgaW4gbT8uZ2V0Q2hpbGRBZGRyZXNzZXMoKSEgewogICAgICAgICAgICBsZXQgYyA9IG0/LmdldENoaWxkQWNjb3VudERpc3BsYXkoYWRkcmVzczogYWRkcmVzcykgCiAgICAgICAgICAgIGRhdGEuaW5zZXJ0KGtleTogYWRkcmVzcywgYykKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGRhdGEKICAgIH0KfQoKYWNjZXNzKGFsbCkgZnVuIGdldENvQUFkZHIoXyBhZGRyZXNzOiBBZGRyZXNzKTogU3RyaW5nIHsKICAgIGxldCBhY2NvdW50ID0gZ2V0QXV0aEFjY291bnQ8YXV0aChTdG9yYWdlKSAmQWNjb3VudD4oYWRkcmVzcykKCiAgICBsZXQgY29hID0gYWNjb3VudC5zdG9yYWdlLmJvcnJvdzwmRVZNLkNhZGVuY2VPd25lZEFjY291bnQ+KGZyb206IC9zdG9yYWdlL2V2bSkKCiAgICBpZiBjb2EgPT0gbmlsIHsgCiAgICAgICAgcmV0dXJuICIiCiAgICB9IGVsc2UgewogICAgICAgIGxldCBjb2FBZGRyID0gY29hPy5hZGRyZXNzKCkgCgogICAgICAgIGxldCBhZGRyQnl0ZTogW1VJbnQ4XSA9IFtdCgogICAgICAgIGZvciBieXRlIGluIGNvYUFkZHI/LmJ5dGVzISB7CiAgICAgICAgICAgIGFkZHJCeXRlLmFwcGVuZChieXRlKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIFN0cmluZy5lbmNvZGVIZXgoYWRkckJ5dGUpCiAgICB9Cn0KCgphY2Nlc3MoYWxsKSBmdW4gZ2V0QWNjb3VudEluZm8oYWRkcmVzczogQWRkcmVzcyk6IEFueVN0cnVjdCB7CiAgICBsZXQgYWNjID0gZ2V0QXV0aEFjY291bnQ8YXV0aChTdG9yYWdlKSAmQWNjb3VudD4oYWRkcmVzcykKICAgIGxldCBhY2NvdW50ID0gZ2V0QWNjb3VudChhZGRyZXNzKQogICAgbGV0IGZvdW5kVHlwZXM6IFtUeXBlXSA9IFtdCiAgICB2YXIgbmZ0Q291bnRzID0gMAoKICAgICBhY2Muc3RvcmFnZS5mb3JFYWNoU3RvcmVkKGZ1biAocGF0aDogU3RvcmFnZVBhdGgsIHR5cGU6IFR5cGUpOiBCb29sIHsKICAgICAgaWYgdHlwZS5pc1N1YnR5cGUob2Y6IFR5cGU8QHtOb25GdW5naWJsZVRva2VuLkNvbGxlY3Rpb259PigpKSAmJiAhdHlwZS5pc1JlY292ZXJlZCB7CiAgICAgICAgICB2YXIgY29sbGVjdGlvbiA9IGFjYy5zdG9yYWdlLmJvcnJvdzwme05vbkZ1bmdpYmxlVG9rZW4uQ29sbGVjdGlvbn0+KGZyb206cGF0aCkhCiAgICAgICAgICBsZXQgaWRzID0gY29sbGVjdGlvbi5nZXRJRHMoKQogICAgICAgICAgICBuZnRDb3VudHMgPSBuZnRDb3VudHMgKyBpZHMubGVuZ3RoCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnVlCiAgICB9KQoKICAgIHJldHVybiB7CiAgICAgICAgImZsb3dCYWxhbmNlIjogYWNjb3VudC5iYWxhbmNlLAogICAgICAgICJuZnRDb3VudHMiOiBuZnRDb3VudHMsCiAgICAgICAgImNoaWxkcmVucyI6IGdldENoaWxkQWNjb3VudHMoYWRkcmVzcyksCiAgICAgICAgIkNPQXMiOiBbZ2V0Q29BQWRkcihhZGRyZXNzKV0KICAgIH0KfQoKYWNjZXNzKGFsbCkgZnVuIG1haW4oYWRkcnM6IFtBZGRyZXNzXSk6IHtBZGRyZXNzOiBBbnlTdHJ1Y3R9IHsKCiAgICB2YXIgcmVzdWx0OiB7QWRkcmVzczogQW55U3RydWN0fSA9IHt9CiAgICBmb3IgYWRkciBpbiBhZGRycyB7CiAgICAgICAgbGV0IGFjY291bnRJbmZvID0gZ2V0QWNjb3VudEluZm8oYWRkcmVzczogYWRkcikKICAgICAgICByZXN1bHRbYWRkcl0gPSBhY2NvdW50SW5mbwogICAgfQogICAgcmV0dXJuIHJlc3VsdAp9CiAg\",\"arguments\":[\"eyJ0eXBlIjoiQXJyYXkiLCJ2YWx1ZSI6W3sidHlwZSI6IkFkZHJlc3MiLCJ2YWx1ZSI6IjB4M2EzYzBlMjg1OTBiMjM3MCJ9XX0=\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "x-node-id": "flow_flow-mainnet_fra",
+        "date": "Tue, 25 Nov 2025 12:45:25 GMT",
+        "vary": "Accept-Encoding",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json, application/json; charset=UTF-8",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-allow-credentials": "true",
+        "x-host-id": "bdf324c45b672703-d8a86383d6639fe9",
+        "access-control-allow-headers": "Content-Type,Authorization,User-Agent,x-grpc-web",
+        "content-length": "718"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074724546,
+      "id": "17139.150",
+      "url": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/wallet-core.wasm",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self' 'wasm-unsafe-eval'; frame-ancestors 'none';",
+        "cache-control": "no-cache",
+        "last-modified": "Mon, 03 Nov 2025 09:36:34 GMT",
+        "etag": "\"TyHK8vgyfieZPFRZQF1ukOI5+Jo=\"",
+        "content-type": "application/wasm"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074724586,
+      "id": "17139.151",
+      "url": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/wallet-core.wasm",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self' 'wasm-unsafe-eval'; frame-ancestors 'none';",
+        "cache-control": "no-cache",
+        "last-modified": "Mon, 03 Nov 2025 09:36:34 GMT",
+        "etag": "\"TyHK8vgyfieZPFRZQF1ukOI5+Jo=\"",
+        "content-type": "application/wasm"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074724609,
+      "id": "17139.152",
+      "url": "https://rest-mainnet.onflow.org/v1/accounts/3a3c0e28590b2370?block_height=final&expand=contracts,keys",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-node-id": "flow_flow-mainnet_fra",
+        "date": "Tue, 25 Nov 2025 12:45:25 GMT",
+        "vary": "Accept-Encoding",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json, application/json; charset=UTF-8",
+        "access-control-allow-origin": "",
+        "access-control-allow-credentials": "true",
+        "x-host-id": "bdf324c45b672703-38b6a003befb91a6",
+        "access-control-allow-headers": "Content-Type,Authorization,User-Agent,x-grpc-web",
+        "content-length": "474"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074786540,
+      "id": "17139.153",
+      "url": "https://rest-mainnet.onflow.org/v1/scripts?block_height=final",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "text/plain;charset=UTF-8"
+      },
+      "postData": "{\"script\":\"aW1wb3J0IEVWTSBmcm9tIDB4ZTQ2N2I5ZGQxMWZhMDBkZgoKLy8gR2V0IHRoZSBhY2NvdW50IGJhbGFuY2UgZm9yIGEgQ09BIGFjY291bnQKYWNjZXNzKGFsbCkgZnVuIGdldEVWTUJhbGFuY2UoXyBhZGRyZXNzOiBTdHJpbmcpOiBVRml4NjQ/IHsKICAgIHJldHVybiBFVk0uYWRkcmVzc0Zyb21TdHJpbmcoYWRkcmVzcykuYmFsYW5jZSgpLmluRkxPVygpCn0KCi8vIEdldCB0aGUgYXZhaWxhYmxlIGFjY291bnQgYmFsYW5jZSBmb3IgYSBGbG93IGFjY291bnQKYWNjZXNzKGFsbCkgZnVuIGdldEZsb3dCYWxhbmNlKF8gYWRkcmVzczogU3RyaW5nKTogVUZpeDY0PyB7CiAgICBpZiBsZXQgYWNjb3VudCA9IEFkZHJlc3MuZnJvbVN0cmluZyhhZGRyZXNzKSB7CiAgICAgICAgLy8gVXNlIGF2YWlsYWJsZSBiYWxhbmNlIGluc3RlYWQgb2YgdG90YWwgYmFsYW5jZQogICAgICAgIHJldHVybiBnZXRBY2NvdW50KGFjY291bnQpLmF2YWlsYWJsZUJhbGFuY2UKICAgIH0KICAgIHJldHVybiBuaWwKfQoKYWNjZXNzKGFsbCkgZnVuIG1haW4oYWRkcmVzc2VzOiBbU3RyaW5nXSk6IHtTdHJpbmc6IFVGaXg2ND99IHsKICAgIGxldCByZXM6IHtTdHJpbmc6IFVGaXg2ND99ID0ge30KCiAgICBmb3IgYWRkciBpbiBhZGRyZXNzZXMgewogICAgICAgIGxldCBoZXggPSBhZGRyWzFdID09ICJ4IiA/IGFkZHIgOiAiMHgiLmNvbmNhdChhZGRyKQogICAgICAgIGlmIGxldCBmbG93QmFsYW5jZSA9IGdldEZsb3dCYWxhbmNlKGhleCkgewogICAgICAgICAgICByZXNbaGV4XSA9IGZsb3dCYWxhbmNlCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgaWYgbGV0IGV2bUJhbGFuY2UgPSBnZXRFVk1CYWxhbmNlKGhleCkgewogICAgICAgICAgICAgICAgcmVzW2hleF0gPSBldm1CYWxhbmNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICByZXR1cm4gcmVzCn0=\",\"arguments\":[\"eyJ0eXBlIjoiQXJyYXkiLCJ2YWx1ZSI6W3sidHlwZSI6IlN0cmluZyIsInZhbHVlIjoiMHgzYTNjMGUyODU5MGIyMzcwIn1dfQ==\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "x-node-id": "flow_flow-mainnet_fra",
+        "date": "Tue, 25 Nov 2025 12:45:25 GMT",
+        "vary": "Accept-Encoding",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json, application/json; charset=UTF-8",
+        "access-control-allow-origin": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm",
+        "access-control-allow-credentials": "true",
+        "x-host-id": "bdf324c45b672703-a980856ef5149f61",
+        "access-control-allow-headers": "Content-Type,Authorization,User-Agent,x-grpc-web",
+        "content-length": "218"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074786540,
+      "id": "17139.154",
+      "url": "https://web.api.wallet.flow.com/api/v1/account/transfers?address=0x3a3c0e28590b2370&after=0&limit=15",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbGlsaWNvLTMzNDQwNCIsImF1ZCI6ImxpbGljby0zMzQ0MDQiLCJhdXRoX3RpbWUiOjE3NjQwNzQ3MjIsInVzZXJfaWQiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJzdWIiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJpYXQiOjE3NjQwNzQ3MjIsImV4cCI6MTc2NDA3ODMyMiwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.N-jEOFUKLfjgUpjOea2EoPjSkDGRZO01DM9GSUo9h9R3QPquLxGq2eJpQy0rk9EaAOQLQoI8nNVYQUr9NGxtdI8wzUAp_WiiQ-NOMQOmgTStQnuofI1qIKTZIQ2hFDfOLJWuNBT8j-q5cjKewy-70bdUNENc0pZ4gmYzo6KogdLf24l07TnbQf1XlvLQ_lBjONfQJpyhFeiyBoFAack8COp9Ni40WyMvnESO0g-1IztMWp3SxQ8wWclUA1wCc-VZIMDXYS84Oc77pMFRQwrtdTDdNvSuG81yC_VLE2lxuO71RSP3zKloeMCBz4deK2CUk1x9S6WY1Eu1fdpFg18_jQ",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "network": "mainnet"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:26 GMT",
+        "strict-transport-security": "max-age=63072000",
+        "server": "Vercel",
+        "x-vercel-id": "cdg1::sfo1::lr57l-1764074725290-7c595b398be8",
+        "x-matched-path": "/api/v1/account/transfers",
+        "etag": "\"rdhme95v492t\"",
+        "x-vercel-cache": "BYPASS",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-store",
+        "content-length": "101"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074786540,
+      "id": "17139.155",
+      "url": "https://web.api.wallet.flow.com/api/v4/cadence/tokens/ft/0x3a3c0e28590b2370?network=mainnet&currency=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbGlsaWNvLTMzNDQwNCIsImF1ZCI6ImxpbGljby0zMzQ0MDQiLCJhdXRoX3RpbWUiOjE3NjQwNzQ3MjIsInVzZXJfaWQiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJzdWIiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJpYXQiOjE3NjQwNzQ3MjIsImV4cCI6MTc2NDA3ODMyMiwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.N-jEOFUKLfjgUpjOea2EoPjSkDGRZO01DM9GSUo9h9R3QPquLxGq2eJpQy0rk9EaAOQLQoI8nNVYQUr9NGxtdI8wzUAp_WiiQ-NOMQOmgTStQnuofI1qIKTZIQ2hFDfOLJWuNBT8j-q5cjKewy-70bdUNENc0pZ4gmYzo6KogdLf24l07TnbQf1XlvLQ_lBjONfQJpyhFeiyBoFAack8COp9Ni40WyMvnESO0g-1IztMWp3SxQ8wWclUA1wCc-VZIMDXYS84Oc77pMFRQwrtdTDdNvSuG81yC_VLE2lxuO71RSP3zKloeMCBz4deK2CUk1x9S6WY1Eu1fdpFg18_jQ",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "network": "mainnet"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:26 GMT",
+        "content-encoding": "br",
+        "strict-transport-security": "max-age=63072000",
+        "server": "Vercel",
+        "x-vercel-id": "cdg1::sfo1::wdsj4-1764074725290-7b5012f4affc",
+        "x-matched-path": "/api/v4/cadence/tokens/ft/[address]",
+        "etag": "W/\"r1qundt3n42v1\"",
+        "x-vercel-cache": "BYPASS",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-store"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hpclkefagolihohboafpheddmmgdffjm/sw.js",
+      "ts": 1764074786541,
+      "id": "17139.156",
+      "url": "https://web.api.wallet.flow.com/api/v2/nft/id?address=0x3a3c0e28590b2370&network=mainnet",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbGlsaWNvLTMzNDQwNCIsImF1ZCI6ImxpbGljby0zMzQ0MDQiLCJhdXRoX3RpbWUiOjE3NjQwNzQ3MjIsInVzZXJfaWQiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJzdWIiOiI1ZWI0MzE5MS0yZDdhLTQ0ZTAtODdiYS1kYmYxNDNmYzhhM2UiLCJpYXQiOjE3NjQwNzQ3MjIsImV4cCI6MTc2NDA3ODMyMiwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.N-jEOFUKLfjgUpjOea2EoPjSkDGRZO01DM9GSUo9h9R3QPquLxGq2eJpQy0rk9EaAOQLQoI8nNVYQUr9NGxtdI8wzUAp_WiiQ-NOMQOmgTStQnuofI1qIKTZIQ2hFDfOLJWuNBT8j-q5cjKewy-70bdUNENc0pZ4gmYzo6KogdLf24l07TnbQf1XlvLQ_lBjONfQJpyhFeiyBoFAack8COp9Ni40WyMvnESO0g-1IztMWp3SxQ8wWclUA1wCc-VZIMDXYS84Oc77pMFRQwrtdTDdNvSuG81yC_VLE2lxuO71RSP3zKloeMCBz4deK2CUk1x9S6WY1Eu1fdpFg18_jQ",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "network": "mainnet"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:45:25 GMT",
+        "strict-transport-security": "max-age=63072000",
+        "server": "Vercel",
+        "x-vercel-id": "cdg1::sfo1::6n2q2-1764074725290-44bb4956be51",
+        "x-matched-path": "/api/v2/nft/id",
+        "etag": "\"xoxjskwf9bo\"",
+        "x-vercel-cache": "BYPASS",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-store",
+        "content-length": "24"
+      }
+    }
+  ],
+  "success": true
+}

@@ -1,0 +1,60 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/lnnnmfcpbkafcpgdilckhmhbkkbpkmid",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/lnnnmfcpbkafcpgdilckhmhbkkbpkmid",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T13-17-53",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764074787048,
+    "end": 1764074864564
+  },
+  "extensionID": "lnnnmfcpbkafcpgdilckhmhbkkbpkmid",
+  "serviceWorker": "service_worker",
+  "walletName": "koala",
+  "notes": "no-balance-cant-find-addresses",
+  "walletAddress": "0x722E749e0e955Eeac0fb93A0d2d506d372aa3571;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;",
+  "password": "Default1Password1!",
+  "pathID": "lnnnmfcpbkafcpgdilckhmhbkkbpkmid",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://lnnnmfcpbkafcpgdilckhmhbkkbpkmid/dist/background.js",
+      "ts": 1764074789318,
+      "id": "17835.1",
+      "url": "https://www.google-analytics.com/mp/collect?measurement_id=G-55B3RHHT26&api_secret=5pD3b-JETmGcLpQeKzKzQQ",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"client_id\":\"08477907-167e-416b-bd4d-906a36a638c9\",\"events\":[{\"name\":\"install\",\"params\":{\"session_id\":\"1764074789297\",\"engagement_time_msec\":100}}]}",
+      "status": 204,
+      "responseHeaders": {
+        "pragma": "no-cache",
+        "date": "Tue, 25 Nov 2025 12:46:29 GMT",
+        "last-modified": "Sun, 17 May 1998 03:00:00 GMT",
+        "server": "Golfe2",
+        "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:66:0",
+        "report-to": "{\"group\":\"ascnsrsggc:66:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:66:0\"}],}",
+        "content-type": "text/plain",
+        "access-control-allow-origin": "chrome-extension://lnnnmfcpbkafcpgdilckhmhbkkbpkmid",
+        "cache-control": "no-cache, no-store, must-revalidate",
+        "access-control-allow-credentials": "true",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "0",
+        "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsggc:66:0",
+        "expires": "Fri, 01 Jan 1990 00:00:00 GMT"
+      }
+    }
+  ],
+  "success": true
+}

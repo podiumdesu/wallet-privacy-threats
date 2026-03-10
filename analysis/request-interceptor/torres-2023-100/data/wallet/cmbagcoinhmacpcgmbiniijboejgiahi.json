@@ -1,0 +1,3502 @@
+{
+    "arguments": {
+        "printFrameHierarchy": true,
+        "debugLevel": "verbose",
+        "headless": false,
+        "profilePath": "./final-results/old_version/extensions/profiles_new/cmbagcoinhmacpcgmbiniijboejgiahi",
+        "links": 10,
+        "walletPath": "./preparation/original-wallets/cmbagcoinhmacpcgmbiniijboejgiahi",
+        "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+        "force": false,
+        "executablePath": "/opt/homebrew/bin/chromium"
+    },
+    "pathID": "cmbagcoinhmacpcgmbiniijboejgiahi",
+    "timestamps": {
+        "start": 1762299627801,
+        "end": 1762299667691
+    },
+    "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+    "walletName": "JustLiquidity",
+    "notes": "no-balance-network-broken",
+    "extensionID": "oihocepfeidmkffjpoidbbedphamconh",
+    "password": "",
+    "requests": [
+        {
+            "requestContext": [
+                "about:blank"
+            ],
+            "id": "391B0D49527F21B015831251DAEAF9C0",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.8",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/ui.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.13",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.14",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.15",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/icon-128.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.16",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Font_Awesome/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.68",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/logo-1.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.63",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.65",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Bold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.69",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.76",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/loading.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.77",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/switch_acc.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.78",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/menu.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.79",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/more.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.80",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/copy-white.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "590712A6B2F7134F7FD2693B2B16F372",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.87",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/ui.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.89",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.90",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.91",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/icon-128.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.92",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Font_Awesome/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.147",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/switch_acc.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.148",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/menu.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.149",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/more.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.150",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/copy-white.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.142",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.93",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.144",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Bold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "3F00CA389BEFAD892D5AD3072C092AA6",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.154",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/ui.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.156",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.157",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.158",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/icon-128.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.159",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Font_Awesome/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.211",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/switch_acc.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.212",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/menu.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.213",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/more.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.214",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/copy-white.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.206",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.208",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Bold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.215",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "1474CAB63EE54339C062CDD0534D2FE1",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.221",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/ui.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.223",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.224",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.225",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/icon-128.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.226",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Font_Awesome/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.278",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/switch_acc.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.279",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/menu.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.280",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/more.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.281",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/copy-white.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.273",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.275",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Bold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.282",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "8356CD1A5FA96C6E74B0393B74D96D50",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.287",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/ui.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.289",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.290",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.291",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/icon-128.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.292",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Font_Awesome/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.344",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/switch_acc.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.345",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/menu.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.346",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/more.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.347",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/copy-white.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.339",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.341",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Bold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.348",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "17B6FADB0049DBFD7A66BC5E0F3A2CF1",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.353",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/ui.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.355",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.356",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.357",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/icon-128.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.358",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Font_Awesome/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.410",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/switch_acc.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.411",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/menu.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.412",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/more.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.413",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/copy-white.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.405",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.407",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Bold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.414",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.418",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/icon-back.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.406",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-SemiBold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "142C3BA6FD2DB0229A5189B3D8DFA9F6",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.421",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/ui.js",
+            "type": "Script",
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {}
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.423",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.424",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.425",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/icon-128.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.426",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Font_Awesome/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.478",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/switch_acc.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.479",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/menu.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.480",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/more.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.481",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/copy-white.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.473",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.475",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Bold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.482",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "464D5D136B6F7B0B16D97E0E0732652F",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.487",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/ui.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.489",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.490",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.491",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/icon-128.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.492",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Font_Awesome/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.544",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/switch_acc.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.545",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/menu.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.546",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/more.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.547",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/copy-white.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.539",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.541",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Bold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.548",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "08FF3FD76D41592AE3C9601E1212FEFC",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.554",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/ui.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.556",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.557",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.558",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/icon-128.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.559",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Font_Awesome/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.611",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/switch_acc.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.612",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/menu.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.613",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/more.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.614",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/copy-white.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.606",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.608",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Bold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.615",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "BF564A7B829BAF4C2A2B8B417EBCAD2A",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.621",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/ui.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.623",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.624",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.625",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/icon-128.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.626",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Font_Awesome/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.678",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/switch_acc.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.679",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/menu.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.680",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/more.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.681",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/copy-white.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.673",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.675",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Bold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.682",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "D88BB8EE57E8F7C0B89245D3F7BA82DA",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html",
+            "type": "Document",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Mac OS X\""
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "content-type": "text/html",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "cache-control": "no-cache"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.687",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/ui.js",
+            "type": "Script",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/javascript"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.689",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.690",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/_locales/en/messages.json",
+            "type": "Fetch",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.691",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/icon-128.png",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/png"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.692",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Font_Awesome/font-awesome.min.css",
+            "type": "Stylesheet",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "text/css"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.747",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/switch_acc.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.748",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/menu.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.749",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/more.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.750",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/images/copy-white.svg",
+            "type": "Image",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "image/svg+xml"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.742",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Regular.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.693",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/fonts/fontawesome-webfont.woff2?v=4.4.0",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "application/octet-stream"
+            }
+        },
+        {
+            "requestContext": [
+                "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/popup.html"
+            ],
+            "id": "86299.744",
+            "url": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh/fonts/Nunito/Nunito-Bold.ttf",
+            "type": "Font",
+            "status": 200,
+            "method": "GET",
+            "headers": {
+                "referer": "",
+                "origin": "chrome-extension://oihocepfeidmkffjpoidbbedphamconh",
+                "if-none-match": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "if-modified-since": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+            },
+            "postData": "",
+            "responseHeaders": {
+                "content-security-policy": "script-src 'self' blob: filesystem:; object-src 'self' blob: filesystem:;",
+                "cache-control": "no-cache",
+                "last-modified": "Wed, 04 Jan 2023 10:20:18 GMT",
+                "etag": "\"4D9loPL4qO6ck2RDCZvy5Z4nrnY=\"",
+                "content-type": "font/ttf"
+            }
+        }
+    ],
+    "success": true
+}

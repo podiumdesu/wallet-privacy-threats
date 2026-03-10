@@ -1,0 +1,150 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/ellkdbaphhldpeajbepobaecooaoafpg",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/ellkdbaphhldpeajbepobaecooaoafpg",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T14-30-57",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764077653397,
+    "end": 1764077686801
+  },
+  "extensionID": "nhajeooakkppcieinkhflojfnijilahi",
+  "serviceWorker": "service_worker",
+  "walletName": "asi",
+  "notes": "",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;0x196E98A561479ff97D533401Cc10e95b238e1a2A",
+  "password": "Default1Password1!",
+  "pathID": "ellkdbaphhldpeajbepobaecooaoafpg",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nhajeooakkppcieinkhflojfnijilahi/background.bundle.js",
+      "ts": 1764077662382,
+      "id": "44401.392",
+      "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/1.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 404,
+      "responseHeaders": {
+        "x-fastly-request-id": "81eeba1b72b37b8d11ea1e3bbba59d59b68dfd8c",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "strict-transport-security": "max-age=31536000",
+        "x-content-type-options": "nosniff",
+        "date": "Tue, 25 Nov 2025 13:34:22 GMT",
+        "via": "1.1 varnish",
+        "x-cache-hits": "0",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "14",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480038-BRU",
+        "x-github-request-id": "A0DE:397C07:26DA9E:28E75A:6925B05D",
+        "x-timer": "S1764077662.435088,VS0,VE132",
+        "source-age": "0",
+        "x-frame-options": "deny",
+        "vary": "Authorization,Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "accept-ranges": "bytes",
+        "expires": "Tue, 25 Nov 2025 13:39:22 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nhajeooakkppcieinkhflojfnijilahi/background.bundle.js",
+      "ts": 1764077662532,
+      "id": "44401.394",
+      "url": "https://mainnet.infura.io/v3/f40158f0c03842f5a18e409ffe09192c",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"method\":\"eth_chainId\",\"params\":[],\"id\":1}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Tue, 25 Nov 2025 13:34:22 GMT",
+        "content-length": "39",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nhajeooakkppcieinkhflojfnijilahi/background.bundle.js",
+      "ts": 1764077674620,
+      "id": "44401.795",
+      "url": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/cosmos/1.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "status": 404,
+      "responseHeaders": {
+        "x-fastly-request-id": "81eeba1b72b37b8d11ea1e3bbba59d59b68dfd8c",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "date": "Tue, 25 Nov 2025 13:34:22 GMT",
+        "x-content-type-options": "nosniff",
+        "x-cache-hits": "0",
+        "via": "1.1 varnish",
+        "x-cache": "MISS",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "14",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480038-BRU",
+        "x-github-request-id": "A0DE:397C07:26DA9E:28E75A:6925B05D",
+        "x-timer": "S1764077662.435088,VS0,VE132",
+        "source-age": "0",
+        "x-frame-options": "deny",
+        "vary": "Authorization,Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "accept-ranges": "bytes",
+        "expires": "Tue, 25 Nov 2025 13:39:22 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nhajeooakkppcieinkhflojfnijilahi/background.bundle.js",
+      "ts": 1764077674641,
+      "id": "44401.796",
+      "url": "https://mainnet.infura.io/v3/f40158f0c03842f5a18e409ffe09192c",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"jsonrpc\":\"2.0\",\"method\":\"eth_chainId\",\"params\":[],\"id\":1}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Tue, 25 Nov 2025 13:34:34 GMT",
+        "content-length": "39",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json"
+      }
+    }
+  ],
+  "success": true
+}

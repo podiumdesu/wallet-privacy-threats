@@ -1,0 +1,146 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/pdadjkfkgcafgbceimcpbkalnfnepbnk",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/pdadjkfkgcafgbceimcpbkalnfnepbnk",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762302022084,
+    "end": 1762302023921
+  },
+  "extensionID": "hckoanlohpkldgmkflpcabebkcjjnfii",
+  "serviceWorker": "background_page",
+  "walletName": "kardiaChain",
+  "notes": "dead",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "pdadjkfkgcafgbceimcpbkalnfnepbnk",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hckoanlohpkldgmkflpcabebkcjjnfii/_generated_background_page.html",
+      "id": "7919.7",
+      "url": "https://api-info.kaidex.io/api/tokens/0xAF984E23EAA3E7967F3C5E007fbe397D8566D23d",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hckoanlohpkldgmkflpcabebkcjjnfii/_generated_background_page.html",
+      "id": "7919.8",
+      "url": "https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/config.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "if-none-match": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-fastly-request-id": "504ad2b91678a2b6f01928e6c0c82d35a580fa49",
+        "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+        "strict-transport-security": "max-age=31536000",
+        "x-content-type-options": "nosniff",
+        "date": "Wed, 05 Nov 2025 00:20:22 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 varnish",
+        "x-cache": "HIT",
+        "x-cache-hits": "338",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-length": "1368528",
+        "x-xss-protection": "1; mode=block",
+        "x-served-by": "cache-bru1480023-BRU",
+        "x-github-request-id": "DA0A:27F78F:9CCEFE:A7103C:690A8C69",
+        "x-timer": "S1762302023.979457,VS0,VE0",
+        "etag": "W/\"88c353e516a2aac69a9895bbdd03f6f43ebfc38c31e16634aaf5a8a8b9fd09d4\"",
+        "source-age": "3",
+        "x-frame-options": "deny",
+        "vary": "Authorization,Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=300",
+        "accept-ranges": "bytes",
+        "expires": "Wed, 05 Nov 2025 00:25:22 GMT"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hckoanlohpkldgmkflpcabebkcjjnfii/_generated_background_page.html",
+      "id": "7919.9",
+      "url": "https://kai-seeds.kardiachain.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hckoanlohpkldgmkflpcabebkcjjnfii/_generated_background_page.html",
+      "id": "7919.10",
+      "url": "https://kai-seeds.kardiachain.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":3893038154597795,\"jsonrpc\":\"2.0\",\"method\":\"net_version\",\"params\":[]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://hckoanlohpkldgmkflpcabebkcjjnfii/_generated_background_page.html",
+      "id": "7919.11",
+      "url": "https://kai-seeds.kardiachain.io/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":3893038154597796,\"jsonrpc\":\"2.0\",\"method\":\"net_version\",\"params\":[]}",
+      "responseHeaders": {}
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: pdadjkfkgcafgbceimcpbkalnfnepbnk. Exiting..."
+}

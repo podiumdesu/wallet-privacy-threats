@@ -1,0 +1,589 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/phkbamefinggmakgklpkljjmgibohnba",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/phkbamefinggmakgklpkljjmgibohnba",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "pathID": "phkbamefinggmakgklpkljjmgibohnba",
+  "timestamps": {
+    "start": 1762302100679,
+    "end": 1762302103411
+  },
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "walletName": "pontem-aptos-wallet",
+  "notes": "dead",
+  "extensionID": "pjhfcmohcnffmephmgfkbikogppphffh",
+  "password": "Default1Password1!",
+  "requests": [
+    {
+      "requestContext": ["about:blank"],
+      "id": "B1ADCE4C96342DA8041713BB1C3D1239",
+      "url": "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html",
+      "type": "Document",
+      "method": "GET",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.76",
+      "url": "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/static/js/main.69cfaadb.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:21:54 GMT",
+        "etag": "\"DBGz1BE3BfdXtjxqNFPgSM3yBOo=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.77",
+      "url": "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/static/css/main.be3e6ebd.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:21:54 GMT",
+        "etag": "\"DBGz1BE3BfdXtjxqNFPgSM3yBOo=\"",
+        "content-type": "text/css"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.80",
+      "url": "https://aptos-mainnet.pontem.network/v1/",
+      "type": "Xhr",
+      "status": 429,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:21:41 GMT",
+        "via": "1.1 google",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=fZ6FVikEyRi2UtbjMP70LHd%2BprgatCprve9ggxoaxUAByKFbMhXubj9%2B0eY%2FgHOwNY8bCLww6AEhe6IXZR4cjPZjOvpLzF7iYieZt%2BWnAf62D%2FIXZzrmWPw%3D\"}]}",
+        "content-type": "application/json",
+        "x-cloud-trace-context": "5b2d41f78b88777e88a0694d02700449",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "999831480d4bb723-BRU",
+        "content-length": "309"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.107",
+      "url": "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "origin": "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:21:54 GMT",
+        "etag": "\"DBGz1BE3BfdXtjxqNFPgSM3yBOo=\"",
+        "content-type": "application/octet-stream"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.150",
+      "url": "https://aptos-mainnet.pontem.network/v1/",
+      "type": "Xhr",
+      "status": 429,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:21:41 GMT",
+        "via": "1.1 google",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=X4kt3s2bA9VSWji83%2B0KFgP5ZZ0eWZOiRnfY46rVKG4pHlUkCWMSwv4HsEQAdqZXD7aRC4c7HTPgXqBT%2BIhy56wlbhn2b%2FxSoXCZfHbSEOXOKMaBQzjN734%3D\"}]}",
+        "content-type": "application/json",
+        "x-cloud-trace-context": "a42bb512edad35bfdf31f6309c82e1a0",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "999831486d5eb723-BRU",
+        "content-length": "309"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.151",
+      "url": "https://fullnode.testnet.aptoslabs.com/v1/",
+      "type": "Xhr",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "x-aptos-ledger-version": "6941392375",
+        "date": "Wed, 05 Nov 2025 00:21:41 GMT",
+        "via": "1.1 google, 1.1 google",
+        "content-encoding": "br",
+        "server": "Google Frontend",
+        "x-aptos-oldest-block-height": "0",
+        "x-aptos-ledger-oldest-version": "0",
+        "x-aptos-epoch": "28148",
+        "x-aptos-ledger-timestampusec": "1762302101542735",
+        "content-type": "application/json; charset=utf-8",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "x-aptos-block-height": "550484703",
+        "access-control-allow-credentials": "true",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000, h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "x-aptos-chain-id": "2"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.152",
+      "url": "https://fullnode.testnet.aptoslabs.com/v1/",
+      "type": "Xhr",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "x-aptos-ledger-version": "6941392375",
+        "date": "Wed, 05 Nov 2025 00:21:42 GMT",
+        "via": "1.1 google, 1.1 google",
+        "content-encoding": "br",
+        "server": "Google Frontend",
+        "x-aptos-oldest-block-height": "0",
+        "x-aptos-ledger-oldest-version": "0",
+        "x-aptos-epoch": "28148",
+        "x-aptos-ledger-timestampusec": "1762302101542735",
+        "content-type": "application/json; charset=utf-8",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "x-aptos-block-height": "550484703",
+        "access-control-allow-credentials": "true",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000, h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "x-aptos-chain-id": "2"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.153",
+      "url": "https://aptos-mainnet.pontem.network/v1/",
+      "type": "Xhr",
+      "status": 429,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:21:42 GMT",
+        "via": "1.1 google",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZzBVeEa0UUu%2Ft6RvlL4JKfltM2auNgiqgGAhvpHlF%2FcdwpobRmAwkzIHqoXM0EeT4gyq7QA3wjRHPcJjx4KD50ERPdZONB4aIbS7rdfCZhwFSO0m4f9Pzrg%3D\"}]}",
+        "content-type": "application/json",
+        "x-cloud-trace-context": "4da1ee1e0485a5b1f939d9ae7e0d9151",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "999831497d97b723-BRU",
+        "content-length": "309"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.154",
+      "url": "https://aptos-mainnet.pontem.network/v1/",
+      "type": "Xhr",
+      "status": 429,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:21:42 GMT",
+        "via": "1.1 google",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "content-security-policy-report-only": "script-src 'none'; report-uri https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=ECUnAMEtweTctjGB76LQQ16fTza200swA0rK6cW__tA-1762302102.049466-1.0.1.1-mZ37GzF21z61_bX9Ykpi43HBMvzvdkJsb2XjkT4gx1T_IXyb4cCdB_jEVwWygVrgzp4siP7im.giKh_7PVPjQdFE86Z_PtKCyldXhz6xesDh3hvPPwJb8E7hEf9x4aRR4zb.VXtFa7W6Lp4hdUwa8C4ZuQ1I15dCuocF7ohHBIruLQYn_MxZwdOVP1zDVuc2; report-to cf-csp-endpoint",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2Ff3ssocnxsrNVYn361MuvqX87Lge94Lu05MDJJl1Pdu2uXbuJinsjhMopIEa7t2uLuC4veAlMBFMU8QkZZMq7KKHj5mWj3JSLItqB4bqjnNcxi1X0wib8Jk%3D\"}]}, {\"group\":\"cf-csp-endpoint\",\"max_age\":86400,\"endpoints\":[{\"url\":\"https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=ECUnAMEtweTctjGB76LQQ16fTza200swA0rK6cW__tA-1762302102.049466-1.0.1.1-mZ37GzF21z61_bX9Ykpi43HBMvzvdkJsb2XjkT4gx1T_IXyb4cCdB_jEVwWygVrgzp4siP7im.giKh_7PVPjQdFE86Z_PtKCyldXhz6xesDh3hvPPwJb8E7hEf9x4aRR4zb.VXtFa7W6Lp4hdUwa8C4ZuQ1I15dCuocF7ohHBIruLQYn_MxZwdOVP1zDVuc2\"}]}",
+        "content-type": "application/json",
+        "x-cloud-trace-context": "a015faa8fe8fcfd255979582e0bf7a70",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "99983149cdadb723-BRU",
+        "content-length": "309"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.155",
+      "url": "https://fullnode.devnet.aptoslabs.com/v1/",
+      "type": "Xhr",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "x-aptos-ledger-version": "126221986",
+        "date": "Wed, 05 Nov 2025 00:21:42 GMT",
+        "via": "1.1 google, 1.1 google",
+        "content-encoding": "br",
+        "server": "Google Frontend",
+        "x-aptos-oldest-block-height": "0",
+        "x-aptos-ledger-oldest-version": "0",
+        "x-aptos-epoch": "55",
+        "x-aptos-ledger-timestampusec": "1762302102111180",
+        "content-type": "application/json; charset=utf-8",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "x-aptos-block-height": "52002172",
+        "access-control-allow-credentials": "true",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000, h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "x-aptos-chain-id": "13"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.156",
+      "url": "https://testnet-node.devops.mom/v1/",
+      "type": "Xhr",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.157",
+      "url": "http://localhost:5123/v1/",
+      "type": "Xhr",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.158",
+      "url": "https://aptos-mainnet.pontem.network/v1/",
+      "type": "Xhr",
+      "status": 429,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:21:42 GMT",
+        "via": "1.1 google",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=inGZCLPXEfFXPuDD5n6gu41ZzQabhSo2PMfVhWYgr33exgaDJYTO3KcC8DDbAP90AfTlWPA3DxulK7JlGiXWLs%2F19NLpZkZIZx6nuZEcApCwrIv%2F7246iSI%3D\"}]}",
+        "content-type": "application/json",
+        "x-cloud-trace-context": "311e4c7a839b4eb159e1ae3403ef1228",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9998314a2dd7b723-BRU",
+        "content-length": "309"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.159",
+      "url": "https://aptos-mainnet.pontem.network/v1/",
+      "type": "Xhr",
+      "status": 429,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:21:42 GMT",
+        "via": "1.1 google",
+        "cf-cache-status": "DYNAMIC",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IqC2lSL4h4DRhq2kqwWSEU7MFCMfe27eCNRPvx%2BSmkIIv1FtWnu06C3T5II24xvB9en9Hvuz7mTuNy90ikeq4uQCRoORGbKbDclGpSpTEURHaG3YZPIwWVA%3D\"}]}",
+        "content-type": "application/json",
+        "x-cloud-trace-context": "1737daa39300eeef6889d1801922af50",
+        "access-control-allow-credentials": "true",
+        "cf-ray": "9998314a8deeb723-BRU",
+        "content-length": "309"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.160",
+      "url": "https://fullnode.devnet.aptoslabs.com/v1/",
+      "type": "Xhr",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "x-aptos-ledger-version": "126222035",
+        "date": "Wed, 05 Nov 2025 00:21:42 GMT",
+        "via": "1.1 google, 1.1 google",
+        "content-encoding": "br",
+        "server": "Google Frontend",
+        "x-aptos-oldest-block-height": "0",
+        "x-aptos-ledger-oldest-version": "0",
+        "x-aptos-epoch": "55",
+        "x-aptos-ledger-timestampusec": "1762302102261714",
+        "content-type": "application/json; charset=utf-8",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "x-aptos-block-height": "52002187",
+        "access-control-allow-credentials": "true",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000, h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "x-aptos-chain-id": "13"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.161",
+      "url": "https://testnet-node.devops.mom/v1/",
+      "type": "Xhr",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.162",
+      "url": "http://localhost:5123/v1/",
+      "type": "Xhr",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.163",
+      "url": "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/static/media/logo.70de722073fac87516fadeb27fbd49ab.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:21:54 GMT",
+        "etag": "\"DBGz1BE3BfdXtjxqNFPgSM3yBOo=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.164",
+      "url": "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/static/media/logo.70de722073fac87516fadeb27fbd49ab.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:21:54 GMT",
+        "etag": "\"DBGz1BE3BfdXtjxqNFPgSM3yBOo=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/index.html"
+      ],
+      "id": "8626.135",
+      "url": "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "origin": "chrome-extension://pjhfcmohcnffmephmgfkbikogppphffh",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:21:54 GMT",
+        "etag": "\"DBGz1BE3BfdXtjxqNFPgSM3yBOo=\"",
+        "content-type": "application/octet-stream"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: phkbamefinggmakgklpkljjmgibohnba. Exiting..."
+}

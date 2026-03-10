@@ -1,0 +1,90 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/mmmjbcfofconkannjonfmjjajpllddbg",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/mmmjbcfofconkannjonfmjjajpllddbg",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T14-02-48",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764075768322,
+    "end": 1764075804847
+  },
+  "extensionID": "djjcendgkdbbkcfpoeoloikglkmloekp",
+  "serviceWorker": "service_worker",
+  "walletName": "fluvi",
+  "notes": "no-balance",
+  "walletAddress": "0xf21825238bE3b8079a3C360e889B9b99F433Be95;0x6708fb9EF9978475aDd9b7fA1E6eB312F90f4D24;0x10EC555AD4d632F39bBA5dF13eA667096bD4Df59",
+  "password": "Default1Password1!",
+  "pathID": "mmmjbcfofconkannjonfmjjajpllddbg",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djjcendgkdbbkcfpoeoloikglkmloekp/background.bundle.js",
+      "ts": 1764075769516,
+      "id": "26892.1",
+      "url": "https://rpc.linea.build/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_chainId\",\"params\":[],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 13:02:49 GMT",
+        "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "cf-ray": "9a4157b85be1ad3f-BRU",
+        "content-length": "43"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djjcendgkdbbkcfpoeoloikglkmloekp/background.bundle.js",
+      "ts": 1764075769539,
+      "id": "26892.2",
+      "url": "https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyB7WKBvmMyYQqpJEoYp2ZnHHoQ6bhgPjAw",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "x-firebase-gmpid": "1:602829886187:web:ada7685812760d3de2a4ae",
+        "referer": "",
+        "x-client-version": "WebExtension/JsCore/10.8.1/FirebaseCore-web",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"idToken\":\"eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjNzQ5NTFmNjBhMDE0NzE3ZjFlMzA4ZDZiMjgwZjQ4ZjFlODhmZGEiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiMHhFQTljNDdkYTY4MURGOTBmNGVCM2NkYUQwMUQyMmMyNDk0YjlDQjMxIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2ZsdXZpLXByb2QiLCJhdWQiOiJmbHV2aS1wcm9kIiwiYXV0aF90aW1lIjoxNzY0MDc1NzM2LCJ1c2VyX2lkIjoiVGRPSVJIcWZuMU92cXlPY2szZ1BKdWVSNXQ3MyIsInN1YiI6IlRkT0lSSHFmbjFPdnF5T2NrM2dQSnVlUjV0NzMiLCJpYXQiOjE3NjQwNzU3MzYsImV4cCI6MTc2NDA3OTMzNiwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.JpJ4-09r-gSmc_nZShmwyskq0sjyO1u4DElf_DlwqY_EV5jV8p6Uwp2Qzx8KglLspaJacjtfSKSbHBisgOxpbB8BBOxLL-8EifkVmDCd5O3bz43_8BfDTQacdMuW_dz4E1T3B3MfJ7acFX8K1_z3DClApoTdfTzxDPto0czeoLCbwoCPYCphtDkT35MA5SKQIeXW0GM6fWpBZj5TSvdx0uBvy4mQDub-3fqhHz1xLlAIZEL07k0Bg_7o4IMHX-fkmUoCD-JJVce4DVOAjZ9WI9OfDshM54xasX498PbuNLsavrWboRglbWgYwbkwW2hglJPSQCyAf35hE2hsLM1sHg\"}",
+      "status": 200,
+      "responseHeaders": {
+        "pragma": "no-cache",
+        "date": "Tue, 25 Nov 2025 13:02:49 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "server": "ESF",
+        "vary": "Origin, X-Origin, Referer",
+        "x-frame-options": "SAMEORIGIN",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "chrome-extension://djjcendgkdbbkcfpoeoloikglkmloekp",
+        "access-control-expose-headers": "date,vary,vary,vary,content-encoding,server,content-length",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "292",
+        "x-xss-protection": "0",
+        "expires": "Mon, 01 Jan 1990 00:00:00 GMT"
+      }
+    }
+  ],
+  "success": true
+}

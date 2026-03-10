@@ -1,0 +1,1209 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/olkbchllhcflpbjfgagahpkjnjioiedg",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/olkbchllhcflpbjfgagahpkjnjioiedg",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762301949042,
+    "end": 1762302018968
+  },
+  "extensionID": "djggeaejehfghhgcgmkjgfkcmnmjofaf",
+  "serviceWorker": "background_page",
+  "walletName": "medium",
+  "notes": "incorrect-balance",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "olkbchllhcflpbjfgagahpkjnjioiedg",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.25",
+      "url": "https://cdn.jsdelivr.net/gh/MetaMask/eth-phishing-detect@master/src/config.json",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:19:10 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "cf-cache-status": "HIT",
+        "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "age": "31857",
+        "x-jsd-version": "master",
+        "content-encoding": "br",
+        "x-cache": "HIT, HIT",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "content-length": "1325085",
+        "x-served-by": "cache-fra-eddf8230033-FRA, cache-rtm-ehrd2290025-RTM",
+        "x-jsd-version-type": "branch",
+        "server": "cloudflare",
+        "etag": "W/\"5051c4-sdJDhLIsEROggQgLD3WdZimR3qc\"",
+        "vary": "Accept-Encoding",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=vKhWlyCKWCEyyo7irlLtJdo6xppnSuicuNf1ISAYXNZEwTfPe7%2FVheglDOPkPeiY1zoOEjUbm1QQUVjfDwTZrPKHGFcGmhRqwbi8Hnd6tKho7eb1ErjwfVSEiiP2frFxe7k%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "*",
+        "cache-control": "public, max-age=604800, s-maxage=43200",
+        "accept-ranges": "bytes",
+        "cf-ray": "99982d946d94b9c0-BRU",
+        "timing-allow-origin": "*"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.26",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:10 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.27",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:19:10 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-01",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "transfer-encoding": "chunked",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "true",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.39",
+      "url": "https://api.metaswap.codefi.network/featureFlag",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.318",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:19:10 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-01",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "vary": "Accept-Encoding",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "true",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.322",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:19:10 GMT",
+        "content-security-policy": "frame-ancestors 'none'",
+        "x-cryptocompare-server-id": "cc-api-min-v2-01",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "vary": "Accept-Encoding",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "content-type": "application/json; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=10",
+        "access-control-allow-credentials": "true",
+        "x-cryptocompare-cache-hit": "true",
+        "access-control-allow-headers": "Content-Type, Cookie, Set-Cookie, Authorization"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.334",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:12 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.335",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:14 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.336",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:14 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.340",
+      "url": "https://api.metaswap.codefi.network/featureFlag",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.342",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:16 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.345",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:17 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.346",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:19 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.347",
+      "url": "https://api.metaswap.codefi.network/featureFlag",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.348",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:21 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.349",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:23 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.507",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:25 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.508",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:27 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.515",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:29 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.673",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:32 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.674",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:34 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.675",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:36 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.682",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:38 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.840",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:40 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.841",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:42 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.842",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:44 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.844",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:47 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1002",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:49 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1003",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:51 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1005",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:53 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1163",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:55 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1164",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:19:57 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1165",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:20:00 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1167",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:20:02 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1325",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:20:04 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1326",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:20:06 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1328",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:20:08 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1486",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:20:10 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1487",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:20:12 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1488",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:20:15 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djggeaejehfghhgcgmkjgfkcmnmjofaf/_generated_background_page.html",
+      "id": "7240.1490",
+      "url": "https://mainnet.infura.io/v3/35a555386d414f17b4c6551503737475",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "infura-source": "metamask/internal",
+        "content-type": "application/json",
+        "accept": "application/json",
+        "referer": "",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[]}",
+      "status": 401,
+      "responseHeaders": {
+        "access-control-allow-origin": "*",
+        "date": "Wed, 05 Nov 2025 00:20:17 GMT",
+        "www-authenticate": "Basic realm=\"Basic auth failure, the project id is invalid\"",
+        "x-content-type-options": "nosniff",
+        "content-length": "19",
+        "vary": "Accept-Encoding",
+        "content-type": "text/plain; charset=utf-8"
+      }
+    }
+  ],
+  "success": true
+}

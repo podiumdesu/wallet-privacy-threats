@@ -1,0 +1,61 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/nkfpegmmhcipdkgoiimdegfaicbdnndh",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/nkfpegmmhcipdkgoiimdegfaicbdnndh",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762301866923,
+    "end": 1762301869020
+  },
+  "extensionID": "llhnbpdphoadconoeklcifmmojhnninn",
+  "serviceWorker": "background_page",
+  "walletName": "permission-extension",
+  "notes": "dead",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "nkfpegmmhcipdkgoiimdegfaicbdnndh",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/_generated_background_page.html",
+      "id": "6456.24",
+      "url": "https://ats.rlcdn.com/ats.js",
+      "type": "Script",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "x-amz-version-id": "3aZ5d2fLjOQ6QFd_Uz.oPTkcCqeZ7CeF",
+        "content-encoding": "gzip",
+        "via": "1.1 0f203fd7b592f258a42a32f365eb241e.cloudfront.net (CloudFront)",
+        "date": "Tue, 04 Nov 2025 08:16:27 GMT",
+        "last-modified": "Thu, 26 Sep 2024 12:57:19 GMT",
+        "server": "AmazonS3",
+        "x-amz-cf-pop": "BRU50-P1",
+        "age": "35205",
+        "x-amz-server-side-encryption": "AES256",
+        "etag": "W/\"b248cc9d0fdeb36bdeb7efabad1132ee\"",
+        "vary": "accept-encoding",
+        "x-cache": "Hit from cloudfront",
+        "content-type": "text/javascript",
+        "x-amz-cf-id": "McelYDFFhO7wJt3TSk5nU-Ba-ik9n2V5gOmc4XT-nh5EayTwCbcR-w=="
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: nkfpegmmhcipdkgoiimdegfaicbdnndh. Exiting..."
+}

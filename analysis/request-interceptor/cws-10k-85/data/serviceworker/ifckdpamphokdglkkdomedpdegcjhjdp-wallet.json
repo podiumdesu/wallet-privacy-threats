@@ -1,0 +1,167 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/85-version/extensions/profiles_new/ifckdpamphokdglkkdomedpdegcjhjdp",
+    "links": 10,
+    "walletPath": "./preparation/2411_unzipped_extensions/ifckdpamphokdglkkdomedpdegcjhjdp",
+    "destination": "./final-results/85-version/extensions/crawl_new/2025-11-25T13-17-53",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1764075291235,
+    "end": 1764075320285
+  },
+  "extensionID": "njchbieampjabokafoghbkahnkfcnbmc",
+  "serviceWorker": "service_worker",
+  "walletName": "onto",
+  "notes": "",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;0x196E98A561479ff97D533401Cc10e95b238e1a2A",
+  "password": "Default1Password1!",
+  "pathID": "ifckdpamphokdglkkdomedpdegcjhjdp",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://njchbieampjabokafoghbkahnkfcnbmc/background.bundle.js",
+      "ts": 1764075297622,
+      "id": "22217.47",
+      "url": "https://service.onto.app/S5/api/v1/onto/wallet/multichain",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json, text/plain, */*",
+        "onto-device": "plugin",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "onto-version": "0.9.13"
+      },
+      "postData": "{\"wallet_detail\":[{\"wallet_name\":\"test\",\"chain\":\"multichain\",\"address_list\":[{\"address\":\"AYjFJ8pCeHyf6naSBhUUJkyY54463PHCm7\",\"chain\":\"ont\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"eth\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"bsc\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"okex\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"polygon\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"hec\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"arbitrum\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"iotex\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"avalanche\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"harmony\",\"shard_id\":0},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"ont_evm\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"boba\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"xinfin\"}],\"oep4\":[],\"oep4_wasm\":[],\"erc20\":[],\"bep20\":[],\"okex\":[],\"perc20\":[],\"hrc20\":[],\"aerc20\":[],\"xrc20\":[],\"avrc20\":[],\"ohrc20\":[],\"orc20\":[],\"berc20\":[],\"xdrc20\":[],\"opsrc20\":[],\"ztrc20\":[]},{\"wallet_name\":\"test2\",\"chain\":\"multichain\",\"address_list\":[{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"eth\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"bsc\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"okex\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"polygon\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"hec\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"arbitrum\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"iotex\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"avalanche\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"harmony\",\"shard_id\":0},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"ont_evm\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"boba\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"xinfin\"}],\"oep4\":[],\"oep4_wasm\":[],\"erc20\":[],\"bep20\":[],\"okex\":[],\"perc20\":[],\"hrc20\":[],\"aerc20\":[],\"xrc20\":[],\"avrc20\":[],\"ohrc20\":[],\"orc20\":[],\"berc20\":[],\"xdrc20\":[],\"opsrc20\":[],\"ztrc20\":[]},{\"wallet_name\":\"test3\",\"chain\":\"multichain\",\"address_list\":[{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"eth\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"bsc\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"okex\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"polygon\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"hec\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"arbitrum\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"iotex\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"avalanche\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"harmony\",\"shard_id\":0},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"ont_evm\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"boba\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"xinfin\"}],\"oep4\":[],\"oep4_wasm\":[],\"erc20\":[],\"bep20\":[],\"okex\":[],\"perc20\":[],\"hrc20\":[],\"aerc20\":[],\"xrc20\":[],\"avrc20\":[],\"ohrc20\":[],\"orc20\":[],\"berc20\":[],\"xdrc20\":[],\"opsrc20\":[],\"ztrc20\":[]}]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:54:58 GMT",
+        "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+        "x-content-type-options": "nosniff",
+        "server": "nginx/1.28.0",
+        "transfer-encoding": "chunked",
+        "access-control-allow-methods": "POST, PUT, GET, OPTIONS, DELETE",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://njchbieampjabokafoghbkahnkfcnbmc",
+        "access-control-max-age": "3600",
+        "access-control-allow-credentials": "true",
+        "x-frame-options": "SAMEORIGIN",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Origin, No-Cache, X-Requested-With, If-Modified-Since, Pragma, Last-Modified, Cache-Control, Expires, Content-Type, X-E4M-With,CHANNEL,ONTO-VERSION,SYSTEM-TYPE,PHONE-TYPE,NOUMENA-H5TOKEN,Authorization",
+        "x-xss-protection": "1; mode=block"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://njchbieampjabokafoghbkahnkfcnbmc/background.bundle.js",
+      "ts": 1764075303588,
+      "id": "22217.57",
+      "url": "https://service.onto.app/S5/api/v1/onto/wallet/multichain",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json, text/plain, */*",
+        "onto-device": "plugin",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "onto-version": "0.9.13"
+      },
+      "postData": "{\"wallet_detail\":[{\"wallet_name\":\"test\",\"chain\":\"multichain\",\"address_list\":[{\"address\":\"AYjFJ8pCeHyf6naSBhUUJkyY54463PHCm7\",\"chain\":\"ont\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"eth\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"bsc\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"okex\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"polygon\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"hec\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"arbitrum\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"iotex\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"avalanche\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"harmony\",\"shard_id\":0},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"ont_evm\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"boba\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"xinfin\"}],\"oep4\":[],\"oep4_wasm\":[],\"erc20\":[],\"bep20\":[],\"okex\":[],\"perc20\":[],\"hrc20\":[],\"aerc20\":[],\"xrc20\":[],\"avrc20\":[],\"ohrc20\":[],\"orc20\":[],\"berc20\":[],\"xdrc20\":[],\"opsrc20\":[],\"ztrc20\":[]},{\"wallet_name\":\"test2\",\"chain\":\"multichain\",\"address_list\":[{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"eth\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"bsc\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"okex\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"polygon\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"hec\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"arbitrum\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"iotex\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"avalanche\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"harmony\",\"shard_id\":0},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"ont_evm\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"boba\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"xinfin\"}],\"oep4\":[],\"oep4_wasm\":[],\"erc20\":[],\"bep20\":[],\"okex\":[],\"perc20\":[],\"hrc20\":[],\"aerc20\":[],\"xrc20\":[],\"avrc20\":[],\"ohrc20\":[],\"orc20\":[],\"berc20\":[],\"xdrc20\":[],\"opsrc20\":[],\"ztrc20\":[]},{\"wallet_name\":\"test3\",\"chain\":\"multichain\",\"address_list\":[{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"eth\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"bsc\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"okex\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"polygon\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"hec\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"arbitrum\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"iotex\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"avalanche\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"harmony\",\"shard_id\":0},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"ont_evm\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"boba\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"xinfin\"}],\"oep4\":[],\"oep4_wasm\":[],\"erc20\":[],\"bep20\":[],\"okex\":[],\"perc20\":[],\"hrc20\":[],\"aerc20\":[],\"xrc20\":[],\"avrc20\":[],\"ohrc20\":[],\"orc20\":[],\"berc20\":[],\"xdrc20\":[],\"opsrc20\":[],\"ztrc20\":[]}]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:55:03 GMT",
+        "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+        "x-content-type-options": "nosniff",
+        "server": "nginx/1.28.0",
+        "transfer-encoding": "chunked",
+        "access-control-allow-methods": "POST, PUT, GET, OPTIONS, DELETE",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://njchbieampjabokafoghbkahnkfcnbmc",
+        "access-control-max-age": "3600",
+        "access-control-allow-credentials": "true",
+        "x-frame-options": "SAMEORIGIN",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Origin, No-Cache, X-Requested-With, If-Modified-Since, Pragma, Last-Modified, Cache-Control, Expires, Content-Type, X-E4M-With,CHANNEL,ONTO-VERSION,SYSTEM-TYPE,PHONE-TYPE,NOUMENA-H5TOKEN,Authorization",
+        "x-xss-protection": "1; mode=block"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://njchbieampjabokafoghbkahnkfcnbmc/background.bundle.js",
+      "ts": 1764075309587,
+      "id": "22217.58",
+      "url": "https://service.onto.app/S5/api/v1/onto/wallet/multichain",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json, text/plain, */*",
+        "onto-device": "plugin",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "onto-version": "0.9.13"
+      },
+      "postData": "{\"wallet_detail\":[{\"wallet_name\":\"test\",\"chain\":\"multichain\",\"address_list\":[{\"address\":\"AYjFJ8pCeHyf6naSBhUUJkyY54463PHCm7\",\"chain\":\"ont\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"eth\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"bsc\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"okex\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"polygon\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"hec\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"arbitrum\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"iotex\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"avalanche\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"harmony\",\"shard_id\":0},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"ont_evm\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"boba\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"xinfin\"}],\"oep4\":[],\"oep4_wasm\":[],\"erc20\":[],\"bep20\":[],\"okex\":[],\"perc20\":[],\"hrc20\":[],\"aerc20\":[],\"xrc20\":[],\"avrc20\":[],\"ohrc20\":[],\"orc20\":[],\"berc20\":[],\"xdrc20\":[],\"opsrc20\":[],\"ztrc20\":[]},{\"wallet_name\":\"test2\",\"chain\":\"multichain\",\"address_list\":[{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"eth\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"bsc\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"okex\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"polygon\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"hec\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"arbitrum\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"iotex\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"avalanche\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"harmony\",\"shard_id\":0},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"ont_evm\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"boba\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"xinfin\"}],\"oep4\":[],\"oep4_wasm\":[],\"erc20\":[],\"bep20\":[],\"okex\":[],\"perc20\":[],\"hrc20\":[],\"aerc20\":[],\"xrc20\":[],\"avrc20\":[],\"ohrc20\":[],\"orc20\":[],\"berc20\":[],\"xdrc20\":[],\"opsrc20\":[],\"ztrc20\":[]},{\"wallet_name\":\"test3\",\"chain\":\"multichain\",\"address_list\":[{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"eth\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"bsc\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"okex\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"polygon\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"hec\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"arbitrum\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"iotex\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"avalanche\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"harmony\",\"shard_id\":0},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"ont_evm\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"boba\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"xinfin\"}],\"oep4\":[],\"oep4_wasm\":[],\"erc20\":[],\"bep20\":[],\"okex\":[],\"perc20\":[],\"hrc20\":[],\"aerc20\":[],\"xrc20\":[],\"avrc20\":[],\"ohrc20\":[],\"orc20\":[],\"berc20\":[],\"xdrc20\":[],\"opsrc20\":[],\"ztrc20\":[]}]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:55:09 GMT",
+        "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+        "x-content-type-options": "nosniff",
+        "server": "nginx/1.28.0",
+        "transfer-encoding": "chunked",
+        "access-control-allow-methods": "POST, PUT, GET, OPTIONS, DELETE",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://njchbieampjabokafoghbkahnkfcnbmc",
+        "access-control-max-age": "3600",
+        "access-control-allow-credentials": "true",
+        "x-frame-options": "SAMEORIGIN",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Origin, No-Cache, X-Requested-With, If-Modified-Since, Pragma, Last-Modified, Cache-Control, Expires, Content-Type, X-E4M-With,CHANNEL,ONTO-VERSION,SYSTEM-TYPE,PHONE-TYPE,NOUMENA-H5TOKEN,Authorization",
+        "x-xss-protection": "1; mode=block"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://njchbieampjabokafoghbkahnkfcnbmc/background.bundle.js",
+      "ts": 1764075315587,
+      "id": "22217.65",
+      "url": "https://service.onto.app/S5/api/v1/onto/wallet/multichain",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "content-type": "application/json",
+        "accept": "application/json, text/plain, */*",
+        "onto-device": "plugin",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "onto-version": "0.9.13"
+      },
+      "postData": "{\"wallet_detail\":[{\"wallet_name\":\"test\",\"chain\":\"multichain\",\"address_list\":[{\"address\":\"AYjFJ8pCeHyf6naSBhUUJkyY54463PHCm7\",\"chain\":\"ont\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"eth\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"bsc\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"okex\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"polygon\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"hec\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"arbitrum\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"iotex\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"avalanche\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"harmony\",\"shard_id\":0},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"ont_evm\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"boba\"},{\"address\":\"0x033a5379BC3D5edD92b9B1dA762688E97CEF154c\",\"chain\":\"xinfin\"}],\"oep4\":[],\"oep4_wasm\":[],\"erc20\":[],\"bep20\":[],\"okex\":[],\"perc20\":[],\"hrc20\":[],\"aerc20\":[],\"xrc20\":[],\"avrc20\":[],\"ohrc20\":[],\"orc20\":[],\"berc20\":[],\"xdrc20\":[],\"opsrc20\":[],\"ztrc20\":[]},{\"wallet_name\":\"test2\",\"chain\":\"multichain\",\"address_list\":[{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"eth\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"bsc\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"okex\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"polygon\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"hec\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"arbitrum\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"iotex\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"avalanche\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"harmony\",\"shard_id\":0},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"ont_evm\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"boba\"},{\"address\":\"0x4A981186BbFBeC244E0F7260529528D294EC04Ed\",\"chain\":\"xinfin\"}],\"oep4\":[],\"oep4_wasm\":[],\"erc20\":[],\"bep20\":[],\"okex\":[],\"perc20\":[],\"hrc20\":[],\"aerc20\":[],\"xrc20\":[],\"avrc20\":[],\"ohrc20\":[],\"orc20\":[],\"berc20\":[],\"xdrc20\":[],\"opsrc20\":[],\"ztrc20\":[]},{\"wallet_name\":\"test3\",\"chain\":\"multichain\",\"address_list\":[{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"eth\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"bsc\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"okex\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"polygon\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"hec\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"arbitrum\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"iotex\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"avalanche\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"harmony\",\"shard_id\":0},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"ont_evm\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"boba\"},{\"address\":\"0x196E98A561479ff97D533401Cc10e95b238e1a2A\",\"chain\":\"xinfin\"}],\"oep4\":[],\"oep4_wasm\":[],\"erc20\":[],\"bep20\":[],\"okex\":[],\"perc20\":[],\"hrc20\":[],\"aerc20\":[],\"xrc20\":[],\"avrc20\":[],\"ohrc20\":[],\"orc20\":[],\"berc20\":[],\"xdrc20\":[],\"opsrc20\":[],\"ztrc20\":[]}]}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 25 Nov 2025 12:55:15 GMT",
+        "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+        "x-content-type-options": "nosniff",
+        "server": "nginx/1.28.0",
+        "transfer-encoding": "chunked",
+        "access-control-allow-methods": "POST, PUT, GET, OPTIONS, DELETE",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://njchbieampjabokafoghbkahnkfcnbmc",
+        "access-control-max-age": "3600",
+        "access-control-allow-credentials": "true",
+        "x-frame-options": "SAMEORIGIN",
+        "connection": "keep-alive",
+        "access-control-allow-headers": "Origin, No-Cache, X-Requested-With, If-Modified-Since, Pragma, Last-Modified, Cache-Control, Expires, Content-Type, X-E4M-With,CHANNEL,ONTO-VERSION,SYSTEM-TYPE,PHONE-TYPE,NOUMENA-H5TOKEN,Authorization",
+        "x-xss-protection": "1; mode=block"
+      }
+    }
+  ],
+  "success": true
+}

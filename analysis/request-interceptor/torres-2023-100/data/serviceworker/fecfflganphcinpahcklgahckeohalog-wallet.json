@@ -1,0 +1,218 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/fecfflganphcinpahcklgahckeohalog",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/fecfflganphcinpahcklgahckeohalog",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762300462307,
+    "end": 1762300501489
+  },
+  "extensionID": "dbhdmnhpamidiplioooicndkedbjpgam",
+  "serviceWorker": "background_page",
+  "walletName": "CoinWallet",
+  "notes": "incorrect-balance",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "fecfflganphcinpahcklgahckeohalog",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/_generated_background_page.html",
+      "id": "93615.136",
+      "url": "https://btcscraper-batch.coindefi.org/addresses",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json;charset=UTF-8",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"addresses\":[\"bc1qt834lseh5vxr7lqy2xkk4n59vef3xv8lq20n65\",\"bc1qsg6jd83nd7edw7mypgsyegjy9dcx8vs9nfdfhy\",\"bc1q5qx67932f009325rxssmsg8v7myam53r2pmwfq\",\"bc1qzj8f88s63c9chdey3h7vqx7y7kuz42sq38ygw2\",\"bc1q27uhlv9dhjfzupekkr4wl5d9f02p28zhpsq22y\",\"bc1qt2vcmf9r8qdl6p6yl57k3jgtvx8t5y20ekl46w\",\"bc1qved4c8avvqfvw3r3f3frvthgjtww5ynsrjvf5n\",\"bc1qx79m0w8erwpk8u538kx3deu8zdjg757u8e587c\",\"bc1qaj0npq5cm2p7kp3fgjtwqruasf6527yxq78we4\",\"bc1qwju7crj893mn98ve36ykumhr8m8h33d675my4s\",\"bc1q4lds3w0wum3zy78p4khk7qe98v3xsr3ufve9xr\",\"bc1qv5ra778gf9r7g2qrpghaf66mvxj2hypym4t6f6\",\"bc1qu9vlumzrj0rgtlw7gj57lpfv27vsgvrtdr8qvk\",\"bc1qyl598drwdp0up0pkduqd0vp7clyfw97kde5xxl\",\"bc1q6w9h9q9gjgnjuuctzg3xgzl0ntn6t5aqp20pvw\",\"bc1q822ckh30glqe6n49wmsv4ejgej4jehs8raedyv\",\"bc1q7rp6yxk4z49hwx6sq70dgepkex926drmnpkzlf\",\"bc1q7k7knwums3t7d6kamjhj6su2mk7vahtt4f465y\",\"bc1q3k3nlg4eqsfzaeyvrx8h7aw73fn7u2f6jxxmdn\",\"bc1qx2ystm4lh0ue05jap3ecqcaaa3e30q9cha2sr9\",\"bc1qz2j649wxznkghqpgjrtf5uehh2j6jlx3tu96jh\",\"bc1q6yf0qp2przt87c5r9fp7yxyaxgrcf26z4fv8dv\",\"bc1qkpl47v9vtmmjeqwva9g0h4lxkwq0w2tn2zzm2k\",\"bc1qr7nqaxewau0z35dyydaahdn5kpjhu9vmr33vmy\",\"bc1qz77vqgzneev5t655zlj8q6ffj4nlq0kp5ga2lz\",\"bc1qrffk3flzsr79t9kwcvlly9q7szu9km5gda0umc\",\"bc1qu6dkz3z6snk6y7qdpv6q7tmz35wwneaeqqg9ud\",\"bc1qe93erj2w2f6hlemfgw93eysj647d0udnasd4ea\",\"bc1q94d7m6vlvw2gpwhufpaypc2mkazk6vsasamfhd\",\"bc1qypam2n2jl94uwjavgahekacmtw640kugysd34a\",\"bc1qez23tysslaqcu9tfu7cwz6xq37ktukwtrlpdkh\",\"bc1q2ngaly7t76j4e7un4n38hlrwege552aylsqs98\",\"bc1qdfetzmtkdfkkjrx55qyv6zvzcq0eunsu2j04fz\",\"bc1q5ceg04vklq8u0u5mllkxztcreqkadevdyessvt\",\"bc1qqvsq5crm55cndw2euwpnfqfqtd5gdc25e58snc\",\"bc1qtkreagzpu67k3rwzh7ah3ptfn5vnwrndky3u78\",\"bc1qz053x6yys5uynkc6ft0a7v29m82yt7s42myhnj\",\"bc1qa0xxhder6svgxln7ru93rfuau5kk23qxpjnlnj\",\"bc1qe0yzt2f8478xqkq52h7q026899qxvkjx6p2kx6\",\"bc1qe94rlps7s8h8yexxa57ysv0388m3r48fz5y45j\",\"bc1q7lae0y7rvungenrgnupeswe4qnngn3975n5alk\",\"bc1qhuuh9j4unnj000xyz8tg4jfwk3ysw02prwyq79\",\"bc1qs0hx26nxa5nle5yxhwszm6r06jtxus8r7hax79\",\"bc1qtyau8sptc55u92m0ylp25l9cqp92zz6avhd7ce\",\"bc1qg8lm8e7yxyhzhjnznd8wu0tee46se4e8ekfxna\",\"bc1qjluzj3u6v8kjkfdxqrg7z63f8xmgf0xhrpnm4m\",\"bc1qm9kxe7e9ljyaue2scw20pgkgqx4jafxp4aqspk\",\"bc1qve2he8l5nrwgmx2znpsu0vqxmqd0w7myl8pc6g\",\"bc1qrrhlzta234p2qf38lc5a25rt8cze6ytqzkchd3\",\"bc1qg3qt6j96v3f69wda3a3cuha5kc8ztvuqrtlq6p\",\"bc1q96vmjl6s24k8n8qleccdva0xacwzxkchm0qvum\",\"bc1qcc24xyfplq5uyk8d8naphjpqldl623tfngapy6\",\"bc1q8k4rhr8w5jky6c28mftsm42lj55dfa9apkrkcj\",\"bc1qeh7tnfegd4kynnqwekzsfku0w5zjzytztvkypr\",\"bc1qg5xp8zf8s7hnxtdd5vx4vfftf9ut29crwvrpde\",\"bc1q3489tle79cdg9mlx62djul9sxuqvt5nrtywfgf\",\"bc1qwegdvq9083077g4g96gktsankdu4a5dhrnvt83\",\"bc1q2ms30s92q7sujcna6tv8qe8ls5dr9uqx3x97rg\",\"bc1qa6eqnfgxdksxlwzq8ztw4pncyt2y9lzlvnd0pv\",\"bc1qk85767jslcmvfdckhgpzt0ge6sgn4jx6lgxncn\",\"bc1q7fhvnw2ur4j5yn6cwwws44037r0svgwq7djz38\",\"bc1q7mjcpc9j9crjrcfqrgxx4y2vw9k5t6w64zhh7l\",\"bc1qs28td4yel45eav527evrqvxaynnrkyg9eszfqg\",\"bc1qk4sf0dcqpdql4fadsrcf6w3c20zjjcd5hynf69\",\"bc1qmxhc2vrz4lchcf8dsydjwurwlzvtkp0d04jcc2\",\"bc1qt0gngca3xcwtry8qgjeqyjz9slzndcswr22w0v\",\"bc1qwr30j4z4825jdylkzz9cfpm6h8cpkx0eznu3th\",\"bc1qv9acgr4el24tpjqs5cenfaj82vyw6v9nekuzhm\",\"bc1qevlpgmew98v3ymunqttklj4l94ruj5gzspj3k6\",\"bc1q2cwahphn7c2mvdz2q8vfyrz5fks8r6gzzwg2p6\",\"bc1q0erkkynsehd96eupf432uuh3pazxav3nsxxk6r\",\"bc1q0vlsf26wcmet58vwk9hvf2g8tlad8f7mrdr9ul\",\"bc1qdr7l9ccztqpwca7xarew547ke6zundf3n4qnp4\",\"bc1qjglsvjevgzv6vkthhl53kfarlxq35cttz60lvq\",\"bc1qwdp2dpmvq2gt7gpj28yzzf3jdcssf8uzzd8uds\",\"bc1quap8ehq0248g2dtytffudttgmgcgkcht96f59p\",\"bc1qtgm46s2eugej84vma6uzm4n3et9yxx3swrapwy\",\"bc1qyva7qaytuvhdyse92dcjhqsgeq3p00a55su8gr\",\"bc1qgj2zagym38crc872y9yn0cl55ywaa95zxelgy4\",\"bc1q6qa0edwgytwx97k04z6cn8wttceypl7ccm3mte\",\"bc1qqwurad2wcv7yufk3cl4x2w437z6xs43tqac2zy\",\"bc1qmf2neamvfj6cqzjuvt0hjury7239l4003lm3rc\",\"bc1qwhah92f54ykl26ju49kkchgmujp0gvkuc4vgu6\",\"bc1qpqrclxkfa9yck9k9wv394vkd2y2v7dpauwt6ge\",\"bc1q09fv9xtne2aq0ef89962yskh9l4rdvwjasc4ea\",\"bc1qlctum6t3ymwtyyy45f387w3l9fxq3xfkc2sca9\",\"bc1qthl79h3mw732lknw3syl3drwc9yhg4cmay0zxn\",\"bc1qsv9f86r0t43vt4wdntvr7gg7c0pzz6h0etcu40\",\"bc1q3yt68ncw5urlzz2m5jlv9nkasaugl5mf9fc2dg\",\"bc1qrp8pvg9zw0yzwyk0tawpl74e3t3vx972fggg5p\",\"bc1qrun5l3l7p8xc7slcyf00nz3fcl405uqgujj9c4\",\"bc1q2m7ctyzzf4nh89kfnpja86fdm6ygfpw47dm5sh\",\"bc1qsjnmss5c2qawzhzvyh784rwsuy4p2msq6fgfek\",\"bc1qfg0r8al657wf8yfqta39kdy8ruh77ryg6zzvdg\",\"bc1q5lgmc744zss5428kjal0daa3q89q3z058z4c0c\",\"bc1qp72t980p2meqv50keqk02ej7c3hsuzglm6ny2g\",\"bc1q5y7deuku638fvxffe9ya5hdhn76fq9nyff746a\",\"bc1qlldsteups0vt2edk7dwrcvzulk47qu340xks8j\",\"bc1q4gh52hwsygnhcdv9se63yv394fsuuw0zk6jykp\",\"bc1qsnpvr0ry3hd95egsxk6sfw007sh94lrczywf8m\"]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/_generated_background_page.html",
+      "id": "93615.478",
+      "url": "https://us-east1-coin-infrastructure-production.cloudfunctions.net/coinGecko/dex/coinMarketData/usd",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 404,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:54:41 GMT",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "272",
+        "content-type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/_generated_background_page.html",
+      "id": "93615.479",
+      "url": "https://us-east1-coin-infrastructure-production.cloudfunctions.net/coinGecko/dex/overallStats",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 404,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:54:41 GMT",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "272",
+        "content-type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/_generated_background_page.html",
+      "id": "93615.480",
+      "url": "https://agent-044.coindefi.org/api/data/log",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json;charset=UTF-8",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"activeWalletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\",\"activeNetwork\":\"mainnet\",\"addresses\":{\"mainnet\":[{\"addresses\":[],\"assets\":[\"BTC\"],\"balances\":{},\"chain\":\"bitcoin\",\"color\":\"#EAB300\",\"createdAt\":1762271656741,\"id\":\"494b8160-5b39-4b23-8e39-7b0a5dd1a870\",\"index\":0,\"name\":\"Bitcoin 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"ETH\",\"DAI\",\"COIN\",\"COINV1\",\"COINV2\",\"COINV3\"],\"balances\":{},\"chain\":\"ethereum\",\"color\":\"#4F67E4\",\"createdAt\":1762271656742,\"id\":\"05121870-647d-46fb-86c5-5b9cb35f5c83\",\"index\":0,\"name\":\"Ethereum 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"BNB\"],\"balances\":{},\"chain\":\"bsc\",\"color\":\"#F7CA4F\",\"createdAt\":1762271656742,\"id\":\"0d942c1c-2cd3-4da6-9903-97f5551eca2a\",\"index\":0,\"name\":\"Binance Smart Chain 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"}],\"testnet\":[{\"addresses\":[],\"assets\":[\"BTC\"],\"balances\":{},\"chain\":\"bitcoin\",\"color\":\"#EAB300\",\"createdAt\":1762271656742,\"id\":\"08b36d4c-a017-4f92-ac53-0b9588b578ed\",\"index\":0,\"name\":\"Bitcoin 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"ETH\",\"DAI\",\"COIN\",\"COINV1\",\"COINV2\",\"COINV3\"],\"balances\":{},\"chain\":\"ethereum\",\"color\":\"#4F67E4\",\"createdAt\":1762271656742,\"id\":\"ecc9efed-69ed-4e74-b032-a782c388d5a1\",\"index\":0,\"name\":\"Ethereum 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"BNB\"],\"balances\":{},\"chain\":\"bsc\",\"color\":\"#F7CA4F\",\"createdAt\":1762271656743,\"id\":\"35ef3ce3-a661-41d7-9dce-aa7c5d4aef68\",\"index\":0,\"name\":\"Binance Smart Chain 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"}]},\"type\":\"updateMarketGlobalStatistic\",\"message\":\"Request failed with status code 404\",\"error\":{\"message\":\"Request failed with status code 404\",\"name\":\"Error\",\"stack\":\"Error: Request failed with status code 404\\n    at e.exports (chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/js/background.js:88:15293)\\n    at e.exports (chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/js/background.js:148:37835)\\n    at l.onreadystatechange (chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/js/background.js:603:61787)\",\"config\":{\"url\":\"/overallStats\",\"method\":\"get\",\"headers\":{\"Accept\":\"application/json, text/plain, */*\"},\"baseURL\":\"https://us-east1-coin-infrastructure-production.cloudfunctions.net/coinGecko/dex\",\"transformRequest\":[null],\"transformResponse\":[null],\"timeout\":10000,\"withCredentials\":true,\"xsrfCookieName\":\"XSRF-TOKEN\",\"xsrfHeaderName\":\"X-XSRF-TOKEN\",\"maxContentLength\":-1,\"maxBodyLength\":-1}}}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/_generated_background_page.html",
+      "id": "93615.481",
+      "url": "https://agent-044.coindefi.org/api/data/log",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json;charset=UTF-8",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"activeWalletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\",\"activeNetwork\":\"mainnet\",\"addresses\":{\"mainnet\":[{\"addresses\":[],\"assets\":[\"BTC\"],\"balances\":{},\"chain\":\"bitcoin\",\"color\":\"#EAB300\",\"createdAt\":1762271656741,\"id\":\"494b8160-5b39-4b23-8e39-7b0a5dd1a870\",\"index\":0,\"name\":\"Bitcoin 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"ETH\",\"DAI\",\"COIN\",\"COINV1\",\"COINV2\",\"COINV3\"],\"balances\":{},\"chain\":\"ethereum\",\"color\":\"#4F67E4\",\"createdAt\":1762271656742,\"id\":\"05121870-647d-46fb-86c5-5b9cb35f5c83\",\"index\":0,\"name\":\"Ethereum 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"BNB\"],\"balances\":{},\"chain\":\"bsc\",\"color\":\"#F7CA4F\",\"createdAt\":1762271656742,\"id\":\"0d942c1c-2cd3-4da6-9903-97f5551eca2a\",\"index\":0,\"name\":\"Binance Smart Chain 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"}],\"testnet\":[{\"addresses\":[],\"assets\":[\"BTC\"],\"balances\":{},\"chain\":\"bitcoin\",\"color\":\"#EAB300\",\"createdAt\":1762271656742,\"id\":\"08b36d4c-a017-4f92-ac53-0b9588b578ed\",\"index\":0,\"name\":\"Bitcoin 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"ETH\",\"DAI\",\"COIN\",\"COINV1\",\"COINV2\",\"COINV3\"],\"balances\":{},\"chain\":\"ethereum\",\"color\":\"#4F67E4\",\"createdAt\":1762271656742,\"id\":\"ecc9efed-69ed-4e74-b032-a782c388d5a1\",\"index\":0,\"name\":\"Ethereum 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"BNB\"],\"balances\":{},\"chain\":\"bsc\",\"color\":\"#F7CA4F\",\"createdAt\":1762271656743,\"id\":\"35ef3ce3-a661-41d7-9dce-aa7c5d4aef68\",\"index\":0,\"name\":\"Binance Smart Chain 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"}]},\"type\":\"updateMarketAssetList\",\"message\":\"Request failed with status code 404\",\"error\":{\"message\":\"Request failed with status code 404\",\"name\":\"Error\",\"stack\":\"Error: Request failed with status code 404\\n    at e.exports (chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/js/background.js:88:15293)\\n    at e.exports (chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/js/background.js:148:37835)\\n    at l.onreadystatechange (chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/js/background.js:603:61787)\",\"config\":{\"url\":\"/coinMarketData/usd\",\"method\":\"get\",\"headers\":{\"Accept\":\"application/json, text/plain, */*\"},\"baseURL\":\"https://us-east1-coin-infrastructure-production.cloudfunctions.net/coinGecko/dex\",\"transformRequest\":[null],\"transformResponse\":[null],\"timeout\":10000,\"withCredentials\":true,\"xsrfCookieName\":\"XSRF-TOKEN\",\"xsrfHeaderName\":\"X-XSRF-TOKEN\",\"maxContentLength\":-1,\"maxBodyLength\":-1}}}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/_generated_background_page.html",
+      "id": "93615.580",
+      "url": "https://us-east1-coin-infrastructure-production.cloudfunctions.net/coinGecko/dex/coinMarketData/usd",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 404,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:54:44 GMT",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "272",
+        "content-type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/_generated_background_page.html",
+      "id": "93615.581",
+      "url": "https://us-east1-coin-infrastructure-production.cloudfunctions.net/coinGecko/dex/overallStats",
+      "type": "XHR",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 404,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:54:44 GMT",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "272",
+        "content-type": "text/html; charset=UTF-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/_generated_background_page.html",
+      "id": "93615.582",
+      "url": "https://agent-044.coindefi.org/api/data/log",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json;charset=UTF-8",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"activeWalletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\",\"activeNetwork\":\"mainnet\",\"addresses\":{\"mainnet\":[{\"addresses\":[],\"assets\":[\"BTC\"],\"balances\":{},\"chain\":\"bitcoin\",\"color\":\"#EAB300\",\"createdAt\":1762271656741,\"id\":\"494b8160-5b39-4b23-8e39-7b0a5dd1a870\",\"index\":0,\"name\":\"Bitcoin 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"ETH\",\"DAI\",\"COIN\",\"COINV1\",\"COINV2\",\"COINV3\"],\"balances\":{},\"chain\":\"ethereum\",\"color\":\"#4F67E4\",\"createdAt\":1762271656742,\"id\":\"05121870-647d-46fb-86c5-5b9cb35f5c83\",\"index\":0,\"name\":\"Ethereum 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"BNB\"],\"balances\":{},\"chain\":\"bsc\",\"color\":\"#F7CA4F\",\"createdAt\":1762271656742,\"id\":\"0d942c1c-2cd3-4da6-9903-97f5551eca2a\",\"index\":0,\"name\":\"Binance Smart Chain 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"}],\"testnet\":[{\"addresses\":[],\"assets\":[\"BTC\"],\"balances\":{},\"chain\":\"bitcoin\",\"color\":\"#EAB300\",\"createdAt\":1762271656742,\"id\":\"08b36d4c-a017-4f92-ac53-0b9588b578ed\",\"index\":0,\"name\":\"Bitcoin 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"ETH\",\"DAI\",\"COIN\",\"COINV1\",\"COINV2\",\"COINV3\"],\"balances\":{},\"chain\":\"ethereum\",\"color\":\"#4F67E4\",\"createdAt\":1762271656742,\"id\":\"ecc9efed-69ed-4e74-b032-a782c388d5a1\",\"index\":0,\"name\":\"Ethereum 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"BNB\"],\"balances\":{},\"chain\":\"bsc\",\"color\":\"#F7CA4F\",\"createdAt\":1762271656743,\"id\":\"35ef3ce3-a661-41d7-9dce-aa7c5d4aef68\",\"index\":0,\"name\":\"Binance Smart Chain 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"}]},\"type\":\"updateMarketAssetList\",\"message\":\"Request failed with status code 404\",\"error\":{\"message\":\"Request failed with status code 404\",\"name\":\"Error\",\"stack\":\"Error: Request failed with status code 404\\n    at e.exports (chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/js/background.js:88:15293)\\n    at e.exports (chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/js/background.js:148:37835)\\n    at l.onreadystatechange (chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/js/background.js:603:61787)\",\"config\":{\"url\":\"/coinMarketData/usd\",\"method\":\"get\",\"headers\":{\"Accept\":\"application/json, text/plain, */*\"},\"baseURL\":\"https://us-east1-coin-infrastructure-production.cloudfunctions.net/coinGecko/dex\",\"transformRequest\":[null],\"transformResponse\":[null],\"timeout\":10000,\"withCredentials\":true,\"xsrfCookieName\":\"XSRF-TOKEN\",\"xsrfHeaderName\":\"X-XSRF-TOKEN\",\"maxContentLength\":-1,\"maxBodyLength\":-1}}}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/_generated_background_page.html",
+      "id": "93615.583",
+      "url": "https://agent-044.coindefi.org/api/data/log",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json;charset=UTF-8",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "{\"activeWalletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\",\"activeNetwork\":\"mainnet\",\"addresses\":{\"mainnet\":[{\"addresses\":[],\"assets\":[\"BTC\"],\"balances\":{},\"chain\":\"bitcoin\",\"color\":\"#EAB300\",\"createdAt\":1762271656741,\"id\":\"494b8160-5b39-4b23-8e39-7b0a5dd1a870\",\"index\":0,\"name\":\"Bitcoin 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"ETH\",\"DAI\",\"COIN\",\"COINV1\",\"COINV2\",\"COINV3\"],\"balances\":{},\"chain\":\"ethereum\",\"color\":\"#4F67E4\",\"createdAt\":1762271656742,\"id\":\"05121870-647d-46fb-86c5-5b9cb35f5c83\",\"index\":0,\"name\":\"Ethereum 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"BNB\"],\"balances\":{},\"chain\":\"bsc\",\"color\":\"#F7CA4F\",\"createdAt\":1762271656742,\"id\":\"0d942c1c-2cd3-4da6-9903-97f5551eca2a\",\"index\":0,\"name\":\"Binance Smart Chain 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"}],\"testnet\":[{\"addresses\":[],\"assets\":[\"BTC\"],\"balances\":{},\"chain\":\"bitcoin\",\"color\":\"#EAB300\",\"createdAt\":1762271656742,\"id\":\"08b36d4c-a017-4f92-ac53-0b9588b578ed\",\"index\":0,\"name\":\"Bitcoin 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"ETH\",\"DAI\",\"COIN\",\"COINV1\",\"COINV2\",\"COINV3\"],\"balances\":{},\"chain\":\"ethereum\",\"color\":\"#4F67E4\",\"createdAt\":1762271656742,\"id\":\"ecc9efed-69ed-4e74-b032-a782c388d5a1\",\"index\":0,\"name\":\"Ethereum 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"},{\"addresses\":[],\"assets\":[\"BNB\"],\"balances\":{},\"chain\":\"bsc\",\"color\":\"#F7CA4F\",\"createdAt\":1762271656743,\"id\":\"35ef3ce3-a661-41d7-9dce-aa7c5d4aef68\",\"index\":0,\"name\":\"Binance Smart Chain 1\",\"type\":\"default\",\"updatedAt\":null,\"walletId\":\"6626b3cf-a059-4a67-903b-502d55ded77b\"}]},\"type\":\"updateMarketGlobalStatistic\",\"message\":\"Request failed with status code 404\",\"error\":{\"message\":\"Request failed with status code 404\",\"name\":\"Error\",\"stack\":\"Error: Request failed with status code 404\\n    at e.exports (chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/js/background.js:88:15293)\\n    at e.exports (chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/js/background.js:148:37835)\\n    at l.onreadystatechange (chrome-extension://dbhdmnhpamidiplioooicndkedbjpgam/js/background.js:603:61787)\",\"config\":{\"url\":\"/overallStats\",\"method\":\"get\",\"headers\":{\"Accept\":\"application/json, text/plain, */*\"},\"baseURL\":\"https://us-east1-coin-infrastructure-production.cloudfunctions.net/coinGecko/dex\",\"transformRequest\":[null],\"transformResponse\":[null],\"timeout\":10000,\"withCredentials\":true,\"xsrfCookieName\":\"XSRF-TOKEN\",\"xsrfHeaderName\":\"X-XSRF-TOKEN\",\"maxContentLength\":-1,\"maxBodyLength\":-1}}}",
+      "responseHeaders": {}
+    }
+  ],
+  "success": true
+}

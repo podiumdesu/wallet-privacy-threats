@@ -1,0 +1,495 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/nkfpegmmhcipdkgoiimdegfaicbdnndh",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/nkfpegmmhcipdkgoiimdegfaicbdnndh",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "pathID": "nkfpegmmhcipdkgoiimdegfaicbdnndh",
+  "timestamps": {
+    "start": 1762301866923,
+    "end": 1762301869020
+  },
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "walletName": "permission-extension",
+  "notes": "dead",
+  "extensionID": "llhnbpdphoadconoeklcifmmojhnninn",
+  "password": "Default1Password1!",
+  "requests": [
+    {
+      "requestContext": ["about:blank"],
+      "id": "5858D947E977DE045D54962E59D82A4D",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html",
+      "type": "Document",
+      "method": "GET",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.7",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/css/etherwallet-master.min.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "text/css"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.8",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/js/etherwallet-static.min.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.9",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/js/etherwallet-master.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "if-none-match": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "if-modified-since": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.10",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/images/permission/permission-logo-black.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.11",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/images/permission/icons/close-gray-icon.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.13",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/images/permission/permission-coin-pink.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.14",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/images/permission/tutorial/card-2.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.15",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/images/permission/tutorial/card-3.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.16",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/images/permission/tutorial/card-4.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.17",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/images/permission/tutorial/card-5.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.18",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/images/permission/icons/youtube-stroke-black.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.19",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/images/permission/icons/twitter-stroke-black.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.20",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/images/permission/icons/tiktok-stroke-black.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.21",
+      "url": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/images/permission/icons/facebook-stroke-black.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self' 'unsafe-eval' https://my.staging.permission.dev https://my.permission.io https://www.google-analytics.com https://www.googletagmanager.com https://ats.rlcdn.com/ats.js 'sha256-wXttCUd5d4XKeWPKEGSfXdGuAbwQH/r8l+4coW1aEpM=' 'sha256-m5rPH4GocwhuFWVitJEXcEyxhqoYwTk4zCVeL0iiR2o=' 'sha256-uxI0oLy+6OpnvTApEkmCzuxkvu4J47b6yHCV93fjHN0=' 'sha256-0Gsidap6748RQlB69d8CLcBCD2A1kL9luXuhxAKpgXQ=' 'sha256-Z7zS8qcr4BZTeVyPP1sIfzQLoVSrzOW0qLHyZCds1WE='; object-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 10:20:35 GMT",
+        "etag": "\"aBJvPdER9Td5Plq8Xv0bb/mVaoE=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.62",
+      "url": "https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrFJA.ttf",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "referer": "",
+        "origin": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "date": "Fri, 31 Oct 2025 12:13:25 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "age": "364636",
+        "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "69581",
+        "x-xss-protection": "0",
+        "last-modified": "Thu, 05 Nov 2020 22:01:10 GMT",
+        "server": "sffe",
+        "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+        "vary": "Accept-Encoding",
+        "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+        "content-type": "font/ttf",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=31536000",
+        "accept-ranges": "bytes",
+        "timing-allow-origin": "*",
+        "expires": "Sat, 31 Oct 2026 12:13:25 GMT"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.61",
+      "url": "https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_dJE7g4.ttf",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "referer": "",
+        "origin": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "date": "Fri, 31 Oct 2025 08:23:10 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "age": "378451",
+        "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "72626",
+        "x-xss-protection": "0",
+        "last-modified": "Tue, 10 Aug 2021 00:21:08 GMT",
+        "server": "sffe",
+        "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+        "vary": "Accept-Encoding",
+        "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+        "content-type": "font/ttf",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=31536000",
+        "accept-ranges": "bytes",
+        "timing-allow-origin": "*",
+        "expires": "Sat, 31 Oct 2026 08:23:10 GMT"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.64",
+      "url": "https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6V1s.ttf",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "referer": "",
+        "origin": "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {
+        "date": "Mon, 03 Nov 2025 16:12:56 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "age": "91065",
+        "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+        "cross-origin-resource-policy": "cross-origin",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "69357",
+        "x-xss-protection": "0",
+        "last-modified": "Thu, 05 Nov 2020 22:02:05 GMT",
+        "server": "sffe",
+        "cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+        "vary": "Accept-Encoding",
+        "report-to": "{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}",
+        "content-type": "font/ttf",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=31536000",
+        "accept-ranges": "bytes",
+        "timing-allow-origin": "*",
+        "expires": "Tue, 03 Nov 2026 16:12:56 GMT"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://llhnbpdphoadconoeklcifmmojhnninn/browser_action/browser_action.html"
+      ],
+      "id": "6456.65",
+      "url": "https://blockchain-api-mainnet.permission.io/rpc:443",
+      "type": "Xhr",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "{\"method\":\"eth_blockNumber\",\"id\":\"fcfd5d262f20a713ac237166438497fe\",\"jsonrpc\":\"2.0\"}",
+      "responseHeaders": {}
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: nkfpegmmhcipdkgoiimdegfaicbdnndh. Exiting..."
+}

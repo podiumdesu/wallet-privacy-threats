@@ -1,0 +1,3588 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/aodkkagnadcbobfpggfnjeongemjbjca",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/aodkkagnadcbobfpggfnjeongemjbjca",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762299337737,
+    "end": 1762299404708
+  },
+  "extensionID": "djaidlebfmmlnpfbihaophgdjmimgked",
+  "serviceWorker": "background_page",
+  "walletName": "bolt-x",
+  "notes": "",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "aodkkagnadcbobfpggfnjeongemjbjca",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.38",
+      "url": "https://api.zilliqa.com/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetLatestTxBlock\",\"params\":[]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:09 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "822",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.39",
+      "url": "https://eth-mainnet.alchemyapi.io/v2/_nSZdIqSXR5gfc_2YGSA5PgoyjEZnF8F",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBlockByNumber\",\"params\":[\"latest\",false],\"id\":42,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:36:09 GMT",
+        "content-encoding": "gzip",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "vary": "Origin, accept-encoding",
+        "x-alchemy-trace-id": "35f4a3b1-cc85-4447-aca3-4d715cfee205",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "access-control-allow-credentials": "true",
+        "x-envoy-upstream-service-time": "33",
+        "x-alchemy-response-status": "200",
+        "cf-ray": "9997ee92ba80b99e-BRU",
+        "x-alchemy-response-code": "200"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.40",
+      "url": "https://api.etherscan.io/api?module=account&action=txlist&address=0x033a5379BC3D5edD92b9B1dA762688E97CEF154c&startblock=0&endblock=99999999&sort=desc&apikey=NR2T7UNQ3ZCZFNPXNB9MZS6TV89GKPJ3UB&page=1&offset=20",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "vary": "Accept-Encoding",
+        "svid": "8",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "cache-control": "private",
+        "x-frame-options": "SAMEORIGIN",
+        "access-control-allow-headers": "Content-Type",
+        "content-length": "245"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.41",
+      "url": "https://api.etherscan.io/api?module=account&action=tokentx&address=0x033a5379BC3D5edD92b9B1dA762688E97CEF154c&startblock=0&endblock=999999999&sort=desc&apikey=NR2T7UNQ3ZCZFNPXNB9MZS6TV89GKPJ3UB&page=1&offset=20",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "vary": "Accept-Encoding",
+        "svid": "8",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "cache-control": "private",
+        "x-frame-options": "SAMEORIGIN",
+        "access-control-allow-headers": "Content-Type",
+        "content-length": "245"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.42",
+      "url": "https://api.viewblock.io/v2/zilliqa/addresses/zil1nvq9dwfuuvnfy0tt8jlqp8j6za0h4pmlzrp967/txs?network=mainnet&page=1",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "content-type": "application/json",
+        "referer": "",
+        "x-apikey": "d5628eed2bfe57140f14c313de2b5c932f898c43cd16ba3394d7ba7432c20e13",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-encoding": "br",
+        "cf-cache-status": "BYPASS",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "server": "cloudflare",
+        "x-powered-by": "Express",
+        "etag": "W/\"58-3fyV5kHkkCC2w/P4a3y8O9j/VFU\"",
+        "vary": "accept-encoding",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xuDANrnsZOO1qmSiuuEw36XbBKR8YAREXyP3GEsfyAmAeSbDi%2B0s4nwWHyqQN2nuN%2B7AvHu5RgiWkrYl%2Fk76LxauJbKRTyPcojCPgKk%3D\"}]}",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "cf-ray": "9997ee967b60b70f-BRU",
+        "access-control-allow-headers": "Origin, X-APIKEY, X-Requested-With, Content-Type, Accept, Authorization, sentry-trace"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.43",
+      "url": "https://api.etherscan.io/api?module=account&action=tokentx&address=0x033a5379BC3D5edD92b9B1dA762688E97CEF154c&startblock=0&endblock=999999999&sort=desc&apikey=NR2T7UNQ3ZCZFNPXNB9MZS6TV89GKPJ3UB",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "content-encoding": "gzip",
+        "server": "nginx",
+        "vary": "Accept-Encoding",
+        "svid": "8",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "cache-control": "private",
+        "x-frame-options": "SAMEORIGIN",
+        "access-control-allow-headers": "Content-Type",
+        "content-length": "245"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.44",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"id\":\"zil14pzuzq6v6pmmmrfjhczywguu0e97djepxt8g3e\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"a845c1034cd077bd8d32be0447239c7e4be6cb21\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1zu72vac254htqpg3mtywdcfm84l3dfd9qzww8t\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"173ca6770aa56eb00511dac8e6e13b3d7f16a5a5\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1p5suryq6q647usxczale29cu3336hhp376c627\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"0d21c1901a06abee40d8177f95171c8c63abdc31\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1x6z064fkssmef222gkhz3u5fhx57kyssn7vlu0\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"3684fd5536843794a94a45ae28f289b9a9eb1210\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1pqcev4ykxla0jhy3anx32lnqgv8xncd8q57ql2\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"083196549637faf95c91eccd157e60430e69e1a7\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil14jmjrkvfcz2uvj3y69kl6gas34ecuf2j5ggmye\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"acb721d989c095c64a24d16dfd23b08d738e2552\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1ucvrn22x8366vzpw5t7su6eyml2auczu6wnqqg\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"e61839a9463c75a6082ea2fd0e6b24dfd5de605c\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1qzwxvp3wz3q5ewzg3afesut9pqfax0sjdyna42\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"009c66062e14414cb8488f539871650813d33e12\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil14d6wwelssqumu6w9c6kaucz2r57z34cxuh96lf\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"ab74e767f08039be69c5c6adde604a1d3c28d706\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil168qdlq4xsua6ac9hugzntqyasf8gs7aund882v\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"d1c0df82a6873baee0b7e20535809d824e887bbc\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1lq3ghn3yaqk0w7fqtszv53hejunpyfyh3rx9gc\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"f8228bce24e82cf779205c04ca46f99726122497\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil12drvflckms6874ffuujcdxj75raavl4yfn4ssc\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"5346c4ff16dc347f5529e725869a5ea0fbd67ea4\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1kwfu3x9n6fsuxc4ynp72uk5rxge25enw7zsf9z\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"b393c898b3d261c362a4987cae5a833232aa666e\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1l0g8u6f9g0fsvjuu74ctyla2hltefrdyt7k5f4\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"fbd07e692543d3064b9cf570b27faabfd7948da4\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil18f5rlhqz9vndw4w8p60d0n7vg3n9sqvta7n6t2\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"3a683fdc022b26d755c70e9ed7cfcc446658018b\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1w5hwupgc9rxyuyd742g2c9annwahugrx80fw9h\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"752eee051828cc4e11beaa90ac17b39bbb7e2066\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1hau7z6rjltvjc95pphwj57umdpvv0d6kh2t8zk\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"bf79e16872fad92c16810ddd2a7b9b6858c7b756\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1r9dcsrya4ynuxnzaznu00e6hh3kpt7vhvzgva0\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"195b880c9da927c34c5d14f8f7e757bc6c15f997\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1xswavlggsqmkd9kddcp0ulceqm9ht36gqkt8ua\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"341dd67d0880376696cd6e02fe7f1906cb75c748\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1qldr63ds7yuspqcf02263y2lctmtqmr039vrht\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"07da3d45b0f1390083097a95a8915fc2f6b06c6f\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1ykcdhtgyercmv7ndfxt00wm9xzpq4k7hjmfm4e\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"25b0dbad04c8f1b67a6d4996f7bb6530820adbd7\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1504065pp76uuxm7s9m2c4gwszhez8pu3mp6r8c\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"a3eafd5021f6b9c36fd02ed58aa1d015f2238791\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1h63h5rlg7avatnlzhfnfzwn8vfspwkapzdy2aw\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"bea37a0fe8f759d5cfe2ba66913a676260175ba1\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1s8xzysqcxva2x6aducncv9um3zxr36way3fx9g\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"81cc224018333aa36bade62786179b888c38e9dd\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]},{\"id\":\"zil1c6akv8k6dqaac7ft8ezk5gr2jtxrewfw8hc27d\",\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"c6bb661eda683bdc792b3e456a206a92cc3cb92e\",\"balances\",[\"0x9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]]}]",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "2051",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.45",
+      "url": "https://api.zilliqa.com/",
+      "type": "XHR",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetBalance\",\"params\":[\"9b0056b93ce326923d6b3cbe009e5a175f7a877f\"]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "79",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.46",
+      "url": "https://api.coingecko.com/api/v3/simple/price?ids=bolt%2Cbitcoin%2Cethereum%2Cbinancecoin%2Czilliqa%2Cswitcheo%2Cgovernance-zil%2Cxsgd%2Ccarbon-labs%2Cxcad-network%2Czilpay-wallet%2Czilswap%2Cdmz-token%2Czilstream%2Cpackageportal%2Credchillies%2Czyro%2Czilsurvey%2Celons%2Creview-capital%2Czilchess%2Cdai%2Ceth%2Cuniswap%2Clink%2Cneo%2Cflamingo-finance%2Cusd-coin%2Ctether%2Ccelsius-degree-token%2Cneon-exchange%2Cwrapped-bitcoin%2Cbinance-usd%2Cbinance-bitcoin%2Ctruebit-protocol&vs_currencies=usd&include_24hr_change=true&include_last_updated_at=true",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "access-control-request-method": "*",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=15724800; includeSubdomains",
+        "content-encoding": "gzip",
+        "x-permitted-cross-domain-policies": "none",
+        "cf-cache-status": "EXPIRED",
+        "content-security-policy-report-only": "script-src https://accounts.google.com/gsi/client; frame-src https://accounts.google.com/gsi/; connect-src https://accounts.google.com/gsi/;",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "alternate-protocol": "443:npn-spdy/2",
+        "x-xss-protection": "0",
+        "x-request-id": "81672257-d4fd-4b17-ad97-a8c450c8088c",
+        "x-runtime": "0.013210",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "etag": "W/\"2b2e1e21c62ea8386ca85427b6b19b98\"",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "access-control-allow-methods": "POST, PUT, DELETE, GET, OPTIONS",
+        "content-type": "application/json; charset=utf-8",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "link, per-page, total",
+        "cache-control": "max-age=30, public, must-revalidate, s-maxage=60",
+        "vary": "Accept-Encoding, Origin",
+        "cf-ray": "9997ee964de6ba58-BRU",
+        "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.47",
+      "url": "https://api.coingecko.com/api/v3/simple/token_price/ethereum?contract_addresses=0xdac17f958d2ee523a2206206994597c13d831ec7%2C0xD5930C307d7395Ff807F2921F12C5EB82131a789%2C0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48%2C0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b%2C0x5f778ec4B31a506c1Dfd8b06F131E9B451a61D39%2C0x6B175474E89094C44Da98b954EedeAC495271d0F%2C0x514910771af9ca656af840dff83e8264ecf986ca%2C0x75231f58b43240c9718dd58b4967c5114342a86c%2C0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643%2C0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3%2C0x2260fac5e5542a773aa44fbcfedf7c193bc2c599%2C0x6f259637dcd74c767781e37bc6133cd6a68aa161%2C0x3883f5e181fccaf8410fa61e12b59bad963fb645%2C0x4fabb145d64652a948d72533023f6e7a623c7c53%2C0x80fB784B7eD66730e8b1DBd9820aFD29931aab03%2C0x1f9840a85d5af5bf1d1762f925bdaddc4201f984%2C0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f%2C0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2%2C0xd26114cd6EE289AccF82350c8d8487fedB8A0C07%2C0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828%2C0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e%2C0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d%2C0xc00e94cb662c3520282e6f5717214004a7f26888%2C0x0000000000085d4780B73119b644AE5ecd22b376%2C0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5%2C0x0d8775f648430679a709e98d2b0cb6250d2887ef%2C0x408e41876cccdc0f92210600ef50372656052a38%2C0x8e870d67f660d95d5be530380d0ec0bd388289e1%2C0xeb4c2781e4eba804ce9a9803c67d0893436bb27d%2C0xe41d2489571d322189246dafa5ebde1f4699f498%2C0xd7c49cee7e9188cca6ad8ff264c1da2e69d4cf3b%2C0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9%2C0xbbbbca6a901c926f240b89eacb641d8aec7aeafd%2C0x39aa39c021dfbae8fac545936693ac917d5e7563%2C0xdd974d5c2e2928dea5f71b9825b8b646686bd200%2C0xba11d00c5f74255f56a5e366f4f77f5a186d7f55%2C0x1776e1f26f98b1a5df9cd347953a26dd3cb46671%2C0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c%2C0xdf574c24545e5ffecb9a659c229253d4111d87e1%2C0x967da4048cD07aB37855c090aAF366e4ce1b9F48%2C0x4a220e6096b25eadb88358cb44068a3248254675%2C0x960b236A07cf122663c4303350609A66A7B288C0%2C0xba100000625a3754423978a60c9317c58a424e3d%2C0xcb97e65f07da24d46bcdd078ebebd7c6e6e3d750%2C0x0f5d2fb29fb7d3cfee444a200298f468908cc942%2C0xa74476443119A942dE498590Fe1f2454d7D4aC0d%2C0x744d70fdbe2ba4cf95131626614a1763df805b9e%2C0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9%2C0x973e52691176d36453868d9d86572788d27041a9&vs_currencies=usd&include_24hr_change=true&include_last_updated_at=true",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "postData": "",
+      "status": 400,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=15724800; includeSubdomains",
+        "cf-cache-status": "EXPIRED",
+        "x-permitted-cross-domain-policies": "none",
+        "content-security-policy-report-only": "script-src https://accounts.google.com/gsi/client; frame-src https://accounts.google.com/gsi/; connect-src https://accounts.google.com/gsi/;",
+        "server-timing": "cfExtPri",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-xss-protection": "0",
+        "x-request-id": "88208ee2-cbfe-4516-b8e2-46fbceb593aa",
+        "x-runtime": "0.001438",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Accept-Encoding, Origin",
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": "no-cache",
+        "cf-ray": "9997ee964de7ba58-BRU",
+        "priority": "u=1,i"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.48",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:20 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "314620",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.49",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1096",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.50",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "495",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.51",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1295",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.52",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "793",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.53",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "101",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.54",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "2795",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.55",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:11 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "39112",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.56",
+      "url": "https://eth-mainnet.alchemyapi.io/v2/_nSZdIqSXR5gfc_2YGSA5PgoyjEZnF8F",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":43,\"jsonrpc\":\"2.0\"}",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Tue, 04 Nov 2025 23:36:09 GMT",
+        "content-encoding": "gzip",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "vary": "Origin, accept-encoding",
+        "x-alchemy-trace-id": "7f9c390d-3a51-4098-b18f-494aa6fe6562",
+        "content-type": "application/json",
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "access-control-allow-credentials": "true",
+        "x-envoy-upstream-service-time": "21",
+        "x-alchemy-response-status": "200",
+        "cf-ray": "9997ee95fbfdb99e-BRU",
+        "x-alchemy-response-code": "200"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.72",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "137",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.73",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "718",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.74",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1931",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.75",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1619",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.76",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "4859",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.77",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:10 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1166",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.78",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:15 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "68294",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.101",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:20 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "314620",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.102",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1096",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.103",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "495",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.104",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1295",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.105",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "793",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.106",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "101",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.107",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "2795",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.108",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "39112",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.131",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "137",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.132",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1619",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.133",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "4859",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.134",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1931",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.135",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "718",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.136",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1166",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.137",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:18 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "68294",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.161",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "314620",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.162",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1096",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.163",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "495",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.164",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1295",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.165",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "793",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.166",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "101",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.167",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "2795",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.168",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "39112",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.191",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_uris\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.192",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_uris\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.193",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1619",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.194",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "137",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.195",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1166",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.196",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "718",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.197",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "4859",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.198",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1931",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.199",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:21 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "68294",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.200",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_uris\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.223",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:23 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "314620",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.224",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:23 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1096",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.225",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:23 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "495",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.226",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:23 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1295",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.227",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:23 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "793",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.228",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:23 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "101",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.229",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:23 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "2795",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.230",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:23 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "39112",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.276",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:24 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1619",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.277",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:24 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1931",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.278",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:24 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "718",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.279",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:24 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "4859",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.280",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:24 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "137",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.281",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:24 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1166",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.282",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:24 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "68294",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.283",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_uris\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.308",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.309",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.310",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.311",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.312",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.313",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.314",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.315",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.383",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.384",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.385",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.386",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.387",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.388",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.389",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.390",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.436",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.437",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.438",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.439",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.440",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.441",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.442",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.443",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.489",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.490",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.491",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.492",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.493",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.494",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.495",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.496",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.541",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:41 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "314620",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.542",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:38 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1096",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.543",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:38 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "495",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.544",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:38 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1295",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.545",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:38 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "793",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.546",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:38 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "101",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.547",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:38 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "2795",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.548",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:39 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "39112",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.571",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:38 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "718",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.572",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:38 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1619",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.573",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:38 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "137",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.574",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:38 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1166",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.575",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:39 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "4859",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.576",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:38 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1931",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.579",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_uris\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:40 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "68294",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.602",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:41 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "314620",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.603",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:41 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1096",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.604",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:41 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "495",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.605",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:41 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "1295",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.606",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:41 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "793",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.607",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:41 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "101",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.608",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:41 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "2795",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.609",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_owners\",[]]}",
+      "status": 200,
+      "responseHeaders": {
+        "access-control-allow-origin": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked",
+        "date": "Tue, 04 Nov 2025 23:36:41 GMT",
+        "via": "1.1 google",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "39112",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "content-type": "application/json; charset=utf-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.632",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_uris\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.633",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_uris\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.634",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_uris\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.635",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_uris\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.636",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_uris\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.637",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_uris\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.638",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_uris\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.639",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_uris\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.640",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_uris\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.663",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil167flx79fykulp57ykmh9gnf3curcnyux6dcj5e\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.664",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1vuev67ecznx6r7f40ypjvsxw2ecfcrqn37338h\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.665",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1eeunaphhw5kujp5rdzqvhtgasaumv5fg5gz794\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.666",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil17fwwwtmegd787fdcat5daccmn2krtgpv9wnc93\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.667",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1rdu5xjtynxswc7hpeprkezvkt3z8dxv0stjlqr\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.668",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1a5zc4jgzzghjq37t6dxmfuewuckgf9v4u9et24\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.669",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1kcu64h7xfhx4gesm245a9jqlmghq5kahxzp5h4\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://djaidlebfmmlnpfbihaophgdjmimgked/_generated_background_page.html",
+      "id": "83684.670",
+      "url": "https://api.zilliqa.com/",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua": "\"Not)A;Brand\";v=\"24\", \"Chromium\";v=\"116\"",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"GetSmartContractSubState\",\"params\":[\"zil1ddz8udx329dln9fh0c54yy7yf2s8s4trd2le4y\",\"token_owners\",[]]}",
+      "responseHeaders": {}
+    }
+  ],
+  "success": true
+}

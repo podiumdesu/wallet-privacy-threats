@@ -1,0 +1,808 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/nankopfjhdflikcokhgohiaoehnjfako",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/nankopfjhdflikcokhgohiaoehnjfako",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "pathID": "nankopfjhdflikcokhgohiaoehnjfako",
+  "timestamps": {
+    "start": 1762301608652,
+    "end": 1762301611783
+  },
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "walletName": "bee-wallet",
+  "notes": "dead",
+  "extensionID": "lbbljpebhlnaoieinocboepkdafjhgll",
+  "password": "Default1Password1!",
+  "requests": [
+    {
+      "requestContext": ["about:blank"],
+      "id": "593A4EA0AD70BAE2C9E75F4208E813E8",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html",
+      "type": "Document",
+      "method": "GET",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"116\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Mac OS X\""
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.2",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/index.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/css"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.3",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/index-rtl.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/css"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.4",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/images/icon-512.png",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "image/png"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.5",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/images/spinner.gif",
+      "type": "Image",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.6",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/globalthis.js",
+      "type": "Script",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.7",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/sentry-install.js",
+      "type": "Script",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.8",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/lockdown-install.js",
+      "type": "Script",
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {}
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.9",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/lockdown-run.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.10",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/lockdown-more.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.11",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/runtime-cjs.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.12",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/common-0.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.13",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/common-1.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.14",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/common-2.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.15",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/common-3.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.16",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/common-4.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.17",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/common-5.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.18",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/common-6.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.19",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/common-7.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.20",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/ui-0.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.21",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/ui-1.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.22",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/ui-2.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.23",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/ui-3.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.24",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/ui-4.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.25",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/ui-5.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.26",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/ui-6.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.27",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/ui-7.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.28",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/ui-8.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.29",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/ui-9.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.30",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/ui-10.js",
+      "type": "Script",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/javascript"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.35",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/react-gallery/carousel.min.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "text/css"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.47",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/fonts/Roboto/Roboto-Regular.ttf",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "origin": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "font/ttf"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.210",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/_locales/en/messages.json",
+      "type": "Fetch",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html"
+      ],
+      "id": "4229.211",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/_locales/en/messages.json",
+      "type": "Fetch",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "application/json"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html#unlock"
+      ],
+      "id": "4229.213",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/images/icon-32.png",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "image/png"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html#unlock"
+      ],
+      "id": "4229.214",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/images/expend.svg",
+      "type": "Image",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "image/svg+xml"
+      }
+    },
+    {
+      "requestContext": [
+        "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/popup.html#unlock"
+      ],
+      "id": "4229.48",
+      "url": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll/fonts/Roboto/Roboto-Medium.ttf",
+      "type": "Font",
+      "status": 200,
+      "method": "GET",
+      "headers": {
+        "referer": "",
+        "origin": "chrome-extension://lbbljpebhlnaoieinocboepkdafjhgll",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      },
+      "postData": "",
+      "responseHeaders": {
+        "content-security-policy": "script-src 'self';",
+        "cache-control": "no-cache",
+        "last-modified": "Wed, 04 Jan 2023 13:05:50 GMT",
+        "etag": "\"tQg0wlAOtY6PDT5FMyuox+iJQ1M=\"",
+        "content-type": "font/ttf"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: nankopfjhdflikcokhgohiaoehnjfako. Exiting..."
+}

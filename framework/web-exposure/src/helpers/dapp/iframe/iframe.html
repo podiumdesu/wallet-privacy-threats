@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Iframe Embedding Test</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background: #f0f0f0;
+      }
+      #frameContainer {
+        margin-top: 20px;
+        width: 800px;
+        height: 500px;
+        border: 2px solid #333;
+        background: white;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      #status {
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Automatic Iframe Embedding Test</h2>
+
+    <p>
+      This tool will automatically detect if the URL is truly embedded, blocked,
+      or blank. It tests a default URL on load, and you can also enter your own.
+    </p>
+
+    <label><strong>URL:</strong></label
+    ><br />
+    <input
+      id="urlInput"
+      style="width: 600px; padding: 8px"
+      value="https://app.uniswap.org/swap"
+    />
+    <button onclick="startTest()" style="padding: 8px 12px">Test</button>
+
+    <div id="status">Status: Not tested.</div>
+
+    <div id="frameContainer">
+      <iframe id="testFrame"></iframe>
+    </div>
+
+    <script>
+      // Run automatically on page load with the default URL in the input
+      window.addEventListener("DOMContentLoaded", () => {
+        const defaultUrl = document.getElementById("urlInput").value;
+        runTest(defaultUrl);
+      });
+
+      // Called when you click the "Test" button
+      function startTest() {
+        const url = document.getElementById("urlInput").value;
+        runTest(url);
+      }
+
+      function runTest(url) {
+        const iframe = document.getElementById("testFrame");
+        const status = document.getElementById("status");
+
+        status.textContent = "Loading iframe...";
+        status.style.color = "black";
+
+        iframe.src = url;
+
+        // Begin detection after iframe attempts to load
+        setTimeout(() => detectEmbed(iframe, status), 1200);
+      }
+
+      function detectEmbed(iframe, status) {
+        try {
+          // Try accessing iframe content
+          const doc = iframe.contentWindow.document;
+
+          // If we reach here: embedding allowed, same-origin!
+          status.textContent = "✓ Iframe embedded successfully (same-origin)";
+          status.style.color = "green";
+          return;
+        } catch (err) {
+          if (err instanceof DOMException && err.name === "SecurityError") {
+            // Cross-origin but successfully loaded
+            status.textContent =
+              "✓ Embedded (cross-origin) — embedding allowed";
+            status.style.color = "green";
+            return;
+          }
+
+          // Other errors mean block
+          status.textContent =
+            "✗ Embedding blocked (CSP or X-Frame-Options). See browser console.";
+          status.style.color = "red";
+        }
+
+        // Final fallback: check if iframe is still blank
+        if (
+          !iframe.contentWindow ||
+          iframe.contentWindow.location.href === "about:blank"
+        ) {
+          status.textContent =
+            "✗ Iframe failed to load (blank) — likely blocked.";
+          status.style.color = "red";
+        }
+      }
+    </script>
+  </body>
+</html>

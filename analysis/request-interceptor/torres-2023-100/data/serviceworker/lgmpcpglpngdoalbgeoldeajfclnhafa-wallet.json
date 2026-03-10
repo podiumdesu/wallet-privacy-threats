@@ -1,0 +1,80 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/old_version/extensions/profiles_new/lgmpcpglpngdoalbgeoldeajfclnhafa",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets/lgmpcpglpngdoalbgeoldeajfclnhafa",
+    "destination": "./final-results/old_version/extensions/crawl_new/2025-11-05T00-31-39",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762301470667,
+    "end": 1762301472569
+  },
+  "extensionID": "difmmjmnalhfnheggcihahcijeodmabk",
+  "serviceWorker": "service_worker",
+  "walletName": "safePal",
+  "notes": "dead",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+  "password": "Default1Password1!",
+  "pathID": "lgmpcpglpngdoalbgeoldeajfclnhafa",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://difmmjmnalhfnheggcihahcijeodmabk/backgroundV3.js",
+      "id": "2946.15",
+      "url": "https://ap.isafepal.com/wallet/v1/sys/chainNode",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "client": "wallet.ext;2.8.0;en;macOS-Chrome-116;;;2;;0;1;en-GB",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:11:11 GMT",
+        "content-encoding": "gzip",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "cf-ray": "999821e62d278688-BRU",
+        "vary": "accept-encoding",
+        "content-type": "application/json; charset=UTF-8"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://difmmjmnalhfnheggcihahcijeodmabk/backgroundV3.js",
+      "id": "2946.32",
+      "url": "https://ap.isafepal.com/wallet/v1/plugin/config?state=1&device_id=4036820d-9193-4ad2-8933-3c9d2f068f1a&address=0x033a5379bc3d5edd92b9b1da762688e97cef154c",
+      "type": "Fetch",
+      "method": "GET",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "client": "wallet.ext;2.8.0;en;macOS-Chrome-116;;;2;;0;1;en-GB",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "postData": "",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Wed, 05 Nov 2025 00:11:12 GMT",
+        "content-encoding": "gzip",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "cf-ray": "999821e76e4b8688-BRU",
+        "vary": "accept-encoding",
+        "content-type": "application/json; charset=UTF-8"
+      }
+    }
+  ],
+  "success": false,
+  "msg": "Error: Found 'dead' wallet address in CSV for path ID: lgmpcpglpngdoalbgeoldeajfclnhafa. Exiting..."
+}

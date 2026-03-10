@@ -1,0 +1,1303 @@
+{
+  "arguments": {
+    "printFrameHierarchy": true,
+    "debugLevel": "verbose",
+    "headless": false,
+    "profilePath": "./final-results/new_version/extensions/profiles_new/nfinomegcaccbhchhgflladpfbajihdf",
+    "links": 10,
+    "walletPath": "./preparation/original-wallets-new-version/nfinomegcaccbhchhgflladpfbajihdf",
+    "destination": "./final-results/new_version/extensions/crawl_new/2025-11-07T19-32-55",
+    "force": false,
+    "executablePath": "/opt/homebrew/bin/chromium"
+  },
+  "timestamps": {
+    "start": 1762542615574,
+    "end": 1762542658222
+  },
+  "extensionID": "nmjoijacmbgapojghefnmloigjjjkmkg",
+  "serviceWorker": "service_worker",
+  "walletName": "guwallet",
+  "notes": "",
+  "walletAddress": "0x033a5379bc3d5edd92b9b1da762688e97cef154c;0x4A981186BbFBeC244E0F7260529528D294EC04Ed;0x196E98A561479ff97D533401Cc10e95b238e1a2A",
+  "password": "Default1Password1!",
+  "pathID": "nfinomegcaccbhchhgflladpfbajihdf",
+  "requests": [
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542617766,
+      "id": "60387.169",
+      "url": "https://api.gu.net/v1/json-rpc/evm/1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:18 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "7da2af317bac8d579f9414fd06d23a4f;o=1",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "79"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542618299,
+      "id": "60387.172",
+      "url": "https://api.gu.net/v1/json-rpc/evm/81",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:18 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "0179397cc7e1a58e9f9414fd06d23283",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "76"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542618584,
+      "id": "60387.173",
+      "url": "https://api.gu.net/v1/json-rpc/evm/11155111",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:20 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "fea24e03e81af8f01328c7226a9c8ac3",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "75"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542620186,
+      "id": "60387.174",
+      "url": "https://api.gu.net/v1/json-rpc/evm/10081",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:20 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "011165c3f9ea34541328c7226a9c81ac",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "78"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542627046,
+      "id": "60387.377",
+      "url": "https://api.gu.net/v1/json-rpc/evm/1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:27 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "89ee7fee5ce7e0737545cc7230514c74",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "79"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542627483,
+      "id": "60387.378",
+      "url": "https://api.gu.net/v1/json-rpc/evm/81",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:27 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "740f0c563cbc99a57545cc723051477c",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "76"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542627787,
+      "id": "60387.379",
+      "url": "https://api.gu.net/v1/json-rpc/evm/11155111",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:28 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "27c0cfdf8255245f7545cc723051455c",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "75"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542628713,
+      "id": "60387.384",
+      "url": "https://api.gu.net/v1/json-rpc/evm/10081",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:28 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "d039af663a04276b7545cc723051403a;o=1",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "78"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542630839,
+      "id": "60387.569",
+      "url": "https://api.gu.net/v1/json-rpc/evm/1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:31 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "cb7eb1ba53325cbd7545cc7230514ef1",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "79"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542631302,
+      "id": "60387.570",
+      "url": "https://api.gu.net/v1/json-rpc/evm/81",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:31 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "47029c1d5507bf837545cc72305149e2",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "76"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542631574,
+      "id": "60387.571",
+      "url": "https://api.gu.net/v1/json-rpc/evm/11155111",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:31 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "bc70935e1565f8387545cc7230514339",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "75"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542632025,
+      "id": "60387.572",
+      "url": "https://api.gu.net/v1/json-rpc/evm/10081",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:32 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "b7b66e0c57beaf857545cc7230514e6f",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "78"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542634857,
+      "id": "60387.757",
+      "url": "https://api.gu.net/v1/json-rpc/evm/1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:35 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "d448e0a945ec59ff7545cc7230514bbe",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "79"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542635302,
+      "id": "60387.758",
+      "url": "https://api.gu.net/v1/json-rpc/evm/81",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:35 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "4123f7eb9738169e7545cc7230514f7c",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "76"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542635579,
+      "id": "60387.759",
+      "url": "https://api.gu.net/v1/json-rpc/evm/11155111",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:35 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "838854f09485c75f7545cc7230514062",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "75"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542636038,
+      "id": "60387.760",
+      "url": "https://api.gu.net/v1/json-rpc/evm/10081",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:36 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "6efbfcb9813d204c7545cc7230514754",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "78"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542638057,
+      "id": "60387.945",
+      "url": "https://api.gu.net/v1/json-rpc/evm/1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:38 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "263881ce4775ca9f7545cc72305149b2",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "79"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542638487,
+      "id": "60387.946",
+      "url": "https://api.gu.net/v1/json-rpc/evm/81",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:38 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "eeb6399629186fd07545cc7230514654",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "76"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542638762,
+      "id": "60387.947",
+      "url": "https://api.gu.net/v1/json-rpc/evm/11155111",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:39 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "5c60a9001a714dba7545cc7230514cbc;o=1",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "75"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542639016,
+      "id": "60387.972",
+      "url": "https://api.gu.net/v1/json-rpc/evm/81",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:39 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "f3531f51d989822f7545cc7230514a57",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "76"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542639209,
+      "id": "60387.976",
+      "url": "https://api.gu.net/v1/json-rpc/evm/10081",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:39 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "186c49ec6fab29ab7545cc7230514db9",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "78"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542641305,
+      "id": "60387.1153",
+      "url": "https://api.gu.net/v1/json-rpc/evm/1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:41 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "9d8ce252312f65147545cc7230514f03",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "79"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542641746,
+      "id": "60387.1154",
+      "url": "https://api.gu.net/v1/json-rpc/evm/81",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:41 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "85876b2693ff1783503ed956ef5f0109",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "76"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542642041,
+      "id": "60387.1155",
+      "url": "https://api.gu.net/v1/json-rpc/evm/11155111",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:42 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "63c328e253f6028b503ed956ef5f01b3",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "75"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542642486,
+      "id": "60387.1161",
+      "url": "https://api.gu.net/v1/json-rpc/evm/10081",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:42 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "9c0f5efd19efb815503ed956ef5f05ef",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "78"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542644521,
+      "id": "60387.1340",
+      "url": "https://api.gu.net/v1/json-rpc/evm/1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:44 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "791f965b02dbb278503ed956ef5f05af",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "79"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542644960,
+      "id": "60387.1341",
+      "url": "https://api.gu.net/v1/json-rpc/evm/81",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:45 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "4bb6306cac2956f0503ed956ef5f0a2f",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "76"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542645234,
+      "id": "60387.1342",
+      "url": "https://api.gu.net/v1/json-rpc/evm/11155111",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:45 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "c46e537141217914503ed956ef5f0ab7",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "75"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542645688,
+      "id": "60387.1343",
+      "url": "https://api.gu.net/v1/json-rpc/evm/10081",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:45 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "3862cf8e88ba9602503ed956ef5f0b61",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "78"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542647689,
+      "id": "60387.1528",
+      "url": "https://api.gu.net/v1/json-rpc/evm/1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:48 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "158680779df9019e503ed956ef5f008d",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "79"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542648155,
+      "id": "60387.1529",
+      "url": "https://api.gu.net/v1/json-rpc/evm/81",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:48 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "bc526a188449dc8c503ed956ef5f0fc3",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "76"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542648440,
+      "id": "60387.1530",
+      "url": "https://api.gu.net/v1/json-rpc/evm/11155111",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:48 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "94ccb56b926f8fb6503ed956ef5f0e82",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "75"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542648648,
+      "id": "60387.1555",
+      "url": "https://api.gu.net/v1/json-rpc/evm/81",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:48 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "5785356a7dcaef4b503ed956ef5f0d0e",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "76"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542648889,
+      "id": "60387.1559",
+      "url": "https://api.gu.net/v1/json-rpc/evm/10081",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:49 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "5b89103890ceaf73503ed956ef5f0bcd;o=1",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "78"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542650917,
+      "id": "60387.1747",
+      "url": "https://api.gu.net/v1/json-rpc/evm/1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:51 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "eb3393297baf9ba6503ed956ef5f026d",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "79"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542651363,
+      "id": "60387.1748",
+      "url": "https://api.gu.net/v1/json-rpc/evm/81",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:51 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "993e02bc15451858503ed956ef5f014e",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "76"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542651670,
+      "id": "60387.1749",
+      "url": "https://api.gu.net/v1/json-rpc/evm/11155111",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:52 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "8dbefab8ef19966f503ed956ef5f0ffc",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "75"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542652120,
+      "id": "60387.1750",
+      "url": "https://api.gu.net/v1/json-rpc/evm/10081",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:52 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "66c951f6c7b75ef5503ed956ef5f0960",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "78"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542653962,
+      "id": "60387.1921",
+      "url": "https://api.gu.net/v1/json-rpc/evm/1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:54 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "6555533c83f7552f503ed956ef5f08a9",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "79"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542654427,
+      "id": "60387.1922",
+      "url": "https://api.gu.net/v1/json-rpc/evm/81",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:54 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "40dd78a09408223d503ed956ef5f0066",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "76"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542654727,
+      "id": "60387.1923",
+      "url": "https://api.gu.net/v1/json-rpc/evm/11155111",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:55 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "886bf4f42c3a4fc7503ed956ef5f0bb5",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "75"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542654969,
+      "id": "60387.1946",
+      "url": "https://api.gu.net/v1/json-rpc/evm/11155111",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:55 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "736a8ad7c32cec7d503ed956ef5f0176",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "75"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542655176,
+      "id": "60387.1950",
+      "url": "https://api.gu.net/v1/json-rpc/evm/10081",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:55 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "40c8884fda24847a503ed956ef5f0748",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "78"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542657237,
+      "id": "60387.2138",
+      "url": "https://api.gu.net/v1/json-rpc/evm/1",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:57 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "bfa13ea8a9e07429503ed956ef5f08af",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "79"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542657677,
+      "id": "60387.2139",
+      "url": "https://api.gu.net/v1/json-rpc/evm/81",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "status": 200,
+      "responseHeaders": {
+        "date": "Fri, 07 Nov 2025 19:10:57 GMT",
+        "content-encoding": "gzip",
+        "via": "1.1 google",
+        "server": "Google Frontend",
+        "vary": "Origin,Accept-Encoding",
+        "content-type": "application/json",
+        "access-control-allow-origin": "*",
+        "x-cloud-trace-context": "934c08f674f6cb2f503ed956ef5f0d73",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "76"
+      }
+    },
+    {
+      "origin": "service worker",
+      "requestContext": "chrome-extension://nmjoijacmbgapojghefnmloigjjjkmkg/js/background.js",
+      "ts": 1762542657953,
+      "id": "60387.2140",
+      "url": "https://api.gu.net/v1/json-rpc/evm/11155111",
+      "type": "Fetch",
+      "method": "POST",
+      "headers": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "postData": "[{\"method\":\"eth_chainId\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"},{\"method\":\"eth_getBalance\",\"params\":[\"0x033a5379bc3d5edd92b9b1da762688e97cef154c\",\"latest\"],\"id\":2,\"jsonrpc\":\"2.0\"}]",
+      "responseHeaders": {}
+    }
+  ],
+  "success": true
+}
