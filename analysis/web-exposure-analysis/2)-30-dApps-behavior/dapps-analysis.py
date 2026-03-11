@@ -5,7 +5,7 @@ from glob import glob
 from urllib.parse import urlparse
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-RESULT_FOLDER = os.path.join(BASE_DIR, "results")
+RESULT_FOLDER = os.path.join(BASE_DIR, "data")
 OUTPUT_CSV = os.path.join(BASE_DIR, "2)-dApps-behavior-summary.csv")
 
 # Wallet prefixes that may appear in localStorage / cookies
