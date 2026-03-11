@@ -16,7 +16,7 @@ Specifically, the artifact includes:
 
 The artifact focuses on **reproducing the analysis results** presented in the paper. The experimental datasets are provided, so reviewers can run the analysis scripts directly. The analysis environment is provided through **Docker** to ensure reproducibility.
 
-Please refer to `ARTIFACT-APPENDIX.md` for detailed instructions on how to use the artifact.
+Please refer to [`ARTIFACT-APPENDIX.md`](https://github.com/podiumdesu/wallet-privacy-threats/blob/main/ARTIFACT-APPENDIX.md) for detailed instructions on how to use the artifact.
 
 ## Relevant Links
 
