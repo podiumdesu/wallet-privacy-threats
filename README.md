@@ -6,7 +6,25 @@ The paper will be published at [Proceedings on Privacy Enhancing Technologies Sy
 
 ## Artifact Instructions
 
+This artifact contains analysis scripts, frameworks, and datasets required to reproduce the results presented in our paper.
+
+Specifically, the artifact includes:
+
+- analysis scripts and experimental datasets
+- measurement frameworks used to collect the experimental datasets
+- wallet extension source-code datasets used by the measurement frameworks (archived on KU Leuven RDR)
+
+The artifact focuses on **reproducing the analysis results** presented in the paper. The experimental datasets are provided, so reviewers can run the analysis scripts directly. The analysis environment is provided through **Docker** to ensure reproducibility.
+
 Please refer to `ARTIFACT-APPENDIX.md` for detailed instructions on how to use the artifact.
+
+## Relevant Links
+
+The wallet extension source-code datasets are archived on KU Leuven RDR:
+
+https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/FUNFIS
+
+Demo can be accessed at: https://wallet-privacy.distriled.dnetcloud.cs.kuleuven.be/
 
 ## Abstract
 
