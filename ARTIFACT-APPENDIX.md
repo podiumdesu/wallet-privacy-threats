@@ -209,6 +209,11 @@ Then, set up MetaMask by creating a wallet address using the seed phrase "eye gl
 
 With this setup, you will be able to run [Experiment 4](#experiment-4-wallet-fingerprinting-and-stale-address-exposure) and [Experiment 5](#experiment-5-wallet-address-exposure-in-cross-origin-contexts)
 
+> ⚠️ **Warning**  
+> This seed phrase is publicly disclosed and should **never** be used for real funds. Please **do not transfer any cryptocurrency** to this address.
+>
+> During our experiments, we [transferred $1 to this wallet address](https://etherscan.io/tx/0x2e39689bb4018f604370db359c056f561df2543aca92292f5d4db4d55da2acaf), and the funds [were withdrawn by an unknown party](https://etherscan.io/tx/0x616ba6ac4f782210fff88abe587d6a3e9c0088bbe8918a9a4deb48a1923f6fe6) **16 hours after we open-sourced the seed phrase in the artifact**, illustrating how quickly exposed wallets are actively monitored and quickly drained.
+
 #### 4. Building the Network Interceptor Framework environment (Optional)
 
 The measurement framework requires Node.js and npm.

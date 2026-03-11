@@ -40,3 +40,18 @@ We propose practical mitigations and show that all five threats can be substanti
 This artifact is released under the MIT License.
 
 See the `LICENSE` file for details.
+
+## ⚠️ Warning: Public Seed Phrase
+
+> This seed phrase is publicly disclosed in `seed-phrase.json` and should **never be used to store real funds**.
+>
+> The corresponding wallet address is `0x033a5379bc3d5edd92b9b1da762688e97cef154c`.  
+> Please **do not transfer any cryptocurrency** to this address.
+>
+> During our experiments, we transferred $1 to this wallet address on 16 June 2025 for testing:
+> https://etherscan.io/tx/0x2e39689bb4018f604370db359c056f561df2543aca92292f5d4db4d55da2acaf
+>
+> The funds were withdrawn by an unknown party on 11 March 2026.
+> https://etherscan.io/tx/0x616ba6ac4f782210fff88abe587d6a3e9c0088bbe8918a9a4deb48a1923f6fe6
+>
+> This happened **16 hours after we open-sourced the seed phrase in this repository**, suggesting that publicly **exposed wallets are actively monitored and quickly drained** by automated bots or opportunistic actors.
