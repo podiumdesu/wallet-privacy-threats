@@ -46,7 +46,7 @@ The experimental datasets included in the artifact consist only of network reque
 
 ## Basic Requirements
 
-### Hardware Requirements (Required for Functional and Reproduced badges)
+### Hardware Requirements
 
 The artifact can run on a standard laptop. No special hardware is required.
 
@@ -120,7 +120,7 @@ The scripts generate LaTeX tables and CSV files containing the analysis results 
 
 Storage consumption: 10 GB.
 
-#### Measurement Frameworks
+#### Measurement Frameworks (Optional)
 
 Running the measurement frameworks is optional and not required to reproduce the analysis results.
 
@@ -199,7 +199,17 @@ You can verify this by running:
 docker images | grep analysis
 ```
 
-#### 3. Building the Network Interceptor Framework environment
+With this setup, you will be able to run [Experiment 1](#experiment-1-cross-dataset-comparison-of-address-exposure-and-third-party-connectivity), [Experiment 2](#experiment-2-network-traffic-patterns-revealing-wallet-address-linkability), and [Experiment 3](#experiment-3-dapp-behaviors).
+
+#### 3. Preparing for the Web Exposure Demo
+
+First, install MetaMask in your browser. E.g., for Chrome/Brave, use https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
+
+Then, set up MetaMask by creating a wallet address using the seed phrase "eye glide secret fence bread rotate viable anger child leader select razor".
+
+With this setup, you will be able to run [Experiment 4](#experiment-4-wallet-fingerprinting-and-stale-address-exposure) and [Experiment 5](#experiment-5-wallet-address-exposure-in-cross-origin-contexts)
+
+#### 4. Building the Network Interceptor Framework environment (Optional)
 
 The measurement framework requires Node.js and npm.
 
@@ -207,12 +217,6 @@ The measurement framework requires Node.js and npm.
 cd framework/request-interceptor/
 npm install
 ```
-
-#### 4. Preparing for the Web Exposure Demo
-
-First, install MetaMask in your browser. E.g., for Chrome/Brave, use https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
-
-Then, set up MetaMask by creating a wallet address using the seed phrase "eye glide secret fence bread rotate viable anger child leader select razor".
 
 ### Testing the Environment
 
@@ -238,15 +242,15 @@ If the environment is correctly configured, the command will complete successful
 ./request-interceptor/test-example/analysis_result/
 ```
 
-**Network request framework**
+**Web exposure framework**
+The web exposure behaviors are exercised through Experiments 4 and 5 using the demo workflow described below.
+
+**Network request framework** (Optional)
 
 ```bash
 cd framework/request-interceptor/
 ./run-extensions.sh wallet-extensions-test.txt auto
 ```
-
-**Web exposure framework**
-The web exposure behaviors are exercised through Experiments 4 and 5 using the demo workflow described below.
 
 ## Artifact Evaluation
 
