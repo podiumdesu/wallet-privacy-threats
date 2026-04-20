@@ -163,6 +163,14 @@ git clone https://github.com/podiumdesu/wallet-privacy-threats.git
 cd wallet-privacy-threats
 ```
 
+> **Windows note**  
+> This repository includes a `.gitattributes` file to enforce LF line endings for shell scripts.  
+> If Docker commands still fail with `env: 'bash\r': No such file or directory`, re-clone with:
+>
+> ```bash
+> git -c core.autocrlf=false clone https://github.com/podiumdesu/wallet-privacy-threats.git
+> ```
+
 After cloning the repository, the directory structure will look as follows:
 
 ```
