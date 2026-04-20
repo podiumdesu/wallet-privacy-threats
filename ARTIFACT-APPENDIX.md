@@ -22,7 +22,7 @@ Specifically, the artifact includes:
 
 - analysis scripts and experimental datasets
 - measurement frameworks used to collect the experimental datasets
-- wallet extension source-code datasets used by the measurement frameworks (archived on KU Leuven RDR)
+- wallet extension source-code datasets used by the measurement frameworks (archived on [KU Leuven RDR](https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/FUNFIS))
 
 The artifact focuses on **reproducing the analysis results** presented in the paper. The experimental datasets are provided, so reviewers can run the analysis scripts directly. The analysis environment is provided through **Docker** to ensure reproducibility.
 
@@ -100,9 +100,9 @@ However, the artifact is lightweight and should run on most modern systems.
 
    For the measurement frameworks:
    - For the network request interception framework, one wallet extension (MetaMask) is already included in the repository for the automated example.
-   * For the web exposure framework, evaluators can install any wallet extension directly from the Chrome Web Store and interact with the provided demonstration webpage.
+   - For the web exposure framework, evaluators can install any wallet extension directly from the Chrome Web Store and interact with the provided demonstration webpage.
 
-   * The entire wallet extension source code datasets are archived on KU Leuven RDR: https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/FUNFIS
+   - The entire wallet extension source code datasets are archived on KU Leuven RDR: https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/FUNFIS
 
 ### Estimated Time and Storage Consumption
 
@@ -150,7 +150,7 @@ The primary artifact entry point is the GitHub repository:
 
 https://github.com/podiumdesu/wallet-privacy-threats
 
-This repository contains the analysis scripts, experimental datasets, and measurement frameworks used in the paper. Additional resources, such as the wallet extension source-code datasets archived on KU Leuven RDR and the demonstration websites (whose source code is included in the repository), are linked from the. GitHub repository.
+This repository contains the analysis scripts, experimental datasets, and measurement frameworks used in the paper. Additional resources, such as the wallet extension source-code datasets archived on KU Leuven RDR and the demonstration websites (whose source code is included in the repository), are linked from the GitHub repository.
 
 The artifact is released under the MIT License (see `LICENSE` file).
 
@@ -172,7 +172,7 @@ After cloning the repository, the directory structure will look as follows:
 ├── README.md
 ├── analysis               # **Analysis scripts and experimental datasets**
 ├── framework              # **Frameworks**
-├── datasets               # Wallet extension source code datasets (The whole is hosted on KU Leuven RDR)
+├── datasets               # Wallet extension source code datasets (The whole is hosted on [KU Leuven RDR](https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/FUNFIS))
 ├── seed-phrase.json       # Test wallet seed phrases used in the experiments
 ├── demo                   # Source code for web-exposure demo
 └── responsible-disclosure # Documentation of the responsible disclosure process
