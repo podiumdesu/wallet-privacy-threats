@@ -74,13 +74,13 @@ However, the artifact is lightweight and should run on most modern systems.
 
    - Docker (tested with version 29.2.1). Docker installation instructions are available at: https://docs.docker.com/get-docker/
 
-​ All required system packages and dependencies for the analysis are installed automatically when building the Docker image.
+   All required system packages and dependencies for the analysis are installed automatically when building the Docker image.
 
-​ The measurement frameworks additionally require a Chromium-based browser (e.g., Google Chrome).
+   The measurement frameworks additionally require a Chromium-based browser (e.g., Google Chrome).
 
 3. Artifact packaging
 
-​ The analysis environment is packaged using Docker: version 29.2.1, build a5c7197
+   The analysis environment is packaged using Docker: version 29.2.1, build a5c7197
 
 4. Programming language compiler
    - Python 3.11 (analysis scripts)
@@ -180,7 +180,7 @@ After cloning the repository, the directory structure will look as follows:
 ├── README.md
 ├── analysis               # **Analysis scripts and experimental datasets**
 ├── framework              # **Frameworks**
-├── datasets               # Wallet extension source code datasets (The whole is hosted on [KU Leuven RDR](https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/FUNFIS))
+├── datasets               # Wallet extension source code datasets (The whole is hosted on KU Leuven RDR)
 ├── seed-phrase.json       # Test wallet seed phrases used in the experiments
 ├── demo                   # Source code for web-exposure demo
 └── responsible-disclosure # Documentation of the responsible disclosure process
@@ -192,7 +192,9 @@ The `framework/` directory contains the measurement frameworks used to collect t
 
 #### 2. Building the Analysis environment
 
-```
+From the repository root (`wallet-privacy-threats/`), run:
+
+```bash
 cd analysis
 docker build -t analysis .
 ```
@@ -226,6 +228,8 @@ With this setup, you will be able to run [Experiment 4](#experiment-4-wallet-fin
 
 The measurement framework requires Node.js and npm.
 
+From the repository root (`wallet-privacy-threats/`), run:
+
 ```bash
 cd framework/request-interceptor/
 npm install
@@ -236,6 +240,8 @@ npm install
 **Analysis**
 
 After building the Docker image, run the following command to verify that the analysis environment is configured correctly.
+
+From the repository root (`wallet-privacy-threats/`), run:
 
 ```bash
 cd analysis
@@ -252,13 +258,16 @@ The script processes the test dataset and generates analysis outputs.
 If the environment is correctly configured, the command will complete successfully and produce output files in:
 
 ```bash
-./request-interceptor/test-example/analysis_result/
+./analysis/request-interceptor/test-example/analysis_result/
 ```
 
 **Web exposure framework**
+
 The web exposure behaviors are exercised through Experiments 4 and 5 using the demo workflow described below.
 
 **Network request framework** (Optional)
+
+From the repository root (`wallet-privacy-threats/`), run:
 
 ```bash
 cd framework/request-interceptor/
@@ -307,7 +316,7 @@ Our paper claims that wallets injecting their provider into cross-origin iframes
 
 This experiment reproduces [Main Results 1](#main-result-1-number-of-wallets-leak-address), [2](#main-result-2-third-party-domains-receiving-addresses), and [3](#main-result-3-analytics-presence-in-wallets). It runs the network request analysis on three wallet experimental datasets and generates **Table 1** of the paper.
 
-**From the `analysis/` directory**, run:
+From the `wallet-privacy-threats/analysis/` directory, run:
 
 ```bash
 docker run --rm -it \
@@ -335,7 +344,7 @@ It also generates a LaTeX table that reproduces **Table 1** of the paper:
 
 This example experiment reproduces [Main result 4](#main-result-4-network-traffic-patterns-reveal-wallet-addresses-linkability). It analyzes the network traffic of wallets in `cws-10k-85` and generates **CSV files** for the results in **Table 2**.
 
-**From the `analysis/` directory**, run:
+From the `wallet-privacy-threats/analysis/` directory, run:
 
 ```bash
 docker run --rm -it \
@@ -353,7 +362,7 @@ After execution, the analysis results will be written to:
 The following output file reproduces the results in Table 2:
 
 ```bash
-./analysis_result/request_pattern/wallet_leaks_per_extension.csv
+./request-interceptor/cws-10k-85/analysis_result/request_pattern/wallet_leaks_per_extension.csv
 ```
 
 > **Note**
@@ -373,7 +382,7 @@ Check the CSV file for:
 
 This example experiment reproduces [Main result 5](#main-result-5-dapp-behaviors). It analyzes the behavior of 30 popular Ethereum dApps and generates **Table 4** of the paper.
 
-**From the `analysis/` directory**, run:
+From the `wallet-privacy-threats/analysis/` directory, run:
 
 ```bash
 docker run --rm -it \
