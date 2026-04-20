@@ -427,7 +427,27 @@ def write_latex_table(output_path: Path, summaries: List[Dict[str, object]]) -> 
             return f"{latex_escape(domain)} ({cnt})"
         return ""
 
-    tex = f"""\\begin{{table}}[t!]
+    tex = f"""\\documentclass[sigconf,balance=false]{{acmart}}
+
+\\usepackage{{booktabs}}
+\\usepackage{{tabularx}}
+\\usepackage{{xcolor}}
+\\usepackage{{makecell}}
+\\usepackage{{graphicx}}
+\\usepackage{{adjustbox}}
+\\usepackage{{float}}
+\\usepackage{{array}}
+
+\\newcolumntype{{x}}[1]{{>{{\\centering\\arraybackslash\\hspace{{0pt}}}}p{{#1}}}}
+
+% Macros required by Table 1
+\\newcommand{{\\TorresOld}}{{\\textit{{Torres-2023/100}}}}
+\\newcommand{{\\TorresNew}}{{\\textit{{Torres-2025/100}}}}
+\\newcommand{{\\NewEightyFive}}{{\\textit{{CWS-10K/85}}}}
+
+\\begin{{document}}
+
+\\begin{{table}}[t!]
 \\centering
 \\small
 
@@ -437,9 +457,9 @@ def write_latex_table(output_path: Path, summaries: List[Dict[str, object]]) -> 
 \\begin{{tabular}}{{p{{4.5cm}}x{{0.9cm}}x{{0.9cm}}x{{0.9cm}}}}
 \\toprule
 \\textbf{{Metric}} &
-\\textbf{{{s1['dataset_latex']}}} &
-\\textbf{{{s2['dataset_latex']}}} &
-\\textbf{{{s3['dataset_latex']}}} \\\\
+\\textbf{{\\TorresOld{{}}}} &
+\\textbf{{\\TorresNew{{}}}} &
+\\textbf{{\\NewEightyFive{{}}}} \\\\
 
 \\midrule
 \\multicolumn{{4}}{{l}}{{\\textbf{{Number of Wallets Leak Addresses}}}} \\\\
@@ -454,17 +474,15 @@ To telemetry endpoints & {s1['to_telemetry_endpoints']} & {s2['to_telemetry_endp
 Total domains receiving addresses & {s1['total_domains_receiving_addresses']} & {s2['total_domains_receiving_addresses']} & {s3['total_domains_receiving_addresses']} \\\\
 Contacted by only one wallet & {s1['contacted_by_only_one_wallet']} & {s2['contacted_by_only_one_wallet']} & {s3['contacted_by_only_one_wallet']} \\\\
 Percentage contacted by only one wallet &
-{percent_str(int(s1['contacted_by_only_one_wallet']), int(s1['total_domains_receiving_addresses']))} &
-{percent_str(int(s2['contacted_by_only_one_wallet']), int(s2['total_domains_receiving_addresses']))} &
-{percent_str(int(s3['contacted_by_only_one_wallet']), int(s3['total_domains_receiving_addresses']))} \\\\
+{percent_str(int(s1['contacted_by_only_one_wallet']), int(s1['total_domains_receiving_addresses']))} & {percent_str(int(s2['contacted_by_only_one_wallet']), int(s2['total_domains_receiving_addresses']))} & {percent_str(int(s3['contacted_by_only_one_wallet']), int(s3['total_domains_receiving_addresses']))}\\\\
 
 \\midrule
 \\multicolumn{{4}}{{l}}{{\\textbf{{Analytics / Telemetry Presence in Wallets}}}} \\\\
 \\midrule
-\\# Wallets embedding analytics &
-{s1['wallets_embedding_analytics_display_tex']} &
-{s2['wallets_embedding_analytics_display_tex']} &
-{s3['wallets_embedding_analytics_display_tex']} \\\\
+Wallets embedding analytics/telemetry &
+{s1['wallets_embedding_analytics_count']}/{s1['to_any_endpoints']} ({(100.0 * int(s1['wallets_embedding_analytics_count']) / int(s1['to_any_endpoints']) if int(s1['to_any_endpoints']) else 0):.1f}\\%) &
+{s2['wallets_embedding_analytics_count']}/{s2['to_any_endpoints']} ({(100.0 * int(s2['wallets_embedding_analytics_count']) / int(s2['to_any_endpoints']) if int(s2['to_any_endpoints']) else 0):.1f}\\%) &
+{s3['wallets_embedding_analytics_count']}/{s3['to_any_endpoints']} ({(100.0 * int(s3['wallets_embedding_analytics_count']) / int(s3['to_any_endpoints']) if int(s3['to_any_endpoints']) else 0):.1f}\\%) \\\\
 \\midrule
 \\end{{tabular}}
 
@@ -491,9 +509,12 @@ Percentage contacted by only one wallet &
 \\end{{tabular}}
 
 \\vspace{{1em}}
-\\caption{{Cross-dataset comparison of address exposure and third-party connectivity across legacy ({s1['dataset_latex']}, {s2['dataset_latex']}) and contemporary ({s3['dataset_latex']}) browser-wallet datasets.}}
+\\caption{{Comparison of wallet address leakage and third-party connectivity across the \\TorresOld{{}}, \\TorresNew{{}}, and \\NewEightyFive{{}} datasets.}}
 \\label{{tab:3-datasets-comparison}}
+\\vspace{{-4em}}
 \\end{{table}}
+
+\\end{{document}}
 """
     output_path.write_text(tex, encoding="utf-8")
 
