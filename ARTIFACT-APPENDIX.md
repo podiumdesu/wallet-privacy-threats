@@ -279,7 +279,7 @@ Our paper claims that wallet-specific backend domains dominate the set of third-
 
 #### Main Result 3: Analytics presence in wallets
 
-Our paper claims that analytics services are increasingly embedded in wallet extensions. This claim is reproduced by [Experiment 1](#experiment-1-cross-dataset-comparison-of-address-exposure-and-third-party-connectivity) and corresponds to the **"Analytics Presence in Wallets"** in **Table 1**.
+Our paper claims that analytics services are increasingly embedded in wallet extensions. This claim is reproduced by [Experiment 1](#experiment-1-cross-dataset-comparison-of-address-exposure-and-third-party-connectivity) and corresponds to the **"Analytics / Telemetry Presence in Wallets"** in **Table 1**.
 
 #### Main Result 4: Network traffic patterns reveal wallet addresses' linkability
 
@@ -355,6 +355,9 @@ The following output file reproduces the results in Table 2:
 ```bash
 ./analysis_result/request_pattern/wallet_leaks_per_extension.csv
 ```
+
+> **Note**
+> Although the output file uses the `.csv` extension, its fields are separated with semicolons (`;`) rather than commas. This formatting is used by the analysis scripts when exporting the table and should be taken into account when opening the file in spreadsheet software or parsing it programmatically.
 
 Check the CSV file for:
 
