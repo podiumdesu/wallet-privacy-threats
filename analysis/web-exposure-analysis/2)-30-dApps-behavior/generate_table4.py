@@ -192,7 +192,22 @@ def write_summary_md(path: Path, summary: Dict[str, object]) -> None:
 
 
 def write_latex_table(path: Path, summary: Dict[str, object]) -> None:
-    tex = f"""\\begin{{table}}[t]
+    tex = f"""\\documentclass[sigconf,balance=false]{{acmart}}
+
+\\usepackage{{booktabs}}
+\\usepackage{{tabularx}}
+\\usepackage{{xcolor}}
+\\usepackage{{makecell}}
+\\usepackage{{graphicx}}
+\\usepackage{{adjustbox}}
+\\usepackage{{float}}
+\\usepackage{{array}}
+
+\\newcommand{{\\revokePermissions}}{{{{\\small\\texttt{{wallet\\_revokePermissions}}}}}}
+\\newcommand{{\\ethAccounts}}{{{{\\small\\texttt{{eth\\_accounts}}}}}}
+
+\\begin{{document}}
+    \\begin{{table}}[t]
   \\centering
   \\small
   \\begin{{tabular}}{{lcc}}
@@ -212,6 +227,7 @@ def write_latex_table(path: Path, summary: Dict[str, object]) -> None:
   \\label{{tab:dapp-summary}}
   \\vspace{{-3em}}
 \\end{{table}}
+\\end{{document}}
 """
     path.write_text(tex, encoding="utf-8")
 
