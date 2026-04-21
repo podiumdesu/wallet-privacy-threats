@@ -213,9 +213,30 @@ With this setup, you will be able to run [Experiment 1](#experiment-1-cross-data
 
 #### 3. Preparing for the Web Exposure Demo
 
-First, install MetaMask in your browser. E.g., for Chrome/Brave, use https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
+First, install the example wallet extensions in your browser. To help reproduce the behaviors reported in the paper, we include four wallet extension source-code folders under `./datasets/cws-10k-85/`.
 
-Then, set up MetaMask by creating a wallet address using the seed phrase "eye glide secret fence bread rotate viable anger child leader select razor".
+The following wallets can be used for Experiment 4 and 5:
+
+| Wallet   | version |                           PathId | Iframe Exposure (Exp. 5) | Leaks when locked (Exp. 5) | Revocation-unsafe (Exp. 4) |
+| -------- | ------- | -------------------------------: | ------------------------ | -------------------------- | -------------------------- |
+| MetaMask | 13.10.4 | nkbihfbeogaeaoehlefnkodbefgpgknn | Yes                      | Yes                        | No                         |
+| Phantom  | 25.21.0 | bfnaelmomeimhlpmgjnjophhpkkoljpa | Yes                      | Yes                        | Yes                        |
+| Ronin    | 2.10.0  | fnjhmkhhmkbjkkabndcnnogagogbneec | Yes                      | No                         | Yes                        |
+| Bitget   | 2.16.14 | jiidiaalihmmhddjgbnbgdfflelocpak | No                       | -                          | Yes                        |
+
+You can load these extensions into your browser as unpacked extensions as follows:
+
+1. Open `chrome://extensions` in the browser.
+2. Enable **Developer mode** in the top-right corner.
+3. Click **Load unpacked**.
+4. Select the folder of the wallet extension under `./datasets/cws-10k-85`.
+5. The wallet extension should now appear in the browser.
+
+<!-- First, install MetaMask in your browser. E.g., for Chrome/Brave, use https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn -->
+
+Then, set up these wallets by creating a wallet address using the seed phrase:
+
+> `eye glide secret fence bread rotate viable anger child leader select razor`
 
 With this setup, you will be able to run [Experiment 4](#experiment-4-wallet-fingerprinting-and-stale-address-exposure) and [Experiment 5](#experiment-5-wallet-address-exposure-in-cross-origin-contexts)
 
