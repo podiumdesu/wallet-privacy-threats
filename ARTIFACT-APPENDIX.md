@@ -305,7 +305,7 @@ Our paper claims that many browser-extension wallets expose wallet addresses in 
 
 #### Main Result 2: Third-party domains receiving addresses
 
-Our paper claims that wallet-specific backend domains dominate the set of third-party domains receiving wallet addresses, resulting in a highly fragmented ecosystem. This claim is reproduced by [Experiment 1](#experiment-1-cross-dataset-comparison-of-address-exposure-and-third-party-connectivity) and corresponds to the domain-level results reported in **Table 1**.
+Our paper claims that wallet-specific backend domains dominate the set of third-party domains receiving wallet addresses, resulting in a highly fragmented ecosystem. This claim is reproduced by [Experiment 1](#experiment-1-cross-dataset-comparison-of-address-exposure-and-third-party-connectivity) and corresponds to the **"Third-Party Domains Receiving Addresses"** and **"Third-Party Domains Receiving Addresses (most contacted)"** sections of **Table 1**.
 
 #### Main Result 3: Analytics presence in wallets
 
