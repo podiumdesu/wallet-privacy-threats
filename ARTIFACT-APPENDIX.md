@@ -428,15 +428,17 @@ This experiment reproduces [Main Result 7](#main-result-7-wallet-provider-inject
 1. Open the demo website in a browser with a wallet extension installed:
    https://wallet-privacy.distriled.dnetcloud.cs.kuleuven.be/
 
-2. Step 0 lists wallets that could be vulnerable, highlighted in red
+2. On the demo website, look at the section labeled **"Step 0"**. This section lists wallets that could be vulnerable, highlighted in red
 
-3. Click "Open demo dApp" in Step 1.
+3. On the same demo website, in the section labeled **“Step 1”**, click **“Open demo dApp”**.
 
-4. In the newly opened dApp (https://dappx.weihongw.com/), connect one of the wallets highlighted in red in step 0.
+4. In the newly opened dApp (https://dappx.weihongw.com/), connect one of the wallets highlighted in red in the demo website’s **“Step 0”** section.
 
-5. Close the dApp, and return to the demo page.
+5. Close the dApp tab, and return to the original demo website.
 
-If the wallet is vulnerable to the attack, Step 2 will display a leaked wallet address retrieved from the iframe context. These behaviors correspond to entries marked red in the "Iframe Exposure" column reported in Table 5.
+6. On the demo website, check the section labeled **“Step 2”**. If one or more wallet addresses are displayed there for the wallet you connected in the dApp, then the wallet is vulnerable to the attack.
+
+These behaviors correspond to entries marked red in the "Iframe Exposure" column reported in Table 5.
 
 ## Limitations
 
