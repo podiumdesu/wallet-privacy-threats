@@ -217,12 +217,12 @@ First, install the example wallet extensions in your browser. To help reproduce 
 
 The following wallets can be used for Experiment 4 and 5:
 
-| Wallet   | version |                           PathId | Iframe Exposure (Exp. 5) | Leaks when locked (Exp. 5) | Revocation-unsafe (Exp. 4) |
-| -------- | ------- | -------------------------------: | ------------------------ | -------------------------- | -------------------------- |
-| MetaMask | 13.10.4 | nkbihfbeogaeaoehlefnkodbefgpgknn | Yes                      | Yes                        | No                         |
-| Phantom  | 25.21.0 | bfnaelmomeimhlpmgjnjophhpkkoljpa | Yes                      | Yes                        | Yes                        |
-| Ronin    | 2.10.0  | fnjhmkhhmkbjkkabndcnnogagogbneec | Yes                      | No                         | Yes                        |
-| Bitget   | 2.16.14 | jiidiaalihmmhddjgbnbgdfflelocpak | No                       | -                          | Yes                        |
+| Wallet   | Version |                          Path ID |
+| -------- | ------- | -------------------------------: |
+| MetaMask | 13.10.4 | nkbihfbeogaeaoehlefnkodbefgpgknn |
+| Phantom  | 25.21.0 | bfnaelmomeimhlpmgjnjophhpkkoljpa |
+| Ronin    | 2.10.0  | fnjhmkhhmkbjkkabndcnnogagogbneec |
+| Bitget   | 2.16.14 | jiidiaalihmmhddjgbnbgdfflelocpak |
 
 You can load these extensions into your browser as unpacked extensions as follows:
 
@@ -433,11 +433,22 @@ This experiment reproduces [Main result 6](#main-result-6-wallet-fingerprinting-
 
 3. Click "1. Connect wallet" to connect the wallet to the website.
 
-4. Click "Disconnect wallet and test."
+4. Open the browser’s developer console (F12).
 
-The result will be shown on the website.
+5. Click "Disconnect wallet and test."
 
-If the wallet is revocation-unsafe, as shown on the website, then it corresponds to the entries marked red in the "revoke?" column of Table 3.
+The result shown on the website indicates whether the wallet is revocation-unsafe. This corresponds to the **"Revocation unsafe"** column in Table 3.
+
+The value corresponding to the **“Error returned?”** column in Table 3 can be observed in the browser’s developer console. If the wallet returns an error during the revocation check, that error will be printed there.
+
+Example outcomes for the included wallet extensions are shown below:
+
+| Wallet   | Version |                          Path ID | Revocation-unsafe (Exp. 4) | Error returned? (Exp. 4) |
+| -------- | ------- | -------------------------------: | -------------------------- | ------------------------ |
+| MetaMask | 13.10.4 | nkbihfbeogaeaoehlefnkodbefgpgknn | No                         | -                        |
+| Phantom  | 25.21.0 | bfnaelmomeimhlpmgjnjophhpkkoljpa | Yes                        | Not supported            |
+| Ronin    | 2.10.0  | fnjhmkhhmkbjkkabndcnnogagogbneec | Yes                        | Not supported            |
+| Bitget   | 2.16.14 | jiidiaalihmmhddjgbnbgdfflelocpak | Yes                        | Not supported            |
 
 #### Experiment 5: Wallet address exposure in cross-origin contexts
 
@@ -449,7 +460,7 @@ This experiment reproduces [Main Result 7](#main-result-7-wallet-provider-inject
 1. Open the demo website in a browser with a wallet extension installed:
    https://wallet-privacy.distriled.dnetcloud.cs.kuleuven.be/
 
-2. On the demo website, look at the section labeled **"Step 0"**. This section lists wallets that could be vulnerable, highlighted in red
+2. On the demo website, look at the section labeled **"Step 0"**. This section lists wallets that could be vulnerable, highlighted in red.
 
 3. On the same demo website, in the section labeled **“Step 1”**, click **“Open demo dApp”**.
 
@@ -459,7 +470,18 @@ This experiment reproduces [Main Result 7](#main-result-7-wallet-provider-inject
 
 6. On the demo website, check the section labeled **“Step 2”**. If one or more wallet addresses are displayed there for the wallet you connected in the dApp, then the wallet is vulnerable to the attack.
 
-These behaviors correspond to entries marked red in the "Iframe Exposure" column reported in Table 5.
+These behaviors correspond to entries marked red in the **"Iframe Exposure"** column reported in Table 5.
+
+To observe **"Leaks When Locked"** column in Table 5, the wallet must be in a locked state. This can be done either by manually locking the wallet in its extension UI (typically under the settings) or by closing the browser completely and reopening it. If wallet addresses are still displayed in the demo website's **"Step 2"** section, then the wallet is marked as leaking when locked.
+
+Example outcomes for the included wallet extensions are shown below:
+
+| Wallet   | Version |                          Path ID | Iframe Exposure (Exp. 5) | Leaks When Locked (Exp. 5) |
+| -------- | ------- | -------------------------------: | ------------------------ | -------------------------- |
+| MetaMask | 13.10.4 | nkbihfbeogaeaoehlefnkodbefgpgknn | Yes                      | Yes                        |
+| Phantom  | 25.21.0 | bfnaelmomeimhlpmgjnjophhpkkoljpa | Yes                      | Yes                        |
+| Ronin    | 2.10.0  | fnjhmkhhmkbjkkabndcnnogagogbneec | Yes                      | No                         |
+| Bitget   | 2.16.14 | jiidiaalihmmhddjgbnbgdfflelocpak | No                       | -                          |
 
 ## Limitations
 
