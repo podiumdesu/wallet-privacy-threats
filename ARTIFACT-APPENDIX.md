@@ -213,7 +213,7 @@ With this setup, you will be able to run [Experiment 1](#experiment-1-cross-data
 
 #### 3. Preparing for the Web Exposure Demo
 
-First, install the example wallet extensions in your browser. To help reproduce the behaviors reported in the paper, we include four wallet extension source-code folders under `./datasets/cws-10k-85/`.
+First, install the example wallet extensions in your browser. To help reproduce the behaviors reported in the paper, we include four wallet extension source-code folders under `./datasets/cws-10k-85/`. The full `cws-10k-85` can be downloaded from [KU Leuven RDR](https://rdr.kuleuven.be/file.xhtml?fileId=337311&version=1.0).
 
 The following wallets can be used for Experiment 4 and 5:
 
