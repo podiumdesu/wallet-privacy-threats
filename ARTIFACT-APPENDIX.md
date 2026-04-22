@@ -380,21 +380,28 @@ After execution, the analysis results will be written to:
 ./request-interceptor/cws-10k-85/analysis_result/
 ```
 
-The following output file reproduces the results in Table 2:
+The following output files are used to reproduce the results in Table 2:
 
 ```bash
 ./request-interceptor/cws-10k-85/analysis_result/request_pattern/wallet_leaks_per_extension.csv
+./request-interceptor/cws-10k-85/analysis_result/tracker_presence/analytics_summary.csv
+./request-interceptor/cws-10k-85/analysis_result/tracker_presence/wallet_leak_types.csv
 ```
 
 > **Note**
 > Although the output file uses the `.csv` extension, its fields are separated with semicolons (`;`) rather than commas. This formatting is used by the analysis scripts when exporting the table and should be taken into account when opening the file in spreadsheet software or parsing it programmatically.
 
-Check the CSV file for:
+The following table shows how the columns in Table 2 map to the generated output files:
 
-1.  Co-occurrence signal ("multi_wallet_leak_hits" > 0)
-2.  Co-occurrence domains ("multi_wallet_domains")
-3.  Timing correlation signal ("multi_window_hits" > 0)
-4.  Timing correlation domains ("multi_window_domains")
+| Table 2 column          | Output file                                      | How to interpret it                                               |
+| ----------------------- | ------------------------------------------------ | ----------------------------------------------------------------- |
+| Analytics embedded      | `tracker_presence/analytics_summary.csv`         | Check whether `analytics_hits > 0`                                |
+| # Addr. Recipients      | `request_pattern/wallet_leaks_per_extension.csv` | See `num_third_party_domains`                                     |
+| Addr. to Analytics      | `tracker_presence/wallet_leak_types.csv`         | Check whether `wallet_leak_analytics + wallet_leak_telemetry > 0` |
+| Co-occurrence           | `request_pattern/wallet_leaks_per_extension.csv` | Check whether `multi_wallet_leak_hits > 0`                        |
+| Co-occurrence Dom.      | `request_pattern/wallet_leaks_per_extension.csv` | See `multi_wallet_domains`                                        |
+| Timing Correlation      | `request_pattern/wallet_leaks_per_extension.csv` | Check whether `multi_window_hits > 0`                             |
+| Timing Correlation Dom. | `request_pattern/wallet_leaks_per_extension.csv` | See `multi_window_domains`                                        |
 
 #### Experiment 3: dApp behaviors
 
