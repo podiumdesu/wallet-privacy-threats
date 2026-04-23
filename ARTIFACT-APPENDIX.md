@@ -279,7 +279,7 @@ The script processes the test dataset and generates analysis outputs.
 If the environment is correctly configured, the command will complete successfully and produce output files in:
 
 ```bash
-./analysis/request-interceptor/test-example/analysis_result/
+./request-interceptor/test-example/analysis_result/
 ```
 
 **Web exposure framework**
@@ -337,9 +337,11 @@ Our paper claims that wallets injecting their provider into cross-origin iframes
 
 This experiment reproduces [Main Results 1](#main-result-1-number-of-wallets-leak-address), [2](#main-result-2-third-party-domains-receiving-addresses), and [3](#main-result-3-analytics-presence-in-wallets). It runs the network request analysis on three wallet experimental datasets and generates **Table 1** of the paper.
 
-From the `wallet-privacy-threats/analysis/` directory, run:
+From the repository root (`wallet-privacy-threats/`), run:
 
 ```bash
+cd analysis
+
 docker run --rm -it \
   -v "$(pwd):/work/analysis" \
   analysis \
@@ -365,9 +367,11 @@ It also generates a LaTeX table that reproduces **Table 1** of the paper:
 
 This example experiment reproduces [Main result 4](#main-result-4-network-traffic-patterns-reveal-wallet-addresses-linkability). It analyzes the network traffic of wallets in `cws-10k-85` and generates **CSV files** for the results in **Table 2**.
 
-From the `wallet-privacy-threats/analysis/` directory, run:
+From the repository root (`wallet-privacy-threats/`), run:
 
 ```bash
+cd analysis
+
 docker run --rm -it \
   -v "$(pwd):/work/analysis" \
   analysis \
@@ -417,7 +421,6 @@ docker run --rm -it \
   -v "$(pwd):/work/analysis" \
   analysis \
   -lc "cd web-exposure-analysis/2\)-30-dApps-behavior && python3 dapps-analysis.py && python3 generate_table4.py"
-
 ```
 
 After execution, it generates a LaTeX table reproducing **Table 4** of the paper:

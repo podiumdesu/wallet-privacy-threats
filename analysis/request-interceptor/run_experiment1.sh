@@ -15,4 +15,4 @@ python3 ./src/generate_table1.py
 
 echo "Done."
 echo "Reproduced table:"
-echo "./reproduced_tables/table1_reproduced.tex"
+echo "./request-interceptor/reproduced_tables/table1_reproduced.tex"
