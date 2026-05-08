@@ -21,7 +21,11 @@
       }
 
       body {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        font-family:
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
           sans-serif;
         margin: 0;
         padding: 1.5rem;
@@ -36,7 +40,6 @@
         align-items: center;
         min-height: 100vh;
       }
-
 
       .page {
         width: 100%;
@@ -179,7 +182,8 @@
       }
 
       .status {
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        font-family:
+          ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
           "Liberation Mono", "Courier New", monospace;
         font-size: 0.74rem;
         color: #4b5563;
@@ -356,7 +360,8 @@
 
       .accounts {
         margin-top: 0.12rem;
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        font-family:
+          ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
           "Liberation Mono", "Courier New", monospace;
         font-size: 0.72rem;
         word-break: break-all;
@@ -466,7 +471,7 @@
         line-height: 1.45;
       }
 
-       /* ===== Page footer ===== */
+      /* ===== Page footer ===== */
 
       .page-footer {
         margin-top: auto;
@@ -474,7 +479,6 @@
         border-top: 1px solid #e5e7eb;
         text-align: center;
       }
-
 
       .footer-text {
         font-size: 0.8rem;
@@ -509,55 +513,80 @@
     </div>
 
     <div class="page-wrapper">
-    <div class="page">
-      <header class="page-header">
-        <div>
-          <h1>awesome-dApp</h1>
-          <p class="subtitle">This dApp has the same tracker embedded as the <a href="https://wallet-privacy.distriled.dnetcloud.cs.kuleuven.be/" target="_blank" >demo page</a>.</p>
+      <div class="page">
+        <header class="page-header">
+          <div>
+            <h1>awesome-dApp</h1>
+            <p class="subtitle">
+              This dApp has the same tracker embedded as the
+              <a
+                href="https://wallet-privacy.distriled.dnetcloud.cs.kuleuven.be/"
+                target="_blank"
+                >demo page</a
+              >.
+            </p>
+          </div>
+        </header>
+
+        <!-- 🔹 New instruction for people coming from wallet-privacy -->
+        <div class="instruction-box">
+          <div class="instruction-title">
+            If you arrived here from the demo…
+          </div>
+          <p class="instruction-text">
+            Scan the available wallets. Select one of the wallets highlighted in
+            <b>red</b> on the demo page, then click <b>Connect wallet</b>.
+          </p>
+          <div
+            style="
+              margin-top: 0.45rem;
+              padding: 0.45rem 0.6rem;
+              border-radius: 8px;
+              background: #ffffff;
+              border: 1px solid #c7d2fe;
+              font-size: 0.78rem;
+              color: #606c7c;
+            "
+          >
+            <b>Note:</b> If you installed a wallet after opening this page,
+            refresh the page and click <b>Scan</b> again.
+          </div>
         </div>
-      </header>
-
-      <!-- 🔹 New instruction for people coming from wallet-privacy -->
-      <div class="instruction-box">
-        <div class="instruction-title">If you arrived here from the demo…</div>
-        <p class="instruction-text">
-          Scan the available wallets. Select one of the wallets highlighted in <b>red</b> on the demo page, then click <b>Connect wallet</b>.
-        </p>
-      </div>
-
-      <div class="layout">
-        <!-- Left: dApp controls -->
-        <section>
-
-          <div >
+        <div class="layout">
+          <!-- Left: dApp controls -->
+          <section>
             <div>
-              <div class="row">
-                <span class="label">Detected wallet:</span>
-                <select id="providerSelect"></select>
-                <button id="scanBtn" class="btn-secondary">Scan</button>
-              </div>
-
-              <div class="row" style="flex-direction: column; align-items: flex-start;">
-                <div class="action-box">
-                  <div class="action-box-label">Main steps</div>
-                  <div class="action-buttons">
-                    <button id="connectBtn" class="btn-primary">
-                      <span class="step-badge">1</span>
-                      <span>Connect wallet</span>
-                    </button>
-                    <button id="checkBtn" class="btn-secondary">
-                      <span class="step-badge">2</span>
-                      <span>Show visible address</span>
-                    </button>
-                  </div>
-                </div>
-
+              <div>
                 <div class="row">
-                  <span class="label">Status:</span>
-                  <span id="status" class="status">idle</span>
+                  <span class="label">Detected wallet:</span>
+                  <select id="providerSelect"></select>
+                  <button id="scanBtn" class="btn-secondary">Scan</button>
                 </div>
 
-                <!-- <div class="row" style="flex-direction: column; align-items: flex-start;">
+                <div
+                  class="row"
+                  style="flex-direction: column; align-items: flex-start"
+                >
+                  <div class="action-box">
+                    <div class="action-box-label">Main steps</div>
+                    <div class="action-buttons">
+                      <button id="connectBtn" class="btn-primary">
+                        <span class="step-badge">1</span>
+                        <span>Connect wallet</span>
+                      </button>
+                      <button id="checkBtn" class="btn-secondary">
+                        <span class="step-badge">2</span>
+                        <span>Show visible address</span>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <span class="label">Status:</span>
+                    <span id="status" class="status">idle</span>
+                  </div>
+
+                  <!-- <div class="row" style="flex-direction: column; align-items: flex-start;">
                   <span class="label">Address this page can see from this wallet:</span>
                   <code id="currentAccounts">[]</code>
                   <span class="pill-secondary">
@@ -566,67 +595,70 @@
                   </span>
                 </div> -->
 
-                <div class="revoke-box">
-                  <div class="revoke-title">
-                    Optional: disconnect this page from your wallet
-                  </div>
-                  <p class="revoke-text">
-                    This button asks your wallet to <b>disconnect this page</b>. If your wallet
-                    supports this feature, it removes this page’s permission to see your wallet address.
-                    After that, we check again what address this page can see.<br /><br />
-                    If nothing is visible anymore, we call the wallet
-                    <b>revocation-safe</b> in this demo. If your address is still visible, we
-                    call it <b>revocation-unsafe</b>, and you need to disconnect it
-                    manually inside your wallet app.
-                  </p>
-                  <button id="revokeBtn" class="btn-info">
-                    Disconnect wallet and test
-                  </button>
-                  <div
-                    id="revokeResult"
-                    class="revocation-badge neutral"
-                  >
-                    Revocation test not run yet
+                  <div class="revoke-box">
+                    <div class="revoke-title">
+                      Optional: disconnect this page from your wallet
+                    </div>
+                    <p class="revoke-text">
+                      This button asks your wallet to
+                      <b>disconnect this page</b>. If your wallet supports this
+                      feature, it removes this page’s permission to see your
+                      wallet address. After that, we check again what address
+                      this page can see.<br /><br />
+                      If nothing is visible anymore, we call the wallet
+                      <b>revocation-safe</b> in this demo. If your address is
+                      still visible, we call it <b>revocation-unsafe</b>, and
+                      you need to disconnect it manually inside your wallet app.
+                    </p>
+                    <button id="revokeBtn" class="btn-info">
+                      Disconnect wallet and test
+                    </button>
+                    <div id="revokeResult" class="revocation-badge neutral">
+                      Revocation test not run yet
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <!-- Right: tracker log -->
-        <section>
-          <h2>Tracker view on this page</h2>
-          <p class="section-caption">
-            This shows what the embedded tracker script on this page can see. 
-          </p>
-          <div class="card">
-            <div class="card-inner">
-              <div class="row">
-                <span class="label">Local tracker log:</span>
+          <!-- Right: tracker log -->
+          <section>
+            <h2>Tracker view on this page</h2>
+            <p class="section-caption">
+              This shows what the embedded tracker script on this page can see.
+            </p>
+            <div class="card">
+              <div class="card-inner">
+                <div class="row">
+                  <span class="label">Local tracker log:</span>
+                </div>
+                <div id="localLog" class="small">
+                  <div class="entry">(no tracker probe yet)</div>
+                </div>
+                <p class="log-caption">
+                  The tracker probes automatically on load and periodically
+                  every few seconds, plus after each wallet action.
+                </p>
               </div>
-              <div id="localLog" class="small">
-                <div class="entry">(no tracker probe yet)</div>
-              </div>
-              <p class="log-caption">
-                The tracker probes automatically on load and periodically every
-                few seconds, plus after each wallet action.
-              </p>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
       </div>
-
-    </div>
-                <!-- Contact footer -->
+      <!-- Contact footer -->
       <footer class="page-footer">
         <p class="footer-text">
-          For questions, requests for a preprint of the paper, or further technical details: contact
+          For questions, requests for a preprint of the paper, or further
+          technical details: contact
           <a href="mailto:weihong.wang@kuleuven.be">
             weihong.wang@kuleuven.be
           </a>
           ·
-          <a href="https://distrinet.cs.kuleuven.be" target="_blank" rel="noopener">
+          <a
+            href="https://distrinet.cs.kuleuven.be"
+            target="_blank"
+            rel="noopener"
+          >
             DistriNet, KU Leuven
           </a>
         </p>
@@ -675,17 +707,20 @@
 
           const key = r.wallet || "unknown-wallet";
           const snapshotVal = JSON.stringify(
-            r.error ? { error: r.error } : { accounts: r.accounts || [] }
+            r.error ? { error: r.error } : { accounts: r.accounts || [] },
           );
           newSnapshot[key] = snapshotVal;
 
           const previously =
-            lastTrackerSnapshot && Object.prototype.hasOwnProperty.call(lastTrackerSnapshot, key)
+            lastTrackerSnapshot &&
+            Object.prototype.hasOwnProperty.call(lastTrackerSnapshot, key)
               ? lastTrackerSnapshot[key]
               : null;
 
           const changed =
-            hasTrackerRenderedOnce && previously !== null && previously !== snapshotVal;
+            hasTrackerRenderedOnce &&
+            previously !== null &&
+            previously !== snapshotVal;
 
           if (changed) {
             div.classList.add("changed");
@@ -696,8 +731,8 @@
             r.error
               ? "error"
               : Array.isArray(r.accounts) && r.accounts.length
-              ? `${r.accounts.length} address(es)`
-              : "no address visible"
+                ? `${r.accounts.length} address(es)`
+                : "no address visible"
           }`;
           const accounts = document.createElement("div");
           accounts.className = "accounts";
@@ -713,7 +748,6 @@
         lastTrackerSnapshot = newSnapshot;
         hasTrackerRenderedOnce = true;
       }
-
 
       // -------- DApp UI logic (connect / revoke / check) --------
 
@@ -736,7 +770,7 @@
         }
 
         providers.forEach((p, idx) =>
-          sel.appendChild(new Option(p.name, String(idx)))
+          sel.appendChild(new Option(p.name, String(idx))),
         );
         sel.value = "0";
         selected = providers[0].provider;
@@ -802,7 +836,7 @@
           try {
             setText(
               "status",
-              "no visible address yet, asking your wallet to connect for this test…"
+              "no visible address yet, asking your wallet to connect for this test…",
             );
             const reqAccs = await selected.request({
               method: "eth_requestAccounts",
@@ -816,8 +850,7 @@
             if (revokeResultEl) {
               revokeResultEl.textContent =
                 "Could not run revocation-safety test: wallet connection was not granted.";
-              revokeResultEl.className =
-                "revocation-badge unsupported";
+              revokeResultEl.className = "revocation-badge unsupported";
             }
             return;
           }
@@ -879,10 +912,8 @@
 
         if (revokeResultEl) {
           revokeResultEl.textContent = classificationText;
-          revokeResultEl.className =
-            "revocation-badge " + classificationClass;
+          revokeResultEl.className = "revocation-badge " + classificationClass;
         }
-
       });
 
       $("checkBtn").addEventListener("click", async () => {
@@ -904,7 +935,6 @@
           setText("status", "error while reading visible address");
         }
       });
-
     </script>
   </body>
 </html>

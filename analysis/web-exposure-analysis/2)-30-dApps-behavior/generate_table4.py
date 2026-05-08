@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import csv
 import sys
+import os
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -234,6 +235,8 @@ def write_latex_table(path: Path, summary: Dict[str, object]) -> None:
 
 def main() -> None:
     script_dir = Path(__file__).resolve().parent
+    analysis_root = script_dir.parents[1]
+
     input_path = script_dir / INPUT_FILE
     output_dir = script_dir / OUTPUT_DIR
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -241,14 +244,17 @@ def main() -> None:
     rows = read_csv(input_path)
     summary = compute_summary(rows)
 
-    # write_summary_csv(output_dir / "table4_summary.csv", summary)
-    # write_summary_md(output_dir / "table4_summary.md", summary)
-    write_latex_table(output_dir / "table4_reproduced.tex", summary)
+    output_file = output_dir / "table4_reproduced.tex"
+    write_latex_table(output_file, summary)
+
+    try:
+        display_path = "./" + str(output_file.relative_to(analysis_root))
+        display_path = "./" + os.path.normpath(display_path)
+    except ValueError:
+        display_path = "./" + str(output_file)
 
     print("Generated:")
-    # print(f"  {output_dir / 'table4_summary.csv'}")
-    # print(f"  {output_dir / 'table4_summary.md'}")
-    print(f"  {output_dir / 'table4_reproduced.tex'}")
+    print(f"  {display_path}")
 
 
 if __name__ == "__main__":

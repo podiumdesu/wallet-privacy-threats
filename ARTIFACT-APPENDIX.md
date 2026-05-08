@@ -22,7 +22,7 @@ Specifically, the artifact includes:
 
 - analysis scripts and experimental datasets
 - measurement frameworks used to collect the experimental datasets
-- wallet extension source-code datasets used by the measurement frameworks (archived on KU Leuven RDR)
+- wallet extension source-code datasets used by the measurement frameworks (archived on [KU Leuven RDR](https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/FUNFIS))
 
 The artifact focuses on **reproducing the analysis results** presented in the paper. The experimental datasets are provided, so reviewers can run the analysis scripts directly. The analysis environment is provided through **Docker** to ensure reproducibility.
 
@@ -74,13 +74,13 @@ However, the artifact is lightweight and should run on most modern systems.
 
    - Docker (tested with version 29.2.1). Docker installation instructions are available at: https://docs.docker.com/get-docker/
 
-​ All required system packages and dependencies for the analysis are installed automatically when building the Docker image.
+   All required system packages and dependencies for the analysis are installed automatically when building the Docker image.
 
-​ The measurement frameworks additionally require a Chromium-based browser (e.g., Google Chrome).
+   The measurement frameworks additionally require a Chromium-based browser (e.g., Google Chrome).
 
 3. Artifact packaging
 
-​ The analysis environment is packaged using Docker: version 29.2.1, build a5c7197
+   The analysis environment is packaged using Docker: version 29.2.1, build a5c7197
 
 4. Programming language compiler
    - Python 3.11 (analysis scripts)
@@ -100,9 +100,9 @@ However, the artifact is lightweight and should run on most modern systems.
 
    For the measurement frameworks:
    - For the network request interception framework, one wallet extension (MetaMask) is already included in the repository for the automated example.
-   * For the web exposure framework, evaluators can install any wallet extension directly from the Chrome Web Store and interact with the provided demonstration webpage.
+   - For the web exposure framework, evaluators can install any wallet extension directly from the Chrome Web Store and interact with the provided demonstration webpage.
 
-   * The entire wallet extension source code datasets are archived on KU Leuven RDR: https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/FUNFIS
+   - The entire wallet extension source code datasets are archived on KU Leuven RDR: https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/FUNFIS
 
 ### Estimated Time and Storage Consumption
 
@@ -150,7 +150,7 @@ The primary artifact entry point is the GitHub repository:
 
 https://github.com/podiumdesu/wallet-privacy-threats
 
-This repository contains the analysis scripts, experimental datasets, and measurement frameworks used in the paper. Additional resources, such as the wallet extension source-code datasets archived on KU Leuven RDR and the demonstration websites (whose source code is included in the repository), are linked from the. GitHub repository.
+This repository contains the analysis scripts, experimental datasets, and measurement frameworks used in the paper. Additional resources, such as the wallet extension source-code datasets archived on KU Leuven RDR and the demonstration websites (whose source code is included in the repository), are linked from the GitHub repository.
 
 The artifact is released under the MIT License (see `LICENSE` file).
 
@@ -162,6 +162,14 @@ The artifact is released under the MIT License (see `LICENSE` file).
 git clone https://github.com/podiumdesu/wallet-privacy-threats.git
 cd wallet-privacy-threats
 ```
+
+> **Windows note**  
+> This repository includes a `.gitattributes` file to enforce LF line endings for shell scripts.  
+> If Docker commands still fail with `env: 'bash\r': No such file or directory`, re-clone with:
+>
+> ```bash
+> git -c core.autocrlf=false clone https://github.com/podiumdesu/wallet-privacy-threats.git
+> ```
 
 After cloning the repository, the directory structure will look as follows:
 
@@ -184,7 +192,9 @@ The `framework/` directory contains the measurement frameworks used to collect t
 
 #### 2. Building the Analysis environment
 
-```
+From the repository root (`wallet-privacy-threats/`), run:
+
+```bash
 cd analysis
 docker build -t analysis .
 ```
@@ -203,9 +213,30 @@ With this setup, you will be able to run [Experiment 1](#experiment-1-cross-data
 
 #### 3. Preparing for the Web Exposure Demo
 
-First, install MetaMask in your browser. E.g., for Chrome/Brave, use https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
+First, install the example wallet extensions in your browser. To help reproduce the behaviors reported in the paper, we include four wallet extension source-code folders under `./datasets/cws-10k-85/`. The full `cws-10k-85` can be downloaded from [KU Leuven RDR](https://rdr.kuleuven.be/file.xhtml?fileId=337311&version=1.0).
 
-Then, set up MetaMask by creating a wallet address using the seed phrase "eye glide secret fence bread rotate viable anger child leader select razor".
+The following wallets can be used for Experiment 4 and 5:
+
+| Wallet   | Version |                          Path ID |
+| -------- | ------- | -------------------------------: |
+| MetaMask | 13.10.4 | nkbihfbeogaeaoehlefnkodbefgpgknn |
+| Phantom  | 25.21.0 | bfnaelmomeimhlpmgjnjophhpkkoljpa |
+| Ronin    | 2.10.0  | fnjhmkhhmkbjkkabndcnnogagogbneec |
+| Bitget   | 2.16.14 | jiidiaalihmmhddjgbnbgdfflelocpak |
+
+You can load these extensions into your browser as unpacked extensions as follows:
+
+1. Open `chrome://extensions` in the browser.
+2. Enable **Developer mode** in the top-right corner.
+3. Click **Load unpacked**.
+4. Select the folder of the wallet extension under `./datasets/cws-10k-85`.
+5. The wallet extension should now appear in the browser.
+
+<!-- First, install MetaMask in your browser. E.g., for Chrome/Brave, use https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn -->
+
+Then, set up these wallets by creating a wallet address using the seed phrase:
+
+> `eye glide secret fence bread rotate viable anger child leader select razor`
 
 With this setup, you will be able to run [Experiment 4](#experiment-4-wallet-fingerprinting-and-stale-address-exposure) and [Experiment 5](#experiment-5-wallet-address-exposure-in-cross-origin-contexts)
 
@@ -218,6 +249,8 @@ With this setup, you will be able to run [Experiment 4](#experiment-4-wallet-fin
 
 The measurement framework requires Node.js and npm.
 
+From the repository root (`wallet-privacy-threats/`), run:
+
 ```bash
 cd framework/request-interceptor/
 npm install
@@ -228,6 +261,8 @@ npm install
 **Analysis**
 
 After building the Docker image, run the following command to verify that the analysis environment is configured correctly.
+
+From the repository root (`wallet-privacy-threats/`), run:
 
 ```bash
 cd analysis
@@ -248,9 +283,12 @@ If the environment is correctly configured, the command will complete successful
 ```
 
 **Web exposure framework**
+
 The web exposure behaviors are exercised through Experiments 4 and 5 using the demo workflow described below.
 
 **Network request framework** (Optional)
+
+From the repository root (`wallet-privacy-threats/`), run:
 
 ```bash
 cd framework/request-interceptor/
@@ -267,11 +305,11 @@ Our paper claims that many browser-extension wallets expose wallet addresses in 
 
 #### Main Result 2: Third-party domains receiving addresses
 
-Our paper claims that wallet-specific backend domains dominate the set of third-party domains receiving wallet addresses, resulting in a highly fragmented ecosystem. This claim is reproduced by [Experiment 1](#experiment-1-cross-dataset-comparison-of-address-exposure-and-third-party-connectivity) and corresponds to the domain-level results reported in **Table 1**.
+Our paper claims that wallet-specific backend domains dominate the set of third-party domains receiving wallet addresses, resulting in a highly fragmented ecosystem. This claim is reproduced by [Experiment 1](#experiment-1-cross-dataset-comparison-of-address-exposure-and-third-party-connectivity) and corresponds to the **"Third-Party Domains Receiving Addresses"** and **"Third-Party Domains Receiving Addresses (most contacted)"** sections of **Table 1**.
 
 #### Main Result 3: Analytics presence in wallets
 
-Our paper claims that analytics services are increasingly embedded in wallet extensions. This claim is reproduced by [Experiment 1](#experiment-1-cross-dataset-comparison-of-address-exposure-and-third-party-connectivity) and corresponds to the **"Analytics Presence in Wallets"** in **Table 1**.
+Our paper claims that analytics services are increasingly embedded in wallet extensions. This claim is reproduced by [Experiment 1](#experiment-1-cross-dataset-comparison-of-address-exposure-and-third-party-connectivity) and corresponds to the **"Analytics / Telemetry Presence in Wallets"** in **Table 1**.
 
 #### Main Result 4: Network traffic patterns reveal wallet addresses' linkability
 
@@ -299,9 +337,11 @@ Our paper claims that wallets injecting their provider into cross-origin iframes
 
 This experiment reproduces [Main Results 1](#main-result-1-number-of-wallets-leak-address), [2](#main-result-2-third-party-domains-receiving-addresses), and [3](#main-result-3-analytics-presence-in-wallets). It runs the network request analysis on three wallet experimental datasets and generates **Table 1** of the paper.
 
-**From the `analysis/` directory**, run:
+From the repository root (`wallet-privacy-threats/`), run:
 
 ```bash
+cd analysis
+
 docker run --rm -it \
   -v "$(pwd):/work/analysis" \
   analysis \
@@ -327,9 +367,11 @@ It also generates a LaTeX table that reproduces **Table 1** of the paper:
 
 This example experiment reproduces [Main result 4](#main-result-4-network-traffic-patterns-reveal-wallet-addresses-linkability). It analyzes the network traffic of wallets in `cws-10k-85` and generates **CSV files** for the results in **Table 2**.
 
-**From the `analysis/` directory**, run:
+From the repository root (`wallet-privacy-threats/`), run:
 
 ```bash
+cd analysis
+
 docker run --rm -it \
   -v "$(pwd):/work/analysis" \
   analysis \
@@ -342,18 +384,28 @@ After execution, the analysis results will be written to:
 ./request-interceptor/cws-10k-85/analysis_result/
 ```
 
-The following output file reproduces the results in Table 2:
+The following output files are used to reproduce the results in Table 2:
 
 ```bash
-./analysis_result/request_pattern/wallet_leaks_per_extension.csv
+./request-interceptor/cws-10k-85/analysis_result/request_pattern/wallet_leaks_per_extension.csv
+./request-interceptor/cws-10k-85/analysis_result/tracker_presence/analytics_summary.csv
+./request-interceptor/cws-10k-85/analysis_result/tracker_presence/wallet_leak_types.csv
 ```
 
-Check the CSV file for:
+> **Note**
+> Although the output file uses the `.csv` extension, its fields are separated with semicolons (`;`) rather than commas. This formatting is used by the analysis scripts when exporting the table and should be taken into account when opening the file in spreadsheet software or parsing it programmatically.
 
-1.  Co-occurrence signal ("multi_wallet_leak_hits" > 0)
-2.  Co-occurrence domains ("multi_wallet_domains")
-3.  Timing correlation signal ("multi_window_hits" > 0)
-4.  Timing correlation domains ("multi_window_domains")
+The following table shows how the columns in Table 2 map to the generated output files:
+
+| Table 2 column          | Output file                                      | How to interpret it                                               |
+| ----------------------- | ------------------------------------------------ | ----------------------------------------------------------------- |
+| Analytics embedded      | `tracker_presence/analytics_summary.csv`         | Check whether `analytics_hits > 0`                                |
+| # Addr. Recipients      | `request_pattern/wallet_leaks_per_extension.csv` | See `num_third_party_domains`                                     |
+| Addr. to Analytics      | `tracker_presence/wallet_leak_types.csv`         | Check whether `wallet_leak_analytics + wallet_leak_telemetry > 0` |
+| Co-occurrence           | `request_pattern/wallet_leaks_per_extension.csv` | Check whether `multi_wallet_leak_hits > 0`                        |
+| Co-occurrence Dom.      | `request_pattern/wallet_leaks_per_extension.csv` | See `multi_wallet_domains`                                        |
+| Timing Correlation      | `request_pattern/wallet_leaks_per_extension.csv` | Check whether `multi_window_hits > 0`                             |
+| Timing Correlation Dom. | `request_pattern/wallet_leaks_per_extension.csv` | See `multi_window_domains`                                        |
 
 #### Experiment 3: dApp behaviors
 
@@ -362,14 +414,13 @@ Check the CSV file for:
 
 This example experiment reproduces [Main result 5](#main-result-5-dapp-behaviors). It analyzes the behavior of 30 popular Ethereum dApps and generates **Table 4** of the paper.
 
-**From the `analysis/` directory**, run:
+From the `wallet-privacy-threats/analysis/` directory, run:
 
 ```bash
 docker run --rm -it \
   -v "$(pwd):/work/analysis" \
   analysis \
   -lc "cd web-exposure-analysis/2\)-30-dApps-behavior && python3 dapps-analysis.py && python3 generate_table4.py"
-
 ```
 
 After execution, it generates a LaTeX table reproducing **Table 4** of the paper:
@@ -392,11 +443,22 @@ This experiment reproduces [Main result 6](#main-result-6-wallet-fingerprinting-
 
 3. Click "1. Connect wallet" to connect the wallet to the website.
 
-4. Click "Disconnect wallet and test."
+4. Open the browser’s developer console (F12).
 
-The result will be shown on the website.
+5. Click "Disconnect wallet and test."
 
-If the wallet is revocation-unsafe, as shown on the website, then it corresponds to the entries marked red in the "revoke?" column of Table 3.
+The result shown on the website indicates whether the wallet is revocation-unsafe. This corresponds to the **"Revocation unsafe"** column in Table 3.
+
+The value corresponding to the **“Error returned?”** column in Table 3 can be observed in the browser’s developer console. If the wallet returns an error during the revocation check, that error will be printed there.
+
+Example outcomes for the included wallet extensions are shown below:
+
+| Wallet   | Version |                          Path ID | Revocation-unsafe (Exp. 4) | Error returned? (Exp. 4) |
+| -------- | ------- | -------------------------------: | -------------------------- | ------------------------ |
+| MetaMask | 13.10.4 | nkbihfbeogaeaoehlefnkodbefgpgknn | No                         | -                        |
+| Phantom  | 25.21.0 | bfnaelmomeimhlpmgjnjophhpkkoljpa | Yes                        | Not supported            |
+| Ronin    | 2.10.0  | fnjhmkhhmkbjkkabndcnnogagogbneec | Yes                        | Not supported            |
+| Bitget   | 2.16.14 | jiidiaalihmmhddjgbnbgdfflelocpak | Yes                        | Not supported            |
 
 #### Experiment 5: Wallet address exposure in cross-origin contexts
 
@@ -408,15 +470,28 @@ This experiment reproduces [Main Result 7](#main-result-7-wallet-provider-inject
 1. Open the demo website in a browser with a wallet extension installed:
    https://wallet-privacy.distriled.dnetcloud.cs.kuleuven.be/
 
-2. Step 0 lists wallets that could be vulnerable, highlighted in red
+2. On the demo website, look at the section labeled **"Step 0"**. This section lists wallets that could be vulnerable, highlighted in red.
 
-3. Click "Open demo dApp" in Step 1.
+3. On the same demo website, in the section labeled **“Step 1”**, click **“Open demo dApp”**.
 
-4. In the newly opened dApp (https://dappx.weihongw.com/), connect one of the wallets highlighted in red in step 0.
+4. In the newly opened dApp (https://dappx.weihongw.com/), connect one of the wallets highlighted in red in the demo website’s **“Step 0”** section.
 
-5. Close the dApp, and return to the demo page.
+5. Close the dApp tab, and return to the original demo website.
 
-If the wallet is vulnerable to the attack, Step 2 will display a leaked wallet address retrieved from the iframe context. These behaviors correspond to entries marked red in the "Iframe Exposure" column reported in Table 5.
+6. On the demo website, check the section labeled **“Step 2”**. If one or more wallet addresses are displayed there for the wallet you connected in the dApp, then the wallet is vulnerable to the attack.
+
+These behaviors correspond to entries marked red in the **"Iframe Exposure"** column reported in Table 5.
+
+To observe **"Leaks When Locked"** column in Table 5, the wallet must be in a locked state. This can be done either by manually locking the wallet in its extension UI (typically under the settings) or by closing the browser completely and reopening it. If wallet addresses are still displayed in the demo website's **"Step 2"** section, then the wallet is marked as leaking when locked.
+
+Example outcomes for the included wallet extensions are shown below:
+
+| Wallet   | Version |                          Path ID | Iframe Exposure (Exp. 5) | Leaks When Locked (Exp. 5) |
+| -------- | ------- | -------------------------------: | ------------------------ | -------------------------- |
+| MetaMask | 13.10.4 | nkbihfbeogaeaoehlefnkodbefgpgknn | Yes                      | Yes                        |
+| Phantom  | 25.21.0 | bfnaelmomeimhlpmgjnjophhpkkoljpa | Yes                      | Yes                        |
+| Ronin    | 2.10.0  | fnjhmkhhmkbjkkabndcnnogagogbneec | Yes                      | No                         |
+| Bitget   | 2.16.14 | jiidiaalihmmhddjgbnbgdfflelocpak | No                       | -                          |
 
 ## Limitations
 

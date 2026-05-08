@@ -8,6 +8,15 @@ from urllib.parse import urlparse
 
 # ----------------- helpers -----------------
 
+def display_from_repo_root(path: str) -> str:
+    """
+    Format a script-relative path as a path relative to the repository root,
+    matching the paths documented in ARTIFACT-APPENDIX.md.
+    """
+    norm = os.path.normpath(path)
+    if os.path.isabs(norm):
+        return norm
+    return "./" + os.path.normpath(os.path.join("request-interceptor", norm))
 
 def load_extension_catalog(path):
     """
@@ -272,7 +281,7 @@ def main():
     print("Loaded catalog entries:", len(catalog), os.path.join(base_dir, "extensions.csv"))
 
     # CSV: per-extension wallet leak summary + domains
-    wallet_csv_path = os.path.join(out_dir, "./wallet_leaks_per_extension.csv")
+    wallet_csv_path = os.path.join(out_dir, "wallet_leaks_per_extension.csv")
     wallet_csv_fh = open(wallet_csv_path, "w", encoding="utf-8", newline="")
     wallet_writer = csv.writer(wallet_csv_fh, delimiter=";")
 
@@ -507,7 +516,7 @@ def main():
 
 
     wallet_csv_fh.close()
-    print(f"[✓] wallet leaks CSV written to {wallet_csv_path}")
+    print(f"[✓] wallet leaks CSV written to {display_from_repo_root(wallet_csv_path)}")
     print("[✓] Done.")
 
 if __name__ == "__main__":
